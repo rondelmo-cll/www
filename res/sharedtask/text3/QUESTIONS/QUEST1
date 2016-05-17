@@ -1,0 +1,214 @@
+how was the atmosphere ?
+Ratio of Tags per Word for Sentence no: 
+Word Ambiguity Ratio: 1.8
+'Lookahead Start Active Chart'
+0-[av-how, n-how, r-how, s-how, w-how], 1-[v-was], 2-[d-the], 3-[n-atmosphere], 4-[x- ?]
+
+0-[av-how, n-how, r-how, s-how, w-how], 1-[v-was], 2-[d-the], 3-[n-atmosphere], 4-[x- ?]
+
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn1),
+   cat([manner]),
+   pr(pr_int, _G19097, how, _G19099, _G19100, _G19101, [nom, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(be, active, [sn/sogg/tema_bound/[sostanza, astratto], xcomp/prop/[_G21787|_G21788]], ind, pass, 3, sing, _G20525),
+  supporto([]),
+  cat(esistenza),
+  args(
+    [
+    arg(
+     funzione(ncomp),
+     ruolo(prop),
+     sn(
+      indice(sn3),
+      cat([sostanza, astratto]),
+      pr(pro_picc, pro, _G21547, _G21548, _G21549, _G21550, nom),
+      spec(
+       def(+)
+       ),
+      args(
+        [
+        arg(
+         funzione(sogg),
+         ruolo(nil),
+         sn(
+          indice(sn4),
+          pr(vbl, vbl, _G22145, _G22146, _G22147, _G22148),
+          controllore(sn1)
+          )
+         )
+        ]
+       ),
+      mods([]),
+      adjs([])
+      )
+     ),
+    arg(
+     funzione(sogg),
+     ruolo(tema_bound),
+     sn(
+      indice(sn2),
+      cat([sostanza, astratto]),
+      n(atmosphere, _G20525, sing),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn1
+      cat:[manner]
+      pred:how
+      caso:[nom, obl]
+      tab_ref:[-ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:be
+lex_form:[sn/sogg/tema_bound/[sostanza, astratto], xcomp/prop/[_G28273|_G28274]]
+voice:active
+modo:ind
+tempo:past
+cat:esistenza
+ncomp/prop:indice:sn3
+           cat:[sostanza, astratto]
+           pred:pro
+           caso:nom
+           spec:def:+
+           sogg/nil:indice:sn4
+                    pred:vbl
+                    controllore:sn1
+                    tab_ref:[+ref, -pro, -ana, -me]
+           tab_ref:[+ref, +pro, -ana, -me]
+sogg/tema_bound:indice:sn2
+                cat:[sostanza, astratto]
+                pred:atmosphere
+                num:sing
+                pers:3
+                spec:def:+
+                tab_ref:[+ref, -pro, -ana, +class]
+aspetto:stato
+rel1:[tr(f1_q10)aftr td(f1_q10)]
+rel2:[tr(f1_q10)=tes(f1_q10)]
+definitezza:-
+ref_int:[tr(f1_q10)]
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn1, how, [-ref, def0, nil, nil, -pro, -ana, +me], nil, nil, nil, [manner], focus/_G30878)/115
+ ref_ex(sn2, atmosphere, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [sostanza, astratto], sogg/tema_bound)/119
+ ref_ex(sn3, pro, [+ref, +def, nil, nil, +pro, -ana, -me], nil, nil, nil, [sostanza, astratto], ncomp/prop)/145
+
+
+
+
+CLAUSE IDENTIFIER:               1-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(f1_t31), tr(f1_t31))
+DISCOURSE FOCUS:                 tes(f1_q10)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, expected, id3)
+sr(sogg-tema_bound, be, atmosphere)
+sr(ncomp-prop, be, pro)
+
+
+'######################  LOGICAL FORM ###############'
+wff(be,
+    < definito : sn2 :
+        wff(isa,
+            sn2,
+            atmosphere) >>,
+    wff(pro,
+        wff(focus,
+            < definito : sn1 :
+                wff(isa,
+                    sn1,
+                    how) >>),
+        < definito : sn3 :
+            wff(and,
+                wff(and,
+                    wff(has,
+                        wff(focus,
+                            < definito : sn1 :
+                                wff(isa,
+                                    sn1,
+                                    how) >>)),
+                    wff(isa,
+                        sn3,
+                        pro)),
+                []) >>),
+    < state : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                st),
+            wff(time,
+                f1,
+                < indefinito : t1 :
+                    wff(and,
+                        wff(isa,
+                            t1,
+                            tloc),
+                        wff(past,
+                            t1)) >>)) >>)
+
+q_loc(infon1, id1, [arg:main_tloc, arg:tr(f1_q10)])
+q_loc(infon2, id2, [arg:main_sloc, arg:how])
+q_ind(infon3, id3)
+q_fact(infon4, pro, [nil:id3], 1, id1, id2)
+q_fact(infon5, atmosphere, [ind:id3], 1, id1, id2)
+q_fact(infon6, how, [ind:id3], 1, id1, id2)
+q_fact(infon7, of, [arg:id3, specif:id3], 1, univ, univ)
+q_fact(infon8, inst_of, [ind:id3, class:substance], 1, univ, univ)
+q_fact(infon9, isa, [ind:id3, class:atmosphere], 1, id1, id2)
+q_fact(infon11, focus, [arg:id2], 1, id1, id2)
+q_fact(infon12, isa, [arg:id2, arg:how], 1, id1, id2)
+q_fact(infon13, focus, [arg:id2], 1, id1, id2)
+q_fact(infon15, has, [arg:id2], 1, id1, id2)
+q_fact(infon16, isa, [arg:id4, arg:pro], 1, id1, id2)
+q_fact(infon17, pro, [arg:id2, prop:id4], 1, id1, id2)
+q_fact(id5, be, [prop:infon17], 1, tes(f1_q10), id2)
+q_fact(infon18, isa, [arg:id5, arg:st], 1, tes(f1_q10), id2)
+q_fact(infon19, isa, [arg:id6, arg:tloc], 1, tes(f1_q10), id2)
+q_fact(infon20, past, [arg:id6], 1, tes(f1_q10), id2)
+q_fact(infon21, time, [arg:id5, arg:id6], 1, tes(f1_q10), id2)
+q_fact(infon27, perf, [arg:id7, ask:id5], 1, id1, id2)
+
+during(tes(f1_t35), tes(f1_t34))
+includes(tr(f1_q10), id1)
+
+
+###############################################################
+[how, was, the, atmosphere, ?]
+the, atmosphere, was, friendly, and, warm
+

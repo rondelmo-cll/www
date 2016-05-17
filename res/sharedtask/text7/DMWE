@@ -1,0 +1,263 @@
+entity(set,id62,8,facts([
+card(infon259, id62, 5),
+fact(infon260, power, [nil:id62], 1, id61, id19),
+fact(infon261, maximum, [ind:id62], 1, id61, id19),
+fact(infon262, of, [arg:id62, specif:id62], 1, univ, univ),
+fact(infon263, wind_turbine, [ind:id62], 1, id61, id19),
+fact(infon264, inst_of, [ind:id62, class:thing], 1, univ, univ),
+fact(infon265, isa, [ind:id62, class:[wind, turbine]], 1, id61, id19),
+fact(infon270, of, [arg:id64, specif:id62], 1, univ, univ),
+fact(infon277, power, [nil:id62, arg:id62], 1, id61, id19)])).
+entity(set,id8,1,facts([
+card(infon27, id8, 5),
+fact(infon28, inst_of, [ind:id8, class:legal], 1, univ, univ),
+fact(infon29, isa, [ind:id8, class:service], 1, id1, id2)])).
+entity(set,id77,1,facts([
+card(infon324, id77, 5),
+fact(infon325, vbl, [ind:id77], 1, id68, id19),
+fact(infon326, inst_of, [ind:id77, class:thing], 1, univ, univ),
+fact(infon327, isa, [ind:id77, class:turbine], 1, id68, id19)])).
+entity(set,id74,1,facts([
+card(infon312, id74, nil),
+fact(infon313, inst_of, [ind:id74, class:quant], 1, univ, univ),
+fact(infon314, isa, [ind:id74, class:one], 1, id68, id19)])).
+entity(set,id6,1,facts([
+card(infon17, id6, 5),
+fact(infon22, of, [arg:id6, specif:id7], 1, univ, univ),
+fact(infon23, of, [arg:id6, specif:id7], 1, univ, univ),
+fact(infon24, inst_of, [ind:id6, class:legal], 1, univ, univ),
+fact(infon25, isa, [ind:id6, class:[rural, area]], 1, id1, id2)])).
+entity(set,id56,1,facts([
+card(infon227, id56, nil),
+fact(infon228, inst_of, [ind:id56, class:quant], 1, univ, univ),
+fact(infon229, isa, [ind:id56, class:thirty], 1, id45, id19)])).
+entity(set,id55,1,facts([
+card(infon223, id55, 5),
+in(infon254, id55, nodo(n67)),
+fact(*, with, [arg:id58, arg:id55], 1, tes(f1_t73), id19),
+fact(infon224, inst_of, [ind:id55, class:attivita], 1, univ, univ),
+fact(infon225, isa, [ind:id55, class:incentive], 1, id45, id19),
+fact(infon240, isa, [arg:id55, arg:incentive], 1, tes(f1_t73), id19),
+fact(infon241, tax, [arg:id55], 1, tes(f1_t73), id19)])).
+entity(set,id51,1,facts([
+card(infon209, id51, nil),
+fact(infon210, inst_of, [ind:id51, class:tempo], 1, univ, univ),
+fact(infon211, isa, [ind:id51, class:year], 1, id45, id19)])).
+entity(set,id5,1,facts([
+card(infon13, id5, 5),
+fact(infon14, isa, [ind:id5, class:windmill], 1, id1, id2),
+fact(infon15, inst_of, [ind:id5, class:thing], 1, univ, univ)])).
+entity(set,id32,1,facts([
+card(infon119, id32, nil),
+fact(infon120, inst_of, [ind:id32, class:valutativo], 1, univ, univ),
+fact(infon121, isa, [ind:id32, class:early], 1, id1, id19),
+fact(infon156, early, [arg:id32], 1, id1, id19),
+fact(infon157, in, [arg:id31, locativo:id32], 1, id1, id19)])).
+entity(set,id28,1,facts([
+card(infon105, id28, 5),
+in(infon111, id28, id30),
+in(infon175, id28, id35),
+fact(*, spread, [agent:id24, theme_aff:id26, loc_direct:id28], 1, tes(sn157_t72), id19),
+fact(infon112, inst_of, [ind:id28, class:thing], 1, univ, univ),
+fact(infon113, isa, [ind:id28, class:farm], 1, id1, id19)])).
+entity(set,id10,1,facts([
+card(infon35, id10, 5),
+in(infon71, id10, id15),
+fact(*, has, [nil:id10], 1, id1, id2),
+fact(*, underway, [nil:id10, arg:id16], 1, id1, id2),
+fact(infon36, application, [ind:id10], 1, id1, id2),
+fact(infon37, inst_of, [ind:id10, class:abstract_state], 1, univ, univ),
+fact(infon38, isa, [ind:id10, class:application], 1, id1, id2)])).
+entity(set,id54,0,facts([
+card(infon216, id54, 2)])).
+entity(set,id30,0,facts([
+card(infon108, id30, 2)])).
+entity(ind,id72,2,facts([
+fact(infon306, inst_of, [ind:id72, class:informa], 1, univ, univ),
+fact(infon307, isa, [ind:id72, class:mw], 1, id68, id19),
+fact(infon339, up_to, [arg:id78, loc_direct:id72], 1, tes(sn62_t75), id19)])).
+entity(ind,id13,2,facts([
+fact(infon126, of, [arg:id13, specif:id33], 1, univ, univ),
+fact(infon130, isa, [arg:id13, arg:energy], 1, id1, id19),
+fact(infon131, wind, [arg:id13], 1, id1, id19),
+fact(infon133, in, [arg:id13, locativo:id20], 1, id1, id19),
+fact(infon134, has, [tema:id13], 1, id1, id19),
+fact(infon49, inst_of, [ind:id13, class:abstract_state], 1, univ, univ),
+fact(infon50, inst_of, [ind:id13, class:energy], 1, univ, univ),
+fact(infon51, isa, [ind:id13, class:energy], 1, univ, univ),
+fact(infon52, isa, [ind:id13, class:wind_energy], 1, univ, univ),
+fact(infon55, of, [arg:id14, specif:id13], 1, univ, univ)])).
+entity(ind,id9,1,facts([
+in(infon33, id9, id3),
+fact(*, 'Modern', [ind:id9], 1, id1, id2),
+fact(*, inst_of, [ind:id9, class:legal], 1, univ, univ),
+fact(*, isa, [ind:id9, class:development], 1, id1, id2),
+fact(*, of, [arg:id9, specif:id3], 1, univ, univ),
+fact(infon31, inst_of, [ind:id9, class:man], 1, univ, univ),
+fact(infon32, isa, [ind:id9, class:'Modern'], 1, id1, id2)])).
+entity(ind,id69,1,facts([
+fact(id78, rate, [actor:id69], 1, tes(sn62_t75), id19),
+fact(infon296, inst_of, [ind:id69, class:plant_life], 1, univ, univ),
+fact(infon297, inst_of, [ind:id69, class:scale], 1, univ, univ),
+fact(infon298, isa, [ind:id69, class:scale], 1, univ, univ),
+fact(infon299, isa, [ind:id69, class:utility_scale], 1, univ, univ),
+fact(infon302, of, [arg:id70, specif:id69], 1, univ, univ)])).
+entity(ind,id64,1,facts([
+fact(infon270, of, [arg:id64, specif:id62], 1, univ, univ),
+fact(infon271, inst_of, [ind:id64, class:abstract_state], 1, univ, univ),
+fact(infon272, isa, [ind:id64, class:'mid-eighty/s'], 1, id61, id19),
+fact(infon283, in, [arg:id65, nil:id64], 1, tes(sn192_t74), id19)])).
+entity(ind,id50,1,facts([
+fact(infon205, thirty, [ind:id50], 1, id45, id19),
+fact(infon206, inst_of, [ind:id50, class:attivita], 1, univ, univ),
+fact(infon207, isa, [ind:id50, class:past], 1, id45, id19),
+fact(infon237, over, [arg:id58, nil:id50], 1, tes(f1_t73), id19)])).
+entity(ind,id48,1,facts([
+fact(infon197, inst_of, [ind:id48, class:institution], 1, univ, univ),
+fact(infon198, inst_of, [ind:id48, class:government], 1, univ, univ),
+fact(infon199, isa, [ind:id48, class:government], 1, univ, univ),
+fact(infon200, isa, [ind:id48, class:federal_government], 1, univ, univ),
+fact(infon203, of, [arg:id49, specif:id48], 1, univ, univ),
+fact(infon213, of, [arg:id52, specif:id48], 1, univ, univ)])).
+entity(ind,id23,1,facts([
+fact(infon163, isa, [arg:id23, arg:up], 1, tes(f1_t72), id19),
+fact(infon164, in, [arg:id43, locativo:id23], 1, tes(f1_t72), id19),
+fact(infon88, inst_of, [ind:id23, class:place], 1, univ, univ),
+fact(infon89, isa, [ind:id23, class:up], 1, id1, id19)])).
+entity(ind,id21,1,facts([
+in(infon83, id21, id14),
+fact(*, isa, [ind:id21, class:wind], 1, univ, univ),
+fact(*, of, [arg:id21, specif:id13], 1, univ, univ),
+fact(infon81, inst_of, [ind:id21, class:thing], 1, univ, univ),
+fact(infon82, isa, [ind:id21, class:wind], 1, id1, id19)])).
+entity(ind,id68,0,facts([
+fact(infon294, main_tloc, 2006, 1, 2006, _G26187)])).
+entity(ind,id61,0,facts([
+fact(infon257, main_tloc, tes(f1_t73), 1, tes(f1_t73), _G26334)])).
+entity(ind,id53,0,facts([
+in(infon217, id53, id54),
+fact(infon218, name, [incentive, id53], 1, univ, univ)])).
+entity(ind,id45,0,facts([
+fact(infon189, main_tloc, past, 1, past, _G26655)])).
+entity(ind,id29,0,facts([
+in(infon109, id29, id30),
+fact(infon110, name, [town, id29], 1, univ, univ)])).
+entity(ind,id2,0,facts([
+fact(infon3, main_sloc, when, 1, univ, _G26983)])).
+entity(ind,id19,0,facts([
+fact(infon76, main_sloc, 'United_States', 1, univ, _G27139)])).
+entity(ind,id1,0,facts([
+fact(infon2, main_tloc, 1930, 1, 1930, _G27301)])).
+entity(class,id3,6,facts([
+in(infon247, id3, id57),
+in(infon70, id3, id15),
+fact(*, fluctuate, [arg:id3], 1, tes(f1_t73), id19),
+fact(*, has, [nil:id3], 1, id1, id2),
+fact(*, underway, [nil:id3, arg:id16], 1, id1, id2),
+fact(infon5, 'Modern', [ind:id3], 1, id1, id2),
+fact(infon6, of, [arg:id3, specif:id3], 1, univ, univ),
+fact(infon7, inst_of, [ind:id3, class:legal], 1, univ, univ),
+fact(infon8, isa, [ind:id3, class:development], 1, id1, id2)])).
+entity(class,id46,4,facts([
+in(infon246, id46, id57),
+fact(*, fluctuate, [arg:id46], 1, tes(f1_t73), id19),
+fact(infon191, inst_of, [ind:id46, class:attivita], 1, univ, univ),
+fact(infon192, isa, [ind:id46, class:research], 1, id45, id19)])).
+entity(class,id20,3,facts([
+fact(infon132, isa, [arg:id20, arg:'United_States'], 1, id1, id19),
+fact(infon133, in, [arg:id13, locativo:id20], 1, id1, id19),
+fact(infon78, inst_of, [ind:id20, class:institution], 1, univ, univ),
+fact(infon79, isa, [ind:id20, class:['United', 'States']], 1, id1, id19)])).
+entity(class,id7,2,facts([
+fact(infon19, inst_of, [ind:id7, class:oggetto], 1, univ, univ),
+fact(infon20, isa, [ind:id7, class:electricity], 1, univ, univ),
+fact(infon22, of, [arg:id6, specif:id7], 1, univ, univ),
+fact(infon23, of, [arg:id6, specif:id7], 1, univ, univ)])).
+entity(class,id33,2,facts([
+fact(infon123, inst_of, [ind:id33, class:istituzione], 1, univ, univ),
+fact(infon124, isa, [ind:id33, class:'United_States'], 1, univ, univ),
+fact(infon126, of, [arg:id13, specif:id33], 1, univ, univ)])).
+entity(class,id75,1,facts([
+fact(infon320, has, [actor:id76, arg:id75], 1, id68, id19),
+fact(infon321, inst_of, [ind:id75, class:tempo], 1, univ, univ),
+fact(infon322, isa, [ind:id75, class:over], 1, id68, id19),
+fact(infon337, at, [arg:id78, nil:id75], 1, tes(sn62_t75), id19)])).
+entity(class,id73,1,facts([
+fact(infon309, inst_of, [ind:id73, class:nquant], 1, univ, univ),
+fact(infon310, isa, [ind:id73, class:are], 1, id68, id19)])).
+entity(class,id63,1,facts([
+fact(infon267, inst_of, [ind:id63, class:place], 1, univ, univ),
+fact(infon268, isa, [ind:id63, class:maximum], 1, id61, id19)])).
+entity(class,id52,1,facts([
+in(infon219, id52, id54),
+in(infon253, id52, nodo(n67)),
+fact(*, with, [arg:id58, arg:id52], 1, tes(f1_t73), id19),
+fact(infon213, of, [arg:id52, specif:id48], 1, univ, univ),
+fact(infon220, inst_of, [ind:id52, class:abstract_state], 1, univ, univ),
+fact(infon221, isa, [ind:id52, class:interest], 1, id45, id19),
+fact(infon238, isa, [arg:id52, arg:interest], 1, tes(f1_t73), id19),
+fact(infon239, federal_government, [arg:id52], 1, tes(f1_t73), id19)])).
+entity(class,id47,1,facts([
+fact(infon194, inst_of, [ind:id47, class:legal], 1, univ, univ),
+fact(infon195, isa, [ind:id47, class:tax], 1, id45, id19)])).
+entity(class,id4,1,facts([
+fact(infon10, inst_of, [ind:id4, class:tempo], 1, univ, univ),
+fact(infon11, isa, [ind:id4, class:when], 1, id1, id2)])).
+entity(class,id31,1,facts([
+fact(id43, pick, [agent:id42, theme_aff:id31, prop:id22], 1, tes(f1_t72), id19),
+fact(infon115, early, [nil:id31], 1, univ, univ),
+fact(infon116, inst_of, [ind:id31, class:abstract_state], 1, univ, univ),
+fact(infon117, isa, [ind:id31, class:shortage], 1, id1, id19),
+fact(infon154, oil, [arg:id31], 1, id1, id19),
+fact(infon157, in, [arg:id31, locativo:id32], 1, id1, id19)])).
+entity(class,id27,1,facts([
+fact(infon102, inst_of, [ind:id27, class:substance], 1, univ, univ),
+fact(infon103, isa, [ind:id27, class:oil], 1, id1, id19)])).
+entity(class,id26,1,facts([
+fact(id36, spread, [agent:id24, theme_aff:id26, loc_direct:id35], 1, tes(sn157_t72), id19),
+fact(infon100, isa, [ind:id26, class:use], 1, id1, id19),
+fact(infon97, has, [arg:id26, tema:id12], 1, id1, id19),
+fact(infon98, of, [arg:id26, specif:id12], 1, univ, univ),
+fact(infon99, inst_of, [ind:id26, class:abstract_state], 1, univ, univ)])).
+entity(class,id25,1,facts([
+fact(infon94, inst_of, [ind:id25, class:place], 1, univ, univ),
+fact(infon95, isa, [ind:id25, class:country], 1, id1, id19)])).
+entity(class,id24,1,facts([
+fact(id36, spread, [agent:id24, theme_aff:id26, loc_direct:id35], 1, tes(sn157_t72), id19),
+fact(infon128, 'broad-scale', [arg:id24], 1, id1, id19),
+fact(infon129, electricity, [arg:id24], 1, id1, id19),
+fact(infon91, inst_of, [ind:id24, class:abstract_state], 1, univ, univ),
+fact(infon92, isa, [ind:id24, class:distribution], 1, id1, id19)])).
+entity(class,id22,1,facts([
+fact(id43, pick, [agent:id42, theme_aff:id31, prop:id22], 1, tes(f1_t72), id19),
+fact(infon158, isa, [arg:id22, arg:'United_States'], 1, id1, id19),
+fact(infon85, inst_of, [ind:id22, class:institution], 1, univ, univ),
+fact(infon86, isa, [ind:id22, class:['United', 'States']], 1, id1, id19)])).
+entity(class,id11,1,facts([
+fact(infon40, 'wind-energy', [ind:id11], 1, id1, id2),
+fact(infon45, of, [arg:id11, specif:id12], 1, univ, univ),
+fact(infon46, inst_of, [ind:id11, class:abstract_state], 1, univ, univ),
+fact(infon47, isa, [ind:id11, class:site], 1, id1, id2)])).
+entity(class,id76,0,facts([
+fact(infon317, commercial, [ind:id76], 1, id68, id19),
+fact(infon318, inst_of, [ind:id76, class:plant_life], 1, univ, univ),
+fact(infon319, isa, [ind:id76, class:'utility-scale'], 1, id68, id19),
+fact(infon320, has, [actor:id76, arg:id75], 1, id68, id19)])).
+entity(class,id71,0,facts([
+fact(infon304, inst_of, [ind:id71, class:informa], 1, univ, univ)])).
+entity(class,id70,0,facts([
+fact(infon301, isa, [ind:id70, class:utility], 1, univ, univ),
+fact(infon302, of, [arg:id70, specif:id69], 1, univ, univ)])).
+entity(class,id49,0,facts([
+fact(infon202, isa, [ind:id49, class:federal], 1, univ, univ),
+fact(infon203, of, [arg:id49, specif:id48], 1, univ, univ)])).
+entity(class,id14,0,facts([
+fact(infon54, isa, [ind:id14, class:wind], 1, univ, univ),
+fact(infon55, of, [arg:id14, specif:id13], 1, univ, univ)])).
+entity(class,id12,0,facts([
+fact(infon42, inst_of, [ind:id12, class:astratto], 1, univ, univ),
+fact(infon43, isa, [ind:id12, class:energy], 1, univ, univ),
+fact(infon45, of, [arg:id11, specif:id12], 1, univ, univ),
+fact(infon97, has, [arg:id26, tema:id12], 1, id1, id19),
+fact(infon98, of, [arg:id26, specif:id12], 1, univ, univ)])).
+

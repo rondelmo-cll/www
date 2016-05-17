@@ -1,0 +1,333 @@
+Ratio of Tags per Word for Sentence no: 5
+Word Ambiguity Ratio: 1.28571
+'Lookahead Start Active Chart'
+0-[r-he], 1-[v-began], 2-[p-to], 3-[n-read, v-read], 4-[a-his], 5-[n-book, v-book], 6-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1
+0-[r-he], 1-[v-began], 2-[p-to], 3-[v-read], 4-[a-his], 5-[n-book], 6-[x-'.']
+
+0-[r-he], 1-[v-began], 2-[p-to], 3-[v-read], 4-[a-his], 5-[n-book], 6-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+5
+he-prp
+began-vbd
+to-to
+read-vbd_vbn
+his-prp$
+book-nn
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[he-pers, began-vin, to-p, read-vt, his-poss, book-n, '.'-punto]
+
+f-[subj-[he-pers-sn], ibar-[began-vin-ibar], vcomp-[to-p-_G26556, read-vt-ibar], sn-[his-poss-sn, book-n-sn], cp-['.'-punto-cp]]
+
+5
+
+
+'Functional and Syntactic Constituency'
+
+subj-[he-pers-sn]
+ibar-[began-vin-ibar]
+vcomp-[to-p-_G26556, read-vt-ibar]
+obj-[his-poss-sn, book-n-sn]
+
+['.']
+
+
+ip(
+ indice(f1),
+ v(begin, active, [sn/sogg/actor/[any]], ind, _G35565/semp, 3, sing, mas),
+ supporto([]),
+ cat(risultato),
+ args(
+   [
+   arg(
+    funzione(sogg),
+    ruolo(actor),
+    sn(
+     indice(sn4),
+     cat([umano]),
+     pr(clitico, _G34520, he, 3, mas, sing, [nom]),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(vcomp),
+    ruolo(prop),
+    inf(
+     to,
+     infinitiva(
+      indice(finf1),
+      v(read, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], inf, _G36751/semp, _G36541, _G36542, _G36543),
+      supporto([]),
+      cat(cambiamento),
+      args(
+        [
+        arg(
+         funzione(sogg),
+         ruolo(agent),
+         sn(
+          indice(sn7),
+          cat([any]),
+          pr(pro_grande, pPro, _G40040, _G40041, _G40042, [nom]),
+          spec([]),
+          controllore(sn4)
+          )
+         ),
+        arg(
+         funzione(ogg),
+         ruolo(theme_aff),
+         sn(
+          indice(sn5),
+          cat([oggetto, informa]),
+          n(book, _G39451, sing),
+          spec(
+           def(+),
+           part([]),
+           mod([]),
+           foc([]),
+           card([]),
+           quant([])
+           ),
+          args(
+            [
+            arg(
+             funzione(sogg),
+             ruolo(poss),
+             sn(
+              indice(sn6),
+              cat([]),
+              possessivo(his, mas, sing),
+              spec(
+               def(+)
+               )
+              )
+             )
+            ]
+           ),
+          mods([]),
+          adjs([])
+          )
+         )
+        ]
+       ),
+      adjs([])
+      )
+     )
+    )
+   ]
+  ),
+ adjs([])
+ )
+indice:f1
+pred:begin
+lex_form:[sn/sogg/actor/[any]]
+voice:active
+modo:ind
+tempo:pres
+cat:risultato
+sogg/actor:indice:sn4
+           cat:[umano]
+           pred:he
+           pers:3
+           gen:mas
+           num:sing
+           caso:[nom]
+           spec:def:+
+           tab_ref:[+ref, +pro, +ana, +me]
+           antecedente:esterno
+           interpretazione:definita
+vcomp/prop:indice:finf1
+           pred:read
+           lex_form:[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]]
+           modo:inf
+           tempo:pres
+           cat:cambiamento
+           sogg/agent:indice:sn7
+                      cat:[any]
+                      pred:pPro
+                      controllore:sn4
+                      tab_ref:[+ref, +pro, +ana, -me]
+           ogg/theme_aff:indice:sn5
+                         cat:[oggetto, informa]
+                         pred:book
+                         num:sing
+                         pers:3
+                         spec:def:+
+                         sogg/poss:indice:sn6
+                                   cat:[]
+                                   pred:his
+                                   gen:mas
+                                   num:sing
+                                   spec:def:+
+                                   tab_ref:[+ref, +pro, -ana, +me]
+                                   antecedente:sn4
+                                   interpretazione:definita
+                         tab_ref:[+ref, -pro, -ana, +class]
+           aspetto:accomp
+           reltes:[tes(f1_t35)=tes(finf1_t35)]
+           definitezza:-
+           ref_int:[tr(f1_t35)]
+aspetto:achiev_tr
+rel1:[td(f1_t35)=tr(f1_t35)]
+rel2:[incluso(tr(f1_t35), tes(f1_t35))]
+definitezza:-
+ref_int:[tr(f1_t35)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn4, he, [+ref, +def, nil, nil, +pro, +ana, +me], 3, mas, sing, [umano], sogg/actor)/ -14
+ ref_ex(sn5, book, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, informa], ogg/theme_aff)/36
+
+MAIN TOPIC : ref_ex(_G830, John, _G832, 3, mas, sing, _G836, _G839/_G840)
+SECONDARY TOPIC : ref_ex(_G842, atmosphere, _G844, 3, nil, sing, [sostanza, astratto], _G849)
+POTENTIAL TOPICS : ref_ex(sn5, book, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, informa], ogg/theme_aff)
+
+stato(5, continua)
+
+rel_temp(infon70, tes(f1_t35), tes(finf1_t35), [eq])
+
+
+CLAUSE IDENTIFIER:               5-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f1_t35), tes(f1_t34))
+DISCOURSE FOCUS:                 tes(f1_t35)
+DISCOURSE RELATION:              inception
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(5, continua)
+topic(5, main, id3)
+topic(5, secondary, id18)
+topic(5, potential, id3)
+sr(adj-prop, poss, book, his)
+sr(sogg-agent, read, pPro)
+sr(ogg-theme_aff, read, book)
+sr(sogg-actor, begin, he)
+sr(vcomp-prop, begin, read)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(begin,
+        < definito : sn4 :
+            wff(and,
+                wff(isa,
+                    sn4,
+                    he),
+                wff(antecedente,
+                    sn4,
+                    esterno)) >>,
+        wff(read,
+            < definito : sn7 :
+                wff(and,
+                    wff(isa,
+                        sn7,
+                        pPro),
+                    wff(controllore,
+                        sn7,
+                        sn4)) >>,
+            < definito : sn5 :
+                wff(and,
+                    wff(isa,
+                        sn5,
+                        book),
+                    wff(poss,
+                        sn5,
+                        < definito : sn6 :
+                            wff(and,
+                                wff(isa,
+                                    sn6,
+                                    his),
+                                wff(antecedente,
+                                    sn6,
+                                    sn4)) >>)) >>,
+            < event : finf1 :
+                wff(and,
+                    wff(isa,
+                        finf1,
+                        ev),
+                    wff(time,
+                        finf1,
+                        < definito : t5 :
+                            wff(and,
+                                wff(isa,
+                                    t5,
+                                    tloc),
+                                wff(pres,
+                                    t5)) >>)) >>),
+        < event : f1 :
+            wff(and,
+                wff(isa,
+                    f1,
+                    ev),
+                wff(time,
+                    f1,
+                    < definito : t6 :
+                        wff(and,
+                            wff(isa,
+                                t6,
+                                tloc),
+                            wff(pres,
+                                t6)) >>)) >>))
+
+
+
+loc(infon71, id21, [arg:main_tloc, arg:tes(f1_t34)])
+fact(infon72, poss, ['John', id3, id22], 1, id21, id2)
+ind(infon73, id22)
+fact(infon74, inst_of, [ind:id22, class:thing], 1, univ, univ)
+fact(infon75, isa, [ind:id22, class:book], 1, id21, id2)
+fact(infon78, poss, [arg:id22, poss:id3], 1, id21, id2)
+fact(id23, read, [agent:id3, theme_aff:id22], 1, tes(finf1_t35), id2)
+fact(infon79, isa, [arg:id23, arg:ev], 1, tes(finf1_t35), id2)
+fact(infon80, isa, [arg:id24, arg:tloc], 1, tes(finf1_t35), id2)
+fact(infon81, pres, [arg:id24], 1, tes(finf1_t35), id2)
+fact(infon82, time, [arg:id23, arg:id24], 1, tes(finf1_t35), id2)
+fact(id25, begin, [actor:id3, prop:id23], 1, tes(f1_t35), id2)
+fact(infon83, isa, [arg:id25, arg:ev], 1, tes(f1_t35), id2)
+fact(infon84, isa, [arg:id26, arg:tloc], 1, tes(f1_t35), id2)
+fact(infon85, pres, [arg:id26], 1, tes(f1_t35), id2)
+fact(infon86, time, [arg:id25, arg:id26], 1, tes(f1_t35), id2)
+
+during(tes(f1_t35), tes(f1_t34))
+includes(tr(f1_t35), id21)
+
+
+   up:to(1-1)
+   clause:5-5
+   topics:[main:id3:'John', secondary:id18:atmosphere]
+   main_fact:begin([id3:'John', id23:read], 1, id2)
+   ref_int:tint(nil, [tes(f1_t35)])
+   temp_rel:during(tes(f1_t35), tes(f1_t34))
+   disc_rel:inception
+   disc_seg:4-[5]
+   disc_dom:objective
+   p_o_view:narrator

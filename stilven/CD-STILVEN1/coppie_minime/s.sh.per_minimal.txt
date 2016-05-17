@@ -1,0 +1,9 @@
+Minimal pairs for [s] vs. [sh] in initial position:
+s 	sh 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	t 	u 	v 	x 	y 	z 
+se 	she 			£e 	…e 	be 	ce 	de 	ge 	he 	ke 	le 	me 	ne 	re 	te 	ve 	xe 	ye 
+su 	shu 			£u 	bu 	cu 	hu 	lu 	nu 	vu 	xu 	yu 
+
+Minimal pairs for [s] vs. [sh] in medial position:
+fasion 	fashion 		
+
+Minimal pairs for [s] vs. [sh] in final position:

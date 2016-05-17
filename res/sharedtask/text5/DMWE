@@ -1,0 +1,106 @@
+entity(set,id33,1,facts([
+card(infon93, id33, 5),
+fact(infon94, make, [ind:id33], 1, id30, nil),
+fact(infon95, of, [arg:id33, specif:id33], 1, univ, univ),
+fact(infon96, inst_of, [ind:id33, class:man], 1, univ, univ),
+fact(infon97, isa, [ind:id33, class:bag], 1, id30, nil)])).
+entity(set,id31,1,facts([
+card(infon79, id31, 5),
+fact(infon80, nitrocellulose, [ind:id31], 1, id30, nil),
+fact(infon81, produce, [ind:id31], 1, id30, nil),
+fact(infon82, repackage, [ind:id31], 1, id30, nil),
+fact(infon86, inst_of, [ind:id31, class:col], 1, univ, univ),
+fact(infon87, isa, [ind:id31, class:chunk], 1, id30, nil),
+fact(id41, make, [theme_aff:id19, actor:id40, loc_origin:id31], 1, tes(sn32_t55), univ)])).
+entity(set,id24,1,facts([
+card(infon59, id24, 5),
+fact(infon60, inst_of, [ind:id24, class:man], 1, univ, univ)])).
+entity(ind,id19,8,facts([
+fact(infon42, inst_of, [ind:id19, class:sub], 1, univ, univ),
+fact(infon43, isa, [ind:id19, class:propellant], 1, id18, nil),
+fact(id20, explode, [agent:id19], 1, tes(f1_t53), univ),
+fact(id38, use, [theme_aff:id19, actor:id37], 1, tes(f2_t55), univ),
+fact(id41, make, [theme_aff:id19, actor:id40, loc_origin:id31], 1, tes(sn32_t55), univ),
+fact(id20, explode, [agent:id19], 1, tes(f1_t53), univ),
+fact(infon50, sub, [prop:id20], 1, id18, univ)])).
+entity(ind,id32,1.2,facts([
+in(infon91, id32, id31),
+fact(infon89, inst_of, [ind:id32, class:sub], 1, univ, univ),
+fact(infon90, isa, [ind:id32, class:nitrocellulose], 1, id30, nil),
+fact(*, nitrocellulose, [ind:id32], 1, id30, nil),
+fact(*, produce, [ind:id32], 1, id30, nil),
+fact(*, repackage, [ind:id32], 1, id30, nil),
+fact(*, of, [arg:id32, specif:id31], 1, univ, univ),
+fact(*, inst_of, [ind:id32, class:col], 1, univ, univ),
+fact(*, isa, [ind:id32, class:chunk], 1, id30, nil),
+fact(*, make, [theme_aff:id19, actor:id40, loc_origin:id32], 1, tes(sn32_t55), univ)])).
+entity(ind,id8,1,facts([
+fact(infon11, inst_of, [ind:id8, class:oggetto], 1, univ, univ),
+fact(infon12, isa, [ind:id8, class:gun], 1, univ, univ),
+fact(id13, operate, [patient:id8, actor:id6], 1, univ, univ),
+fact(infon55, of, [arg:id23, specif:id8], 1, univ, univ)])).
+entity(ind,id25,1,facts([
+fact(infon62, isa, [ind:id25, class:explosion], 1, id22, nil),
+fact(infon63, inst_of, [ind:id25, class:attivita], 1, univ, univ)])).
+entity(ind,id15,1,facts([
+fact(infon22, isa, [ind:id15, class:narrator], 1, id14, nil),
+fact(infon23, inst_of, [ind:id15, class:man], 1, univ, univ),
+fact(infon24, isa, [ind:id15, class:indefinite], 1, id14, nil),
+fact(id16, ready, [agent:id15], 0, tes(f1_t52), univ)])).
+entity(ind,id9,0,facts([
+fact(infon14, inst_of, [ind:id9, class:oggetto], 1, univ, univ),
+fact(infon15, isa, [ind:id9, class:phone], 1, univ, univ)])).
+entity(ind,id7,0,facts([
+fact(infon8, inst_of, [ind:id7, class:istituzione], 1, univ, univ),
+fact(infon9, isa, [ind:id7, class:guns], 1, univ, univ)])).
+entity(ind,id6,0,facts([
+fact(infon5, inst_of, [ind:id6, class:umano], 1, univ, univ),
+fact(infon6, isa, [ind:id6, class:crewman], 1, univ, univ),
+fact(id13, operate, [patient:id8, actor:id6], 1, univ, univ)])).
+entity(ind,id5,0,facts([
+fact(infon2, inst_of, [ind:id5, class:nquant], 1, univ, univ),
+fact(infon3, isa, [ind:id5, class:2], 1, univ, univ),
+fact(id12, load, [prop:sn3, theme_aff:id5, prop:sn4], 1, univ, univ)])).
+entity(ind,id48,0,facts([
+fact(infon138, inst_of, [ind:id48, class:oggetto], 1, univ, univ),
+fact(infon139, isa, [ind:id48, class:powder], 1, univ, univ)])).
+entity(ind,id47,0,facts([
+fact(infon135, inst_of, [ind:id47, class:astratto], 1, univ, univ),
+fact(infon136, isa, [ind:id47, class:stability], 1, univ, univ),
+fact(id49, reduce, [theme_aff:id47, agent:id46], 1, univ, univ)])).
+entity(ind,id46,0,facts([
+fact(infon132, inst_of, [ind:id46, class:attivita], 1, univ, univ),
+fact(infon133, isa, [ind:id46, class:storage], 1, univ, univ),
+fact(id49, reduce, [theme_aff:id47, agent:id46], 1, univ, univ)])).
+entity(ind,id45,0,facts([
+fact(infon129, inst_of, [ind:id45, class:any], 1, univ, univ),
+fact(infon130, isa, [ind:id45, class:it], 1, univ, univ),
+fact(id50, reduce, [agent:id45], 1, univ, univ),
+fact(id51, suspect, [theme_aff:id45], 1, univ, univ)])).
+entity(ind,id30,0,facts([
+fact(infon77, main_tloc, 'World_War_II', 1, 'World_War_II', _G4049)])).
+entity(ind,id22,0,facts([
+fact(infon53, main_tloc, tes(f1_t53), 1, tes(f1_t53), _G4115)])).
+entity(ind,id18,0,facts([
+fact(infon40, main_tloc, tes(f1_t52), 1, tes(f1_t52), _G4183)])).
+entity(ind,id14,0,facts([
+fact(infon20, main_tloc, tr(f1_t52), 1, tr(f1_t52), _G4251)])).
+entity(ind,id10,0,facts([
+fact(infon17, inst_of, [ind:id10, class:oggetto], 1, univ, univ),
+fact(infon18, isa, [ind:id10, class:turret], 1, univ, univ)])).
+entity(class,id23,6,facts([
+fact(infon55, of, [arg:id23, specif:id8], 1, univ, univ),
+fact(infon56, inst_of, [ind:id23, class:institution], 1, univ, univ),
+fact(infon57, isa, [ind:id23, class:crew], 1, id22, nil),
+fact(id27, kill, [theme_aff:id23, agent:id26], 1, tes(f2_t54), univ)])).
+entity(class,id36,1,facts([
+fact(infon105, pro, [ind:id36], 1, id30, nil),
+fact(infon106, inst_of, [ind:id36, class:attivita], 1, univ, univ),
+fact(infon107, isa, [ind:id36, class:['World', 'War', 'II']], 1, id30, nil)])).
+entity(class,id35,0,facts([
+fact(infon102, inst_of, [ind:id35, class:attivita], 1, univ, univ),
+fact(infon103, isa, [ind:id35, class:'World'], 1, id30, nil)])).
+entity(class,id34,0,facts([
+fact(infon99, inst_of, [ind:id34, class:attivita], 1, univ, univ),
+fact(infon100, isa, [ind:id34, class:'World'], 1, id30, nil)])).
+

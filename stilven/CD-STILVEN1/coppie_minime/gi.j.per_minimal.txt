@@ -1,0 +1,15 @@
+Minimal pairs for [gi] vs. [j] in initial position:
+giaponexe 	japonexe 		
+giusta 	justa 		
+giusto 	justo 			susto 
+
+Minimal pairs for [gi] vs. [j] in medial position:
+bacagiàr 	bacajàr 		
+bagiàr 	bajàr 			basàr 	baxàr 
+barbastrìgio 	barbastrìjo 		
+batàgia 	batàja 		
+bersàgio 	bersàjo 		
+bógiar 	bójar 		
+ro£ogio 	ro£ojo 		
+
+Minimal pairs for [gi] vs. [j] in final position:

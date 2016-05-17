@@ -1,0 +1,43 @@
+Minimal pairs for [c] vs. [k] in initial position:
+c 	k 			+ 	£ 	… 	a 	b 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+calkeduni 	kalkeduni 		
+ce 	ke 			£e 	…e 	be 	de 	ge 	he 	le 	me 	ne 	re 	se 	te 	ve 	xe 	ye 
+cesto 	kesto 			resto 	sesto 	testo 
+ci 	ki 			£i 	ai 	di 	ii 	li 	mi 	pi 	si 	ti 
+clasego 	klasego 		
+co 	ko 			£o 	do 	go 	ho 	lo 	no 	oo 	so 	to 	uo 	vo 	xo 	zo 
+coel 	koel 		
+cofà 	kofà 		
+coi 	koi 			poi 	soi 	voi 
+come 	kome 			home 	nome 
+consonante 	konsonante 		
+consonantego 	konsonantego 		
+consonanti 	konsonanti 		
+contrario 	kontrario 		
+coreta 	koreta 			moreta 
+cosa 	kosa 			mosa 	posa 
+credea 	kredea 		
+credi 	kredi 		
+
+Minimal pairs for [c] vs. [k] in medial position:
+anca 	anka 			anna 	ansa 	anxa 
+fraco 	frako 		
+mace 	make 			ma£e 	male 	mape 	mare 
+ncora 	nkora 		
+partico£are 	partiko£are 		
+poco 	poko 			pogo 	poro 	poso 
+sc 	sk 			sa 	se 	sé 	sè 	sh 	si 	sì 	so 	só 	ss 	su 	sz 
+sci 	ski 			soi 	sói 	sti 	sui 
+scó£a 	skó£a 		
+scoaxi 	skoaxi 		
+scominsia 	skominsia 		
+scriti 	skriti 		
+scrivar 	skrivar 		
+seco£o 	seko£o 		
+seconda 	sekonda 			segonda 
+sicome 	sikome 		
+sirco 	sirko 		
+storicamente 	storikamente 		
+voca£i 	voka£i 		
+
+Minimal pairs for [c] vs. [k] in final position:

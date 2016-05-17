@@ -1,0 +1,148 @@
+
+###############################################################
+[who, supplied, rural, areas, ?]
+wind, turbine
+
+
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.2
+'Lookahead Start Active Chart'
+0-[r-who, w-who], 1-[v-supplied], 2-[a-rural], 3-[n-areas], 4-[x- ?]
+
+0-[r-who, w-who], 1-[v-supplied], 2-[a-rural], 3-[n-areas], 4-[x- ?]
+
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn1),
+   cat([umano, animato]),
+   pr(pr_int, _G2879, who, 3, _G2882, _G2883, [nom, acc, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(supply, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any], sn/sogg/agente/[istituzione, legale, umano], sn/ogg/tema_aff/[informa, legale, umano, oggetto, sostanza]], ind, _G3428/semp, 3, _G2953, _G2882),
+  supporto([]),
+  cat(cambiamento),
+  args(
+    [
+    arg(
+     funzione(sogg),
+     ruolo(agent),
+     sn(
+      indice(sn2),
+      cat([umano, animato]),
+      pr(pro_picc, pro, _G3146, 3, _G2882, _G2953, nom),
+      spec(
+       def(+)
+       ),
+      controllore(sn1)
+      )
+     ),
+    arg(
+     funzione(sogg),
+     ruolo(agente),
+     indefinito
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn1
+      cat:[umano, animato]
+      pred:who
+      pers:3
+      caso:[nom, acc, obl]
+      tab_ref:[+ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:supply
+lex_form:[sn/sogg/agent/[any], sn/ogg/theme_aff/[any], sn/sogg/agente/[istituzione, legale, umano], sn/ogg/tema_aff/[informa, legale, umano, oggetto, sostanza]]
+voice:active
+modo:ind
+tempo:pres
+cat:cambiamento
+sogg/agent:indice:sn2
+           cat:[umano, animato]
+           pred:pro
+           pers:3
+           caso:nom
+           spec:def:+
+           controllore:sn1
+           tab_ref:[+ref, +pro, -ana, -me]
+sogg/agente:indefinito
+aspetto:accomp
+rel1:[td(f1_user1)=tr(f1_user1)]
+rel2:[incluso(tr(f1_user1), tes(f1_user1))]
+definitezza:-
+ref_int:[tr(f1_user1)]
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn2, who, [+ref, +def, nil, nil, +pro, -ana, -me], 3, nil, nil, [umano, animato], sogg/agent)/16
+
+
+rel_temp(infon1, td, tr(f1_user1), [eq])
+
+
+CLAUSE IDENTIFIER:               1-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(sn77_t71), tr(sn77_t71))
+DISCOURSE FOCUS:                 tes(f1_user1)
+DISCOURSE RELATION:              result
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+sr(sogg-agent, supply, pro)
+
+
+'######################  LOGICAL FORM ###############'
+wff(supply,
+    wff(focus,
+        < definito : sn1 :
+            wff(isa,
+                sn1,
+                who) >>),
+    < event : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                ev),
+            wff(time,
+                f1,
+                < definito : t1 :
+                    wff(and,
+                        wff(isa,
+                            t1,
+                            tloc),
+                        wff(pres,
+                            t1)) >>)) >>)
+
+q_loc(infon2, id1, [arg:main_tloc, arg:tr(f1_user1)])
+q_fact(infon3, focus, [arg:id2], 1, id1, univ)
+q_fact(infon4, isa, [arg:id2, arg:who], 1, id1, univ)
+q_fact(id3, supply, [agent:id2], 1, tes(f1_user1), univ)
+q_fact(infon5, isa, [arg:id3, arg:ev], 1, tes(f1_user1), univ)
+q_fact(infon6, isa, [arg:id4, arg:tloc], 1, tes(f1_user1), univ)
+q_fact(infon7, pres, [arg:id4], 1, tes(f1_user1), univ)
+q_fact(infon8, time, [arg:id3, arg:id4], 1, tes(f1_user1), univ)
+q_fact(infon11, perf, [arg:id5, ask:id3], 1, id1, univ)
+
+during(tes(sn81_t75), tes(sn194_t74))
+includes(tr(f1_user1), id1)
+funcs-[sogg/agent-n18-pred(pro)]
+
+
+

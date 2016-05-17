@@ -1,0 +1,170 @@
+
+###############################################################
+[what, happened, to, the, propellant, ?]
+
+
+    This is what concerns propellant in the real world  
+
+explode, [id19:propellant]
+make, [id19:propellant, id43:exist, id33:chunk]
+
+
+############   FOCALIZED SUMMARY   ############
+'As the 3 guns of Turret 2 were being loaded , a crewman who was operating the center gun yelled into the phone , " I have a problem here .'
+
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.16667
+'Lookahead Start Active Chart'
+0-[r-what, w-what], 1-[v-happened], 2-[p-to], 3-[d-the], 4-[n-propellant], 5-[x- ?]
+
+0-[r-what, w-what], 1-[v-happened], 2-[p-to], 3-[d-the], 4-[n-propellant], 5-[x- ?]
+
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn1),
+   cat([any]),
+   pr(pr_int, _G41155, what, 3, _G41158, _G41159, [nom, acc, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(happen, active, [sn/sogg/actor/[any], f/fcomp/prop/[subj=x]], ind, _G41725/semp, 3, _G41226, _G41158),
+  supporto([]),
+  cat(soggettivo),
+  args(
+    [
+    arg(
+     funzione(sogg),
+     ruolo(actor),
+     sn(
+      indice(sn2),
+      cat([any]),
+      pr(pro_picc, pro, _G41431, 3, _G41158, _G41226, nom),
+      spec(
+       def(+)
+       ),
+      controllore(sn1)
+      )
+     ),
+    arg(
+     funzione(obl),
+     ruolo(goal),
+     sn(
+      indice(sn3),
+      cat(sub),
+      n(propellant, _G43958, sing),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn1
+      cat:[any]
+      pred:what
+      pers:3
+      caso:[nom, acc, obl]
+      tab_ref:[+ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:happen
+lex_form:[sn/sogg/actor/[any], f/fcomp/prop/[subj=x]]
+voice:active
+modo:ind
+tempo:pres
+cat:soggettivo
+sogg/actor:indice:sn2
+           cat:[any]
+           pred:pro
+           pers:3
+           caso:nom
+           spec:def:+
+           controllore:sn1
+           tab_ref:[+ref, +pro, -ana, -me]
+obl/goal:indice:sn3
+         cat:sub
+         pred:propellant
+         num:sing
+         pers:3
+         spec:def:+
+         tab_ref:[+ref, -pro, -ana, +class]
+aspetto:stato
+rel1:[td(f1_user1)=tr(f1_user1)]
+rel2:[incluso(tr(f1_user1), tes(f1_user1))]
+definitezza:-
+ref_int:[tr(f1_user1)]
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn2, what, [+ref, +def, nil, nil, +pro, -ana, -me], 3, nil, nil, [any], sogg/actor)/116
+ ref_ex(sn3, propellant, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, sub, obl/goal)/121
+
+
+rel_temp(infon1, td, tr(f1_user1), [eq])
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, potential, id2)
+sr(sogg-actor, happen, pro)
+sr(obl-goal, happen, propellant)
+
+
+'######################  LOGICAL FORM ###############'
+wff(happen,
+    wff(focus,
+        < definito : sn1 :
+            wff(isa,
+                sn1,
+                what) >>),
+    < definito : sn3 :
+        wff(isa,
+            sn3,
+            propellant) >>,
+    < state : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                st),
+            wff(time,
+                f1,
+                < indefinito : t1 :
+                    wff(and,
+                        wff(isa,
+                            t1,
+                            tloc),
+                        wff(pres,
+                            t1)) >>)) >>)
+
+q_loc(infon2, id1, [arg:main_tloc, arg:tr(f1_user1)])
+q_ind(infon3, id2)
+q_fact(infon4, inst_of, [ind:id2, class:sub], 1, univ, univ)
+q_fact(infon5, isa, [ind:id2, class:propellant], 1, id1, univ)
+q_fact(infon6, focus, [arg:id3], 1, id1, univ)
+q_fact(infon7, isa, [arg:id3, arg:what], 1, id1, univ)
+q_fact(id4, happen, [actor:id3, goal:id2], 1, tes(f1_user1), univ)
+q_fact(infon9, isa, [arg:id4, arg:st], 1, tes(f1_user1), univ)
+q_fact(infon10, isa, [arg:id5, arg:tloc], 1, tes(f1_user1), univ)
+q_fact(infon11, pres, [arg:id5], 1, tes(f1_user1), univ)
+q_fact(infon12, time, [arg:id4, arg:id5], 1, tes(f1_user1), univ)
+q_fact(infon16, perf, [arg:id6, ask:id4], 1, id1, univ)
+
+after(tes(fpart_pass2_t55), tes(sn42_t55))
+includes(tr(f1_user1), id1)
+

@@ -1,0 +1,28 @@
+a:link, a:active, a:visited               { color: #7073d4; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+a:hover                      { color: #9d7bd4; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: underline overline }
+a                  {
+	font: 11px Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+td, tr           { color: #808080;
+	font: 10px Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+.default        { color: #808080; font-size: 8pt; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+H1           { color: #7073d4; font-weight: bold; font-size: 12pt; line-height: 10pt; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; margin-top: 5px; margin-right: 6px; margin-left: 10px;
+	text-align: center;
+}
+H2            { color: #a9a9a9; clear: right; margin-right: 6px;
+	margin-left: 6px;
+	font: small-caps bold 11pt Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	text-decoration: blink;
+}
+b { color: #a9a9a9; font-weight: bold; font-size: 10pt; line-height: 10pt; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; clear: right }
+body   { scrollbar-arrow-color: 9D7BD4; scrollbar-face-color: E7E7E7; scrollbar-highlight-color: 9D7BD4; scrollbar-shadow-color: 000000; scrollbar-track-color: E7E7E7;
+	font-size: 11px;
+}
+li           { line-height: 20px; text-indent: -15px; list-style-position: outside; clear: left; margin-left: 0px; padding-left: 0px;
+	font-size: 11px;
+}
+p  { margin-right: 6px; margin-left: 6px;
+	font-size: 11px;
+	text-align: justify;
+}

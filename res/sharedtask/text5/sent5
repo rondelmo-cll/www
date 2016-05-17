@@ -1,0 +1,877 @@
+Ratio of Tags per Word for Sentence no: 5
+Word Ambiguity Ratio: 1.35714
+'Lookahead Start Active Chart'
+0-[d-the], 1-[n-propellant], 2-[a-that, c-that, r-that], 3-[v-was], 4-[a-used, v-used], 5-[v-was], 6-[v-made], 7-[p-from], 8-[n-nitrocellulose], 9-[n-chunks, v-chunks], 10-[a-that, c-that, r-that], 11-[v-were], 12-[v-produced], 13-[a-during, p-during], 14-[n-'World_War_II'], 15-[e-and], 16-[v-were], 17-[v-repackaged], 18-[p-in], 19-[d-1987], 20-[p-in], 21-[n-bags, v-bags], 22-[a-that, c-that, r-that], 23-[v-were], 24-[v-made], 25-[p-in], 26-[d-1945], 27-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.14286
+0-[d-the], 1-[n-propellant], 2-[c-that], 3-[v-was], 4-[v-used], 5-[v-was], 6-[v-made], 7-[p-from], 8-[n-nitrocellulose], 9-[n-chunks, v-chunks], 10-[a-that, c-that, r-that], 11-[v-were], 12-[v-produced], 13-[a-during, p-during], 14-[n-'World_War_II'], 15-[e-and], 16-[v-were], 17-[v-repackaged], 18-[p-in], 19-[d-1987], 20-[p-in], 21-[n-bags], 22-[c-that], 23-[v-were], 24-[v-made], 25-[p-in], 26-[d-1945], 27-[x-'.']
+
+0-[d-the], 1-[n-propellant], 2-[c-that], 3-[v-was], 4-[v-used], 5-[v-was], 6-[v-made], 7-[p-from], 8-[n-nitrocellulose], 9-[n-chunks, v-chunks], 10-[a-that, c-that, r-that], 11-[v-were], 12-[v-produced], 13-[a-during, p-during], 14-[n-'World_War_II'], 15-[e-and], 16-[v-were], 17-[v-repackaged], 18-[p-in], 19-[d-1987], 20-[p-in], 21-[n-bags], 22-[c-that], 23-[v-were], 24-[v-made], 25-[p-in], 26-[d-1945], 27-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+5
+the-dt
+propellant-nn
+that-dt
+was-vbd
+used-vbd
+was-vbd
+made-vbn_jj
+from-in
+nitrocellulose-nn
+chunks-nns
+that-dt
+were-vbd
+produced-vbn_jj
+during-jj
+World_War_II-nnp
+and-cc
+were-vbd
+repackaged-vbn_jj
+in-in
+1987-cd
+in-in
+bags-nns
+that-dt
+were-vbd
+made-vbn_jj
+in-in
+1945-cd
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[the-art, propellant-n, that-rel, was-ause, used-vin, was-ause, made-vppt, from-p, nitrocellulose-n, chunks-n, that-n, were-ause, produced-vppt, during-ag, 'World_War_II'-n, and-cong, were-ause, repackaged-vppt, in-p, 1987-num, in-p, bags-n, that-rel, were-ause, made-vppt, in-p, 1945-num, '.'-punto]
+
+f-[subj-[the-art-sn, propellant-n-sn, f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[was-ause-ibar, used-vppt-ibar]]]], ibar-[was-ause-ibar, made-vppt-ibar], sp-[from-p-sp, nitrocellulose-n-sn, chunks-n-sn, that-n-1], ibar-[were-ause-ibar, produced-vppt-ibar], sn-[during-ag-sn, 'World_War_II'-n-sn], fc-[fc-[and-cong-fc], ibar-[were-ause-ibar, repackaged-vppt-ibar], sp-[in-p-sp, 1987-num-sn], sp-[in-p-sp, bags-n-sn], f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[were-ause-ibar, made-vppt-sv3], sp-[in-p-sp, 1945-num-sn], cp-['.'-punto-cp]]]]]
+
+5
+
+
+'Functional and Syntactic Constituency'
+
+subj-[the-art-sn, propellant-n-sn, f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[was-ause-ibar, used-vppt-ibar]]]]
+ibar-[was-ause-ibar, made-vppt-ibar]
+obl-[from-p-sp, nitrocellulose-n-sn, chunks-n-sn, that-n-1]
+ibar-[were-ause-ibar, produced-vppt-ibar]
+obj-[during-ag-sn, World_War_II-n-sn]
+
+5
+
+
+'Functional and Syntactic Constituency'
+
+fc-[fc-[and-cong-fc], ibar-[were-ause-ibar, repackaged-vppt-ibar], obl-[in-p-sp, 1987-num-sn]]
+obl-[in-p-sp, bags-n-sn, f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[were-ause-ibar, made-vppt-sv3], sp-[in-p-sp, 1945-num-sn]]]]
+ip(indice(sn32), v(make, passive, [[sn/sogg/actor/[any], f/fcomp/propint/[subj=x]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], ncomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], acomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]], [sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/expl/[any]], [sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]], [sn/sogg/agente/[umano, istituzione, sostanza, plant], sn/ogg/tema_aff/[informa, legale, sociale, sostanza, edible]], [sn/sogg/agente/[umano, istituzione, legale], sn/ogg/tema_aff/[informa, legale, sociale, astratto], sp/ogg2/paziente/to/[umano, istituzione]], [sn/sogg/agente/[umano, istituzione, legale], sp/ogg2/paziente/to/[umano, istituzione, legale], vcomp/prop/to/[sogg=ogg/actor]], [sn/sogg/agente/[umano, istituzione, legale], sn/ogg/tema_bound/[informa, legale, sociale], acomp/prop/[_G20749|_G20750]]], ind, pass/_G20077/be, _G21787, _G61182, _G21789), supporto(_G21782), cat(cambiamento), args([arg(funzione(subj_top), ruolo(theme_aff), sn(indice(sn10), cat(sub), n(propellant, _G12840, sing), spec(def(+), part(_G11623), mod([]), foc(_G11627), card(_G11603), quant([])), args([]), mods([relativa(topic(relativo, sn(indice(sn11), cat(sub), pr(pro_grande, pPro, 3, _G12840, sing, nom), controllore(sn10))), ip(indice(f2), v(use, passive, [sn/sogg/theme_aff/[any]], ind, pass, 3, sing, _G12840), supporto(_G17636), cat(attivita), args([arg(funzione(subj_top), ruolo(theme_aff), sn(indice(sn12), cat(sub), pr(pro_picc, pro, _G15941, 3, _G12840, sing, nom), spec(def(+)), controllore(sn11))), arg(funzione(obl), ruolo(actor), sn(indice(sn13), cat([any]), pr(pr_quantif, exist, _G17880, _G17881, _G17882, _G17883), spec(def(-), part(+), mod(_G17896), foc(_G17898), card(_G17900), quant(_G17902))))]), adjs([])))]), adjs([]))), arg(funzione(obl), ruolo(actor), sn(indice(sn31), cat([any]), pr(pr_quantif, exist, _G61077, _G61078, _G61079, _G61080), spec(def(-), part(+), mod(_G61093), foc(_G61095), card(_G61097), quant(_G61099)))), arg(funzione(obl), ruolo(loc_origin), sp(prep(from, cat(col), _G60977), sn(indice(sn15), cat(col), n(chunk, _G27420, plur), spec(def(0), part(_G25773), mod([]), foc(_G25777), card(_G25779), quant([])), args([]), mods([nome_mod(sn(indice(sn14), cat(sub), n(nitrocellulose, _G25723, sing), spec(def(0), part(_G25197), mod(_G25199), foc(_G25201), card(_G25203), quant(_G25205)), args([]), mods([]), adjs([]))), relativa(topic(relativo, sn(indice(sn16), cat(col), pr(pro_grande, pPro, 3, _G27420, plur, nom), controllore(sn15))), ip(indice(f4), v(produce, passive, [sn/sogg/theme_aff/[any]], _G30513, pass, 3, plur, _G27420), supporto(_G37337), cat(cambiamento), args([arg(funzione(subj_top), ruolo(theme_aff), sn(indice(sn17), cat(col), pr(pro_picc, pro, _G30473, 3, _G27420, plur, nom), spec(def(+)), controllore(sn16))), arg(funzione(obl), ruolo(agent), sn(indice(sn19), cat([any]), pr(pr_quantif, exist, _G37715, _G37716, _G37717, _G37718), spec(def(-), part(+), mod(_G37731), foc(_G37733), card(_G37735), quant(_G37737))))]), adjs([adj(temporale, sp(prep(during, cat([attivita]), mod(_G31979)), args([arg(funzione(ogg), ruolo(nil), sn(indice(sn18), cat([attivita]), n(World_War_II, mas, sing), spec(def(0), part(_G34421), mod([]), foc(_G34425), card(_G34401), quant([])), args([]), mods([]), adjs([])))])))]))), relativa(topic(relativo, sn(indice(sn30), cat(col), pr(pro_grande, pPro, 3, _G27420, plur, nom), controllore(_G38034))), ip(indice(f8), v(repackage, passive, [sn/sogg/theme_aff/[any]], _G38580, pass, 3, plur, _G27420), supporto(_G58635), cat(risultato), args([arg(funzione(subj_top), ruolo(theme_aff), sn(indice(sn20), cat(col), pr(pro_picc, pro, _G38540, 3, _G27420, plur, nom), spec(def(+)), controllore(sn30))), arg(funzione(obl), ruolo(agent), sn(indice(sn29), cat([any]), pr(pr_quantif, exist, _G59309, _G59310, _G59311, _G59312), spec(def(-), part(+), mod(_G59325), foc(_G59327), card(_G59329), quant(_G59331))))]), adjs([adj(temporale, sp(prep(in, cat([animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]), mod([])), args([arg(funzione(ogg), ruolo(nil), sn(indice(sn24), cat([animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]), n(bag, _G48985, plur), spec(def(0), part(_G48156), mod([]), foc(_G48160), card(_G48136), quant([])), args([]), mods([relativa(topic(relativo, sn(indice(sn25), cat([animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]), pr(pro_grande, pPro, 3, _G48985, plur, nom), controllore(sn24))), ip(indice(f7), v(make, passive, [sn/sogg/theme_aff/[any]], _G52033, pass, 3, plur, _G48985), supporto(_G57196), cat(cambiamento), args([arg(funzione(subj_top), ruolo(theme_aff), sn(indice(sn26), cat([animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]), pr(pro_picc, pro, _G51993, 3, _G48985, plur, nom), spec(def(+)), controllore(sn25))), arg(funzione(obl), ruolo(actor), sn(indice(sn28), cat([any]), pr(pr_quantif, exist, _G57634, _G57635, _G57636, _G57637), spec(def(-), part(+), mod(_G57650), foc(_G57652), card(_G57654), quant(_G57656))))]), adjs([adj(temporale, sp(prep(in, cat([date, tempo]), mod(_G54456)), args([arg(funzione(ogg), ruolo(nil), sn(indice(sn27), cat([date, tempo]), pr(quant, 1945, 3, _G56689, _G56690, _G56691), spec(def(+), part(-), mod(_G56784), foc(_G56562), card(_G56538), quant(1945)), args([]), mods([]), adjs([])))])))])))]), adjs([])))]))), adj(temporale, sp(prep(in, cat([date, tempo]), mod(_G40456)), args([arg(funzione(ogg), ruolo(nil), sn(indice(sn21), cat([date, tempo]), pr(quant, 1987, 3, _G42674, _G42675, _G42676), spec(def(+), part(-), mod(_G42769), foc(_G42556), card(_G42532), quant(1987)), args([]), mods([]), adjs([])))])))])))]), adjs([]))))]), adjs([]))
+
+
+ip(
+ indice(sn32),
+ v(make, passive, [[sn/sogg/actor/[any], f/fcomp/propint/[subj=x]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], ncomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], acomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]], [sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/expl/[any]], [sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]], [sn/sogg/agente/[umano, istituzione, sostanza, plant], sn/ogg/tema_aff/[informa, legale, sociale, sostanza, edible]], [sn/sogg/agente/[umano, istituzione, legale], sn/ogg/tema_aff/[informa, legale, sociale, astratto], sp/ogg2/paziente/to/[umano, istituzione]], [sn/sogg/agente/[umano, istituzione, legale], sp/ogg2/paziente/to/[umano, istituzione, legale], vcomp/prop/to/[sogg=ogg/actor]], [sn/sogg/agente/[umano, istituzione, legale], sn/ogg/tema_bound/[informa, legale, sociale], acomp/prop/[_G20749|_G20750]]], ind, pass/_G20077/be, _G21787, _G61182, _G21789),
+ supporto([]),
+ cat(cambiamento),
+ args(
+   [
+   arg(
+    funzione(subj_top),
+    ruolo(theme_aff),
+    sn(
+     indice(sn10),
+     cat(sub),
+     n(propellant, _G12840, sing),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods(
+       [
+       relativa(
+        topic(
+         relativo,
+         sn(
+          indice(sn11),
+          cat(sub),
+          pr(pro_grande, pPro, 3, _G12840, sing, nom),
+          controllore(sn10)
+          )
+         ),
+        ip(
+         indice(f2),
+         v(use, passive, [sn/sogg/theme_aff/[any]], ind, pass, 3, sing, _G12840),
+         supporto([]),
+         cat(attivita),
+         args(
+           [
+           arg(
+            funzione(subj_top),
+            ruolo(theme_aff),
+            sn(
+             indice(sn12),
+             cat(sub),
+             pr(pro_picc, pro, _G15941, 3, _G12840, sing, nom),
+             spec(
+              def(+)
+              ),
+             controllore(sn11)
+             )
+            ),
+           arg(
+            funzione(obl),
+            ruolo(actor),
+            sn(
+             indice(sn13),
+             cat([any]),
+             pr(pr_quantif, exist, _G17880, _G17881, _G17882, _G17883),
+             spec(
+              def(-),
+              part(+),
+              mod([]),
+              foc([]),
+              card([]),
+              quant([])
+              )
+             )
+            )
+           ]
+          ),
+         adjs([])
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(obl),
+    ruolo(actor),
+    sn(
+     indice(sn31),
+     cat([any]),
+     pr(pr_quantif, exist, _G61077, _G61078, _G61079, _G61080),
+     spec(
+      def(-),
+      part(+),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      )
+     )
+    ),
+   arg(
+    funzione(obl),
+    ruolo(loc_origin),
+    sp(
+     prep(from, cat(col), _G60977),
+     sn(
+      indice(sn15),
+      cat(col),
+      n(chunk, _G2397, plur),
+      spec(
+       def(0),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods(
+        [
+        nome_mod(
+         sn(
+          indice(sn14),
+          cat(sub),
+          n(nitrocellulose, _G2372, sing),
+          spec(
+           def(0),
+           part([]),
+           mod([]),
+           foc([]),
+           card([]),
+           quant([])
+           ),
+          args([]),
+          mods([]),
+          adjs([])
+          )
+         ),
+        relativa(
+         topic(
+          relativo,
+          sn(
+           indice(sn16),
+           cat(col),
+           pr(pro_grande, pPro, 3, _G2397, plur, nom),
+           controllore(sn15)
+           )
+          ),
+         ip(
+          indice(f4),
+          v(produce, passive, [sn/sogg/theme_aff/[any]], _G2447, pass, 3, plur, _G2397),
+          supporto([]),
+          cat(cambiamento),
+          args(
+            [
+            arg(
+             funzione(subj_top),
+             ruolo(theme_aff),
+             sn(
+              indice(sn17),
+              cat(col),
+              pr(pro_picc, pro, _G2436, 3, _G2397, plur, nom),
+              spec(
+               def(+)
+               ),
+              controllore(sn16)
+              )
+             ),
+            arg(
+             funzione(obl),
+             ruolo(agent),
+             sn(
+              indice(sn19),
+              cat([any]),
+              pr(pr_quantif, exist, _G2552, _G2553, _G2554, _G2555),
+              spec(
+               def(-),
+               part(+),
+               mod([]),
+               foc([]),
+               card([]),
+               quant([])
+               )
+              )
+             )
+            ]
+           ),
+          adjs(
+            [
+            adj(
+             temporale,
+             sp(
+              prep(during, cat([attivita]), mod(_G2455)),
+              args(
+                [
+                arg(
+                 funzione(ogg),
+                 ruolo(nil),
+                 sn(
+                  indice(sn18),
+                  cat([attivita]),
+                  n(World_War_II, mas, sing),
+                  spec(
+                   def(0),
+                   part([]),
+                   mod([]),
+                   foc([]),
+                   card([]),
+                   quant([])
+                   ),
+                  args([]),
+                  mods([]),
+                  adjs([])
+                  )
+                 )
+                ]
+               )
+              )
+             )
+            ]
+           )
+          )
+         ),
+        relativa(
+         topic(
+          relativo,
+          sn(
+           indice(sn30),
+           cat(col),
+           pr(pro_grande, pPro, 3, _G2397, plur, nom),
+           controllore([])
+           )
+          ),
+         ip(
+          indice(f8),
+          v(repackage, passive, [sn/sogg/theme_aff/[any]], _G2674, pass, 3, plur, _G2397),
+          supporto([]),
+          cat(risultato),
+          args(
+            [
+            arg(
+             funzione(subj_top),
+             ruolo(theme_aff),
+             sn(
+              indice(sn20),
+              cat(col),
+              pr(pro_picc, pro, _G2663, 3, _G2397, plur, nom),
+              spec(
+               def(+)
+               ),
+              controllore(sn30)
+              )
+             ),
+            arg(
+             funzione(obl),
+             ruolo(agent),
+             sn(
+              indice(sn29),
+              cat([any]),
+              pr(pr_quantif, exist, _G3095, _G3096, _G3097, _G3098),
+              spec(
+               def(-),
+               part(+),
+               mod([]),
+               foc([]),
+               card([]),
+               quant([])
+               )
+              )
+             )
+            ]
+           ),
+          adjs(
+            [
+            adj(
+             temporale,
+             sp(
+              prep(in, cat([animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]), mod([])),
+              args(
+                [
+                arg(
+                 funzione(ogg),
+                 ruolo(nil),
+                 sn(
+                  indice(sn24),
+                  cat([animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]),
+                  n(bag, _G2778, plur),
+                  spec(
+                   def(0),
+                   part([]),
+                   mod([]),
+                   foc([]),
+                   card([]),
+                   quant([])
+                   ),
+                  args([]),
+                  mods(
+                    [
+                    relativa(
+                     topic(
+                      relativo,
+                      sn(
+                       indice(sn25),
+                       cat([animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]),
+                       pr(pro_grande, pPro, 3, _G2778, plur, nom),
+                       controllore(sn24)
+                       )
+                      ),
+                     ip(
+                      indice(f7),
+                      v(make, passive, [sn/sogg/theme_aff/[any]], _G2855, pass, 3, plur, _G2778),
+                      supporto([]),
+                      cat(cambiamento),
+                      args(
+                        [
+                        arg(
+                         funzione(subj_top),
+                         ruolo(theme_aff),
+                         sn(
+                          indice(sn26),
+                          cat([animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]),
+                          pr(pro_picc, pro, _G2844, 3, _G2778, plur, nom),
+                          spec(
+                           def(+)
+                           ),
+                          controllore(sn25)
+                          )
+                         ),
+                        arg(
+                         funzione(obl),
+                         ruolo(actor),
+                         sn(
+                          indice(sn28),
+                          cat([any]),
+                          pr(pr_quantif, exist, _G2966, _G2967, _G2968, _G2969),
+                          spec(
+                           def(-),
+                           part(+),
+                           mod([]),
+                           foc([]),
+                           card([]),
+                           quant([])
+                           )
+                          )
+                         )
+                        ]
+                       ),
+                      adjs(
+                        [
+                        adj(
+                         temporale,
+                         sp(
+                          prep(in, cat([date, tempo]), mod(_G2863)),
+                          args(
+                            [
+                            arg(
+                             funzione(ogg),
+                             ruolo(nil),
+                             sn(
+                              indice(sn27),
+                              cat([date, tempo]),
+                              pr(quant, 1945, 3, _G2890, _G2891, _G2892),
+                              spec(
+                               def(+),
+                               part(-),
+                               mod([]),
+                               foc([]),
+                               card([]),
+                               quant(
+                                1945
+                                )
+                               ),
+                              args([]),
+                              mods([]),
+                              adjs([])
+                              )
+                             )
+                            ]
+                           )
+                          )
+                         )
+                        ]
+                       )
+                      )
+                     )
+                    ]
+                   ),
+                  adjs([])
+                  )
+                 )
+                ]
+               )
+              )
+             ),
+            adj(
+             temporale,
+             sp(
+              prep(in, cat([date, tempo]), mod(_G2682)),
+              args(
+                [
+                arg(
+                 funzione(ogg),
+                 ruolo(nil),
+                 sn(
+                  indice(sn21),
+                  cat([date, tempo]),
+                  pr(quant, 1987, 3, _G2709, _G2710, _G2711),
+                  spec(
+                   def(+),
+                   part(-),
+                   mod([]),
+                   foc([]),
+                   card([]),
+                   quant(
+                    1987
+                    )
+                   ),
+                  args([]),
+                  mods([]),
+                  adjs([])
+                  )
+                 )
+                ]
+               )
+              )
+             )
+            ]
+           )
+          )
+         )
+        ]
+       ),
+      adjs([])
+      )
+     )
+    )
+   ]
+  ),
+ adjs([])
+ )
+indice:sn32
+pred:make
+lex_form:[[sn/sogg/actor/[any], f/fcomp/propint/[subj=x]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], ncomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], acomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]], [sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/expl/[any]], [sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]], [sn/sogg/agente/[umano, istituzione, sostanza, plant], sn/ogg/tema_aff/[informa, legale, sociale, sostanza, edible]], [sn/sogg/agente/[umano, istituzione, legale], sn/ogg/tema_aff/[informa, legale, sociale, astratto], sp/ogg2/paziente/to/[umano, istituzione]], [sn/sogg/agente/[umano, istituzione, legale], sp/ogg2/paziente/to/[umano, istituzione, legale], vcomp/prop/to/[sogg=ogg/actor]], [sn/sogg/agente/[umano, istituzione, legale], sn/ogg/tema_bound/[informa, legale, sociale], acomp/prop/[_G28956|_G28957]]]
+voice:passive
+modo:ind
+tempo:trap_pross
+cat:cambiamento
+subj_top/theme_aff:indice:sn10
+                   cat:sub
+                   pred:propellant
+                   num:sing
+                   pers:3
+                   spec:def:+
+                   mods:relativa:topic:tipo_topic:relativo
+                                       indice:sn11
+                                       cat:sub
+                                       pred:pPro
+                                       controllore:sn10
+                                       tab_ref:[+ref, +pro, +ana, -me]
+                                 indice:f2
+                                 pred:use
+                                 lex_form:[sn/sogg/theme_aff/[any]]
+                                 voice:passive
+                                 modo:ind
+                                 tempo:past
+                                 cat:attivita
+                                 subj_top/theme_aff:indice:sn12
+                                                    cat:sub
+                                                    pred:pro
+                                                    pers:3
+                                                    num:sing
+                                                    caso:nom
+                                                    spec:def:+
+                                                    controllore:sn11
+                                                    tab_ref:[+ref, +pro, -ana, -me]
+                                 obl/actor:indice:sn13
+                                           cat:[any]
+                                           pred:exist
+                                           spec:def:-
+                                                part:+
+                                           tab_ref:[+ref, -pro, -ana, +me]
+                                 aspetto:attivita
+                   tab_ref:[+ref, -pro, -ana, +class]
+obl/actor:indice:sn31
+          cat:[any]
+          pred:exist
+          spec:def:-
+               part:+
+          tab_ref:[+ref, -pro, -ana, +me]
+obl/loc_origin:sem_mark:from
+               indice:sn15
+               cat:col
+               pred:chunk
+               num:plur
+               pers:3
+               spec:def:'0'
+               mods:mod/tema:indice:sn14
+                             cat:sub
+                             pred:nitrocellulose
+                             num:sing
+                             pers:3
+                             tab_ref:[+ref, -pro, -ana, +class]
+                    relativa:topic:tipo_topic:relativo
+                                   indice:sn16
+                                   cat:col
+                                   pred:pPro
+                                   controllore:sn15
+                                   tab_ref:[+ref, +pro, +ana, -me]
+                             indice:f4
+                             pred:produce
+                             lex_form:[sn/sogg/theme_aff/[any]]
+                             voice:passive
+                             modo:_L2600
+                             tempo:past
+                             cat:cambiamento
+                             subj_top/theme_aff:indice:sn17
+                                                cat:col
+                                                pred:pro
+                                                pers:3
+                                                num:plur
+                                                caso:nom
+                                                spec:def:+
+                                                controllore:sn16
+                                                tab_ref:[+ref, +pro, -ana, -me]
+                             obl/agent:indice:sn19
+                                       cat:[any]
+                                       pred:exist
+                                       spec:def:-
+                                            part:+
+                                       tab_ref:[+ref, -pro, -ana, +me]
+                             adjs:adj/temporale:sem_mark:during
+                                                ogg/nil:indice:sn18
+                                                        cat:[attivita]
+                                                        pred:'World_War_II'
+                                                        gen:mas
+                                                        num:sing
+                                                        pers:3
+                                                        spec:def:'0'
+                                                        tab_ref:[+ref, -pro, -ana, +class]
+                             aspetto:accomp
+                    relativa:topic:tipo_topic:relativo
+                                   indice:sn30
+                                   cat:col
+                                   pred:pPro
+                                   tab_ref:[+ref, +pro, +ana, -me]
+                             indice:f8
+                             pred:repackage
+                             lex_form:[sn/sogg/theme_aff/[any]]
+                             voice:passive
+                             modo:_L2624
+                             tempo:past
+                             cat:risultato
+                             subj_top/theme_aff:indice:sn20
+                                                cat:col
+                                                pred:pro
+                                                pers:3
+                                                num:plur
+                                                caso:nom
+                                                spec:def:+
+                                                controllore:sn30
+                                                tab_ref:[+ref, +pro, -ana, -me]
+                             obl/agent:indice:sn29
+                                       cat:[any]
+                                       pred:exist
+                                       spec:def:-
+                                            part:+
+                                       tab_ref:[+ref, -pro, -ana, +me]
+                             adjs:adj/temporale:sem_mark:in
+                                                ogg/nil:indice:sn24
+                                                        cat:[animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]
+                                                        pred:bag
+                                                        num:plur
+                                                        pers:3
+                                                        spec:def:'0'
+                                                        mods:relativa:topic:tipo_topic:relativo
+                                                                            indice:sn25
+                                                                            cat:[animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]
+                                                                            pred:pPro
+                                                                            controllore:sn24
+                                                                            tab_ref:[+ref, +pro, +ana, -me]
+                                                                      indice:f7
+                                                                      pred:make
+                                                                      lex_form:[sn/sogg/theme_aff/[any]]
+                                                                      voice:passive
+                                                                      modo:_L3581
+                                                                      tempo:past
+                                                                      cat:cambiamento
+                                                                      subj_top/theme_aff:indice:sn26
+                                                                                         cat:[animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano]
+                                                                                         pred:pro
+                                                                                         pers:3
+                                                                                         num:plur
+                                                                                         caso:nom
+                                                                                         spec:def:+
+                                                                                         controllore:sn25
+                                                                                         tab_ref:[+ref, +pro, -ana, -me]
+                                                                      obl/actor:indice:sn28
+                                                                                cat:[any]
+                                                                                pred:exist
+                                                                                spec:def:-
+                                                                                     part:+
+                                                                                tab_ref:[+ref, -pro, -ana, +me]
+                                                                      adjs:adj/temporale:sem_mark:in
+                                                                                         ogg/nil:indice:sn27
+                                                                                                 cat:[date, tempo]
+                                                                                                 pred:1945
+                                                                                                 pers:3
+                                                                                                 spec:def:+
+                                                                                                      part:-
+                                                                                                      quant:1945
+                                                                                                 tab_ref:[+ref, -pro, -ana, +me]
+                                                                      aspetto:accomp
+                                                        tab_ref:[+ref, -pro, -ana, +class]
+                                  adj/temporale:sem_mark:in
+                                                ogg/nil:indice:sn21
+                                                        cat:[date, tempo]
+                                                        pred:1987
+                                                        pers:3
+                                                        spec:def:+
+                                                             part:-
+                                                             quant:1987
+                                                        tab_ref:[+ref, -pro, -ana, +me]
+                             aspetto:achiev_tr
+               tab_ref:[+ref, -pro, -ana, +class]
+aspetto:accomp
+rel1:[tr(sn32_t55)aftr td(sn32_t55)]
+rel2:[tes(sn32_t55)aftr tr(sn32_t55)]
+definitezza:+
+ref_int:[tr(sn32_t55)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn10, propellant, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, sub, subj_top/theme_aff)/108
+ ref_ex(sn15, chunk, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, col, obl/loc_origin)/128
+ ref_ex(sn30, pPro, [+ref, def0, nil, nil, +pro, +ana, -me], nil, nil, nil, col, topic/_G46866)/160
+ ref_ex(sn14, nitrocellulose, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, sub, mod/tema)/185
+ ref_ex(sn24, bag, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [animato, cambia, evento, nquant, oggetto, relat, sociale, strumento, umano], ogg/nil)/191
+ ref_ex(sn31, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [any], obl/actor)/221
+ ref_ex(sn19, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [any], obl/agent)/265
+ ref_ex(sn29, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [any], obl/agent)/265
+ ref_ex(sn13, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [any], obl/actor)/266
+ ref_ex(sn18, World_War_II, [+ref, def0, nil, nil, -pro, -ana, +class], 3, mas, sing, [attivita], ogg/nil)/290
+ ref_ex(sn28, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [any], obl/actor)/341
+
+
+
+
+CLAUSE IDENTIFIER:               5-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             earlier
+RELEVANCE:                       foreground
+TEMPORAL RELATION:               before(tes(sn32_t55), tes(sn32_t55))
+DISCOURSE FOCUS:                 tes(sn32_t55)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(5, cambia)
+topic(5, expected, id19)
+topic(5, secondary, id23)
+topic(5, potential, id31)
+sr(subj_top-theme_aff, use, pro)
+sr(obl-actor, use, exist)
+sr(mod, chunk, nitrocellulose)
+sr(subj_top-theme_aff, make, propellant)
+sr(obl-actor, make, exist)
+sr(obl-loc_origin, make, chunk)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(make,
+        < definito : sn10 :
+            wff(and,
+                wff(isa,
+                    sn10,
+                    propellant),
+                wff(and,
+                    wff(isola,
+                        wff(situation,
+                            wff(use,
+                                < definito : sn12 :
+                                    wff(and,
+                                        wff(isa,
+                                            sn12,
+                                            pro),
+                                        wff(controllore,
+                                            sn12,
+                                            sn10)) >>,
+                                < exist : sn13 :
+                                    wff(isa,
+                                        sn13,
+                                        exist) >>,
+                                < process : f2 :
+                                    wff(and,
+                                        wff(isa,
+                                            f2,
+                                            pr),
+                                        wff(time,
+                                            f2,
+                                            < indefinito : t4 :
+                                                wff(and,
+                                                    wff(isa,
+                                                        t4,
+                                                        tloc),
+                                                    wff(past,
+                                                        t4)) >>)) >>))),
+                    [])) >>,
+        < exist : sn31 :
+            wff(isa,
+                sn31,
+                exist) >>,
+        < plural : sn15 :
+            wff(and,
+                wff(isa,
+                    sn15,
+                    chunk),
+                wff(and,
+                    wff(nitrocellulose,
+                        sn15),
+                    [])) >>,
+        < event : sn32 :
+            wff(and,
+                wff(isa,
+                    sn32,
+                    ev),
+                wff(time,
+                    sn32,
+                    < definito : t5 :
+                        wff(and,
+                            wff(isa,
+                                t5,
+                                tloc),
+                            wff(trap_pross,
+                                t5)) >>)) >>))
+
+
+
+loc(infon77, id30, [arg:main_tloc, arg:'World_War_II'])
+set(infon78, id31)
+card(infon79, id31, 5)
+fact(infon80, nitrocellulose, [ind:id31], 1, id30, nil)
+fact(infon81, produce, [ind:id31], 1, id30, nil)
+fact(infon82, repackage, [ind:id31], 1, id30, nil)
+fact(infon83, of, [arg:id31, specif:id31], 1, univ, univ)
+fact(infon84, of, [arg:id31, specif:id31], 1, univ, univ)
+fact(infon85, of, [arg:id31, specif:id31], 1, univ, univ)
+fact(infon86, inst_of, [ind:id31, class:col], 1, univ, univ)
+fact(infon87, isa, [ind:id31, class:chunk], 1, id30, nil)
+ind(infon88, id32)
+fact(infon89, inst_of, [ind:id32, class:sub], 1, univ, univ)
+fact(infon90, isa, [ind:id32, class:nitrocellulose], 1, id30, nil)
+in(infon91, id32, id31)
+set(infon92, id33)
+card(infon93, id33, 5)
+fact(infon94, make, [ind:id33], 1, id30, nil)
+fact(infon95, of, [arg:id33, specif:id33], 1, univ, univ)
+fact(infon96, inst_of, [ind:id33, class:man], 1, univ, univ)
+fact(infon97, isa, [ind:id33, class:bag], 1, id30, nil)
+class(infon98, id34)
+fact(infon99, inst_of, [ind:id34, class:attivita], 1, univ, univ)
+fact(infon100, isa, [ind:id34, class:'World'], 1, id30, nil)
+class(infon101, id35)
+fact(infon102, inst_of, [ind:id35, class:attivita], 1, univ, univ)
+fact(infon103, isa, [ind:id35, class:'World'], 1, id30, nil)
+class(infon104, id36)
+fact(infon105, pro, [ind:id36], 1, id30, nil)
+fact(infon106, inst_of, [ind:id36, class:attivita], 1, univ, univ)
+fact(infon107, isa, [ind:id36, class:['World', 'War', 'II']], 1, id30, nil)
+fact(infon108, isa, [arg:id19, arg:propellant], 1, id30, univ)
+fact(infon109, isa, [arg:id37, arg:exist], 1, id30, univ)
+fact(id38, use, [theme_aff:id19, actor:id37], 1, tes(f2_t55), univ)
+fact(infon110, isa, [arg:id38, arg:pr], 1, tes(f2_t55), univ)
+fact(infon111, isa, [arg:id39, arg:tloc], 1, tes(f2_t55), univ)
+fact(infon112, past, [arg:id39], 1, tes(f2_t55), univ)
+fact(infon113, time, [arg:id38, arg:id39], 1, tes(f2_t55), univ)
+fact(infon114, isa, [arg:id40, arg:exist], 1, id30, univ)
+fact(id41, make, [theme_aff:id19, actor:id40, loc_origin:id31], 1, tes(sn32_t55), univ)
+fact(infon117, isa, [arg:id41, arg:ev], 1, tes(sn32_t55), univ)
+fact(infon118, isa, [arg:id42, arg:tloc], 1, tes(sn32_t55), univ)
+fact(infon119, trap_pross, [arg:id42], 1, tes(sn32_t55), univ)
+fact(infon120, time, [arg:id41, arg:id42], 1, tes(sn32_t55), univ)
+
+before(tes(sn32_t55), tes(sn32_t55))
+includes(tr(sn32_t55), id30)
+
+
+                              down:down(4-6)
+                              clause:5-7
+                              topics:[expected:id19:propellant, secondary:id23:crew]
+                              main_fact:make([id19:propellant, id40:exist, id31:chunk], 1, univ)
+                              ref_int:tint(nil, [tes(sn32_t55)])
+                              temp_rel:before(tes(sn32_t55), tes(sn32_t55))
+                              disc_rel:narration
+                              disc_seg:6-[7]
+                              disc_dom:objective
+                              p_o_view:narrator
+

@@ -1,0 +1,704 @@
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.44444
+'Lookahead Start Active Chart'
+0-[n-'Modern'], 1-[n-development], 2-[p-of], 3-[n-'wind-energy'], 4-[n-technology], 5-[e-and], 6-[n-applications], 7-[v-was], 8-[a-well, av-well, i-well, n-well, v-well], 9-[a-underway, n-underway], 10-[p-by], 11-[d-the], 12-[d-1930], 13-[a-s], 14-[av-when, p-when, r-when, s-when, w-when], 15-[d-an], 16-[a-estimated, v-estimated], 17-[d-'600/000'], 18-[n-windmills, v-windmills], 19-[v-supplied], 20-[n-rural_areas], 21-[p-with], 22-[n-electricity], 23-[e-and], 24-[a-'water-pumping'], 25-[n-services, v-services], 26-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.33333
+0-[n-'Modern'], 1-[n-development], 2-[p-of], 3-[n-'wind-energy'], 4-[n-technology], 5-[e-and], 6-[n-applications], 7-[v-was], 8-[a-well, av-well, i-well, n-well, v-well], 9-[a-underway, n-underway], 10-[p-by], 11-[d-the], 12-[d-1930], 13-[a-s], 14-[av-when, p-when, r-when, s-when, w-when], 15-[d-an], 16-[a-estimated], 17-[d-'600/000'], 18-[n-windmills], 19-[v-supplied], 20-[n-rural_areas], 21-[p-with], 22-[n-electricity], 23-[e-and], 24-[a-'water-pumping'], 25-[n-services], 26-[x-'.']
+
+0-[n-'Modern'], 1-[n-development], 2-[p-of], 3-[n-'wind-energy'], 4-[n-technology], 5-[e-and], 6-[n-applications], 7-[v-was], 8-[a-well, av-well, i-well, n-well, v-well], 9-[a-underway, n-underway], 10-[p-by], 11-[d-the], 12-[d-1930], 13-[a-s], 14-[av-when, p-when, r-when, s-when, w-when], 15-[d-an], 16-[a-estimated], 17-[d-'600/000'], 18-[n-windmills], 19-[v-supplied], 20-[n-rural_areas], 21-[p-with], 22-[n-electricity], 23-[e-and], 24-[a-'water-pumping'], 25-[n-services], 26-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+1
+Modern-nnp
+development-nn
+of-in
+wind-energy-nn
+technology-nn
+and-cc
+applications-nns
+was-vbd
+well-vb
+underway-jj
+by-in
+the-dt
+1930-cd
+s-jj
+when-wrb
+an-dt
+estimated-jj
+600/000-cd
+windmills-nns
+supplied-vbn_jj
+rural_areas-nns
+with-in
+electricity-nn
+and-cc
+water-pumping-jj
+services-nns
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+['Modern'-n, development-n, of-p, 'wind-energy'-n, technology-n, and-cong, applications-n, was-ause, well-v, underway-ag, by-pda, the-art, 1930-num, s-ag, when-cosu, an-art, estimated-ag, '600/000'-num, windmills-n, supplied-vppt, rural_areas-n, with-p, electricity-n, and-cong, 'water-pumping'-ag, services-n, '.'-punto]
+
+f-[sn-['Modern'-n-sn, development-n-sn, mod-[of-p-sp, 'wind-energy'-n-sn, technology-n-sn]], fc-[fc-[and-cong-fc], f-[subj-[applications-n-sn]]], ibar-[was-ause-ibar], savv-[well-avv-savv], sa-[underway-ag-sa], spda-[by-pda-spda, the-art-sn, 1930-num-sn], sa-[s-ag-sa], fs-[fs-[when-cosu-fs], f-[subj-[an-art-sn, windmills-n-sn, mod-[estimated-ag-sn, '600/000'-num-sn]], ibar-[supplied-vppt-sv3], sn-[rural_areas-n-sn], sp-[with-p-sp, electricity-n-sn], fc-[and-cong-fc], sn-['water-pumping'-ag-sn, services-n-sn], cp-['.'-punto-cp]]]]
+
+1
+
+
+'Functional and Syntactic Constituency'
+
+subj-[Modern-n-sn, development-n-sn, mod-[of-p-sp, wind-energy-n-sn, technology-n-sn]]
+savv-[well-avv-savv]
+ibar-[was-ause-ibar]
+xcomp-[underway-ag-sa]
+obl-[by-pda-spda, the-art-sn, 1930-num-sn]
+xadj-[s-ag-sa]
+fs-[fs-[fs-[when-cosu-fs], f-[subj-[an-art-sn, windmills-n-sn, mod-[estimated-ag-sn, 600/000-num-sn]], ibar-[supplied-vppt-sv3], sn-[rural_areas-n-sn], sp-[with-p-sp, electricity-n-sn], fc-[and-cong-fc], sn-[water-pumping-ag-sn, services-n-sn], cp-[. - punto-cp]]]]
+
+1
+
+
+'Functional and Syntactic Constituency'
+
+fc-[and-cong-fc]
+f-[subj-[applications-n-sn]]
+ip(indice(sn31), v(be, active, [[sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [vcomp/prop/[]/[sogg=x], xcomp/prop/[_G8004|_G8005]], [vcomp/prop/[]/[sogg=ogg2], sp/ogg2/benef/for/[umano], ncomp/prop/[_G8055|_G8056]], [sn/sogg/tema_bound/[_G8073|_G8074], xcomp/prop/[_G8085|_G8086]], [sn/sogg/actor/[umano, animato], f/fcomp/prop/[sogg=sogg/actor, sogg=x]]], ind, _G7923/semp, _G7431, _G43021, _G7433), supporto([]), cat(esistenza), args([arg(funzione(acomp), ruolo(prop), saa(indice(saa2), cat([valutativo, soggettivo]), agg(underway, _G12156, _G12157), spec([]), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn29), pr(vbl, vbl, _G42509, _G42510, _G42511, _G42512), controllore(sn22)))]), adjs([]))), arg(funzione(sogg), ruolo(tema_bound), sn(indice(sn22), cat([attivita, cambia, evento, informa, legale, luogo, sociale, stato, tecno, umano, astratto, evento]), coordina([arg(funzione(sogg), ruolo(tema_bound), sn(indice(sn18), cat([attivita, cambia, evento, informa, legale, luogo, sociale, stato, tecno, umano]), n(development, _G1265, sing), spec(def(0), part(_G1254), mod([]), foc(_G1258), card(_G1260), quant([])), args([arg(funzione(ogg), ruolo(tema), sn(indice(sn20), cat([astratto, strumento]), n(technology, _G1395, sing), spec(def(0), part(_G1384), mod([]), foc(_G1388), card(_G1390), quant([])), args([]), mods([nome_mod(sn(indice(sn19), cat([astratto, attivita, cambia, evento, stato]), n(wind-energy, _G1355, sing), spec(def(0), part(_G1344), mod(_G1346), foc(_G1348), card(_G1350), quant(_G1352)), args([]), mods([]), adjs([])))]), adjs([])))]), mods([nome_mod(sn(indice(sn17), cat([astratto, attivita, informa, misura, relat, sociale, umano]), n(Modern, _G1219, sing), spec(def(0), part(_G1208), mod(_G1210), foc(_G1212), card(_G1214), quant(_G1216)), args([]), mods([]), adjs([])))]), adjs([]))), arg(funzione(sogg), ruolo(tema_bound), sn(indice(sn21), cat([astratto, evento]), n(application, _G4232, plur), spec(def(0), part(_G2961), mod([]), foc(_G2965), card(_G2941), quant([])), args([]), mods([]), adjs([])))])))]), adjs([avv(avv(pred_n(1930), tipo(temp), _G13051, config(_G13058)), mod(avv(1930))), adj(valutativo, saa(indice(saa1), cat([valutativo, soggettivo]), agg(well, _G10640, _G10641), spec([]), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn30), pr(vbl, vbl, _G42785, _G10640, _G10641, _G42788), controllore(indefinito)))]), adjs([]))), adj(circumst, relativa(topic(relativo, sn(indice(sp1), cat([tempo|_G14705]), pr(prorel, when, ., _G14698, _G14699, [obl]), controllore(sn22))), ip(indice(f1), v(supply, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any], sn/sogg/agente/[istituzione, legale, umano], sn/ogg/tema_aff/[informa, legale, umano, oggetto, sostanza]], ind, _G23725/semp, 3, plur, _G20980), supporto([]), cat(cambiamento), args([arg(funzione(sogg), ruolo(agent), sn(indice(sn23), cat([oggetto, strumento]), n(windmill, _G20980, plur), spec(def(-), part(_G19709), mod([]), foc(_G19713), card(_G19094), quant([])), args([]), mods([mod_a(sa(indice(sa1), cat([valutativo, soggettivo]), agg(estimated, _G19077, _G19078), args([])))]), adjs([]))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn27), cat([legale, attivita, informa, legale, tecno]), coordina([arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn24), cat([legale]), n(rural_area, _G27260, plur), spec(def(0), part(_G26395), mod([]), foc(_G26399), card(_G26375), quant([])), args([]), mods([adj(comitativo, sp(prep(with, [oggetto], mod(mod([]))), sn(indice(sn25), cat([oggetto]), n(electricity, _G32129, sing), spec(def(0), part(_G31264), mod([]), foc(_G31268), card(_G31244), quant([])), args([]), mods([]), adjs([]))))]), adjs([]))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn26), cat([attivita, informa, legale, tecno]), n(service, _G40336, plur), spec(def(0), part(_G39471), mod([]), foc(_G39475), card(_G39451), quant([])), args([]), mods([mod_a(sa(indice(sa2), cat([valutativo, soggettivo]), agg(water-pumping, _G39434, _G39435), args([])))]), adjs([])))]))), arg(funzione(fcomp), ruolo(prop), sp(prep(in, cat([tempo|_G14705]), _G40990), sn(indice(sn28), cat([tempo|_G14705]), pr(vbl, vbl, ., _G14698, _G14699, [obl]), controllore(sp1))))]), adjs([]))))]))
+
+
+
+
+ip(
+ indice(sn31),
+ v(be, active, [[sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [vcomp/prop/[]/[sogg=x], xcomp/prop/[_G8004|_G8005]], [vcomp/prop/[]/[sogg=ogg2], sp/ogg2/benef/for/[umano], ncomp/prop/[_G8055|_G8056]], [sn/sogg/tema_bound/[_G8073|_G8074], xcomp/prop/[_G8085|_G8086]], [sn/sogg/actor/[umano, animato], f/fcomp/prop/[sogg=sogg/actor, sogg=x]]], ind, _G7923/semp, _G7431, _G43021, _G7433),
+ supporto([]),
+ cat(esistenza),
+ args(
+   [
+   arg(
+    funzione(acomp),
+    ruolo(prop),
+    saa(
+     indice(saa2),
+     cat([valutativo, soggettivo]),
+     agg(
+      underway,
+      [],
+      []
+      ),
+     spec([]),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn29),
+         pr(vbl, vbl, _G42509, _G42510, _G42511, _G42512),
+         controllore(sn22)
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(sogg),
+    ruolo(tema_bound),
+    sn(
+     indice(sn22),
+     cat([attivita, cambia, evento, informa, legale, luogo, sociale, stato, tecno, umano, astratto, evento]),
+     coordina(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(tema_bound),
+        sn(
+         indice(sn18),
+         cat([attivita, cambia, evento, informa, legale, luogo, sociale, stato, tecno, umano]),
+         n(development, _G1265, sing),
+         spec(
+          def(0),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args(
+           [
+           arg(
+            funzione(ogg),
+            ruolo(tema),
+            sn(
+             indice(sn20),
+             cat([astratto, strumento]),
+             n(technology, _G1395, sing),
+             spec(
+              def(0),
+              part([]),
+              mod([]),
+              foc([]),
+              card([]),
+              quant([])
+              ),
+             args([]),
+             mods(
+               [
+               nome_mod(
+                sn(
+                 indice(sn19),
+                 cat([astratto, attivita, cambia, evento, stato]),
+                 n(wind-energy, _G1355, sing),
+                 spec(
+                  def(0),
+                  part([]),
+                  mod([]),
+                  foc([]),
+                  card([]),
+                  quant([])
+                  ),
+                 args([]),
+                 mods([]),
+                 adjs([])
+                 )
+                )
+               ]
+              ),
+             adjs([])
+             )
+            )
+           ]
+          ),
+         mods(
+           [
+           nome_mod(
+            sn(
+             indice(sn17),
+             cat([astratto, attivita, informa, misura, relat, sociale, umano]),
+             n(Modern, _G1219, sing),
+             spec(
+              def(0),
+              part([]),
+              mod([]),
+              foc([]),
+              card([]),
+              quant([])
+              ),
+             args([]),
+             mods([]),
+             adjs([])
+             )
+            )
+           ]
+          ),
+         adjs([])
+         )
+        ),
+       arg(
+        funzione(sogg),
+        ruolo(tema_bound),
+        sn(
+         indice(sn21),
+         cat([astratto, evento]),
+         n(application, _G4232, plur),
+         spec(
+          def(0),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods([]),
+         adjs([])
+         )
+        )
+       ]
+      )
+     )
+    )
+   ]
+  ),
+ adjs(
+   [
+   avv(avv(pred_n(1930), tipo(temp), _G13051, config(_G13058)), mod(avv(1930))),
+   adj(
+    valutativo,
+    saa(
+     indice(saa1),
+     cat([valutativo, soggettivo]),
+     agg(
+      well,
+      [],
+      []
+      ),
+     spec([]),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn30),
+         pr(vbl, vbl, _G42785, [], [], _G42788),
+         controllore(indefinito)
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    ),
+   adj(
+    circumst,
+    relativa(
+     topic(
+      relativo,
+      sn(
+       indice(sp1),
+       cat([tempo|_G14705]),
+       pr(prorel, when, ., _G14698, _G14699, [obl]),
+       controllore(sn22)
+       )
+      ),
+     ip(
+      indice(f1),
+      v(supply, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any], sn/sogg/agente/[istituzione, legale, umano], sn/ogg/tema_aff/[informa, legale, umano, oggetto, sostanza]], ind, _G23725/semp, 3, plur, _G20980),
+      supporto([]),
+      cat(cambiamento),
+      args(
+        [
+        arg(
+         funzione(sogg),
+         ruolo(agent),
+         sn(
+          indice(sn23),
+          cat([oggetto, strumento]),
+          n(windmill, _G20980, plur),
+          spec(
+           def(-),
+           part([]),
+           mod([]),
+           foc([]),
+           card([]),
+           quant([])
+           ),
+          args([]),
+          mods(
+            [
+            mod_a(
+             sa(
+              indice(sa1),
+              cat([valutativo, soggettivo]),
+              agg(
+               estimated,
+               [],
+               []
+               ),
+              args([])
+              )
+             )
+            ]
+           ),
+          adjs([])
+          )
+         ),
+        arg(
+         funzione(ogg),
+         ruolo(theme_aff),
+         sn(
+          indice(sn27),
+          cat([legale, attivita, informa, legale, tecno]),
+          coordina(
+            [
+            arg(
+             funzione(ogg),
+             ruolo(theme_aff),
+             sn(
+              indice(sn24),
+              cat([legale]),
+              n(rural_area, _G27260, plur),
+              spec(
+               def(0),
+               part([]),
+               mod([]),
+               foc([]),
+               card([]),
+               quant([])
+               ),
+              args([]),
+              mods(
+                [
+                adj(
+                 comitativo,
+                 sp(
+                  prep(with, [oggetto], mod(mod([]))),
+                  sn(
+                   indice(sn25),
+                   cat([oggetto]),
+                   n(electricity, _G32129, sing),
+                   spec(
+                    def(0),
+                    part([]),
+                    mod([]),
+                    foc([]),
+                    card([]),
+                    quant([])
+                    ),
+                   args([]),
+                   mods([]),
+                   adjs([])
+                   )
+                  )
+                 )
+                ]
+               ),
+              adjs([])
+              )
+             ),
+            arg(
+             funzione(ogg),
+             ruolo(theme_aff),
+             sn(
+              indice(sn26),
+              cat([attivita, informa, legale, tecno]),
+              n(service, _G40336, plur),
+              spec(
+               def(0),
+               part([]),
+               mod([]),
+               foc([]),
+               card([]),
+               quant([])
+               ),
+              args([]),
+              mods(
+                [
+                mod_a(
+                 sa(
+                  indice(sa2),
+                  cat([valutativo, soggettivo]),
+                  agg(
+                   water-pumping,
+                   [],
+                   []
+                   ),
+                  args([])
+                  )
+                 )
+                ]
+               ),
+              adjs([])
+              )
+             )
+            ]
+           )
+          )
+         ),
+        arg(
+         funzione(fcomp),
+         ruolo(prop),
+         sp(
+          prep(in, cat([tempo|_G14705]), _G40990),
+          sn(
+           indice(sn28),
+           cat([tempo|_G14705]),
+           pr(vbl, vbl, ., _G14698, _G14699, [obl]),
+           controllore(sp1)
+           )
+          )
+         )
+        ]
+       ),
+      adjs([])
+      )
+     )
+    )
+   ]
+  )
+ )
+indice:sn31
+pred:be
+lex_form:[[sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [vcomp/prop/[]/[sogg=x], xcomp/prop/[_G8182|_G8183]], [vcomp/prop/[]/[sogg=ogg2], sp/ogg2/benef/for/[umano], ncomp/prop/[_G8233|_G8234]], [sn/sogg/tema_bound/[_G8251|_G8252], xcomp/prop/[_G8263|_G8264]], [sn/sogg/actor/[umano, animato], f/fcomp/prop/[sogg=sogg/actor, sogg=x]]]
+voice:active
+modo:ind
+tempo:pres
+cat:esistenza
+acomp/prop:indice:saa2
+           cat:[valutativo, soggettivo]
+           pred:underway
+           sogg/nil:indice:sn29
+                    pred:vbl
+                    controllore:sn22
+                    tab_ref:[+ref, -pro, -ana, -me]
+sogg/tema_bound:indice:sn22
+                cat:[attivita, cambia, evento, informa, legale, luogo, sociale, stato, tecno, umano, astratto, evento]
+                coordina:testa:coordinante
+                         num:plur
+                         sogg/tema_bound:indice:sn18
+                                         cat:[attivita, cambia, evento, informa, legale, luogo, sociale, stato, tecno, umano]
+                                         pred:development
+                                         num:sing
+                                         pers:3
+                                         spec:def:'0'
+                                         ogg/tema:indice:sn20
+                                                  cat:[astratto, strumento]
+                                                  pred:technology
+                                                  num:sing
+                                                  pers:3
+                                                  spec:def:'0'
+                                                  mods:mod/tema:indice:sn19
+                                                                cat:[astratto, attivita, cambia, evento, stato]
+                                                                pred:'wind-energy'
+                                                                num:sing
+                                                                pers:3
+                                                                tab_ref:[+ref, -pro, -ana, +class]
+                                                  tab_ref:[+ref, -pro, -ana, +class]
+                                         mods:mod/tema:indice:sn17
+                                                       cat:[astratto, attivita, informa, misura, relat, sociale, umano]
+                                                       pred:'Modern'
+                                                       num:sing
+                                                       pers:3
+                                                       tab_ref:[+ref, -pro, -ana, +class]
+                                         tab_ref:[+ref, -pro, -ana, +class]
+                         sogg/tema_bound:indice:sn21
+                                         cat:[astratto, evento]
+                                         pred:application
+                                         num:plur
+                                         pers:3
+                                         spec:def:'0'
+                                         tab_ref:[+ref, -pro, -ana, +class]
+adjs:avv:adj/temp:pred:1930
+                  duraz:_L1487
+                  config:_L1511
+         mod:avv:1930
+     adj/valutativo:indice:saa1
+                    cat:[valutativo, soggettivo]
+                    pred:well
+                    sogg/nil:indice:sn30
+                             pred:vbl
+                             controllore:indefinito
+                             tab_ref:[+ref, -pro, -ana, -me]
+     adj:circumst
+aspetto:stato
+rel1:[td(sn31_t71)=tr(sn31_t71)]
+rel2:[incluso(tr(sn31_t71), tes(sn31_t71))]
+definitezza:-
+ref_int:[tr(sn31_t71)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn18, development, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [attivita, cambia, evento, informa, legale, luogo, sociale, stato, tecno, umano], sogg/tema_bound)/50
+ ref_ex(sp1, when, [+ref, def0, nil, nil, -pro, -ana, -me], ., nil, nil, [tempo|_G15959], topic/_G15924)/61
+ ref_ex(sn23, windmill, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, plur, [oggetto, strumento], sogg/agent)/61
+ ref_ex(sn24, rural_area, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [legale], ogg/theme_aff)/95
+ ref_ex(sn26, service, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [attivita, informa, legale, tecno], ogg/theme_aff)/96
+ ref_ex(sn17, Modern, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita, informa, misura, relat, sociale, umano], mod/tema)/116
+ ref_ex(sn21, application, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [astratto, evento], sogg/tema_bound)/149
+ ref_ex(sn20, technology, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, strumento], ogg/tema)/161
+ ref_ex(sn19, wind-energy, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita, cambia, evento, stato], mod/tema)/230
+ ref_ex(sn25, electricity, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto], adj/comitativo)/250
+
+EXPECTED TOPIC : ref_ex(sn18, development, _G16885, 3, nil, sing, [attivita, cambia, evento, informa, legale, luogo, sociale, stato, tecno, umano], sogg/tema_bound)
+POTENTIAL TOPICS : ref_ex(sp1, when, [+ref, def0, nil, nil, -pro, -ana, -me], '.', nil, nil, [tempo|_G17413], topic/_G17416), ref_ex(sn23, windmill, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, plur, [oggetto, strumento], sogg/agent), ref_ex(sn24, rural_area, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [legale], ogg/theme_aff), ref_ex(sn26, service, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [attivita, informa, legale, tecno], ogg/theme_aff), ref_ex(sn17, 'Modern', [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita, informa, misura, relat, sociale, umano], mod/tema), ref_ex(sn21, application, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [astratto, evento], sogg/tema_bound), ref_ex(sn20, technology, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, strumento], ogg/tema), ref_ex(sn19, 'wind-energy', [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita, cambia, evento, stato], mod/tema), ref_ex(sn25, electricity, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto], adj/comitativo)
+
+stato(1, cambia)
+
+rel_temp(infon1, td, tr(sn31_t71), [eq])
+
+
+CLAUSE IDENTIFIER:               1-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(sn31_t71), tr(sn31_t71))
+DISCOURSE FOCUS:                 tes(sn31_t71)
+DISCOURSE RELATION:              result
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               1-n154
+CLAUSE TYPE:                     fcomp/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn28_t71), tes(sn31_t71))
+DISCOURSE FOCUS:                 tes(sn31_t71)
+DISCOURSE RELATION:              result
+DISCOURSE DOMAIN:                explicit_subjective
+SUBJECT OF CONSCIOUSNESS:        _G18715/_G18714, from, _G18713
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, expected, id3)
+topic(1, potential, id4)
+sr(acomp-prop, be, underway)
+sr(adj-valutativo, be, well)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(be,
+        < set : sn22 :
+            < entity : sn18 :
+                wff(and,
+                    wff(isa,
+                        sn18,
+                        development),
+                    wff(Modern,
+                        sn18)) >>,
+            < plural : sn21 :
+                wff(isa,
+                    sn21,
+                    application) >> >>,
+        wff(underway,
+            < definito : sn29 :
+                wff(and,
+                    wff(isa,
+                        sn29,
+                        vbl),
+                    wff(controllore,
+                        sn29,
+                        sn22)) >>,
+            < definito : saa2 :
+                wff(and,
+                    wff(and,
+                        wff(has,
+                            < definito : sn29 :
+                                wff(and,
+                                    wff(isa,
+                                        sn29,
+                                        vbl),
+                                    wff(controllore,
+                                        sn29,
+                                        sn22)) >>),
+                        wff(isa,
+                            saa2,
+                            underway)),
+                    []) >>),
+        < state : sn31 :
+            wff(and,
+                wff(isa,
+                    sn31,
+                    st),
+                wff(and,
+                    wff(time,
+                        sn31,
+                        < indefinito : t1 :
+                            wff(and,
+                                wff(isa,
+                                    t1,
+                                    tloc),
+                                wff(pres,
+                                    t1)) >>),
+                    wff(well,
+                        sn31))) >>))
+
+
+
+loc(infon2, id1, [arg:main_tloc, arg:1930])
+loc(infon3, id2, [arg:main_sloc, arg:when])
+class(infon4, id3)
+fact(infon5, 'Modern', [ind:id3], 1, id1, id2)
+fact(infon6, of, [arg:id3, specif:id3], 1, univ, univ)
+fact(infon7, inst_of, [ind:id3, class:legal], 1, univ, univ)
+fact(infon8, isa, [ind:id3, class:development], 1, id1, id2)
+class(infon9, id4)
+fact(infon10, inst_of, [ind:id4, class:tempo], 1, univ, univ)
+fact(infon11, isa, [ind:id4, class:when], 1, id1, id2)
+set(infon12, id5)
+card(infon13, id5, 5)
+fact(infon14, isa, [ind:id5, class:windmill], 1, id1, id2)
+fact(infon15, inst_of, [ind:id5, class:thing], 1, univ, univ)
+set(infon16, id6)
+card(infon17, id6, 5)
+class(infon18, id7)
+fact(infon19, inst_of, [ind:id7, class:oggetto], 1, univ, univ)
+fact(infon20, isa, [ind:id7, class:electricity], 1, univ, univ)
+fact(infon22, of, [arg:id6, specif:id7], 1, univ, univ)
+fact(infon23, of, [arg:id6, specif:id7], 1, univ, univ)
+fact(infon24, inst_of, [ind:id6, class:legal], 1, univ, univ)
+fact(infon25, isa, [ind:id6, class:[rural, area]], 1, id1, id2)
+set(infon26, id8)
+card(infon27, id8, 5)
+fact(infon28, inst_of, [ind:id8, class:legal], 1, univ, univ)
+fact(infon29, isa, [ind:id8, class:service], 1, id1, id2)
+ind(infon30, id9)
+fact(infon31, inst_of, [ind:id9, class:man], 1, univ, univ)
+fact(infon32, isa, [ind:id9, class:'Modern'], 1, id1, id2)
+in(infon33, id9, id3)
+set(infon34, id10)
+card(infon35, id10, 5)
+fact(infon36, application, [ind:id10], 1, id1, id2)
+fact(infon37, inst_of, [ind:id10, class:abstract_state], 1, univ, univ)
+fact(infon38, isa, [ind:id10, class:application], 1, id1, id2)
+class(infon39, id11)
+fact(infon40, 'wind-energy', [ind:id11], 1, id1, id2)
+class(infon41, id12)
+fact(infon42, inst_of, [ind:id12, class:astratto], 1, univ, univ)
+fact(infon43, isa, [ind:id12, class:energy], 1, univ, univ)
+fact(infon45, of, [arg:id11, specif:id12], 1, univ, univ)
+fact(infon46, inst_of, [ind:id11, class:abstract_state], 1, univ, univ)
+fact(infon47, isa, [ind:id11, class:site], 1, id1, id2)
+ind(infon48, id13)
+fact(infon49, inst_of, [ind:id13, class:abstract_state], 1, univ, univ)
+fact(infon50, inst_of, [ind:id13, class:energy], 1, univ, univ)
+fact(infon51, isa, [ind:id13, class:energy], 1, univ, univ)
+fact(infon52, isa, [ind:id13, class:wind_energy], 1, univ, univ)
+class(infon53, id14)
+fact(infon54, isa, [ind:id14, class:wind], 1, univ, univ)
+fact(infon55, of, [arg:id14, specif:id13], 1, univ, univ)
+in(infon70, id3, id15)
+in(infon71, id10, id15)
+fact(infon59, has, [nil:id15], 1, id1, id2)
+fact(infon60, isa, [arg:id16, arg:underway], 1, id1, id2)
+fact(infon61, underway, [nil:id15, arg:id16], 1, id1, id2)
+fact(id17, be, [prop:infon61], 1, tes(sn31_t71), id2)
+fact(infon62, isa, [arg:id17, arg:st], 1, tes(sn31_t71), id2)
+fact(infon63, isa, [arg:id18, arg:tloc], 1, tes(sn31_t71), id2)
+fact(infon64, pres, [arg:id18], 1, tes(sn31_t71), id2)
+fact(infon65, time, [arg:id17, arg:id18], 1, tes(sn31_t71), id2)
+fact(infon66, well, [arg:id17], 1, tes(sn31_t71), id2)
+
+during(tes(sn28_t71), tes(sn31_t71))
+includes(tr(sn31_t71), id1)
+
+
+   root:new(1-1)
+   clause:1-1
+   topics:[expected:id3:development]
+   main_fact:be([infon61:underway], 1, id2)
+   ref_int:tint(tes(sn31_t71), [])
+   temp_rel:contains(tes(sn31_t71), tr(sn31_t71))
+   disc_rel:result
+   disc_seg:1-[1]
+   disc_dom:objective
+   p_o_view:narrator
+
+            down:down(1-1)
+            clause:1-2
+            topics:[expected:id3:development]
+            main_fact:vbl([id3:development], 1, id2)
+            ref_int:tint(nil, [tes(sn28_t71)])
+            temp_rel:during(tes(sn28_t71), tes(sn31_t71))
+            disc_rel:result
+            disc_seg:1-[2]
+            disc_dom:subjective
+            p_o_view:nil

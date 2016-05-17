@@ -1,0 +1,144 @@
+﻿Allora, FINALMENTE ho finito il training, sono riuscita a capire cosa mi mancava e adesso se dio vuole tutto funziona.
+Allora, il training l'ho fatto sul corpus allineato manualmente (circa 46.000 coppie) che comprende i testi teatrali, il pezzo sulla storia americana, i proverbi e frasi celebri che mi ha dato l'altra volta più il dizionario appiccicato in fondo per aiutare l'allineamento.
+Riguardo alle impostazioni di Moses, non so molto. Comunque le copio qui sotto le frasi di test che ho utilizzato. Di solito la prima è identica a una frase del training, mentre la seconda è una versione modificata. Come vede io adesso ho convertito tutto in lower case, ma ovviamente fatica con i nomi propri. Se invece si lascia l'upper case, non traduce tutto quello che inizia per maiuscola, compreso l'inizio di frase. Insomma, non è molto intelligente...
+
+spotàcio a ghe dixe ke manca ncora na roba ała banda .
+Translating: spotàcio a ghe dixe ke manca ncora na roba ała banda .
+BEST TRANSLATION: filth said unquestionably still something wing band . [111111111111]  [total=-453.412] <<0.000, -8.000, 0.000, -2.041, 0.000, 0.000, -1.331, 0.000, 0.000, -900.000, -9.856, -19.711, -12.087, -17.349, 6.999>>
+filth said unquestionably still something wing band .
+Translation took 0.050 seconds
+Finished translating
+
+spotàcio a ghe dixe ke manca ncora na roba ała difexa .
+Translating: spotàcio a ghe dixe ke manca ncora na roba ała difexa .
+BEST TRANSLATION: filth said unquestionably still something wing worldly . [111111111111]  [total=-454.080] <<0.000, -8.000, 0.000, -2.454, 0.000, 0.000, -1.842, 0.000, 0.000, -900.000, -9.894, -19.556, -14.117, -18.387, 7.999>>
+filth said unquestionably still something wing worldly .
+Translation took 0.050 seconds
+Finished translating
+
+a me dimando se anca cleo ła gavea paura ancó sol giaso ?
+Translating: a me dimando se anca cleo ła gavea paura ancó sol giaso ?
+BEST TRANSLATION: i wonder if cleo had scary today adjective ice ? [1111111111111]  [total=-548.582] <<0.000, -10.000, 0.000, -1.832, 0.000, 0.000, -4.461, 0.000, 0.000, -1100.000, -6.651, -16.056, -5.823, -11.942, 6.999>>
+i wonder if cleo had scary today adjective ice ?
+Translation took 0.090 seconds
+Finished translating
+
+a me dimando se anca mary ła gavea paura ancó in te łe provinse setentrionałi ?
+Translating: a me dimando se anca mary ła gavea paura ancó in te łe provinse setentrionałi ?
+BEST TRANSLATION: i wonder if mary had scary today in the provinces northern ? [1111111111111111]  [total=-648.800] <<0.000, -12.000, 0.000, -3.866, 0.000, 0.000, -4.667, 0.000, 0.000, -1300.000, -12.395, -23.001, -3.124, -11.680, 8.999>>
+i wonder if mary had scary today in the provinces northern ?
+Translation took 0.080 seconds
+Finished translating
+
+ma a go idea ke xe sta ła to beła létara a convìnsarla .
+Translating: ma a go idea ke xe sta ła to beła létara a convìnsarla .
+BEST TRANSLATION: i think was your nice letter to convinced . [11111111111111]  [total=-502.163] <<0.000, -9.000, 0.000, -1.809, 0.000, 0.000, -1.791, 0.000, 0.000, -1000.000, -12.299, -26.357, -6.137, -12.623, 6.999>>
+i think was your nice letter to convinced .
+Translation took 0.090 seconds
+Finished translating
+
+ma a go idea ke xe sta l'existenzsa del pòpolo vèneto a convìnsarla .
+Translating: ma a go idea ke xe sta l'existenzsa del pòpolo vèneto a convìnsarla .
+BEST TRANSLATION: i think was popolo of 2010 veneto i convinced . [11111111111111]  [total=-588.466] <<0.000, -10.000, 0.000, -2.762, 0.000, 0.000, -2.926, 0.000, 0.000, -1100.000, -19.937, -112.351, -11.642, -99.868, 9.999>>
+i think was popolo of 2010 veneto i convinced .
+Translation took 0.090 seconds
+Finished translating
+
+charley el rivarà presto a darme na man .
+Translating: charley el rivarà presto a darme na man .
+BEST TRANSLATION: charley soon soon to help me . [111111111]  [total=-433.708] <<0.000, -7.000, 0.000, -1.539, 0.000, 0.000, -1.385, 0.000, 0.000, -800.000, -9.068, -100.137, -2.643, -92.307, 4.999>>
+charley soon soon to help me .
+Translation took 0.050 seconds
+Finished translating
+
+charley el rivarà presto a negosiàr la conservasiòn d ela so identità e istitusion nasionàl .
+Translating: charley el rivarà presto a negosiàr la conservasiòn d ela so identità e istitusion nasionàl .
+BEST TRANSLATION: charley soon soon to preservation la preservation d preservation 'm identity and institutions notably . [1111111111111111]  [total=-867.860] <<0.000, -15.000, 0.000, -4.643, 0.000, 0.000, -4.698, 0.000, 0.000, -1600.000, -17.497, -191.721, -13.954, -191.114, 13.999>>
+charley soon soon to preservation la preservation d preservation 'm identity and institutions notably .
+Translation took 0.220 seconds
+Finished translating
+
+no poso miga star co calchedun che no 'l pol star sensa de mi .
+Translating: no poso miga star co calchedun che no 'l pol star sensa de mi .
+BEST TRANSLATION: i can live with traces that thereof can stay without me . [111111111111111]  [total=-649.820] <<0.000, -12.000, 0.000, -2.044, 0.000, 0.000, -3.963, 0.000, 0.000, -1300.000, -5.991, -23.194, -6.961, -21.940, 7.999>>
+i can live with traces that thereof can stay without me .
+Translation took 0.150 seconds
+Finished translating
+
+no poso miga star co calchedun che el votarà pa la indipandensa .
+Translating: no poso miga star co calchedun che el votarà pa la indipandensa .
+BEST TRANSLATION: i can live with traces that the 2010 for independence . [1111111111111]  [total=-634.711] <<0.000, -11.000, 0.000, -2.568, 0.000, 0.000, -2.692, 0.000, 0.000, -1200.000, -12.615, -110.127, -4.857, -101.066, 7.999>>
+i can live with traces that the 2010 for independence .
+Translation took 0.120 seconds
+Finished translating
+
+on omo che n' perde i sentimenti per certe cosse, nol ga sentimenti da perdare .
+Translating: on omo che n' perde i sentimenti per certe cosse, nol ga sentimenti da perdare .
+BEST TRANSLATION: a man who expansive loses they mind cyberspace certain cosse,|UNK|UNK|UNK fortune-teller has mind to lose . [1111111111111111]  [total=-950.475] <<0.000, -16.000, -100.000, -5.513, 0.000, 0.000, -6.895, 0.000, 0.000, -1700.000, -16.721, -24.775, -15.187, -20.079, 12.999>>
+a man who expansive loses they mind cyberspace certain cosse, fortune-teller has mind to lose .
+Translation took 0.250 seconds
+Finished translating
+
+on omo che n' perde i sentimenti per certe cosse, el pol metar in mostra el so laóro de prima matina .
+Translating: on omo che n' perde i sentimenti per certe cosse, el pol metar in mostra el so laóro de prima matina .
+BEST TRANSLATION: a man who expansive loses they mind cyberspace certain cosse,|UNK|UNK|UNK can crumbs in exibition his job first morning . [1111111111111111111111]  [total=-1100.661] <<0.000, -19.000, -100.000, -5.181, 0.000, 0.000, -9.122, 0.000, 0.000, -2000.000, -25.997, -27.562, -16.125, -23.165, 15.998>>
+a man who expansive loses they mind cyberspace certain cosse, can crumbs in exibition his job first morning .
+Translation took 0.240 seconds
+Finished translating
+
+ałora i confini połitici i raprexentava in pratica anca i limiti comerciałi .
+Translating: ałora i confini połitici i raprexentava in pratica anca i limiti comerciałi .
+BEST TRANSLATION: so they limits political they represented virtually even they debated boundaries . [1111111111111]  [total=-647.711] <<0.000, -12.000, 0.000, -4.197, 0.000, 0.000, -4.166, 0.000, 0.000, -1300.000, -9.532, -15.813, -6.122, -15.541, 10.999>>
+so they limits political they represented virtually even they debated boundaries .
+Translation took 0.100 seconds
+Finished translating
+
+ałora i confini połitici i raprexentava in pratica anca la integrità teritoriàl contro st'altre potense europee .
+Translating: ałora i confini połitici i raprexentava in pratica anca la integrità teritoriàl contro st'altre potense europee .
+BEST TRANSLATION: so they limits political they represented virtually even the territorial territorial against integrity european powers . [11111111111111111]  [total=-845.828] <<0.000, -16.000, 0.000, -4.672, 0.000, 0.000, -4.403, 0.000, 0.000, -1700.000, -10.632, -25.030, -4.612, -18.252, 12.999>>
+so they limits political they represented virtually even the territorial territorial against integrity european powers .
+Translation took 0.140 seconds
+Finished translating
+
+a so drio téndar me fradèło intanto ke me mama ła parecia ła so festa .
+Translating: a so drio téndar me fradèło intanto ke me mama ła parecia ła so festa .
+BEST TRANSLATION: i watching my brother while my mom the 'mores his party . [1111111111111111]  [total=-648.765] <<0.000, -12.000, 0.000, -2.236, 0.000, 0.000, -2.042, 0.000, 0.000, -1300.000, -11.512, -24.821, -5.114, -13.961, 7.999>>
+i watching my brother while my mom the 'mores his party .
+Translation took 0.140 seconds
+Finished translating
+
+a so drio téndar me fradèło intanto ke me la scòsia la xè ncòra màsa picenìna pa difendar i so intarèsi .
+Translating: a so drio téndar me fradèło intanto ke me la scòsia la xè ncòra màsa picenìna pa difendar i so intarèsi .
+BEST TRANSLATION: i watching my brother while my scotland greatly continuity too small for interests his properly . [1111111111111111111111]  [total=-890.060] <<0.000, -16.000, 0.000, -7.525, 0.000, 0.000, -6.174, 0.000, 0.000, -1700.000, -25.149, -127.794, -11.196, -107.611, 11.999>>
+i watching my brother while my scotland greatly continuity too small for interests his properly .
+Translation took 0.130 seconds
+Finished translating
+
+dapò i dełegà i pasa a ragionàr su come afrontàr el pericoło fransexe .
+Translating: dapò i dełegà i pasa a ragionàr su come afrontàr el pericoło fransexe .
+BEST TRANSLATION: the delegates they beyond i cope up how coping the french threat . [11111111111111]  [total=-733.841] <<0.000, -13.000, 0.000, -2.565, 0.000, 0.000, -5.054, 0.000, 0.000, -1400.000, -8.992, -108.061, -9.381, -106.343, 9.999>>
+the delegates they beyond i cope up how coping the french threat .
+Translation took 0.180 seconds
+Finished translating
+
+dapò i dełegà i pasa a ragionàr su come afrontàr la condisiòn economega dixastroxa .
+Translating: dapò i dełegà i pasa a ragionàr su come afrontàr la condisiòn economega dixastroxa .
+BEST TRANSLATION: the delegates they beyond i cope up how coping la terrible economic situation . [111111111111111]  [total=-784.454] <<0.000, -14.000, 0.000, -3.219, 0.000, 0.000, -5.708, 0.000, 0.000, -1500.000, -10.938, -109.170, -13.689, -107.080, 11.999>>
+the delegates they beyond i cope up how coping la terrible economic situation .
+Translation took 0.180 seconds
+Finished translating
+
+dapò el massachussetts ga capio ke el podea ełiminàr i fransexi soło co l' ajuto de sipia de staltre provinse ke deła gran bretagna .
+Translating: dapò el massachussetts ga capio ke el podea ełiminàr i fransexi soło co l' ajuto de sipia de staltre provinse ke deła gran bretagna .
+BEST TRANSLATION: after the thirty-four has befallen that annually eliminate they french only with the colony of acknowledgement of statutes campaign . [1111111111111111111111111]  [total=-1055.446] <<0.000, -20.000, 0.000, -7.752, 0.000, 0.000, -7.529, 0.000, 0.000, -2100.000, -17.579, -42.717, -23.324, -37.688, 16.998>>
+after the thirty-four has befallen that annually eliminate they french only with the colony of acknowledgement of statutes campaign .
+Translation took 0.410 seconds
+Finished translating
+
+dapò el massachussetts ga capio ke el podea ełiminàr i fransexi soło co l' ajuto de le relasion fra inghiltera e scòsia , dove l'industria privà la xera debole .
+Translating: dapò el massachussetts ga capio ke el podea ełiminàr i fransexi soło co l' ajuto de le relasion fra inghiltera e scòsia , dove l'industria privà la xera debole .
+BEST TRANSLATION: after the thirty-four has befallen that annually eliminate they french only with the colony the relations between england scotland where private industry is weak . [111111111111111111111111111111]  [total=-1308.337] <<0.000, -25.000, 0.000, -10.228, 0.000, 0.000, -12.164, 0.000, 0.000, -2600.000, -34.187, -57.282, -20.379, -41.244, 19.998>>
+after the thirty-four has befallen that annually eliminate they french only with the colony the relations between england scotland where private industry is weak .
+Translation took 0.330 seconds
+Finished translating
+

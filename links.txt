@@ -1,0 +1,2 @@
+http://aclweb.org/aclwiki/index.php?title=Textual_Entailment_Resource_Pool
+http://www.sigsem.org/wiki/STEP_2008_shared_task:_comparing_semantic_representations

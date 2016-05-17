@@ -1,0 +1,31 @@
+Minimal pairs for [r] vs. [re] in initial position:
+r 	re 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	s 	t 	u 	v 	x 	y 	z 
+
+Minimal pairs for [r] vs. [re] in medial position:
+baxàr 	baxàre 		
+bévar 	bévare 		
+co£or 	co£ore 		
+cor 	core 			co' 	coi 	col 	com 	con 	cow 
+dar 	dare 			dai 	dal 
+dirte 	direte 		
+intersi 	interesi 		
+letór 	letóre 		
+mar 	mare 			ma… 	mac 	mai 	mal 	man 	may 
+morta 	moreta 			monta 
+nar 	nare 			na… 	nap 
+odor 	odore 		
+or 	ore 			o… 	oa 	of 	oh 	ok 	on 	oo 	ow 
+par 	pare 			pa' 	pai 	pal 	pan 	pao 
+para 	parea 			paca 	papa 	pasa 
+parcià 	parecià 		
+partico£ar 	partico£are 		
+parukier 	parukiere 		
+popo£ar 	popo£are 		
+rego£ar 	rego£are 		
+rìdar 	rìdare 		
+sior 	siore 		
+tre 	tree 			the 
+va£or 	va£ore 		
+valor 	valore 		
+
+Minimal pairs for [r] vs. [re] in final position:

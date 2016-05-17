@@ -1,0 +1,12 @@
+Minimal pairs for [g] vs. [k] in initial position:
+g 	k 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	h 	i 	j 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+ge 	ke 			£e 	…e 	be 	ce 	de 	he 	le 	me 	ne 	re 	se 	te 	ve 	xe 	ye 
+give 	kive 			live 
+go 	ko 			£o 	co 	do 	ho 	lo 	no 	oo 	so 	to 	uo 	vo 	xo 	zo 
+
+Minimal pairs for [g] vs. [k] in medial position:
+pogo 	poko 			poco 	poro 	poso 
+segonda 	sekonda 			seconda 
+staga 	staka 			stada 	stava 
+
+Minimal pairs for [g] vs. [k] in final position:

@@ -1,0 +1,103 @@
+Minimal pairs for [e] vs. [é] in initial position:
+e 	é 			+ 	£ 	… 	a 	b 	c 	ç 	d 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+
+Minimal pairs for [e] vs. [é] in medial position:
+acenti 	acénti 		
+altroke 	altroké 		
+barketa 	barkéta 		
+be£esa 	be£ésa 		
+bevar 	bévar 		
+caena 	caéna 		
+cagneto 	cagnéto 		
+careghe 	caréghe 		
+catemose 	catémose 		
+conejo 	conéjo 		
+corendo 	coréndo 		
+credar 	crédar 		
+credea 	credéa 		
+cuei 	cuéi 			cusi 
+cuel 	cuél 			curl 
+dixea 	dixéa 		
+domeke 	domeké 		
+doxento 	doxénto 		
+exenpi 	exénpi 		
+fameja 	faméja 		
+faxevino 	faxévino 		
+fisceto 	fiscéto 		
+frego£a 	frégo£a 		
+gavea 	gavéa 		
+gavemo 	gavémo 			gavimo 
+gavese 	gavése 		
+gavevi 	gavévi 		
+gavevino 	gavévino 		
+ghemo 	ghémo 		
+inboreso 	inboréso 		
+insteso 	instéso 		
+intendito 	inténdito 		
+intiero 	intiéro 		
+invese 	invése 		
+ke£a 	ké£a 		
+laoreto 	laoréto 		
+lengoa 	léngoa 		
+letara 	létara 		
+lexemo 	lexémo 		
+magnemo 	magnémo 		
+maraveja 	maravéja 		
+mea 	méa 			mia 
+mejo 	méjo 			majo 	màjo 	mèjo 	mòjo 
+meo 	méo 			mio 
+meso 	méso 			maso 	moso 
+moreta 	moréta 		
+nemo 	némo 		
+ole 	olé 		
+orseto 	orséto 		
+parea 	paréa 			parla 
+parer 	parér 			parar 
+pareva 	paréva 			parava 
+parke 	parké 			parkè 
+pena 	péna 		
+pensito 	pénsito 		
+pesa 	pésa 			pasa 	pèsa 	posa 	pusa 
+piaser 	piasér 		
+piaxer 	piaxér 		
+podea 	podéa 		
+podemo 	podémo 			podimo 
+poder 	podér 		
+podese 	podése 		
+porse£eto 	porse£éto 		
+rikesa 	rikésa 		
+savea 	savéa 		
+sceto 	scéto 		
+se 	sé 			sa 	sc 	sè 	sh 	si 	sì 	sk 	so 	só 	ss 	su 	sz 
+seca 	séca 		
+seco 	séco 			saco 	suco 
+sedaxe 	sédaxe 		
+see 	sée 			sce 	she 	sie 	ste 
+segno 	ségno 			sogno 
+sena 	séna 			sona 
+sente 	sénte 		
+sesto 	sésto 			sèsto 	susto 
+skena 	skéna 		
+speso 	spéso 			spaso 
+ste£a 	sté£a 			stè£a 
+stufeso 	stuféso 		
+takemo 	takémo 		
+tegner 	tegnér 		
+toketi 	tokéti 		
+toketo 	tokéto 		
+vedar 	védar 		
+vedea 	vedéa 		
+vedito 	védito 		
+vegnea 	vegnéa 		
+vegner 	vegnér 			vegnir 
+vero 	véro 			vèro 
+vien 	vién 		
+vinsemo 	vinsémo 		
+vo£ea 	vo£éa 		
+volea 	voléa 			volta 
+xe£o 	xé£o 			xa£o 
+xente 	xénte 		
+xerimo 	xérimo 		
+xughemo 	xughémo 		
+
+Minimal pairs for [e] vs. [é] in final position:

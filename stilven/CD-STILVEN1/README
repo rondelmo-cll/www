@@ -1,0 +1,25 @@
+Questo CD-Rom contiene i materiali digitali e il prodotto dei software utilizzati nel progetto STILVEN - Fase 1.
+I folder contenuti sono i seguenti:
+- COPPIE_MINIME
+- CORPUS
+- DIZIONARI
+- DOCUMENTI_UTILIZZATI
+- ENGLISH_CORPUS_PARSED
+- LESSICO_BASE
+- LISTE_FREQUENZA
+- MULTIWORDS
+- STAMPA
+- TRADUTTORE_AUTOMATICO
+- XLE
+
+I files contenuti nelle directories di questo CD sono tutti in formato UNIX oppure in formato DOS. Ad eccezione dei file contenuti nei due folder
+- documenti_utilizzati e stampa
+che sono in formato PDF, e dei files contenuti all'interno del folder,
+- corpus
+che sono in formato rtf.
+I files contenuti all'interno del folder dizionari sono solo parzialmente controllati e sono quindi provvisori.
+
+Abbiamo poi anche allegato copia digitale della documentazione cartacea in accompagnamento, e cioè:
+- relazione.pdf - la relazione conclusiva della Fase 1 del progetto
+- scheda.pdf - scheda tecnica del progetto STILVEN Fase 2
+- domanda-lingua-2008.doc - domanda di finanziamento alla Regione

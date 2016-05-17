@@ -1,0 +1,168 @@
+entity(set,id17,10,facts([
+card(infon70, id17, 5),
+fact(id40, visit, [agent:id17, theme_aff:id31], 1, tes(f1_t43), id30),
+fact(infon158, isa, [arg:id17, arg:they], 1, id29, id30),
+fact(infon222, relat, ['French', id17, id51], 1, id50, id30),
+fact(infon71, 'Joao', [ind:id17], 1, id13, id14),
+fact(infon72, inst_of, [ind:id17, class:man], 1, univ, univ),
+fact(infon73, isa, [ind:id17, class:'Joao'], 1, id13, id14),
+fact(infon89, in, [nil:id17, locat:id21], 1, id13, id14)])).
+entity(set,id5,2,facts([
+card(infon14, id5, twentytwo),
+fact(id11, train, [actor:id3, theme_aff:id5], 1, tes(sn67_t41), id2),
+fact(infon15, leader, [ind:id5], 1, id1, id2),
+fact(infon16, of, [arg:id5, specif:id5], 1, univ, univ),
+fact(infon17, inst_of, [ind:id5, class:animal], 1, univ, univ),
+fact(infon18, isa, [ind:id5, class:dog], 1, id1, id2),
+fact(infon31, in, [arg:id5, locativo:id2], 1, id1, id2)])).
+entity(set,id34,1,facts([
+card(infon136, id34, 2),
+fact(id42, do, [tema:id34, theme_aff:id38], 1, tes(f6_t43), id30),
+fact(infon137, future, [nil:id34], 1, univ, univ),
+fact(infon138, inst_of, [ind:id34, class:man], 1, univ, univ),
+fact(infon139, isa, [ind:id34, class:trainer], 1, id29, id30)])).
+entity(set,id31,1,facts([
+card(infon123, id31, 5),
+fact(id40, visit, [agent:id17, theme_aff:id31], 1, tes(f1_t43), id30),
+fact(infon128, of, [arg:id31, specif:id32], 1, univ, univ),
+fact(infon129, of, [arg:id31, specif:id32], 1, univ, univ),
+fact(infon130, isa, [ind:id31, class:place], 1, id29, id30),
+fact(infon131, inst_of, [ind:id31, class:place], 1, univ, univ),
+fact(infon160, similar, [arg:id31], 1, id29, id30),
+fact(infon163, in, [arg:id31, arg:id37], 1, id29, id30)])).
+entity(ind,id15,8,facts([
+fact(id27, coordinate, [agent:id15, theme_aff:id18], 1, tes(sn30_t42), id14),
+fact(infon62, inst_of, [ind:id15, class:man], 1, univ, univ),
+fact(infon63, inst_of, [ind:id15, class:'Gomes'], 1, univ, univ),
+fact(infon64, isa, [ind:id15, class:'Gomes'], 1, univ, univ),
+fact(infon65, isa, [ind:id15, class:marta_gomes], 1, univ, univ),
+fact(infon68, of, [arg:id16, specif:id15], 1, univ, univ),
+fact(infon94, isa, [arg:id15, arg:'Marta_Gomes'], 1, id13, id14)])).
+entity(ind,id3,7,facts([
+fact(id11, train, [actor:id3, theme_aff:id5], 1, tes(sn67_t41), id2),
+fact(id25, develop, [agent:id20, theme_aff:id18, prop:infon98], 1, tes(f1_t42), id14),
+fact(id7, create, [actor:id3, theme_aff:id3], 1, tes(finf3_t41), id2),
+fact(id9, go, [actor:id3, prop:id7], 1, tes(sn66_t41), id2),
+fact(infon10, of, [arg:id3, specif:id4], 1, univ, univ),
+fact(infon11, inst_of, [ind:id3, class:place], 1, univ, univ),
+fact(infon12, isa, [ind:id3, class:school], 1, id1, id2),
+fact(infon198, has, [arg:id46, tema:id3], 1, id44, id30),
+fact(infon9, of, [arg:id3, specif:id4], 1, univ, univ),
+fact(infon98, in, [nil:id24, locativo:id3], 1, id13, id14),
+sit(id56, like, [actor:id52, theme_aff:id3, result:id54], 1, tes(sn47_t45), id30)])).
+entity(ind,id6,2.2,facts([
+in(infon22, id6, id5),
+fact(*, in, [arg:id6, locativo:id2], 1, id1, id2),
+fact(*, inst_of, [ind:id6, class:animal], 1, univ, univ),
+fact(*, isa, [ind:id6, class:dog], 1, id1, id2),
+fact(*, leader, [ind:id6], 1, id1, id2),
+fact(*, of, [arg:id6, specif:id5], 1, univ, univ),
+fact(*, train, [actor:id3, theme_aff:id6], 1, tes(sn67_t41), id2),
+fact(infon20, inst_of, [ind:id6, class:man], 1, univ, univ),
+fact(infon21, isa, [ind:id6, class:leader], 1, id1, id2)])).
+entity(ind,id47,2,facts([
+in(infon204, id47, id45),
+fact(*, communitarian, [ind:id47], 1, id44, id30),
+fact(*, ensure, [actor:id47, theme_unaff:id46], 1, tes(f1_t44), id30),
+fact(*, inst_of, [ind:id47, class:legal], 1, univ, univ),
+fact(*, isa, [ind:id47, class:funding], 1, id44, id30),
+fact(*, of, [arg:id47, specif:id45], 1, univ, univ),
+fact(infon202, inst_of, [ind:id47, class:nil], 1, univ, univ),
+fact(infon203, isa, [ind:id47, class:communitarian], 1, id44, id30)])).
+entity(ind,id51,1,facts([
+fact(infon220, inst_of, [ind:id51, class:man], 1, univ, univ),
+fact(infon221, isa, [ind:id51, class:'French'], 1, id50, id30),
+fact(infon222, relat, ['French', id17, id51], 1, id50, id30)])).
+entity(ind,id46,1,facts([
+fact(id48, ensure, [actor:id45, theme_unaff:id46], 1, tes(f1_t44), id30),
+fact(infon198, has, [arg:id46, tema:id3], 1, id44, id30),
+fact(infon199, inst_of, [ind:id46, class:attivita], 1, univ, univ),
+fact(infon200, isa, [ind:id46, class:operation], 1, id44, id30)])).
+entity(ind,id45,1,facts([
+fact(id48, ensure, [actor:id45, theme_unaff:id46], 1, tes(f1_t44), id30),
+fact(infon193, communitarian, [ind:id45], 1, id44, id30),
+fact(infon194, of, [arg:id45, specif:id45], 1, univ, univ),
+fact(infon195, inst_of, [ind:id45, class:legal], 1, univ, univ),
+fact(infon196, isa, [ind:id45, class:funding], 1, id44, id30)])).
+entity(ind,id20,1,facts([
+fact(id25, develop, [agent:id20, theme_aff:id18, prop:infon98], 1, tes(f1_t42), id14),
+fact(infon82, inst_of, [ind:id20, class:man], 1, univ, univ),
+fact(infon83, isa, [ind:id20, class:people], 1, id13, id14)])).
+entity(ind,id2,1,facts([
+fact(infon24, inst_of, [ind:id2, class:place], 1, univ, univ),
+fact(infon25, isa, [ind:id2, class:country], 1, id1, id2),
+fact(infon3, main_sloc, country, 1, univ, _G30062),
+fact(infon31, in, [arg:id5, locativo:id2], 1, id1, id2)])).
+entity(ind,id18,1,facts([
+fact(id25, develop, [agent:id20, theme_aff:id18, prop:infon98], 1, tes(f1_t42), id14),
+fact(id27, coordinate, [agent:id15, theme_aff:id18], 1, tes(sn30_t42), id14),
+fact(infon75, develop, [ind:id18], 1, id13, id14),
+fact(infon76, of, [arg:id18, specif:id18], 1, univ, univ),
+fact(infon77, inst_of, [ind:id18, class:legal], 1, univ, univ),
+fact(infon78, isa, [ind:id18, class:project], 1, id13, id14)])).
+entity(ind,id50,0,facts([
+fact(infon218, main_tloc, tes(f1_t44), 1, tes(f1_t44), _G30437)])).
+entity(ind,id44,0,facts([
+fact(infon191, main_tloc, tes(f1_t43), 1, tes(f1_t43), _G30520)])).
+entity(ind,id30,0,facts([
+fact(infon121, main_sloc, 'England', 1, univ, _G30609)])).
+entity(ind,id29,0,facts([
+fact(infon120, main_tloc, 1, 1, 1, _G30696)])).
+entity(ind,id14,0,facts([
+fact(infon60, main_sloc, school, 1, univ, _G30789)])).
+entity(ind,id13,0,facts([
+fact(infon59, main_tloc, tes(sn66_t41), 1, tes(sn66_t41), _G30882)])).
+entity(ind,id1,0,facts([
+fact(infon2, main_tloc, tes(sn66_t41), 1, tes(sn66_t41), _G30977)])).
+entity(class,id37,2,facts([
+in(infon184, id37, id37),
+fact(*, in, [arg:id31, arg:id37], 1, id29, id30),
+fact(*, inst_of, [ind:id37, class:man], 1, univ, univ),
+fact(*, isa, [ind:id37, class:'France'], 1, id29, id30),
+fact(infon147, inst_of, [ind:id37, class:man], 1, univ, univ),
+fact(infon148, isa, [ind:id37, class:'France'], 1, id29, id30),
+fact(infon163, in, [arg:id31, arg:id37], 1, id29, id30)])).
+entity(class,id4,1,facts([
+fact(infon10, of, [arg:id3, specif:id4], 1, univ, univ),
+fact(infon6, inst_of, [ind:id4, class:astratto], 1, univ, univ),
+fact(infon7, isa, [ind:id4, class:training], 1, univ, univ),
+fact(infon9, of, [arg:id3, specif:id4], 1, univ, univ)])).
+entity(class,id39,1,facts([
+fact(infon151, inst_of, [ind:id39, class:nquant], 1, univ, univ),
+fact(infon152, isa, [ind:id39, class:1], 1, univ, univ),
+fact(infon154, of, [arg:id38, specif:id39], 1, univ, univ),
+fact(infon155, of, [arg:id38, specif:id39], 1, univ, univ)])).
+entity(class,id38,1,facts([
+fact(id42, do, [tema:id34, theme_aff:id38], 1, tes(f6_t43), id30),
+fact(infon154, of, [arg:id38, specif:id39], 1, univ, univ),
+fact(infon155, of, [arg:id38, specif:id39], 1, univ, univ),
+fact(infon156, inst_of, [ind:id38, class:attivita], 1, univ, univ),
+fact(infon157, isa, [ind:id38, class:internship], 1, id29, id30)])).
+entity(class,id36,1,facts([
+in(infon183, id36, id37),
+fact(*, in, [arg:id31, arg:id36], 1, id29, id30),
+fact(*, inst_of, [ind:id36, class:man], 1, univ, univ),
+fact(*, isa, [ind:id36, class:'France'], 1, id29, id30),
+fact(infon144, inst_of, [ind:id36, class:man], 1, univ, univ),
+fact(infon145, isa, [ind:id36, class:'England'], 1, id29, id30)])).
+entity(class,id35,1,facts([
+fact(infon141, inst_of, [ind:id35, class:attivita], 1, univ, univ),
+fact(infon142, isa, [ind:id35, class:future], 1, id29, id30)])).
+entity(class,id21,1,facts([
+fact(infon85, inst_of, [ind:id21, class:nil], 1, univ, univ),
+fact(infon86, isa, [ind:id21, class:'Mortagua'], 1, id13, id14),
+fact(infon89, in, [nil:id17, locat:id21], 1, id13, id14)])).
+entity(class,id33,0,facts([
+fact(infon133, future, [ind:id33], 1, id29, id30),
+fact(infon134, inst_of, [ind:id33, class:man], 1, univ, univ)])).
+entity(class,id32,0,facts([
+fact(infon125, inst_of, [ind:id32, class:luogo], 1, univ, univ),
+fact(infon126, isa, [ind:id32, class:'England_France'], 1, univ, univ),
+fact(infon128, of, [arg:id31, specif:id32], 1, univ, univ),
+fact(infon129, of, [arg:id31, specif:id32], 1, univ, univ)])).
+entity(class,id19,0,facts([
+fact(infon80, inst_of, [ind:id19, class:man], 1, univ, univ)])).
+entity(class,id16,0,facts([
+fact(infon67, isa, [ind:id16, class:'Marta'], 1, univ, univ),
+fact(infon68, of, [arg:id16, specif:id15], 1, univ, univ)])).
+

@@ -1,0 +1,679 @@
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.51852
+'Lookahead Start Active Chart'
+0-[d-the], 1-[av-first, d-first, e-first, n-first], 2-[n-school, v-school], 3-[e-for, p-for, s-for], 4-[d-the], 5-[n-training, v-training], 6-[p-of], 7-[n-leader], 8-[n-dogs, v-dogs], 9-[p-in], 10-[d-the], 11-[n-country, v-country], 12-[v- (is)], 13-[a-going, n-going, v-going], 14-[p-to], 15-[v-be], 16-[v-created], 17-[p-in], 18-[n-'Mortagua'], 19-[e-and], 20-[n-will, v-will], 21-[n-train, v-train], 22-[d-22], 23-[n-leader], 24-[n-dogs, v-dogs], 25-[av-per_year], 26-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1
+0-[d-the], 1-[a-first], 2-[n-school], 3-[p-for], 4-[d-the], 5-[n-training], 6-[p-of], 7-[n-leader], 8-[n-dogs], 9-[p-in], 10-[d-the], 11-[n-country], 12-[v- (is)], 13-[v-going], 14-[p-to], 15-[v-be], 16-[v-created], 17-[p-in], 18-[n-'Mortagua'], 19-[e-and], 20-[n-will], 21-[v-train], 22-[d-22], 23-[n-leader], 24-[n-dogs], 25-[av-per_year], 26-[x-'.']
+
+0-[d-the], 1-[a-first], 2-[n-school], 3-[p-for], 4-[d-the], 5-[n-training], 6-[p-of], 7-[n-leader], 8-[n-dogs], 9-[p-in], 10-[d-the], 11-[n-country], 12-[v- (is)], 13-[v-going], 14-[p-to], 15-[v-be], 16-[v-created], 17-[p-in], 18-[n-'Mortagua'], 19-[e-and], 20-[n-will], 21-[v-train], 22-[d-22], 23-[n-leader], 24-[n-dogs], 25-[av-per_year], 26-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+1
+the-dt
+first-jj
+school-nn
+for-in
+the-dt
+training-nn
+of-in
+leader-nn
+dogs-nns
+in-in
+the-dt
+country-nn
+(is)-vbz
+going-vbg
+to-to
+be-vb
+created-vbd
+in-in
+Mortagua-nnp
+and-cc
+will-md
+train-vbd
+22-cd
+leader-nn
+dogs-nns
+per_year-rb
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[the-art, first-ag, school-n, for-p, the-art, training-n, of-p, leader-n, dogs-n, in-p, the-art, country-n, (is)-ause, going-vin, to-pt, be-ausei, created-vin, in-p, 'Mortagua'-n, and-cong, will-vsup, train-vin, 22-num, leader-n, dogs-n, per_year-avv, '.'-punto]
+
+f-[sn-[the-art-sn, first-ag-sn, school-n-sn], sp-[for-p-sp, the-art-sn, training-n-sn, mod-[of-p-sp, leader-n-sn, dogs-n-sn]], sp-[in-p-sp, the-art-sn, country-n-sn], ibar-[ (is)-ause-ibar, going-vgin-ibar], vcomp-[to-pt-sv2, be-ausei-sv2, created-vin-sv2], sp-[in-p-sp, 'Mortagua'-n-sn], fc-[fc-[and-cong-fc], ibar-[will-vsup-ibar, train-vin-ibar], sn-[22-num-sn, leader-n-sn], sn-[dogs-n-sn], savv-[per_year-avv-savv], cp-['.'-punto-cp]]]
+
+1
+
+
+'Functional and Syntactic Constituency'
+
+subj-[the-art-sn, first-ag-sn, school-n-sn]
+obl-[for-p-sp, the-art-sn, training-n-sn, mod-[of-p-sp, leader-n-sn, dogs-n-sn]]
+obl-[in-p-sp, the-art-sn, country-n-sn]
+ibar-[ (is)-ause-ibar, going-vgin-ibar]
+vcomp-[to-pt-sv2, be-ausei-sv2, created-vin-sv2]
+obl-[in-p-sp, Mortagua-n-sn]
+
+1
+
+
+'Functional and Syntactic Constituency'
+
+fc-[fc-[and-cong-fc], ibar-[will-vsup-ibar, train-vin-ibar], obj-[22-num-sn, leader-n-sn], obj-[dogs-n-sn]]
+savv-[per_year-avv-savv]
+coord_ip(indice(f1), coord(and, coord(ip(indice(sn66), v(go, active, [[sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]], [sn/sogg/agente/[umano], vcomp/prop/to/[sogg=sogg/agente]], [sn/sogg/agente/[umano, oggetto], sp/obl/locat/[to, in, into]/[oggetto, luogo]], [sn/sogg/actor/[umano, oggetto]]], ind, pres/progr, _G1689, _G19184, _G1691), supporto([]), cat(risultato), args([arg(funzione(sogg), ruolo(actor), sn(indice(sn13), cat([luogo]), n(school, _G1404, sing), spec(def(+), part(_G1393), mod([]), foc(_G1397), card(_G1382), quant([])), args([]), mods([adj(beneficiario, sp(prep(for, [astratto, attivita, informa], mod(mod([]))), sn(indice(sn14), cat([astratto, attivita, informa]), n(training, _G1454, sing), spec(def(+), part(_G1443), mod([]), foc(_G1447), card(_G1432), quant([])), args([arg(funzione(ogg), ruolo(tema), sn(indice(sn16), cat([animato]), n(dog, mas, plur), spec(def(0), part(_G1552), mod([]), foc(_G1556), card(_G1558), quant([])), args([]), mods([nome_mod(sn(indice(sn15), cat([oggetto, relat, sociale, strumento, umano]), n(leader, _G1523, sing), spec(def(0), part(_G1512), mod(_G1514), foc(_G1516), card(_G1518), quant(_G1520)), args([]), mods([]), adjs([]))), adj(locativo, sp(prep(in, [luogo], mod(mod([]))), sn(indice(sn17), cat([luogo]), n(country, fem, sing), spec(def(+), part(_G1602), mod([]), foc(_G1606), card(_G1591), quant([])), args([]), mods([]), adjs([]))))]), adjs([])))]), mods([]), adjs([])))), mod_a(sa(indice(sa1), cat([valutativo, soggettivo]), agg(first, _G1372, _G1373), args([])))]), adjs([]))), arg(funzione(vcomp), ruolo(prop), inf(to, infinitiva(indice(finf3), v(create, [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], ncomp/prop/[subj=ogg]], ger, pres/progr, _G2078, _G2079, _G2080), supporto([]), cat(risultato), args([arg(funzione(sogg), ruolo(actor), sn(indice(sn58), cat([any]), pr(pro_grande, pPro, _G2469, _G2470, _G2471, [nom]), spec([]), controllore(_G2479))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn59), cat([any]), pr(pro_grande, pPro, _G2536, _G2537, _G2538, [acc]), controllore(indefinito)))]), adjs([]))))]), adjs([]))), coord(ip(indice(sn67), v(train, active, [[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]]], ind, _G11231/semp, _G10793, _G19696, _G10795), supporto([]), cat(risultato), args([arg(funzione(sogg), ruolo(actor), sn(indice(sn65), cat([any]), pr(pro_picc, _G18729, pro, _G18731, _G18732, _G18733, _G18734), spec(def(+)), controllore(sn13))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn64), cat([animato]), n(dog, mas, plur), spec(def(0), part(-), mod([]), foc(_G14919), card(_G14921), quant(twentytwo)), args([]), mods([nome_mod(sn(indice(sn63), cat([oggetto, relat, sociale, strumento, umano]), n(leader, _G14850, sing), spec(def(0), part(_G14365), mod(_G14367), foc(_G14369), card(_G14371), quant(_G14373)), args([]), mods([]), adjs([])))]), adjs([])))]), adjs([avv(pred_avv(per_year), tipo(modal))])))))
+
+
+
+
+coord_ip(
+ indice(f1),
+ coord(
+  and,
+  coord(
+   ip(
+    indice(sn66),
+    v(go, active, [[sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]], [sn/sogg/agente/[umano], vcomp/prop/to/[sogg=sogg/agente]], [sn/sogg/agente/[umano, oggetto], sp/obl/locat/[to, in, into]/[oggetto, luogo]], [sn/sogg/actor/[umano, oggetto]]], ind, pres/progr, _G1689, _G19184, _G1691),
+    supporto([]),
+    cat(risultato),
+    args(
+      [
+      arg(
+       funzione(sogg),
+       ruolo(actor),
+       sn(
+        indice(sn13),
+        cat([luogo]),
+        n(school, _G1404, sing),
+        spec(
+         def(+),
+         part([]),
+         mod([]),
+         foc([]),
+         card([]),
+         quant([])
+         ),
+        args([]),
+        mods(
+          [
+          adj(
+           beneficiario,
+           sp(
+            prep(for, [astratto, attivita, informa], mod(mod([]))),
+            sn(
+             indice(sn14),
+             cat([astratto, attivita, informa]),
+             n(training, _G1454, sing),
+             spec(
+              def(+),
+              part([]),
+              mod([]),
+              foc([]),
+              card([]),
+              quant([])
+              ),
+             args(
+               [
+               arg(
+                funzione(ogg),
+                ruolo(tema),
+                sn(
+                 indice(sn16),
+                 cat([animato]),
+                 n(dog, mas, plur),
+                 spec(
+                  def(0),
+                  part([]),
+                  mod([]),
+                  foc([]),
+                  card([]),
+                  quant([])
+                  ),
+                 args([]),
+                 mods(
+                   [
+                   nome_mod(
+                    sn(
+                     indice(sn15),
+                     cat([oggetto, relat, sociale, strumento, umano]),
+                     n(leader, _G1523, sing),
+                     spec(
+                      def(0),
+                      part([]),
+                      mod([]),
+                      foc([]),
+                      card([]),
+                      quant([])
+                      ),
+                     args([]),
+                     mods([]),
+                     adjs([])
+                     )
+                    ),
+                   adj(
+                    locativo,
+                    sp(
+                     prep(in, [luogo], mod(mod([]))),
+                     sn(
+                      indice(sn17),
+                      cat([luogo]),
+                      n(country, fem, sing),
+                      spec(
+                       def(+),
+                       part([]),
+                       mod([]),
+                       foc([]),
+                       card([]),
+                       quant([])
+                       ),
+                      args([]),
+                      mods([]),
+                      adjs([])
+                      )
+                     )
+                    )
+                   ]
+                  ),
+                 adjs([])
+                 )
+                )
+               ]
+              ),
+             mods([]),
+             adjs([])
+             )
+            )
+           ),
+          mod_a(
+           sa(
+            indice(sa1),
+            cat([valutativo, soggettivo]),
+            agg(
+             first,
+             [],
+             []
+             ),
+            args([])
+            )
+           )
+          ]
+         ),
+        adjs([])
+        )
+       ),
+      arg(
+       funzione(vcomp),
+       ruolo(prop),
+       inf(
+        to,
+        infinitiva(
+         indice(finf3),
+         v(create, [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], ncomp/prop/[subj=ogg]], ger, pres/progr, _G2078, _G2079, _G2080),
+         supporto([]),
+         cat(risultato),
+         args(
+           [
+           arg(
+            funzione(sogg),
+            ruolo(actor),
+            sn(
+             indice(sn58),
+             cat([any]),
+             pr(pro_grande, pPro, _G2469, _G2470, _G2471, [nom]),
+             spec([]),
+             controllore([])
+             )
+            ),
+           arg(
+            funzione(ogg),
+            ruolo(theme_aff),
+            sn(
+             indice(sn59),
+             cat([any]),
+             pr(pro_grande, pPro, _G2536, _G2537, _G2538, [acc]),
+             controllore(indefinito)
+             )
+            )
+           ]
+          ),
+         adjs([])
+         )
+        )
+       )
+      ]
+     ),
+    adjs([])
+    )
+   ),
+  coord(
+   ip(
+    indice(sn67),
+    v(train, active, [[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]]], ind, _G11231/semp, _G10793, _G19696, _G10795),
+    supporto([]),
+    cat(risultato),
+    args(
+      [
+      arg(
+       funzione(sogg),
+       ruolo(actor),
+       sn(
+        indice(sn65),
+        cat([any]),
+        pr(pro_picc, _G18729, pro, _G18731, _G18732, _G18733, _G18734),
+        spec(
+         def(+)
+         ),
+        controllore(sn13)
+        )
+       ),
+      arg(
+       funzione(ogg),
+       ruolo(theme_aff),
+       sn(
+        indice(sn64),
+        cat([animato]),
+        n(dog, mas, plur),
+        spec(
+         def(0),
+         part(-),
+         mod([]),
+         foc([]),
+         card([]),
+         quant(
+          twentytwo
+          )
+         ),
+        args([]),
+        mods(
+          [
+          nome_mod(
+           sn(
+            indice(sn63),
+            cat([oggetto, relat, sociale, strumento, umano]),
+            n(leader, _G14850, sing),
+            spec(
+             def(0),
+             part([]),
+             mod([]),
+             foc([]),
+             card([]),
+             quant([])
+             ),
+            args([]),
+            mods([]),
+            adjs([])
+            )
+           )
+          ]
+         ),
+        adjs([])
+        )
+       )
+      ]
+     ),
+    adjs(
+      [
+      avv(pred_avv(per_year), tipo(modal))
+      ]
+     )
+    )
+   )
+  )
+ )
+main/prop:coord:indice:sn66
+                pred:go
+                lex_form:[[sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]], [sn/sogg/agente/[umano], vcomp/prop/to/[sogg=sogg/agente]], [sn/sogg/agente/[umano, oggetto], sp/obl/locat/[to, in, into]/[oggetto, luogo]], [sn/sogg/actor/[umano, oggetto]]]
+                voice:active
+                modo:ind
+                tempo:pres_progr
+                cat:risultato
+                sogg/actor:indice:sn13
+                           cat:[luogo]
+                           pred:school
+                           num:sing
+                           pers:3
+                           spec:def:+
+                           mods:adj/beneficiario:sem_mark:for
+                                                 indice:sn14
+                                                 cat:[astratto, attivita, informa]
+                                                 pred:training
+                                                 num:sing
+                                                 pers:3
+                                                 spec:def:+
+                                                 ogg/tema:indice:sn16
+                                                          cat:[animato]
+                                                          pred:dog
+                                                          gen:mas
+                                                          num:plur
+                                                          pers:3
+                                                          spec:def:'0'
+                                                          mods:mod/tema:indice:sn15
+                                                                        cat:[oggetto, relat, sociale, strumento, umano]
+                                                                        pred:leader
+                                                                        num:sing
+                                                                        pers:3
+                                                                        tab_ref:[+ref, -pro, -ana, +class]
+                                                               adj/locativo:sem_mark:in
+                                                                            indice:sn17
+                                                                            cat:[luogo]
+                                                                            pred:country
+                                                                            gen:fem
+                                                                            num:sing
+                                                                            pers:3
+                                                                            spec:def:+
+                                                                            tab_ref:[+ref, -pro, -ana, +class]
+                                                          tab_ref:[+ref, -pro, -ana, +class]
+                                                 tab_ref:[+ref, -pro, -ana, +class]
+                                indice:sa1
+                                cat:[valutativo, soggettivo]
+                                pred:first
+                           tab_ref:[+ref, -pro, -ana, +class]
+                vcomp/prop:indice:finf3
+                           pred:create
+                           lex_form:[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], ncomp/prop/[subj=ogg]]
+                           modo:ger
+                           tempo:pres_progr
+                           cat:risultato
+                           sogg/actor:indice:sn58
+                                      cat:[any]
+                                      pred:pPro
+                                      tab_ref:[+ref, +pro, +ana, -me]
+                                      antecedente:sn13
+                                      interpretazione:definita
+                           ogg/theme_aff:indice:sn59
+                                         cat:[any]
+                                         pred:pPro
+                                         tab_ref:[+ref, +pro, +ana, -me]
+                                         antecedente:sn13
+                                         interpretazione:definita
+                           aspetto:achiev_tr
+                aspetto:achiev_tr
+                rel1:[td(sn66_t41)=tr(sn66_t41)]
+                rel2:[incluso(tr(sn66_t41), tes(sn66_t41))]
+                definitezza:-
+                ref_int:[tr(sn66_t41)]
+main/prop:coord:indice:sn67
+                pred:train
+                lex_form:[[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]]]
+                voice:active
+                modo:ind
+                tempo:pres
+                cat:risultato
+                sogg/actor:indice:sn65
+                           cat:[any]
+                           pred:pro
+                           spec:def:+
+                           controllore:sn13
+                           tab_ref:[+ref, +pro, -ana, -me]
+                ogg/theme_aff:indice:sn64
+                              cat:[animato]
+                              pred:dog
+                              gen:mas
+                              num:plur
+                              pers:3
+                              spec:def:'0'
+                                   part:-
+                                   quant:twentytwo
+                              mods:mod/tema:indice:sn63
+                                            cat:[oggetto, relat, sociale, strumento, umano]
+                                            pred:leader
+                                            num:sing
+                                            pers:3
+                                            tab_ref:[+ref, -pro, -ana, +class]
+                              tab_ref:[+ref, -pro, -ana, +class]
+                              qmark:q1
+                adjs:adj/modal:pred:per_year
+                aspetto:attivita
+                rel1:[td(sn67_t41)=tr(sn67_t41)]
+                rel2:[incluso(tr(sn67_t41), tes(sn67_t41))]
+                definitezza:+
+                ref_int:[tr(sn67_t41)]
+                qops:q1
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn13, school, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [luogo], sogg/actor)/47
+ ref_ex(sn64, dog, [+ref, def0, twentytwo, nil, -pro, -ana, +class], 3, mas, plur, [animato], ogg/theme_aff)/51
+ ref_ex(sn14, training, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita, informa], adj/beneficiario)/96
+ ref_ex(sn63, leader, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, relat, sociale, strumento, umano], mod/tema)/116
+ ref_ex(sn17, country, [+ref, +def, nil, nil, -pro, -ana, +class], 3, fem, sing, [luogo], adj/locativo)/149
+ ref_ex(sn15, leader, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, relat, sociale, strumento, umano], mod/tema)/161
+ ref_ex(sn16, dog, [+ref, def0, nil, nil, -pro, -ana, +class], 3, mas, plur, [animato], ogg/tema)/191
+
+EXPECTED TOPIC : ref_ex(sn13, school, _G47019, 3, nil, sing, [luogo], sogg/actor)
+POTENTIAL TOPICS : ref_ex(sn64, dog, [+ref, def0, twentytwo, nil, -pro, -ana, +class], 3, mas, plur, [animato], ogg/theme_aff), ref_ex(sn14, training, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita, informa], adj/beneficiario), ref_ex(sn63, leader, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, relat, sociale, strumento, umano], mod/tema), ref_ex(sn17, country, [+ref, +def, nil, nil, -pro, -ana, +class], 3, fem, sing, [luogo], adj/locativo), ref_ex(sn15, leader, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, relat, sociale, strumento, umano], mod/tema), ref_ex(sn16, dog, [+ref, def0, nil, nil, -pro, -ana, +class], 3, mas, plur, [animato], ogg/tema)
+
+stato(1, cambia)
+
+rel_temp(infon1, td, tr(sn66_t41), [eq])
+
+
+CLAUSE IDENTIFIER:               1-n3
+CLAUSE TYPE:                     coord/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(sn66_t41), tr(sn66_t41))
+DISCOURSE FOCUS:                 tes(sn66_t41)
+DISCOURSE RELATION:              result
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               1-n82
+CLAUSE TYPE:                     coord/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn67_t41), tes(sn66_t41))
+DISCOURSE FOCUS:                 tes(sn66_t41)
+DISCOURSE RELATION:              result
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, expected, id3)
+topic(1, potential, id5)
+sr(mod, dog, leader)
+sr(mod, school, first)
+sr(adj-beneficiario, training, school, dog)
+sr(sogg-actor, create, pPro)
+sr(ogg-theme_aff, create, pPro)
+sr(sogg-actor, go, school)
+sr(vcomp-prop, go, create)
+sr(sogg-actor, train, pro)
+sr(ogg-theme_aff, train, dog)
+sr(adj-modal, train, per_year)
+
+
+'######################  LOGICAL FORM ###############'
+wff(and,
+    wff(situation,
+        wff(go,
+            < definito : sn13 :
+                wff(and,
+                    wff(isa,
+                        sn13,
+                        school),
+                    wff(and,
+                        wff(first,
+                            sn13),
+                        wff(training,
+                            sn13,
+                            < plural : sn16 :
+                                wff(and,
+                                    wff(isa,
+                                        sn16,
+                                        dog),
+                                    wff(and,
+                                        wff(leader,
+                                            sn16),
+                                        wff(in,
+                                            sn16,
+                                            < definito : sn17 :
+                                                wff(isa,
+                                                    sn17,
+                                                    country) >>))) >>))) >>,
+            wff(situation,
+                wff(create,
+                    < definito : sn58 :
+                        wff(and,
+                            wff(isa,
+                                sn58,
+                                pPro),
+                            wff(antecedente,
+                                sn58,
+                                sn13)) >>,
+                    < definito : sn59 :
+                        wff(and,
+                            wff(isa,
+                                sn59,
+                                pPro),
+                            wff(antecedente,
+                                sn59,
+                                sn13)) >>,
+                    < event : finf3 :
+                        wff(and,
+                            wff(isa,
+                                finf3,
+                                ev),
+                            wff(time,
+                                finf3,
+                                < definito : t1 :
+                                    wff(and,
+                                        wff(isa,
+                                            t1,
+                                            tloc),
+                                        wff(pres_progr,
+                                            t1)) >>)) >>)),
+            < event : sn66 :
+                wff(and,
+                    wff(isa,
+                        sn66,
+                        ev),
+                    wff(time,
+                        sn66,
+                        < definito : t2 :
+                            wff(and,
+                                wff(isa,
+                                    t2,
+                                    tloc),
+                                wff(pres_progr,
+                                    t2)) >>)) >>)),
+    wff(situation,
+        wff(train,
+            < definito : sn65 :
+                wff(and,
+                    wff(isa,
+                        sn65,
+                        pro),
+                    wff(controllore,
+                        sn65,
+                        sn13)) >>,
+            < plural : sn64 :
+                wff(and,
+                    wff(isa,
+                        sn64,
+                        dog),
+                    wff(leader,
+                        sn64)) >>,
+            < event : sn67 :
+                wff(and,
+                    wff(isa,
+                        sn67,
+                        ev),
+                    wff(and,
+                        wff(time,
+                            sn67,
+                            < definito : t3 :
+                                wff(and,
+                                    wff(isa,
+                                        t3,
+                                        tloc),
+                                    wff(pres,
+                                        t3)) >>),
+                        wff(per_year,
+                            sn67))) >>)))
+
+
+
+loc(infon2, id1, [arg:main_tloc, arg:tes(sn66_t41)])
+loc(infon3, id2, [arg:main_sloc, arg:country])
+ind(infon4, id3)
+class(infon5, id4)
+fact(infon6, inst_of, [ind:id4, class:astratto], 1, univ, univ)
+fact(infon7, isa, [ind:id4, class:training], 1, univ, univ)
+fact(infon9, of, [arg:id3, specif:id4], 1, univ, univ)
+fact(infon10, of, [arg:id3, specif:id4], 1, univ, univ)
+fact(infon11, inst_of, [ind:id3, class:place], 1, univ, univ)
+fact(infon12, isa, [ind:id3, class:school], 1, id1, id2)
+set(infon13, id5)
+card(infon14, id5, twentytwo)
+fact(infon15, leader, [ind:id5], 1, id1, id2)
+fact(infon16, of, [arg:id5, specif:id5], 1, univ, univ)
+fact(infon17, inst_of, [ind:id5, class:animal], 1, univ, univ)
+fact(infon18, isa, [ind:id5, class:dog], 1, id1, id2)
+ind(infon19, id6)
+fact(infon20, inst_of, [ind:id6, class:man], 1, univ, univ)
+fact(infon21, isa, [ind:id6, class:leader], 1, id1, id2)
+in(infon22, id6, id5)
+ind(infon23, id2)
+fact(infon24, inst_of, [ind:id2, class:place], 1, univ, univ)
+fact(infon25, isa, [ind:id2, class:country], 1, id1, id2)
+fact(infon31, in, [arg:id5, locativo:id2], 1, id1, id2)
+fact(id7, create, [actor:id3, theme_aff:id3], 1, tes(finf3_t41), id2)
+fact(infon33, isa, [arg:id7, arg:ev], 1, tes(finf3_t41), id2)
+fact(infon34, isa, [arg:id8, arg:tloc], 1, tes(finf3_t41), id2)
+fact(infon35, pres_progr, [arg:id8], 1, tes(finf3_t41), id2)
+fact(infon36, time, [arg:id7, arg:id8], 1, tes(finf3_t41), id2)
+fact(id9, go, [actor:id3, prop:id7], 1, tes(sn66_t41), id2)
+fact(infon37, isa, [arg:id9, arg:ev], 1, tes(sn66_t41), id2)
+fact(infon38, isa, [arg:id10, arg:tloc], 1, tes(sn66_t41), id2)
+fact(infon39, pres_progr, [arg:id10], 1, tes(sn66_t41), id2)
+fact(infon40, time, [arg:id9, arg:id10], 1, tes(sn66_t41), id2)
+fact(id11, train, [actor:id3, theme_aff:id5], 1, tes(sn67_t41), id2)
+fact(infon43, isa, [arg:id11, arg:ev], 1, tes(sn67_t41), id2)
+fact(infon44, isa, [arg:id12, arg:tloc], 1, tes(sn67_t41), id2)
+fact(infon45, pres, [arg:id12], 1, tes(sn67_t41), id2)
+fact(infon46, time, [arg:id11, arg:id12], 1, tes(sn67_t41), id2)
+fact(infon47, per_year, [arg:id11], 1, tes(sn67_t41), id2)
+
+during(tes(sn67_t41), tes(sn66_t41))
+includes(tr(sn66_t41), id1)
+
+
+   root:new(1-1)
+   clause:1-1
+   topics:[expected:id3:school]
+   main_fact:go([id3:school, id7:create], 1, id2)
+   ref_int:tint(tes(sn66_t41), [])
+   temp_rel:contains(tes(sn66_t41), tr(sn66_t41))
+   disc_rel:result
+   disc_seg:1-[1]
+   disc_dom:objective
+   p_o_view:narrator
+
+            down:down(1-1)
+            clause:1-2
+            topics:[expected:id3:school]
+            main_fact:train([id3:school, id5:dog], 1, id2)
+            ref_int:tint(nil, [tes(sn67_t41)])
+            temp_rel:during(tes(sn67_t41), tes(sn66_t41))
+            disc_rel:result
+            disc_seg:1-[2]
+            disc_dom:objective
+            p_o_view:narrator

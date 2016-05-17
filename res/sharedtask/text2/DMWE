@@ -1,0 +1,55 @@
+entity(ind,id2,11,facts([
+fact(infon4, isa, [ind:id2, class:virus], 1, id1, univ),
+fact(infon5, inst_of, [ind:id2, class:animal], 1, univ, univ),
+fact(id4, cause, [theme_aff:id3, agent:id2], 1, tes(f2_t21), univ),
+fact(infon82, isa, [arg:id2, arg:virus], 1, id25, id26),
+fact(id29, cause, [agent:id2], 1, tes(f2_t23), id26)])).
+entity(ind,id9,1,facts([
+fact(infon23, seem, [ind:id9], 1, id6, id7),
+fact(infon24, of, [arg:id9, specif:id9], 1, univ, univ),
+fact(infon25, isa, [ind:id9, class:vaccine], 1, id6, id7),
+fact(infon26, inst_of, [ind:id9, class:thing], 1, univ, univ),
+fact(id21, lead, [actor:id14, locativo:id9], 1, tes(f4_t22), id7)])).
+entity(ind,id8,1,facts([
+fact(infon21, prop, [arg:id8, disc_set:[id4:cause:[theme_aff:id3, agent:id2]]], 1, id6, id7),
+fact(infon31, isa, [arg:id8, arg:that], 1, id6, id7),
+fact(id12, know, [tema_nonaff:id8, actor:id11], 1, tes(f2_t22), id7)])).
+entity(ind,id10,1,facts([
+fact(infon28, that, [ind:id10], 1, id6, id7),
+fact(infon29, inst_of, [ind:id10, class:tempo], 1, univ, univ),
+fact(infon30, isa, [ind:id10, class:time], 1, id6, id7),
+fact(infon37, isa, [arg:id10, arg:time], 1, tes(f2_t22), id7),
+fact(infon38, for, [arg:id12, nil:id10], 1, tes(f2_t22), id7)])).
+entity(ind,id7,0,facts([
+fact(infon19, main_sloc, vaccine, 1, univ, _G45419)])).
+entity(ind,id6,0,facts([
+fact(infon18, main_tloc, tes(f2_t21), 1, tes(f2_t21), _G45473)])).
+entity(ind,id26,0,facts([
+fact(infon70, main_sloc, cancer, 1, univ, _G45529)])).
+entity(ind,id25,0,facts([
+fact(infon69, main_tloc, tes(f2_t22), 1, tes(f2_t22), _G45583)])).
+entity(ind,id1,0,facts([
+fact(infon2, main_tloc, tr(f2_t21), 1, tr(f2_t21), _G45639)])).
+entity(class,id27,3,facts([
+fact(infon72, inst_of, [ind:id27, class:nil], 1, univ, univ),
+fact(infon73, isa, [ind:id27, class:'Researchers'], 1, id25, id26),
+fact(id31, look, [actor:id27, locat:id3], 1, tes(f3_t23), id26)])).
+entity(class,id3,2,facts([
+fact(infon7, inst_of, [ind:id3, class:stato], 1, univ, univ),
+fact(infon8, isa, [ind:id3, class:cancer], 1, id1, univ),
+fact(id4, cause, [theme_aff:id3, agent:id2], 1, tes(f2_t21), univ),
+fact(infon81, isa, [arg:id3, arg:cancer], 1, id25, id26),
+fact(id31, look, [actor:id27, locat:id3], 1, tes(f3_t23), id26)])).
+entity(class,id28,2,facts([
+in(infon79, id28, id3),
+fact(infon75, cause, [ind:id28], 1, id25, id26),
+fact(infon76, of, [arg:id28, specif:id28], 1, univ, univ),
+fact(infon77, inst_of, [ind:id28, class:stato], 1, univ, univ),
+fact(infon78, isa, [ind:id28, class:cancer], 1, id25, id26),
+fact(*, inst_of, [ind:id28, class:stato], 1, univ, univ),
+fact(*, isa, [ind:id28, class:cancer], 1, id1, univ),
+fact(*, cause, [theme_aff:id28, agent:id2], 1, tes(f2_t21), univ),
+fact(*, isa, [arg:id28, arg:cancer], 1, id25, id26),
+fact(*, look, [actor:id27, locat:id28], 1, tes(f3_t23), id26)])).
+
+

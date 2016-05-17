@@ -1,0 +1,108 @@
+entity(ind,id13,3,facts([
+fact(infon30, inst_of, [ind:id13, class:informa], 1, univ, univ),
+fact(infon31, isa, [ind:id13, class:farm], 1, univ, univ),
+fact(id17, provide, [goal:id8, tema_nonaff:id7, actor:id13], 1, univ, univ),
+fact(infon85, isa, [arg:id13, arg:farm], 1, id41, univ),
+fact(id43, earn, [agent:id13, theme_aff:id42], 1, tes(sn59_t63), univ)])).
+entity(ind,id42,2,facts([
+fact(infon83, inst_of, [ind:id42, class:legal], 1, univ, univ),
+fact(infon84, isa, [ind:id42, class:revenue], 1, id41, nil),
+fact(id43, earn, [agent:id13, theme_aff:id42], 1, tes(sn59_t63), univ)])).
+entity(ind,id9,0,facts([
+fact(infon16, inst_of, [ind:id9, class:any], 1, univ, univ),
+fact(infon17, isa, [ind:id9, class:it], 1, univ, univ),
+fact(id14, lack, [theme_aff:id9, actor:id8], 1, univ, univ)])).
+entity(ind,id8,0,facts([
+fact(infon13, inst_of, [ind:id8, class:luogo], 1, univ, univ),
+fact(infon14, isa, [ind:id8, class:community], 1, univ, univ),
+fact(id17, provide, [goal:id8, tema_nonaff:id7, actor:id13], 1, univ, univ),
+fact(id14, lack, [theme_aff:id9, actor:id8], 1, univ, univ)])).
+entity(ind,id7,0,facts([
+fact(infon10, inst_of, [ind:id7, class:any], 1, univ, univ),
+fact(infon11, isa, [ind:id7, class:food], 1, univ, univ),
+fact(id17, provide, [goal:id8, tema_nonaff:id7, actor:id13], 1, univ, univ)])).
+entity(ind,id5,0,facts([
+fact(infon2, inst_of, [ind:id5, class:institution], 1, univ, univ),
+fact(infon3, inst_of, [ind:id5, class:houses], 1, univ, univ),
+fact(infon4, isa, [ind:id5, class:houses], 1, univ, univ),
+fact(infon5, isa, [ind:id5, class:row_houses], 1, univ, univ),
+fact(infon8, of, [arg:id6, specif:id5], 1, univ, univ),
+fact(id15, make, [actor:id5, prop:id10], 1, univ, univ),
+fact(id16, pack, [actor:id5], 1, univ, univ)])).
+entity(ind,id41,0,facts([
+fact(infon81, main_tloc, tes(sn60_t63), 1, tes(sn60_t63), _G7055)])).
+entity(ind,id36,0,facts([
+fact(infon78, inst_of, [ind:id36, class:edible], 1, univ, univ),
+fact(infon79, isa, [ind:id36, class:[vegetable, and, herbs]], 1, univ, univ),
+fact(id38, sell, [theme:id30, agent:id25, theme_aff:id36], 1, univ, univ)])).
+entity(ind,id34,0,facts([
+fact(infon72, inst_of, [ind:id34, class:istituzione], 1, univ, univ),
+fact(infon73, isa, [ind:id34, class:[seedlings, and, plants]], 1, univ, univ),
+fact(id39, sell, [agent:id28, theme_aff:id34], 1, univ, univ)])).
+entity(ind,id32,0,facts([
+fact(infon66, inst_of, [ind:id32, class:nquant], 1, univ, univ),
+fact(infon67, isa, [ind:id32, class:acre], 1, univ, univ)])).
+entity(ind,id31,0,facts([
+fact(infon63, inst_of, [ind:id31, class:istituzione], 1, univ, univ),
+fact(infon64, isa, [ind:id31, class:'Greensgrow'], 1, univ, univ)])).
+entity(ind,id30,0,facts([
+fact(infon60, inst_of, [ind:id30, class:astratto], 1, univ, univ),
+fact(infon61, isa, [ind:id30, class:range], 1, univ, univ),
+fact(id38, sell, [theme:id30, agent:id25, theme_aff:id36], 1, univ, univ)])).
+entity(ind,id29,0,facts([
+fact(infon57, inst_of, [ind:id29, class:astratto], 1, univ, univ),
+fact(infon58, isa, [ind:id29, class:profit], 1, univ, univ),
+fact(id40, turn, [theme:id29, actor:id21, locativo:id25, result:id37], 1, univ, univ)])).
+entity(ind,id28,0,facts([
+fact(infon54, inst_of, [ind:id28, class:oggetto], 1, univ, univ),
+fact(infon55, isa, [ind:id28, class:nursery], 1, univ, univ),
+fact(id39, sell, [agent:id28, theme_aff:id34], 1, univ, univ),
+fact(id37, run, [theme_aff:id28, actor:id21, result:id38], 1, univ, univ)])).
+entity(ind,id27,0,facts([
+fact(infon51, inst_of, [ind:id27, class:istituzione], 1, univ, univ),
+fact(infon52, isa, [ind:id27, class:growers], 1, univ, univ)])).
+entity(ind,id26,0,facts([
+fact(infon48, inst_of, [ind:id26, class:edible], 1, univ, univ),
+fact(infon49, isa, [ind:id26, class:produce], 1, univ, univ)])).
+entity(ind,id25,0,facts([
+fact(infon45, inst_of, [ind:id25, class:luogo], 1, univ, univ),
+fact(infon46, isa, [ind:id25, class:site], 1, univ, univ),
+fact(id38, sell, [theme:id30, agent:id25, theme_aff:id36], 1, univ, univ),
+fact(id40, turn, [theme:id29, actor:id21, locativo:id25, result:id37], 1, univ, univ)])).
+entity(ind,id24,0,facts([
+fact(infon42, inst_of, [ind:id24, class:legale], 1, univ, univ),
+fact(infon43, isa, [ind:id24, class:factory], 1, univ, univ)])).
+entity(ind,id23,0,facts([
+fact(infon39, inst_of, [ind:id23, class:istituzione], 1, univ, univ),
+fact(infon40, isa, [ind:id23, class:greenhouses], 1, univ, univ)])).
+entity(ind,id22,0,facts([
+fact(infon36, inst_of, [ind:id22, class:istituzione], 1, univ, univ),
+fact(infon37, isa, [ind:id22, class:beds], 1, univ, univ)])).
+entity(ind,id21,0,facts([
+fact(infon33, inst_of, [ind:id21, class:astratto], 1, univ, univ),
+fact(infon34, isa, [ind:id21, class:plot], 1, univ, univ),
+fact(id40, turn, [theme:id29, actor:id21, locativo:id25, result:id37], 1, univ, univ),
+fact(id37, run, [theme_aff:id28, actor:id21, result:id38], 1, univ, univ)])).
+entity(ind,id11,0,facts([
+fact(infon22, inst_of, [ind:id11, class:qua], 1, univ, univ),
+fact(infon23, inst_of, [ind:id11, class:'Philadelphia'], 1, univ, univ),
+fact(infon24, isa, [ind:id11, class:'Philadelphia'], 1, univ, univ),
+fact(infon25, isa, [ind:id11, class:north_philadelphia], 1, univ, univ),
+fact(infon28, of, [arg:id12, specif:id11], 1, univ, univ)])).
+entity(ind,id10,0,facts([
+fact(infon19, inst_of, [ind:id10, class:astratto], 1, univ, univ),
+fact(infon20, isa, [ind:id10, class:money], 1, univ, univ),
+fact(id15, make, [actor:id5, prop:id10], 1, univ, univ)])).
+entity(class,id6,0,facts([
+fact(infon7, isa, [ind:id6, class:row], 1, univ, univ),
+fact(infon8, of, [arg:id6, specif:id5], 1, univ, univ)])).
+entity(class,id35,0,facts([
+fact(infon75, inst_of, [ind:id35, class:plant_life], 1, univ, univ),
+fact(infon76, isa, [ind:id35, class:vegetable], 1, univ, univ)])).
+entity(class,id33,0,facts([
+fact(infon69, inst_of, [ind:id33, class:institution], 1, univ, univ),
+fact(infon70, isa, [ind:id33, class:seedlings], 1, univ, univ)])).
+entity(class,id12,0,facts([
+fact(infon27, isa, [ind:id12, class:'North'], 1, univ, univ),
+fact(infon28, of, [arg:id12, specif:id11], 1, univ, univ)])).
+

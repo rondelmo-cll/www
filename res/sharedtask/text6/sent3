@@ -1,0 +1,372 @@
+Ratio of Tags per Word for Sentence no: 3
+Word Ambiguity Ratio: 1.48889
+'Lookahead Start Active Chart'
+0-[d-the], 1-[n-farm, v-farm], 2-[v-earned], 3-[d-about, n-about, p-about, v-about], 4-[x- $], 5-[d-'10/000'], 6-[av-on, p-on], 7-[n-revenue], 8-[p-of], 9-[x- $], 10-[d-'450/000'], 11-[p-in], 12-[d-2007], 13-[x- (',')], 14-[e-and], 15-[n-hopes, v-hopes], 16-[p-to], 17-[n-make, v-make], 18-[d-a], 19-[n-profit, v-profit], 20-[p-of], 21-[d-5], 22-[n-percent], 23-[av-on, p-on], 24-[x- $], 25-[d-'650/000'], 26-[p-in], 27-[n-revenue], 28-[p-in], 29-[a-this, r-this], 30-[x- (',')], 31-[a-its, r-its], 32-[d-'10/th'], 33-[n-year, nt-year], 34-[x- (',')], 35-[d-so, e-so, i-so, s-so], 36-[r-it], 37-[n-can, v-can], 38-[a-open, av-open, n-open, v-open], 39-[d-another, r-another], 40-[n-operation], 41-[av-elsewhere, d-elsewhere, r-elsewhere], 42-[p-in], 43-[n-'Philadelphia'], 44-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.15556
+0-[d-the], 1-[n-farm], 2-[v-earned], 3-[d-about], 4-[x- $], 5-[d-'10/000'], 6-[av-on], 7-[n-revenue], 8-[p-of], 9-[x- $], 10-[d-'450/000'], 11-[p-in], 12-[d-2007], 13-[x- (',')], 14-[e-and], 15-[v-hopes], 16-[p-to], 17-[v-make], 18-[d-a], 19-[n-profit], 20-[p-of], 21-[d-5], 22-[n-percent], 23-[p-on], 24-[d- $], 25-[d-'650/000'], 26-[p-in], 27-[n-revenue], 28-[p-in], 29-[r-this], 30-[x- (',')], 31-[a-its, r-its], 32-[d-'10/th'], 33-[n-year], 34-[x- (',')], 35-[d-so, e-so, i-so, s-so], 36-[r-it], 37-[v-can], 38-[v-open], 39-[d-another, r-another], 40-[n-operation], 41-[av-elsewhere, d-elsewhere, r-elsewhere], 42-[p-in], 43-[n-'Philadelphia'], 44-[x-'.']
+
+0-[d-the], 1-[n-farm], 2-[v-earned], 3-[d-about], 4-[x- $], 5-[d-'10/000'], 6-[av-on], 7-[n-revenue], 8-[p-of], 9-[x- $], 10-[d-'450/000'], 11-[p-in], 12-[d-2007], 13-[x- (',')], 14-[e-and], 15-[v-hopes], 16-[p-to], 17-[v-make], 18-[d-a], 19-[n-profit], 20-[p-of], 21-[d-5], 22-[n-percent], 23-[p-on], 24-[d- $], 25-[d-'650/000'], 26-[p-in], 27-[n-revenue], 28-[p-in], 29-[r-this], 30-[x- (',')], 31-[a-its, r-its], 32-[d-'10/th'], 33-[n-year], 34-[x- (',')], 35-[d-so, e-so, i-so, s-so], 36-[r-it], 37-[v-can], 38-[v-open], 39-[d-another, r-another], 40-[n-operation], 41-[av-elsewhere, d-elsewhere, r-elsewhere], 42-[p-in], 43-[n-'Philadelphia'], 44-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+3
+the-dt
+farm-nn
+earned-vbd
+about-rb
+$ - $
+10/000-cd
+on-in
+revenue-nn
+of-in
+$ - $
+450/000-cd
+in-in
+2007-cd
+(,)-pun
+and-cc
+hopes-vbz
+to-to
+make-vbd_vbn
+a-dt
+profit-nn
+of-in
+5-cd
+percent-nn
+on-in
+$ - $
+650/000-cd
+in-in
+revenue-nn
+in-in
+this-dt
+(,)-pun
+its-prp$
+10/th-cd
+year-nn
+(,)-pun
+so-rb
+it-prp
+can-md
+open-vbd_vbn
+another-dt
+operation-nn
+elsewhere-rb
+in-in
+Philadelphia-nnp
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[the-art, farm-n, earned-vin, about-in, $ - doll, '10/000'-num, on-p, revenue-n, of-p, $ - doll, '450/000'-num, in-p, 2007-num, (',')-punt, and-cong, hopes-vin, to-p, make-vt, a-art, profit-n, of-p, 5-num, percent-n, on-p, $ - doll, '650/000'-num, in-p, revenue-n, in-p, this-pron, (',')-punt, its-poss, '10/th'-num, year-nt, (',')-punt, so-avv, it-pron, can-vsup, open-vt, another-q, operation-n, elsewhere-avv, in-p, 'Philadelphia'-n, '.'-punto]
+
+cp-[f-[subj-[the-art-sn, farm-n-sn], ibar-[earned-vppt-sv3], sn-[about-in-sn, $ - doll-sn, '10/000'-num-sn], sp-[on-p-sp, revenue-n-sn, mod-[of-p-sp, $ - doll-sn, '450/000'-num-sn], obl-[in-p-sp, 2007-num-sn]]], fc-[fc-[and-cong-fc], ibar-[hopes-vin-ibar], vcomp-[to-p-_G15238, make-vt-ibar], sn-[a-art-sn, profit-n-sn, obl-[of-p-sp, 5-num-sn, percent-n-sn]], sp-[on-p-sp, $ - doll-sn, '650/000'-num-sn], sp-[in-p-sp, revenue-n-sn, obl-[in-p-sp, this-pron-sn]], fp-[ (',')-punt-fp], sn-[its-poss-sn, '10/th'-num-sn, year-nt-sn], fp-[ (',')-punt-fp], savv-[so-avv-savv], f-[subj-[it-pron-sn], ibar-[can-vsup-ibar, open-vt-ibar], sn-[another-q-sn, operation-n-sn], savv-[elsewhere-avv-savv], sp-[in-p-sp, 'Philadelphia'-n-sn], cp-['.'-punto-cp]]]]
+
+3
+
+
+'Functional and Syntactic Constituency'
+
+subj-[the-art-sn, farm-n-sn]
+ibar-[earned-vppt-sv3]
+obj-[about-in-sn, $ - doll-sn, 10/000-num-sn]
+obl-[on-p-sp, revenue-n-sn, mod-[of-p-sp, $ - doll-sn, 450/000-num-sn], obl-[in-p-sp, 2007-num-sn]]
+
+3
+
+
+'Functional and Syntactic Constituency'
+
+fc-[fc-[and-cong-fc], ibar-[hopes-vin-ibar], vcomp-[to-p-_G15238, make-vt-ibar], obj-[a-art-sn, profit-n-sn, obl-[of-p-sp, 5-num-sn, percent-n-sn]], obl-[on-p-sp, $ - doll-sn, 650/000-num-sn]]
+obl-[in-p-sp, revenue-n-sn, obl-[in-p-sp, this-pron-sn]]
+sn-[its-poss-sn, 10/th-num-sn, year-nt-sn]
+savv-[so-avv-savv]
+
+3
+
+
+'Functional and Syntactic Constituency'
+
+subj-[it-pron-sn]
+ibar-[can-vsup-ibar, open-vt-ibar]
+obj-[another-q-sn, operation-n-sn]
+savv-[elsewhere-avv-savv]
+obl-[in-p-sp, Philadelphia-n-sn]
+coord_ip(indice(f26), coord(ip(indice(sn59), v(earn, active, [[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]]], ind, _G2394/semp, _G2390, _G52386, _G2392), supporto([]), cat(risultato), args([arg(funzione(sogg), ruolo(agent), sn(indice(sn22), cat([informa, oggetto, strumento, tecno]), n(farm, _G2348, sing), spec(def(+), part(_G2337), mod([]), foc(_G2341), card(_G2326), quant([])), args([]), mods([]), adjs([]))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn23), cat([legale, oggetto]), n(revenue, _G2727, sing), spec(def(0), part(-), mod([]), foc(about), card(10/000), quant(num)), args([]), mods([mod_r(avv(pred_avv(on), tipo(avv(on, avv(on, tipo(modal))))))]), adjs([])))]), adjs([]))), coord(ip(indice(sn60), v(earn, active, [[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]]], ind, _G2394/semp, _G2390, _G52824, _G2392), supporto([]), cat(risultato), args([arg(funzione(sogg), ruolo(agent), sn(indice(sn26), cat([date, tempo]), pr(quant, 450/000, 3, _G2776, _G2777, nom), spec(def(+), part(-), mod(_G2797), foc(_G2769), card(_G2768), quant(450/000)), args([]), mods([]), adjs([])))]), adjs([avv(avv(pred_n(2007), tipo(temp), _G2814, config(_G2821)), mod(avv(2007)))]))))
+
+
+coord_ip(
+ indice(f26),
+ coord(
+  ip(
+   indice(sn59),
+   v(earn, active, [[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]]], ind, _G2394/semp, _G2390, _G52386, _G2392),
+   supporto([]),
+   cat(risultato),
+   args(
+     [
+     arg(
+      funzione(sogg),
+      ruolo(agent),
+      sn(
+       indice(sn22),
+       cat([informa, oggetto, strumento, tecno]),
+       n(farm, _G2348, sing),
+       spec(
+        def(+),
+        part([]),
+        mod([]),
+        foc([]),
+        card([]),
+        quant([])
+        ),
+       args([]),
+       mods([]),
+       adjs([])
+       )
+      ),
+     arg(
+      funzione(ogg),
+      ruolo(theme_aff),
+      sn(
+       indice(sn23),
+       cat([legale, oggetto]),
+       n(revenue, _G2727, sing),
+       spec(
+        def(0),
+        part(-),
+        mod([]),
+        foc(
+         about
+         ),
+        card(10/000),
+        quant(
+         num
+         )
+        ),
+       args([]),
+       mods(
+         [
+         mod_r(
+          avv(pred_avv(on), tipo(avv(on, avv(on, tipo(modal)))))
+          )
+         ]
+        ),
+       adjs([])
+       )
+      )
+     ]
+    ),
+   adjs([])
+   )
+  ),
+ coord(
+  ip(
+   indice(sn60),
+   v(earn, active, [[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]]], ind, _G2394/semp, _G2390, _G52824, _G2392),
+   supporto([]),
+   cat(risultato),
+   args(
+     [
+     arg(
+      funzione(sogg),
+      ruolo(agent),
+      sn(
+       indice(sn26),
+       cat([date, tempo]),
+       pr(quant, 450/000, 3, _G2776, _G2777, nom),
+       spec(
+        def(+),
+        part(-),
+        mod([]),
+        foc([]),
+        card([]),
+        quant(
+         450/000
+         )
+        ),
+       args([]),
+       mods([]),
+       adjs([])
+       )
+      )
+     ]
+    ),
+   adjs(
+     [
+     avv(avv(pred_n(2007), tipo(temp), _G2814, config(_G2821)), mod(avv(2007)))
+     ]
+    )
+   )
+  )
+ )
+main/prop:indice:f26
+          coord:indice:sn59
+                pred:earn
+                lex_form:[[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]]]
+                voice:active
+                modo:ind
+                tempo:pres
+                cat:risultato
+                sogg/agent:indice:sn22
+                           cat:[informa, oggetto, strumento, tecno]
+                           pred:farm
+                           num:sing
+                           pers:3
+                           spec:def:+
+                           tab_ref:[+ref, -pro, -ana, +class]
+                ogg/theme_aff:indice:sn23
+                              cat:[legale, oggetto]
+                              pred:revenue
+                              num:sing
+                              pers:3
+                              spec:def:'0'
+                                   part:-
+                                   foc:about
+                                   card:'10/000'
+                                   quant:num
+                              mods:mod_r:adj/avv(on, avv(on, tipo(modal))):
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn22, farm, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [informa, oggetto, strumento, tecno], sogg/agent)/46
+ ref_ex(sn23, revenue, [+ref, def0, num, 10/000, -pro, -ana, +class], 3, nil, sing, [legale, oggetto], ogg/theme_aff)/50
+
+
+rel_temp(infon80, td, tr(sn60_t63), [eq])
+
+
+CLAUSE IDENTIFIER:               3-n38
+CLAUSE TYPE:                     coord/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               undef(tes(sn60_t63), nil)
+DISCOURSE FOCUS:                 tes(sn60_t63)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               3-n4
+CLAUSE TYPE:                     coord/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn59_t63), tes(sn60_t63))
+DISCOURSE FOCUS:                 tes(sn60_t63)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(3, retaining)
+topic(3, expected, id13)
+topic(3, secondary, id42)
+sr(sogg-agent, earn, farm)
+sr(ogg-theme_aff, earn, revenue)
+sr(sogg-agent, earn, 450/000)
+
+
+'######################  LOGICAL FORM ###############'
+wff(and,
+    wff(situation,
+        wff(earn,
+            < definito : sn22 :
+                wff(isa,
+                    sn22,
+                    farm) >>,
+            < about_10/000 : sn23 :
+                wff(isa,
+                    sn23,
+                    revenue) >>,
+            < event : sn59 :
+                wff(and,
+                    wff(isa,
+                        sn59,
+                        ev),
+                    wff(time,
+                        sn59,
+                        < definito : t1 :
+                            wff(and,
+                                wff(isa,
+                                    t1,
+                                    tloc),
+                                wff(pres,
+                                    t1)) >>)) >>)),
+    wff(situation,
+        wff(earn,
+            < 450/000 : sn26 :
+                wff(isa,
+                    sn26,
+                    450/000) >>,
+            < event : sn60 :
+                wff(and,
+                    wff(isa,
+                        sn60,
+                        ev),
+                    wff(time,
+                        sn60,
+                        < definito : t2 :
+                            wff(and,
+                                wff(isa,
+                                    t2,
+                                    tloc),
+                                wff(pres,
+                                    t2)) >>)) >>)))
+
+
+
+loc(infon81, id41, [arg:main_tloc, arg:tes(sn60_t63)])
+ind(infon82, id42)
+fact(infon83, inst_of, [ind:id42, class:legal], 1, univ, univ)
+fact(infon84, isa, [ind:id42, class:revenue], 1, id41, nil)
+fact(infon85, isa, [arg:id13, arg:farm], 1, id41, univ)
+fact(id43, earn, [agent:id13, theme_aff:id42], 1, tes(sn59_t63), univ)
+fact(infon87, isa, [arg:id43, arg:ev], 1, tes(sn59_t63), univ)
+fact(infon88, isa, [arg:id44, arg:tloc], 1, tes(sn59_t63), univ)
+fact(infon89, pres, [arg:id44], 1, tes(sn59_t63), univ)
+fact(infon90, time, [arg:id43, arg:id44], 1, tes(sn59_t63), univ)
+fact(infon91, isa, [arg:id45, arg:'450/000'], 1, id41, univ)
+fact(id46, earn, [agent:id45], 1, tes(sn60_t63), univ)
+fact(infon92, isa, [arg:id46, arg:ev], 1, tes(sn60_t63), univ)
+fact(infon93, isa, [arg:id47, arg:tloc], 1, tes(sn60_t63), univ)
+fact(infon94, pres, [arg:id47], 1, tes(sn60_t63), univ)
+fact(infon95, time, [arg:id46, arg:id47], 1, tes(sn60_t63), univ)
+
+during(tes(sn59_t63), tes(sn60_t63))
+includes(tr(f26_t63), id41)
+
+
+      down:down(0-0)
+      clause:3-3
+      topics:[expected:id13:farm, secondary:id42:revenue]
+      main_fact:earn([id13:farm, id42:revenue], 1, univ)
+      ref_int:tint(nil, [tes(sn60_t63)])
+      temp_rel:undef(tes(sn60_t63), nil)
+      disc_rel:narration
+      disc_seg:2-[3]
+      disc_dom:objective
+      p_o_view:narrator
+
+   up:to(3-3)
+   clause:3-4
+   topics:[expected:id13:farm, secondary:id42:revenue]
+   main_fact:earn([id13:farm, id42:revenue], 1, univ)
+   ref_int:tint(nil, [tes(sn59_t63)])
+   temp_rel:during(tes(sn59_t63), tes(sn60_t63))
+   disc_rel:narration
+   disc_seg:3-[4]
+   disc_dom:objective
+   p_o_view:narrator
+

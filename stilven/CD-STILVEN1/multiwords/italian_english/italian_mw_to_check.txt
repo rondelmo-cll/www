@@ -1,0 +1,1396 @@
+   1 accanto_a - next to
+   2 accanto_agli - alongside the member
+   2 accanto_al - close to
+   1 accanto_al - near to
+   1 accanto_al - next to
+   1 accanto_alla - adjacent to
+   1 accanto_alle - next to
+   1 acqua_minerale - mineral water
+  24 ad_hoc - ad hoc
+  11 ad_valorem - ad valorem
+   1 ai_fini - for achieving
+   1 ai_fini - for fire-extinguishing purposes
+   1 ai_fini - for granting
+   1 ai_fini - for proper
+   4 ai_fini - for purposes
+   1 ai_fini - for test purposes
+   1 ai_fini - for the actuarial
+   1 ai_fini - for the application
+  30 ai_fini - for the purpose
+  39 ai_fini - for the purposes
+   1 ai_fini - for verification purposes
+   1 ai_fini - in order
+   1 ai_fini - to allow
+   1 ai_fini - to enable
+   2 ai_fini - to ensure
+   1 ai_fini - to help
+   1 ai_fini - to permit
+   1 ai_fini - to provide
+   2 ai_fini - to take
+   1 ai_fini - to the purposes
+   1 ai_fini - to the valuation
+   7 ai_fini - with a view
+   1 ai_fini - with regard
+   1 ai_fini - with the objective
+   1 ai_fini - within the meaning
+   2 ai_fini_del - for purposes of
+   1 ai_fini_del - for the fulfilment of
+  20 ai_fini_del - for the purpose of
+  25 ai_fini_del - for the purposes of
+   1 ai_fini_del - to the purposes of
+   2 ai_fini_del - within the meaning of
+   1 ai_fini_della - for purposes of
+   1 ai_fini_della - for reasons of
+  24 ai_fini_della - for the purpose of
+  35 ai_fini_della - for the purposes of
+   2 ai_fini_della - for the sake of
+   1 ai_fini_della - to the execution of
+   1 ai_fini_della - with a view to ensuring
+   2 ai_fini_della - within the meaning of
+   1 ai_fini_della - within the terms of
+   1 ai_fini_dello - for the purpose of carrying
+   1 ai_fini_dello - for the purposes of
+   1 aliquota_media - average rate
+   2 aliquota_media - weighted average
+   1 alla_fine - after completing
+   1 alla_fine - after the completion
+   2 alla_fine - after the end
+   1 alla_fine - at either end
+   2 alla_fine - at end
+   1 alla_fine - at the close
+   1 alla_fine - at the completion
+  36 alla_fine - at the end
+   1 alla_fine - at the termination
+  11 alla_fine - to the end
+   1 alla_lettera - at point
+   2 alla_lettera - to in point
+   1 alla_lettera - to in subparagraph
+   3 alla_lettera - to the consignment
+   3 alla_luce - to light
+   1 alla_luce - to reflect
+   1 alla_luce - to take account
+   1 alla_pari - at par
+   1 alle_porte - to any door
+   2 alle_porte - to doors
+   1 alle_porte - to service doors
+   1 alle_porte - to the doors
+   1 alta_tensione - high tension
+   1 alta_tensione - high voltage
+  12 alto_livello - high level
+   1 al_contrario - in contrast
+   4 al_fine - in order
+   1 al_fine - to encourage
+   1 al_fine - to ensure
+   1 al_meglio - in an optimal
+   1 al_punto_che - to the extent that
+   1 al_riguardo - in this connection
+   1 al_riguardo - in this regard
+   4 al_riguardo - in this respect
+   1 al_volo - al volo
+   2 ammesso_che - accepted that
+   1 ammesso_che - admitted that
+   1 ammesso_che - assumed that
+   1 anche_se - also on whether
+   1 anche_se - but should
+   1 anche_se - even assuming that
+   1 anche_se - even bearing
+  53 anche_se - even if
+   2 anche_se - even in
+   1 anche_se - even it
+  18 anche_se - even though
+  12 anche_se - even when
+  10 anche_se - even where
+   1 anche_se - fact that
+   1 anche_se - including vehicles where
+   1 anche_se - nothwithstanding that
+   2 anche_se - notwithstanding that
+   1 anche_se - true that
+   4 arabia_saudita - saudi arabia
+   1 assicurazione_contro_gli_infortuni_sul_lavoro - insurance schemes for accidents at work
+   6 assicurazione_obbligatoria - compulsory insurance
+   8 assicurazione_sociale - social insurance
+   1 assicurazione_sociale - social security
+   1 assicurazione_sociale - social security insurance
+   1 assicurazione_sociale - unfunded employee social
+   1 assicurazione_sulla_vita - on life insurance
+   2 assicurazione_vita - life assurance
+   1 attorno_a - around eur
+   1 attorno_alle - adjacent to
+   1 aventi_diritto - holding entitlement
+   1 aventi_diritto - which qualify
+   2 aventi_diritto - with the right
+   2 avere_luogo - be made
+   4 avere_luogo - take place
+   1 azione_penale - criminal prosecution
+   1 azione_speciale - special action
+   2 a_c - to c
+   2 a_capo - at the head
+   2 a_carico - at part load
+   3 a_carico - at the expense
+   1 a_carico - exceeding the cost
+   1 a_carico - to be charged
+   1 a_carico - to bear
+  14 a_caso - at random
+   1 a_causa_della - a result of
+   1 a_che - to allowing
+   1 a_che - to ensure that
+   1 a_che - to it that
+   6 a_condizione_che - to the condition that
+   1 a_condizione_che - to the proviso that
+   1 a_danno_degli - to the detriment of
+  20 a_disposizione - at the disposal
+   1 a_disposizione - to be available
+   1 a_disposizione - to produce
+   1 a_disposizione - to provide
+   1 a_disposizione - to the possibility
+   2 a_disposizione_dei - at the disposal of
+   5 a_disposizione_del - at the disposal of
+   6 a_disposizione_della - at the disposal of
+  21 a_disposizione_delle - at the disposal of
+   4 a_forza - to force
+   1 a_meno - to less
+   1 a_occhio - to the naked
+   1 a_parte - to a part
+   1 a_partire_dalla - to five years after
+   1 a_picco - to peak
+   1 a_posteriori - to introduce retrospective
+   2 a_posteriori - to subsequent
+   1 a_posteriori - to the subsequent
+   1 a_priori - a priori
+   2 a_scapito - at the expense
+   5 a_scapito - to the detriment
+   1 a_seconda_dello - according to the member
+   2 a_sud_del - to the south of
+   1 a_termine - a further period
+  22 banca_centrale - central bank
+   3 banca_centrale - central banks
+  17 banca_centrale_europea - european central bank
+   1 banca_centrale_europea - european central banks
+   2 banca_dati - computerised data
+   1 banca_dati - data base
+   4 banca_mondiale - world bank
+   1 banche_dati - data banks
+   1 banche_dati - data bases
+   3 beni_culturali - cultural goods
+   2 beni_culturali - cultural heritage
+   1 bilancia_commerciale - balance of trade
+   2 bilancia_dei_pagamenti - balance of payment
+   8 bilancia_dei_pagamenti - balance of payments
+   4 bilancio_consolidato - balance sheet
+   9 bilancio_consolidato - consolidated balance
+   1 bilancio_nazionale - national budget
+   3 buona_fede - good faith
+   1 cambio_ufficiale - official exchange
+   1 capitale_azionario - equity capital
+   1 capitale_azionario - share capital
+   2 capitale_circolante - circulating capital
+   1 capitale_fisso - capital assets
+   2 capitale_fisso - fixed asset
+  18 capitale_fisso - fixed assets
+   1 capitale_fisso - fixed asssets
+  10 capitale_fisso - fixed capital
+   1 capitale_proprio - capital and reserves
+   1 capitale_proprio - own capital
+   1 carta_igienica - toilet paper
+   1 carta_stampata - printed paper
+   8 cash_flow - cash flow
+   1 centro_direzionale - centro direzionale
+   1 certificato_d'importazione - import certificate
+   4 certificato_d'importazione - import licence
+   2 codice_civile - civil code
+   1 come_se - as having
+  49 come_se - as if
+  22 come_se - as though
+  15 commercio_estero - external trade
+   5 commercio_estero - foreign trade
+   2 commercio_intracomunitario - intra-community trade
+   4 consiglio_dei_ministri - council of ministers
+   1 consiglio_direttivo - board of management
+   7 consiglio_direttivo - governing board
+  13 consiglio_direttivo - governing council
+   1 consiglio_nazionale - consiglio nazionale
+   5 conto_aperto - account opened
+   1 conto_aperto - open account
+  11 conto_bancario - bank account
+   1 conto_bancario - bank shortage
+   1 conto_congiunto - joint account
+   1 conto_corrente - current account
+   1 conto_economico - income statement
+   1 conto_profitti_e_perdite - income and expenditure account
+  17 conto_profitti_e_perdite - profit and loss account
+   1 contributo_volontario - voluntary contribution
+   3 corrente_elettrica - electric current
+  26 corte_dei_conti - court of auditors
+   1 corte_dei_conti - court of justice
+   3 costo_della_vita - cost of living
+   1 costo_del_lavoro - price of labour
+   1 costo_e_nolo - cost and freight
+   2 costo_medio - average cost
+   1 costo_storico - historic cost
+  20 costo_totale - total cost
+   3 costo_totale - total costs
+   1 costo_totale - total eligible cost
+   1 credito_commerciale - commercial credit
+  10 credito_d'imposta - tax credit
+   1 credito_fondiario - mortgage credit
+   1 dare_luogo - give rise
+   1 dare_luogo - take place
+   1 data_base - base date
+   3 dato_che - fact that
+   4 dato_che - given that
+   1 dato_che - information that
+   6 dato_che - information which
+  10 da_parte - by the competent
+   1 da_parte - by the contacting
+   3 da_parte - by the contracting
+   1 da_parte - by the examination
+   1 da_parte - by the issuing
+   2 da_parte - by the notified
+   4 da_parte - by the paying
+   1 da_parte - by the person
+   1 da_parte - by the producer
+   1 da_parte - by the reporting
+   1 da_parte - da parte
+   1 da_parte - from the chief
+   1 da_parte - from the part
+   1 da_parte - to the person
+   3 da_parte_del - by an officer of
+  10 da_parte_del - da parte del
+   1 da_parte_delle - da parte delle
+   1 da_solo - by itself
+   7 debito_pubblico - government debt
+   7 della_porta - of the door
+   1 del_buono - of a removal
+   1 del_genere - of gender
+   6 del_genere - of the genus
+   1 del_resto - of other parts
+   1 del_resto - of rest
+   1 del_resto - of the remainder
+  11 del_resto - of the rest
+   1 del_vecchio - of the old
+   1 del_vecchio - old models of
+   1 deposito_infruttifero - non-interest-bearing deposit
+   5 de_facto - de facto
+   1 de_iure - de jure
+   1 dinanzi_alla - appeal to
+   1 dinanzi_alla - before the
+   1 dinanzi_alla - before which to
+   5 direttore_amministrativo - administrative director
+   7 diritto_penale - criminal law
+   1 documento_ufficiale - legal document
+   1 documento_ufficiale - official document
+   1 dopo_che - after dramatic
+   2 dopo_che - after that
+   1 due_punti - two microphone
+   9 due_punti - two points
+   1 due_punti - two positions
+   2 ente_locale - regional or local
+   1 ente_pubblico - official body
+   1 ente_pubblico - public authority
+   9 ente_pubblico - public body
+   1 ente_pubblico - public entity
+   1 ente_pubblico - public institution
+   2 ente_pubblico - public sector body
+   6 enti_locali - local authorities
+   2 enti_locali - regional or local
+   8 esercizio_finanziario - financial year
+   1 essere_in_contatto - be in contact
+   1 essere_parte - be part
+   1 essere_parte - being a party
+   1 estratto_conto - statement of account
+   1 far_parte - be included
+   5 far_parte - be part
+  10 far_parte - form part
+   1 fatto_salvo - without prejudging
+  39 fatto_salvo - without prejudice
+   8 ferma_restando - without prejudice
+   6 fermi_restando - without prejudice
+  10 fermo_restando - without prejudice
+   2 ferrovie_dello_stato - ferrovie dello stato
+   1 finanza_pubblica - public finance
+   1 fino_a - aid to
+   1 fino_a - cookers to
+   2 fino_a - extended to
+   6 fino_a - more than
+   1 fino_a - to eur
+  39 fino_a - up to
+   7 fino_a - up to eur
+   1 fino_ad - extend to
+   1 fino_ad - extended to
+   1 fino_ad - far had to
+   1 fino_ad - reduced to
+   1 fino_ad - until examination at
+   1 fino_ad - until it reaches
+  24 fino_ad - up to
+   4 fino_ad - up to at
+   2 fino_ai - up to
+   2 fino_al - back to
+   1 fino_al - extend to
+   1 fino_al - more than
+   1 fino_al - passed on to
+   2 fino_al - prior to
+   4 fino_al - until at
+   4 fino_al - until it reaches
+  37 fino_al - up to
+   1 fino_al - up to at
+   3 fino_alla - back to
+   1 fino_alla - east to
+   4 fino_alla - extend to
+   1 fino_alla - meridian to
+   2 fino_alla - through to
+   1 fino_alla - until its
+   1 fino_alla - until the
+  28 fino_alla - up to
+   1 fino_alla - west to
+   1 fino_alle - extend to
+   4 fino_alle - up to
+   1 fin_dal - as from
+   3 fin_quando - so long
+   2 fondo_monetario_internazionale - international monetary fund
+   2 forza_lavoro - labour force
+   1 friuli - venezia giulia
+   1 friuli_venezia_giulia - friuli venezia giulia
+   1 fuori_dai - away from
+   1 fuori_dai - outside the
+   9 fuori_dal - absent from
+   1 fuori_dal - outside the propulsion
+   1 fuori_dalla - away from
+   2 fuori_dalla - export from
+   1 fuori_dalle - away from
+   2 fuori_del - outside of
+   2 fuori_della - fuori della
+   1 fuori_della - out of
+   4 fuori_della - outside of
+   1 fuori_delle - out of
+   2 fuori_delle - outside of
+  23 gazzetta_ufficiale - official journal
+   1 gazzetta_ufficiale - officiel journal
+   1 gioia_tauro - gioia tauro
+  10 gran_bretagna - great britain
+   2 grazie_a - due to
+   3 grazie_ad - due to
+   1 grazie_ai - thanks to
+   2 grazie_alla - due to
+   1 grazie_alla - thanks to
+   1 grazie_alle - accordance with
+   1 grazie_alle - due to
+  14 hong_kong - hong kong
+   1 il_giorno - the actual day
+  19 il_giorno - the date
+  33 il_giorno - the day
+   1 il_giorno - the last day
+   1 il_giorno - the laying date
+   1 il_giorno - the set day
+   1 il_giorno - the working day
+   1 importo_base - basic amount
+   1 imposta_sul_reddito - tax liability on income
+   1 impresa_collegata - affiliated undertaking
+   1 impresa_collegata - linked enterprise
+   1 impresa_collegata - related undertaking
+   2 impresa_controllata - controlled undertaking
+   1 impresa_pubblica - public enterprise
+   1 indice_dei_prezzi - index of the prices
+   2 indice_dei_prezzi - price index of
+   1 indice_dei_prezzi_alla_produzione - producer price index 
+   2 indice_dei_prezzi_al_consumo - index of consumer prices
+   1 indice_dei_prezzi_al_consumo - index of consumer prices 
+   1 insieme_agli - together with these
+   1 insieme_ai - conjunction with
+   3 insieme_ai - together with
+   1 insieme_alla - conjunction with the
+   1 insieme_alla - together with the
+  11 insieme_alle - together with
+   1 insieme_con - along with
+  18 insieme_con - together with
+   1 interesse_generale - general good
+   7 interesse_generale - general interest
+   1 interesse_generale - generally interesting
+   1 interesse_generale - protecting the general
+   1 interesse_maturato - interest accruing
+   1 intorno_alla - around the
+   2 invece_dei - instead of
+   1 invece_dei - place of
+   4 invece_del - instead of
+   1 invece_del - place of
+   1 invece_della - instead of
+   1 invece_della - place of
+   1 invece_delle - instead of
+   1 invece_delle - lieu of
+   1 in_alto - in the high
+   1 in_alto - in the top
+   2 in_alto - on the high
+   1 in_alto_mare - in high seas
+   1 in_alto_mare - in the high sea
+   1 in_base_a - in response to
+   5 in_base_ai - in accordance with
+   1 in_base_ai - in base ai
+   1 in_base_ai - into account for
+   1 in_base_al - in pursuant to
+   2 in_base_al - in relation to
+   1 in_base_alla - in accordance with the
+   1 in_base_alla - in respect to
+  44 in_base_alle - in accordance with
+   1 in_base_alle - in compliance with
+   1 in_base_alle - in conformity with
+   2 in_base_alle - in line with
+   1 in_base_alle - in response to
+   1 in_breve - in a short
+   8 in_buona_fede - in good faith
+   4 in_caso - in case
+   1 in_caso - in cases
+   1 in_caso - in caso
+   2 in_caso - in other cases
+   8 in_caso - in the case
+   9 in_caso - in the event
+   1 in_caso_di - in case of
+   5 in_caso_di - in caso di
+   1 in_caso_di - in the case of
+   1 in_caso_di - in the event of
+   1 in_confronto_al - in comparison to
+   1 in_conseguenza_delle - as a result of
+   1 in_contante - in cash
+   3 in_corso - in course
+   1 in_corso - in hand
+  16 in_corso - in progress
+   2 in_corso - in the course
+   2 in_corso - in the current
+   1 in_diretta - in direct
+   4 in_effetti - in fact
+   2 in_essere - in place
+   7 in_genere - in general
+   1 in_gioco - into play
+   1 in_grado - in a position
+   2 in_integrum - in integrum
+   1 in_loco - in field
+   1 in_loco - in particular
+   1 in_loco - in the field
+   1 in_luogo_del - in place of
+   1 in_luogo_della - in place of
+   1 in_luogo_delle - in lieu of
+   5 in_luogo_delle - in place of
+   1 in_materia - in matrimonial
+   1 in_materia - in matters
+   1 in_materia - in or affecting
+   2 in_materia - in relation
+   5 in_materia - in respect
+   1 in_materia - in that connection
+   1 in_materia - in the context
+   5 in_materia - in the field
+   1 in_materia - in the matter
+   1 in_materia - in the relevant
+   3 in_materia - in this area
+   2 in_materia - in this field
+   1 in_materia - in this respect
+   1 in_materia - on the matter
+   3 in_materia_di - in materia di
+   2 in_meno - in less
+   3 in_merito - in connection
+   4 in_merito - in relation
+   5 in_merito - in respect
+   5 in_merito_al - in relation to
+   1 in_merito_alla - in relation to
+   1 in_merito_alle - in relation to
+   2 in_modo - in a
+   1 in_modo - in a clearly
+   1 in_modo - in a discriminatory
+  21 in_modo - in a manner
+  13 in_modo - in a way
+   1 in_modo - in an equitable
+   1 in_modo - in controlled fashion
+   1 in_modo - in detail
+   8 in_modo - in order
+   1 in_modo - in other ways
+   2 in_modo - in relation
+   4 in_modo - in so
+   2 in_modo - in sufficient
+   1 in_modo - in the manner
+   1 in_modo_che - in a manner such that
+   1 in_modo_che - in a manner which
+   3 in_modo_che - in a way that
+   1 in_modo_che - in a way which
+   2 in_modo_che - in order that
+   2 in_modo_che - in such manner that
+   1 in_modo_che - in such way that
+   1 in_modo_da - in order gradually to
+  39 in_modo_da - in order to
+   1 in_modo_da - in such manner as to
+   4 in_nero - in black
+   2 in_nome_della - in the name of
+   1 in_nome_della - on behalf of
+   9 in_ogni_caso - in all cases
+   4 in_ogni_caso - in all circumstances
+   1 in_ogni_caso - in all such cases
+  19 in_ogni_caso - in any case
+  14 in_ogni_caso - in any event
+   4 in_ogni_caso - in each case
+   1 in_ogni_caso - in each instance
+   1 in_ogni_caso - in either case
+   4 in_ogni_caso - in every case
+   3 in_ogni_caso - in no case
+   1 in_ogni_caso - in no circumstances
+   1 in_ogni_caso - in no event
+   1 in_ogni_caso - under all circumstances
+   2 in_ogni_caso - under no circumstances
+   1 in_originale - in its original
+   1 in_originale - in their original
+   1 in_particolare - in inter alia
+   2 in_particolare - in order
+   1 in_particolare - in order particularly
+   1 in_particolare - in particluar
+  75 in_particolare - in particular
+   1 in_particolare - in particularr
+   1 in_particolare - in separate
+   1 in_particolare - in terms notably
+  17 in_particolare - inter alia
+   3 in_particolare - into particular
+   1 in_quanto - in gfcf since
+   1 in_quanto - in its function
+   1 in_quanto - in its own
+   3 in_quanto - in respect
+  10 in_quanto - in so far
+   8 in_quanto - in that
+   1 in_quanto - in the case
+   1 in_quanto - in the event
+   1 in_questione - in consideration
+  67 in_questione - in question
+   1 in_questione - in relevant
+   1 in_questione - in such
+   1 in_questione - in the explosives
+   1 in_questione - in the pattern
+   2 in_questione - in the relevant
+   1 in_questione - in these
+   3 in_questione - into question
+   6 in_questione - under consideration
+   2 in_rapporto_a - in relation to
+   1 in_rapporto_ad - in relation to
+   1 in_rapporto_agli - in relation to
+   2 in_rapporto_ai - in relation to
+   6 in_rapporto_al - in relation to
+   7 in_rapporto_alla - in relation to
+   1 in_rapporto_alle - in accordance with
+   3 in_rapporto_alle - in connection with
+   3 in_rapporto_alle - in relation to
+  12 in_relazione_ad - in relation to
+   1 in_relazione_ad - in response to
+   1 in_relazione_ai - in connection with
+   1 in_relazione_ai - in line with
+  25 in_relazione_ai - in relation to
+  22 in_relazione_al - in relation to
+  27 in_relazione_alla - in relation to
+   1 in_relazione_alle - in accordance with
+   1 in_relazione_alle - in conjunction with
+   4 in_relazione_alle - in connection with
+  23 in_relazione_alle - in relation to
+   1 in_relazione_alle - in relation with
+   4 in_seguito - in consequence
+   1 in_seguito - in response
+   1 in_seguito - in the following
+   1 in_seguito - in the wake
+   1 in_seguito - in view
+   2 in_seguito_a - in response to
+   1 in_seguito_ad - in response to
+   2 in_seguito_alla - in response to
+   1 in_seguito_alle - in accordance with
+   9 in_situ - in situ
+   4 in_tal_modo - in this way
+   1 in_tal_modo - under this approach
+   1 in_termini_di - in terms of
+   2 in_tutto_e_per_tutto - in full
+  13 in_tutto_o_in_parte - all or part of
+   1 in_tutto_o_in_parte - in full or in part
+   1 in_tutto_o_in_parte - in part or in full
+   1 in_tutto_o_in_parte - in total
+  20 in_tutto_o_in_parte - in whole or in part
+   1 in_tutto_o_in_parte - part or all of
+   1 in_tutto_o_in_parte - partial or total
+   2 in_tutto_o_in_parte - partially or totally
+   1 in_tutto_o_in_parte - partly or completely
+   1 in_tutto_o_in_parte - some or all
+   1 in_tutto_o_in_parte - some or all of
+   1 in_tutto_o_in_parte - some or all of which
+   1 in_tutto_o_in_parte - totally or partially
+   1 in_tutto_o_in_parte - wholly or in part
+   4 in_tutto_o_in_parte - wholly or in part,
+   2 in_tutto_o_in_parte - wholly or partially
+   7 in_tutto_o_in_parte - wholly or partly
+   1 in_vigore - in application
+   1 in_vigore - in effect
+   1 in_vigore - in euro
+   1 in_vigore - in existence
+  61 in_vigore - in force
+   1 in_vigore - in forced
+   3 in_vigore - in operation
+   8 in_vigore - in place
+   1 in_vigore - in the existing
+   6 in_vigore - in use
+   5 in_vigore - into effect
+   1 in_vigore - into existing
+  68 in_vigore - into force
+   1 in_vigore - into fore
+   1 in_vigore - under current
+   7 in_vista - in view
+   1 in_vista_della - in view of
+   1 in_vista_delle - in view of
+   2 in_vista_di - in view of
+  37 in_vitro - in vitro
+  11 in_vivo - in vivo
+   1 istituto_finanziario - financial holding company
+   1 istituto_finanziario - financial institution
+   4 joint_venture - joint venture
+   1 joint_venture - joint ventures
+   1 lavoratore_dipendente - employed worker
+   1 lavoratrici_dipendenti - female employees
+   4 lavoro_dipendente - employee labour
+   1 la_cassa - the bodyshell
+   2 la_cassa - the box
+   1 la_cassa - the fund
+   1 la_spezia - la spezia
+   3 leasing_finanziario - financial lease
+   1 leasing_finanziario - financial leases
+   6 leasing_finanziario - financial leasing
+   1 locale_pubblico - public space
+   6 lontano_da - away from
+   1 lontano_da - lontano da
+   1 lontano_dai - away from
+   4 lontano_dal - away from
+   2 lontano_dal - far from
+   1 lontano_dal - lontano dal
+   1 lontano_dalle - away from
+   4 maggioranza_assoluta - absolute majority
+   1 materia_prima - primary material
+   4 materia_prima - starting material
+   1 medico_generico - medical practitioners
+   3 medio_oriente - middle east
+   2 mercato_all'ingrosso - wholesale market
+  10 mercato_aperto - open market
+   1 mercato_assicurativo - insurance market
+  48 mercato_comune - common market
+   5 mercato_concorrenziale - competitive market
+   2 mercato_dei_beni_di_consumo - consumer market
+   1 mercato_dei_prodotti - market of products
+   1 mercato_dei_prodotti - market of the products
+   1 mercato_dei_prodotti - supply of products
+   1 mercato_del_lavoro - of the labour market
+   1 mercato_estero - foreign bond market
+   1 mercato_estero - foreign market
+   8 mercato_europeo - european market
+   2 mercato_finanziario - financial market
+   1 mercato_finanziario - financial marketplace
+   1 mercato_finanziario - market for financial
+   1 mercato_giapponese - japanese market
+   1 mercato_interno - common market
+   1 mercato_interno - community market
+  33 mercato_interno - domestic market
+   1 mercato_interno - external market
+   1 mercato_interno - integrated market
+   1 mercato_interno - internal information market
+  56 mercato_interno - internal market
+   1 mercato_interno - internal marketin
+   1 mercato_interno - single community market
+   3 mercato_interno - single market
+   3 mercato_libero - free market
+   4 mercato_locale - local market
+   1 mercato_mondiale - international trade
+  29 mercato_mondiale - world market
+  15 mercato_monetario - money market
+   1 mercato_nazionale - domestic market
+   1 mercato_nazionale - home sources
+   1 mercato_nazionale - national gas market
+   5 mercato_nazionale - national market
+   1 mercato_organizzato - organised market
+   1 mercato_parallelo - parallel market
+  45 mercato_regolamentato - regulated market
+   5 mercato_regolamentato - regulated markets
+   4 mercato_secondario - secondary market
+   2 mercato_statunitense - american market
+   1 mercato_statunitense - us domestic
+   5 mercato_statunitense - us market
+   1 mercato_tedesco - german market
+   2 mercato_unico_europeo - single european market
+   1 merci_difettose - defective goods
+   4 metro_quadrato - square metre
+   1 metro_quadrato - square metres
+   6 mezzi_di_comunicazione_di_massa - the media
+   3 mezzi_di_comunicazione_di_massa - the media 
+   1 mezzi_di_comunicazione_di_massa - the national and regional media
+  16 moneta_elettronica - electronic money
+   3 moneta_nazionale - national currencies
+  21 moneta_nazionale - national currency
+  12 mutatis_mutandis - mutatis mutandis
+   3 nei_confronti_degli - in respect of
+  19 nei_confronti_dei - in respect of
+   2 nei_confronti_dei - in the case of
+   2 nei_confronti_dei - in the presence of
+  13 nei_confronti_del - in respect of
+   1 nei_confronti_del - in the name of
+   7 nei_confronti_della - in respect of
+  13 nei_confronti_delle - in respect of
+   1 nei_confronti_delle - in the case of
+   2 nei_confronti_delle - in the light of
+   7 nei_riguardi - in respect
+   1 nei_riguardi - with regard
+   1 nel_caso - for containers
+   1 nel_caso - for strategies
+   1 nel_caso - for those
+   1 nel_caso - if there
+   4 nel_caso - in a case
+   1 nel_caso - in a situation
+  33 nel_caso - in case
+  22 nel_caso - in cases
+   1 nel_caso - in cases where
+   1 nel_caso - in circumstances
+   2 nel_caso - in connection
+   1 nel_caso - in court
+   1 nel_caso - in directive
+   1 nel_caso - in instances
+   1 nel_caso - in pet
+   2 nel_caso - in relation
+   2 nel_caso - in respect
+   1 nel_caso - in shelling
+   2 nel_caso - in so far
+   1 nel_caso - in some cases
+  70 nel_caso - in the case
+   1 nel_caso - in the caseof
+   9 nel_caso - in the cases
+   3 nel_caso - in the circumstances
+   4 nel_caso - in the context
+  26 nel_caso - in the event
+   1 nel_caso - in the eventuality
+   1 nel_caso - in the matter
+   1 nel_caso - in the presence
+   3 nel_caso - in this case
+   2 nel_caso - in those cases
+   1 nel_caso - in those circumstances
+   1 nel_caso - under the circumstances
+   1 nel_caso - when the salvage
+   1 nel_caso - where cream
+   1 nel_caso - where nipple
+   1 nel_caso - where non-conformity
+   1 nel_complesso - in all
+   1 nel_complesso - into all
+   8 nel_contempo - at the same
+   2 nel_contempo - while maintaining
+   1 nel_contempo - while respecting
+   1 nel_corso - at routine
+   1 nel_corso - at that oral
+   1 nel_corso - at the oral
+   1 nel_corso - continuously over
+   2 nel_corso - during the accounting
+  10 nel_corso - during the course
+   1 nel_corso - during the period
+   4 nel_corso - during the preceding
+   7 nel_corso - during the previous
+   3 nel_corso - during the year
+   1 nel_corso - in over
+  25 nel_corso - in the course
+   1 nel_corso - in the current
+   1 nel_corso - in the framework
+   1 nel_corso - in the preceding
+   3 nel_corso - in the previous
+   1 nel_corso - in the year
+   1 nel_corso - over the course
+   1 nel_corso - over the previous
+   1 nel_corso - over the year
+   1 nel_corso - trichinoscopic examination
+   1 nel_corso - when during
+   5 nel_corso - within the context
+   3 nel_corso_degli - in the course of
+   1 nel_corso_dei - during the period of
+   7 nel_corso_dei - in the course of
+   1 nel_corso_dei - in the framework of
+   3 nel_corso_del - during the course of
+   9 nel_corso_del - in the course of
+   4 nel_corso_della - during the course of
+   1 nel_corso_della - during the process of
+  20 nel_corso_della - in the course of
+   2 nel_corso_delle - during the course of
+  11 nel_corso_delle - in the course of
+   1 nel_frattempo - in the intervening
+   4 nel_frattempo - in the meantime
+   1 nel_quadro_della - as part of
+   1 nel_quadro_della - for the purpose of
+   1 nel_quadro_della - forming part of
+   2 nel_quadro_della - in pursuance of
+  17 nel_quadro_della - in the context of
+   1 nel_quadro_della - in the context of poverty
+   4 nel_quadro_della - in the course of
+   1 nel_quadro_della - in the field of
+   3 nel_quadro_della - in the frame of
+  24 nel_quadro_della - in the framework of
+   1 nel_quadro_della - in the wake of
+   1 nel_quadro_della - on the basis of
+   1 nel_quadro_della - under the framework of
+  15 nel_quadro_della - within the framework of
+   1 nel_quadro_delle - as part of
+   1 nel_quadro_delle - in the case of
+  10 nel_quadro_delle - in the context of
+   5 nel_quadro_delle - in the course of
+  11 nel_quadro_delle - in the framework of
+   2 nel_quadro_delle - in the light of
+   1 nel_quadro_delle - within the constraints of
+   1 nel_quadro_delle - within the context of
+   9 nel_quadro_delle - within the framework of
+   3 nel_rispetto_dei - in compliance with fundamental
+   1 nel_rispetto_dei - while respecting intellectual
+   1 nel_rispetto_delle - due observance of
+   2 nel_rispetto_delle - due respect of
+   1 nel_rispetto_delle - in respect of
+   1 nel_rispetto_delle - within the terms of
+   4 nel_senso_che - in the sense that
+   1 nel_senso_che - on the grounds that
+   2 nome_comune - common name
+   1 nome_comune - common names
+   2 nonostante_il_fatto_che - notwithstanding the fact that
+   6 non_appena - immediately after
+   1 novate_milanese - novate milanese
+   1 numero_reale - real number
+  10 nuova_caledonia - new caledonia
+  19 nuova_zelanda - new zealand
+   1 n_a - n to
+   1 ogni_qualvolta - any time
+   1 ogni_volta_che - any period during which
+   1 ogni_volta_che - each time that
+  27 oltre_a - addition to
+   2 oltre_a - additional to
+   1 oltre_a - aiming at
+   1 oltre_a - more detailed than
+   7 oltre_ad - addition to
+   7 oltre_agli - addition to
+  21 oltre_ai - addition to
+   1 oltre_ai - further to
+   1 oltre_al - above to
+  19 oltre_al - addition to
+  11 oltre_alla - addition to
+   2 oltre_alla - additional to
+  32 oltre_alle - addition to
+   1 oltre_alle - along with
+   1 oltre_alle - complement to
+   3 oltre_alle - together with
+   1 oltre_alle - well as to
+   1 operazione_commerciale - commercial transactions
+   3 ordinamento_giuridico - legal system
+   1 ordinaria_amministrazione - day-to-day administration
+   1 ordine_con_limite_di_prezzo - limit order
+   1 ordine_pubblico - grounds of public
+   4 ordine_pubblico - public order
+   7 ordine_pubblico - public policy
+   1 organizzazione_amministrativa - administrative organization
+   2 organizzazione_internazionale - international organisation
+   1 organizzazione_internazionale - international organization
+   1 organizzazione_professionale - professional organization
+   4 paese_in_via_di_sviluppo - developing country
+   1 paese_in_via_di_sviluppo - developing nation
+   1 paesi_bassi - netherlands
+   1 paesi_in_via_di_sviluppo - developing and candidate countries 
+  80 paesi_in_via_di_sviluppo - developing countries
+   1 paesi_in_via_di_sviluppo - developing country
+   1 paesi_in_via_di_sviluppo - developing country members
+   1 paesi_in_via_di_sviluppo - developing nations
+   1 pari_a - adjusted to
+   1 pari_a - amount to
+   1 pari_a - amounting to at
+   2 pari_a - assumed to
+   1 pari_a - equal terms to
+  36 pari_a - equal to
+   3 pari_a - equal to at
+   1 pari_a - equal to eur
+   8 pari_a - equivalent to
+   1 pari_a - equivalent to eur
+   1 pari_a - greater than
+   1 pari_a - higher than
+   1 pari_a - increased to
+   1 pari_a - less than
+   2 pari_al - accommodate at
+   1 pari_al - amount to
+   1 pari_al - amounted to
+   1 pari_al - amounts to
+   1 pari_al - correspond to
+   3 pari_al - corresponding to
+   1 pari_al - equal in
+  48 pari_al - equal to
+   7 pari_al - equivalent to
+   1 pari_alla - corresponding to
+   1 pari_alla - ecu to
+  40 pari_alla - equal to
+   2 pari_alla - equivalent to
+   1 parlamento_europeo - euroepan parliament
+   1 parlamento_europeo - europaen parliament
+   1 parlamento_europeo - european par-liament
+  78 parlamento_europeo - european parliament
+   1 parlamento_europeo - parliament re
+   2 parte_lesa - injured party
+   6 personal_computer - personal computer
+   1 per_caso - to case
+  18 per_cento - per cent
+   2 per_conto_degli - on behalf of
+   1 per_conto_degli - on behalf of member
+   2 per_conto_dei - for the account of
+  17 per_conto_dei - on behalf of
+   1 per_conto_del - for the account of
+   2 per_conto_del - on account of
+  17 per_conto_del - on behalf of
+   1 per_conto_della - for the account of
+  29 per_conto_della - on behalf of
+   8 per_conto_delle - on behalf of
+   1 per_conto_terzi - for account of third
+   4 per_conto_terzi - on behalf of third
+  29 per_esempio - for example
+  14 per_esempio - for instance
+  11 per_la_prima_volta - for the first time
+   1 per_lo_meno - for at least
+   2 per_mezzo_del - by means of
+   1 per_mezzo_della - by means of
+   1 per_mille - per thousand
+   5 per_ora - per hour
+   1 per_quanto - as to
+   1 per_quanto - for the taxation
+   1 per_quanto - for those
+   2 per_quanto - in relation
+   1 per_quanto - in the best
+   1 per_quanto - regard for
+   1 per_quanto - respect of matters
+   1 per_quanto - to apply as
+   1 per_quanto - to as
+  15 per_quanto - to the extent
+   1 per_quanto - to the fullest
+   6 per_quanto - with regard
+   1 per_quanto_riguarda - to define what constitutes
+   1 per_quanto_riguarda - to ensure that it provides
+   1 piccola_impresa - small enterprise
+   1 piuttosto_che - rather indicates that
+   1 piuttosto_che - rather than reflecting
+   2 piuttosto_che - rather that
+   1 porta_a_porta - door to door
+   1 posta_aerea - air mail
+   1 premio_annuo - annual premium
+   1 premio_lordo - gross premium
+   3 premio_supplementare - additional premium
+   1 premio_supplementare - extra premium
+  12 premio_supplementare - supplementary premium
+   1 premio_unico - single premium
+   1 presidente_della_repubblica - preisidente della repubblica
+   1 presidente_della_repubblica - president of the republic
+   6 presidente_del_consiglio - chairman of the board
+   1 presidente_del_consiglio - presidency of the council
+   5 presidente_del_consiglio - president of the council
+   1 presso_alle - near to
+   1 prestito_pubblico - government loan
+   1 prestito_titoli - securities lending
+   5 prezzo_base - basic price
+   3 prezzo_corrente - current price
+   1 prezzo_corrente - price prevailing
+   3 prezzo_finale - final price
+   1 prezzo_medio - average export price
+   1 prezzo_medio - average import price
+  18 prezzo_medio - average price
+   1 prezzo_medio - average sales price
+  12 prezzo_pagato - price paid
+   1 prezzo_pagato - prices paid
+   2 prezzo_relativo - relative price
+   1 prezzo_unitario - price per unit
+  14 prezzo_unitario - unit price
+   2 prima_che - before he
+   1 prima_che - before presenting
+   1 prima_che - before submitting
+   3 prima_del - advance of
+   1 prima_del - before change of
+   1 prima_del - beginning of
+  12 prima_della - advance of
+   1 prima_della - before one of
+   1 prima_della - before shipment of
+   1 prima_della - before the
+   1 prima_della - time of
+   1 prima_delle - advance of
+   1 prima_delle - first of
+   2 prima_dello - before discharge
+   7 prima_dello - before the
+   3 prima_pagina - first page
+   1 primo_luogo - first be allocated
+   3 primo_luogo - first instance
+   7 primo_luogo - first place
+   3 primo_luogo - first step
+   1 primo_ministro - prime minister
+   1 primo_ministro - prime ministerial
+  24 prodotto_agricolo - agricultural product
+   2 prodotto_agricolo - agricultural products
+   3 prodotto_finito - end product
+   3 prodotto_finito - final product
+   1 prodotto_finito - finished foundry
+  31 prodotto_finito - finished product
+   3 prodotto_finito - finished products
+   1 prodotto_finito - made-up product
+  10 prodotto_interno_lordo - gross domestic product
+   4 prodotto_interno_netto - net domestic product
+   1 prodotto_in_corso_di_lavorazione - work in progress
+   1 prodotto_in_corso_di_lavorazione - work-in-progress
+   1 prodotto_nazionale - national product
+   8 prodotto_nazionale_lordo - gross national product
+   4 pronto_soccorso - first aid
+   1 pronto_uso - ready use
+  15 protezione_civile - civil protection
+   7 pubblica_amministrazione - public administration
+   1 pubblica_amministrazione - public authority
+   4 punto_vendita - point of sale
+   1 punto_vendita - retail outlet
+   4 p_e - p and
+   2 p_e - p e
+   1 quanto_a - regard to
+   1 quanto_a - regards to
+   1 quanto_ad - regards to
+   3 quanto_agli - as to
+   1 quanto_agli - regard to
+   4 quanto_ai - as to
+   2 quanto_ai - regard to
+   1 quanto_ai - what to
+   2 quanto_al - as to
+   7 quanto_al - regard to
+   1 quanto_al - relating to
+   2 quanto_al - respect to
+   5 quanto_alla - as to
+   1 quanto_alla - concerns as to
+   3 quanto_alla - regard to
+   2 quanto_alla - respect to
+   4 quanto_alle - as to
+   1 quanto_alle - respect to
+   1 quanto_meno - as a minimum
+   1 quanto_meno - as little
+  11 quanto_meno - at least
+   1 questione_chiave - key issues
+  13 reddito_disponibile - disposable income
+   1 reddito_lordo - gross margin
+   4 reddito_nazionale - national income
+   2 reddito_nazionale_lordo - gross national income
+   1 reddito_nazionale_netto - net national income
+   3 reddito_netto - net income
+   1 reddito_netto - net residual
+   3 regno_unito - great britain
+  60 regno_unito - united kingdom
+  45 repubblica_popolare_cinese - s republic of china
+   1 riguardo_a - as to
+   3 riguardo_a - regard to
+   1 riguardo_a - relation to
+   2 riguardo_a - respect to
+   2 riguardo_ad - relation to
+   1 riguardo_ad - respect to
+   1 riguardo_agli - attention to
+   1 riguardo_agli - concerning the agencies
+   1 riguardo_agli - regard to
+   1 riguardo_agli - relation to
+   1 riguardo_agli - view to
+   1 riguardo_ai - reference to
+  15 riguardo_ai - regard to
+   3 riguardo_ai - relation to
+   3 riguardo_ai - respect to
+   1 riguardo_al - as to
+  36 riguardo_al - regard to
+   1 riguardo_al - relating to
+   4 riguardo_al - relation to
+   2 riguardo_al - relevant to
+   4 riguardo_al - respect to
+  19 riguardo_alla - regard to
+   1 riguardo_alla - relating to
+   5 riguardo_alla - relation to
+   4 riguardo_alla - respect to
+   1 riguardo_alle - as to
+   1 riguardo_alle - particular to
+  16 riguardo_alle - regard to
+   1 riguardo_alle - relation to
+   1 riguardo_alle - relevant to
+   2 riguardo_alle - respect to
+   1 riguardo_alle - view to
+   1 rimettere_in_discussione - call into question
+  11 rispetto_a - compared to
+   1 rispetto_a - comparison to
+   1 rispetto_a - proportion to
+   1 rispetto_a - reference to
+   1 rispetto_a - regard to
+  21 rispetto_a - relation to
+   2 rispetto_a - relative to
+   2 rispetto_a - respect to
+   5 rispetto_ad - compared to
+   1 rispetto_ad - compared with at
+   1 rispetto_ad - reference to
+   1 rispetto_ad - regard to
+   5 rispetto_ad - relation to
+   2 rispetto_ad - relation to defaults
+   2 rispetto_ad - relative to
+   1 rispetto_ad - respect to
+   2 rispetto_agli - compared to
+   1 rispetto_agli - disproportionate to
+   1 rispetto_agli - reference to
+   1 rispetto_agli - regard to
+   6 rispetto_agli - relation to
+   1 rispetto_agli - relative to
+   1 rispetto_ai - accordance with
+   9 rispetto_ai - compared to
+  10 rispetto_ai - compared with
+   1 rispetto_ai - found with
+   2 rispetto_ai - reference to
+   2 rispetto_ai - regard to
+  15 rispetto_ai - relation to
+   3 rispetto_ai - relative to
+   6 rispetto_ai - respect to
+   1 rispetto_ai - that apply to
+   1 rispetto_al - according to
+   2 rispetto_al - applied to
+   1 rispetto_al - bears to
+   1 rispetto_al - cheaper than
+  22 rispetto_al - compared to
+   3 rispetto_al - comparison to
+   1 rispetto_al - found with
+   1 rispetto_al - point at
+   1 rispetto_al - proportion to
+   5 rispetto_al - regard to
+  32 rispetto_al - relation to
+  11 rispetto_al - relative to
+   4 rispetto_al - respect to
+   1 rispetto_al - surplus to
+   1 rispetto_al - than in
+   1 rispetto_all - relation to
+  13 rispetto_alla - compared to
+   1 rispetto_alla - comparison to
+   1 rispetto_alla - opposed to
+   1 rispetto_alla - proportion to
+   1 rispetto_alla - reference to
+   4 rispetto_alla - regard to
+  21 rispetto_alla - relation to
+   7 rispetto_alla - relative to
+   1 rispetto_alla - relatively to
+   4 rispetto_alla - respect to
+   1 rispetto_alla - symmetrical to
+   1 rispetto_alla - than the
+   1 rispetto_alle - changes to
+  12 rispetto_alle - compared to
+   5 rispetto_alle - compared with
+   1 rispetto_alle - comparison to
+   6 rispetto_alle - comparison with
+   2 rispetto_alle - exposure to
+   1 rispetto_alle - made to
+   1 rispetto_alle - non-conformity with
+   1 rispetto_alle - passu with
+   1 rispetto_alle - proportion to
+   1 rispetto_alle - reference to
+   4 rispetto_alle - regard to
+   1 rispetto_alle - relating to
+  18 rispetto_alle - relation to
+   3 rispetto_alle - relative to
+   2 rispetto_alle - respect to
+   1 rispetto_allo - compared with
+   1 saldo_corrente - current balance
+   4 saldo_finale - final balance
+   1 saldo_netto - net balance
+   4 salvo_che - except that
+   1 salvo_che - except where he
+   1 salvo_che - exception that
+   2 salvo_che - unless that
+   5 santa_maria - santa maria
+   1 san_benedetto - san benedetto
+   1 san_giovanni - san giovanni
+   1 san_marzano - san marzano
+   3 scambi_internazionali - international trade
+   1 scambi_internazionali - international transfers
+   1 science_park - science park
+   3 secondo_che - according to whether
+   1 sempre_che - always state that
+   4 sempre_che - condition that
+   1 sempre_che - insofar as that
+  41 sempre_che - provided that
+   1 sempre_che - provided that that
+   1 sempre_che - provided they
+   2 senso_stretto - strict sense
+   1 senza_che - direction provided that
+   1 senza_che - measure for which
+   1 senza_che - not giving
+   1 senza_che - while allowing
+   1 senza_che - while still allowing
+   1 senza_che - without adversely affecting
+   1 senza_che - without causing
+   1 senza_che - without involving
+   1 senza_che - without moving
+   1 senza_che - without passing
+   2 senza_che - without that
+   3 senza_che - without their containing
+   1 senza_che - without there
+   1 senza_che - without thereby affecting
+   1 senza_che - without triggering
+   1 servizio_pubblico - pan-european land-based public
+   1 servizio_pubblico - pan-european public
+   1 servizio_pubblico - public health service
+   1 servizio_pubblico - public radio
+  32 servizio_pubblico - public service
+   2 servizio_pubblico - public services
+   1 servizio_sanitario_nazionale - national health service
+   1 se_non_altro - if for no other
+  10 sierra_leone - sierra leone
+   8 sino_a - up to
+  12 sino_ad - up to
+   1 sino_ai - up to
+   1 sino_al - prior to
+   1 sino_al - until it reaches
+  13 sino_al - up to
+  12 sino_alla - up to
+   1 sin_dal - as from
+   4 sistema_bancario - banking system
+   6 sistema_contabile - accounting system
+   2 sistema_economico - economic system
+   6 sistema_europeo_dei_conti_economici_integrati - european system of integrated economic accounts
+   3 sistema_europeo_delle_banche_centrali - european system of central banks
+  14 sistema_finanziario - financial system
+   1 sistema_finanziario - financial systems
+   2 sistema_fiscale - tax system
+   8 sistema_produttivo - production system
+   1 soggetti_al - conform to
+  26 soggetti_al - subject to
+   3 soggetti_al - subjected to
+  43 soggetto_alla - subject to
+   1 soggetto_alla - subjected to
+   1 solbiate_olona - solbiate olona
+   2 solo_che - only that
+   1 sopra_ai - above with
+   1 sopra_al - above in
+   1 sopra_alle - question comply with
+   1 spesa_amministrativa - administrative expenditure
+   2 spesa_pubblica - public expenditure
+   1 spese_diverse - charges other
+   1 spese_diverse - costs other
+  16 stati_uniti - states of america
+   1 stato_solido - solid phase
+   2 stato_solido - solid state
+   6 sui_generis - sui generis
+   1 sulla_base_degli - drawn from the member
+  22 sulla_base_degli - on the basis of
+   1 sulla_base_dei - on account of
+  45 sulla_base_dei - on the basis of
+   1 sulla_base_dei - on the ground of
+   1 sulla_base_dei - taking account of
+  46 sulla_base_del - on the basis of
+   1 sulla_base_del - upon the basis of
+   1 sulla_base_della - on grounds of
+  40 sulla_base_della - on the basis of
+   1 sulla_base_delle - on a basis of
+   1 sulla_base_delle - on basis of
+  41 sulla_base_delle - on the basis of
+   2 sulla_base_dello - on the basis of
+   1 sulla_base_dello - on the basis of the
+   1 sulla_base_di - on the basis of
+   1 sulla_carta - on mercuric
+   2 sulla_carta - on the paper
+   1 sulla_scorta_degli - on the basis of
+   3 sulla_scorta_dei - on the basis of
+   1 sulla_scorta_del - on the basis of
+   2 sulla_scorta_della - on the basis of
+  13 sulla_scorta_delle - on the basis of
+   1 sul_campo - on field
+   1 sul_campo - rearward field
+   1 sul_campo - the field
+   2 tanto_per - both for
+   2 tanto_per - both on
+   1 tanto_per - both to
+   2 tanto_per - for both
+   2 task_force - task force
+   1 tasso_agevolato - discounted rate
+   1 tasso_d'interesse - floating rate
+  33 tasso_d'interesse - interest rate
+   1 tasso_d'interesse - interest rates
+   1 tasso_d'interesse - interest the rate
+   4 tasso_d'interesse - rate of interest
+   1 tasso_d'interesse_fisso - fixed interest rate
+   1 tasso_d'interesse_nominale - nominal interest rate
+   1 tasso_di_cambio_a_vista - spot exchange rate
+   2 tasso_di_cambio_del_giorno - conversion rate of the day
+   1 tasso_di_cambio_di_mercato - market exchange rate
+   1 tasso_fisso - fixed coupon
+   5 tasso_fisso - fixed rate
+   1 tasso_indicativo - indicative rate
+   1 tasso_interbancario - interbank rate
+   1 tasso_medio - average level
+  11 tasso_medio - average rate
+   1 tasso_medio - monthly average
+   1 tasso_minimo - minimum incorporation
+   3 tasso_minimo - minimum rate
+   1 tasso_nominale - nominal rate
+   2 tasso_reale - actual rate
+   1 tavola_rotonda - table conference
+   6 tempo_pieno - full time
+   1 tenere_conto - due regard
+   2 tenere_conto - have regard
+   2 tenere_conto - into account
+   2 tenere_conto - made to allow
+  36 tenere_conto - take account
+  32 tenere_conto - take into account
+   6 tenere_conto - take into consideration
+  14 tenere_conto - taken into account
+   3 tenere_conto - taking account
+   2 tenere_conto - taking into account
+   4 tener_conto - account being taken
+   2 tener_conto - account is taken
+   4 tener_conto - be given
+   2 tener_conto - be made
+   1 tener_conto - be the
+  36 tener_conto - into account
+   6 tener_conto - into consideration
+   1 tener_conto - into line
+   1 tener_conto - put into
+  59 tener_conto - take account
+   1 tener_conto - take appropriate account
+   2 tener_conto - take full account
+  40 tener_conto - take into account
+   4 tener_conto - take into consideration
+   1 tener_conto - taken account
+   1 tener_conto - takes account
+  14 tener_conto - taking account
+  10 tener_conto - taking into account
+   3 tener_conto - taking into consideration
+   1 terme_di_caracalla - terme di caracalla
+   1 terzo_mondo - third world
+   5 testo_unico - consolidated text
+   1 testo_unico - one text
+   6 testo_unico - single text
+   1 testo_unico - single version
+   6 testo_unico - testo unico
+   3 tranne_che - except that
+   1 una_tantum - a one-off
+   4 unione_europea - european union
+   1 valore_aggiunto - added benefit
+  29 valore_aggiunto - added value
+  53 valore_aggiunto - value added
+   1 valore_aggiunto - value it adds
+  10 valore_attuale - present value
+   5 valore_contabile - accounting value
+   7 valore_contabile - book value
+   2 valore_contabile - book values
+   8 valore_della_produzione - value of output
+   5 valore_della_produzione - value of production
+   4 valore_della_produzione - value of the output
+   1 valore_della_produzione - value of the producer
+   1 valore_della_produzione - value of the production
+   3 valore_monetario - monetary value
+   2 valore_reale - actual value
+   4 valore_reale - real value
+   1 valore_reale - true value
+   1 valore_reale - value in real
+   8 valori_mobiliari - transferable securities
+   1 valori_mobiliari - transferrable securities
+   2 valuta_forte - hard currency
+   1 variazione_delle_scorte - change of stocks
+   1 vendita_all'ingrosso - sale by wholesale
+   1 vendita_sul_mercato_interno - disposal on the internal market
+   1 vendita_sul_mercato_interno - sale on the domestic market
+   1 veste_giuridica - legally recognized partners
+   1 via_xx_settembre - via xx settembre
+   1 vibo_valentia - vibo valentia
+   3 vicino_a - close to
+   2 vicino_ad - next to
+   2 vicino_ai - close to
+   5 vicino_al - close to
+   1 vicino_al - near to
+   4 vicino_alla - close to
+   2 vicino_alla - near to
+   1 vicino_alla - next to
+   1 vicino_alle - close to
+   2 vicino_alle - near to
+   1 villa_rendena - villa rendena
+   1 visto_che - account that
+   4 visto_che - given that
+   1 wall_street - wall street
+   1 yen_giapponese - japanese yen

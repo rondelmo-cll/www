@@ -1,0 +1,26 @@
+Minimal pairs for [p] vs. [b] in initial position:
+p 	b 			+ 	£ 	… 	a 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+pa£o 	ba£o 			ga£o 	va£o 	xa£o 
+pack 	back 		
+pare 	bare 			dare 	gare 	mare 	nare 
+park 	bark 			mark 
+pasa 	basa 			£asa 	casa 	fasa 	masa 	rasa 
+paso 	baso 			£aso 	caso 	faso 	maso 	raso 
+passo 	basso 		
+paxe 	baxe 			caxe 
+pe£e 	be£e 			de£e 	ke£e 	te£e 	xe£e 
+pele 	bele 			dele 
+peséti 	beséti 		
+pig 	big 		
+pit 	bit 			hit 	sit 
+poca 	boca 			foca 	toca 
+pocia 	bocia 		
+pora 	bora 			fora 	lora 	sora 
+pose 	bose 			fose 	mose 	tose 
+
+Minimal pairs for [p] vs. [b] in medial position:
+np 	nb 			n' 	na 	nà 	ne 	nè 	no 	nu 	ny 
+rope 	robe 			roxe 
+sapia 	sabia 			saria 
+
+Minimal pairs for [p] vs. [b] in final position:

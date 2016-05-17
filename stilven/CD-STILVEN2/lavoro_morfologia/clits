@@ -1,0 +1,307 @@
+﻿lemc(io,mi,fm,s).
+lemc(tu,ti,fm,s).
+lemc(io,me,fm,s).
+lemc(tu,te,fm,s).
+lemc([lui,lei],l,fm,s).
+lemc(lei,le,f,s).
+lemc(lei,le,f,p).
+lemc(lui,gl,m,s).
+lemc(lui,gli,m,s).
+lemc(egli,egli,m,s).
+lemc(ella,la,f,s).
+lemc(esso,si,fm,s).
+lemc(esso,se,fm,s).
+lemc(esso,lo,m,s).
+lemc(voi,ve,fm,p).
+lemc([là,noi],c,fm,p).
+lemc(noi,ce,fm,p).
+lemc(loro,loro,fm,p).
+lemc(loro,li,m,p).
+lemc([là,voi],v,fm,p).
+lemc([là,voi],vi,fm,p).
+lemc([là,noi],ci,fm,p).
+lemc(['di là','di ciò'],ne,fm,p).
+
+doubleclits(gliel,gli,l).
+doubleclits(glielo,gli,lo).
+doubleclits(gliela,gli,la).
+doubleclits(glieli,gli,li).
+doubleclits(gliele,gli,le).
+doubleclits(glisi,gli,si).
+doubleclits(gliene,gli,ne).
+doubleclits(tene,te,ne).
+doubleclits(telo,te,lo).
+doubleclits(teli,te,li).
+doubleclits(tele,te,le).
+doubleclits(tela,te,la).
+doubleclits(tici,ti,ci).
+doubleclits(tisi,ti,si).
+doubleclits(mela,me,la).
+doubleclits(melo,me,lo).
+doubleclits(meli,me,li).
+doubleclits(mele,me,le).
+doubleclits(mela,me,la).
+doubleclits(mene,me,ne).
+doubleclits(misi,mi,si).
+doubleclits(mici,mi,ci).
+doubleclits(mivi,mi,vi).
+doubleclits(velo,ve,lo).
+doubleclits(veli,ve,li).
+doubleclits(vele,ve,le).
+doubleclits(vela,ve,la).
+doubleclits(vene,ve,ne).
+doubleclits(visi,vi,si).
+doubleclits(vici,vi,ci).
+doubleclits(cisi,ci,si).
+doubleclits(celo,ce,lo).
+doubleclits(celi,ce,li).
+doubleclits(cele,ce,le).
+doubleclits(cela,ce,la).
+doubleclits(cene,ce,ne).
+doubleclits(selo,se,lo).
+doubleclits(seli,se,li).
+doubleclits(sele,se,le).
+doubleclits(sela,se,la).
+doubleclits(sene,se,ne).
+
+c_case(l,acc).
+c_case(c,abl).
+c_case(lo,acc).
+c_case(la,acc).
+c_case(gli,dat).
+c_case(gl,dat).
+c_case(li,acc).
+c_case(le,[dat, acc]).
+c_case(loro,[dat, acc]).
+c_case(gliel,[dat+acc]).
+c_case(glielo,[dat+acc]).
+c_case(gliela,[dat+acc]).
+c_case(glieli,[dat+acc]).
+c_case(gliele,[dat+acc]).
+c_case(glisi,[dat+nom]).
+c_case(cisi,[dat+nom]).
+c_case(ci,[nom,dat, abl]).
+c_case(vi,[nom,dat, abl]).
+c_case(tene,[dat+abl]).
+c_case(gliene,[dat+part]).
+c_case(mi,[nom,acc,dat]).
+c_case(ti,[nom,acc,dat]).
+c_case(m,dat).
+c_case(me,dat).
+c_case(meco,obl).
+c_case(teco,obl).
+c_case(seco,obl).
+c_case(te,[acc,dat]).
+c_case(telo,[dat+acc]).
+c_case(teli,[dat+acc]).
+c_case(tele,[dat+acc]).
+c_case(tela,[dat+acc]).
+c_case(tici,[dat+acc]).
+c_case(tisi,[dat+nom]).
+c_case(mela,[dat+acc]).
+c_case(melo,[dat+acc]).
+c_case(meli,[dat+acc]).
+c_case(mele,[dat+acc]).
+c_case(mela,[dat+acc]).
+c_case(mene,[dat+part]).
+c_case(misi,[dat+nom]).
+c_case(mici,[dat+abl]).
+c_case(mivi,[dat+abl]).
+c_case(velo,[dat+acc]).
+c_case(veli,[dat+acc]).
+c_case(vele,[dat+acc]).
+c_case(vela,[dat+acc]).
+c_case(vene,[dat+part]).
+c_case(visi,[dat+nom]).
+c_case(vici,[dat+abl]).
+c_case(celo,[dat+acc]).
+c_case(celi,[dat+acc]).
+c_case(cele,[dat+acc]).
+c_case(cela,[dat+acc]).
+c_case(cene,[dat+part]).
+c_case(selo,[dat+acc]).
+c_case(seli,[dat+acc]).
+c_case(sele,[dat+acc]).
+c_case(sela,[dat+acc]).
+c_case(sene,[dat+part]).
+c_case(se,dat).
+c_case(ve,dat).
+c_case(ce,dat).
+c_case(n,part).
+c_case(ne,part).
+c_case(s,[nom, dat]).
+c_case(si,[nom, dat]).
+
+si_c(cisi,[abl+nom]).
+si_c(tisi,[dat+nom]).
+si_c(glisi,[dat+nom]).
+si_c(misi,[dat+nom]).
+si_c(visi,[dat+nom]).
+si_c(selo,[dat+acc]).
+si_c(seli,[dat+acc]).
+si_c(sele,[dat+acc]).
+si_c(sela,[dat+acc]).
+si_c(sene,[dat+part]).
+si_c(se,dat).
+si_c(si,[nom, dat]).
+
+p_cli(l,3,s,G).
+p_cli(lo,3,s,m).
+p_cli(la,3,s,f).
+p_cli(gli,3,N,f).
+p_cli(gli,3,N,m).
+p_cli(li,3,p,m).
+p_cli(le,3,p,f).
+p_cli(glielo,3,N,m).
+p_cli(gliela,3,N,f).
+p_cli(glieli,3,N,m).
+p_cli(gliele,3,N,f).
+p_cli(glisi,3,_,_).
+p_cli(cisi,1,p,_).
+p_cli(c,1,p,_).
+p_cli(ce,1,p,_).
+p_cli(ve,2,p,_).
+p_cli(ci,1,p,_).
+p_cli(vi,2,p,_).
+p_cli(tene,P,_,_).
+p_cli(gliene,P,_,_).
+p_cli(m,1,s,_).
+p_cli(me,1,s,_).
+p_cli(mi,1,s,_).
+p_cli(te,2,s,_).
+p_cli(ti,2,s,_).
+p_cli(telo,2,s,m).
+p_cli(teli,2,N,m).
+p_cli(tele,2,N,f).
+p_cli(tela,2,s,f).
+p_cli(tici,2,_,_).
+p_cli(tisi,2,_,_).
+p_cli(mela,1,N,f).
+p_cli(melo,1,N,m).
+p_cli(meli,1,N,m).
+p_cli(mele,1,N,f).
+p_cli(mela,1,N,f).
+p_cli(mene,1,_,_).
+p_cli(misi,1,_,_).
+p_cli(mici,1,N,_).
+p_cli(mivi,1,N,_).
+p_cli(velo,2,N,m).
+p_cli(veli,2,N,m).
+p_cli(vele,2,N,f).
+p_cli(vela,2,N,f).
+p_cli(vene,2,_,_).
+p_cli(visi,2,_,_).
+p_cli(vici,2,_,_).
+p_cli(celo,1,N,m).
+p_cli(celi,1,N,m).
+p_cli(cele,1,N,f).
+p_cli(cela,1,N,f).
+p_cli(cene,1,_,_).
+p_cli(selo,3,N,m).
+p_cli(seli,3,N,m).
+p_cli(sele,3,N,f).
+p_cli(sela,3,N,f).
+p_cli(sene,3,_,_).
+p_cli(n,3,_,_).
+p_cli(ne,3,_,_).
+p_cli(se,3,_,m).
+p_cli(s,3,_,_).
+p_cli(si,3,_,m).
+p_cli(si,3,_,f).
+
+
+doubl_cl(cci, ci).
+doubl_cl(ccela, cela).
+doubl_cl(ccele, cele).
+doubl_cl(ccelo, celo).
+doubl_cl(cceli, celi).
+doubl_cl(ccene, cene).
+doubl_cl(lla, la).
+doubl_cl(lle, le).
+doubl_cl(llo, lo).
+doubl_cl(lli, li).
+doubl_cl(mmi, mi).
+doubl_cl(mmela, mela).
+doubl_cl(mmele, mele).
+doubl_cl(mmelo, melo).
+doubl_cl(mmeli, meli).
+doubl_cl(mmene, mene).
+doubl_cl(nne, ne).
+doubl_cl(tti, ti).
+doubl_cl(ttela, tela).
+doubl_cl(ttele, tele).
+doubl_cl(ttelo, telo).
+doubl_cl(tteli, teli).
+doubl_cl(ttene, tene).
+
+
+clx(1,c, ['clit:pro']).
+clx(2,ce, ['clit:pro']).
+clx(3,cce, ['clit:double']).
+clx(3,cci, ['clit:r_enc']).
+clx(4,cela, ['clit:enc']).
+clx(4,cele, ['clit:enc']).
+clx(4,celi, ['clit:enc']).
+clx(4,celo, ['clit:enc']).
+clx(4,cene, ['clit:enc']).
+clx(4,cisi, ['clit:enc']).
+clx(2,ci, ['clit:proenc']).
+clx(3,gli, ['clit:proenc']).
+clx(6,gliela, ['clit:enc', 'clit:proenc']).
+clx(6,gliele, ['clit:enc', 'clit:proenc']).
+clx(6,glieli, ['clit:enc', 'clit:proenc']).
+clx(6,glielo, ['clit:enc', 'clit:proenc']).
+clx(6,gliene, ['clit:enc', 'clit:proenc']).
+clx(5,glisi, ['clit:enc']).
+clx(1,l, ['clit:proenc']).
+clx(2,la, ['clit:proenc']).
+clx(2,le, ['clit:proenc']).
+clx(2,li, ['clit:proenc']).
+clx(3,lla, ['clit:r_enc']).
+clx(3,lle, ['clit:r_enc']).
+clx(3,lli, ['clit:r_enc']).
+clx(3,llo, ['clit:r_enc']).
+clx(2,lo, ['clit:proenc']).
+clx(4,loro, ['clit:enc']).
+clx(2,me, ['clit:pro']).
+clx(4,mela, ['clit:enc']).
+clx(4,mele, ['clit:enc']).
+clx(4,meli, ['clit:enc']).
+clx(4,melo, ['clit:enc']).
+clx(4,mene, ['clit:enc']).
+clx(2,ne, ['clit:proenc']).
+clx(3,nne, ['clit:r_enc']).
+clx(2,mi, ['clit:proenc']).
+clx(4,mici, ['clit:enc']).
+clx(4,misi, ['clit:enc']).
+clx(4,mivi, ['clit:enc']).
+clx(3,mme, ['clit:double']).
+clx(3,mmi, ['clit:r_enc']).
+clx(2,se, ['clit:pro']).
+clx(4,selo, ['clit:enc']).
+clx(4,sela, ['clit:enc']).
+clx(4,seli, ['clit:enc']).
+clx(4,sele, ['clit:enc']).
+clx(4,sene, ['clit:enc']).
+clx(2,si, ['clit:proenc']).
+clx(2,te, ['clit:pro']).
+clx(4,tela, ['clit:enc']).
+clx(4,teli, ['clit:enc']).
+clx(4,telo, ['clit:enc']).
+clx(4,tele, ['clit:enc']).
+clx(4,tene, ['clit:enc']).
+clx(2,ti, ['clit:proenc']).
+clx(4,tici, ['clit:enc']).
+clx(4,tisi, ['clit:enc']).
+clx(3,tte, ['clit:double']).
+clx(3,tti, ['clit:r_enc']).
+clx(2,ve, ['clit:pro']).
+clx(2,vi, ['clit:proenc']).
+clx(4,velo, ['clit:enc']).
+clx(4,vela, ['clit:enc']).
+clx(4,veli, ['clit:enc']).
+clx(4,vele, ['clit:enc']).
+clx(4,vene, ['clit:enc']).
+clx(4,visi, ['clit:enc']).
+clx(4,vici, ['clit:enc']).
+clx(4,viti, ['clit:enc']).

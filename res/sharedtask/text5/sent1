@@ -1,0 +1,158 @@
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.45161
+'Lookahead Start Active Chart'
+0-[d- (as), e- (as), p- (as), s- (as)], 1-[d-the], 2-[d-3], 3-[n-guns, v-guns], 4-[p-of], 5-[n-'Turret'], 6-[d-2], 7-[v-were], 8-[n-being, v-being], 9-[a-loaded, v-loaded], 10-[x- (',')], 11-[d-a], 12-[n-crewman], 13-[r-who, w-who], 14-[v-was], 15-[a-operating, n-operating, v-operating], 16-[d-the], 17-[a-center, n-center, v-center], 18-[n-gun, v-gun], 19-[a-yelled, v-yelled], 20-[p-into], 21-[d-the], 22-[n-phone, v-phone], 23-[x- (',')], 24-[x-'"'], 25-[r-i], 26-[v-have], 27-[d-a], 28-[n-problem], 29-[av-here], 30-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.03226
+0-[s- (as)], 1-[d-the], 2-[d-3], 3-[n-guns], 4-[p-of], 5-[n-'Turret'], 6-[d-2], 7-[v-were], 8-[v-being], 9-[v-loaded], 10-[x- (',')], 11-[d-a], 12-[n-crewman], 13-[r-who, w-who], 14-[v-was], 15-[v-operating], 16-[d-the], 17-[n-center], 18-[n-gun], 19-[v-yelled], 20-[p-into], 21-[d-the], 22-[n-phone], 23-[x- (',')], 24-[x-'"'], 25-[r-i], 26-[v-have], 27-[d-a], 28-[n-problem], 29-[av-here], 30-[x-'.']
+
+0-[s- (as)], 1-[d-the], 2-[d-3], 3-[n-guns], 4-[p-of], 5-[n-'Turret'], 6-[d-2], 7-[v-were], 8-[v-being], 9-[v-loaded], 10-[x- (',')], 11-[d-a], 12-[n-crewman], 13-[r-who, w-who], 14-[v-was], 15-[v-operating], 16-[d-the], 17-[n-center], 18-[n-gun], 19-[v-yelled], 20-[p-into], 21-[d-the], 22-[n-phone], 23-[x- (',')], 24-[x-'"'], 25-[r-i], 26-[v-have], 27-[d-a], 28-[n-problem], 29-[av-here], 30-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+1
+(as)-in
+the-dt
+3-cd
+guns-nns
+of-in
+Turret-nnp
+2-cd
+were-vbd
+being-vbg
+loaded-vbd
+(,)-pun
+a-dt
+crewman-nn
+who-wdt
+was-vbd
+operating-vbg
+the-dt
+center-nn
+gun-nn
+yelled-vbn_jj
+into-in
+the-dt
+phone-nn
+(,)-pun
+"-pun
+i-prp
+have-vb
+a-dt
+problem-nn
+here-rb
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[ (as)-cosu, the-art, 3-num, guns-n, of-p, 'Turret'-n, 2-num, were-ause, being-aueg, loaded-vin, (',')-punt, a-art, crewman-n, who-rel, was-ause, operating-vgin, the-art, center-n, gun-n, yelled-vppt, into-p, the-art, phone-n, (',')-punt, '"'-par, i-pron, have-ausa, a-art, problem-n, here-avv, '.'-punto]
+
+cp-[sp-[ (as)-p-sp, the-art-sn, 3-num-sn, guns-n-sn, mod-[of-p-sp, 'Turret'-n-sn]], f-[subj-[2-num-sn], ibar-[were-ause-ibar, being-aueg-ibar, loaded-vppt-ibar], fp-[ (',')-punt-fp], sn-[a-art-sn, crewman-n-sn], f2-[f2-[who-rel-f2], f-[subj-pro, ibar-[was-ause-ibar, operating-vgin-ibar], sn-[the-art-sn, gun-n-sn, mod-[center-n-sn]]]], ibar-[yelled-vppt-sv3], sp-[into-p-sp, the-art-sn, phone-n-sn], fp-[ (',')-punt-fp], fp-['"'-par-fp], f-[subj-[i-pron-sn], ibar-[have-ausa-ibar], sn-[a-art-sn, problem-n-sn], savv-[here-avv-savv], cp-['.'-punto-cp]]]]
+
+1
+
+
+'Functional and Syntactic Constituency'
+
+subj-[2-num-sn]
+ibar-[were-ause-ibar, being-aueg-ibar, loaded-vppt-ibar]
+xcomp-[a-art-sn, crewman-n-sn, f2-[f2-[f2-[who-rel-f2], f-[subj-pro, ibar-[was-ause-ibar, operating-vgin-ibar], sn-[the-art-sn, gun-n-sn, mod-[center-n-sn]]]], ibar-[yelled-vppt-sv3], obl-[into-p-sp, the-art-sn, phone-n-sn]]]
+obl-[ (as)-p-sp, the-art-sn, 3-num-sn, guns-n-sn, mod-[of-p-sp, Turret-n-sn]]
+subj-[i-pron-sn]
+ibar-[have-ausa-ibar]
+xcomp-[a-art-sn, problem-n-sn]
+savv-[here-avv-savv]
+f3-[ (,)-punt-fp]
+dirsp-"
+
+
+*********************************************************************************
+t51
+
+'Output of Anaphora Resolution Module'
+
+all_prons([3-[], 2-[]])
+
+############   TOPICS   ############
+MAIN TOPIC:  guns
+SECONDARY TOPIC:  nil
+POTENTIAL TOPICS:  crewman-ndef, gun-npr, turret-npr
+second  identified as  nil  with semantic index  nil
+
+
+'Augmented Head Dependent Indexed Structures'
+
+'ccomp-prop'(nil, load, load).
+'adj-mod'(in, have, here).
+det(problem-sn10, a).
+'xcomp-prop'(have-cl4, problem-sn10).
+'subj-experiencer'(have-cl4, i-sn9).
+'ncmod-specif'(guns-sn4, turret).
+det(guns-sn4, the).
+'ncmod-specif'(crewman-sn3, phone).
+'ncmod-specif'(gun-sn5, center).
+det(gun-sn5, the).
+'obj-patient'(operate-cl3, gun-sn5).
+'cmod-topic'(who, crewman-sn3, operate).
+'subj-actor'(operate-cl3, crewman-sn3).
+aux(operate, was).
+progr(operate, operating).
+tense(past, '_', operate).
+voice(active, '_', operate).
+'ncmod-prop'(as, load-cl1, guns-sn4).
+det(sn4, guns, 3).
+'xcomp-prop'(load-cl1, crewman-sn3).
+'subj-theme_aff'(load-cl1, 2-sn2).
+voice(active, '_', load).
+aux(load, being).
+aux(load, were).
+progr(load, being).
+tense(pres, '_', have).
+voice(active, '_', have).
+tense(past, '_', yell).
+voice(active, '_', yell).
+tense(past, '_', load).
+voice(passive, were, load).
+
+'Semantic Interpretation and Informational Structure'
+
+[2, direct, operate, pluper, active, nil, nil, operating, indic, nil, attivita]
+[3, direct, load, pluper, active, nil, nil, being, indic, nil, attivita, ccomp, prop, nil, load, load]
+[4, direct, have, pres, active, nil, nil, nil, indic, here, attivita, adj, mod, in, here, have]
+sinfo(2, main/prop, internal, factive, null, background, attivita, operate, pluper, narration, objective, nil)
+sinfo(3, adj/prop, internal, factive, null, background, attivita, load, pluper, narration, objective, nil)
+sinfo(4, main/prop, internal, factive, gradual, foreground, attivita, have, pres, narration, objective, nil)
+
+
+t51
+'Discourse Relations and Discourse Structure'
+
+sd_structure(t51, 2, objective, narration, pluper, operate, background, level, down(0-0))
+sd_structure(t51, 3, objective, narration, pluper, load, background, level, down(0-0))
+sd_structure(t51, 4, objective, narration, pres, have, foreground, level, down(0-0))
+ind(infon1, id5)
+fact(infon2, inst_of, [ind:id5, class:nquant], 1, univ, univ)
+fact(infon3, isa, [ind:id5, class:2], 1, univ, univ)
+ind(infon4, id6)
+fact(infon5, inst_of, [ind:id6, class:umano], 1, univ, univ)
+fact(infon6, isa, [ind:id6, class:crewman], 1, univ, univ)
+ind(infon7, id7)
+fact(infon8, inst_of, [ind:id7, class:istituzione], 1, univ, univ)
+fact(infon9, isa, [ind:id7, class:guns], 1, univ, univ)
+ind(infon10, id8)
+fact(infon11, inst_of, [ind:id8, class:oggetto], 1, univ, univ)
+fact(infon12, isa, [ind:id8, class:gun], 1, univ, univ)
+ind(infon13, id9)
+fact(infon14, inst_of, [ind:id9, class:oggetto], 1, univ, univ)
+fact(infon15, isa, [ind:id9, class:phone], 1, univ, univ)
+ind(infon16, id10)
+fact(infon17, inst_of, [ind:id10, class:oggetto], 1, univ, univ)
+fact(infon18, isa, [ind:id10, class:turret], 1, univ, univ)
+fact(id11, have, [prop:sn10], 1, univ, univ)
+fact(id12, load, [prop:sn3, theme_aff:id5, prop:sn4], 1, univ, univ)
+fact(id13, operate, [patient:id8, actor:id6], 1, univ, univ)
+

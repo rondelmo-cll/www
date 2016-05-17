@@ -1,0 +1,211 @@
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.4
+'Lookahead Start Active Chart'
+0-[r-who, w-who], 1-[v-did], 2-[d-the], 3-[n-order, v-order], 4-[x- ?]
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.2
+0-[r-who, w-who], 1-[v-did], 2-[d-the], 3-[n-order], 4-[x- ?]
+0-[r-who, w-who], 1-[v-did], 2-[d-the], 3-[n-order], 4-[x- ?]
+
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn1),
+   cat([umano, animato]),
+   pr(pr_int, _G35218, who, 3, _G35221, _G35222, [nom, acc, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(do, active, [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], ind, pass, 3, sing, _G36635),
+  supporto([]),
+  cat(attivita),
+  args(
+    [
+    arg(
+     funzione(ncomp),
+     ruolo(prop),
+     sn(
+      indice(sn3),
+      cat([attivita, evento]),
+      pr(pro_picc, pro, _G37972, _G37973, _G37974, _G37975, nom),
+      spec(
+       def(+)
+       ),
+      args(
+        [
+        arg(
+         funzione(sogg),
+         ruolo(nil),
+         sn(
+          indice(sn4),
+          pr(vbl, vbl, _G38537, _G38538, _G38539, _G38540),
+          controllore(sn1)
+          )
+         )
+        ]
+       ),
+      mods([]),
+      adjs([])
+      )
+     ),
+    arg(
+     funzione(sogg),
+     ruolo(theme_unaff),
+     sn(
+      indice(sn2),
+      cat([attivita, evento]),
+      n(order, _G36635, sing),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn1
+      cat:[umano, animato]
+      pred:who
+      pers:3
+      caso:[nom, acc, obl]
+      tab_ref:[+ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:do
+lex_form:[sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]]
+voice:active
+modo:ind
+tempo:past
+cat:attivita
+ncomp/prop:indice:sn3
+           cat:[attivita, evento]
+           pred:pro
+           caso:nom
+           spec:def:+
+           sogg/nil:indice:sn4
+                    pred:vbl
+                    controllore:sn1
+                    tab_ref:[+ref, -pro, -ana, -me]
+           tab_ref:[+ref, +pro, -ana, -me]
+sogg/theme_unaff:indice:sn2
+                 cat:[attivita, evento]
+                 pred:order
+                 num:sing
+                 pers:3
+                 spec:def:+
+                 tab_ref:[+ref, -pro, -ana, +class]
+aspetto:attivita
+rel1:[tr(f1_user1)aftr td(f1_user1)]
+rel2:[tr(f1_user1)=tes(f1_user1)]
+definitezza:+
+ref_int:[tr(f1_user1)]
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn2, order, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [attivita, evento], sogg/theme_unaff)/118
+ ref_ex(sn3, pro, [+ref, +def, nil, nil, +pro, -ana, -me], nil, nil, nil, [attivita, evento], ncomp/prop)/145
+
+
+
+
+CLAUSE IDENTIFIER:               1-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(f1_t31), tr(f1_t31))
+DISCOURSE FOCUS:                 tes(f1_user1)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, expected, id2)
+sr(sogg-theme_unaff, do, order)
+sr(ncomp-prop, do, pro)
+
+
+'######################  LOGICAL FORM ###############'
+wff(do,
+    < definito : sn2 :
+        wff(isa,
+            sn2,
+            order) >>,
+    wff(pro,
+        wff(focus,
+            < definito : sn1 :
+                wff(isa,
+                    sn1,
+                    who) >>),
+        < definito : sn3 :
+            wff(and,
+                wff(and,
+                    wff(has,
+                        wff(focus,
+                            < definito : sn1 :
+                                wff(isa,
+                                    sn1,
+                                    who) >>)),
+                    wff(isa,
+                        sn3,
+                        pro)),
+                []) >>),
+    < process : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                pr),
+            wff(time,
+                f1,
+                < indefinito : t1 :
+                    wff(and,
+                        wff(isa,
+                            t1,
+                            tloc),
+                        wff(past,
+                            t1)) >>)) >>)
+
+q_loc(infon1, id1, [arg:main_tloc, arg:tr(f1_user1)])
+q_ind(infon2, id2)
+q_fact(infon3, inst_of, [ind:id2, class:attivita], 1, univ, univ)
+q_fact(infon4, isa, [ind:id2, class:order], 1, id1, univ)
+q_fact(infon6, focus, [arg:id3], 1, id1, univ)
+q_fact(infon7, isa, [arg:id3, arg:who], 1, id1, univ)
+q_fact(infon8, focus, [arg:id3], 1, id1, univ)
+q_fact(infon10, has, [arg:id3], 1, id1, univ)
+q_fact(infon11, isa, [arg:id4, arg:pro], 1, id1, univ)
+q_fact(infon12, pro, [arg:id3, prop:id4], 1, id1, univ)
+q_fact(id5, do, [theme_unaff:id2, prop:infon12], 1, tes(f1_user1), univ)
+q_fact(infon13, isa, [arg:id5, arg:pr], 1, tes(f1_user1), univ)
+q_fact(infon14, isa, [arg:id6, arg:tloc], 1, tes(f1_user1), univ)
+q_fact(infon15, past, [arg:id6], 1, tes(f1_user1), univ)
+q_fact(infon16, time, [arg:id5, arg:id6], 1, tes(f1_user1), univ)
+q_fact(infon22, perf, [arg:id7, ask:id5], 1, id1, univ)
+
+during(tes(f1_t35), tes(f1_t34))
+includes(tr(f1_user1), id1)
+
+
+###############################################################
+[who, did, the, order, ?]
+'John'

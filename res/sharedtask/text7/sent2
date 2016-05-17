@@ -1,0 +1,1077 @@
+Ratio of Tags per Word for Sentence no: 2
+Word Ambiguity Ratio: 1.2973
+'Lookahead Start Active Chart'
+0-[av-'Once'], 1-[a-'broad-scale'], 2-[n-electricity], 3-[n-distribution], 4-[n-spread, v-spread], 5-[p-to], 6-[n-farms, v-farms], 7-[e-and], 8-[n-country, v-country], 9-[n-towns], 10-[x- (',')], 11-[n-use, v-use], 12-[p-of], 13-[n-wind, v-wind], 14-[n-energy], 15-[p-in], 16-[d-the], 17-[n-'United_States'], 18-[v-started], 19-[p-to], 20-[v-subside], 21-[x- (',')], 22-[s-but], 23-[r-it], 24-[v-picked], 25-[av-up, p-up, v-up], 26-[av-again], 27-[p-after, s-after], 28-[d-the], 29-[n-'United_States'], 30-[n-oil, v-oil], 31-[n-shortage], 32-[p-in], 33-[d-the], 34-[a-early, av-early, n-early], 35-[d-'1970/s'], 36-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.10811
+0-[av-'Once'], 1-[a-'broad-scale'], 2-[n-electricity], 3-[n-distribution], 4-[v-spread], 5-[p-to], 6-[n-farms], 7-[e-and], 8-[n-country], 9-[n-towns], 10-[x- (',')], 11-[n-use], 12-[p-of], 13-[n-wind], 14-[n-energy], 15-[p-in], 16-[d-the], 17-[n-'United_States'], 18-[v-started], 19-[p-to], 20-[v-subside], 21-[x- (',')], 22-[s-but], 23-[r-it], 24-[v-picked], 25-[av-up, p-up, v-up], 26-[av-again], 27-[p-after], 28-[d-the], 29-[n-'United_States'], 30-[n-oil], 31-[n-shortage], 32-[p-in], 33-[d-the], 34-[a-early, av-early, n-early], 35-[d-'1970/s'], 36-[x-'.']
+
+0-[av-'Once'], 1-[a-'broad-scale'], 2-[n-electricity], 3-[n-distribution], 4-[v-spread], 5-[p-to], 6-[n-farms], 7-[e-and], 8-[n-country], 9-[n-towns], 10-[x- (',')], 11-[n-use], 12-[p-of], 13-[n-wind], 14-[n-energy], 15-[p-in], 16-[d-the], 17-[n-'United_States'], 18-[v-started], 19-[p-to], 20-[v-subside], 21-[x- (',')], 22-[s-but], 23-[r-it], 24-[v-picked], 25-[av-up, p-up, v-up], 26-[av-again], 27-[p-after], 28-[d-the], 29-[n-'United_States'], 30-[n-oil], 31-[n-shortage], 32-[p-in], 33-[d-the], 34-[a-early, av-early, n-early], 35-[d-'1970/s'], 36-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+2
+Once-rb
+broad-scale-jj
+electricity-nn
+distribution-nn
+spread-vbd_vbn
+to-to
+farms-nns
+and-cc
+country-nn
+towns-nns
+(,)-pun
+use-nn
+of-in
+wind-nn
+energy-nn
+in-in
+the-dt
+United_States-nns
+started-vbd
+to-to
+subside-vbd
+(,)-pun
+but-in
+it-prp
+picked-vbn_jj
+up-rb
+again-rb
+after-in
+the-dt
+United_States-nns
+oil-nn
+shortage-nn
+in-in
+the-dt
+early-jj
+1970/s-cd
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+['Once'-avv, 'broad-scale'-ag, electricity-n, distribution-n, spread-vt, to-p, farms-n, and-cong, country-n, towns-n, (',')-punt, use-n, of-p, wind-n, energy-n, in-p, the-art, 'United_States'-n, started-vin, to-p, subside-vin, (',')-punt, but-cosu, it-pron, picked-vppt, up-avv, again-avv, after-p, the-art, 'United_States'-n, oil-n, shortage-n, in-p, the-art, early-ag, '1970/s'-num, '.'-punto]
+
+cp-[savv-['Once'-avv-savv], f-[subj-['broad-scale'-ag-sn, distribution-n-sn, mod-[electricity-n-sn]], ibar-[spread-vt-ibar], sp-[to-p-sp, farms-n-sn, and-cong-sn, country-n-sn, towns-n-sn], fp-[ (',')-punt-fp], sn-[use-n-sn, mod-[of-p-sp, wind-n-sn, energy-n-sn], obl-[in-p-sp, the-art-sn, 'United_States'-n-sn]], ibar-[started-vppt-sv3], vcomp-[to-p-_G24025, subside-vin-ibar]], fs-[fs-[but-cosu-fs], f-[subj-[it-pron-sn], ibar-[picked-vppt-sv3], savv-[up-avv-savv, again-avv-savv], sp-[after-p-sp, the-art-sn, 'United_States'-n-sn, oil-n-sn, shortage-n-sn], sp-[in-p-sp, the-art-sn, early-ag-sn, '1970/s'-num-sn], cp-['.'-punto-cp]]]]
+
+2
+
+
+'Functional and Syntactic Constituency'
+
+subj-[broad-scale-ag-sn, distribution-n-sn, mod-[electricity-n-sn]]
+ibar-[spread-vt-ibar]
+obl-[to-p-sp, farms-n-sn, and-cong-sn, country-n-sn, towns-n-sn]
+savv-[Once-avv-savv]
+fs-[fs-[fs-[but-cosu-fs], f-[subj-[it-pron-sn], ibar-[picked-vppt-sv3], savv-[up-avv-savv, again-avv-savv], sp-[after-p-sp, the-art-sn, United_States-n-sn, oil-n-sn, shortage-n-sn], sp-[in-p-sp, the-art-sn, early-ag-sn, 1970/s-num-sn], cp-[. - punto-cp]]], f3-[ (,)-punt-fp], subj-[use-n-sn, mod-[of-p-sp, wind-n-sn, energy-n-sn], obl-[in-p-sp, the-art-sn, United_States-n-sn]], ibar-[started-vppt-sv3], vcomp-[to-p-_G24025, subside-vin-ibar]]
+ip(indice(sn157), v(spread, active, [[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]]], ind, _G1404/semp, _G1400, _G18848, _G1402), supporto([]), cat(state), args([arg(funzione(sogg), ruolo(agent), sn(indice(sn18), cat([astratto, attivita]), n(distribution, _G1358, sing), spec(def(0), part(_G1347), mod([]), foc(_G1351), card(_G1353), quant([])), args([]), mods([nome_mod(sn(indice(sn17), cat([oggetto]), n(electricity, _G1328, sing), spec(def(0), part(_G1317), mod(_G1319), foc(_G1321), card(_G1323), quant(_G1325)), args([]), mods([]), adjs([]))), mod_a(sa(indice(sa3), cat([valutativo]), agg(broad-scale, _G1284, _G1285), args([])))]), adjs([]))), arg(funzione(obl), ruolo(loc_direct), sp(prep(to, cat([informa, oggetto, strumento, tecno, istituzione, legale, luogo, umano]), mod([])), sn(indice(sn54), cat([informa, oggetto, strumento, tecno, istituzione, legale, luogo, umano]), coordina([arg(funzione(_G1675), ruolo(_G1677), sn(indice(sn19), cat([informa, oggetto, strumento, tecno]), n(farm, _G1643, plur), spec(def(0), part(_G1632), mod([]), foc(_G1636), card(_G1621), quant([])), args([]), mods([]), adjs([]))), arg(funzione(_G1675), ruolo(_G1677), sn(indice(sn21), cat([istituzione, legale, luogo, umano]), n(town, _G1775, plur), spec(def(0), part(_G1764), mod([]), foc(_G1768), card(_G1770), quant([])), args([]), mods([nome_mod(sn(indice(sn20), cat([luogo]), n(country, fem, sing), spec(def(0), part(_G1736), mod(_G1738), foc(_G1740), card(_G1742), quant(_G1744)), args([]), mods([]), adjs([])))]), adjs([])))])))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn101), cat([astratto, attivita]), n(use, _G1851, sing), spec(def(0), part(_G1840), mod([]), foc(_G1844), card(_G1829), quant([])), args([arg(funzione(ogg), ruolo(tema), sn(indice(sn103), cat([astratto, evento]), n(energy, _G1960, sing), spec(def(0), part(_G1949), mod([]), foc(_G1953), card(_G1955), quant([])), args([]), mods([nome_mod(sn(indice(sn102), cat([attivita, cambia, evento, informa, oggetto, strumento]), n(wind, _G1917, sing), spec(def(0), part(_G1906), mod(_G1908), foc(_G1910), card(_G1912), quant(_G1914)), args([]), mods([]), adjs([]))), adj(locativo, sp(prep(in, [any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano], mod(mod([]))), sn(indice(sn104), cat([any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano]), n(United_States, _G2013, sing), spec(def(+), part(_G2002), mod([]), foc(_G2006), card(_G1991), quant([])), args([]), mods([]), adjs([]))))]), adjs([])))]), mods([]), adjs([])))]), adjs([avv(pred_avv(once), tipo(temp), duraz(non_punt), config([td<tr])), subord_impl(sub(but), ip(indice(f1), v(pick, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], ind, _G2698/semp, 3, sing, _G2590), supporto([]), cat(risultato), args([arg(funzione(sogg), ruolo(agent), sn(indice(sn151), cat([any, nonhuman]), pr(clitico, _G2604, it, 3, _G2590, sing, [nom, acc, obl]), spec(def(+), part(_G2586), mod(_G2628), foc(_G2587), card(_G2585), quant([])), args([]), mods([]), adjs([]))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn155), cat([astratto, stato]), n(shortage, _G7520, sing), spec(def(0), part(_G6466), mod([]), foc(_G6470), card(_G6472), quant([])), args([]), mods([nome_mod(sn(indice(sn154), cat([oggetto, sostanza, strumento]), n(oil, _G6404, sing), spec(def(0), part(_G5782), mod(_G5784), foc(_G5786), card(_G5788), quant(_G5790)), args([]), mods([]), adjs([]))), adj(locativo, sp(prep(in, [valutativo], mod(mod([]))), sn(indice(sn156), cat([valutativo]), n(early, _G14623, plur), spec(def(+), part(_G15339), mod(_G11718), foc(_G15343), card(_G14655), quant([])), args([]), mods([mod_a(sa(indice(sa4), cat([valutativo]), agg(early, _G14623, plur), args([])))]), adjs([]))))]), adjs([]))), arg(funzione(fcomp), ruolo(prop), sp(prep(after, cat([any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano]), mod([])), sn(indice(sn153), cat([any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano]), n(United_States, _G3105, sing), spec(def(+), part(_G3094), mod([]), foc(_G3098), card(_G3083), quant([])), args([]), mods([]), adjs([]))))]), adjs([adj(locativo, sp(prep(in, cat([luogo]), []), args([arg(funzione(ogg), ruolo(locativo), sn(indice(sn152), cat([luogo]), n(up, _G3004, _G3005), spec(def(+)), args(_G3007), mods(_G3009), adjs(_G3011)))]))), avv(pred_avv(again), tipo(temp), duraz(non_punt), config([td<tr]))]))), participial(ip(indice(fpart_pass9), v(start, _G2100, part, pass, _G2103, _G2104, _G2105), supporto(_G2328), cat(risultato), args([arg(funzione(sogg), ruolo(actor), sn(indice(sn150), cat([any]), pr(pro_grande, pPro, _G2510, _G2511, _G2512, [nom]), spec([]), controllore(arbitrario))), arg(funzione(vcomp), ruolo(prop), inf(to, infinitiva(indice(finf27), v(subside, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], base, pres/semp, _G2344, _G2345, _G2346), supporto([]), cat(risultato), args([arg(funzione(sogg), ruolo(agent), sn(indice(sn147), cat([any]), pr(pro_grande, pPro, _G2414, _G2415, _G2416, [nom]), spec([]), controllore(_G2424))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn148), cat([any]), pr(pro_grande, pPro, _G2445, _G2446, _G2447, [acc]), controllore(indefinito)))]), adjs([]))))]), adjs([])))]))
+
+
+
+
+ip(
+ indice(sn157),
+ v(spread, active, [[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]]], ind, _G1404/semp, _G1400, _G18848, _G1402),
+ supporto([]),
+ cat(state),
+ args(
+   [
+   arg(
+    funzione(sogg),
+    ruolo(agent),
+    sn(
+     indice(sn18),
+     cat([astratto, attivita]),
+     n(distribution, _G1358, sing),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods(
+       [
+       nome_mod(
+        sn(
+         indice(sn17),
+         cat([oggetto]),
+         n(electricity, _G1328, sing),
+         spec(
+          def(0),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods([]),
+         adjs([])
+         )
+        ),
+       mod_a(
+        sa(
+         indice(sa3),
+         cat([valutativo]),
+         agg(
+          broad-scale,
+          [],
+          []
+          ),
+         args([])
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(obl),
+    ruolo(loc_direct),
+    sp(
+     prep(to, cat([informa, oggetto, strumento, tecno, istituzione, legale, luogo, umano]), mod([])),
+     sn(
+      indice(sn54),
+      cat([informa, oggetto, strumento, tecno, istituzione, legale, luogo, umano]),
+      coordina(
+        [
+        arg(
+         funzione([]),
+         ruolo([]),
+         sn(
+          indice(sn19),
+          cat([informa, oggetto, strumento, tecno]),
+          n(farm, _G1643, plur),
+          spec(
+           def(0),
+           part([]),
+           mod([]),
+           foc([]),
+           card([]),
+           quant([])
+           ),
+          args([]),
+          mods([]),
+          adjs([])
+          )
+         ),
+        arg(
+         funzione([]),
+         ruolo([]),
+         sn(
+          indice(sn21),
+          cat([istituzione, legale, luogo, umano]),
+          n(town, _G1775, plur),
+          spec(
+           def(0),
+           part([]),
+           mod([]),
+           foc([]),
+           card([]),
+           quant([])
+           ),
+          args([]),
+          mods(
+            [
+            nome_mod(
+             sn(
+              indice(sn20),
+              cat([luogo]),
+              n(country, fem, sing),
+              spec(
+               def(0),
+               part([]),
+               mod([]),
+               foc([]),
+               card([]),
+               quant([])
+               ),
+              args([]),
+              mods([]),
+              adjs([])
+              )
+             )
+            ]
+           ),
+          adjs([])
+          )
+         )
+        ]
+       )
+      )
+     )
+    ),
+   arg(
+    funzione(ogg),
+    ruolo(theme_aff),
+    sn(
+     indice(sn101),
+     cat([astratto, attivita]),
+     n(use, _G1851, sing),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args(
+       [
+       arg(
+        funzione(ogg),
+        ruolo(tema),
+        sn(
+         indice(sn103),
+         cat([astratto, evento]),
+         n(energy, _G1960, sing),
+         spec(
+          def(0),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods(
+           [
+           nome_mod(
+            sn(
+             indice(sn102),
+             cat([attivita, cambia, evento, informa, oggetto, strumento]),
+             n(wind, _G1917, sing),
+             spec(
+              def(0),
+              part([]),
+              mod([]),
+              foc([]),
+              card([]),
+              quant([])
+              ),
+             args([]),
+             mods([]),
+             adjs([])
+             )
+            ),
+           adj(
+            locativo,
+            sp(
+             prep(in, [any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano], mod(mod([]))),
+             sn(
+              indice(sn104),
+              cat([any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano]),
+              n(United_States, _G2013, sing),
+              spec(
+               def(+),
+               part([]),
+               mod([]),
+               foc([]),
+               card([]),
+               quant([])
+               ),
+              args([]),
+              mods([]),
+              adjs([])
+              )
+             )
+            )
+           ]
+          ),
+         adjs([])
+         )
+        )
+       ]
+      ),
+     mods([]),
+     adjs([])
+     )
+    )
+   ]
+  ),
+ adjs(
+   [
+   avv(pred_avv(once), tipo(temp), duraz(non_punt), config([td<tr])),
+   subord_impl(
+    sub(but),
+    ip(
+     indice(f1),
+     v(pick, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], ind, _G2698/semp, 3, sing, _G2590),
+     supporto([]),
+     cat(risultato),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(agent),
+        sn(
+         indice(sn151),
+         cat([any, nonhuman]),
+         pr(clitico, _G2604, it, 3, _G2590, sing, [nom, acc, obl]),
+         spec(
+          def(+),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods([]),
+         adjs([])
+         )
+        ),
+       arg(
+        funzione(ogg),
+        ruolo(theme_aff),
+        sn(
+         indice(sn155),
+         cat([astratto, stato]),
+         n(shortage, _G7520, sing),
+         spec(
+          def(0),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods(
+           [
+           nome_mod(
+            sn(
+             indice(sn154),
+             cat([oggetto, sostanza, strumento]),
+             n(oil, _G6404, sing),
+             spec(
+              def(0),
+              part([]),
+              mod([]),
+              foc([]),
+              card([]),
+              quant([])
+              ),
+             args([]),
+             mods([]),
+             adjs([])
+             )
+            ),
+           adj(
+            locativo,
+            sp(
+             prep(in, [valutativo], mod(mod([]))),
+             sn(
+              indice(sn156),
+              cat([valutativo]),
+              n(early, _G14623, plur),
+              spec(
+               def(+),
+               part([]),
+               mod([]),
+               foc([]),
+               card([]),
+               quant([])
+               ),
+              args([]),
+              mods(
+                [
+                mod_a(
+                 sa(
+                  indice(sa4),
+                  cat([valutativo]),
+                  agg(
+                   early,
+                   [],
+                   plur
+                   ),
+                  args([])
+                  )
+                 )
+                ]
+               ),
+              adjs([])
+              )
+             )
+            )
+           ]
+          ),
+         adjs([])
+         )
+        ),
+       arg(
+        funzione(fcomp),
+        ruolo(prop),
+        sp(
+         prep(after, cat([any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano]), mod([])),
+         sn(
+          indice(sn153),
+          cat([any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano]),
+          n(United_States, _G3105, sing),
+          spec(
+           def(+),
+           part([]),
+           mod([]),
+           foc([]),
+           card([]),
+           quant([])
+           ),
+          args([]),
+          mods([]),
+          adjs([])
+          )
+         )
+        )
+       ]
+      ),
+     adjs(
+       [
+       adj(
+        locativo,
+        sp(
+         prep(in, cat([luogo]), []),
+         args(
+           [
+           arg(
+            funzione(ogg),
+            ruolo(locativo),
+            sn(
+             indice(sn152),
+             cat([luogo]),
+             n(up, _G3004, _G3005),
+             spec(
+              def(+)
+              ),
+             args([]),
+             mods([]),
+             adjs([])
+             )
+            )
+           ]
+          )
+         )
+        ),
+       avv(pred_avv(again), tipo(temp), duraz(non_punt), config([td<tr]))
+       ]
+      )
+     )
+    ),
+   participial(
+    ip(
+     indice(fpart_pass9),
+     v(start, _G2100, part, pass, _G2103, _G2104, _G2105),
+     supporto([]),
+     cat(risultato),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(actor),
+        sn(
+         indice(sn150),
+         cat([any]),
+         pr(pro_grande, pPro, _G2510, _G2511, _G2512, [nom]),
+         spec([]),
+         controllore(arbitrario)
+         )
+        ),
+       arg(
+        funzione(vcomp),
+        ruolo(prop),
+        inf(
+         to,
+         infinitiva(
+          indice(finf27),
+          v(subside, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], base, pres/semp, _G2344, _G2345, _G2346),
+          supporto([]),
+          cat(risultato),
+          args(
+            [
+            arg(
+             funzione(sogg),
+             ruolo(agent),
+             sn(
+              indice(sn147),
+              cat([any]),
+              pr(pro_grande, pPro, _G2414, _G2415, _G2416, [nom]),
+              spec([]),
+              controllore([])
+              )
+             ),
+            arg(
+             funzione(ogg),
+             ruolo(theme_aff),
+             sn(
+              indice(sn148),
+              cat([any]),
+              pr(pro_grande, pPro, _G2445, _G2446, _G2447, [acc]),
+              controllore(indefinito)
+              )
+             )
+            ]
+           ),
+          adjs([])
+          )
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    )
+   ]
+  )
+ )
+indice:sn157
+pred:spread
+lex_form:[[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]]]
+voice:active
+modo:ind
+tempo:pres
+cat:state
+sogg/agent:indice:sn18
+           cat:[astratto, attivita]
+           pred:distribution
+           num:sing
+           pers:3
+           spec:def:'0'
+           mods:mod/tema:indice:sn17
+                         cat:[oggetto]
+                         pred:electricity
+                         num:sing
+                         pers:3
+                         tab_ref:[+ref, -pro, -ana, +class]
+                indice:sa3
+                cat:[valutativo]
+                pred:'broad-scale'
+           tab_ref:[+ref, -pro, -ana, +class]
+obl/loc_direct:sem_mark:to
+               indice:sn54
+               cat:[informa, oggetto, strumento, tecno, istituzione, legale, luogo, umano]
+               coordina:testa:coordinante
+                        num:plur
+                        []/[]:indice:sn19
+                              cat:[informa, oggetto, strumento, tecno]
+                              pred:farm
+                              num:plur
+                              pers:3
+                              spec:def:'0'
+                              tab_ref:[+ref, -pro, -ana, +class]
+                        []/[]:indice:sn21
+                              cat:[istituzione, legale, luogo, umano]
+                              pred:town
+                              num:plur
+                              pers:3
+                              spec:def:'0'
+                              mods:mod/tema:indice:sn20
+                                            cat:[luogo]
+                                            pred:country
+                                            gen:fem
+                                            num:sing
+                                            pers:3
+                                            tab_ref:[+ref, -pro, -ana, +class]
+                              tab_ref:[+ref, -pro, -ana, +class]
+ogg/theme_aff:indice:sn101
+              cat:[astratto, attivita]
+              pred:use
+              num:sing
+              pers:3
+              spec:def:'0'
+              ogg/tema:indice:sn103
+                       cat:[astratto, evento]
+                       pred:energy
+                       num:sing
+                       pers:3
+                       spec:def:'0'
+                       mods:mod/tema:indice:sn102
+                                     cat:[attivita, cambia, evento, informa, oggetto, strumento]
+                                     pred:wind
+                                     num:sing
+                                     pers:3
+                                     tab_ref:[+ref, -pro, -ana, +class]
+                            adj/locativo:sem_mark:in
+                                         indice:sn104
+                                         cat:[any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano]
+                                         pred:'United_States'
+                                         num:sing
+                                         pers:3
+                                         spec:def:+
+                                         tab_ref:[+ref, -pro, -ana, +class]
+                       tab_ref:[+ref, -pro, -ana, +class]
+              tab_ref:[+ref, -pro, -ana, +class]
+adjs:adj/temp:pred:once
+              duraz:non_punt
+              config:[td<tr]
+     adj:sem_mark:but
+         sub/prop:indice:f1
+                  pred:pick
+                  lex_form:[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]]
+                  voice:active
+                  modo:ind
+                  tempo:pres
+                  cat:risultato
+                  sogg/agent:indice:sn151
+                             cat:[any, nonhuman]
+                             pred:it
+                             pers:3
+                             num:sing
+                             caso:[nom, acc, obl]
+                             spec:def:+
+                             tab_ref:[+ref, +pro, +ana, +me]
+                             antecedente:esterno
+                             interpretazione:definita
+                  ogg/theme_aff:indice:sn155
+                                cat:[astratto, stato]
+                                pred:shortage
+                                num:sing
+                                pers:3
+                                spec:def:'0'
+                                mods:mod/tema:indice:sn154
+                                              cat:[oggetto, sostanza, strumento]
+                                              pred:oil
+                                              num:sing
+                                              pers:3
+                                              tab_ref:[+ref, -pro, -ana, +class]
+                                     adj/locativo:sem_mark:in
+                                                  indice:sn156
+                                                  cat:[valutativo]
+                                                  pred:early
+                                                  num:plur
+                                                  pers:3
+                                                  spec:def:+
+                                                  mods:indice:sa4
+                                                       cat:[valutativo]
+                                                       pred:early
+                                                       num:plur
+                                                  tab_ref:[+ref, -pro, -ana, +class]
+                                tab_ref:[+ref, -pro, -ana, +class]
+                  fcomp/prop:sem_mark:after
+                             indice:sn153
+                             cat:[any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano]
+                             pred:'United_States'
+                             num:sing
+                             pers:3
+                             spec:def:+
+                             tab_ref:[+ref, -pro, -ana, +class]
+                  adjs:adj/locativo:sem_mark:in
+                                    ogg/locativo:indice:sn152
+                                                 cat:[luogo]
+                                                 pred:up
+                                                 pers:3
+                                                 spec:def:+
+                                                 tab_ref:[+ref, -pro, -ana, +class]
+                       adj/temp:pred:again
+                                duraz:non_punt
+                                config:[td<tr]
+                  aspetto:attivita
+     adj/partic:indice:fpart_pass9
+                pred:start
+                lex_form:_L2362
+                modo:part
+                tempo:past
+                cat:risultato
+                sogg/actor:indice:sn150
+                           cat:[any]
+                           pred:pPro
+                           controllore:arbitrario
+                           tab_ref:[+ref, +pro, +ana, -me]
+                           antecedente:esterno
+                           interpretazione:arbitraria
+                vcomp/prop:indice:finf27
+                           pred:subside
+                           lex_form:[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]]
+                           modo:base
+                           tempo:pres
+                           cat:risultato
+                           sogg/agent:indice:sn147
+                                      cat:[any]
+                                      pred:pPro
+                                      tab_ref:[+ref, +pro, +ana, -me]
+                                      antecedente:sn150
+                                      interpretazione:definita
+                           ogg/theme_aff:indice:sn148
+                                         cat:[any]
+                                         pred:pPro
+                                         tab_ref:[+ref, +pro, +ana, -me]
+                                         antecedente:sn150
+                                         interpretazione:definita
+                           aspetto:achiev_tr
+                aspetto:achiev_tr
+aspetto:state
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn104, United_States, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano], adj/locativo)/89
+ ref_ex(sn102, wind, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [attivita, cambia, evento, informa, oggetto, strumento], mod/tema)/101
+ ref_ex(sn153, United_States, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano], fcomp/prop)/101
+ ref_ex(sn152, up, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, nil, [luogo], ogg/locativo)/101
+ ref_ex(sn18, distribution, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita], sogg/agent)/115
+ ref_ex(sn20, country, [+ref, def0, nil, nil, -pro, -ana, +class], 3, fem, sing, [luogo], mod/tema)/116
+ ref_ex(sn101, use, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita], ogg/theme_aff)/120
+ ref_ex(sn154, oil, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, sostanza, strumento], mod/tema)/131
+ ref_ex(sn19, farm, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [informa, oggetto, strumento, tecno], []/[])/138
+ ref_ex(sn151, it, [+ref, +def, nil, nil, +pro, +ana, +me], 3, nil, sing, [any, nonhuman], sogg/agent)/160
+ ref_ex(sn155, shortage, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, stato], ogg/theme_aff)/165
+ ref_ex(sn17, electricity, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto], mod/tema)/185
+ ref_ex(sn156, early, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, plur, [valutativo], adj/locativo)/218
+ ref_ex(sn103, energy, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, evento], ogg/tema)/230
+ ref_ex(sn150, _G63940, [+arb, def0, nil, nil, +pro, +ana, -me, _G63983], nil, nil, nil, [any], sogg/actor)/1046
+
+EXPECTED TOPIC : ref_ex(sn104, United_States, _G65242, 3, nil, sing, [any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano], adj/locativo)
+SECONDARY TOPIC : ref_ex(sn18, development, _G65296, 3, nil, sing, [attivita, cambia, evento, informa, legale, luogo, sociale, stato, tecno, umano], sogg/tema_bound)
+POTENTIAL TOPICS : ref_ex(sn102, wind, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [attivita, cambia, evento, informa, oggetto, strumento], mod/tema), ref_ex(sn153, 'United_States', [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano], fcomp/prop), ref_ex(sn152, up, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, nil, [luogo], ogg/locativo), ref_ex(sn18, distribution, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita], sogg/agent), ref_ex(sn20, country, [+ref, def0, nil, nil, -pro, -ana, +class], 3, fem, sing, [luogo], mod/tema), ref_ex(sn101, use, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita], ogg/theme_aff), ref_ex(sn154, oil, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, sostanza, strumento], mod/tema), ref_ex(sn19, farm, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [informa, oggetto, strumento, tecno], []/[]), ref_ex(sn151, it, [+ref, +def, nil, nil, +pro, +ana, +me], 3, nil, sing, [any, nonhuman], sogg/agent), ref_ex(sn155, shortage, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, stato], ogg/theme_aff), ref_ex(sn17, electricity, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto], mod/tema), ref_ex(sn156, early, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, plur, [valutativo], adj/locativo), ref_ex(sn103, energy, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, evento], ogg/tema), ref_ex(sn150, indefinite, [+arb, def0, nil, nil, +pro, +ana, -me, _G3334], nil, nil, nil, [any], sogg/actor)
+
+stato(2, retaining)
+
+
+
+CLAUSE IDENTIFIER:               2-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn157_t72), tes(sn31_t71))
+DISCOURSE FOCUS:                 tes(sn31_t71)
+DISCOURSE RELATION:              result
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               2-n106
+CLAUSE TYPE:                     adj/advers
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f1_t72), tes(sn31_t71))
+DISCOURSE FOCUS:                 tes(sn31_t71)
+DISCOURSE RELATION:              adverse
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               2-n156
+CLAUSE TYPE:                     fcomp/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn153_t72), tes(sn31_t71))
+DISCOURSE FOCUS:                 tes(sn31_t71)
+DISCOURSE RELATION:              evaluation
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               2-n181
+CLAUSE TYPE:                     adj/particip
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             culminated
+RELEVANCE:                       foreground
+TEMPORAL RELATION:               after(tes(fpart_pass9_t72), tes(sn31_t71))
+DISCOURSE FOCUS:                 tes(sn31_t71)
+DISCOURSE RELATION:              inception
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(2, retaining)
+topic(2, expected, id20)
+topic(2, secondary, id3)
+topic(2, potential, id21)
+sr(adj-locativo, early, early)
+sr(mod, shortage, oil)
+sr(adj-locativo, in, shortage, early)
+sr(sogg-agent, pick, it)
+sr(ogg-theme_aff, pick, shortage)
+sr(fcomp-prop, pick, United_States)
+sr(adj-temp, pick, again)
+sr(mod, distribution, broad-scale)
+sr(mod, distribution, electricity)
+sr(mod, energy, wind)
+sr(sogg-agent, spread, distribution)
+sr(ogg-theme_aff, spread, use)
+sr(sogg-agent, subside, pPro)
+sr(ogg-theme_aff, subside, pPro)
+sr(adj-temp, spread, once)
+
+
+'######################  LOGICAL FORM ###############'
+wff(but,
+    wff(main,
+        wff(situation,
+            wff(spread,
+                < entity : sn18 :
+                    wff(and,
+                        wff(isa,
+                            sn18,
+                            distribution),
+                        wff(and,
+                            wff(broad-scale,
+                                sn18),
+                            wff(electricity,
+                                sn18))) >>,
+                < entity : sn101 :
+                    wff(and,
+                        wff(and,
+                            wff(has,
+                                < entity : sn103 :
+                                    wff(and,
+                                        wff(isa,
+                                            sn103,
+                                            energy),
+                                        wff(and,
+                                            wff(wind,
+                                                sn103),
+                                            wff(in,
+                                                sn103,
+                                                < definito : sn104 :
+                                                    wff(isa,
+                                                        sn104,
+                                                        United_States) >>))) >>),
+                            wff(isa,
+                                sn101,
+                                use)),
+                        []) >>,
+                < set : sn54 :
+                    < plural : sn19 :
+                        wff(isa,
+                            sn19,
+                            farm) >>,
+                    < plural : sn21 :
+                        wff(and,
+                            wff(isa,
+                                sn21,
+                                town),
+                            wff(country,
+                                sn21)) >> >>,
+                < state : sn157 :
+                    wff(and,
+                        wff(isa,
+                            sn157,
+                            st),
+                        wff(and,
+                            wff(time,
+                                sn157,
+                                < indefinito : t4 :
+                                    wff(and,
+                                        wff(isa,
+                                            t4,
+                                            tloc),
+                                        wff(pres,
+                                            t4)) >>),
+                            wff(and,
+                                wff(once,
+                                    sn157),
+                                wff(start,
+                                    sn157,
+                                    < arbitraria : sn150 :
+                                        wff(and,
+                                            wff(isa,
+                                                sn150,
+                                                pPro),
+                                            wff(and,
+                                                wff(controllore,
+                                                    sn150,
+                                                    arbitrario),
+                                                wff(antecedente,
+                                                    sn150,
+                                                    esterno))) >>,
+                                    wff(situation,
+                                        wff(subside,
+                                            < definito : sn147 :
+                                                wff(and,
+                                                    wff(isa,
+                                                        sn147,
+                                                        pPro),
+                                                    wff(antecedente,
+                                                        sn147,
+                                                        sn150)) >>,
+                                            < definito : sn148 :
+                                                wff(and,
+                                                    wff(isa,
+                                                        sn148,
+                                                        pPro),
+                                                    wff(antecedente,
+                                                        sn148,
+                                                        sn150)) >>,
+                                            < event : finf27 :
+                                                wff(and,
+                                                    wff(isa,
+                                                        finf27,
+                                                        ev),
+                                                    wff(time,
+                                                        finf27,
+                                                        < definito : t3 :
+                                                            wff(and,
+                                                                wff(isa,
+                                                                    t3,
+                                                                    tloc),
+                                                                wff(pres,
+                                                                    t3)) >>)) >>)))))) >>))),
+    wff(adj,
+        wff(situation,
+            wff(pick,
+                < definito : sn151 :
+                    wff(and,
+                        wff(isa,
+                            sn151,
+                            it),
+                        wff(antecedente,
+                            sn151,
+                            esterno)) >>,
+                < entity : sn155 :
+                    wff(and,
+                        wff(isa,
+                            sn155,
+                            shortage),
+                        wff(and,
+                            wff(oil,
+                                sn155),
+                            wff(in,
+                                sn155,
+                                < plural : sn156 :
+                                    wff(and,
+                                        wff(isa,
+                                            sn156,
+                                            early),
+                                        wff(early,
+                                            sn156)) >>))) >>,
+                < definito : sn153 :
+                    wff(isa,
+                        sn153,
+                        United_States) >>,
+                < event : f1 :
+                    wff(and,
+                        wff(isa,
+                            f1,
+                            ev),
+                        wff(and,
+                            wff(time,
+                                f1,
+                                < definito : t2 :
+                                    wff(and,
+                                        wff(isa,
+                                            t2,
+                                            tloc),
+                                        wff(pres,
+                                            t2)) >>),
+                            wff(and,
+                                wff(in,
+                                    f1,
+                                    < definito : sn152 :
+                                        wff(isa,
+                                            sn152,
+                                            up) >>),
+                                wff(again,
+                                    f1)))) >>))))
+
+
+
+loc(infon76, id19, [arg:main_sloc, arg:'United_States'])
+class(infon77, id20)
+fact(infon78, inst_of, [ind:id20, class:institution], 1, univ, univ)
+fact(infon79, isa, [ind:id20, class:['United', 'States']], 1, id1, id19)
+ind(infon80, id21)
+fact(infon81, inst_of, [ind:id21, class:thing], 1, univ, univ)
+fact(infon82, isa, [ind:id21, class:wind], 1, id1, id19)
+in(infon83, id21, id14)
+class(infon84, id22)
+fact(infon85, inst_of, [ind:id22, class:institution], 1, univ, univ)
+fact(infon86, isa, [ind:id22, class:['United', 'States']], 1, id1, id19)
+ent(infon87, id23)
+fact(infon88, inst_of, [ind:id23, class:place], 1, univ, univ)
+fact(infon89, isa, [ind:id23, class:up], 1, id1, id19)
+class(infon90, id24)
+fact(infon91, inst_of, [ind:id24, class:abstract_state], 1, univ, univ)
+fact(infon92, isa, [ind:id24, class:distribution], 1, id1, id19)
+class(infon93, id25)
+fact(infon94, inst_of, [ind:id25, class:place], 1, univ, univ)
+fact(infon95, isa, [ind:id25, class:country], 1, id1, id19)
+class(infon96, id26)
+fact(infon97, has, [arg:id26, tema:id12], 1, id1, id19)
+fact(infon98, of, [arg:id26, specif:id12], 1, univ, univ)
+fact(infon99, inst_of, [ind:id26, class:abstract_state], 1, univ, univ)
+fact(infon100, isa, [ind:id26, class:use], 1, id1, id19)
+class(infon101, id27)
+fact(infon102, inst_of, [ind:id27, class:substance], 1, univ, univ)
+fact(infon103, isa, [ind:id27, class:oil], 1, id1, id19)
+set(infon104, id28)
+card(infon105, id28, 5)
+ind(infon106, id29)
+set(infon107, id30)
+card(infon108, id30, 2)
+in(infon109, id29, id30)
+fact(infon110, name, [town, id29], 1, univ, univ)
+in(infon111, id28, id30)
+fact(infon112, inst_of, [ind:id28, class:thing], 1, univ, univ)
+fact(infon113, isa, [ind:id28, class:farm], 1, id1, id19)
+class(infon114, id31)
+fact(infon115, early, [nil:id31], 1, univ, univ)
+fact(infon116, inst_of, [ind:id31, class:abstract_state], 1, univ, univ)
+fact(infon117, isa, [ind:id31, class:shortage], 1, id1, id19)
+set(infon118, id32)
+card(infon119, id32, nil)
+fact(infon120, inst_of, [ind:id32, class:valutativo], 1, univ, univ)
+fact(infon121, isa, [ind:id32, class:early], 1, id1, id19)
+class(infon122, id33)
+fact(infon123, inst_of, [ind:id33, class:istituzione], 1, univ, univ)
+fact(infon124, isa, [ind:id33, class:'United_States'], 1, univ, univ)
+fact(infon126, of, [arg:id13, specif:id33], 1, univ, univ)
+fact(infon128, 'broad-scale', [arg:id24], 1, id1, id19)
+fact(infon129, electricity, [arg:id24], 1, id1, id19)
+fact(infon130, isa, [arg:id13, arg:energy], 1, id1, id19)
+fact(infon131, wind, [arg:id13], 1, id1, id19)
+fact(infon132, isa, [arg:id20, arg:'United_States'], 1, id1, id19)
+fact(infon133, in, [arg:id13, locativo:id20], 1, id1, id19)
+fact(infon134, has, [tema:id13], 1, id1, id19)
+fact(infon137, isa, [arg:id34, arg:town], 1, id1, id19)
+fact(infon138, country, [arg:id34], 1, id1, id19)
+in(infon175, id28, id35)
+in(infon176, id34, id35)
+fact(id36, spread, [agent:id24, theme_aff:id26, loc_direct:id35], 1, tes(sn157_t72), id19)
+fact(infon139, isa, [arg:id36, arg:st], 1, tes(sn157_t72), id19)
+fact(infon140, isa, [arg:id37, arg:tloc], 1, tes(sn157_t72), id19)
+fact(infon141, pres, [arg:id37], 1, tes(sn157_t72), id19)
+fact(infon142, time, [arg:id36, arg:id37], 1, tes(sn157_t72), id19)
+fact(infon143, once, [arg:id36], 1, tes(sn157_t72), id19)
+fact(infon144, isa, [arg:id38, arg:pPro], 1, tes(sn157_t72), id19)
+fact(infon145, controllore, [arg:id38, arg:id39], 1, tes(sn157_t72), id19)
+fact(id40, subside, [agent:id38, theme_aff:id38], 1, tes(finf27_t72), id19)
+fact(infon146, isa, [arg:id40, arg:ev], 1, tes(finf27_t72), id19)
+fact(infon147, isa, [arg:id41, arg:tloc], 1, tes(finf27_t72), id19)
+fact(infon148, pres, [arg:id41], 1, tes(finf27_t72), id19)
+fact(infon149, time, [arg:id40, arg:id41], 1, tes(finf27_t72), id19)
+fact(infon150, start, [arg:id36, actor:id38, prop:id40], 1, tes(sn157_t72), id19)
+fact(infon152, isa, [arg:id42, arg:it], 1, id1, id19)
+fact(infon154, oil, [arg:id31], 1, id1, id19)
+fact(infon156, early, [arg:id32], 1, id1, id19)
+fact(infon157, in, [arg:id31, locativo:id32], 1, id1, id19)
+fact(infon158, isa, [arg:id22, arg:'United_States'], 1, id1, id19)
+fact(id43, pick, [agent:id42, theme_aff:id31, prop:id22], 1, tes(f1_t72), id19)
+fact(infon159, isa, [arg:id43, arg:ev], 1, tes(f1_t72), id19)
+fact(infon160, isa, [arg:id44, arg:tloc], 1, tes(f1_t72), id19)
+fact(infon161, pres, [arg:id44], 1, tes(f1_t72), id19)
+fact(infon162, time, [arg:id43, arg:id44], 1, tes(f1_t72), id19)
+fact(infon163, isa, [arg:id23, arg:up], 1, tes(f1_t72), id19)
+fact(infon164, in, [arg:id43, locativo:id23], 1, tes(f1_t72), id19)
+fact(infon165, again, [arg:id43], 1, tes(f1_t72), id19)
+fact(infon167, but, [prop:id36, advers:id43], 1, id1, id19)
+
+after(tes(fpart_pass9_t72), tes(sn31_t71))
+includes(tr(sn157_t72), id1)

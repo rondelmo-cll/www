@@ -1,0 +1,4 @@
+Redirect permanent /html http://nlp.mengwong.com
+RedirectMatch /stilven/moses.pl$ /cgi-bin/stilven/moses.pl
+redirect 301 /tripodi.html http://nlp.mengwong.com/?page_id=235
+redirect 301 /tripodi_en.html http://nlp.mengwong.com/?page_id=235

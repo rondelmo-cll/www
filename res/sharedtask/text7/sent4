@@ -1,0 +1,449 @@
+Ratio of Tags per Word for Sentence no: 4
+Word Ambiguity Ratio: 1.2
+'Lookahead Start Active Chart'
+0-[p-in], 1-[d-the], 2-[n-'mid-eighty/s'], 3-[x- (',')], 4-[n-wind_turbines], 5-[v-had], 6-[d-a], 7-[a-typical], 8-[a-maximum, n-maximum], 9-[n-power, v-power], 10-[n-rating, v-rating], 11-[p-of], 12-[d-150], 13-[n-kW], 14-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.06667
+0-[p-in], 1-[d-the], 2-[n-'mid-eighty/s'], 3-[x- (',')], 4-[n-wind_turbines], 5-[v-had], 6-[d-a], 7-[a-typical], 8-[a-maximum, n-maximum], 9-[n-power], 10-[v-rating], 11-[p-of], 12-[d-150], 13-[n-kW], 14-[x-'.']
+
+0-[p-in], 1-[d-the], 2-[n-'mid-eighty/s'], 3-[x- (',')], 4-[n-wind_turbines], 5-[v-had], 6-[d-a], 7-[a-typical], 8-[a-maximum, n-maximum], 9-[n-power], 10-[v-rating], 11-[p-of], 12-[d-150], 13-[n-kW], 14-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+4
+in-in
+the-dt
+mid-eighty/s-nns
+(,)-pun
+wind_turbines-nns
+had-vbd
+a-dt
+typical-jj
+maximum-nn
+power-nn
+rating-vbg
+of-in
+150-cd
+kW-nn
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[in-p, the-art, 'mid-eighty/s'-n, (',')-punt, wind_turbines-n, had-ausa, a-art, typical-ag, maximum-n, power-n, rating-vin, of-p, 150-num, kW-n, '.'-punto]
+
+cp-[sp-[in-p-sp, the-art-sn, 'mid-eighty/s'-n-sn], fp-[ (',')-punt-fp], f-[subj-[wind_turbines-n-sn], ibar-[had-ausa-ibar], sn-[a-art-sn, typical-ag-sn, maximum-n-sn], sn-[power-n-sn], vcomp-[rating-vin-sv5], sp-[of-p-sp, 150-num-sn, kW-n-sn], cp-['.'-punto-cp]]]
+
+4
+
+
+'Functional and Syntactic Constituency'
+
+subj-[wind_turbines-n-sn]
+ibar-[had-ausa-ibar]
+obj-[a-art-sn, typical-ag-sn, maximum-n-sn]
+obj-[power-n-sn]
+vcomp-[rating-vin-sv5]
+obl-[of-p-sp, 150-num-sn, kW-n-sn]
+obl-[in-p-sp, the-art-sn, mid-eighty/s-n-sn]
+
+[rating, of, 150, kW, '.']
+ip(indice(sn192), v(have, active, [[sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [sn/sogg/esperiente/[umano, animato, istituzione], sn/ogg/tema_bound/[_G8623|_G8624], pcomp/goal/[legale, oggetto, evento, stato], idioms/ogg/form/[regard]], [sn/sogg/tema_bound/[_G8677|_G8678], xcomp/prop/[_G8689|_G8690]]], ind, _G8533/semp, _G8233, _G20887, _G8235), supporto([]), cat(stato), args([arg(funzione(ncomp), ruolo(prop), sn(indice(sn74), cat([oggetto, strumento]), n(power, _G12678, sing), spec(def(-), part(_G12188), mod([]), foc(_G12192), card(_G12194), quant([])), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn190), pr(vbl, vbl, _G20003, _G20004, _G20005, _G20006), controllore(sn72)))]), mods([nome_mod(sn(indice(sn73), cat([astratto, informa, luogo, nquant, tecno]), n(maximum, _G12115, sing), spec(def(0), part(_G11748), mod(_G11750), foc(_G11752), card(_G11754), quant(_G11756)), args([]), mods([]), adjs([]))), mod_a(sa(indice(sa14), cat([valutativo, soggettivo]), agg(typical, _G11709, _G11710), args([])))]), adjs([]))), arg(funzione(sogg), ruolo(tema_bound), sn(indice(sn72), cat([oggetto, strumento]), n(wind_turbine, _G6704, plur), spec(def(0), part(_G6009), mod([]), foc(_G6013), card(_G5989), quant([])), args([]), mods([]), adjs([])))]), adjs([adj(modale, sp(prep(in, cat([astratto, nquant]), mod(mod([]))), args([arg(funzione(ogg), ruolo(nil), sn(indice(sn71), cat([astratto, nquant]), npro(mid-eighty/s, _G2690, sing), spec(def(+), part(_G2212), mod(_G2764), foc(_G2216), card(_G2192), quant([])), args([]), mods([]), adjs([])))]))), adj(soggettivo, saa(indice(sa15), cat([any]), agg(rating, _G15974, _G15975), spec([]), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn191), pr(vbl, vbl, _G20724, _G15974, _G15975, _G20727), controllore(indefinito)))]), adjs([]))), adj(misura, sp(prep(of, cat([informa, tecno]), mod([])), sn(indice(sn189), cat([informa, tecno]), n(kW, _G18525, sing), spec(def(0), part(-), mod([]), foc(_G18048), card(_G18024), quant(hundred_fifty_zero)), args([]), mods([]), adjs([]))))]))
+
+
+
+
+ip(
+ indice(sn192),
+ v(have, active, [[sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [sn/sogg/esperiente/[umano, animato, istituzione], sn/ogg/tema_bound/[_G8623|_G8624], pcomp/goal/[legale, oggetto, evento, stato], idioms/ogg/form/[regard]], [sn/sogg/tema_bound/[_G8677|_G8678], xcomp/prop/[_G8689|_G8690]]], ind, _G8533/semp, _G8233, _G20887, _G8235),
+ supporto([]),
+ cat(stato),
+ args(
+   [
+   arg(
+    funzione(ncomp),
+    ruolo(prop),
+    sn(
+     indice(sn74),
+     cat([oggetto, strumento]),
+     n(power, _G12678, sing),
+     spec(
+      def(-),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn190),
+         pr(vbl, vbl, _G20003, _G20004, _G20005, _G20006),
+         controllore(sn72)
+         )
+        )
+       ]
+      ),
+     mods(
+       [
+       nome_mod(
+        sn(
+         indice(sn73),
+         cat([astratto, informa, luogo, nquant, tecno]),
+         n(maximum, _G12115, sing),
+         spec(
+          def(0),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods([]),
+         adjs([])
+         )
+        ),
+       mod_a(
+        sa(
+         indice(sa14),
+         cat([valutativo, soggettivo]),
+         agg(
+          typical,
+          [],
+          []
+          ),
+         args([])
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(sogg),
+    ruolo(tema_bound),
+    sn(
+     indice(sn72),
+     cat([oggetto, strumento]),
+     n(wind_turbine, _G6704, plur),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    )
+   ]
+  ),
+ adjs(
+   [
+   adj(
+    modale,
+    sp(
+     prep(in, cat([astratto, nquant]), mod(mod([]))),
+     args(
+       [
+       arg(
+        funzione(ogg),
+        ruolo(nil),
+        sn(
+         indice(sn71),
+         cat([astratto, nquant]),
+         npro(mid-eighty/s, _G2690, sing),
+         spec(
+          def(+),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods([]),
+         adjs([])
+         )
+        )
+       ]
+      )
+     )
+    ),
+   adj(
+    soggettivo,
+    saa(
+     indice(sa15),
+     cat([any]),
+     agg(
+      rating,
+      [],
+      []
+      ),
+     spec([]),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn191),
+         pr(vbl, vbl, _G20724, [], [], _G20727),
+         controllore(indefinito)
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    ),
+   adj(
+    misura,
+    sp(
+     prep(of, cat([informa, tecno]), mod([])),
+     sn(
+      indice(sn189),
+      cat([informa, tecno]),
+      n(kW, _G18525, sing),
+      spec(
+       def(0),
+       part(-),
+       mod([]),
+       foc([]),
+       card([]),
+       quant(
+        hundred_fifty_zero
+        )
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    )
+   ]
+  )
+ )
+indice:sn192
+pred:have
+lex_form:[[sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [sn/sogg/esperiente/[umano, animato, istituzione], sn/ogg/tema_bound/[_G31357|_G31358], pcomp/goal/[legale, oggetto, evento, stato], idioms/ogg/form/[regard]], [sn/sogg/tema_bound/[_G31411|_G31412], xcomp/prop/[_G31423|_G31424]]]
+voice:active
+modo:ind
+tempo:pres
+cat:stato
+ncomp/prop:indice:sn74
+           cat:[oggetto, strumento]
+           pred:power
+           num:sing
+           pers:3
+           spec:def:-
+           sogg/nil:indice:sn190
+                    pred:vbl
+                    controllore:sn72
+                    tab_ref:[+ref, -pro, -ana, -me]
+           mods:mod/tema:indice:sn73
+                         cat:[astratto, informa, luogo, nquant, tecno]
+                         pred:maximum
+                         num:sing
+                         pers:3
+                         tab_ref:[+ref, -pro, -ana, +class]
+                indice:sa14
+                cat:[valutativo, soggettivo]
+                pred:typical
+           tab_ref:[+ref, -pro, -ana, +class]
+           qmark:q1
+sogg/tema_bound:indice:sn72
+                cat:[oggetto, strumento]
+                pred:wind_turbine
+                num:plur
+                pers:3
+                spec:def:'0'
+                tab_ref:[+ref, -pro, -ana, +class]
+adjs:adj/modale:sem_mark:in
+                ogg/nil:indice:sn71
+                        cat:[astratto, nquant]
+                        pred:'mid-eighty/s'
+                        num:sing
+                        pers:3
+                        spec:def:+
+                        tab_ref:[+ref, -pro, -ana, -class]
+     adj/soggettivo:indice:sa15
+                    cat:[any]
+                    pred:rating
+                    sogg/nil:indice:sn191
+                             pred:vbl
+                             controllore:indefinito
+                             tab_ref:[+ref, -pro, -ana, -me]
+     adj/misura:sem_mark:of
+                indice:sn189
+                cat:[informa, tecno]
+                pred:kW
+                num:sing
+                pers:3
+                spec:def:'0'
+                     part:-
+                     quant:hundred_fifty_zero
+                tab_ref:[+ref, -pro, -ana, +class]
+aspetto:stato
+rel1:[td(sn192_t74)=tr(sn192_t74)]
+rel2:[incluso(tr(sn192_t74), tes(sn192_t74))]
+definitezza:-
+ref_int:[tr(sn192_t74)]
+qops:qop:q(q1, indefinito)
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn72, wind_turbine, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [oggetto, strumento], sogg/tema_bound)/20
+ ref_ex(sn74, power, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, strumento], ncomp/prop)/46
+ ref_ex(sn189, kW, [+ref, def0, hundred_fifty_zero, nil, -pro, -ana, +class], 3, nil, sing, [informa, tecno], adj/misura)/81
+ ref_ex(sn73, maximum, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, informa, luogo, nquant, tecno], mod/tema)/86
+ ref_ex(sn71, mid-eighty/s, [+ref, +def, nil, nil, -pro, -ana, -class], 3, nil, sing, [astratto, nquant], ogg/nil)/245
+
+EXPECTED TOPIC : ref_ex(sn72, wind_turbine, _G37561, 3, nil, plur, [oggetto, strumento], sogg/tema_bound)
+POTENTIAL TOPICS : ref_ex(sn74, power, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, strumento], ncomp/prop), ref_ex(sn189, kW, [+ref, def0, hundred_fifty_zero, nil, -pro, -ana, +class], 3, nil, sing, [informa, tecno], adj/misura), ref_ex(sn73, maximum, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, informa, luogo, nquant, tecno], mod/tema), ref_ex(sn71, 'mid-eighty/s', [+ref, +def, nil, nil, -pro, -ana, -class], 3, nil, sing, [astratto, nquant], ogg/nil), ref_ex(sn104, 'United_States', _G37605, 3, nil, sing, [any, attivita, informa, istituzione, luogo, stato, umano, any, attivita, informa, istituzione, luogo, stato, umano], _G37654/_G37655), nil
+
+stato(4, retaining)
+
+rel_temp(infon256, td, tr(sn192_t74), [eq])
+
+
+CLAUSE IDENTIFIER:               4-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn192_t74), tes(f1_t73))
+DISCOURSE FOCUS:                 tes(sn192_t74)
+DISCOURSE RELATION:              evaluation
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(4, retaining)
+topic(4, expected, id62)
+topic(4, potential, id62)
+sr(mod, power, typical)
+sr(mod, power, maximum)
+sr(sogg-tema_bound, have, wind_turbine)
+sr(ncomp-prop, have, power)
+sr(adj-soggettivo, have, rating)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(have,
+        < plural : sn72 :
+            wff(isa,
+                sn72,
+                wind_turbine) >>,
+        wff(power,
+            < definito : sn190 :
+                wff(and,
+                    wff(isa,
+                        sn190,
+                        vbl),
+                    wff(controllore,
+                        sn190,
+                        sn72)) >>,
+            < indefinito : sn74 :
+                wff(and,
+                    wff(isa,
+                        sn74,
+                        power),
+                    wff(and,
+                        wff(typical,
+                            sn74),
+                        wff(maximum,
+                            sn74))) >>),
+        < state : sn192 :
+            wff(and,
+                wff(isa,
+                    sn192,
+                    st),
+                wff(and,
+                    wff(time,
+                        sn192,
+                        < indefinito : t6 :
+                            wff(and,
+                                wff(isa,
+                                    t6,
+                                    tloc),
+                                wff(pres,
+                                    t6)) >>),
+                    wff(and,
+                        wff(in,
+                            sn192,
+                            < definito : sn71 :
+                                wff(isa,
+                                    sn71,
+                                    mid-eighty/s) >>),
+                        wff(and,
+                            wff(rating,
+                                sn192),
+                            wff(of,
+                                sn192,
+                                < hundred_fifty_zero : sn189 :
+                                    wff(isa,
+                                        sn189,
+                                        kW) >>))))) >>))
+
+
+
+loc(infon257, id61, [arg:main_tloc, arg:tes(f1_t73)])
+set(infon258, id62)
+card(infon259, id62, 5)
+fact(infon260, power, [nil:id62], 1, id61, id19)
+fact(infon261, maximum, [ind:id62], 1, id61, id19)
+fact(infon262, of, [arg:id62, specif:id62], 1, univ, univ)
+fact(infon263, wind_turbine, [ind:id62], 1, id61, id19)
+fact(infon264, inst_of, [ind:id62, class:thing], 1, univ, univ)
+fact(infon265, isa, [ind:id62, class:[wind, turbine]], 1, id61, id19)
+class(infon266, id63)
+fact(infon267, inst_of, [ind:id63, class:place], 1, univ, univ)
+fact(infon268, isa, [ind:id63, class:maximum], 1, id61, id19)
+ind(infon269, id64)
+fact(infon270, of, [arg:id64, specif:id62], 1, univ, univ)
+fact(infon271, inst_of, [ind:id64, class:abstract_state], 1, univ, univ)
+fact(infon272, isa, [ind:id64, class:'mid-eighty/s'], 1, id61, id19)
+fact(infon277, power, [nil:id62, arg:id62], 1, id61, id19)
+fact(id65, have, [prop:infon277], 1, tes(sn192_t74), id19)
+fact(infon278, isa, [arg:id65, arg:st], 1, tes(sn192_t74), id19)
+fact(infon279, isa, [arg:id66, arg:tloc], 1, tes(sn192_t74), id19)
+fact(infon280, pres, [arg:id66], 1, tes(sn192_t74), id19)
+fact(infon281, time, [arg:id65, arg:id66], 1, tes(sn192_t74), id19)
+fact(infon283, in, [arg:id65, nil:id64], 1, tes(sn192_t74), id19)
+fact(infon284, rating, [arg:id65], 1, tes(sn192_t74), id19)
+fact(infon285, isa, [arg:id67, arg:kW], 1, tes(sn192_t74), id19)
+fact(infon286, of, [arg:id65, misura:id67], 1, tes(sn192_t74), id19)
+
+during(tes(sn192_t74), tes(f1_t73))
+includes(tr(sn192_t74), id61)
+
+
+                                    down:down(3-7)
+                                    clause:4-8
+                                    topics:[expected:id62:wind_turbine]
+                                    main_fact:have([infon277:power], 1, id19)
+                                    ref_int:tint(nil, [tes(sn192_t74)])
+                                    temp_rel:during(tes(sn192_t74), tes(f1_t73))
+                                    disc_rel:evaluation
+                                    disc_seg:7-[8]
+                                    disc_dom:objective
+                                    p_o_view:narrator

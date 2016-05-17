@@ -1,0 +1,123 @@
+Ratio of Tags per Word for Sentence no: 6
+Word Ambiguity Ratio: 1.35714
+'Lookahead Start Active Chart'
+0-[av-'Initially'], 1-[r-it], 2-[v-was], 3-[v-suspected], 4-[a-that, c-that, r-that], 5-[a-this, r-this], 6-[n-storage], 7-[n-might, v-might], 8-[v-have], 9-[a-reduced, v-reduced], 10-[d-the], 11-[n-'powder-s_'], 12-[n-stability], 13-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.07143
+0-[av-'Initially'], 1-[r-it], 2-[v-was], 3-[v-suspected], 4-[c-that], 5-[a-this, r-this], 6-[n-storage], 7-[v-might], 8-[v-have], 9-[v-reduced], 10-[d-the], 11-[n-'powder-s_'], 12-[n-stability], 13-[x-'.']
+
+0-[av-'Initially'], 1-[r-it], 2-[v-was], 3-[v-suspected], 4-[c-that], 5-[a-this, r-this], 6-[n-storage], 7-[v-might], 8-[v-have], 9-[v-reduced], 10-[d-the], 11-[n-'powder-s_'], 12-[n-stability], 13-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+6
+Initially-rb
+it-prp
+was-vbd
+suspected-vbd
+that-in
+this-dt
+storage-nn
+might-md
+have-vb
+reduced-vbd_vbn
+the-dt
+powder-s_-nn-pos
+stability-nn
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+['Initially'-avv, it-pron, was-ause, suspected-vin, that-pk, this-ag, storage-n, might-vsup, have-ausa, reduced-vt, the-art, 'powder-s_'-n, stability-n, '.'-punto]
+
+cp-[savv-['Initially'-avv-savv], f-[subj-[it-pron-sn], ibar-[was-ause-ibar, suspected-vppt-ibar], fac-[fac-[that-pk-fac], subj-[this-ag-sn, storage-n-sn], ibar-[might-vsup-ibar, have-ausa-ibar, reduced-vt-ibar], sn-[the-art-sn, 'powder-s_'-n-sn, stability-n-sn], cp-['.'-punto-cp]]]]
+
+6
+
+
+'Functional and Syntactic Constituency'
+
+subj-[it-pron-sn]
+ibar-[was-ause-ibar, suspected-vppt-ibar]
+savv-[Initially-avv-savv]
+fac-[fac-[fac-[that-pk-fac], subj-[this-ag-sn, storage-n-sn], ibar-[might-vsup-ibar, have-ausa-ibar, reduced-vt-ibar], sn-[the-art-sn, powder-s_-n-sn, stability-n-sn], cp-[. - punto-cp]]]
+
+[that, this, storage, might, have, reduced, the, 'powder-s_', stability, '.']
+
+
+*********************************************************************************
+t56
+
+'Output of Anaphora Resolution Module'
+
+all_prons([4-[], 3-[], 2-[], 1-[]])
+expletive(suspect, it)
+
+############   TOPICS   ############
+MAIN TOPIC:  storage
+SECONDARY TOPIC:  guns
+POTENTIAL TOPICS:  stability-npr, stability-npr, stability-npr
+second  identified as  guns  with semantic index  id1
+poten  identified as  stability  with semantic index  id44
+poten  identified as  stability  with semantic index  id44
+
+
+'Augmented Head Dependent Indexed Structures'
+
+expl(suspect, it).
+'ccomp-prop'(nil, suspect, reduce).
+'ccomp-prop'(nil, suspect-cl23, reduce).
+'ccomp-prop'(nil, suspect, reduce).
+'subj-agent'(reduce-cl26, it-sn1).
+det(stability-sn9, the).
+'ncmod-specif'(stability-sn9, powder).
+'xcomp-prop'(reduce-cl25, stability-sn9).
+det(stability-sn7, the).
+'ncmod-specif'(stability-sn7, powder).
+'obj-theme_aff'(reduce-cl25, stability-sn7).
+aux(reduce, have).
+modal(reduce, might).
+det(stability-sn5, the).
+'ncmod-specif'(stability-sn5, powder).
+mod(sn4, storage, this).
+'obj-theme_aff'(reduce-cl24, stability-sn5).
+'subj-agent'(reduce-cl24, storage-sn4).
+tense(past, '_', reduce).
+voice(active, '_', reduce).
+'adj-locative'(in, suspect, initially).
+'subj-theme_aff'(suspect-cl23, it-sn1).
+aux(suspect, was).
+tense(past, '_', suspect).
+voice(passive, was, suspect).
+
+'Semantic Interpretation and Informational Structure'
+
+[7, indirect, suspect, pluper, passive, nil, nil, nil, indic, initially, attivita, ccomp, prop, nil, reduce, suspect]
+[8, indirect, reduce, pluper, active, nil, might, nil, unreal, nil, attivita]
+[9, indirect, reduce, pluper, active, nil, might, nil, unreal, nil, attivita]
+sinfo(7, adj/prop, external, factive, null, background, attivita, suspect, pluper, narration, objective, nil)
+
+
+t56
+'Discourse Relations and Discourse Structure'
+
+sd_structure(t56, 7, objective, narration, pluper, suspect, background, level, down(5-7))
+ind(infon128, id45)
+fact(infon129, inst_of, [ind:id45, class:any], 1, univ, univ)
+fact(infon130, isa, [ind:id45, class:it], 1, univ, univ)
+ind(infon131, id46)
+fact(infon132, inst_of, [ind:id46, class:attivita], 1, univ, univ)
+fact(infon133, isa, [ind:id46, class:storage], 1, univ, univ)
+ind(infon134, id47)
+fact(infon135, inst_of, [ind:id47, class:astratto], 1, univ, univ)
+fact(infon136, isa, [ind:id47, class:stability], 1, univ, univ)
+ind(infon137, id48)
+fact(infon138, inst_of, [ind:id48, class:oggetto], 1, univ, univ)
+fact(infon139, isa, [ind:id48, class:powder], 1, univ, univ)
+fact(id49, reduce, [theme_aff:id47, agent:id46], 1, univ, univ)
+fact(id50, reduce, [agent:id45], 1, univ, univ)
+fact(id51, suspect, [theme_aff:id45], 1, univ, univ)

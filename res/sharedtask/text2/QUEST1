@@ -1,0 +1,181 @@
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.5
+'Lookahead Start Active Chart'
+0-[r-what, w-what], 1-[n-causes, v-causes], 2-[n-cancer], 3-[x- ?]
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.25
+0-[r-what, w-what], 1-[v-causes], 2-[n-cancer], 3-[x- ?]
+0-[r-what, w-what], 1-[v-causes], 2-[n-cancer], 3-[x- ?]
+
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn1),
+   cat([any]),
+   pr(pr_int, _G2217, what, 3, _G2220, _G2221, [nom, acc, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(cause, active, [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=subj1]], ind, _G2739/semp, 3, sing, _G2220),
+  supporto([]),
+  cat(risultato),
+  args(
+    [
+    arg(
+     funzione(sogg),
+     ruolo(actor),
+     sn(
+      indice(sn2),
+      cat([any]),
+      pr(pro_picc, pro, _G2469, 3, _G2220, sing, nom),
+      spec(
+       def(+)
+       ),
+      controllore(sn1)
+      )
+     ),
+    arg(
+     funzione(ogg),
+     ruolo(theme_aff),
+     sn(
+      indice(sn3),
+      cat([stato]),
+      n(cancer, _G4813, sing),
+      spec(
+       def(0),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn1
+      cat:[any]
+      pred:what
+      pers:3
+      caso:[nom, acc, obl]
+      tab_ref:[+ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:cause
+lex_form:[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=subj1]]
+voice:active
+modo:ind
+tempo:pres
+cat:risultato
+sogg/actor:indice:sn2
+           cat:[any]
+           pred:pro
+           pers:3
+           num:sing
+           caso:nom
+           spec:def:+
+           controllore:sn1
+           tab_ref:[+ref, +pro, -ana, -me]
+ogg/theme_aff:indice:sn3
+              cat:[stato]
+              pred:cancer
+              num:sing
+              pers:3
+              spec:def:'0'
+              tab_ref:[+ref, -pro, -ana, +class]
+aspetto:attivita
+rel1:[td(f1_user2)=tr(f1_user2)]
+rel2:[incluso(tr(f1_user2), tes(f1_user2))]
+definitezza:+
+ref_int:[tr(f1_user2)]
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn2, what, [+ref, +def, nil, nil, +pro, -ana, -me], 3, nil, sing, [any], sogg/actor)/116
+ ref_ex(sn3, cancer, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [stato], ogg/theme_aff)/120
+
+
+rel_temp(infon1, td, tr(f1_user2), [eq])
+
+
+CLAUSE IDENTIFIER:               1-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(f2_t21), tr(f2_t21))
+DISCOURSE FOCUS:                 tes(f1_user2)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, potential, id2)
+sr(sogg-actor, cause, pro)
+sr(ogg-theme_aff, cause, cancer)
+
+
+'######################  LOGICAL FORM ###############'
+wff(cause,
+    wff(focus,
+        < definito : sn1 :
+            wff(isa,
+                sn1,
+                what) >>),
+    < entity : sn3 :
+        wff(isa,
+            sn3,
+            cancer) >>,
+    < event : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                ev),
+            wff(time,
+                f1,
+                < definito : t1 :
+                    wff(and,
+                        wff(isa,
+                            t1,
+                            tloc),
+                        wff(pres,
+                            t1)) >>)) >>)
+
+q_loc(infon2, id1, [arg:main_tloc, arg:tr(f1_user2)])
+q_class(infon3, id2)
+q_fact(infon4, inst_of, [ind:id2, class:stato], 1, univ, univ)
+q_fact(infon5, isa, [ind:id2, class:cancer], 1, id1, univ)
+q_fact(infon6, focus, [arg:id3], 1, id1, univ)
+q_fact(infon7, isa, [arg:id3, arg:what], 1, id1, univ)
+q_fact(id4, cause, [actor:id3, theme_aff:id2], 1, tes(f1_user2), univ)
+q_fact(infon9, isa, [arg:id4, arg:ev], 1, tes(f1_user2), univ)
+q_fact(infon10, isa, [arg:id5, arg:tloc], 1, tes(f1_user2), univ)
+q_fact(infon11, pres, [arg:id5], 1, tes(f1_user2), univ)
+q_fact(infon12, time, [arg:id4, arg:id5], 1, tes(f1_user2), univ)
+q_fact(infon16, perf, [arg:id6, ask:id4], 1, id1, univ)
+
+during(tes(f3_t23), tes(f2_t22))
+includes(tr(f1_user2), id1)
+
+
+###############################################################
+[what, causes, cancer, ?]
+a, virus
+
+

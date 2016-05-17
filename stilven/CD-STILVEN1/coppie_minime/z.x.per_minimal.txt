@@ -1,0 +1,18 @@
+Minimal pairs for [z] vs. [x] in initial position:
+z 	x 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	y 
+za 	xa 			£a 	…a 	ca 	da 	ea 	fa 	ga 	ha 	la 	ma 	na 	oa 	sa 	ta 	va 
+zara 	xara 			cara 	gara 	para 	rara 	sara 	vara 
+zèlo 	xèlo 			sèlo 
+zero 	xero 			gero 	pero 	vero 
+zo 	xo 			£o 	co 	do 	go 	ho 	ko 	lo 	no 	oo 	so 	to 	uo 	vo 
+zonta 	xonta 			conta 	monta 
+zz 	xz 			dz 	sz 	tz 
+
+Minimal pairs for [z] vs. [x] in medial position:
+acorze 	acorxe 		
+ànzo£o 	ànxo£o 			àndo£o 
+lezar 	lexar 		
+leze 	lexe 			lese 
+mezo 	mexo 			mejo 	meso 	meto 
+
+Minimal pairs for [z] vs. [x] in final position:

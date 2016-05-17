@@ -1,0 +1,211 @@
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1
+'Lookahead Start Active Chart'
+0-[n-'John'], 1-[v-went], 2-[p-into], 3-[d-a], 4-[n-restaurant], 5-[x-'.']
+
+
+0-[n-'John'], 1-[v-went], 2-[p-into], 3-[d-a], 4-[n-restaurant], 5-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+1
+John-nnp
+went-vbd
+into-in
+a-dt
+restaurant-nn
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+['John'-n, went-vin, into-p, a-art, restaurant-n, '.'-punto]
+
+f-[subj-['John'-n-sn], ibar-[went-vin-ibar], sp-[into-p-sp, a-art-sn, restaurant-n-sn], cp-['.'-punto-cp]]
+
+1
+
+
+'Functional and Syntactic Constituency'
+
+subj-[John-n-sn]
+ibar-[went-vin-ibar]
+obl-[into-p-sp, a-art-sn, restaurant-n-sn]
+
+['.']
+
+
+ip(
+ indice(f1),
+ v(go, active, [sn/sogg/agente/[umano, oggetto], sp/obl/locat/[to, in, into]/[oggetto, luogo]], ind, _G17408/semp, 3, sing, mas),
+ supporto([]),
+ cat(risultato),
+ args(
+   [
+   arg(
+    funzione(sogg),
+    ruolo(agente),
+    sn(
+     indice(sn4),
+     cat([umano]),
+     npro(John, mas, sing),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(obl),
+    ruolo(locat),
+    sn(
+     indice(sn5),
+     cat([luogo]),
+     n(restaurant, _G19960, sing),
+     spec(
+      def(-),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    )
+   ]
+  ),
+ adjs([])
+ )
+indice:f1
+pred:go
+lex_form:[sn/sogg/agente/[umano, oggetto], sp/obl/locat/[to, in, into]/[oggetto, luogo]]
+voice:active
+modo:ind
+tempo:pres
+cat:risultato
+sogg/agente:indice:sn4
+            cat:[umano]
+            pred:'John'
+            gen:mas
+            num:sing
+            pers:3
+            spec:def:'0'
+            tab_ref:[+ref, -pro, -ana, -class]
+obl/locat:indice:sn5
+          cat:[luogo]
+          pred:restaurant
+          num:sing
+          pers:3
+          spec:def:-
+          tab_ref:[+ref, -pro, -ana, +class]
+          qmark:q1
+aspetto:achiev_tr
+rel1:[td(f1_t31)=tr(f1_t31)]
+rel2:[incluso(tr(f1_t31), tes(f1_t31))]
+definitezza:-
+ref_int:[tr(f1_t31)]
+qops:qop:q(q1, indefinito)
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn4, John, [+ref, def0, nil, nil, -pro, -ana, -class], 3, mas, sing, [umano], sogg/agente)/15
+ ref_ex(sn5, restaurant, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [luogo], obl/locat)/29
+
+EXPECTED TOPIC : ref_ex(sn4, John, _G27272, 3, mas, sing, [umano], sogg/agente)
+POTENTIAL TOPICS : ref_ex(sn5, restaurant, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [luogo], obl/locat)
+
+stato(1, cambia)
+
+rel_temp(infon1, td, tr(f1_t31), [eq])
+
+
+CLAUSE IDENTIFIER:               1-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(f1_t31), tr(f1_t31))
+DISCOURSE FOCUS:                 tes(f1_t31)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, expected, id3)
+topic(1, potential, id2)
+sr(sogg-agente, go, John)
+sr(obl-locat, go, restaurant)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(go,
+        < entity : sn4 :
+            wff(isa,
+                sn4,
+                John) >>,
+        < indefinito : sn5 :
+            wff(isa,
+                sn5,
+                restaurant) >>,
+        < event : f1 :
+            wff(and,
+                wff(isa,
+                    f1,
+                    ev),
+                wff(time,
+                    f1,
+                    < definito : t1 :
+                        wff(and,
+                            wff(isa,
+                                t1,
+                                tloc),
+                            wff(pres,
+                                t1)) >>)) >>))
+
+
+
+loc(infon2, id1, [arg:main_tloc, arg:tr(f1_t31)])
+loc(infon3, id2, [arg:main_sloc, arg:restaurant])
+ind(infon4, id3)
+fact(infon5, inst_of, [ind:id3, class:man], 1, univ, univ)
+fact(infon6, name, ['John', id3], 1, univ, univ)
+fact(infon7, inst_of, [ind:id2, class:place], 1, univ, univ)
+fact(infon8, isa, [ind:id2, class:restaurant], 1, id1, id2)
+fact(id4, go, [agente:id3, locat:id2], 1, tes(f1_t31), id2)
+fact(infon11, isa, [arg:id4, arg:ev], 1, tes(f1_t31), id2)
+fact(infon12, isa, [arg:id5, arg:tloc], 1, tes(f1_t31), id2)
+fact(infon13, pres, [arg:id5], 1, tes(f1_t31), id2)
+fact(infon14, time, [arg:id4, arg:id5], 1, tes(f1_t31), id2)
+
+contains(tes(f1_t31), tr(f1_t31))
+includes(tr(f1_t31), id1)
+
+
+   root:new(1-1)
+   clause:1-1
+   topics:[expected:id3:'John']
+   main_fact:go([id3:'John', id2:restaurant], 1, id2)
+   ref_int:tint(tes(f1_t31), [])
+   temp_rel:contains(tes(f1_t31), tr(f1_t31))
+   disc_rel:narration
+   disc_seg:1-[1]
+   disc_dom:objective
+   p_o_view:narrator

@@ -1,0 +1,40 @@
+Minimal pairs for [n] vs. [m] in initial position:
+n 	m 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+na 	ma 			£a 	…a 	ca 	da 	ea 	fa 	ga 	ha 	la 	oa 	sa 	ta 	va 	xa 	za 
+na… 	ma… 			…a… 	ha… 	oa… 	ya… 
+nape 	mape 			cape 
+nar 	mar 			dar 	ear 	far 	par 	war 
+nare 	mare 			bare 	dare 	gare 	pare 
+natura 	matura 		
+naxo 	maxo 			baxo 	caxo 	raxo 
+ne 	me 			£e 	…e 	be 	ce 	de 	ge 	he 	ke 	le 	re 	se 	te 	ve 	xe 	ye 
+nega 	mega 		
+neo 	meo 			ceo 
+netar 	metar 			petar 
+nostra 	mostra 			vostra 
+nove 	move 			dove 
+
+Minimal pairs for [n] vs. [m] in medial position:
+canbià 	cambià 		
+canbiar 	cambiar 		
+con 	com 			co' 	coi 	col 	cor 	cow 
+conpletamente 	completamente 		
+conporta 	comporta 		
+darne 	darme 			darte 	darve 
+dine 	dime 			dixe 
+dirne 	dirme 			dirte 
+farne 	farme 			farle 	farse 	farte 	farve 
+inparar 	imparar 		
+inpatience 	impatience 		
+invitarne 	invitarme 		
+noni 	nomi 			novi 
+run 	rum 			rua 
+senpre 	sempre 		
+skena 	skema 		
+spètane 	spètame 		
+tenpo 	tempo 		
+un 	um 			uf 	uh 	uo 	up 
+védarne 	védarme 			védarle 	védarte 
+verne 	verme 			verde 	verte 	verve 
+
+Minimal pairs for [n] vs. [m] in final position:

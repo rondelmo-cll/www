@@ -1,0 +1,20 @@
+Minimal pairs for [ch] vs. [k] in initial position:
+ch 	k 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+che 	ke 			£e 	…e 	be 	ce 	de 	ge 	he 	le 	me 	ne 	re 	se 	te 	ve 	xe 	ye 
+chi 	ki 			£i 	ai 	ci 	di 	ii 	li 	mi 	pi 	si 	ti 
+chick 	kick 			tick 
+chilo 	kilo 		
+
+Minimal pairs for [ch] vs. [k] in medial position:
+machina 	makina 			matina 
+machine 	makine 			matine 
+march 	mark 			mar… 	mare 	mari 	mary 
+parché 	parké 		
+parchè 	parkè 		
+pinch 	pink 			pine 
+sch 	sk 			sa 	sc 	se 	sé 	sè 	sh 	si 	sì 	so 	só 	ss 	su 	sz 
+schena 	skena 		
+schi 	ski 			sci 	soi 	sói 	sti 	sui 
+schiavoni 	skiavoni 		
+
+Minimal pairs for [ch] vs. [k] in final position:

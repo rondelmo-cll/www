@@ -1,0 +1,185 @@
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.59375
+'Lookahead Start Active Chart'
+0-[av-amid, p-amid, pk-amid, s-amid], 1-[d-the], 2-[av-tightly], 3-[v-packed], 4-[n-row_houses], 5-[p-of], 6-[n-'North_Philadelphia'], 7-[x- (',')], 8-[d-a], 9-[a-pioneering, v-pioneering], 10-[a-urban], 11-[n-farm, v-farm], 12-[v- (is)], 13-[a-providing, e-providing, n-providing, v-providing], 14-[a-fresh, v-fresh], 15-[a-local, n-local], 16-[n-food], 17-[e-for, p-for, s-for], 18-[d-a], 19-[n-community], 20-[a-that, c-that, r-that], 21-[av-often, e-often], 22-[n-lacks, v-lacks], 23-[r-it], 24-[x- (',')], 25-[e-and], 26-[a-making, n-making, v-making], 27-[n-money], 28-[p-in], 29-[d-the], 30-[n-process, v-process], 31-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.28125
+0-[av-amid, p-amid, pk-amid, s-amid], 1-[d-the], 2-[av-tightly], 3-[v-packed], 4-[n-row_houses], 5-[p-of], 6-[n-'North_Philadelphia'], 7-[x- (',')], 8-[d-a], 9-[a-pioneering], 10-[a-urban], 11-[n-farm], 12-[v- (is)], 13-[a-providing, e-providing, n-providing, v-providing], 14-[a-fresh, v-fresh], 15-[a-local, n-local], 16-[n-food], 17-[p-for], 18-[d-a], 19-[n-community], 20-[c-that], 21-[av-often, e-often], 22-[v-lacks], 23-[r-it], 24-[x- (',')], 25-[e-and], 26-[v-making], 27-[n-money], 28-[p-in], 29-[d-the], 30-[n-process], 31-[x-'.']
+
+0-[av-amid, p-amid, pk-amid, s-amid], 1-[d-the], 2-[av-tightly], 3-[v-packed], 4-[n-row_houses], 5-[p-of], 6-[n-'North_Philadelphia'], 7-[x- (',')], 8-[d-a], 9-[a-pioneering], 10-[a-urban], 11-[n-farm], 12-[v- (is)], 13-[a-providing, e-providing, n-providing, v-providing], 14-[a-fresh, v-fresh], 15-[a-local, n-local], 16-[n-food], 17-[p-for], 18-[d-a], 19-[n-community], 20-[c-that], 21-[av-often, e-often], 22-[v-lacks], 23-[r-it], 24-[x- (',')], 25-[e-and], 26-[v-making], 27-[n-money], 28-[p-in], 29-[d-the], 30-[n-process], 31-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+1
+amid-rb
+the-dt
+tightly-rb
+packed-vbd
+row_houses-nns
+of-in
+North_Philadelphia-nnp
+(,)-pun
+a-dt
+pioneering-jj
+urban-jj
+farm-nn
+(is)-vbz
+providing-vbg
+fresh-jj
+local-jj
+food-nn
+for-in
+a-dt
+community-nn
+that-dt
+often-rb
+lacks-vbz
+it-prp
+(,)-pun
+and-cc
+making-vbg
+money-nn
+in-in
+the-dt
+process-nns
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[amid-avv, the-art, tightly-avv, packed-vin, row_houses-n, of-p, 'North_Philadelphia'-n, (',')-punt, a-art, pioneering-ag, urban-ag, farm-n, (is)-ause, providing-vgin, fresh-ag, local-ag, food-n, for-p, a-art, community-n, that-rel, often-avv, lacks-vin, it-pron, (',')-punt, and-cong, making-vin, money-n, in-p, the-art, process-n, '.'-punto]
+
+cp-[savv-[amid-avv-savv], cp-[the-art-cp], savv-[tightly-avv-savv], ibar-[packed-vppt-sv3], sn-[row_houses-n-sn, mod-[of-p-sp, 'North_Philadelphia'-n-sn]], fp-[ (',')-punt-fp], f-[subj-[a-art-sn, pioneering-ag-sn, urban-ag-sn, farm-n-sn], ibar-[ (is)-ause-ibar, providing-vgin-ibar], sn-[fresh-ag-sn, local-ag-sn, food-n-sn], sp-[for-p-sp, a-art-sn, community-n-sn], f2-[that-rel-f2], savv-[often-avv-savv], ibar-[lacks-vin-ibar], sn-[it-pron-sn], fp-[ (',')-punt-fp], fc-[and-cong-fc], vcomp-[making-vin-sv5], sn-[money-n-sn, obl-[in-p-sp, the-art-sn, process-n-sn]], cp-['.'-punto-cp]]]
+
+1
+
+
+'Functional and Syntactic Constituency'
+
+savv-[amid-avv-savv]
+cp-[the-art-cp]
+savv-[tightly-avv-savv]
+ibar-[packed-vppt-sv3]
+obj-[row_houses-n-sn, mod-[of-p-sp, North_Philadelphia-n-sn]]
+
+1
+
+
+'Functional and Syntactic Constituency'
+
+subj-[a-art-sn, pioneering-ag-sn, urban-ag-sn, farm-n-sn]
+ibar-[ (is)-ause-ibar, providing-vgin-ibar]
+obj-[fresh-ag-sn, local-ag-sn, food-n-sn]
+obl-[for-p-sp, a-art-sn, community-n-sn, f2-[f2-[that-rel-f2], savv-[often-avv-savv], ibar-[lacks-vin-ibar], obj-[it-pron-sn], fc-[and-cong-fc], vcomp-[making-vin-sv5], obj-[money-n-sn, obl-[in-p-sp, the-art-sn, process-n-sn]]]]
+
+
+*********************************************************************************
+t61
+
+'Output of Anaphora Resolution Module'
+
+all_prons([2-[], 1-[], 0-[]])
+expletive(lack, it)
+
+############   TOPICS   ############
+MAIN TOPIC:  community
+SECONDARY TOPIC:  nil
+POTENTIAL TOPICS:  farm-npr, row_houses-npr, money-npr
+second  identified as  nil  with semantic index  nil
+
+
+'Augmented Head Dependent Indexed Structures'
+
+expl(lack, it).
+'ncmod-modal'(in, money-sn16, process-sn17).
+det(process-sn17, the).
+'subj-actor'(make-cl5, that-sn1).
+'obj-prop'(make-cl5, money-sn16).
+'xadj-result'(nil, lack-cl4, make-cl5).
+tense(past, '_', make).
+voice(active, '_', make).
+'obj-theme_aff'(lack-cl4, it-sn15).
+'adj-temporal'(lack-cl4, often-sn14).
+'subj-theme'(lack-cl4, that-sn13).
+'cmod-topic'(that, community-sn11, lack).
+'subj-actor'(lack-cl4, community-sn11).
+mod(sn10, food, local).
+mod(sn10, food, fresh).
+det(farm-sn9, a).
+mod(sn9, farm, pioneering).
+mod(sn9, farm, urban).
+'iobj-goal'(for, provide-cl2, community-sn11).
+'obj-tema_nonaff'(provide-cl2, food-sn10).
+'subj-actor'(provide-cl2, farm-sn9).
+aux(provide, is).
+progr(provide, providing).
+tense(pres, '_', lack).
+voice(active, '_', lack).
+tense(past, '_', provide).
+voice(active, '_', provide).
+'adj-mod'(the, row_houses, pack).
+'adj-mod'(in, pack, tightly).
+'adj-mod'(in, pack, amid).
+'ncmod-specif'(row_houses-sn1, 'North_Philadelphia').
+'subj-actor'(pack-cl1, row_houses-sn1).
+tense(past, '_', pack).
+voice(active, '_', pack).
+
+'Semantic Interpretation and Informational Structure'
+
+[2, indirect, provide, pluper, active, nil, nil, providing, indic, nil, attivita]
+[3, indirect, pack, past, active, nil, nil, nil, indic, tightly, attivita, pack, adj, mod, in, amid, [pack-adj-mod-in-tightly]]
+[4, indirect, make, past, active, nil, nil, nil, gerund, nil, attivita, xadj, result, nil, lack, make]
+[5, indirect, lack, pres, active, nil, nil, nil, indic, nil, attivita]
+sinfo(2, main/prop, external, factive, null, background, attivita, provide, pluper, narration, objective, nil)
+sinfo(3, main/prop, external, factive, culminated, foreground, attivita, pack, past, narration, objective, nil)
+sinfo(4, adj/result, external, factive, culminated, foreground, attivita, make, past, result, objective, nil)
+sinfo(5, main/prop, external, factive, null, background, attivita, lack, pres, narration, objective, nil)
+
+
+t61
+'Discourse Relations and Discourse Structure'
+
+sd_structure(t61, 4, objective, narration, past, make, foreground, down, down(0-0))
+sd_structure(t61, 2, objective, narration, pluper, provide, background, level, down(0-0))
+sd_structure(t61, 3, objective, narration, past, pack, foreground, level, down(0-0))
+sd_structure(t61, 5, objective, narration, pres, lack, background, level, down(0-0))
+ind(infon1, id5)
+fact(infon2, inst_of, [ind:id5, class:institution], 1, univ, univ)
+fact(infon3, inst_of, [ind:id5, class:houses], 1, univ, univ)
+fact(infon4, isa, [ind:id5, class:houses], 1, univ, univ)
+fact(infon5, isa, [ind:id5, class:row_houses], 1, univ, univ)
+class(infon6, id6)
+fact(infon7, isa, [ind:id6, class:row], 1, univ, univ)
+fact(infon8, of, [arg:id6, specif:id5], 1, univ, univ)
+ind(infon9, id7)
+fact(infon10, inst_of, [ind:id7, class:any], 1, univ, univ)
+fact(infon11, isa, [ind:id7, class:food], 1, univ, univ)
+ind(infon12, id8)
+fact(infon13, inst_of, [ind:id8, class:luogo], 1, univ, univ)
+fact(infon14, isa, [ind:id8, class:community], 1, univ, univ)
+ind(infon15, id9)
+fact(infon16, inst_of, [ind:id9, class:any], 1, univ, univ)
+fact(infon17, isa, [ind:id9, class:it], 1, univ, univ)
+ind(infon18, id10)
+fact(infon19, inst_of, [ind:id10, class:astratto], 1, univ, univ)
+fact(infon20, isa, [ind:id10, class:money], 1, univ, univ)
+ind(infon21, id11)
+fact(infon22, inst_of, [ind:id11, class:qua], 1, univ, univ)
+fact(infon23, inst_of, [ind:id11, class:'Philadelphia'], 1, univ, univ)
+fact(infon24, isa, [ind:id11, class:'Philadelphia'], 1, univ, univ)
+fact(infon25, isa, [ind:id11, class:north_philadelphia], 1, univ, univ)
+class(infon26, id12)
+fact(infon27, isa, [ind:id12, class:'North'], 1, univ, univ)
+fact(infon28, of, [arg:id12, specif:id11], 1, univ, univ)
+ind(infon29, id13)
+fact(infon30, inst_of, [ind:id13, class:informa], 1, univ, univ)
+fact(infon31, isa, [ind:id13, class:farm], 1, univ, univ)
+fact(id14, lack, [theme_aff:id9, actor:id8], 1, univ, univ)
+fact(id15, make, [actor:id5, prop:id10], 1, univ, univ)
+fact(id16, pack, [actor:id5], 1, univ, univ)
+fact(id17, provide, [goal:id8, tema_nonaff:id7, actor:id13], 1, univ, univ)
+

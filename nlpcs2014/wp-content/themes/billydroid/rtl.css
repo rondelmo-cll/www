@@ -1,0 +1,190 @@
+/*
+Theme Name: Themegenerator
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+*/
+
+/**
+ * 1.1 Reset
+ * ----------------------------------------------------------------------------
+ */
+
+body,html {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+a {
+/*	display: inline-block;*/
+}
+#header a.logo{
+	float: right;
+}
+#header .search_area{
+	float:left;
+}
+.icon_socials{
+	float: left;
+}
+/*MENU*/
+.container_menu ul li{
+	float: right;
+}
+.container_menu ul ul li a{
+	text-align:right;
+}
+.container_menu ul ul{
+	 right:-27px !important;
+}
+.container_menu ul ul > li{
+	margin-right:-12px;
+}
+/*END MENU*/
+/* Featured slider */
+body .contentSlide img{
+	float: left;
+	margin: 35px 20px 0 0;
+}
+div.contentSlide h1{
+	text-align: right;
+}
+div.contentSlide div.post_icon_sld{
+	text-align:right;
+	margin-right: -5px;
+}
+
+/*end featured slider*/
+
+/*menu sublevel*/
+
+.container_menu ul ul ul{
+	right: 225px !important;
+}
+
+.container_menu ul ul li.with_submenu > a:after{
+	content: "";
+}
+
+.container_menu ul ul li.with_submenu > a:after{
+	content: " \F053 ";
+	font-family: 'fontAwesome';
+	font-size: 11px;
+	margin-left: 5px;
+	position: absolute;
+	left: 0;
+	text-decoration: none;
+}
+
+/*Siderbar area*/
+.sidebar_down .boxes, .sidebar_top .boxes{
+	float: right;
+}
+.sidebar_left{
+	float: right;
+}
+/*Content blog area*/
+.main_content, .content_blog{
+	float:right;
+}
+.head_post{
+	padding:0px 0 20px 0px !important;
+}
+.head_post .comments_link{
+	/*left: 0;*/
+	position: static;
+	float: left;
+}
+.post_icon{
+	padding: 0 25px 0 0;
+}
+.post_icon.post_author {
+	background-position: right 0 !important;
+}
+.post_icon.post_date{
+	background-position: right 25% !important;
+}
+.post_icon.post_categ{
+	background-position: right 50% !important;
+}
+.post_icon.post_commts{
+	background-position: right 75% !important;
+}
+.post_icon.post_tag{
+	background-position: right 100% !important;
+}
+.more-link{
+	float: left;
+}
+.nav-tabs > li, .nav-pills > li{
+	float:right;
+}
+/*gallery taxonomies*/
+a img.alignleft{
+	float: right;
+}
+/*shpping cart */
+body ul.tg_shp_info li.tg_shp_product{
+	padding:0 15px 0 0;
+}
+body ul.tg_shp_info li.tg_shp_border{
+	border-right: 0;
+	border-left:1px solid #e5e5e5;
+}
+body ul.tg_shp_info li.tg_shp_price[tg_id_product]{
+	margin: 0 11px 0 0;
+}
+/*Contact*/
+.contact_form h1{
+	text-align: right;
+}
+.contact_form .nameInput,.contact_form .textInput,#captchaimage,.captchaInput{
+	margin-right: 0;
+}
+.contact_form .nameInput{
+	margin-left: 20px;
+}
+.contact_form .textInput,.contact_form .captchaInput{
+	margin-left: 15px;
+}
+.contact_form #captchaimage{
+	margin-left: 10px;
+	float: right;
+}
+.contact_form .captcha_reload{
+	left: auto;
+	right: -29px;
+	margin-left:0;
+	margin-right: -5px;
+}
+input#captcha{
+	margin: 9px -20px 7px 0;
+	text-align: right;
+}
+#contact_us span.error{
+	left: -3px !important;
+	right:auto !important;
+}
+#contact_us span#captchaError.error{
+	left:-95px !important;
+}
+#contact_us .sended{
+	float: left;
+}
+
+/*FOOTER AREA*/
+.container_fboxes{
+	float: right;
+}
+/*responsive tool*/
+@media all and (max-width: 960px) and (min-width: 600px){
+	.sidebar_down .boxes, .sidebar_top .boxes{
+		float: none;
+	}
+}
+@media all and (max-width: 599px) and (min-width: 220px){
+	.sidebar_down .boxes, .sidebar_top .boxes, #header .search_area,#header .icon_socials,#header a.logo{
+		float: none;
+	}
+}

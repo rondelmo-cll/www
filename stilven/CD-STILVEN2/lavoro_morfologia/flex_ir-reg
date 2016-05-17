@@ -1,0 +1,769 @@
+﻿% FLESSIONI DIFETTIVI-IRREGOLARI
+
+pfd(1, b, esti,   indic,  pass,  2, s).
+pfd(1, b, este,   indic,  pass,  2, p).
+pfd(1, b, emmo,   indic,  pass,    1, p).
+
+pfd(1, b, uto, part, pass, m, s).
+pfd(1, b, uta, part, pass, f, s).
+pfd(1, b, uti, part, pass, m, p).
+pfd(1, b, ute, part, pass, f, p).
+
+pfd(1, c, esti,   indic,  pass,  2, s).
+pfd(1, c, este,   indic,  pass,  2, p).
+pfd(1, c, emmo,   indic,  pass,    1, p).
+
+pfd(1, e, ite,  imp,   pres,  2, p).
+pfd(1, e, iamo,  imp,   pres,  1, p).
+
+pfd(1, f, ete,  imp,   pres,  2, p).
+pfd(1, f, iamo,  imp,   pres,  1, p).
+
+pfd(1, g, Fles,  Mod, Tem, P, N):-
+   (Mod=indic, Temp=fut; Mod=cond, Tem=pres),
+   pfd(6, a, Fles,  Mod, Tem, P, N).
+
+pfd(1, g, Fles,  Mod, Tem, P, N):-
+   (Mod=subj, Temp=pres
+  ; 
+  Mod=indic, Temp=pres
+  ; 
+  Mod=imp, Temp=pres
+  ; 
+  Mod=indic, Temp=pass
+  ; 
+  Mod=subj, Tem=imperf),
+  pfd(3, g, Fles,  Mod, Tem, P, N).
+
+
+pfd(2, b, ete,   indic,  pres,  2, p). /*solere*/
+
+pfd(3, a,'',   indic,  pres,  2, s).
+pfd(3, a, ete,   indic,  pres,  2, p).
+pfd(3, a, e,   indic,  pres,  3, s).
+pfd(3, a, amo,   indic,  pres,  1, p).
+
+pfd(3, f, e,   indic,  pres,  3, s).
+pfd(3, f, ete,   indic,  pres,  2, p).
+pfd(3, f, iamo,  indic,  pres,  1, p). 
+
+pfd(3, b, ite,   indic,  pres,  2, p).
+pfd(3, b, ir,  inf,   pres,  _, _).
+pfd(3, b, ì,  imp,   pres,  2, s).
+pfd(3, b, î,  imp,   pres,  2, s).
+pfd(3, b, ite,  imp,   pres,  2, p).
+
+pfd(3, c, ete,  indic,  pres,  2, p).
+pfd(3, d, ete,  indic,  pres,  2, p).
+pfd(3, c, ete,  subj,  pres,  2, p).
+pfd(3, d, ete,  subj,  pres,  2, p).
+
+pfd(3, g, ar,  inf,   pres,  _, _).
+pfd(3, g, â,  imp,   pres,  2, s).
+pfd(3, g, à,  imp,   pres,  2, s).
+pfd(3, g, ate,  imp,   pres,  2, p).
+pfd(3, g, iamo,  imp,   pres,  1, p).
+pfd(3, g, ai,  imp, pres, 2, s). % dai
+pfd(3, g, ia,  imp, pres, 3, s). % dia
+
+pfd(3, g, etti,   indic,  pass,  1, s).
+pfd(3, g, ette,   indic,  pass,  3, s).
+pfd(3, g, ettero,   indic,  pass,  3, p).
+pfd(3, g, esti,   indic,  pass,  1, s).
+pfd(3, g, este,   indic,  pass,  3, s).
+pfd(3, g, emmo,   indic,  pass,  3, p).
+
+pfd(3, g, o,   indic,  pres,  1, s).
+pfd(3, g, ai,  indic,  pres,  2, s).
+pfd(3, g, 'a’',   indic,  pres,  3, s).
+pfd(3, g, iamo,  indic,  pres,  1, p). 
+pfd(3, g, ate,  indic,   pres,  2, p).
+pfd(3, g, anno,  indic,  pres,  3, p).
+
+pfd(3, g, ia,   subj,  pres,  1, s).
+pfd(3, g, ia,  subj,  pres,  2, s).
+pfd(3, g, ia,   subj,  pres,  3, s).
+pfd(3, g, iano,  subj,  pres,  3, p).
+pfd(3, g, iamo,  subj,   pres,  1, p).
+pfd(3, g, iate,  subj,   pres,  2, p).
+
+pfd(3, g, essi,   subj,  imperf,  1, s).
+pfd(3, g, essi,  subj,  imperf,  2, s).
+pfd(3, g, esse,   subj,  imperf, 3, s).
+pfd(3, g, essimo,  subj,  imperf,  1, p). 
+pfd(3, g, este,  subj,  imperf,  2, p).
+pfd(3, g, essero,  subj,  imperf,  3, p).
+
+pfd(3, g, arò,   indic,  fut,   1, s). 
+pfd(3, g, arai,  indic,  fut,   2, s).
+pfd(3, g, arà,   indic,  fut,   3, s).
+pfd(3, g, aremo,   indic,  fut,   1, p).
+pfd(3, g, arete,   indic,  fut,   2, p). 
+pfd(3, g, aranno,  indic,  fut,   3, p).
+
+pfd(3, g, arei,   cond,  pres,   1, s). 
+pfd(3, g, aresti,   cond,  pres,   2, s).
+pfd(3, g, arebbe,   cond,  pres,   3, s).
+pfd(3, g, aremmo,   cond,  pres,   1, p).
+pfd(3, g, areste,   cond,  pres,   2, p). 
+pfd(3, g, arebbero, cond,  pres,   3, p).
+
+pfd(3, h, iamo,  indic,  pres,  1, p).
+pfd(3, h, ate,   indic,  pres,  2, p).
+pfd(3, h, iamo,  subj,  pres,  1, p).
+pfd(3, h, iate,  subj,  pres,  2, p).
+
+pfd(3, i, i,   indic,  pres,  2, s).
+pfd(3, i, e,   indic,  pres,  3, s).
+pfd(3, i, i,   imp,  pres,  2, s).
+pfd(3, i, ete,   indic,  pres,  2, p).
+
+pfd(3, l, i,   indic,  pres,  2, s).
+pfd(3, l, e,   indic,  pres,  3, s).
+pfd(3, l, i,   imp,  pres,  2, p).
+pfd(3, l, ite,   indic,  pres,  2, p).
+pfd(3, l, iamo,   indic,  pres,  1, p).
+
+pfd(3, l, iate,   subj,  pres,  2, p).
+
+pfd(3, l, immo,   indic,  pass,  1, p).
+pfd(3, l, iste,   indic,  pass,  2, p).
+pfd(3, l, isti,   indic,  pass,  3, p).
+
+pfd(4, a, i,  indic,  pres,  2, s).
+pfd(4, a, e,   indic,  pres,  3, s).
+pfd(4, a, ete,  imp,  pres,  2, p).
+pfd(4, a, iamo,  imp,  pres,  1, p). 
+pfd(4, a, ete,  indic,  pres,  2, p).
+pfd(4, a, iamo,  indic,  pres,  1, p). 
+pfd(4, a, i,   imp,  pres,  2, s).
+pfd(4, a, iamo,  subj,   pres,  1, p).
+pfd(4, a, iate,  subj,   pres,  2, p).
+
+
+pfd(4, b, iamo,   indic,  pres,   1, s). /*tenere*/
+pfd(4, b, ete,   indic,  pres,   2, p).
+pfd(4, b, iamo,   imp,  pres,   1, s). 
+pfd(4, b, ete,   imp,  pres,   2, p).
+
+pfd(4, b, uto, part, pass, m, s).
+pfd(4, b, uta, part, pass, f, s).
+pfd(4, b, uti, part, pass, m, p).
+pfd(4, b, ute, part, pass, f, p).
+
+pfd(4, c, esti,   indic,  pass,  2, s).
+pfd(4, c, emmo,   indic,  pass,  1, s).
+pfd(4, c, este,   indic,  pass,  2, p).
+pfd(4, c, ete,   indic,  pres,  2, p).
+
+
+pfd(4, d, i,  indic,  pres,  2, s).
+pfd(4, d, e,   indic,  pres,  3, s).
+pfd(4, d, ete,  indic,  pres,  2, p).
+pfd(4, d, iamo,  indic,  pres,  1, p). 
+pfd(4, d, ete,  imp,  pres,  2, p).
+pfd(4, d, iamo,  imp,  pres,  1, p). 
+pfd(4, d, i,   imp,  pres,  2, s).
+pfd(4, d, iamo,  subj,   pres,  1, p).
+pfd(4, d, iate,  subj,   pres,  2, p).
+
+pfd(4, d, rre,  inf,   pres,  _, _).
+pfd(4, e, rre,  inf,   pres,  _, _).
+pfd(4, f, rre,  inf,   pres,  _, _).
+
+pfd(4, d, r,  inf,   pres,  _, _).
+
+pfd(4, e, r,  inf,   pres,  _, _).
+
+pfd(4, f, r,  inf,   pres,  _, _).
+pfd(4, f, sto, part, pass, m, s).
+pfd(4, f, sta, part, pass, f, s).
+pfd(4, f, sti, part, pass, m, p).
+pfd(4, f, ste, part, pass, f, p).
+
+pfd(4, g, uto, part, pass, m, s).
+pfd(4, g, uta, part, pass, f, s).
+pfd(4, g, uti, part, pass, m, p).
+pfd(4, g, ute, part, pass, f, p).
+pfd(4, g, ite,  imp,  pres,  2, p).
+pfd(4, g, ite,  indic,  pres,  2, p).
+
+pfd(5, a, ete,  indic,  pres,  2, p).
+
+pfd(6, a, ar,  inf,   pres,  _, _).
+
+pfd(6, a, ate,  indic,   pres,  2, p).
+pfd(6, a, ate,  subj,   pres,  2, p).
+pfd(6, a, a,  indic,   pres,  3, s).
+pfd(6, a, a,  imp,   pres,  3, s).
+pfd(6, a, anno,   subj,   pres,  3, p).
+pfd(6, a, anno,   indic,   pres,  3, p).
+pfd(6, a, ai,  indic,   pres,  2, s).
+
+pfd(6, a, â,  imp,   pres,  2, s).
+pfd(6, a, à,  imp,   pres,  2, s).
+
+/* FUTURO INDICATIVO 2 */
+pfd(6, a, arò,  indic, fut, 1, s).
+pfd(6, a, arai, indic, fut, 2, s).
+pfd(6, a, arà,  indic, fut, 3, s).
+pfd(6, a, aremo,indic, fut, 1, p).
+pfd(6, a, arete, indic, fut, 2, p).
+pfd(6, a, aranno, indic, fut, 3, p).
+
+/* PRESENTE CONDIZIONALE 2 */
+pfd(6, a, arei,  cond, pres, 1, s).
+pfd(6, a, aresti,  cond, pres, 2, s).
+pfd(6, a, arebbe,  cond, pres, 3, s).
+pfd(6, a, aremmo,  		cond, pres, 1, p).
+pfd(6, a, areste,    cond, pres, 2, p).
+pfd(6, a, arebbero,  cond, pres, 3, p).
+
+% FLESSIONI REGOLARI
+
+% PRIMA CONIUGAZIONE
+
+/* PRESENTE INDICATIVO 1 */
+rvd(o,  1, indic, pres, 1, s).
+rvd(i,  1, indic, pres, 2, s).
+rvd(a,  1, indic, pres, 3, s).
+rvd(iamo, 1, indic, pres, 1, p).
+rvd(ate,  1, indic, pres, 2, p).
+rvd(ano,  1, indic, pres, 3, p).
+rvd(an,  1, indic, pres, 3, p).
+
+/* IMPERFETTO INDICATIVO 1 */
+rvd(avo,  1, indic, imperf, 1, s).
+rvd(avi,  1, indic, imperf, 2, s).
+rvd(ava,  1, indic, imperf, 3, s).
+rvd(avamo,  1, indic, imperf, 1, p).
+rvd(avam,  1, indic, imperf, 1, p).
+rvd(avate,  1, indic, imperf, 2, p).
+rvd(avano,  1, indic, imperf, 3, p).
+rvd(avan,  1, indic, imperf, 3, p).
+
+
+/* PASSATO REMOTO INDICATIVO 1 */
+rvd(ai,  1, indic, pass, 1, s).
+rvd(asti,  1, indic, pass, 2, s).
+rvd(ò,   1, indic, pass, 3, s).
+rvd(ammo,  1, indic, pass, 1, p).
+rvd(aste,  1, indic, pass, 2, p).
+rvd(arono, 1, indic, pass, 3, p).
+rvd(aron, 1, indic, pass, 3, p).
+
+/* FUTURO INDICATIVO 1 */
+rvd(erò,   1, indic, fut, 1, s).
+rvd(erai,  1, indic, fut, 2, s).
+rvd(erà,   1, indic, fut, 3, s).
+rvd(eremo, 1, indic, fut, 1, p).
+rvd(erete, 1, indic, fut, 2, p).
+rvd(eranno,1, indic, fut, 3, p).
+
+/* PRESENTE CONGIUNTIVO 1 */
+rvd(i,  1, subj, pres, 1, s).
+rvd(i,  1, subj, pres, 2, s).
+rvd(i,  1, subj, pres, 3, s).
+rvd(iamo, 1, subj, pres, 1, p).
+rvd(iate, 1, subj, pres, 2, p).
+rvd(ino,  1, subj, pres, 3, p).
+
+
+/* IMPERFETTO CONGIUNTIVO 1 */
+rvd(assi,  1, subj, imperf, 1, s).
+rvd(assi,  1, subj, imperf, 2, s).
+rvd(asse,  1, subj, imperf, 3, s).
+rvd(assimo,  1, subj, imperf, 1, p).
+rvd(aste,  1, subj, imperf, 2, p).
+rvd(assero,  1, subj, imperf, 3, p).
+
+/* PRESENTE CONDIZIONALE 1 */
+rvd(erei,  1, cond, pres, 1, s).
+rvd(eresti,  1, cond, pres, 2, s).
+rvd(erebbe,  1, cond, pres, 3, s).
+rvd(eremmo, 1, cond, pres, 1, p).
+rvd(ereste,  1, cond, pres, 2, p).
+rvd(erebbero,  1, cond, pres, 3, p).
+
+
+/* IMPERATIVO 1 */
+rvd(a,  1, imp, pres, 2, s).
+rvd(i,  1, imp, pres, 3, s).
+rvd(iamo,  1, imp, pres, 1, p).
+rvd(ate,  1, imp, pres, 2, p).
+rvd(ino,  1, imp, pres, 3, p).
+
+
+/* INFINITO 1 */
+rvd(are,  1, inf, pres, _, _).
+rvd(ar,  1, inf, pres, _, _).
+
+/* PARTICIPIO PRESENTE 1 */
+rvd(ante,  1, part, pres, _, s).
+rvd(anti,  1, part, pres, _, p).
+
+/* PARTICIPIO PASSATO 1 */
+rvd(ato, 1, part, pass, m, s).
+rvd(ata, 1, part, pass, f, s).
+rvd(ati, 1, part, pass, m, p).
+rvd(ate, 1, part, pass, f, p).
+
+/* GERUNDIO 1 */
+rvd(ando,  1, ger, pres, _, _).
+
+% SECONDA CONIUGAZIONE
+
+/* PRESENTE INDICATIVO 2 */
+rvd(o,  2, indic, pres, 1, s).
+rvd(i,  2, indic, pres, 2, s).
+rvd(e,  2, indic, pres, 3, s).
+rvd(iamo, 2, indic, pres, 1, p).
+rvd(ete,  2, indic, pres, 2, p).
+rvd(ono,  2, indic, pres, 3, p).
+rvd(on,  2, indic, pres, 3, p).
+
+/* IMPERFETTO INDICATIVO 2 */
+rvd(evo,  2, indic, imperf, 1, s).
+rvd(evi,  2, indic, imperf, 2, s).
+rvd(eva,  2, indic, imperf, 3, s).
+rvd(evamo,  2, indic, imperf, 1, p).
+rvd(evam,  2, indic, imperf, 1, p).
+rvd(evate,  2, indic, imperf, 2, p).
+rvd(evano,  2, indic, imperf, 3, p).
+rvd(evan,  2, indic, imperf, 3, p).
+
+/* PASSATO REMOTO INDICATIVO 2 */
+rvd(ei,     2, indic, pass, 1, s).
+rvd(etti,     2, indic, pass, 1, s).
+rvd(esti,   2, indic, pass, 2, s).
+rvd(ette,   2, indic, pass, 3, s).
+rvd(é,   2, indic, pass, 3, s).
+rvd(emmo,   2, indic, pass, 1, p).
+rvd(este,   2, indic, pass, 2, p).
+rvd(ettero, 2, indic, pass, 3, p).
+rvd(erono, 2, indic, pass, 3, p).
+rvd(eron, 2, indic, pass, 3, p).
+
+/* FUTURO INDICATIVO 2 */
+rvd(erò,  2, indic, fut, 1, s).
+rvd(erai,   2, indic, fut, 2, s).
+rvd(erà,  2, indic, fut, 3, s).
+rvd(eremo,  2, indic, fut, 1, p).
+rvd(erete,  2, indic, fut, 2, p).
+rvd(eranno, 2, indic, fut, 3, p).
+
+/* PRESENTE CONGIUNTIVO 2 */
+rvd(a,  2, subj, pres, 1, s).
+rvd(a,  2, subj, pres, 2, s).
+rvd(a,  2, subj, pres, 3, s).
+rvd(iamo, 2, subj, pres, 1, p).
+rvd(iate, 2, subj, pres, 2, p).
+rvd(ano,  2, subj, pres, 3, p).
+
+/* IMPERFETTO CONGIUNTIVO 2 */
+rvd(essi,  2, subj, imperf, 1, s).
+rvd(essi,  2, subj, imperf, 2, s).
+rvd(esse,  2, subj, imperf, 3, s).
+rvd(essimo,  2, subj, imperf, 1, p).
+rvd(este,  2, subj, imperf, 2, p).
+rvd(essero,  2, subj, imperf, 3, p).
+
+/* PRESENTE CONDIZIONALE 2 */
+rvd(erei,  2, cond, pres, 1, s).
+rvd(eresti,  2, cond, pres, 2, s).
+rvd(erebbe,  2, cond, pres, 3, s).
+rvd(eremmo,  		2, cond, pres, 1, p).
+rvd(ereste,    2, cond, pres, 2, p).
+rvd(erebbero,  2, cond, pres, 3, p).
+
+/* IMPERATIVO 2 */
+rvd(i,  2, imp, pres, 2, s).
+rvd(a,  2, imp, pres, 3, s).
+rvd(iamo,  2, imp, pres, 1, p).
+rvd(ete,  2, imp, pres, 2, p).
+rvd(ano,  2, imp, pres, 3, p).
+
+/* INFINITO 2 */
+rvd(ere,  2, inf, pres, _, _).
+rvd(er,  2, inf, pres, _, _).
+
+/* PARTICIPIO PRESENTE 2 */
+rvd(ente,  2, part, pres, _, s).
+rvd(enti,  2, part, pres, _, p).
+
+/* PARTICIPIO PASSATO 2 */
+rvd(uto, 2, part, pass, m, s).
+rvd(uta, 2, part, pass, f, s).
+rvd(uti, 2, part, pass, m, p).
+rvd(ute, 2, part, pass, f, p).
+
+/* GERUNDIO 2 */
+rvd(endo,  2, ger, pres, _, _).
+
+% TERZA CONIUGAZIONE
+
+/* PRESENTE INDICATIVO 3 */
+rvd(o,  3, indic, pres, 1, s).
+rvd(i,  3, indic, pres, 2, s).
+rvd(e,  3, indic, pres, 3, s).
+rvd(iamo, 3, indic, pres, 1, p).
+rvd(ite,  3, indic, pres, 2, p).
+rvd(ono,  3, indic, pres, 3, p).
+rvd(on,  3, indic, pres, 3, p).
+
+/* IMPERFETTO INDICATIVO 3*/
+rvd(ivo,  3, indic, imperf, 1, s).
+rvd(ivi,  3, indic, imperf, 2, s).
+rvd(iva,  3, indic, imperf, 3, s).
+rvd(ivamo,  3, indic, imperf, 1, p).
+rvd(ivate,  3, indic, imperf, 2, p).
+rvd(ivano,  3, indic, imperf, 3, p).
+rvd(ivan,  3, indic, imperf, 3, p).
+
+/* PASSATO REMOTO INDICATIVO 2 */
+rvd(ii,     3, indic, pass, 1, s).
+rvd(isti,   3, indic, pass, 2, s).
+rvd(ì,    3, indic, pass, 3, s).
+rvd(immo,   3, indic, pass, 1, p).
+rvd(iste,   3, indic, pass, 2, p).
+rvd(irono,  3, indic, pass, 3, p).
+rvd(iron,  3, indic, pass, 3, p).
+
+/* FUTURO INDICATIVO 3 */
+rvd(irò,  3, indic, fut, 1, s).
+rvd(irai,   3, indic, fut, 2, s).
+rvd(irà,  3, indic, fut, 3, s).
+rvd(iremo,  3, indic, fut, 1, p).
+rvd(irete,  3, indic, fut, 2, p).
+rvd(iranno, 3, indic, fut, 3, p).
+
+/* PRESENTE CONGIUNTIVO 3 */
+rvd(a,  3, subj, pres, 1, s).
+rvd(a,  3, subj, pres, 2, s).
+rvd(a,  3, subj, pres, 3, s).
+rvd(iamo, 3, subj, pres, 1, p).
+rvd(iate, 3, subj, pres, 2, p).
+rvd(ano,  3, subj, pres, 3, p).
+
+/* IMPERFETTO CONGIUNTIVO 3 */
+rvd(issi,  3, subj, imperf, 1, s).
+rvd(issi,  3, subj, imperf, 2, s).
+rvd(isse,  3, subj, imperf, 3, s).
+rvd(issimo,  3, subj, imperf, 1, p).
+rvd(iste,  3, subj, imperf, 2, p).
+rvd(issero,  3, subj, imperf, 3, p).
+
+/* PRESENTE CONDIZIONALE 3 */
+rvd(irei,  3, cond, pres, 1, s).
+rvd(iresti,  3, cond, pres, 2, s).
+rvd(irebbe,  3, cond, pres, 3, s).
+rvd(iremmo,  		3, cond, pres, 1, p).
+rvd(ireste,    3, cond, pres, 2, p).
+rvd(irebbero,  3, cond, pres, 3, p).
+
+/* IMPERATIVO 3 */
+rvd(i,  3, imp, pres, 2, s).
+rvd(a,  3, imp, pres, 3, s).
+rvd(iamo,  3, imp, pres, 1, p).
+rvd(ite,  3, imp, pres, 2, p).
+rvd(ano,  3, imp, pres, 3, p).
+
+/* INFINITO 3 */
+rvd(ire,  3, inf, pres, _, _).
+rvd(ir,  3, inf, pres, _, _).
+
+/* PARTICIPIO PRESENTE 3 */
+rvd(ente,  3, part, pres, _, s).
+rvd(enti,  3, part, pres, _, p).
+
+/* PARTICIPIO PASSATO 1 */
+rvd(ito, 3, part, pass, m, s).
+rvd(ita, 3, part, pass, f, s).
+rvd(iti, 3, part, pass, m, p).
+rvd(ite, 3, part, pass, f, p).
+
+/* GERUNDIO 3 */
+rvd(endo,  3, ger, pres, _, _).
+
+
+/* PRESENTE INDICATIVO 4 */
+rvd(isco,  a3, indic, pres, 1, s).
+rvd(isci,  a3, indic, pres, 2, s).
+rvd(isce,  a3, indic, pres, 3, s).
+rvd(iamo, a3, indic, pres, 1, p).
+rvd(iam, a3, indic, pres, 1, p).
+rvd(ite,  a3, indic, pres, 2, p).
+rvd(iscono,  a3, indic, pres, 3, p).
+rvd(iscon,  a3, indic, pres, 3, p).
+
+/* IMPERFETTO INDICATIVO 3*/
+rvd(ivo,  a3, indic, imperf, 1, s).
+rvd(ivi,  a3, indic, imperf, 2, s).
+rvd(iva,  a3, indic, imperf, 3, s).
+rvd(ivamo,  a3, indic, imperf, 1, p).
+rvd(ivam,  a3, indic, imperf, 1, p).
+rvd(ivate,  a3, indic, imperf, 2, p).
+rvd(ivano,  a3, indic, imperf, 3, p).
+rvd(ivan,  a3, indic, imperf, 3, p).
+
+/* PASSATO REMOTO INDICATIVO 2 */
+rvd(ii,     a3, indic, pass, 1, s).
+rvd(isti,   a3, indic, pass, 2, s).
+rvd(ì,    a3, indic, pass, 3, s).
+rvd(immo,   a3, indic, pass, 1, p).
+rvd(iste,   a3, indic, pass, 2, p).
+rvd(irono,  a3, indic, pass, 3, p).
+
+/* FUTURO INDICATIVO 3 */
+rvd(irò,  a3, indic, fut, 1, s).
+rvd(irai,   a3, indic, fut, 2, s).
+rvd(irà,  a3, indic, fut, 3, s).
+rvd(iremo,  a3, indic, fut, 1, p).
+rvd(irete,  a3, indic, fut, 2, p).
+rvd(iranno, a3, indic, fut, 3, p).
+
+/* PRESENTE CONGIUNTIVO 3 */
+rvd(isca,  a3, subj, pres, 1, s).
+rvd(isca,  a3, subj, pres, 2, s).
+rvd(isca,  a3, subj, pres, 3, s).
+rvd(iamo, a3, subj, pres, 1, p).
+rvd(iam, a3, subj, pres, 1, p).
+rvd(iate, a3, subj, pres, 2, p).
+rvd(iscano,  a3, subj, pres, 3, p).
+rvd(iscan,  a3, subj, pres, 3, p).
+
+/* IMPERFETTO CONGIUNTIVO 3 */
+rvd(issi,  a3, subj, imperf, 1, s).
+rvd(issi,  a3, subj, imperf, 2, s).
+rvd(isse,  a3, subj, imperf, 3, s).
+rvd(issimo,  a3, subj, imperf, 1, p).
+rvd(iste,  a3, subj, imperf, 2, p).
+rvd(issero,  a3, subj, imperf, 3, p).
+
+/* PRESENTE CONDIZIONALE 3 */
+rvd(irei,  a3, cond, pres, 1, s).
+rvd(iresti,  a3, cond, pres, 2, s).
+rvd(irebbe,  a3, cond, pres, 3, s).
+rvd(iremmo,  		a3, cond, pres, 1, p).
+rvd(ireste,    a3, cond, pres, 2, p).
+rvd(irebbero,  a3, cond, pres, 3, p).
+
+/* IMPERATIVO 3 */
+rvd(isci,  a3, imp, pres, 2, s).
+rvd(isca,  a3, imp, pres, 3, s).
+rvd(iamo,  a3, imp, pres, 1, p).
+rvd(iam,  a3, imp, pres, 1, p).
+rvd(ite,  a3, imp, pres, 2, p).
+rvd(iscano,  a3, imp, pres, 3, p).
+rvd(iscan,  a3, imp, pres, 3, p).
+
+/* INFINITO 3 */
+rvd(ire,  a3, inf, pres, _, _).
+rvd(ir,  a3, inf, pres, _, _).
+
+/* PARTICIPIO PRESENTE 3 */
+rvd(ente,  a3, part, pres, _, s).
+rvd(enti,  a3, part, pres, _, p).
+
+/* PARTICIPIO PASSATO 1 */
+rvd(ito, a3, part, pass, m, s).
+rvd(ita, a3, part, pass, f, s).
+rvd(iti, a3, part, pass, m, p).
+rvd(ite, a3, part, pass, f, p).
+
+/* GERUNDIO 3 */
+rvd(endo,  a3, ger, pres, _, _).
+
+% FLESSIONI IRREGOLARI/REGOLARI
+
+/* INDIC FUTURO irregolare 1 */
+ivd(rò,  	1, indic, fut, 1, s).
+ivd(rai,  1, indic, fut, 2, s).
+ivd(rà,  1, indic, fut, 3, s).
+ivd(remo,  1, indic, fut, 1, p).
+ivd(rete,   1, indic, fut, 2, p).
+ivd(ranno,  1, indic, fut, 3, p).
+
+/* Indic Pass */
+ivd(etti,     1, indic, pass, 1, s).
+ivd(esti,   1, indic, pass, 2, s).
+ivd(ette,   1, indic, pass, 3, s).
+ivd(emmo,   1, indic, pass, 1, p).
+ivd(este,   1, indic, pass, 2, p).
+ivd(ettero, 1, indic, pass, 3, p).
+
+/* CONDIZIONALE PRESENTE irregolare 1 */
+ivd(rei,  1, cond, pres, 1, s).
+ivd(resti,  1, cond, pres, 2, s).
+ivd(rebbe,  1, cond, pres, 3, s).
+ivd(remmo,  		1, cond, pres, 1, p).
+ivd(reste,    1, cond, pres, 2, p).
+ivd(rebbero,  1, cond, pres, 3, p).
+
+/* INDIC PRESENTE irregolare 2 */
+ivd(ai,  2, indic, pres, 2, s). % sai
+ivd(oi,  2, indic, pres, 2, s). % puoi
+ivd(a,   2, indic, pres, 3, s). % sa
+ivd(ò,   2, indic, pres, 3, s). % può
+ivd(amo,  2, indic, pres, 1, p). % vogliamo
+ivd(am,  2, indic, pres, 1, p). % vogliamo
+ivd(ete,  2, indic, pres, 2, p). % volete
+ivd(anno,  2, indic, pres, 3, p). % sanno
+ivd(iamo,  2, indic, pres, 1, p). % siamo
+ivd(iam,  2, indic, pres, 1, p). % siamo
+ivd(iete,  2, indic, pres, 2, p). % siete
+
+/* IMPERATIVO irregolare troncato 1 e 2 */
+ivd(â,  1, imp, pres, 2, s). % da
+ivd(î,  3, imp, pres, 2, s). % di
+
+/* INDIC FUTURO irregolare 2 */
+ivd(rò,  	2, indic, fut, 1, s).
+ivd(rai,  2, indic, fut, 2, s).
+ivd(rà,  2, indic, fut, 3, s).
+ivd(remo,  2, indic, fut, 1, p).
+ivd(rete,   2, indic, fut, 2, p).
+ivd(ranno,  2, indic, fut, 3, p).
+
+/* INDIC PASSATO REMOTO irregolare 2 */
+ivd(i,   2, indic, pass, 1, s).   % accesi
+ivd(e,   2, indic, pass, 3, s).   % accese
+ivd(ero, 2, indic, pass, 3, p).   % accesero
+
+ivd(sti,   2, indic, pass, 2, s).   % fosti
+ivd(rono, 2, indic, pass, 3, p).   % furono
+ivd(ste,   2, indic, pass, 2, p).   % foste
+ivd(mmo,   2, indic, pass, 1, p).   % fummo
+
+/* CONG PRESENTE irregolare 2 */
+ivd(ia,  2, subj, pres, _, s). % abbia
+ivd(iano,  2, subj, pres, 3, p). % abbiamo
+
+/* PARTICIPIO PASSATO irregolare 2 */
+ivd(o, 2, part, pass, m, s). % acceso
+ivd(a, 2, part, pass, f, s).  % accesa
+ivd(i, 2, part, pass, m, p).  % accesi
+ivd(e, 2, part, pass, f, p).  % accese
+
+
+/* CONDIZIONALE PRESENTE irregolare 2 */
+ivd(rei,  2, cond, pres, 1, s).
+ivd(resti,  2, cond, pres, 2, s).
+ivd(rebbe,  2, cond, pres, 3, s).
+ivd(remmo,  		2, cond, pres, 1, p).
+ivd(reste,    2, cond, pres, 2, p).
+ivd(rebbero,  2, cond, pres, 3, p).
+
+/* IMPERATIVO irregolare 2 */
+ivd(ii,  2, imp, pres, 2, s). % sii
+
+/* INFINITO irregolare 2 */
+ivd(er,  2, inf, pres, _, _). % esser
+ivd(r,  2, inf, pres, _, _). % condur
+
+ivd(o,  a3, indic, pres, 1, s).
+ivd(isco,  a3, indic, pres, 1, s).
+ivd(isci,  a3, indic, pres, 2, s).
+ivd(isce,  a3, indic, pres, 3, s).
+ivd(iamo, a3, indic, pres, 1, p).
+ivd(iam, a3, indic, pres, 1, p).
+ivd(ite,  a3, indic, pres, 2, p).
+ivd(iscono,  a3, indic, pres, 3, p).
+ivd(iscon,  a3, indic, pres, 3, p).
+
+/* IMPERFETTO INDICATIVO 3*/
+ivd(ivo,  a3, indic, imperf, 1, s).
+ivd(ivi,  a3, indic, imperf, 2, s).
+ivd(iva,  a3, indic, imperf, 3, s).
+ivd(ivamo,  a3, indic, imperf, 1, p).
+ivd(ivam,  a3, indic, imperf, 1, p).
+ivd(ivate,  a3, indic, imperf, 2, p).
+ivd(ivano,  a3, indic, imperf, 3, p).
+ivd(ivan,  a3, indic, imperf, 3, p).
+
+/* PASSATO REMOTO INDICATIVO 2 */
+ivd(ii,     a3, indic, pass, 1, s).
+ivd(isti,   a3, indic, pass, 2, s).
+ivd(ì,    a3, indic, pass, 3, s).
+ivd(immo,   a3, indic, pass, 1, p).
+ivd(iste,   a3, indic, pass, 2, p).
+ivd(irono,  a3, indic, pass, 3, p).
+ivd(iron,  a3, indic, pass, 3, p).
+
+/* FUTURO INDICATIVO 3 */
+ivd(irò,  a3, indic, fut, 1, s).
+ivd(irai,   a3, indic, fut, 2, s).
+ivd(irà,  a3, indic, fut, 3, s).
+ivd(iremo,  a3, indic, fut, 1, p).
+ivd(irem,  a3, indic, fut, 1, p).
+ivd(irete,  a3, indic, fut, 2, p).
+ivd(iranno, a3, indic, fut, 3, p).
+
+/* FUTURO INDICATIVO 3 */
+ivd(rò,  3, indic, fut, 1, s).
+ivd(rai,   3, indic, fut, 2, s).
+ivd(rà,  3, indic, fut, 3, s).
+ivd(remo,  3, indic, fut, 1, p).
+ivd(rem,  3, indic, fut, 1, p).
+ivd(rete,  3, indic, fut, 2, p).
+ivd(ranno, 3, indic, fut, 3, p).
+
+/* CONDIZIONALE PRESENTE irregolare 1 */
+ivd(rei,  3, cond, pres, 1, s).
+ivd(resti,  3, cond, pres, 2, s).
+ivd(rebbe,  3, cond, pres, 3, s).
+ivd(remmo,  		3, cond, pres, 1, p).
+ivd(reste,    3, cond, pres, 2, p).
+ivd(rebbero,  3, cond, pres, 3, p).
+
+
+/* PRESENTE CONGIUNTIVO 3 */
+ivd(isca,  a3, subj, pres, 1, s).
+ivd(isca,  a3, subj, pres, 2, s).
+ivd(isca,  a3, subj, pres, 3, s).
+ivd(iamo, a3, subj, pres, 1, p).
+ivd(iam, a3, subj, pres, 1, p).
+ivd(iate, a3, subj, pres, 2, p).
+ivd(iscano,  a3, subj, pres, 3, p).
+ivd(iscan,  a3, subj, pres, 3, p).
+
+/* IMPERFETTO CONGIUNTIVO 3 */
+ivd(issi,  a3, subj, imperf, 1, s).
+ivd(issi,  a3, subj, imperf, 2, s).
+ivd(isse,  a3, subj, imperf, 3, s).
+ivd(issimo,  a3, subj, imperf, 1, p).
+ivd(iste,  a3, subj, imperf, 2, p).
+ivd(issero,  a3, subj, imperf, 3, p).
+
+/* PRESENTE CONDIZIONALE 3 */
+ivd(irei,  a3, cond, pres, 1, s).
+ivd(iresti,  a3, cond, pres, 2, s).
+ivd(irebbe,  a3, cond, pres, 3, s).
+ivd(iremmo,  		a3, cond, pres, 1, p).
+ivd(ireste,    a3, cond, pres, 2, p).
+ivd(irebbero,  a3, cond, pres, 3, p).
+
+/* IMPERATIVO 3 */
+ivd(isci,  a3, imp, pres, 2, s).
+ivd(isca,  a3, imp, pres, 3, s).
+ivd(iamo,  a3, imp, pres, 1, p).
+ivd(iam,  a3, imp, pres, 1, p).
+ivd(ite,  a3, imp, pres, 2, p).
+ivd(iscano,  a3, imp, pres, 3, p).
+ivd(iscan,  a3, imp, pres, 3, p).
+
+/* INFINITO 3 */
+ivd(ire,  a3, inf, pres, _, _).
+ivd(ir,  a3, inf, pres, _, _).
+
+/* PARTICIPIO PRESENTE 3 */
+ivd(ente,  a3, part, pres, _, _).
+
+/* PARTICIPIO PASSATO 1 */
+ivd(ito, a3, part, pass, m, s).
+ivd(ita, a3, part, pass, f, s).
+ivd(iti, a3, part, pass, m, p).
+ivd(ite, a3, part, pass, f, p).
+
+/* GERUNDIO 3 */
+ivd(endo,  a3, ger, pres, _, _).

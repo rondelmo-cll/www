@@ -1,0 +1,233 @@
+Ratio of Tags per Word for Sentence no: 3
+Word Ambiguity Ratio: 1.16667
+'Lookahead Start Active Chart'
+0-[d-the], 1-[n-waiter], 2-[v-took], 3-[d-the], 4-[n-order, v-order], 5-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1
+0-[d-the], 1-[n-waiter], 2-[v-took], 3-[d-the], 4-[n-order], 5-[x-'.']
+
+0-[d-the], 1-[n-waiter], 2-[v-took], 3-[d-the], 4-[n-order], 5-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+3
+the-dt
+waiter-nn
+took-vbd_vbn
+the-dt
+order-nns
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[the-art, waiter-n, took-vt, the-art, order-n, '.'-punto]
+
+f-[subj-[the-art-sn, waiter-n-sn], ibar-[took-vt-ibar], sn-[the-art-sn, order-n-sn], cp-['.'-punto-cp]]
+
+3
+
+
+'Functional and Syntactic Constituency'
+
+subj-[the-art-sn, waiter-n-sn]
+ibar-[took-vt-ibar]
+obj-[the-art-sn, order-n-sn]
+
+['.']
+
+
+ip(
+ indice(f1),
+ v(take, active, [sn/sogg/agente/[umano], idioms/ogg/form/[order], sp/obl/goal/from/[umano]], ind, _G26781/semp, 3, sing, mas),
+ supporto([]),
+ cat(attivita),
+ args(
+   [
+   arg(
+    funzione(sogg),
+    ruolo(agente),
+    sn(
+     indice(sn3),
+     cat([umano, sociale]),
+     n(waiter, mas, sing),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(ogg),
+    ruolo(form),
+    sn(
+     indice(sn4),
+     cat([attivita, evento]),
+     n(order, _G28782, sing),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(ogg2),
+    ruolo(goal),
+    sn(
+     indice(sn5),
+     cat([umano, animato]),
+     pr(pr_quantif, exist, _G30065, _G30066, _G30067, _G30068),
+     spec(
+      def(-),
+      part(+)
+      )
+     )
+    )
+   ]
+  ),
+ adjs([])
+ )
+indice:f1
+pred:take
+lex_form:[sn/sogg/agente/[umano], idioms/ogg/form/[order], sp/obl/goal/from/[umano]]
+voice:active
+modo:ind
+tempo:pres
+cat:attivita
+sogg/agente:indice:sn3
+            cat:[umano, sociale]
+            pred:waiter
+            gen:mas
+            num:sing
+            pers:3
+            spec:def:+
+            tab_ref:[+ref, -pro, -ana, +class]
+ogg/form:indice:sn4
+         cat:[attivita, evento]
+         pred:order
+         num:sing
+         pers:3
+         spec:def:+
+         tab_ref:[+ref, -pro, -ana, +class]
+ogg2/goal:indice:sn5
+          cat:[umano, animato]
+          pred:exist
+          spec:def:-
+               part:+
+          tab_ref:[+ref, -pro, -ana, +me]
+aspetto:attivita
+rel1:[td(f1_t33)=tr(f1_t33)]
+rel2:[incluso(tr(f1_t33), tes(f1_t33))]
+definitezza:+
+ref_int:[tr(f1_t33)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn3, waiter, [+ref, +def, nil, nil, -pro, -ana, +class], 3, mas, sing, [umano, sociale], sogg/agente)/15
+ ref_ex(sn5, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [umano, animato], ogg2/goal)/217
+
+EXPECTED TOPIC : ref_ex(sn3, waiter, _G38321, 3, mas, sing, [umano, sociale], sogg/agente)
+SECONDARY TOPIC : ref_ex(sn4, John, _G38339, 3, mas, sing, [umano], _G38344)
+POTENTIAL TOPICS : ref_ex(sn5, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [umano, animato], ogg2/goal)
+
+stato(3, retaining)
+
+rel_temp(infon42, td, tr(f1_t33), [eq])
+
+
+CLAUSE IDENTIFIER:               3-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f1_t33), tes(f3_t32))
+DISCOURSE FOCUS:                 tes(f1_t33)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(3, retaining)
+topic(3, expected, id14)
+topic(3, secondary, id3)
+topic(3, potential, id3)
+sr(sogg-agente, take, waiter)
+sr(ogg2-goal, take, exist)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(take_order,
+        < definito : sn3 :
+            wff(isa,
+                sn3,
+                waiter) >>,
+        < exist : sn5 :
+            wff(isa,
+                sn5,
+                exist) >>,
+        < process : f1 :
+            wff(and,
+                wff(isa,
+                    f1,
+                    pr),
+                wff(time,
+                    f1,
+                    < indefinito : t3 :
+                        wff(and,
+                            wff(isa,
+                                t3,
+                                tloc),
+                            wff(pres,
+                                t3)) >>)) >>))
+
+
+
+loc(infon43, id13, [arg:main_tloc, arg:tes(f3_t32)])
+ind(infon44, id14)
+fact(infon45, inst_of, [ind:id14, class:social_role], 1, univ, univ)
+fact(infon46, isa, [ind:id14, class:waiter], 1, id13, id2)
+fact(infon47, role, [waiter, id2, id14], 1, id13, id2)
+fact(id15, take_order, [agente:id14, goal:id3], 1, tes(f1_t33), id2)
+fact(infon50, isa, [arg:id15, arg:pr], 1, tes(f1_t33), id2)
+fact(infon51, isa, [arg:id16, arg:tloc], 1, tes(f1_t33), id2)
+fact(infon52, pres, [arg:id16], 1, tes(f1_t33), id2)
+fact(infon53, time, [arg:id15, arg:id16], 1, tes(f1_t33), id2)
+
+during(tes(f1_t33), tes(f3_t32))
+includes(tr(f1_t33), id13)
+
+funcs-[sogg/agente-n9-pred(waiter), ogg/form-n19-pred(order), ogg2/goal-n28-pred(exist)]
+
+            same_level:level(2-2)
+            clause:3-3
+            topics:[expected:id14:waiter, secondary:id3:'John']
+            main_fact:take([id14:waiter], 1, id2)
+            ref_int:tint(nil, [tes(f1_t33)])
+            temp_rel:during(tes(f1_t33), tes(f3_t32))
+            disc_rel:narration
+            disc_seg:2-[3]
+            disc_dom:objective
+            p_o_view:narrator

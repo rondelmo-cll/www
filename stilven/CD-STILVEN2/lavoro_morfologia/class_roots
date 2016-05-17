@@ -1,0 +1,1255 @@
+﻿/* 1a */
+fd(1, a, 2, a,     part,   pass,  f,  s).
+fd(1, a, 2, e,     part,   pass,  f,  p).
+fd(1, a, 2, i,     part,   pass,  m,  p).
+fd(1, a, 2, o,     part,   pass,  m,  s).
+
+/* 1b */
+fd(1, b, 2, a,     part,   pass,  f,  s).
+fd(1, b, 2, e,     indic,  pass,  3, s).
+fd(1, b, 2, e,     part,   pass, f,  p).
+fd(1, b, 2, ero,   indic,  pass,  3, p).
+fd(1, b, 2, i,     indic,  pass,  1, s).
+fd(1, b, 2, i,     part,   pass,  m,  p).
+fd(1, b, 2, o,     part,   pass,  m,  s).
+
+
+/* 1c */
+fd(1, c, 2, e,     indic,  pass,  3, s).
+fd(1, c, 2, ero,   indic,  pass,  3, p).
+fd(1, c, 2, i,     indic,  pass,  1, s).
+
+/* 1d */
+fd(1, d, 2, o,     indic,  pres,  1, s). 
+fd(1, d, 2, ono,   indic,  pres,  3, p).
+
+fd(1, d, 2, a,     subj,  pres,  1, s). 
+fd(1, d, 2, a,     subj,  pres,  2, s).
+fd(1, d, 2, a,     subj,  pres,  3, s).
+fd(1, d, 2, ano,   subj,  pres,  3, p).
+
+/* 1e */
+fd(1, e, 2, o,     indic,  pres,  1, s). 
+fd(1, e, 2, i,     indic,  pres,  2, s).
+fd(1, e, 2, i,     imp,  pres,  2, s).
+fd(1, e, 2, e,     indic,  pres,  3, s).
+fd(1, e, 2, ono,   indic,  pres,  3, p).
+
+fd(1, e, 2, a,     subj,  pres,  1, s). 
+fd(1, e, 2, a,     subj,  pres,  2, s).
+fd(1, e, 2, a,     subj,  pres,  3, s).
+fd(1, e, 2, a,     imp,  pres,  3, s).
+fd(1, e, 2, ano,   subj,  pres,  3, p).
+
+/* 1f */
+fd(1, f, 2, o,     indic,  pres,  1, s). 
+fd(1, f, 2, i,     indic,  pres,  2, s).
+fd(1, f, 2, i,     imp,  pres,  2, s).
+fd(1, f, 2, e,     indic,  pres,  3, s).
+fd(1, f, 2, ono,   indic,  pres,  3, p).
+
+fd(1, f, 2, a,     subj,  pres,  1, s). 
+fd(1, f, 2, a,     subj,  pres,  2, s).
+fd(1, f, 2, a,     subj,  pres,  3, s).
+fd(1, f, 2, ano,   subj,  pres,  3, p).
+
+fd(1, f, 3, o,     indic,  pres,  1, s). 
+fd(1, f, 3, ono,   indic,  pres,  3, p).
+
+fd(1, f, 3, a,     subj,  pres,  1, s). 
+fd(1, f, 3, a,     subj,  pres,  2, s).
+fd(1, f, 3, a,     subj,  pres,  3, s).
+fd(1, f, 3, a,     imp,  pres,  3, s).
+fd(1, f, 3, ano,   subj,  pres,  3, p).
+
+fd(1, f, 2, Fles,  Mod, Tem, P, N):-
+   (Mod=indic, Temp=fut; Mod=cond, Tem=pres),
+   rvd(Fles, 2, Mod, Tem, P, N).
+
+/* 1h */
+fd(1, h, 2, ita,     part,   pass,  f,  s).
+fd(1, h, 2, ite,     part,   pass,  f,  p).
+fd(1, h, 2, iti,     part,   pass,  m,  p).
+fd(1, h, 2, ito,     part,   pass,  m,  s).
+
+/* 1i */
+fd(1, i, 2, i,       indic, pass, 1, s).
+fd(1, i, 2, e,        indic, pass, 3, s).
+fd(1, i, 2, ero,    indic, pass, 3, p).
+
+/* 2a */
+fd(2, a, 2, e,     indic,  pass,  3, s).
+fd(2, a, 2, ero,   indic,  pass,  3, p).
+fd(2, a, 2, i,     indic,  pass,  1, s).
+
+fd(2, a, 3, a,     part,   pass,  f,  s).
+fd(2, a, 3, e,     part,   pass,  f,  p).
+fd(2, a, 3, i,     part,   pass,  m,  p).
+fd(2, a, 3, o,     part,   pass,  m,  s).
+
+/* 2b */
+
+fd(2, b, 2, o,     indic,  pres,  1, s). 
+fd(2, b, 3, i,     indic,  pres,  2, s).
+fd(2, b, 3, e,     indic,  pres,  3, s).
+fd(2, b, 2, amo,   indic,  pres,  1, p).
+fd(2, b, 2, ono,   indic,  pres,  3, p).
+
+fd(2, b, 2, a,     subj,  pres,  1, s). 
+fd(2, b, 2, a,     subj,  pres,  2, s).
+fd(2, b, 2, a,     subj,  pres,  3, s).
+fd(2, b, 2, amo,   subj,  pres,  1, p).
+fd(2, b, 2, ate,   subj,  pres,  2, p).
+fd(2, b, 2, ano,   subj,  pres,  3, p).
+
+
+/* 2c */
+fd(2, c, 2, endo, ger,  pres,  _, _).
+fd(2, c, 2, ente, part,  pres,  _, _).
+fd(2, c, 2, enti, part,  pres,  _, _).
+
+fd(2, c, 2, o,     indic,  pres,  1, s). /*bere*/
+fd(2, c, 2, i,     indic,  pres,  2, s).
+fd(2, c, 2, e,     indic,  pres,  3, s).
+fd(2, c, 2, iamo,  indic,  pres,  1, p). 
+fd(2, c, 2, ete,   indic,  pres,  2, p).
+fd(2, c, 2, evono, indic,  pres,  3, p).
+
+fd(2, c, 2, Fles,  indic, imperf, P, N):-
+   rvd(Fles, 2, indic, imperf, P, N).
+
+fd(2, c, 3, i,     indic,  pass,  1, s). 
+fd(2, c, 2, esti,  indic,  pass,  2, s).
+fd(2, c, 3, e,     indic,  pass,  3, s).
+fd(2, c, 2, emmo,  indic,  pass,  1, p). 
+fd(2, c, 2, este,  indic,  pass,  2, p).
+fd(2, c, 3, ero,   indic,  pass,  3, p).
+
+fd(2, c, 2, a,     subj,  pres,  1, s). 
+fd(2, c, 2, a,     subj,  pres,  2, s).
+fd(2, c, 2, a,     subj,  pres,  3, s).
+fd(2, c, 2, iamo,  subj,  pres,  1, p). 
+fd(2, c, 2, iate,  subj,  pres,  2, p).
+fd(2, c, 2, evano, subj,  pres,  3, p).
+
+fd(2, c, 2, Fles,  subj, imperf, P, N):-
+   rvd(Fles, 2, subj, imperf, P, N).
+
+fd(2, c, 4, rà, indic, fut, 3, s).
+fd(2, c, 4, rai, indic, fut, 2, s).
+fd(2, c, 4, ranno, indic, fut, 3, p).
+fd(2, c, 4, rebbe, cond, pres, 3, s).
+fd(2, c, 4, rebbero, cond, pres, 3, p).
+fd(2, c, 4, rei, cond, pres, 1, s).
+fd(2, c, 4, remmo, cond, pres, 1, p).
+fd(2, c, 4, remo, indic, fut, 1, p).
+fd(2, c, 4, reste, cond, pres, 2, p).
+fd(2, c, 4, resti, cond, pres, 2, s).
+fd(2, c, 4, rete, indic, fut, 2, p).
+fd(2, c, 4, rò, indic, fut, 1, s).
+
+/* 3a */
+fd(3, a, 2, ono,   indic,  pres,  3, p).
+fd(3, a, 2, o,     indic,  pres,  1, s).
+fd(3, a, 2, a,  subj,   pres,  3, s).
+fd(3, a, 2, a,  subj,   pres,  1, s).
+fd(3, a, 2, ano,  indic,  pres,  3, p).
+fd(3, a, 2, a,  subj,   pres,  2, s).
+
+fd(3, a, 3, i,  indic,   pass,  1, s).
+fd(3, a, 2, esti,  indic,   pass,  2, s).
+fd(3, a, 3, e,  indic,   pass,  3, s).
+fd(3, a, 3, ero,  indic,   pass,  3, p).
+fd(3, a, 2, emmo,  indic,   pass,  1, p).
+fd(3, a, 2, este,  indic,   pass,  2, p).
+fd(3, a, 4, a,    part,   pass,  f,  s).
+fd(3, a, 4, e,     part,   pass,  f,  p).
+fd(3, a, 4, i,     part,   pass,  m,  p).
+fd(3, a, 4, o,     part,   pass,  m,  s).
+
+fd(3, a, 5, uta,    part,   pass,  f,  s).
+fd(3, a, 5, ute,     part,   pass,  f,  p).
+fd(3, a, 5, uti,     part,   pass,  m,  p).
+fd(3, a, 5, uto,     part,   pass,  m,  s).
+
+/* 3b */
+fd(3, b, 3, e,     indic,  pass,  3, s). 
+fd(3, b, 3, ero,   indic,  pass,  3, p).
+fd(3, b, 3, i,     indic,  pass,  1, s).
+fd(3, b, 2, esti,     indic,  pass,  2, s). 
+fd(3, b, 2, este,   indic,  pass,  2, p).
+fd(3, b, 2, emmo,     indic,  pass,  1, p).
+
+fd(3, b, 2, Fles,  indic, imperf, P, N):-
+   rvd(Fles, 2, indic, imperf, P, N).
+
+fd(3, b, 4, a,     part,   pass,  f,  s).
+fd(3, b, 4, e,     part,   pass,  f,  p).
+fd(3, b, 4, i,     part,   pass,  m,  p).
+fd(3, b, 4, o,     part,   pass,  m,  s).
+
+fd(3, b, 2, a,    subj,  pres,  3, s).
+fd(3, b, 2, a,   subj,  pres,  2, s).
+fd(3, b, 2, a,     subj,  pres,  1, s).
+fd(3, b, 2, e,    indic,  pres,  3, s).
+fd(3, b, 2, i,   indic,  pres,  2, s).
+fd(3, b, 2, ono,   indic,  pres,  3, p).
+fd(3, b, 2, o,     indic,  pres,  1, s).
+fd(3, b, 2, iamo,  subj,   pres,  1, p).
+fd(3, b, 2, iamo,  indic,  pres,  1, p).
+fd(3, b, 2, iate,  subj,   pres,  2, p).
+fd(3, b, 2, ano,  subj,   pres,  3, p).
+
+fd(3, b, 2, endo,  ger,   pres,  _, _).
+fd(3, b, 2, ente, part,  pres,  _, _).
+fd(3, b, 2, enti, part,  pres,  _, _).
+
+fd(3, b, 2, Fles,  subj, imperf, P, N):-
+   rvd(Fles, 2, subj, imperf, P, N).
+
+/* 3c */
+fd(3, c, 2, o,     indic,  pres,  1, s). /*dovere*/
+fd(3, c, 4, o,     indic,  pres,  1, s). /*debbo*/
+fd(3, c, 2, i,     indic,  pres,  2, s).
+fd(3, c, 2, e,     indic,  pres,  3, s).
+fd(3, c, 2, '',     indic,  pres,  3, s).
+fd(3, c, 3, iamo,  indic,  pres,  1, p).
+fd(3, c, 2, ono,   indic,  pres,  3, p).
+fd(3, c, 1, ete,     indic,  pres,  2, p).
+fd(3, c, 4, ono,   indic,  pres,  3, p).
+
+fd(3, c, 4, Fles,  subj, imperf, P, N):-
+   rvd(Fles, 2, subj, imperf, P, N).
+
+fd(3, c, 4, a,     subj,  pres,  1, s). 
+fd(3, c, 4, a,     subj,  pres,  2, s).
+fd(3, c, 4, a,     subj,  pres,  3, s).
+fd(3, c, 3, iamo,  subj,  pres,  1, p).
+fd(3, c, 3, iate,  subj,  pres,  2, p).
+fd(3, c, 4, ano,   subj,  pres,  3, p).
+
+
+/* 3d */
+fd(3, d, 2, o,     indic,  pres,  1, s). /*potere*/
+fd(3, d, 3, oi,    indic,  pres,  2, s).
+fd(3, d, 3, ò,     indic,  pres,  3, s).
+fd(3, d, 2, iamo,  indic,  pres,  1, p).
+fd(3, d, 2, ono,   indic,  pres,  3, p).
+
+fd(3, d, 2, a,     subj,  pres,  1, s). 
+fd(3, d, 2, a,     subj,  pres,  2, s).
+fd(3, d, 2, a,     subj,  pres,  3, s).
+fd(3, d, 2, iamo,  subj,  pres,  1, p).
+fd(3, d, 2, iate,  subj,  pres,  2, p).
+fd(3, d, 2, ano,   subj,  pres,  3, p).
+
+
+/* 3e */
+fd(3, e, 2, o,     ind,  pres,  1, s). /*morire*/
+fd(3, e, 3, i,     ind,  pres,  2, s).
+fd(3, e, 3, e,     ind,  pres,  3, s).
+fd(3, e, 2, ono,   ind,  pres,  3, p).
+
+fd(3, e, 2, a,     subj,  pres,  1, s). 
+fd(3, e, 2, a,     subj,  pres,  2, s).
+fd(3, e, 2, a,     subj,  pres,  3, s).
+fd(3, e, 2, ano,   subj,  pres,  3, p).
+
+fd(3, e, 4, a,     part,   pass,  f,  s). 
+fd(3, e, 4, e,     part,   pass,  f,  p).
+fd(3, e, 4, i,     part,   pass,  m,  p).
+fd(3, e, 4, o,     part,   pass,  m,  s).
+
+
+/* 3f */
+fd(3, f, 2, o,     indic,  pres,  1, s). /*valere*/
+fd(3, f, 2, ono,   indic,  pres,  3, p).
+
+fd(3, f, 2, a,     subj,  pres,  1, s). 
+fd(3, f, 2, a,     subj,  pres,  2, s).
+fd(3, f, 2, a,     subj,  pres,  3, s).
+fd(3, f, 2, ano,   subj,  pres,  3, p).
+
+fd(3, f, 3, Fles,  indic, fut, P, N):-
+   ivd(Fles, 1, indic, fut, P, N).
+
+fd(3, f, 3, Fles,  cond, pres, P, N):-
+   ivd(Fles, 1, cond, pres, P, N).
+
+fd(3, f, 4, i,     indic,  pass,  1, s).
+fd(3, f, 4, e,     indic,  pass,  3, s).
+fd(3, f, 4, ero,   indic,  pass,  3, p).
+
+fd(3, f, 4, a,     part,   pass,  f,  s).
+fd(3, f, 4, e,     part,   pass,  f,  p).
+fd(3, f, 4, i,     part,   pass,  m,  p).
+fd(3, f, 4, o,     part,   pass,  m,  s).
+
+/* 3g */
+fd(3, g, 2, a,     subj,   pres,  1, s).
+fd(3, g, 2, a,     subj,   pres,  2, s).
+fd(3, g, 2, a,     subj,   pres,  3, s).
+
+fd(3, g, 2, ano,   subj,   pres,  3, p).
+fd(3, g, 2, ate,   subj,   pres,  2, p).
+
+fd(3, g, 3, i,     indic,  pass,  1, s).
+fd(3, g, 3, e,     indic,  pass,  3, s).
+fd(3, g, 3, ero,   indic,  pass,  3, p).
+
+/* 3h */
+fd(3, h, 2, o,     indic,  pres,  1, s). /*andare*/
+fd(3, h, 3, ai,     indic,  pres,  2, s).
+fd(3, h, 3, a,     indic,  pres,  3, s).
+fd(3, h, 3, â,     imp,  pres,  2, s).
+fd(3, h, 3, a,     imp,  pres,  2, s).
+fd(3, h, 3, anno,   indic,  pres,  3, p).
+
+fd(3, h, 2, a,     subj,  pres,  1, s). 
+fd(3, h, 2, a,     subj,  pres,  2, s).
+fd(3, h, 2, a,     subj,  pres,  3, s).
+fd(3, h, 2, ano,   subj,  pres,  3, p).
+
+/* 3i */
+fd(3, i, 2, o,     indic,  pres,  1, s). /*paio*/
+fd(3, i, 2, iamo,   indic,  pres,  1, p).
+fd(3, i, 2, ono,   indic,  pres,  3, p).
+
+fd(3, i, 2, a,     subj,  pres,  1, s). 
+fd(3, i, 2, a,     subj,  pres,  2, s).
+fd(3, i, 2, a,     subj,  pres,  3, s).
+fd(3, i, 2, iamo,   subj,  pres,  1, p).
+fd(3, i, 2, iate,   subj,  pres,  2, p).
+fd(3, i, 2, ano,   subj,  pres,  3, p).
+
+fd(3, i, 3, i,     indic,  pass,  1, s).
+fd(3, i, 3, e,     indic,  pass,  3, s).
+fd(3, i, 3, ero,   indic,  pass,  3, p).
+fd(3, i, 3, emmo,     indic,  pass,  1, p).
+fd(3, i, 3, este,     indic,  pass,  2, p).
+fd(3, i, 3, esti,   indic,  pass,  3, p).
+
+fd(3, i, 4, a,     part,   pass,  f,  s).
+fd(3, i, 4, e,     part,   pass,  f,  p).
+fd(3, i, 4, i,     part,   pass,  m,  p).
+fd(3, i, 4, o,     part,   pass,  m,  s).
+
+/* 3l */
+fd(3, l, 2, o,     indic,  pres,  1, s). /*appaio*/
+fd(3, l, 2, ono,   indic,  pres,  3, p).
+
+fd(3, l, 2, a,     subj,  pres,  1, s). 
+fd(3, l, 2, a,     subj,  pres,  2, s).
+fd(3, l, 2, a,     subj,  pres,  3, s).
+fd(3, l, 2, iamo,   subj,  pres,  1, p).
+fd(3, l, 2, ano,   subj,  pres,  3, p).
+
+fd(3, l, 3, i,     indic,  pass,  1, s).
+fd(3, l, 3, e,     indic,  pass,  3, s).
+fd(3, l, 3, ero,   indic,  pass,  3, p).
+
+/* 4a */
+fd(4, a, 2, o,     indic,  pres,   1, s). /*ponere*/
+fd(4, a, 2, ono,   indic,  pres,   3, p).
+
+fd(4, a, 2, a,     subj,   pres,   1, s). 
+fd(4, a, 2, a,     subj,   pres,  2, s).
+fd(4, a, 2, a,     subj,   pres,   3, s).
+fd(4, a, 2, ano,   subj,   pres,   3, p).
+
+fd(4, a, 3, Fles,  indic, fut, P, N):-
+   ivd(Fles, 1, indic, fut, P, N).
+
+fd(4, a, 3, Fles,  cond, pres, P, N):-
+   ivd(Fles, 1, cond, pres, P, N).
+
+fd(4, a, 4, i,     indic,  pass,  1, s).
+fd(4, a, 4, e,     indic,  pass,  3, s).
+fd(4, a, 4, ero,   indic,  pass,  3, p).
+
+fd(4, a, 5, a,     part,   pass,  f,  s).
+fd(4, a, 5, e,     part,   pass,  f,  p).
+fd(4, a, 5, i,     part,   pass,  m,  p).
+fd(4, a, 5, o,     part,   pass,  m,  s).
+
+
+/* 4b */
+fd(4, b, 3, o,     indic,  pres,   1, s). /*tenere*/
+fd(4, b, 2, i,     indic,  pres,   2, s).
+fd(4, b, 2, e,     indic,  pres,   3, s).
+fd(4, b, 3, ono,   indic,  pres,   3, p).
+
+fd(4, b, 3, a,     subj,   pres,   1, s). 
+fd(4, b, 3, a,     subj,   pres,   2, s).
+fd(4, b, 3, a,     subj,   pres,   3, s).
+fd(4, b, 3, ano,   subj,   pres,   3, p).
+
+fd(4, b, 4, Fles,  indic, fut, P, N):-
+   ivd(Fles, 1, indic, fut, P, N).
+
+fd(4, b, 4, Fles,  cond, pres, P, N):-
+   ivd(Fles, 1, cond, pres, P, N).
+
+fd(4, b, 5, i,     indic,  pass,  1, s).
+fd(4, b, 5, e,     indic,  pass,  3, s).
+fd(4, b, 5, ero,   indic,  pass,  3, p).
+
+
+/* 4c */
+fd(4, c, 2, o,     indic,  pres,  1, s). /*sapere*/
+fd(4, c, 2, ai,    indic,  pres,  2, s).
+fd(4, c, 2, a,     indic,  pres,  3, s).
+fd(4, c, 3, iamo,  indic,  pres,  1, p). 
+fd(4, c, 2, anno,  indic,  pres,  3, p).
+
+fd(4, c, 3, i,     imp,    pres,  2, s).
+fd(4, c, 4, a,     imp,   pres,  3, s).
+fd(4, c, 3, iamo,  imp,   pres,  1, p).
+fd(4, c, 3, iate,  imp,   pres,  2, p).
+fd(4, c, 4, ano,   imp,   pres,  3, p).
+
+
+fd(4, c, 4, a,     subj,   pres,  1, s).
+fd(4, c, 4, a,     subj,   pres,  2, s).
+fd(4, c, 4, a,     subj,   pres,  3, s).
+fd(4, c, 3, iamo,  subj,   pres,  1, p).
+fd(4, c, 3, iate,  subj,   pres,  2, p).
+fd(4, c, 4, ano,   subj,   pres,  3, p).
+
+fd(4, c, 5, i,     indic,  pass,  1, s).
+fd(4, c, 5, e,     indic,  pass,  3, s).
+fd(4, c, 5, ero,   indic,  pass,  3, p).
+fd(4, c, 5, imo,     indic,  pass,  1, p).
+
+/* 4d */
+fd(4, d, 2, o,     indic,  pres,  1, s). 
+fd(4, d, 2, ono,  indic,  pres,  3, p).
+
+fd(4, d, 3, Fles,  indic, fut, P, N):-
+   ivd(Fles, 1, indic, fut, P, N).
+
+fd(4, d, 3, Fles,  cond, pres, P, N):-
+   ivd(Fles, 1, cond, pres, P, N).
+
+fd(4, d, 2, a,     subj,   pres,  1, s).
+fd(4, d, 2, a,     subj,   pres,  2, s).
+fd(4, d, 2, a,     subj,   pres,  3, s).
+fd(4, d, 2, ano,   subj,   pres,  3, p).
+
+fd(4, d, 4, i,     indic,  pass,  1, s).
+fd(4, d, 4, e,     indic,  pass,  3, s).
+fd(4, d, 4, ero,   indic,  pass,  3, p).
+fd(4, d, 4, esti,     indic,  pass,  2, s).
+fd(4, d, 4, este,     indic,  pass,  2, p).
+fd(4, d, 4, emmo,   indic,  pass,  1, p).
+
+fd(4, d, 5, a,     part,   pass,  f,  s).
+fd(4, d, 5, e,     part,   pass,  f,  p).
+fd(4, d, 5, i,     part,   pass,  m,  p).
+fd(4, d, 5, o,     part,   pass,  m,  s).
+
+/* 4e */
+fd(4, e, 2, o,     indic,  pres,  1, s). /*durre*/
+fd(4, e, 2, i,    indic,  pres,  2, s).
+fd(4, e, 2, e,     indic,  pres,  3, s).
+fd(4, e, 2, ete,    indic,  pres,  2, p).
+fd(4, e, 2, iamo,  indic,  pres,  1, p). 
+fd(4, e, 2, ono,  indic,  pres,  3, p).
+
+fd(4, e, 2, evo,     indic,  imperf,  1, s).
+fd(4, e, 2, evi,    indic,  imperf,  2, s).
+fd(4, e, 2, eva,     indic,  imperf,  3, s).
+fd(4, e, 2, evamo,  indic,  imperf,  1, p). 
+fd(4, e, 2, evate,    indic,  imperf,  2, p).
+fd(4, e, 2, evano,  indic,  imperf,  3, p).
+
+fd(4, e, 2, i,     imp,    pres,  2, s).
+
+fd(4, e, 3, Fles,  indic, fut, P, N):-
+   ivd(Fles, 1, indic, fut, P, N).
+
+fd(4, e, 3, Fles,  cond, pres, P, N):-
+   ivd(Fles, 1, cond, pres, P, N).
+
+fd(4, e, 2, a,     subj,   pres,  1, s).
+fd(4, e, 2, a,     subj,   pres,  2, s).
+fd(4, e, 2, a,     subj,   pres,  3, s).
+fd(4, e, 2, iamo,  subj,   pres,  1, p).
+fd(4, e, 2, iate,  subj,   pres,  2, p).
+fd(4, e, 2, ano,   subj,   pres,  3, p).
+
+fd(4, e, 2, endo,  ger,    pres,  _, _).
+
+fd(4, e, 2, Fles,  subj, imperf, P, N):-
+   rvd(Fles, 2, subj, imperf, P, N).
+
+fd(4, e, 4, i,     indic,  pass,  1, s).
+fd(4, e, 4, e,     indic,  pass,  3, s).
+fd(4, e, 4, ero,   indic,  pass,  3, p).
+fd(4, e, 2, esti,  indic,  pass,  2, s).
+fd(4, e, 2, este,  indic,  pass,  2, p).
+fd(4, e, 2, emmo,  indic,  pass,  1, p).
+
+fd(4, e, 5, a,     part,   pass,  f,  s).
+fd(4, e, 5, e,     part,   pass,  f,  p).
+fd(4, e, 5, i,     part,   pass,  m,  p).
+fd(4, e, 5, o,     part,   pass,  m,  s).
+
+/* 4f */
+fd(4, f, 2, Fles,  indic, imperf, P, N):-
+   rvd(Fles, 2, indic, imperf, P, N).
+
+fd(4, f, 3, o,    indic,  pres,  1, s).
+fd(4, f, 2, i,    indic,  pres,  2, s).
+fd(4, f, 2, e,    indic,  pres,  3, s).
+fd(4, f, 2, ete,  indic,  pres,  2, p).
+fd(4, f, 2, iamo, indic,  pres,  1, p).
+fd(4, f, 3, ono,  indic,  pres,  3, p).
+
+fd(4, f, 2, i,     imp,    pres,  2, s).
+fd(4, f, 2, endo,  ger,    pres,  _, _).
+
+fd(4, f, 4, Fles,  indic, fut, P, N):-
+   ivd(Fles, 1, indic, fut, P, N).
+
+fd(4, f, 4, Fles,  cond, pres, P, N):-
+   ivd(Fles, 1, cond, pres, P, N).
+
+fd(4, f, 3, a,     subj,   pres,  1, s).
+fd(4, f, 3, a,     subj,   pres,  2, s).
+fd(4, f, 3, a,     subj,   pres,  3, s).
+fd(4, f, 2, iamo,  subj,   pres,  1, p).
+fd(4, f, 2, iate,  subj,   pres,  2, p).
+fd(4, f, 3, ano,   subj,   pres,  3, p).
+
+fd(4, f, 2, Fles,  subj, imperf, P, N):-
+   rvd(Fles, 2, subj, imperf, P, N).
+
+fd(4, f, 5, i,     indic,  pass,  1, s).
+fd(4, f, 5, e,     indic,  pass,  3, s).
+fd(4, f, 5, ero,   indic,  pass,  3, p).
+fd(4, f, 5, esti,     indic,  pass,  2, s).
+fd(4, f, 5, este,     indic,  pass,  2, p).
+fd(4, f, 5, emmo,   indic,  pass,  1, p).
+
+fd(4, f, 6, a,     part,   pass,  f,  s).
+fd(4, f, 6, e,     part,   pass,  f,  p).
+fd(4, f, 6, i,     part,   pass,  m,  p).
+fd(4, f, 6, o,     part,   pass,  m,  s).
+
+/* 4g */
+fd(4, g, 3, o,     indic,  pres,   1, s). /*venire*/
+fd(4, g, 2, i,     indic,  pres,   2, s).
+fd(4, g, 2, i,     imp,  pres,   2, s).
+fd(4, g, 2, e,     indic,  pres,   3, s).
+fd(4, g, 3, ono,   indic,  pres,   3, p).
+
+fd(4, g, 3, a,     subj,   pres,   1, s). 
+fd(4, g, 3, a,     subj,   pres,   2, s).
+fd(4, g, 3, a,     subj,   pres,   3, s).
+fd(4, g, 3, ano,   subj,   pres,   3, p).
+
+fd(4, g, 4, Fles,  indic, fut, P, N):-
+   ivd(Fles, 1, indic, fut, P, N).
+
+fd(4, g, 4, Fles,  cond, pres, P, N):-
+   ivd(Fles, 1, cond, pres, P, N).
+
+fd(4, g, 5, i,     indic,  pass,  1, s).
+fd(4, g, 5, e,     indic,  pass,  3, s).
+fd(4, g, 5, ero,   indic,  pass,  3, p).
+
+/* 5a */
+fd(5, a, 2, o,    indic,  pres,  1, s).
+fd(5, a, 2, ono,  indic,  pres,  3, p).
+fd(5, a, 2, amo,  indic,  pres,  1, p).
+fd(5, a, 2, amo,  subj,  pres,  1, p).
+fd(5, a, 2, ate,  subj,   pres,  2, p).
+fd(5, a, 2, ano,  subj,   pres,  3, p).
+
+fd(5, a, 3, i,  indic,  pres,  2, s).
+fd(5, a, 4, e,  indic,  pres,  3, s).
+fd(5, a, 4,'',  indic,  pres,  3, s).
+
+fd(5, a, 5, Fles,  indic, fut, P, N):-
+   ivd(Fles, 1, indic, fut, P, N).
+
+fd(5, a, 5, Fles,  cond, pres, P, N):-
+   ivd(Fles, 1, cond, pres, P, N).
+
+fd(5, a, 6, e,     indic,  pass,  3, s).
+fd(5, a, 6, ero,   indic,  pass,  3, p).
+fd(5, a, 6, i,     indic,  pass,  1, s).
+fd(5, a, 1, esti,     indic,  pass,  2, s).
+fd(5, a, 1, este,   indic,  pass,  2, p).
+fd(5, a, 1, emmo,     indic,  pass,  1, p).
+
+
+/* 5b */
+fd(5, b, 4, o,    indic,  pres,  1, s).
+fd(5, b, 4, ono,  indic,  pres,  3, p).
+fd(5, b, 1, ete,  indic,  pres,  2, p).
+fd(5, b, 2, iamo, indic,  pres,  1, p).
+fd(5, b, 2, iamo,  subj,  pres,  1, p).
+fd(5, b, 2, iate,  subj,  pres,  2, p).
+fd(5, b, 1, iamo, indic, pres,  1, p).
+fd(5, b, 1, iamo,  subj,  pres,  1, p).
+fd(5, b, 1, iate,  subj,  pres,  2, p).
+fd(5, b, 4, ano,   subj,  pres,  3, p).
+
+fd(5, b, 3, i,  indic,  pres,  2, s).
+fd(5, b, 3, e,  indic,  pres,  3, s).
+fd(5, b, 3,'',  indic,  pres,  3, s).
+
+
+fd(5, b, 5, Fles,  indic, fut, P, N):-
+   ivd(Fles, 1, indic, fut, P, N).
+
+fd(5, b, 5, Fles,  cond, pres, P, N):-
+   ivd(Fles, 1, cond, pres, P, N).
+
+fd(5, b, 6, e,     indic,  pass,  3, s).
+fd(5, b, 6, ero,   indic,  pass,  3, p).
+fd(5, b, 6, i,     indic,  pass,  1, s).
+fd(5, b, 1, esti,     indic,  pass,  2, s).
+fd(5, b, 1, este,   indic,  pass,  2, p).
+fd(5, b, 1, emmo,     indic,  pass,  1, p).
+
+/* 6a */
+fd(6, a, 2, Fles,  indic, imperf, P, N):-
+   rvd(Fles, 2, indic, imperf, P, N).
+
+fd(6, a, 2, Fles,  subj, imperf, P, N):-
+   rvd(Fles, 2, subj, imperf, P, N).
+
+fd(6, a, 3, o,     indic,  pres,  1, s).
+fd(6, a, 3, a,     subj,  pres,   1, s).
+fd(6, a, 3, a,     subj,  pres,   2, s). 
+fd(6, a, 3, a,     subj,  pres,   3, s).
+fd(6, a, 3, amo,  indic,  pres,  1, p).
+fd(6, a, 3, amo,   subj,  pres,   1, p).
+fd(6, a, 3, ate,   subj,  pres,   2, p). 
+fd(6, a, 3, ano,   subj,  pres,   3, p).
+
+fd(6, a, 4, i,     indic,  pass,  1, s).
+fd(6, a, 4, e,     indic,  pass,  3, s).
+fd(6, a, 4, ero,   indic,  pass,  3, p).
+fd(6, a, 4, esti,     indic,  pass,  2, s).
+fd(6, a, 2, este,     indic,  pass,  2, p).
+fd(6, a, 2, emmo,   indic,  pass,  1, p).
+
+fd(6, a, 2, endo,     ger,    pres,  _, _).
+
+fd(6, a, 5, a,     part,   pass,  f,  s).
+fd(6, a, 5, e,     part,   pass,  f,  p).
+fd(6, a, 5, i,     part,   pass,  m,  p).
+fd(6, a, 5, o,     part,   pass,  m,  s).
+
+/* classe 7 verbo essere */
+fd(7, a, 2, o,     indic,  pres,  1, s). 
+fd(7, a, 3, i,    indic,  pres,  2, s).
+fd(7, a, 4, amo,  indic,  pres,  1, p). 
+fd(7, a, 4, ete,    indic,  pres,  2, p).
+fd(7, a, 2, o,  indic,  pres,  3, p).
+
+fd(7, a, 4, i,     imp,    pres,  2, s).
+
+
+fd(7, a, 4, a,     subj,   pres,  1, s).
+fd(7, a, 4, a,     subj,   pres,  2, s).
+fd(7, a, 4, a,     subj,   pres,  3, s).
+fd(7, a, 4, amo,  subj,   pres,  1, p).
+fd(7, a, 4, ate,  subj,   pres,  2, p).
+fd(7, a, 4, ano,   subj,   pres,  3, p).
+
+fd(7, a, 6, o,     indic,  imperf,  1, s).
+fd(7, a, 6, i,    indic,  imperf,  2, s).
+fd(7, a, 6, a,     indic,  imperf,  3, s).
+fd(7, a, 6, avamo,  indic,  imperf,  1, p). 
+fd(7, a, 6, avate,    indic,  imperf,  2, p).
+fd(7, a, 6, ano,  indic,  imperf,  3, p).
+
+fd(7, a,7,'',     indic,  pass,  3, s).
+
+fd(7, a, 7, i,     indic,  pass,  1, s).
+fd(7, a, 8, sti,     indic,  pass,  2, s).
+fd(7, a, 7, mmo,     indic,  pass,  3, p).
+fd(7, a, 8, ste,     indic,  pass,  3, p).
+fd(7, a, 7, rono,   indic,  pass,  3, p).
+
+fd(7, a, 8, ssi,     subj,  imperf,  1, s).
+fd(7, a, 8, ssi,    subj,  imperf,  2, s).
+fd(7, a, 8, sse,     subj,  imperf,  3, s).
+fd(7, a, 8, ssimo,  subj,  imperf,  1, p). 
+fd(7, a, 8, ste,    subj,  imperf,  2, p).
+fd(7, a, 8, ssero,  subj,  imperf,  3, p).
+
+fd(7, a, 9, a,     part,   pass,  f,  s).
+fd(7, a, 9, e,     part,   pass,  f,  p).
+fd(7, a, 9, i,     part,   pass,  m,  p).
+fd(7, a, 9, o,     part,   pass,  m,  s).
+
+fd(7, a, 10, Fles,  indic, fut, P, N):-
+   ivd(Fles, 1, indic, fut, P, N).
+
+fd(7, a, 10, Fles,  cond, pres, P, N):-
+   ivd(Fles, 1, cond, pres, P, N).
+
+fd(7, a, 11, '',     indic,  pres,  3, s).
+
+
+% CLASSI TEMI LEMMI E RADICI
+
+/* classe 1a  */
+
+irv(evolv,    1, a, 1,  evolv,  2).
+irv(evolut,   1, a, 2,  evolv,  2).
+irv(apr,      1, a, 1,  apr,    3).
+irv(apert,    1, a, 2,  apr,    3).
+irv(cern,     1, a, 1,  cern,   2).
+irv(cret,     1, a, 2,  cern,   2).
+irv(copr,     1, a, 1,  copr,   3).
+irv(copert,   1, a, 2,  copr,   3).
+irv(spar,      1, a, 1,  spar,    a3).
+irv(sparit,    1, a, 2,  spar,    a3).
+irv(seppell,  1, a, 1,  seppell,3).
+irv(sepolt,   1, a, 2,  seppell,3).
+irv(sig,      1, a, 1,  sig,    2).
+irv(satt,     1, a, 2,  sig,    2).
+irv(volv,     1, a, 1,  volv,   2).
+irv(volut,    1, a, 2,  volv,   2).
+irv(offr,     1, a, 1,  offr,   3).
+irv(offert,   1, a, 2,  offr,   3).
+
+
+/* classe 1b  */
+irv(accend,   1, b, 1,  accend, 2).
+irv(acces,    1, b, 2,  accend, 2).
+irv(ard,      1, b, 1,  ard,    2).
+irv(ars,      1, b, 2,  ard,    2).
+irv(asperg,   1, b, 1,  asperg, 2).
+irv(aspers,   1, b, 2,  asperg, 2).
+irv(ced,      1, b, 1,  ced,    2).
+irv(cess,     1, b, 2,  ced,    2).
+irv(chiud,    1, b, 1,  chiud,  2).
+irv(chius,    1, b, 2,  chiud,  2).
+irv(cid,      1, b, 1,  cid,    2).
+irv(cis,      1, b, 2,  cid,    2).
+irv(clud,     1, b, 1,  clud,   2).
+irv(clus,     1, b, 2,  clud,   2).
+irv(corr,     1, b, 1,  corr,   2).
+irv(cors,     1, b, 2,  corr,   2).
+irv(cuot,     1, b, 1,  cuot,   2).
+irv(coss,     1, b, 2,  cuot,   2).
+irv(cut,      1, b, 1,  cut,    2).
+irv(cuss,     1, b, 2,  cut,    2).
+irv(divid,    1, b, 1,  divid,  2).
+irv(divis,    1, b, 2,  divid,  2).
+irv(eccell,   1, b, 1,  eccell, 2).
+irv(eccels,   1, b, 2,  eccell, 2).
+irv(plod,   1, b, 1,  plod, 2).
+irv(plos,   1, b, 2,  plod, 2).
+irv(fend,     1, b, 1,  fend,   2).
+irv(fes,      1, b, 2,  fend,   2).
+irv(figg,     1, b, 1,  figg,   2).
+irv(fiss,     1, b, 2,  figg,   2).
+irv(flett,    1, b, 1,  flett,  2).
+irv(fless,    1, b, 2,  flett,  2).
+irv(fond,     1, b, 1,  fond,   2).
+irv(fus,      1, b, 2,  fond,   2).
+irv(fulg,     1, b, 1,  fulg,   2).
+irv(fuls,     1, b, 2,  fulg,   2).
+irv(intrid,   1, b, 1,  intrid, 2).
+irv(intrus,   1, b, 2,  intrid, 2).
+irv(led,      1, b, 1,  led,    2).
+irv(les,      1, b, 2,  led,    2).
+irv(lid,      1, b, 1,  lid,    2).
+irv(lis,      1, b, 2,  lid,    2).
+irv(lud,      1, b, 1,  lud,    2).
+irv(lus,      1, b, 2,  lud,    2).
+irv(merg,     1, b, 1,  merg,   2).
+irv(mers,     1, b, 2,  merg,   2).
+irv(mord,     1, b, 1,  mord,   2).
+irv(mors,     1, b, 2,  mord,   2).
+irv(muov,     1, b, 1,  muov,   2).
+irv(moss,     1, b, 2,  muov,   2).
+irv(mov,     1, b, 1,  mov,   2).
+irv(moss,     1, b, 2,  mov,   2).
+irv(nett,     1, b, 1,  nett,   2).
+irv(ness,     1, b, 2,  nett,   2).
+irv(pell,     1, b, 1,  pell,   2).
+irv(puls,     1, b, 2,  pell,   2).
+irv(pend,     1, b, 1,  pend,   2).
+irv(pes,      1, b, 2,  pend,   2).
+irv(perd,     1, b, 1,  perd,   2).
+irv(pers,     1, b, 2,  perd,   2).
+irv(prend,    1, b, 1,  prend,  2).
+irv(pres,     1, b, 2,  prend,  2).
+irv(prim,     1, b, 1,  prim,   2).
+irv(press,    1, b, 2,  prim,   2).
+irv(rad,      1, b, 1,  rad,    2).
+irv(ras,      1, b, 2,  rad,    2).
+irv(rend,     1, b, 1,  rend,   2).
+irv(res,      1, b, 2,  rend,   2).
+irv(rid,      1, b, 1,  rid,    2).
+irv(ris,      1, b, 2,  rid,    2).
+irv(rod,      1, b, 1,  rod,    2).
+irv(ros,      1, b, 2,  rod,    2).
+irv(scend,    1, b, 1,  scend,  2).
+irv(sces,     1, b, 2,  scend,  2).
+irv(ascend,    1, b, 1,  ascend,  2).
+irv(asces,     1, b, 2,  ascend,  2).
+irv(scind,    1, b, 1,  scind,  2).
+irv(sciss,    1, b, 2,  scind,  2).
+irv(spand,    1, b, 1,  spand,  2).
+irv(spans,    1, b, 2,  spand,  2).
+irv(sparg,    1, b, 1,  sparg,  2).
+irv(spars,    1, b, 2,  sparg,  2).
+irv(suad,     1, b, 1,  suad,   2).
+irv(suas,     1, b, 2,  suad,   2).
+irv(tend,     1, b, 1,  tend,   2).
+irv(tes,      1, b, 2,  tend,   2).
+irv(terg,     1, b, 1,  terg,   2).
+irv(ters,     1, b, 2,  terg,   2).
+irv(tund,     1, b, 1,  tund,   2).
+irv(tus,      1, b, 2,  tund,   2).
+irv(vad,      1, b, 1,  vad,    2).
+irv(vas,      1, b, 2,  vad,    2).
+irv(vell,     1, b, 1,  vell,   2).
+irv(vuls,     1, b, 2,  vell,   2).
+
+/* classe 1c  */
+irv(cad,      1, c, 1,  cad,    2).
+irv(cadd,     1, c, 2,  cad,    2).
+irv(piov,     1, c, 1,  piov,   2).
+irv(piovv,    1, c, 2,  piov,   2).
+irv(conosc,   1, c, 1,  conosc, 2).
+irv(conobb,    1, c, 2,  conosc, 2).
+
+irv(god,      1, c, 1,  god,    2).
+
+/* classe 1d  */
+irv(sal,      1, d, 1,  sal,    3).
+irv(salg,     1, d, 2,  sal,    3).
+
+/* classe 1e  */
+irv(ud,      1, e, 1,  ud,    3).
+irv(od,     1, e, 2,  ud,    3).
+
+irv(usc,      1, e, 1,  usc,    3).
+irv(esc,     1, e, 2,  usc,    3).
+
+/* classe 1f  */
+irv(sed,      1, f, 1,  sed,    2).
+irv(sied,     1, f, 2,  sed,    2).
+
+irv(possed,      1, f, 1,  possed,    2).
+irv(possied,     1, f, 2,  possed,    2).
+irv(possegg,     1, f, 3,  possed,    2).
+
+/* classe 1g  */
+irv(st,     1, g, 1,  st,   1).
+irv(sta,     1, g, 2,  st,   1).
+
+/* classe 1h  */
+irv(sist,     1, h, 2,  sist,   2).
+
+/* classe 1i  */
+irv(offers,     1, i, 2,  offr,   3).
+irv(proffers,     1, i, 2,  proffer,   a3).
+
+irv(verg,     1, i, 1,  verg,   2).
+irv(convers,     1, i, 2,  verg,   2).
+
+
+/* classe 2a  */
+irv(cing,     2, a, 1,  cing,     2).
+irv(cins,     2, a, 2,  cing,     2).
+irv(cint,     2, a, 3,  cing,     2).
+irv(corg,     2, a, 1,  corg,     2).
+irv(cors,     2, a, 2,  corg,     2).
+irv(cort,     2, a, 3,  corg,     2).
+irv(dulg,     2, a, 1,  dulg,     2).
+irv(duls,     2, a, 2,  dulg,     2).
+irv(dult,     2, a, 3,  dulg,     2).
+irv(erg,      2, a, 1,  erg ,     2).
+irv(ers,      2, a, 2,  erg,      2).
+irv(ert,      2, a, 3,  erg,      2).
+irv(fing,     2, a, 1,  fing,     2).
+irv(fins,     2, a, 2,  fing,     2).
+irv(fint,     2, a, 3,  fing,     2).
+irv(frang,    2, a, 1,  frang,    2).
+irv(frans,    2, a, 2,  frang,    2).
+irv(frant,    2, a, 3,  frang,    2).
+irv(giung,    2, a, 1,  giung,    2).
+irv(giuns,    2, a, 2,  giung,    2).
+irv(giunt,    2, a, 3,  giung,    2).
+irv(piang,    2, a, 1,  piang,    2).
+irv(pians,    2, a, 2,  piang,    2).
+irv(piant,    2, a, 3,  piang,    2).
+irv(ping,     2, a, 1,  ping,     2).
+irv(pins,     2, a, 2,  ping,     2).
+irv(pint,     2, a, 3,  ping,     2).
+irv(porg,     2, a, 1,  porg,     2).
+irv(pors,     2, a, 2,  porg,     2).
+irv(port,     2, a, 3,  porg,     2).
+irv(solv,     2, a, 1,  solv,     2).
+irv(sols,     2, a, 2,  solv,     2).
+irv(solt,     2, a, 3,  solv,     2).
+irv(sorg,     2, a, 1,  sorg,     2).
+irv(sors,     2, a, 2,  sorg,     2).
+irv(sort,     2, a, 3,  sorg,     2).
+irv(sping,     2, a, 1,  sping,     2).
+irv(spins,     2, a, 2,  sping,     2).
+irv(spint,     2, a, 3,  sping,     2).
+irv(surg,     2, a, 1,  surg,     2).
+irv(surs,     2, a, 2,  surg,     2).
+irv(surt,     2, a, 3,  surg,     2).
+irv(ting,     2, a, 1,  ting,     2).
+irv(tins,     2, a, 2,  ting,     2).
+irv(tint,     2, a, 3,  ting,     2).
+irv(torc,     2, a, 1,  torc,     2).
+irv(tors,     2, a, 2,  torc,     2).
+irv(tort,     2, a, 3,  torc,     2).
+irv(ung,      2, a, 1,  ung,      2).
+irv(uns,      2, a, 2,  ung,      2).
+irv(unt,      2, a, 3,  ung,      2).
+irv(vell,     2, a, 1,  vell,     2).
+irv(vels,     2, a, 2,  vell,     2).
+irv(velt,     2, a, 3,  vell,     2).
+irv(vinc,     2, a, 1,  vinc,     2).
+irv(vins,     2, a, 2,  vinc,     2).
+irv(vint,     2, a, 3,  vinc,     2).
+irv(volg,     2, a, 1,  volg,     2).
+irv(vols,     2, a, 2,  volg,     2).
+irv(volt,     2, a, 3,  volg,     2).
+irv(figg,     2, a, 1,  figg,     2).
+irv(fiss,     2, a, 2,  figg,     2).
+irv(fitt,     2, a, 3,  figg,     2).
+irv(frigg,    2, a, 1,  frigg,    2).
+irv(friss,    2, a, 2,  frigg,    2).
+irv(fritt,    2, a, 3,  frigg,    2).
+irv(fligg,    2, a, 1,  fligg,    2).
+irv(fliss,    2, a, 2,  fligg,    2).
+irv(flitt,    2, a, 3,  fligg,    2).
+irv(legg,     2, a, 1,  legg,     2).
+irv(less,     2, a, 2,  legg,     2).
+irv(lett,     2, a, 3,  legg,     2).
+irv(regg,     2, a, 1,  regg,     2).
+irv(ress,     2, a, 2,  regg,     2).
+irv(rett,     2, a, 3,  regg,     2).
+irv(protegg,  2, a, 1,  protegg,  2).
+irv(protess,  2, a, 2,  protegg,  2).
+irv(protett,  2, a, 3,  protegg,  2).
+irv(string,  2, a, 1,  string,  2).
+irv(strins,  2, a, 2,  string,  2).
+irv(strett,  2, a, 3,  string,  2).
+irv(astring,  2, a, 1,  astring,  2).
+irv(astrins,  2, a, 2,  astring,  2).
+irv(astrett,  2, a, 3,  astring,  2).
+irv(strugg,   2, a, 1,  strugg,   2).
+irv(struss,   2, a, 2,  strugg,   2).
+irv(strutt,   2, a, 3,  strugg,   2).
+irv(dig,      2, a, 1,  dig,      2).
+irv(dass,     2, a, 2,  dig,      2).
+irv(dat,      2, a, 3,  dig,      2).
+irv(lig,      2, a, 1,  lig,      2).
+irv(less,     2, a, 2,  lig,      2).
+irv(lett,     2, a, 3,  lig,      2).
+irv(rig,      2, a, 1,  rig,      2).
+irv(ress,     2, a, 2,  rig,      2).
+irv(rett,     2, a, 3,  rig,      2).
+irv(scriv,    2, a, 1,  scriv,    2).
+irv(scriss,   2, a, 2,  scriv,    2).
+irv(scritt,   2, a, 3,  scriv,    2).
+irv(ascriv,    2, a, 1,  ascriv,    2).
+irv(ascriss,   2, a, 2,  ascriv,    2).
+irv(ascritt,   2, a, 3,  ascriv,    2).
+irv(chied,    2, a, 1,  chied,    2).
+irv(chies,    2, a, 2,  chied,    2).
+irv(chiest,   2, a, 3,  chied,    2).
+irv(nascond,  2, a, 1,  nascond,  2).
+irv(nascos,   2, a, 2,  nascond,  2).
+irv(nascost,  2, a, 3,  nascond,  2).
+irv(rispond,  2, a, 1,  rispond,  2).
+irv(rispos,   2, a, 2,  rispond,  2).
+irv(rispost,  2, a, 3,  rispond,  2).
+irv(stingu,   2, a, 1,  stingu,   2).
+irv(stins,    2, a, 2,  stingu,   2).
+irv(stint,    2, a, 3,  stingu,   2).
+irv(ung,      2, a, 1,  ung,      2).
+irv(uns,     2, a, 2,  ung,      2).
+irv(unt,     2, a, 3,  ung,      2).
+irv(mung,      2, a, 1,  mung,      2).
+irv(muns,     2, a, 2,  mung,      2).
+irv(munt,     2, a, 3,  mung,      2).
+irv(fung,      2, a, 1,  fung,      2).
+irv(funs,     2, a, 2,  fung,      2).
+irv(funt,     2, a, 3,  fung,      2).
+irv(pung,      2, a, 1,  pung,      2).
+irv(puns,     2, a, 2,  pung,      2).
+irv(punt,     2, a, 3,  pung,      2).
+irv(sum,      2, a, 1,  sum,      2).
+irv(suns,     2, a, 2,  sum,      2).
+irv(sunt,     2, a, 3,  sum,      2).
+irv(redim,    2, a, 1,  redim,    2).
+irv(redens,   2, a, 2,  redim,    2).
+irv(redent,   2, a, 3,  redim,    2).
+irv(viv,      2, a, 1,  viv,      2).
+irv(viss,     2, a, 2,  viv,      2).
+irv(vissut,   2, a, 3,  viv,      2).
+irv(romp,     2, a, 1,  romp,     2).
+irv(rupp,     2, a, 2,  romp,     2).
+irv(rott,     2, a, 3,  romp,     2).
+irv(nasc,     2, a, 1,  nasc,     2).
+irv(nacqu,    2, a, 2,  nasc,     2).
+irv(nat,      2, a, 3,  nasc,     2).
+irv(ved,      2, a, 1,  ved,      2).
+irv(vid,      2, a, 2,  ved,      2).
+irv(vist,     2, a, 3,  ved,      2).
+irv(cresc,    2, a, 1,  cresc,    2).
+irv(crebb,    2, a, 2,  cresc,    2).
+irv(cresciut, 2, a, 3,  cresc,    2).
+irv(mett,     2, a, 1,  mett,     2).
+irv(mis,      2, a, 2,  mett,     2).
+irv(mess,     2, a, 3,  mett,     2).
+irv(ammett,     2, a, 1,  ammett,     2).
+irv(ammis,      2, a, 2,  ammett,     2).
+irv(ammess,     2, a, 3,  ammett,     2).
+irv(omett,     2, a, 1,  omett,     2).
+irv(omis,      2, a, 2,  omett,     2).
+irv(omess,     2, a, 3,  omett,     2).
+
+/* classe 2b  */
+irv(sol,      2, b, 1,  sol, 2).
+irv(sogli,    2, b, 2,  sol, 2).
+irv(suol,     2, b, 3,  sol, 2).
+
+/* classe 2c  */
+irv(b,        2, c, 1,  b, 2).     /* b(ere)  */
+irv(bev,      2, c, 2,  b, 2).
+irv(bevv,     2, c, 3,  b, 2).
+irv(ber,      2, c, 4,  b, 2).
+
+/* classe 3a  */
+irv(cuoc,       3, a, 1,  cuoc,   2).
+irv(cuoci,      3, a, 2,  cuoc,   2).
+irv(coss,       3, a, 3,  cuoc,   2).
+irv(cott,       3, a, 4,  cuoc,   2).
+irv(cogli,      3, a, 1,  cogli,  2).
+irv(colg,       3, a, 2,  cogli,  2).
+irv(cols,       3, a, 3,  cogli,  2).
+irv(colt,       3, a, 4,  cogli,  2).
+irv(scegli,     3, a, 1,  scegli, 2).
+irv(scelg,      3, a, 2,  scegli, 2).
+irv(scels,      3, a, 3,  scegli, 2).
+irv(scelt,      3, a, 4,  scegli, 2).
+irv(sciogli,    3, a, 1,  sciogli,2).
+irv(sciolg,     3, a, 2,  sciogli,2).
+irv(sciols,     3, a, 3,  sciogli,2).
+irv(sciolt,     3, a, 4,  sciogli,2).
+irv(spegn,      3, a, 1,  spegn,  2).
+irv(speng,      3, a, 2,  spegn,  2).
+irv(spens,      3, a, 3,  spegn,  2).
+irv(spent,      3, a, 4,  spegn,  2).
+irv(togli,      3, a, 1,  togli,  2).
+irv(tolg,       3, a, 2,  togli,  2).
+irv(tols,       3, a, 3,  togli,  2).
+irv(tolt,       3, a, 4,  togli,  2).
+irv(giac,       3, a, 1,  giac,   2).
+irv(giacci,     3, a, 2,  giac,   2).
+irv(giacqu,     3, a, 3,  giac,   2).
+irv(giaci,      3, a, 5,  giac,   2).
+irv(nuoc,       3, a, 1,  nuoc,   2).
+irv(nuocci,     3, a, 2,  nuoc,   2).
+irv(nocqu,      3, a, 3,  nuoc,   2).
+irv(nuoci,      3, a, 5,  nuoc,   2).
+irv(noci,      3, a, 5,  nuoc,   2).
+
+irv(piac,       3, a, 1,  piac,   2).
+irv(piacci,     3, a, 2,  piac,   2).
+irv(piacqu,     3, a, 3,  piac,   2).
+irv(piaci,      3, a, 5,  piac,   2).
+
+irv(tac,        3, a, 1,  tac,    2).
+irv(tacci,      3, a, 2,  tac,    2).
+irv(tacqu,      3, a, 3,  tac,    2).
+irv(taci,       3, a, 5,  tac,    2).
+
+/* classe 3b  */
+irv(di,          3, b, 1,  d,    3). /* d(ire)  */
+irv(dic,        3, b, 2,  d,    3).
+irv(diss,       3, b, 3,  d,    3).
+irv(dett,       3, b, 4,  d,    3).
+
+/* classe 3c  */
+irv(dov,        3, c, 1,  dov,    2).
+irv(dev,        3, c, 2,  dov,    2).
+irv(dobb,       3, c, 3,  dov,    2).
+irv(debb,       3, c, 4,  dov,    2).
+
+/* classe 3d  */
+irv(pot,        3, d, 1,  pot,    2).
+irv(poss,       3, d, 2,  pot,    2).
+irv(pu,         3, d, 3,  pot,    2).
+
+/* classe 3e  */
+irv(mor,        3, e, 1,  mor,    3).
+irv(muoi,       3, e, 2,  mor,    3).
+irv(muor,       3, e, 3,  mor,    3).
+irv(mort,       3, e, 4,  mor,    3).
+
+/* classe 3f  */
+irv(val,        3, f, 1,  val,    2).
+irv(valg,       3, f, 2,  val,    2).
+irv(var,        3, f, 3,  val,    2). /* var ???  */
+irv(vals,       3, f, 4,  val,    2).
+irv(avval,        3, f, 1,  val,    2).
+irv(avvalg,       3, f, 2,  val,    2).
+irv(avvar,        3, f, 3,  val,    2). /* var ???  */
+irv(avvals,       3, f, 4,  val,    2).
+irv(preval,        3, f, 1,  val,    2).
+irv(prevalg,       3, f, 2,  val,    2).
+irv(prevar,        3, f, 3,  val,    2). /* var ???  */
+irv(prevals,       3, f, 4,  val,    2).
+
+/* classe 3g  d(are) */
+irv(da,          3, g, 1,  d,     1). 
+irv(di,         3, g, 2,  d,     1).
+irv(died,       3, g, 3,  d,     1).
+
+/* classe 3h  */
+irv(and,         3, h, 1,  and,     1).
+irv(vad,         3, h, 2,  and,     1). 
+irv(v,         3, h, 3,  and,     1). 
+
+/* classe 3i  */
+irv(par,        3, i, 1,  par,    2).
+irv(pai,        3, i, 2,  par,    2).
+irv(parv,       3, i, 3,  par,    2).
+irv(pars,       3, i, 4,  par,    2).
+
+/* classe 3l  */
+irv(appar,        3, l, 1,  appar,    3).
+irv(appai,        3, l, 2,  appar,    3).
+irv(apparv,       3, l, 3,  appar,    3).
+irv(appars,       3, l, 4,  appar,    3).
+
+irv(compar,        3, l, 1,  compar,    3).
+irv(compai,        3, l, 2,  compar,    3).
+irv(comparv,       3, l, 3,  compar,    3).
+irv(compars,       3, l, 4,  compar,    3).
+
+
+/* classe 4a  */
+irv(man,        4, a, 1,  man, 2).
+irv(mang,       4, a, 2,  man, 2).
+irv(mar,        4, a, 3,  man, 2).
+irv(mas,        4, a, 4,  man, 2).
+irv(mast,       4, a, 5,  man, 2).
+
+/* classe 4b  */
+irv(ten,       4, b, 1,  ten, 2).
+irv(tien,      4, b, 2,  ten, 2).
+irv(teng,      4, b, 3,  ten, 2).
+irv(ter,       4, b, 4,  ten, 2).
+irv(tenn,      4, b, 5,  ten, 2).
+irv(otten,       4, b, 1,  otten, 2).
+irv(ottien,      4, b, 2,  otten, 2).
+irv(otteng,      4, b, 3,  otten, 2).
+irv(otter,       4, b, 4,  otten, 2).
+irv(ottenn,      4, b, 5,  otten, 2).
+irv(sosten,       4, b, 1,  ten, 2).
+irv(sostien,      4, b, 2,  ten, 2).
+irv(sosteng,      4, b, 3,  ten, 2).
+irv(soster,       4, b, 4,  ten, 2).
+irv(sostenn,      4, b, 5,  ten, 2).
+
+
+/* classe 4c  */
+irv(av,       4, c, 1,  av,  2).
+irv(h,        4, c, 2,  av,  2).
+irv(abb,      4, c, 3,  av,  2).
+irv(abbi,     4, c, 4,  av,  2).
+irv(ebb,      4, c, 5,  av,  2).
+irv(sap,      4, c, 1,  sap, 2).
+irv(s,        4, c, 2,  sap, 2).
+irv(sapp,     4, c, 3,  sap, 2).
+irv(sappi,    4, c, 4,  sap, 2).
+irv(sepp,     4, c, 5,  sap, 2).
+
+/* classe 4d  */
+irv(tra,        4, d, 1,  tra, 2).  /* trarre  */
+irv(trar,       4, d, 3,  tra, 2).
+irv(tragg,      4, d, 2,  tra, 2).
+irv(trass,      4, d, 4,  tra, 2).
+irv(tratt,      4, d, 5,  tra, 2).
+
+/* classe 4e  */
+irv(du,         4, e, 1,  du, 2).
+irv(duc,        4, e, 2,  du, 2).
+irv(dur,        4, e, 3,  du, 2).
+irv(duss,       4, e, 4,  du, 2).
+irv(dott,       4, e, 5,  du, 2).
+
+/* classe 4f  */
+irv(po,         4, f, 1,  po, 2).
+irv(pon,        4, f, 2,  po, 2).
+irv(pong,       4, f, 3,  po, 2).
+irv(por,        4, f, 4,  po, 2).
+irv(pos,        4, f, 5,  po, 2).
+irv(post,       4, f, 6,  po, 2).
+
+/* classe 4g  */
+irv(ven,       4, g, 1,  ven, 3).
+irv(vien,      4, g, 2,  ven, 3).
+irv(veng,      4, g, 3,  ven, 3).
+irv(ver,       4, g, 4,  ven, 3).
+irv(venn,      4, g, 5,  ven, 3).
+
+/* classe 5a  */
+irv(vol,       5, a, 1,  vol, 2).
+irv(vogli,     5, a, 2,  vol, 2).
+irv(vuo,       5, a, 3,  vol, 2).
+irv(vuol,      5, a, 4,  vol, 2).
+irv(vor,       5, a, 5,  vol, 2).
+irv(voll,      5, a, 6,  vol, 2).
+
+/* classe 5b  */
+irv(dol,       5, b, 1,  dol, 2).
+irv(dogl,      5, b, 2,  dol, 2).
+irv(duol,      5, b, 3,  dol, 2).
+irv(dolg,      5, b, 4,  dol, 2).
+irv(dor,       5, b, 5,  dol, 2).
+irv(dols,      5, b, 6,  dol, 2).
+
+/* classe 6a  */
+irv(f,         6, a, 1,  f, 1).
+irv(fac,       6, a, 2,  f, 1). /* f(are)  */
+irv(facci,     6, a, 3,  f, 1).
+irv(fec,       6, a, 4,  f, 1).
+irv(fatt,      6, a, 5,  f, 1).
+
+irv(disf,         6, a, 1,  disf, 1).
+irv(disfac,       6, a, 2,  disf, 1). /* f(are)  */
+irv(disfacci,     6, a, 3,  disf, 1).
+irv(disfec,       6, a, 4,  disf, 1).
+irv(disfatt,      6, a, 5,  disf, 1).
+
+irv(suef,         6, a, 1,  suef, 1).
+irv(suefac,       6, a, 2,  suef, 1). 
+irv(suefacci,     6, a, 3,  suef, 1).
+irv(suefec,       6, a, 4,  suef, 1).
+irv(suefatt,      6, a, 5,  suef, 1).
+
+/* classe 7a  */
+irv(ess,       7, a, 1,  ess, 2). /* essf(ere)  */
+irv(son,       7, a, 2,  ess, 2). 
+irv(se,         7, a, 3,  ess, 2).
+irv(si,      7, a, 4,  ess, 2).
+irv(er,     7, a, 6,  ess, 2).
+irv(fu,       7, a, 7,  ess, 2).
+irv(fo,      7, a, 8,  ess, 2).
+irv(stat,      7, a, 9,  ess, 2).
+irv(sa,      7, a, 10,  ess, 2).
+irv(è,      7, a, 11,  ess, 2).

@@ -1,0 +1,109 @@
+Minimal pairs for [s] vs. [x] in initial position:
+s 	x 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	t 	u 	v 	y 	z 
+sa 	xa 			£a 	…a 	ca 	da 	ea 	fa 	ga 	ha 	la 	ma 	na 	oa 	ta 	va 	za 
+salìn 	xalìn 		
+salixàr 	xalixàr 		
+salùme 	xalùme 		
+sani 	xani 			cani 
+sara 	xara 			cara 	gara 	para 	rara 	vara 	zara 
+sba£ià 	xba£ià 		
+sbalià 	xbalià 		
+sbanpìa 	xbanpìa 		
+se 	xe 			£e 	…e 	be 	ce 	de 	ge 	he 	ke 	le 	me 	ne 	re 	te 	ve 	ye 
+se£o 	xe£o 			be£o 
+séca 	xéca 		
+se'l 	xe'l 			ke'l 	te'l 
+selàr 	xelàr 		
+sèlo 	xèlo 			zèlo 
+sente 	xente 			mente 	rente 
+sénte 	xénte 		
+sera 	xera 			tera 	vera 
+sèso 	xèso 			dèso 	jèso 	pèso 
+sio 	xio 			cio 	gio 	mio 
+sìxola 	xìxola 		
+so 	xo 			£o 	co 	do 	go 	ho 	ko 	lo 	no 	oo 	to 	uo 	vo 	zo 
+só 	xó 			dó 
+so… 	xo… 			no… 
+sóga 	xóga 		
+sona 	xona 			bona 	dona 	nona 
+su 	xu 			£u 	bu 	cu 	hu 	lu 	nu 	vu 	yu 
+suga 	xuga 		
+sugà 	xugà 		
+sugàr 	xugàr 		
+sz 	xz 			dz 	tz 	zz 
+
+Minimal pairs for [s] vs. [x] in medial position:
+ansa 	anxa 			anca 	anka 	anna 
+basa 	baxa 			ba£a 	baja 
+basàr 	baxàr 			bajàr 
+baso 	baxo 			ba£o 	balo 
+bisàr 	bixàr 		
+bìsi 	bìxi 		
+bisigàr 	bixigàr 		
+biso 	bixo 		
+bisogno 	bixogno 		
+casa 	caxa 			cana 	cara 	cata 	cava 
+case 	caxe 			cage 	cape 
+caseta 	caxeta 		
+casi 	caxi 			cani 	cari 	cati 
+caso 	caxo 			caro 
+conclusion 	concluxion 		
+confusion 	confuxion 		
+consegnar 	conxegnar 		
+cusìn 	cuxìn 		
+dàsio 	dàxio 		
+deso£à 	dexo£à 		
+disnar 	dixnar 		
+faso£éto 	faxo£éto 		
+fòsa 	fòxa 			fò£a 
+grésa 	gréxa 		
+inbisàr 	inbixàr 		
+inbronsarse 	inbronxarse 		
+inbusar 	inbuxar 		
+incasàrse 	incaxàrse 		
+inmusà 	inmuxà 		
+insa£ar 	inxa£ar 		
+insegnar 	inxegnar 		
+isàr 	ixàr 		
+lese 	lexe 			leze 
+l'uso 	l'uxo 		
+mansa 	manxa 			manca 	manda 
+maso 	maxo 			mago 	majo 	mano 
+mesa 	mexa 			mega 	mena 	meta 
+mese 	mexe 			mete 
+meso 	mexo 			mejo 	meto 	mezo 
+mosa 	moxa 			moda 	moja 
+ónsa 	ónxa 		
+pesa 	pexa 			pena 
+pesà 	pexà 			pecà 	petà 
+péso 	péxo 			péto 
+pèso 	pèxo 			pèto 
+piaser 	piaxer 		
+piasér 	piaxér 		
+piso£àr 	pixo£àr 		
+podese 	podexe 		
+presenta 	prexenta 		
+raise 	raixe 		
+rasa 	raxa 			rana 	rara 
+rasàda 	raxàda 		
+rasión 	raxión 		
+raso 	raxo 			raro 
+riso 	rixo 			rivo 
+rusàr 	ruxàr 		
+sasàr 	saxàr 		
+sbrasàr 	sbraxàr 		
+sbrisàr 	sbrixàr 		
+sfasàr 	sfaxàr 		
+sisàr 	sixàr 		
+sìso£a 	sìxo£a 		
+sonsa 	sonxa 		
+sorséto 	sorxéto 		
+sponsa 	sponxa 			sponda 
+tose 	toxe 			to£e 	tole 
+tóse 	tóxe 		
+traduse 	traduxe 		
+usà 	uxà 		
+vèrsa 	vèrxa 			vèrta 
+vésa 	véxa 		
+
+Minimal pairs for [s] vs. [x] in final position:

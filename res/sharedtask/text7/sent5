@@ -1,0 +1,541 @@
+Ratio of Tags per Word for Sentence no: 5
+Word Ambiguity Ratio: 1.17391
+'Lookahead Start Active Chart'
+0-[p-in], 1-[d-2006], 2-[x- (',')], 3-[a-commercial, n-commercial], 4-[x- (',')], 5-[n-'utility-scale'], 6-[n-turbines], 7-[v-are], 8-[av-commonly], 9-[v-rated], 10-[p-at], 11-[av-over, n-over, p-over], 12-[d-1], 13-[n-'MW'], 14-[e-and], 15-[n-are, v-are], 16-[a-available], 17-[p-in], 18-[p-up_to], 19-[d-4], 20-[n-'MW'], 21-[n-capacity], 22-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.13043
+0-[p-in], 1-[d-2006], 2-[x- (',')], 3-[a-commercial, n-commercial], 4-[x- (',')], 5-[n-'utility-scale'], 6-[n-turbines], 7-[v-are], 8-[av-commonly], 9-[v-rated], 10-[p-at], 11-[av-over, n-over, p-over], 12-[d-1], 13-[n-'MW'], 14-[e-and], 15-[n-are], 16-[a-available], 17-[p-in], 18-[p-up_to], 19-[d-4], 20-[n-'MW'], 21-[n-capacity], 22-[x-'.']
+
+0-[p-in], 1-[d-2006], 2-[x- (',')], 3-[a-commercial, n-commercial], 4-[x- (',')], 5-[n-'utility-scale'], 6-[n-turbines], 7-[v-are], 8-[av-commonly], 9-[v-rated], 10-[p-at], 11-[av-over, n-over, p-over], 12-[d-1], 13-[n-'MW'], 14-[e-and], 15-[n-are], 16-[a-available], 17-[p-in], 18-[p-up_to], 19-[d-4], 20-[n-'MW'], 21-[n-capacity], 22-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+5
+in-in
+2006-cd
+(,)-pun
+commercial-jj
+(,)-pun
+utility-scale-nn
+turbines-nns
+are-vbp
+commonly-rb
+rated-vbd
+at-in
+over-rb
+1-cd
+MW-nnp
+and-cc
+are-nn
+available-jj
+in-in
+up_to-in-to
+4-cd
+MW-nnp
+capacity-nn
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[in-p, 2006-num, (',')-punt, commercial-ag, (',')-punt, 'utility-scale'-n, turbines-n, are-ause, commonly-avv, rated-vin, at-p, over-grad, 1-num, 'MW'-n, and-cong, are-n, available-ag, in-p, up_to-p, 4-num, 'MW'-n, capacity-n, '.'-punto]
+
+cp-[sp-[in-p-sp, 2006-num-sn], fp-[ (',')-punt-fp], sa-[commercial-ag-sa], fp-[ (',')-punt-fp], f-[subj-[turbines-n-sn, mod-['utility-scale'-n-sn]], ibar-[are-ause-ibar, commonly-avv-ibar, rated-vppt-ibar], sp-[at-p-sp, over-grad-sn, 1-num-sn, 'MW'-n-sn, and-cong-sn, are-n-sn], sa-[available-ag-sa], sp-[in-p-sp], sp-[up_to-p-sp, 4-num-sn], sn-['MW'-n-sn, capacity-n-sn], cp-['.'-punto-cp]]]
+
+5
+
+
+'Functional and Syntactic Constituency'
+
+subj-[turbines-n-sn, mod-[utility-scale-n-sn]]
+ibar-[are-ause-ibar, commonly-avv-ibar, rated-vppt-ibar]
+obl-[at-p-sp, over-grad-sn, 1-num-sn, MW-n-sn, and-cong-sn, are-n-sn]
+obl-[in-p-sp, 2006-num-sn]
+sa-[commercial-ag-sa]
+xadj-[available-ag-sa]
+sp-[in-p-sp]
+obl-[up_to-p-sp, 4-num-sn]
+obj-[MW-n-sn, capacity-n-sn]
+
+[in, up_to, 4, 'MW', capacity, '.']
+ip(indice(sn62), v(rate, active, [[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]]], ind, pres/comp/be, _G13861, _G39699, _G13863), supporto([]), cat(cambiamento), args([arg(funzione(sogg), ruolo(actor), sn(indice(sn17), cat([animato, astratto, attivita, informa, misura, nquant, oggetto, plant, relat, strumento]), n(utility-scale, _G5470, sing), spec(def(0), part(_G4957), mod(_G3313), foc(_G4961), card(_G4937), quant([])), args([]), mods([[], mod_a(sa(indice(sa18), cat([estens]), agg(commercial, _G4899, _G4900), args([])))]), adjs([])))]), adjs([avv(pred_avv(commonly), tipo(modal)), avv(avv(pred_n(2006), tipo(temp), _G1549, config(_G1556)), mod(avv(2006))), adj(compar, sn(indice(sn52), cat([oggetto, strumento]), n(turbine, _G10443, plur), spec(def(0), part(_G9424), mod([]), foc(_G9428), card(_G9404), quant([])), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn61), pr(vbl, vbl, _G39370, _G39371, _G39372, _G39373), controllore(indefinito)))]), mods([]), adjs([]))), adj(clock_cal, sp(prep(at, cat([tempo]), perhaps), args([arg(funzione(ogg), ruolo(nil), sn(indice(sn55), cat([tempo]), n(over, _G20274, sing), spec(def(0), part(_G20327), mod(_G19266), foc(_G20331), card(_G20333), quant([])), args([]), mods([]), adjs([nome_mo(funzione(ncomp), ruolo(tema), sn(indice(1), cat([quant, date, tempo]), n(one, _G21244, plur), spec(def(0), _G21278, _G21279, _G21280, _G21281, _G21282), args([]), mods([]), adjs([])))])))]))), adj(compar, sn(indice(sn59), cat([informa, tecno, nquant]), coordina([arg(funzione(nadj), ruolo(tema), sn(indice(sn57), cat([informa, tecno]), n(mw, _G24595, sing), spec(def(0), part(_G23898), mod([]), foc(_G23902), card(_G23878), quant([])), args([]), mods([]), adjs([]))), arg(funzione(nadj), ruolo(tema), sn(indice(sn58), cat([nquant]), n(are, _G29059, sing), spec(def(0), part(_G27685), mod([]), foc(_G27689), card(_G27665), quant([])), args([]), mods([mod_a(sa(indice(sa23), cat([valutativo, soggettivo]), agg(available, _G29059, sing), args([]))), mod_a(sa(indice(sa23), cat([valutativo, soggettivo]), agg(available, _G29059, sing), args([])))]), adjs([])))]))), adj(loc_direct, sp(prep(up_to, cat([informa, tecno]), mod([])), sn(indice(sn60), cat([informa, tecno]), n(mw, _G36502, sing), spec(def(0), part(-), mod([]), foc(_G35809), card(_G35785), quant(four)), args([]), mods([]), adjs([]))))]))
+
+
+
+
+ip(
+ indice(sn62),
+ v(rate, active, [[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]]], ind, pres/comp/be, _G13861, _G39699, _G13863),
+ supporto([]),
+ cat(cambiamento),
+ args(
+   [
+   arg(
+    funzione(sogg),
+    ruolo(actor),
+    sn(
+     indice(sn17),
+     cat([animato, astratto, attivita, informa, misura, nquant, oggetto, plant, relat, strumento]),
+     n(utility-scale, _G5470, sing),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods(
+       [
+       [],
+       mod_a(
+        sa(
+         indice(sa18),
+         cat([estens]),
+         agg(
+          commercial,
+          [],
+          []
+          ),
+         args([])
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    )
+   ]
+  ),
+ adjs(
+   [
+   avv(pred_avv(commonly), tipo(modal)),
+   avv(avv(pred_n(2006), tipo(temp), _G1549, config(_G1556)), mod(avv(2006))),
+   adj(
+    compar,
+    sn(
+     indice(sn52),
+     cat([oggetto, strumento]),
+     n(turbine, _G10443, plur),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn61),
+         pr(vbl, vbl, _G39370, _G39371, _G39372, _G39373),
+         controllore(indefinito)
+         )
+        )
+       ]
+      ),
+     mods([]),
+     adjs([])
+     )
+    ),
+   adj(
+    clock_cal,
+    sp(
+     prep(at, cat([tempo]), perhaps),
+     args(
+       [
+       arg(
+        funzione(ogg),
+        ruolo(nil),
+        sn(
+         indice(sn55),
+         cat([tempo]),
+         n(over, _G20274, sing),
+         spec(
+          def(0),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods([]),
+         adjs(
+           [
+           nome_mo(
+            funzione(ncomp),
+            ruolo(tema),
+            sn(
+             indice(1),
+             cat([quant, date, tempo]),
+             n(one, _G21244, plur),
+             spec(
+              def(0),
+              [],
+              [],
+              [],
+              [],
+              []
+              ),
+             args([]),
+             mods([]),
+             adjs([])
+             )
+            )
+           ]
+          )
+         )
+        )
+       ]
+      )
+     )
+    ),
+   adj(
+    compar,
+    sn(
+     indice(sn59),
+     cat([informa, tecno, nquant]),
+     coordina(
+       [
+       arg(
+        funzione(nadj),
+        ruolo(tema),
+        sn(
+         indice(sn57),
+         cat([informa, tecno]),
+         n(mw, _G24595, sing),
+         spec(
+          def(0),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods([]),
+         adjs([])
+         )
+        ),
+       arg(
+        funzione(nadj),
+        ruolo(tema),
+        sn(
+         indice(sn58),
+         cat([nquant]),
+         n(are, _G29059, sing),
+         spec(
+          def(0),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods(
+           [
+           mod_a(
+            sa(
+             indice(sa23),
+             cat([valutativo, soggettivo]),
+             agg(
+              available,
+              [],
+              sing
+              ),
+             args([])
+             )
+            ),
+           mod_a(
+            sa(
+             indice(sa23),
+             cat([valutativo, soggettivo]),
+             agg(
+              available,
+              [],
+              sing
+              ),
+             args([])
+             )
+            )
+           ]
+          ),
+         adjs([])
+         )
+        )
+       ]
+      )
+     )
+    ),
+   adj(
+    loc_direct,
+    sp(
+     prep(up_to, cat([informa, tecno]), mod([])),
+     sn(
+      indice(sn60),
+      cat([informa, tecno]),
+      n(mw, _G36502, sing),
+      spec(
+       def(0),
+       part(-),
+       mod([]),
+       foc([]),
+       card([]),
+       quant(
+        four
+        )
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    )
+   ]
+  )
+ )
+indice:sn62
+pred:rate
+lex_form:[[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/theme_unaff/[any], acomp/prop/[subj=sogg]]]
+voice:active
+modo:ind
+tempo:pres
+cat:cambiamento
+sogg/actor:indice:sn17
+           cat:[animato, astratto, attivita, informa, misura, nquant, oggetto, plant, relat, strumento]
+           pred:'utility-scale'
+           num:sing
+           pers:3
+           spec:def:'0'
+           mods:[]
+           tab_ref:[+ref, -pro, -ana, +class]
+adjs:adj/modal:pred:commonly
+     avv:adj/temp:pred:2006
+                  duraz:_L1423
+                  config:_L1447
+         mod:avv:2006
+     adj/compar:indice:sn52
+                cat:[oggetto, strumento]
+                pred:turbine
+                num:plur
+                pers:3
+                spec:def:'0'
+                sogg/nil:indice:sn61
+                         pred:vbl
+                         controllore:indefinito
+                         tab_ref:[+ref, -pro, -ana, -me]
+                tab_ref:[+ref, -pro, -ana, +class]
+     adj/clock_cal:sem_mark:at
+                   mod:perhaps
+                   ogg/nil:indice:sn55
+                           cat:[tempo]
+                           pred:over
+                           num:sing
+                           pers:3
+                           spec:def:'0'
+                           adjs:ncomp/tema:indice:1
+                                           cat:[quant, date, tempo]
+                                           pred:one
+                                           num:plur
+                                           pers:3
+                                           spec:[]
+                                           tab_ref:[+ref, -pro, -ana, +class]
+                           tab_ref:[+ref, -pro, -ana, +class]
+     adj/compar:indice:sn59
+                cat:[informa, tecno, nquant]
+                coordina:testa:coordinante
+                         num:plur
+                         nadj/tema:indice:sn57
+                                   cat:[informa, tecno]
+                                   pred:mw
+                                   num:sing
+                                   pers:3
+                                   spec:def:'0'
+                                   tab_ref:[+ref, -pro, -ana, +class]
+                         nadj/tema:indice:sn58
+                                   cat:[nquant]
+                                   pred:are
+                                   num:sing
+                                   pers:3
+                                   spec:def:'0'
+                                   mods:indice:sa23
+                                        cat:[valutativo, soggettivo]
+                                        pred:available
+                                        num:sing
+                                        indice:sa23
+                                        cat:[valutativo, soggettivo]
+                                        pred:available
+                                        num:sing
+                                   tab_ref:[+ref, -pro, -ana, +class]
+     adj/loc_direct:sem_mark:up_to
+                    indice:sn60
+                    cat:[informa, tecno]
+                    pred:mw
+                    num:sing
+                    pers:3
+                    spec:def:'0'
+                         part:-
+                         quant:four
+                    tab_ref:[+ref, -pro, -ana, +class]
+aspetto:accomp
+rel1:[td(sn62_t75)=tr(sn62_t75)]
+rel2:[incluso(tr(sn62_t75), tes(sn62_t75))]
+definitezza:-
+ref_int:[tr(sn62_t75)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn17, utility-scale, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [animato, astratto, attivita, informa, misura, nquant, oggetto, plant, relat, strumento], sogg/actor)/17
+ ref_ex(sn60, mw, [+ref, def0, four, nil, -pro, -ana, +class], 3, nil, sing, [informa, tecno], adj/loc_direct)/59
+ ref_ex(sn57, mw, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [informa, tecno], nadj/tema)/101
+ ref_ex(sn58, are, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [nquant], nadj/tema)/200
+ ref_ex(1, one, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [quant, date, tempo], ncomp/tema)/205
+ ref_ex(sn55, over, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [tempo], ogg/nil)/245
+ ref_ex(sn52, turbine, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [oggetto, strumento], adj/compar)/1051
+
+MAIN TOPIC : ref_ex(sn72, wind_turbine, _G60855, 3, nil, plur, [oggetto, strumento], _G60860)
+stato(5, continua)
+
+rel_temp(infon293, td, tr(sn62_t75), [eq])
+
+
+CLAUSE IDENTIFIER:               5-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn62_t75), tes(sn192_t74))
+DISCOURSE FOCUS:                 tes(sn62_t75)
+DISCOURSE RELATION:              explanation
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(5, continua)
+topic(5, main, id62)
+topic(5, potential, id69)
+sr(sogg-actor, rate, utility-scale)
+sr(adj-modal, rate, commonly)
+sr(adj-compar, rate, turbine)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(rate,
+        < entity : sn17 :
+            wff(and,
+                wff(isa,
+                    sn17,
+                    utility-scale),
+                wff(commercial,
+                    sn17)) >>,
+        < event : sn62 :
+            wff(and,
+                wff(isa,
+                    sn62,
+                    ev),
+                wff(and,
+                    wff(time,
+                        sn62,
+                        < definito : t7 :
+                            wff(and,
+                                wff(isa,
+                                    t7,
+                                    tloc),
+                                wff(pres,
+                                    t7)) >>),
+                    wff(and,
+                        wff(commonly,
+                            sn62),
+                        wff(and,
+                            wff(turbine,
+                                sn62),
+                            wff(and,
+                                wff(at,
+                                    sn62,
+                                    < entity : sn55 :
+                                        wff(isa,
+                                            sn55,
+                                            over) >>),
+                                wff(up_to,
+                                    sn62,
+                                    < four : sn60 :
+                                        wff(isa,
+                                            sn60,
+                                            mw) >>)))))) >>))
+
+
+
+loc(infon294, id68, [arg:main_tloc, arg:2006])
+ind(infon295, id69)
+fact(infon296, inst_of, [ind:id69, class:plant_life], 1, univ, univ)
+fact(infon297, inst_of, [ind:id69, class:scale], 1, univ, univ)
+fact(infon298, isa, [ind:id69, class:scale], 1, univ, univ)
+fact(infon299, isa, [ind:id69, class:utility_scale], 1, univ, univ)
+class(infon300, id70)
+fact(infon301, isa, [ind:id70, class:utility], 1, univ, univ)
+fact(infon302, of, [arg:id70, specif:id69], 1, univ, univ)
+class(infon303, id71)
+fact(infon304, inst_of, [ind:id71, class:informa], 1, univ, univ)
+ind(infon305, id72)
+fact(infon306, inst_of, [ind:id72, class:informa], 1, univ, univ)
+fact(infon307, isa, [ind:id72, class:mw], 1, id68, id19)
+class(infon308, id73)
+fact(infon309, inst_of, [ind:id73, class:nquant], 1, univ, univ)
+fact(infon310, isa, [ind:id73, class:are], 1, id68, id19)
+set(infon311, id74)
+card(infon312, id74, nil)
+fact(infon313, inst_of, [ind:id74, class:quant], 1, univ, univ)
+fact(infon314, isa, [ind:id74, class:one], 1, id68, id19)
+class(infon315, id75)
+class(infon316, id76)
+fact(infon317, commercial, [ind:id76], 1, id68, id19)
+fact(infon318, inst_of, [ind:id76, class:plant_life], 1, univ, univ)
+fact(infon319, isa, [ind:id76, class:'utility-scale'], 1, id68, id19)
+fact(infon320, has, [actor:id76, arg:id75], 1, id68, id19)
+fact(infon321, inst_of, [ind:id75, class:tempo], 1, univ, univ)
+fact(infon322, isa, [ind:id75, class:over], 1, id68, id19)
+set(infon323, id77)
+card(infon324, id77, 5)
+fact(infon325, vbl, [ind:id77], 1, id68, id19)
+fact(infon326, inst_of, [ind:id77, class:thing], 1, univ, univ)
+fact(infon327, isa, [ind:id77, class:turbine], 1, id68, id19)
+fact(id78, rate, [actor:id69], 1, tes(sn62_t75), id19)
+fact(infon330, isa, [arg:id78, arg:ev], 1, tes(sn62_t75), id19)
+fact(infon331, isa, [arg:id79, arg:tloc], 1, tes(sn62_t75), id19)
+fact(infon332, pres, [arg:id79], 1, tes(sn62_t75), id19)
+fact(infon333, time, [arg:id78, arg:id79], 1, tes(sn62_t75), id19)
+fact(infon334, commonly, [arg:id78], 1, tes(sn62_t75), id19)
+fact(infon335, turbine, [arg:id78], 1, tes(sn62_t75), id19)
+fact(infon337, at, [arg:id78, nil:id75], 1, tes(sn62_t75), id19)
+fact(infon339, up_to, [arg:id78, loc_direct:id72], 1, tes(sn62_t75), id19)
+
+during(tes(sn62_t75), tes(sn192_t74))
+includes(tr(sn62_t75), id68)
+
+
+                                          down:down(4-8)
+                                          clause:5-9
+                                          topics:[main:id62:wind_turbine]
+                                          main_fact:rate([id69:scale], 1, id19)
+                                          ref_int:tint(nil, [tes(sn62_t75)])
+                                          temp_rel:during(tes(sn62_t75), tes(sn192_t74))
+                                          disc_rel:explanation
+                                          disc_seg:8-[9]
+                                          disc_dom:objective
+                                          p_o_view:narrator

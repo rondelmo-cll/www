@@ -1,0 +1,8 @@
+Minimal pairs for [zz] vs. [z] in initial position:
+zz 	z 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 
+
+Minimal pairs for [zz] vs. [z] in medial position:
+mezzo 	mezo 			mejo 	meso 	meto 	mexo 
+pezzo 	pezo 			pero 
+
+Minimal pairs for [zz] vs. [z] in final position:

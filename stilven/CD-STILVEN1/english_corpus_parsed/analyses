@@ -1,0 +1,2625 @@
+aleap1
+a Leap_in the Dark . 
+
+
+*********************************************************************************
+aleap1
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1
+Lookahead Start Active Chart
+0-[d-a] 1-[n-Leap_in] 2-[d-the] 3-[nh-Dark] 4-[x- .] 
+
+0-[d-a] 1-[n-Leap_in] 2-[d-the] 3-[nh-Dark] 4-[x- .] 
+aleap1
+
+PennTreebank Style Tagging
+
+1
+a-dt
+Leap_in-nnp
+the-dt
+Dark-nnp
+. - punto
+
+Tagging and Syntactic Constituency
+
+[a-art, Leap_in-n, the-art, Dark-nh, . - punto]
+
+f3-[sn-[a-art-sn, the-art-sn, Dark-nh-sn, mod-[Leap_in-n-sn]], cp-[. - punto-cp]] 
+
+1
+
+
+Functional and Syntactic Constituency
+
+subj-[a-art-sn, the-art-sn, Dark-nh-sn, mod-[Leap_in-n-sn]]
+
+Output of Anaphora Resolution Module
+
+all_prons([1-[]])
+
+############   TOPICS   ############
+MAIN TOPIC:  'Dark'
+SECONDARY TOPIC:  nil
+POTENTIAL TOPICS:  Leap_in-npr 
+second  identified as  nil  with semantic index  nil
+
+
+Augmented Head Dependent Indexed Structures
+
+'ncmod-specif'('Dark'-sn1, 'Leap_in').
+det('Dark'-sn1, the).
+'subj-theme_unaff'(be-cl1, 'Dark'-sn1).
+tense(pres, '_', be).
+voice(active, '_', be).
+
+Semantic Interpretation and Informational Structure
+
+[1, indirect, be, pres, active, nil, nil, nil, indic, nil, attivita]
+sinfo(1, xcomp/_G260167, internal, nonfactive, null, background, stato, Dark, nil, question, objective, nil)
+
+
+aleap1
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap1, 1, objective, question, nil, Dark, background, down, new(1-1))
+
+
+aleap2
+the Struggle to Create the American_Republic . 
+
+
+*********************************************************************************
+aleap2
+Ratio of Tags per Word for Sentence no: 2
+Word Ambiguity Ratio: 1.14286
+Lookahead Start Active Chart
+0-[d-the] 1-[n-struggle, v-struggle] 2-[p-to] 3-[v-create] 4-[d-the] 5-[n-American_Republic] 6-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1
+0-[d-the] 1-[n-struggle] 2-[p-to] 3-[v-create] 4-[d-the] 5-[n-American_Republic] 6-[x- .] 
+aleap2
+
+PennTreebank Style Tagging
+
+2
+the-dt
+struggle-nn
+to-to
+create-vbd_vbn
+the-dt
+American_Republic-nnp
+. - punto
+
+Tagging and Syntactic Constituency
+
+[the-art, struggle-n, to-p, create-vt, the-art, American_Republic-n, . - punto]
+
+f-[sn-[the-art-sn, struggle-n-sn], vcomp-[to-p-_G267679, create-vt-ibar], sn-[the-art-sn, American_Republic-n-sn], cp-[. - punto-cp]] 
+
+2
+
+
+Functional and Syntactic Constituency
+
+subj-[the-art-sn, struggle-n-sn]
+vcomp-[to-p-_G267679, create-vt-ibar]
+obj-[the-art-sn, American_Republic-n-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([1-[]])
+
+############   TOPICS   ############
+MAIN TOPIC:  'American_Republic'
+SECONDARY TOPIC:  'Dark'
+POTENTIAL TOPICS:  struggle-npr 
+second  identified as  Dark  with semantic index  id1
+
+
+Augmented Head Dependent Indexed Structures
+
+det('American_Republic'-sn2, the).
+det(struggle-sn1, the).
+'obj-theme_aff'(create-cl2, 'American_Republic'-sn2).
+'subj-agent'(create-cl2, struggle-sn1).
+tense(pres, '_', create).
+voice(active, '_', create).
+
+Semantic Interpretation and Informational Structure
+
+[2, indirect, create, pres, active, nil, nil, nil, indic, nil, attivita]
+sinfo(2, main/prop, external, factive, null, background, attivita, create, pres, result, objective, nil)
+
+
+aleap2
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap2, 2, objective, narration, pres, create, background, down, down(1-2))
+
+
+aleap3
+Benjamin_Franklin stood on a bobbing ship , bathed in a warm summer sun . 
+
+
+*********************************************************************************
+aleap3
+Ratio of Tags per Word for Sentence no: 3
+Word Ambiguity Ratio: 1.42857
+Lookahead Start Active Chart
+0-[n-Benjamin_Franklin] 1-[v-stood] 2-[av-on, p-on] 3-[d-a] 4-[a-bobbing, v-bobbing] 5-[n-ship, v-ship] 6-[x- (,)] 7-[v-bathed] 8-[p-in] 9-[d-a] 10-[a-warm, v-warm] 11-[n-summer, v-summer] 12-[n-sun, v-sun] 13-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1
+0-[n-Benjamin_Franklin] 1-[v-stood] 2-[p-on] 3-[d-a] 4-[a-bobbing] 5-[n-ship] 6-[x- (,)] 7-[v-bathed] 8-[p-in] 9-[d-a] 10-[a-warm] 11-[n-summer] 12-[n-sun] 13-[x- .] 
+aleap3
+
+PennTreebank Style Tagging
+
+3
+Benjamin_Franklin-nnp
+stood-vbd_vbn
+on-in
+a-dt
+bobbing-jj
+ship-nn
+(,)-pun
+bathed-vbn_jj
+in-in
+a-dt
+warm-jj
+summer-nn
+sun-nn
+. - punto
+
+Tagging and Syntactic Constituency
+
+[Benjamin_Franklin-n, stood-vt, on-p, a-art, bobbing-ag, ship-n, (,)-punt, bathed-vppt, in-p, a-art, warm-ag, summer-nt, sun-n, . - punto]
+
+f-[sn-[Benjamin_Franklin-n-sn], ibar-[stood-vppt-sv3], sp-[on-p-sp, a-art-sn, bobbing-ag-sn, ship-n-sn], fp-[ (,)-punt-fp], ibar-[bathed-vppt-sv3], savv-[in-p-sp, a-art-sn, warm-ag-sn, summer-nt-sn, sun-n-sn], cp-[. - punto-cp]] 
+
+3
+
+
+Functional and Syntactic Constituency
+
+subj-[Benjamin_Franklin-n-sn]
+ibar-[stood-vppt-sv3]
+obl-[on-p-sp, a-art-sn, bobbing-ag-sn, ship-n-sn]
+f3-[ (,)-punt-fp]
+savv-[in-p-sp, a-art-sn, warm-ag-sn, summer-nt-sn, sun-n-sn]
+ibar-[bathed-vppt-sv3]
+
+Output of Anaphora Resolution Module
+
+all_prons([2-[], 1-[], 0-[]])
+
+############   TOPICS   ############
+MAIN TOPIC:  'Benjamin_Franklin'
+SECONDARY TOPIC:  'American_Republic'
+POTENTIAL TOPICS:  ship-npr 
+second  identified as  American_Republic  with semantic index  id3
+
+
+Augmented Head Dependent Indexed Structures
+
+'adj-mod'(in, bathe, sun).
+'subj-agent'(bathe-cl4, pro).
+det(ship-sn2, a).
+mod(sn2, ship, bobbing).
+'iobj-locative'(on, stand-cl3, ship-sn2).
+'subj-experiencer'(stand-cl3, 'Benjamin_Franklin'-sn1).
+tense(past, '_', bathe).
+voice(active, '_', bathe).
+tense(past, '_', stand).
+voice(active, '_', stand).
+
+Semantic Interpretation and Informational Structure
+
+[3, indirect, stand, past, active, nil, nil, nil, indic, nil, attivita]
+[4, indirect, bathe, past, active, nil, nil, nil, indic, sun, attivita, adj, mod, in, sun, bathe]
+sinfo(3, main/prop, external, factive, culminated, foreground, attivita, stand, past, effect, objective, nil)
+sinfo(4, main/prop, external, factive, culminated, foreground, attivita, bathe, past, effect, objective, nil)
+
+
+aleap3
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap3, 3, objective, narration, past, stand, foreground, down, down(2-3))
+sd_structure(aleap3, 4, objective, effect, past, bathe, foreground, down, down(2-4))
+
+
+aleap4
+On this golden morning in June 1754 , , he was sailing north on the blue-green Hudson_River , , past dusty little villages and seemingly endless grand estates , beyond the gently rolling wooded terrain just north of Manhattan and into the New_York Highlands , , where tall hills hovered above emerald meadows . 
+
+
+*********************************************************************************
+aleap4
+Ratio of Tags per Word for Sentence no: 4
+Word Ambiguity Ratio: 1.62963
+Lookahead Start Active Chart
+0-[av-On, p-On] 1-[a-this, r-this] 2-[a-golden, n-golden] 3-[n-morning] 4-[p-in] 5-[av-June, nt-June] 6-[d-1754] 7-[x- (,)] 8-[x- (,)] 9-[r-he] 10-[v-was] 11-[n-sailing, v-sailing] 12-[a-north, av-north, n-north] 13-[av-on, p-on] 14-[d-the] 15-[a-blue-green, v-blue-green] 16-[nh-Hudson_River] 17-[x- (,)] 18-[x- (,)] 19-[a-past, av-past, n-past, p-past, pk-past, s-past, v-past] 20-[a-dusty] 21-[a-little, av-little, d-little, n-little, r-little] 22-[n-villages] 23-[e-and] 24-[av-seemingly] 25-[a-endless] 26-[a-grand, n-grand] 27-[n-estates] 28-[x- (,)] 29-[av-beyond, n-beyond, p-beyond] 30-[d-the] 31-[av-gently] 32-[a-rolling, n-rolling, v-rolling] 33-[a-wooded, v-wooded] 34-[n-terrain] 35-[a-just, av-just, d-just] 36-[n-north] 37-[p-of] 38-[n-Manhattan] 39-[e-and] 40-[p-into] 41-[d-the] 42-[n-New_York] 43-[nh-Highlands] 44-[x- (,)] 45-[x- (,)] 46-[av-where, e-where, r-where, s-where, w-where] 47-[a-tall] 48-[n-hills, v-hills] 49-[v-hovered] 50-[av-above, n-above, p-above] 51-[n-emerald] 52-[n-meadows] 53-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.51852
+0-[av-On, p-On] 1-[a-this, r-this] 2-[a-golden, n-golden] 3-[n-morning] 4-[p-in] 5-[av-June, nt-June] 6-[d-1754] 7-[x- (,)] 8-[x- (,)] 9-[r-he] 10-[v-was] 11-[v-sailing] 12-[av-north] 13-[p-on] 14-[d-the] 15-[a-blue-green] 16-[nh-Hudson_River] 17-[x- (,)] 18-[x- (,)] 19-[a-past, av-past, n-past, p-past, pk-past, s-past, v-past] 20-[a-dusty] 21-[a-little, av-little, d-little, n-little, r-little] 22-[n-villages] 23-[e-and] 24-[av-seemingly] 25-[a-endless] 26-[a-grand, n-grand] 27-[n-estates] 28-[x- (,)] 29-[av-beyond, n-beyond, p-beyond] 30-[d-the] 31-[av-gently] 32-[a-rolling, n-rolling, v-rolling] 33-[a-wooded, v-wooded] 34-[n-terrain] 35-[a-just, av-just, d-just] 36-[n-north] 37-[p-of] 38-[n-Manhattan] 39-[e-and] 40-[p-into] 41-[d-the] 42-[n-New_York] 43-[nh-Highlands] 44-[x- (,)] 45-[x- (,)] 46-[av-where, e-where, r-where, s-where, w-where] 47-[a-tall] 48-[n-hills] 49-[v-hovered] 50-[av-above, n-above, p-above] 51-[n-emerald] 52-[n-meadows] 53-[x- .] 
+aleap4
+
+PennTreebank Style Tagging
+
+4
+On-in
+this-dt
+golden-jj
+morning-nn
+in-in
+June-rb
+1754-cd
+(,)-pun
+(,)-pun
+he-prp
+was-vbd
+sailing-vbg
+north-rb
+on-in
+the-dt
+blue-green-jj
+Hudson_River-nnp
+(,)-pun
+(,)-pun
+past-jj
+dusty-jj
+little-jj
+villages-nns
+and-cc
+seemingly-rb
+endless-jj
+grand-jj
+estates-nns
+(,)-pun
+beyond-rb
+the-dt
+gently-rb
+rolling-vbg
+wooded-jj
+terrain-nn
+just-jj
+north-nn
+of-in
+Manhattan-nnp
+and-cc
+into-in
+the-dt
+New_York-nnp
+Highlands-nnp
+(,)-pun
+(,)-pun
+where-wrb
+tall-jj
+hills-nns
+hovered-vbn_jj
+above-rb
+emerald-nn
+meadows-nns
+. - punto
+
+Tagging and Syntactic Constituency
+
+[On-p, this-ag, golden-ag, morning-n, in-p, June-avv, 1754-num, (,)-punt, (,)-punt, he-pers, was-ause, sailing-vin, north-avv, on-p, the-art, blue-green-ag, Hudson_River-nh, (,)-punt, (,)-punt, past-ag, dusty-ag, little-ag, villages-n, and-cong, seemingly-avv, endless-ag, grand-ag, estates-n, (,)-punt, beyond-avv, the-art, gently-avv, rolling-vt, wooded-ag, terrain-n, just-ag, north-n, of-p, Manhattan-n, and-cong, into-p, the-art, New_York-n, Highlands-nh, (,)-punt, (,)-punt, where-rel, tall-ag, hills-n, hovered-vppt, above-avv, emerald-n, meadows-n, . - punto]
+
+cp-[sp-[On-p-sp, this-ag-sn, golden-ag-sn, morning-n-sn], savv-[in-p-sp, June-avv-savv], sn-[1754-num-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], f-[subj-[he-pers-sn], ibar-[was-ause-ibar, sailing-vgin-ibar], savv-[north-avv-savv], sp-[on-p-sp, the-art-sn, blue-green-ag-sn, Hudson_River-nh-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sn-[past-ag-sn, dusty-ag-sn, little-ag-sn, villages-n-sn], fc-[and-cong-fc], savv-[seemingly-avv-savv], sn-[endless-ag-sn, grand-ag-sn, estates-n-sn], fp-[ (,)-punt-fp], savv-[beyond-avv-savv], cp-[the-art-cp], savv-[gently-avv-savv], vcomp-[rolling-vt-sv5], sn-[wooded-ag-sn, terrain-n-sn], sn-[just-ag-sn, north-n-sn, mod-[of-p-sp, Manhattan-n-sn]], fc-[and-cong-fc], sp-[into-p-sp, the-art-sn, New_York-n-sn, Highlands-nh-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp]], fs-[fs-[where-rel-f2], f-[subj-[tall-ag-sn, hills-n-sn], ibar-[hovered-vppt-sv3], savv-[above-avv-savv], sn-[emerald-n-sn, meadows-n-sn], cp-[. - punto-cp]]]] 
+
+4
+
+
+Functional and Syntactic Constituency
+
+subj-[he-pers-sn]
+savv-[north-avv-savv]
+ibar-[was-ause-ibar, sailing-vgin-ibar]
+obl-[on-p-sp, the-art-sn, blue-green-ag-sn, Hudson_River-nh-sn]
+obl-[On-p-sp, this-ag-sn, golden-ag-sn, morning-n-sn]
+savv-[in-p-sp, June-avv-savv]
+obj-[1754-num-sn]
+fs-[fs-[fs-[where-rel-f2], f-[subj-[tall-ag-sn, hills-n-sn], ibar-[hovered-vppt-sv3], savv-[above-avv-savv], sn-[emerald-n-sn, meadows-n-sn], cp-[. - punto-cp]]]]
+subj-[past-ag-sn, dusty-ag-sn, little-ag-sn, villages-n-sn]
+fc-[and-cong-fc]
+savv-[seemingly-avv-savv]
+obj-[endless-ag-sn, grand-ag-sn, estates-n-sn]
+f3-[ (,)-punt-fp]
+savv-[beyond-avv-savv]
+cp-[the-art-cp]
+savv-[gently-avv-savv]
+vcomp-[rolling-vt-sv5]
+obj-[wooded-ag-sn, terrain-n-sn]
+obj-[just-ag-sn, north-n-sn, mod-[of-p-sp, Manhattan-n-sn]]
+fc-[and-cong-fc]
+obl-[into-p-sp, the-art-sn, New_York-n-sn, Highlands-nh-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([2-[[he]-0-[pers=3, mas, sing, [umano], actor]/sn1], 1-[[he]-0-[pers=3, mas, sing, [astratto, misura], actor]/sn9]])
+ext_pron(sail, [he])
+ext_pron(roll, [he])
+
+###########   ANAPHORA RESOLUTION   ###########
+he  resolved as  'Benjamin_Franklin'
+
+############   TOPICS   ############
+MAIN TOPIC:  'Benjamin_Franklin'
+main  resolved as  Benjamin_Franklin  with semantic index  id5
+
+###########   ANAPHORA RESOLUTION   ###########
+he  resolved as  'American_Republic'
+SECONDARY TOPIC:  'American_Republic'
+second  resolved as  American_Republic  with semantic index  id3
+POTENTIAL TOPICS:  estates-npr terrain-npr village-npr 
+
+
+Augmented Head Dependent Indexed Structures
+
+ext(roll, [he]).
+ext(sail, [he]).
+det('Highlands'-sn17, the).
+'ncmod-specif'('Highlands'-sn17, 'New_York').
+'ncmod-specif'(north-sn16, 'Manhattan').
+mod(sn16, north, just).
+mod(sn15, terrain, wooded).
+mod(sn12, estates, endless).
+mod(sn10, village, dusty).
+mod(sn10, village, past).
+'ncmod-loc_direct'(into, roll-cl6, 'Highlands'-sn17).
+'obj-theme'(roll-cl6, north-sn16).
+'obj2-goal'(roll-cl6, terrain-sn15).
+'adj-subj_disc'(roll-cl6, gently-sn14).
+'adj-subj_disc'(roll-cl6, beyond-sn13).
+'obj-theme'(roll-cl6, estates-sn12).
+det(sn12, estates, grand).
+'adj-subj_disc'(roll-cl6, seemingly-sn11).
+'obj-theme_aff'(roll-cl6, village-sn10).
+det(sn10, village, little).
+'subj-actor'(roll-cl6, he-sn9).
+tense(past, '_', roll).
+voice(active, '_', roll).
+'adj-temporal'(in, sail, 'June').
+'adj-mod'(in, sail, north).
+mod(sn3, morning, golden).
+mod(sn3, morning, this).
+det('Hudson_River'-sn2, the).
+mod(sn2, 'Hudson_River', 'blue-green').
+'obj-theme'(sail-cl5, 1754-sn4).
+'ncmod-modal'('On', sail-cl5, morning-sn3).
+'ncmod-locativo'(on, sail-cl5, 'Hudson_River'-sn2).
+'subj-actor'(sail-cl5, he-sn1).
+aux(sail, was).
+progr(sail, sailing).
+tense(past, '_', sail).
+voice(active, '_', sail).
+
+Semantic Interpretation and Informational Structure
+
+[5, indirect, sail, pluper, active, nil, nil, sailing, indic, June, attivita, adj, mod, in, north, sail]
+[6, indirect, roll, past, active, nil, nil, nil, indic, nil, attivita]
+sinfo(5, main/prop, external, factive, null, background, attivita, sail, pluper, explanation, objective, nil)
+sinfo(6, main/prop, external, factive, culminated, foreground, attivita, roll, past, effect, objective, nil)
+
+
+aleap4
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap4, 6, objective, narration, past, roll, foreground, down, down(4-6))
+sd_structure(aleap4, 5, objective, explanation, pluper, sail, background, level, down(4-5))
+
+
+aleap5
+Franklin had retired as a printer and publisher , , but this was not a pleasure cruise . 
+
+
+*********************************************************************************
+aleap5
+Ratio of Tags per Word for Sentence no: 5
+Word Ambiguity Ratio: 1.44444
+Lookahead Start Active Chart
+0-[n-Franklin] 1-[v-had] 2-[a-retired, v-retired] 3-[d-as, e-as, p-as, s-as] 4-[d-a] 5-[n-printer] 6-[e-and] 7-[n-publisher] 8-[x- (,)] 9-[x- (,)] 10-[s-but] 11-[a-this, r-this] 12-[v-was] 13-[e-not, g-not] 14-[d-a] 15-[n-pleasure, v-pleasure] 16-[n-cruise, v-cruise] 17-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1
+0-[n-Franklin] 1-[v-had] 2-[v-retired] 3-[s-as] 4-[d-a] 5-[n-printer] 6-[e-and] 7-[n-publisher] 8-[x- (,)] 9-[x- (,)] 10-[s-but] 11-[r-this] 12-[v-was] 13-[g-not] 14-[d-a] 15-[n-pleasure] 16-[n-cruise] 17-[x- .] 
+aleap5
+
+PennTreebank Style Tagging
+
+5
+Franklin-nnp
+had-vbd
+retired-vbd
+as-in
+a-dt
+printer-nn
+and-cc
+publisher-nn
+(,)-pun
+(,)-pun
+but-in
+this-dt
+was-vbd
+not-rb
+a-dt
+pleasure-nn
+cruise-nn
+. - punto
+
+Tagging and Syntactic Constituency
+
+[Franklin-n, had-ausa, retired-vin, as-cosu, a-art, printer-n, and-cong, publisher-n, (,)-punt, (,)-punt, but-cosu, this-pron, was-ause, not-neg, a-art, pleasure-n, cruise-n, . - punto]
+
+cp-[f-[subj-[Franklin-n-sn], ibar-[had-ausa-ibar, retired-vppt-ibar], sp-[as-p-sp, a-art-sn, printer-n-sn, and-cong-sn, publisher-n-sn], fp-[ (,)-punt-fp]], fs-[fs-[but-cosu-fs], f-[subj-[this-pron-sn], ibar-[was-ause-ibar], savv-[not-neg-savv], sn-[a-art-sn, pleasure-n-sn, cruise-n-sn], cp-[. - punto-cp]]]] 
+
+5
+
+
+Functional and Syntactic Constituency
+
+subj-[Franklin-n-sn]
+ibar-[had-ausa-ibar, retired-vppt-ibar]
+obl-[as-p-sp, a-art-sn, printer-n-sn, and-cong-sn, publisher-n-sn]
+f3-[ (,)-punt-fp]
+
+5
+
+
+Functional and Syntactic Constituency
+
+subj-[this-pron-sn]
+savv-[not-neg-savv]
+ibar-[was-ause-ibar]
+xcomp-[a-art-sn, pleasure-n-sn, cruise-n-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([2-[], 1-[]])
+
+pronominal=  this
+  resolved as  ' discourse bound '
+
+###########   ANAPHORA RESOLUTION   ###########
+this  resolved as  'discourse bound'
+main  resolved as  Benjamin_Franklin  with semantic index  id5
+second  resolved as  printer_and_publisher  with semantic index  id7
+
+############   TOPICS   ############
+MAIN TOPIC:  'Benjamin_Franklin'
+SECONDARY TOPIC:  printer_and_publisher
+POTENTIAL TOPICS:  pleasure-npr cruise-npr 
+
+
+Augmented Head Dependent Indexed Structures
+
+'cmod-subord'(but, be-cl8, be-cl8).
+'adj-mod'(not, cruise, be).
+det(cruise-sn5, a).
+'ncmod-specif'(cruise-sn5, pleasure).
+'xcomp-prop'(be-cl8, cruise-sn5).
+'subj-theme_unaff'(be-cl8, this-sn4).
+aux(retire, had).
+tense(past, '_', be).
+voice(active, '_', be).
+'ncmod-modale'(as, retire-cl7, printer_and_publisher-[sn2, sn3]).
+'subj-actor'(retire-cl7, 'Franklin'-sn1).
+aux(retire, had).
+tense(past, '_', retire).
+voice(active, '_', retire).
+
+Semantic Interpretation and Informational Structure
+
+[7, indirect, retire, pluper, active, nil, nil, nil, indic, nil, attivita]
+[8, indirect, be, past, active, nil, nil, nil, indic, nil, attivita, cmod, subord, but, be, be]
+sinfo(7, main/prop, external, factive, null, background, attivita, retire, pluper, explanation, objective, nil)
+sinfo(8, xcomp/_G465762, internal, nonfactive, negated, foreground, risultato, cruise, nil, elaboration, objective, nil)
+
+
+aleap5
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap5, 7, objective, explanation, pluper, retire, background, level, down(5-7))
+sd_structure(aleap5, 8, objective, elaboration, nil, cruise, foreground, down, down(5-8))
+
+
+aleap6
+He was on a mission . 
+
+
+*********************************************************************************
+aleap6
+Ratio of Tags per Word for Sentence no: 6
+Word Ambiguity Ratio: 1.33333
+Lookahead Start Active Chart
+0-[r-He] 1-[v-was] 2-[av-on, p-on] 3-[d-a] 4-[n-mission, v-mission] 5-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1
+0-[r-He] 1-[v-was] 2-[p-on] 3-[d-a] 4-[n-mission] 5-[x- .] 
+aleap6
+
+PennTreebank Style Tagging
+
+6
+He-prp
+was-vbd
+on-in
+a-dt
+mission-nn
+. - punto
+
+Tagging and Syntactic Constituency
+
+[He-pers, was-ause, on-p, a-art, mission-n, . - punto]
+
+f-[subj-[He-pers-sn], ibar-[was-ause-ibar], sp-[on-p-sp, a-art-sn, mission-n-sn], cp-[. - punto-cp]] 
+
+6
+
+
+Functional and Syntactic Constituency
+
+subj-[He-pers-sn]
+ibar-[was-ause-ibar]
+obl-[on-p-sp, a-art-sn, mission-n-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([1-[[He]-0-[pers=3, mas, sing, [umano], theme_unaff]/sn1]])
+ext_pron(be, [He])
+
+###########   ANAPHORA RESOLUTION   ###########
+He  resolved as  'Benjamin_Franklin'
+
+############   TOPICS   ############
+MAIN TOPIC:  'Benjamin_Franklin'
+main  resolved as  Benjamin_Franklin  with semantic index  id5
+SECONDARY TOPIC:  mission
+
+
+Augmented Head Dependent Indexed Structures
+
+ext(be, ['He']).
+det(mission-sn2, a).
+'ncmod-locativo'(on, be-cl9, mission-sn2).
+'subj-theme_unaff'(be-cl9, 'He'-sn1).
+tense(past, '_', be).
+voice(active, '_', be).
+
+Semantic Interpretation and Informational Structure
+
+[9, indirect, be, past, active, nil, nil, nil, indic, nil, attivita]
+sinfo(9, xcomp/_G486952, internal, nonfactive, negated, foreground, emotivo, miss, nil, elaboration, objective, nil)
+
+
+aleap6
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap6, 9, objective, elaboration, nil, miss, foreground, down, down(8-9))
+
+
+aleap7
+Pennsylvania had selected him as a representative to meet in Albany with commissioners from other British colonies . 
+
+
+*********************************************************************************
+aleap7
+Ratio of Tags per Word for Sentence no: 7
+Word Ambiguity Ratio: 1.5
+Lookahead Start Active Chart
+0-[n-Pennsylvania] 1-[v-had] 2-[a-selected, v-selected] 3-[r-him] 4-[d-as, e-as, p-as, s-as] 5-[d-a] 6-[a-representative, n-representative] 7-[p-to] 8-[n-meet, v-meet] 9-[p-in] 10-[n-Albany] 11-[p-with] 12-[n-commissioners] 13-[p-from] 14-[a-other, d-other, n-other] 15-[a-British, n-British] 16-[n-colonies] 17-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.11111
+0-[n-Pennsylvania] 1-[v-had] 2-[v-selected] 3-[r-him] 4-[s-as] 5-[d-a] 6-[n-representative] 7-[p-to] 8-[v-meet] 9-[p-in] 10-[n-Albany] 11-[p-with] 12-[n-commissioners] 13-[p-from] 14-[a-other, d-other, n-other] 15-[n-British] 16-[n-colonies] 17-[x- .] 
+aleap7
+
+PennTreebank Style Tagging
+
+7
+Pennsylvania-nnp
+had-vbd
+selected-vbd
+him-prp
+as-in
+a-dt
+representative-nn
+to-to
+meet-vbd
+in-in
+Albany-nnp
+with-in
+commissioners-nns
+from-in
+other-jj
+British-nnp
+colonies-nns
+. - punto
+
+Tagging and Syntactic Constituency
+
+[Pennsylvania-n, had-ausa, selected-vin, him-pron, as-cosu, a-art, representative-n, to-p, meet-vin, in-p, Albany-n, with-p, commissioners-n, from-p, other-ag, British-n, colonies-n, . - punto]
+
+f-[subj-[Pennsylvania-n-sn], ibar-[had-ausa-ibar, selected-vppt-ibar], sn-[him-pron-sn], fs-[as-cosu-fs], sn-[a-art-sn, representative-n-sn], vcomp-[to-p-_G509669, meet-vin-ibar], sp-[in-p-sp, Albany-n-sn], sp-[with-p-sp, commissioners-n-sn], sp-[from-p-sp, other-ag-sn, British-n-sn, colonies-n-sn], cp-[. - punto-cp]] 
+
+7
+
+
+Functional and Syntactic Constituency
+
+subj-[Pennsylvania-n-sn]
+ibar-[had-ausa-ibar, selected-vppt-ibar]
+obj-[him-pron-sn]
+fs-[fs-[as-cosu-fs], subj-[a-art-sn, representative-n-sn], vcomp-[to-p-_G509669, meet-vin-ibar], obl-[in-p-sp, Albany-n-sn]]
+obl-[with-p-sp, commissioners-n-sn]
+obl-[from-p-sp, other-ag-sn, British-n-sn, colonies-n-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([4-[[him]-0-[pers=3, mas, sing, [umano], theme]/sn2], 3-[]])
+ext_pron(select, [him])
+
+###########   ANAPHORA RESOLUTION   ###########
+him  resolved as  'Benjamin_Franklin'
+
+############   TOPICS   ############
+MAIN TOPIC:  'Benjamin_Franklin'
+main  resolved as  Benjamin_Franklin  with semantic index  id5
+SECONDARY TOPIC:  'Pennsylvania'
+POTENTIAL TOPICS:  British-npr colonies-npr commissioners-npr 
+
+
+Augmented Head Dependent Indexed Structures
+
+ext(select, [him]).
+'cmod-subord'(as, select-cl10, select-cl10).
+'ncmod-specif'(select-cl10, commissioners).
+'ncmod-specif'(select-cl10, colonies).
+'ncmod-specif'(select-cl10, 'British').
+'ncmod-specif'(select-cl10, other).
+tense(pres, '_', meet).
+voice(active, '_', meet).
+'obj-theme'(select-cl10, him-sn2).
+'subj-actor'(select-cl10, 'Pennsylvania'-sn1).
+aux(select, had).
+tense(past, '_', select).
+voice(active, '_', select).
+
+Semantic Interpretation and Informational Structure
+
+[10, indirect, select, pluper, active, nil, nil, nil, indic, nil, attivita, cmod, subord, as, select, select]
+sinfo(10, adj/temp_coinc, external, factive, null, background, attivita, select, pluper, circumstance, objective, nil)
+
+
+aleap7
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap7, 10, objective, circumstance, pluper, select, background, down, down(9-10))
+
+
+aleap8
+They were to search for a means by which the provinces , , and their native_american allies , , could cooperate in the likely event that war erupted with France . 
+
+
+*********************************************************************************
+aleap8
+Ratio of Tags per Word for Sentence no: 8
+Word Ambiguity Ratio: 1.35484
+Lookahead Start Active Chart
+0-[r-they] 1-[v-were] 2-[p-to] 3-[n-search, v-search] 4-[e-for, p-for, s-for] 5-[d-a] 6-[n-means, v-means] 7-[p-by] 8-[r-which, w-which] 9-[d-the] 10-[n-provinces] 11-[x- (,)] 12-[x- (,)] 13-[e-and] 14-[a-their] 15-[n-native_american, v-native_american] 16-[n-allies, v-allies] 17-[x- (,)] 18-[x- (,)] 19-[v-could] 20-[v-cooperate] 21-[p-in] 22-[d-the] 23-[a-likely, av-likely] 24-[n-event] 25-[a-that, c-that, r-that] 26-[n-war, v-war] 27-[v-erupted] 28-[p-with] 29-[n-France] 30-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.09677
+0-[r-they] 1-[v-were] 2-[p-to] 3-[v-search] 4-[e-for, p-for, s-for] 5-[d-a] 6-[n-means] 7-[p-by] 8-[r-which, w-which] 9-[d-the] 10-[n-provinces] 11-[x- (,)] 12-[x- (,)] 13-[e-and] 14-[a-their] 15-[n-native_american] 16-[n-allies] 17-[x- (,)] 18-[x- (,)] 19-[v-could] 20-[v-cooperate] 21-[p-in] 22-[d-the] 23-[a-likely] 24-[n-event] 25-[c-that] 26-[n-war] 27-[v-erupted] 28-[p-with] 29-[n-France] 30-[x- .] 
+aleap8
+
+PennTreebank Style Tagging
+
+8
+they-prp
+were-vbd
+to-to
+search-vbd
+for-in
+a-dt
+means-nns
+by-in
+which-wdt
+the-dt
+provinces-nns
+(,)-pun
+(,)-pun
+and-cc
+their-prp$
+native_american-nn
+allies-nns
+(,)-pun
+(,)-pun
+could-md
+cooperate-vbd
+in-in
+the-dt
+likely-jj
+event-nn
+that-dt
+war-nn
+erupted-vbd
+with-in
+France-nnp
+. - punto
+
+Tagging and Syntactic Constituency
+
+[they-pron, were-ause, to-p, search-vin, for-p, a-art, means-n, by-pda, which-rel, the-art, provinces-n, (,)-punt, (,)-punt, and-cong, their-ag, native_american-n, allies-n, (,)-punt, (,)-punt, could-vsup, cooperate-vin, in-p, the-art, likely-ag, event-n, that-rel, war-n, erupted-vin, with-p, France-n, . - punto]
+
+f-[subj-[they-pron-sn], ibar-[were-ause-ibar], vcomp-[to-p-_G34910, search-vin-ibar], sp-[for-p-sp, a-art-sn, means-n-sn], spda-[by-pda-spda], f2-[which-rel-f2], sn-[the-art-sn, provinces-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], fc-[fc-[and-cong-fc], sn-[their-ag-sn, native_american-n-sn, allies-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], ibar-[could-vsup-ibar, cooperate-vin-ibar], sp-[in-p-sp, the-art-sn, likely-ag-sn, event-n-sn, fac-[fac-[that-pk-fac], f-[subj-[war-n-sn], ibar-[erupted-vppt-sv3], sp-[with-p-sp, France-n-sn], cp-[. - punto-cp]]]]]] 
+
+8
+
+
+Functional and Syntactic Constituency
+
+subj-[they-pron-sn]
+ibar-[were-ause-ibar]
+vcomp-[to-p-_G34910, search-vin-ibar]
+obl-[for-p-sp, a-art-sn, means-n-sn, spda-[by-pda-spda], f2-[f2-[which-rel-f2], appos-[the-art-sn, provinces-n-sn]]]
+
+8
+
+
+Functional and Syntactic Constituency
+
+fc-[fc-[and-cong-fc], subj-[their-ag-sn, native_american-n-sn, allies-n-sn], ibar-[could-vsup-ibar, cooperate-vin-ibar], obl-[in-p-sp, the-art-sn, likely-ag-sn, event-n-sn, fac-[fac-[that-pk-fac], f-[subj-[war-n-sn], ibar-[erupted-vppt-sv3], sp-[with-p-sp, France-n-sn]]]]]
+
+Output of Anaphora Resolution Module
+
+all_prons([2-[[they]-0-[pers=3, any, plur, [umano, oggetto, informa, istituzione, evento, stato, attivita], theme_unaff]/sn1], 1-[their-0-[3, nil, poss, sing, [umano, istituzione, legale], cat=poss, disj=[_G56038-subj, sn5-allies], gen=_G55936, num=plur, pers=3, pred=they]/cooperate], 0-[]])
+ante(be, they, allies)
+ante(cooperate, their, they)
+
+############   TOPICS   ############
+MAIN TOPIC:  allies
+SECONDARY TOPIC:  'Benjamin_Franklin'
+POTENTIAL TOPICS:  means-ndef France-npr war-npr 
+second  identified as  Benjamin_Franklin  with semantic index  id5
+
+
+Augmented Head Dependent Indexed Structures
+
+ante(cooperate, their, they).
+ante(be, they, allies).
+'coord-prop'(and, erupt-cl14, search-cl12).
+'cmod-coord'(and, erupt-cl14, search-cl12).
+det(event-sn6, the).
+'ccomp-prop'(that, event, erupt).
+'iobj-goal'(with, erupt-cl14, 'France'-sn10).
+'subj-agent'(erupt-cl14, war-sn8).
+tense(past, '_', erupt).
+voice(active, '_', erupt).
+mod(sn6, event, likely).
+'ncmod-specif'(allies-sn5, native_american).
+'ncmod-poss'(allies-sn5, their).
+'iobj-goal'(in, cooperate-cl13, event-sn6).
+'subj-actor'(cooperate-cl13, allies-sn5).
+modal(cooperate, could).
+tense(pres, '_', cooperate).
+voice(active, '_', cooperate).
+det(means-sn2, a).
+det(which-sn3, a).
+'ncmod-specif'(which-sn3, provinces).
+det(which-sn3, the).
+'subj-agent'(search-cl12, they-sn1).
+'iobj-goal'(for, search-cl12, means-sn2).
+'xcomp-purpose'(to, be-cl11, search-cl12).
+tense(pres, '_', search).
+voice(active, '_', search).
+'subj-theme_unaff'(be-cl11, they-sn1).
+tense(past, '_', be).
+voice(active, '_', be).
+
+Semantic Interpretation and Informational Structure
+
+[11, indirect, search, pres, active, nil, nil, nil, indic, nil, attivita]
+[12, indirect, erupt, past, active, nil, nil, nil, indic, nil, attivita]
+[13, indirect, cooperate, pluper, active, nil, could, nil, unreal, nil, attivita]
+[14, indirect, be, past, active, nil, nil, nil, indic, nil, attivita]
+sinfo(11, main/prop, external, factive, null, background, attivita, search, pres, narration, objective, nil)
+sinfo(12, main/prop, external, factive, culminated, foreground, attivita, erupt, past, result, objective, nil)
+sinfo(13, main/prop, external, nonfactive, null, background, attivita, cooperate, pluper, narration, subjective, nil)
+sinfo(14, xcomp/_G16684, internal, nonfactive, negated, foreground, risultato, search, nil, elaboration, objective, nil)
+
+
+aleap8
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap8, 12, objective, narration, past, erupt, foreground, down, down(10-12))
+sd_structure(aleap8, 11, objective, narration, pres, search, background, level, down(10-11))
+sd_structure(aleap8, 13, subjective, narration, pluper, cooperate, background, level, down(10-13))
+sd_structure(aleap8, 14, objective, elaboration, nil, search, foreground, down, down(10-14))
+
+
+aleap9
+Franklin , , who strained for a glimpse of Albany through the mottled summer haze , , bore little resemblance to the plainly dressed , , stout , , avuncular , , older man that we usually imagine from the numerous portraits and sculptures produced a quarter century or_so later . 
+
+
+*********************************************************************************
+aleap9
+Ratio of Tags per Word for Sentence no: 9
+Word Ambiguity Ratio: 1.43137
+Lookahead Start Active Chart
+0-[n-Franklin] 1-[x- (,)] 2-[x- (,)] 3-[r-who, w-who] 4-[a-strained, v-strained] 5-[e-for, p-for, s-for] 6-[d-a] 7-[n-glimpse, v-glimpse] 8-[p-of] 9-[n-Albany] 10-[a-through, av-through, p-through] 11-[d-the] 12-[n-mottled, v-mottled] 13-[n-summer, v-summer] 14-[n-haze, v-haze] 15-[x- (,)] 16-[x- (,)] 17-[n-bore, v-bore] 18-[a-little, av-little, d-little, n-little, r-little] 19-[n-resemblance] 20-[p-to] 21-[d-the] 22-[av-plainly] 23-[v-dressed] 24-[x- (,)] 25-[x- (,)] 26-[a-stout, n-stout] 27-[x- (,)] 28-[x- (,)] 29-[a-avuncular] 30-[x- (,)] 31-[x- (,)] 32-[a-older] 33-[n-man, v-man] 34-[a-that, c-that, r-that] 35-[r-we] 36-[av-usually] 37-[v-imagine] 38-[p-from] 39-[d-the] 40-[a-numerous] 41-[n-portraits] 42-[e-and] 43-[n-sculptures, v-sculptures] 44-[v-produced] 45-[d-a] 46-[n-quarter, v-quarter] 47-[n-century] 48-[av-or_so] 49-[a-later, av-later] 50-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.19608
+0-[n-Franklin] 1-[x- (,)] 2-[x- (,)] 3-[r-who] 4-[v-strained] 5-[e-for, p-for, s-for] 6-[d-a] 7-[n-glimpse] 8-[p-of] 9-[n-Albany] 10-[p-through] 11-[d-the] 12-[n-mottled] 13-[n-summer, v-summer] 14-[n-haze, v-haze] 15-[x- (,)] 16-[x- (,)] 17-[v-bore] 18-[a-little, av-little, d-little, n-little, r-little] 19-[n-resemblance] 20-[p-to] 21-[d-the] 22-[av-plainly] 23-[v-dressed] 24-[x- (,)] 25-[x- (,)] 26-[a-stout, n-stout] 27-[x- (,)] 28-[x- (,)] 29-[a-avuncular] 30-[x- (,)] 31-[x- (,)] 32-[a-older] 33-[n-man] 34-[c-that] 35-[r-we] 36-[av-usually] 37-[v-imagine] 38-[p-from] 39-[d-the] 40-[a-numerous] 41-[n-portraits] 42-[e-and] 43-[n-sculptures] 44-[v-produced] 45-[d-a] 46-[n-quarter] 47-[n-century] 48-[av-or_so] 49-[a-later, av-later] 50-[x- .] 
+aleap9
+
+PennTreebank Style Tagging
+
+9
+Franklin-nnp
+(,)-pun
+(,)-pun
+who-prp
+strained-vbd
+for-in
+a-dt
+glimpse-nn
+of-in
+Albany-nnp
+through-in
+the-dt
+mottled-nn
+summer-nn
+haze-nn
+(,)-pun
+(,)-pun
+bore-vbd_vbn
+little-jj
+resemblance-nn
+to-to
+the-dt
+plainly-rb
+dressed-vbn_jj
+(,)-pun
+(,)-pun
+stout-jj
+(,)-pun
+(,)-pun
+avuncular-jj
+(,)-pun
+(,)-pun
+older-jjr
+man-nn
+that-dt
+we-prp
+usually-rb
+imagine-vbd
+from-in
+the-dt
+numerous-jj
+portraits-nns
+and-cc
+sculptures-nns
+produced-vbn_jj
+a-dt
+quarter-nn
+century-nn
+or_so-rb
+later-jjr
+. - punto
+
+Tagging and Syntactic Constituency
+
+[Franklin-n, (,)-punt, (,)-punt, who-pron, strained-vin, for-p, a-art, glimpse-n, of-p, Albany-n, through-p, the-art, mottled-n, summer-nt, haze-n, (,)-punt, (,)-punt, bore-vt, little-ag, resemblance-n, to-p, the-art, plainly-avv, dressed-vppt, (,)-punt, (,)-punt, stout-ag, (,)-punt, (,)-punt, avuncular-ag, (,)-punt, (,)-punt, older-ag, man-n, that-rel, we-pron, usually-avv, imagine-vin, from-p, the-art, numerous-ag, portraits-n, and-cong, sculptures-n, produced-vppt, a-art, quarter-n, century-n, or_so-avv, later-ag, . - punto]
+
+cp-[sn-[Franklin-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], f-[subj-[who-pron-sn], ibar-[strained-vppt-sv3], sp-[for-p-sp, a-art-sn, glimpse-n-sn, mod-[of-p-sp, Albany-n-sn]], sp-[through-p-sp, the-art-sn, mottled-n-sn], sn-[summer-nt-sn, haze-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], ibar-[bore-vt-ibar], sn-[little-ag-sn, resemblance-n-sn], sp-[to-p-sp], cp-[the-art-cp], savv-[plainly-avv-savv], ibar-[dressed-vppt-sv3], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sa-[stout-ag-sa], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sa-[avuncular-ag-sa], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sn-[older-ag-sn, man-n-sn], f2-[that-rel-f2], f-[subj-[we-pron-sn], savv-[usually-avv-savv], ibar-[imagine-vin-ibar], sp-[from-p-sp, the-art-sn, numerous-ag-sn, portraits-n-sn]], fc-[fc-[and-cong-fc], f-[subj-[sculptures-n-sn], ibar-[produced-vppt-sv3], sn-[a-art-sn, quarter-n-sn, century-n-sn], savv-[or_so-avv-savv], sa-[later-ag-sa], cp-[. - punto-cp]]]]] 
+
+9
+
+
+Functional and Syntactic Constituency
+
+subj-[Franklin-n-sn, who-pron-sn]
+ibar-[strained-vppt-sv3]
+obl-[for-p-sp, a-art-sn, glimpse-n-sn, mod-[of-p-sp, Albany-n-sn]]
+obl-[through-p-sp, the-art-sn, mottled-n-sn]
+xcomp-[summer-nt-sn, haze-n-sn]
+ibar-[bore-vt-ibar]
+obj-[little-ag-sn, resemblance-n-sn]
+sp-[to-p-sp]
+cp-[the-art-cp]
+savv-[plainly-avv-savv]
+ibar-[dressed-vppt-sv3]
+sa-[stout-ag-sa]
+f3-[ (,)-punt-fp]
+xadj-[avuncular-ag-sa]
+subj-[older-ag-sn, man-n-sn, f2-[f2-[that-rel-f2], fc-[fc-[fc-[and-cong-fc], f-[subj-[sculptures-n-sn], ibar-[produced-vppt-sv3], sn-[a-art-sn, quarter-n-sn, century-n-sn], savv-[or_so-avv-savv], sa-[later-ag-sa], cp-[. - punto-cp]]], subj-[we-pron-sn], savv-[usually-avv-savv], ibar-[imagine-vin-ibar], obl-[from-p-sp, the-art-sn, numerous-ag-sn, portraits-n-sn]]]]
+
+Output of Anaphora Resolution Module
+
+all_prons([2-[], 1-[]])
+
+############   TOPICS   ############
+MAIN TOPIC:  man
+SECONDARY TOPIC:  allies
+POTENTIAL TOPICS:  plainly-npr avuncular-npr 
+second  identified as  allies  with semantic index  id15
+
+
+Augmented Head Dependent Indexed Structures
+
+mod(sn26, man, older).
+'obj-theme'(strain-cl16, man-sn26).
+'obj-theme'(strain-cl16, avuncular-sn24).
+'adj-mod'(the, haze, strain).
+'adj-locative'(in, strain, plainly).
+'ncmod-temp'(haze-sn13, summer).
+det(mottled-sn12, the).
+'ncmod-specif'(glimpse-sn11, 'Albany').
+det(glimpse-sn11, a).
+'obj-theme'(strain-cl16, stout-sn16).
+'iobj-goal'(to, strain-cl16, []-[]).
+'obj-patient'(strain-cl16, resemblance-sn14).
+det(sn14, resemblance, little).
+'xcomp-prop'(strain-cl16, haze-sn13).
+'ncmod-prop'(through, strain-cl16, mottled-sn12).
+'ncmod-causale'(for, strain-cl16, glimpse-sn11).
+'subj-actor'(strain-cl16, who-sn10).
+tense(pres, '_', imagine).
+voice(active, '_', imagine).
+tense(past, '_', dress).
+voice(active, '_', dress).
+tense(past, '_', bear).
+voice(active, '_', bear).
+tense(past, '_', strain).
+voice(active, '_', strain).
+'ncmod-specif'(be-cl15, 'Franklin').
+'ncmod-specif'(be-cl15, 'Franklin').
+'ncmod-specif'(be-cl15, 'Franklin').
+'ncmod-specif'(be-cl15, 'Franklin').
+tense(pres, '_', be).
+voice(active, '_', be).
+
+Semantic Interpretation and Informational Structure
+
+[15, indirect, strain, past, active, nil, nil, nil, indic, plainly, attivita]
+sinfo(15, main/prop, external, factive, culminated, foreground, attivita, strain, past, effect, objective, nil)
+
+
+aleap9
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap9, 15, objective, narration, past, strain, foreground, down, down(14-15))
+
+
+aleap10
+in 1754 Franklin , , who was not_yet fifty , , was physically trim , , with the thick neck and sinewy arms of a swimmer , , for in_fact he began most days with a lengthy swim ( the best workout , , he thought , , for maintaining one-s_ physical_fitness ) ) . 
+
+
+*********************************************************************************
+aleap10
+Ratio of Tags per Word for Sentence no: 10
+Word Ambiguity Ratio: 1.4
+Lookahead Start Active Chart
+0-[p-in] 1-[d-1754] 2-[n-Franklin] 3-[x- (,)] 4-[x- (,)] 5-[r-who, w-who] 6-[v-was] 7-[av-not_yet] 8-[a-fifty, n-fifty] 9-[x- (,)] 10-[x- (,)] 11-[v-was] 12-[av-physically] 13-[a-trim, n-trim, v-trim] 14-[x- (,)] 15-[x- (,)] 16-[p-with] 17-[d-the] 18-[a-thick, av-thick, n-thick] 19-[n-neck, v-neck] 20-[e-and] 21-[a-sinewy, n-sinewy] 22-[n-arms, v-arms] 23-[p-of] 24-[d-a] 25-[n-swimmer] 26-[x- (,)] 27-[x- (,)] 28-[e-for, p-for, s-for] 29-[av-in_fact] 30-[r-he] 31-[v-began] 32-[av-most, d-most, n-most, r-most] 33-[n-days, nt-days] 34-[p-with] 35-[d-a] 36-[a-lengthy] 37-[v-swim] 38-[x- (] 39-[d-the] 40-[a-best, av-best, n-best, v-best] 41-[n-workout] 42-[x- (,)] 43-[x- (,)] 44-[r-he] 45-[n-thought, v-thought] 46-[x- (,)] 47-[x- (,)] 48-[e-for, p-for, s-for] 49-[a-maintaining, v-maintaining] 50-[ng-one-s_] 51-[n-physical_fitness] 52-[x-)] 53-[x-)] 54-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.21818
+0-[p-in] 1-[d-1754] 2-[n-Franklin] 3-[x- (,)] 4-[x- (,)] 5-[r-who, w-who] 6-[v-was] 7-[av-not_yet] 8-[a-fifty, n-fifty] 9-[x- (,)] 10-[x- (,)] 11-[v-was] 12-[av-physically] 13-[v-trim] 14-[x- (,)] 15-[x- (,)] 16-[p-with] 17-[d-the] 18-[a-thick] 19-[n-neck] 20-[e-and] 21-[a-sinewy, n-sinewy] 22-[n-arms] 23-[p-of] 24-[d-a] 25-[n-swimmer] 26-[x- (,)] 27-[x- (,)] 28-[e-for, p-for, s-for] 29-[av-in_fact] 30-[r-he] 31-[v-began] 32-[av-most, d-most, n-most, r-most] 33-[n-days, nt-days] 34-[p-with] 35-[d-a] 36-[a-lengthy] 37-[v-swim] 38-[x- (] 39-[d-the] 40-[a-best] 41-[n-workout] 42-[x- (,)] 43-[x- (,)] 44-[r-he] 45-[v-thought] 46-[x- (,)] 47-[x- (,)] 48-[e-for, p-for, s-for] 49-[a-maintaining, v-maintaining] 50-[ng-one-s_] 51-[n-physical_fitness] 52-[x-)] 53-[x-)] 54-[x- .] 
+aleap10
+
+PennTreebank Style Tagging
+
+10
+in-in
+1754-cd
+Franklin-nnp
+(,)-pun
+(,)-pun
+who-wdt
+was-vbd
+not_yet-rb
+fifty-cd
+(,)-pun
+(,)-pun
+was-vbd
+physically-rb
+trim-vbd
+(,)-pun
+(,)-pun
+with-in
+the-dt
+thick-jj
+neck-nn
+and-cc
+sinewy-jj
+arms-nns
+of-in
+a-dt
+swimmer-nn
+(,)-pun
+(,)-pun
+for-in
+in_fact-rb
+he-prp
+began-vbd_vbn
+most-jjs
+days-nns
+with-in
+a-dt
+lengthy-nn
+swim-vbd
+(-pun
+the-dt
+best-jjs
+workout-nn
+(,)-pun
+(,)-pun
+he-prp
+thought-vbn_jj
+(,)-pun
+(,)-pun
+for-in
+maintaining-vbg
+one-s_-nn-pos
+physical_fitness-nns
+)-pun
+)-pun
+. - punto
+
+Tagging and Syntactic Constituency
+
+[in-p, 1754-num, Franklin-n, (,)-punt, (,)-punt, who-rel, was-ause, not_yet-avv, fifty-num, (,)-punt, (,)-punt, was-ause, physically-avv, trim-vin, (,)-punt, (,)-punt, with-p, the-art, thick-ag, neck-n, and-cong, sinewy-ag, arms-n, of-p, a-art, swimmer-n, (,)-punt, (,)-punt, for-p, in_fact-avv, he-pers, began-vt, most-q, days-nt, with-p, a-art, lengthy-n, swim-vin, (-par, the-art, best-ag, workout-n, (,)-punt, (,)-punt, he-pers, thought-vppt, (,)-punt, (,)-punt, for-p, maintaining-vin, one-s_-ng, physical_fitness-n, )-par, )-par, . - punto]
+
+cp-[sp-[in-p-sp, 1754-num-sn, Franklin-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], f2-[f2-[who-rel-f2], f-[subj-pro, ibar-[was-ause-ibar], savv-[not_yet-avv-savv], sn-[fifty-num-sn]]], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], ibar-[was-ause-ibar, physically-avv-ibar, trim-vppt-ibar], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sp-[with-p-sp, the-art-sn, thick-ag-sn, neck-n-sn], fc-[and-cong-fc], sn-[sinewy-ag-sn, arms-n-sn, mod-[of-p-sp, a-art-sn, swimmer-n-sn]], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sp-[for-p-sp, in_fact-avv-savv], f-[subj-[he-pers-sn], ibar-[began-vt-ibar], fac-[fac-[nil], subj-[most-q-sn, days-nt-sn, obl-[with-p-sp, a-art-sn, lengthy-n-100]], ibar-[swim-vin-ibar], fp-[ (-par-fp], sn-[the-art-sn, best-ag-sn, workout-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], f-[subj-[he-pers-sn], ibar-[thought-vppt-sv3], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], vcomp-[for-p-_G15592, maintaining-vin-sv5], sn-[one-s_-ng-sn, physical_fitness-n-sn], fp-[)-par-fp], fp-[)-par-fp], cp-[. - punto-cp]]]]] 
+
+10
+
+
+Functional and Syntactic Constituency
+
+obl-[in-p-sp, 1754-num-sn, Franklin-n-sn, f2-[f2-[who-rel-f2], f-[subj-pro, ibar-[was-ause-ibar], savv-[not_yet-avv-savv], sn-[fifty-num-sn]]], fp-[ (,)-punt-fp], ibar-[was-ause-ibar, physically-avv-ibar, trim-vppt-ibar], obl-[with-p-sp, the-art-sn, thick-ag-sn, neck-n-sn]]
+fc-[and-cong-fc]
+subj-[sinewy-ag-sn, arms-n-sn, mod-[of-p-sp, a-art-sn, swimmer-n-sn]]
+obl-[for-p-sp, in_fact-avv-savv]
+
+10
+
+
+Functional and Syntactic Constituency
+
+subj-[he-pers-sn]
+ibar-[began-vt-ibar]
+
+10
+
+
+Functional and Syntactic Constituency
+
+fac-[fac-[nil], subj-[most-q-sn, days-nt-sn, obl-[with-p-sp, a-art-sn, lengthy-n-100]], ibar-[swim-vin-ibar], obj-[the-art-sn, best-ag-sn, workout-n-sn]]
+
+10
+
+
+Functional and Syntactic Constituency
+
+subj-[he-pers-sn]
+ibar-[thought-vppt-sv3]
+vcomp-[for-p-_G15592, maintaining-vin-sv5]
+obj-[one-s_-ng-sn, physical_fitness-n-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([4-[], 3-[[he]-0-[pers=3, mas, sing, [umano], agent]/sn10], 2-[], 1-[[he]-0-[pers=3, mas, sing, [umano], agent]/sn15]])
+ext_pron(think, [he])
+ante(begin, he, he)
+
+###########   ANAPHORA RESOLUTION   ###########
+he  resolved as  man
+
+############   TOPICS   ############
+MAIN TOPIC:  man
+main  resolved as  man  with semantic index  id19
+SECONDARY TOPIC:  'Franklin'
+POTENTIAL TOPICS:  physical_fitness-npr workout-npr in_fact-npr 
+
+
+Augmented Head Dependent Indexed Structures
+
+ante(begin, he, he).
+ext(think, [he]).
+'coord-prop'(and, maintain-cl23, swim-cl21).
+'ncmod-specif'(physical_fitness-sn16, 'one-s_').
+'subj-agent'(maintain-cl23, he-sn15).
+'obj-theme_aff'(maintain-cl23, physical_fitness-sn16).
+'xcomp-purpose'(for, think-cl22, maintain-cl23).
+tense(past, '_', maintain).
+voice(active, '_', maintain).
+'subj-agent'(think-cl22, he-sn15).
+'adj-mod'(trim, physically).
+aux(trim, was).
+tense(past, '_', think).
+voice(active, '_', think).
+'coord-prop'(and, swim, begin-cl20).
+'ccomp-prop'(that, swim, begin-cl20).
+det(workout-sn12, the).
+mod(sn12, workout, best).
+'ncmod-specif'(days-sn11, lengthy).
+det(days-sn11, a).
+det(lengthy-sn14, a).
+det(lengthy-sn13, a).
+'obj-theme_aff'(swim-cl21, workout-sn12).
+'subj-actor'(swim-cl21, days-sn11).
+det(sn11, days, most).
+'adj-mod'(trim, physically).
+aux(trim, was).
+tense(pres, '_', swim).
+voice(active, '_', swim).
+'coord-prop'(and, begin-cl20, be-cl19).
+'subj-agent'(begin-cl20, he-sn10).
+'adj-mod'(trim, physically).
+aux(trim, was).
+tense(past, '_', begin).
+voice(active, '_', begin).
+'ncmod-specif'(arms-sn2, swimmer).
+det(arms-sn2, a).
+det(swimmer-sn8, a).
+det(swimmer-sn7, a).
+mod(sn2, arms, sinewy).
+'ncmod-specif'('Franklin'-sn1, neck).
+'ncmod-specif'('Franklin'-sn1, thick).
+'xcomp-prop'(be-cl19, fifty-sn5).
+'adj-subj_disc'(be-cl19, not_yet-sn4).
+'cmod-topic'(who, 'Franklin'-sn1, be).
+'subj-theme_unaff'(be-cl19, 'Franklin'-sn1).
+tense(past, '_', be).
+voice(active, '_', be).
+'iobj-benef'(for, be-cl17, in_fact-sn3).
+'adj-agent'(be-cl17, arms-sn2).
+'ncmod-locativo'(in, be-cl17, 'Franklin'-sn1).
+det(sn1, 'Franklin', 1754).
+'adj-mod'(trim, physically).
+aux(trim, was).
+tense(past, '_', trim).
+voice(passive, was, trim).
+
+Semantic Interpretation and Informational Structure
+
+[16, indirect, think, past, active, nil, nil, nil, indic, nil, attivita]
+[17, indirect, swim, pres, active, nil, nil, nil, indic, nil, attivita]
+[18, indirect, maintain, past, active, nil, nil, nil, indic, nil, attivita]
+[19, indirect, begin, past, active, nil, nil, nil, indic, nil, attivita]
+[20, indirect, be, past, active, nil, nil, nil, indic, nil, attivita]
+sinfo(16, main/prop, external, factive, culminated, foreground, attivita, think, past, narration, objective, nil)
+sinfo(17, main/prop, external, factive, null, background, attivita, swim, pres, explanation, objective, nil)
+sinfo(18, main/prop, external, factive, culminated, foreground, attivita, maintain, past, effect, objective, nil)
+sinfo(19, main/prop, external, factive, culminated, foreground, attivita, begin, past, inception, objective, nil)
+sinfo(20, xcomp/_G89719, internal, nonfactive, null, background, stato, fifty, nil, question, objective, nil)
+
+
+aleap10
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap10, 18, objective, narration, past, maintain, foreground, down, down(15-18))
+sd_structure(aleap10, 16, objective, narration, past, think, foreground, level, down(15-16))
+sd_structure(aleap10, 17, objective, explanation, pres, swim, background, level, down(15-17))
+sd_structure(aleap10, 19, objective, inception, past, begin, foreground, down, down(15-19))
+sd_structure(aleap10, 20, objective, question, nil, fifty, background, down, down(15-20))
+
+
+aleap11
+If he was dressed as normal , , Franklin wore an expensive lace shirt , silver buckled shoes , and a wig with long brown curls , which lent an air of priggishness , , if_not unctuousness , , to his appearance . 
+
+
+*********************************************************************************
+aleap11
+Ratio of Tags per Word for Sentence no: 11
+Word Ambiguity Ratio: 1.46512
+Lookahead Start Active Chart
+0-[s-if] 1-[r-he] 2-[v-was] 3-[v-dressed] 4-[d-as, e-as, p-as, s-as] 5-[a-normal, n-normal] 6-[x- (,)] 7-[x- (,)] 8-[n-Franklin] 9-[v-wore] 10-[d-an] 11-[a-expensive] 12-[n-lace, v-lace] 13-[n-shirt, v-shirt] 14-[x- (,)] 15-[a-silver, n-silver, v-silver] 16-[a-buckled, v-buckled] 17-[n-shoes, v-shoes] 18-[x- (,)] 19-[e-and] 20-[d-a] 21-[n-wig, v-wig] 22-[p-with] 23-[a-long, av-long, n-long, v-long] 24-[a-brown, n-brown, v-brown] 25-[n-curls, v-curls] 26-[x- (,)] 27-[r-which, w-which] 28-[n-lent, v-lent] 29-[d-an] 30-[n-air, v-air] 31-[p-of] 32-[n-priggishness] 33-[x- (,)] 34-[x- (,)] 35-[av-if_not] 36-[n-unctuousness] 37-[x- (,)] 38-[x- (,)] 39-[p-to] 40-[a-his] 41-[n-appearance] 42-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.27907
+0-[s-if] 1-[r-he] 2-[v-was] 3-[v-dressed] 4-[d-as, e-as, p-as, s-as] 5-[a-normal, n-normal] 6-[x- (,)] 7-[x- (,)] 8-[n-Franklin] 9-[v-wore] 10-[d-an] 11-[a-expensive] 12-[n-lace] 13-[n-shirt] 14-[x- (,)] 15-[n-silver] 16-[a-buckled, v-buckled] 17-[n-shoes] 18-[x- (,)] 19-[e-and] 20-[d-a] 21-[n-wig] 22-[p-with] 23-[a-long, av-long, n-long, v-long] 24-[a-brown, n-brown, v-brown] 25-[n-curls, v-curls] 26-[x- (,)] 27-[r-which, w-which] 28-[v-lent] 29-[d-an] 30-[n-air] 31-[p-of] 32-[n-priggishness] 33-[x- (,)] 34-[x- (,)] 35-[av-if_not] 36-[n-unctuousness] 37-[x- (,)] 38-[x- (,)] 39-[p-to] 40-[a-his] 41-[n-appearance] 42-[x- .] 
+aleap11
+
+PennTreebank Style Tagging
+
+11
+if-in
+he-prp
+was-vbd
+dressed-vbd
+as-cc
+normal-jj
+(,)-pun
+(,)-pun
+Franklin-nnp
+wore-vbn_jj
+an-dt
+expensive-jj
+lace-nn
+shirt-nn
+(,)-pun
+silver-nn
+buckled-jj
+shoes-nns
+(,)-pun
+and-cc
+a-dt
+wig-nn
+with-in
+long-jj
+brown-jj
+curls-nns
+(,)-pun
+which-wdt
+lent-vbn_jj
+an-dt
+air-nn
+of-in
+priggishness-nns
+(,)-pun
+(,)-pun
+if_not-rb
+unctuousness-nns
+(,)-pun
+(,)-pun
+to-to
+his-prp$
+appearance-nn
+. - punto
+
+Tagging and Syntactic Constituency
+
+[if-cosu, he-pers, was-ause, dressed-vin, as-ccom, normal-ag, (,)-punt, (,)-punt, Franklin-n, wore-vppt, an-art, expensive-ag, lace-n, shirt-n, (,)-punt, silver-n, buckled-ag, shoes-n, (,)-punt, and-cong, a-art, wig-n, with-p, long-ag, brown-ag, curls-n, (,)-punt, which-rel, lent-vppt, an-art, air-n, of-p, priggishness-n, (,)-punt, (,)-punt, if_not-avv, unctuousness-n, (,)-punt, (,)-punt, to-p, his-poss, appearance-n, . - punto]
+
+fs-[fs-[if-cosu-fs], subj-[he-pers-sn], ibar-[was-ause-ibar, dressed-vppt-ibar], sq-[as-ccom-sq], sa-[normal-ag-sa], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], f-[subj-[Franklin-n-sn], ibar-[wore-vppt-sv3], sn-[an-art-sn, expensive-ag-sn, lace-n-sn, shirt-n-sn], fp-[ (,)-punt-fp], sn-[silver-n-sn], sn-[buckled-ag-sn, shoes-n-sn], fp-[ (,)-punt-fp], fc-[fc-[and-cong-fc], sn-[a-art-sn, wig-n-sn], sp-[with-p-sp, long-ag-sn, brown-ag-sn, curls-n-sn], fp-[ (,)-punt-fp], f2-[which-rel-f2], ibar-[lent-vppt-sv3], sn-[an-art-sn, air-n-sn, mod-[of-p-sp, priggishness-n-sn]], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], savv-[if_not-avv-savv], sn-[unctuousness-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sp-[to-p-sp, his-poss-sn, appearance-n-sn], cp-[. - punto-cp]]]] 
+
+11
+
+
+Functional and Syntactic Constituency
+
+fs-[fs-[if-cosu-fs], subj-[he-pers-sn], ibar-[was-ause-ibar, dressed-vppt-ibar], xcomp-[as-ccom-sq, normal-ag-sa]]
+
+11
+
+
+Functional and Syntactic Constituency
+
+subj-[Franklin-n-sn]
+ibar-[wore-vppt-sv3]
+xcomp-[an-art-sn, expensive-ag-sn, lace-n-sn, shirt-n-sn]
+obj-[silver-n-sn, mod-[buckled-ag-sn, shoes-n-sn]]
+
+11
+
+
+Functional and Syntactic Constituency
+
+fc-[fc-[and-cong-fc], subj-[a-art-sn, wig-n-sn], obl-[with-p-sp, long-ag-sn, brown-ag-sn, curls-n-sn]]
+f3-[ (,)-punt-fp]
+f2-[f2-[which-rel-f2], ibar-[lent-vppt-sv3], obj-[an-art-sn, air-n-sn, mod-[of-p-sp, priggishness-n-sn]], savv-[if_not-avv-savv], obj-[unctuousness-n-sn]]
+obl-[to-p-sp, his-poss-sn, appearance-n-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([5-[[he]-0-[pers=3, mas, sing, [umano], theme_aff]/sn1], 4-[], 3-[]])
+ante(dress, he, Franklin)
+main  resolved as  Franklin  with semantic index  id22
+second  resolved as  shirt  with semantic index  id26
+
+############   TOPICS   ############
+MAIN TOPIC:  'Franklin'
+SECONDARY TOPIC:  shirt
+POTENTIAL TOPICS:  lace-npr unctuousness-npr buckled-npr 
+
+
+Augmented Head Dependent Indexed Structures
+
+ante(dress, he, 'Franklin').
+'coord-prop'(and, lend-cl29, wear-cl26).
+'cmod-coord'(and, lend-cl29, wear-cl26).
+'ncmod-specif'(be-cl27, appearance).
+'ncmod-poss'(be-cl27, his).
+'ncmod-specif'(air-sn13, priggishness).
+det(air-sn13, an).
+'obj-theme'(lend-cl29, unctuousness-sn15).
+'adj-subj_disc'(lend-cl29, if_not-sn14).
+'obj-theme'(lend-cl29, air-sn13).
+'obj-theme'(lend-cl29, which-sn12).
+'cmod-topic'(which, be-cl27, lend).
+'subj-actor'(lend-cl29, be-cl27).
+aux(dress, was).
+tense(past, '_', lend).
+voice(active, '_', lend).
+'cmod-subord'(if, wear-cl26, dress-cl25).
+'ncmod-specif'(silver-sn7, shoes).
+'ncmod-specif'(silver-sn7, buckled).
+det(shirt-sn6, an).
+'ncmod-specif'(shirt-sn6, lace).
+mod(sn6, shirt, expensive).
+'obj-theme_aff'(wear-cl26, silver-sn7).
+'xcomp-prop'(wear-cl26, shirt-sn6).
+'subj-actor'(wear-cl26, 'Franklin'-sn5).
+aux(dress, was).
+tense(past, '_', wear).
+voice(active, '_', wear).
+'cmod-subord'(if, dress-cl25).
+'cmod-subord'(if, dress-cl25, nil).
+'xcomp-prop'(dress-cl25, normal-sn4).
+'subj-theme_aff'(dress-cl25, he-sn3).
+'xcomp-prop'(dress-cl24, normal-sn2).
+'subj-theme_aff'(dress-cl24, he-sn1).
+aux(dress, was).
+tense(past, '_', dress).
+voice(passive, was, dress).
+
+Semantic Interpretation and Informational Structure
+
+[21, indirect, wear, past, active, nil, nil, nil, indic, nil, attivita]
+[22, indirect, lend, past, active, nil, nil, nil, indic, nil, attivita]
+[23, indirect, dress, pluper, passive, nil, nil, nil, indic, nil, attivita, cmod, subord, if, nil, dress]
+[24, indirect, dress, pluper, passive, nil, nil, nil, indic, nil, attivita]
+sinfo(21, main/prop, external, factive, culminated, foreground, attivita, wear, past, effect, objective, nil)
+sinfo(22, main/prop, external, factive, culminated, foreground, attivita, lend, past, effect, objective, nil)
+sinfo(23, adj/hypoth, internal, nonfactive, null, background, attivita, dress, pluper, hypothesis, subjective, nil)
+sinfo(24, main/prop, external, factive, null, background, attivita, dress, pluper, result, objective, nil)
+
+
+aleap11
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap11, 24, objective, cause, pluper, dress, background, down, down(20-24))
+sd_structure(aleap11, 21, objective, effect, past, wear, foreground, down, down(20-21))
+sd_structure(aleap11, 22, objective, effect, past, lend, foreground, down, down(20-22))
+sd_structure(aleap11, 23, subjective, hypothesis, pluper, dress, background, down, down(20-23))
+
+
+aleap12
+Suddenly , , not_far ahead , , and on his left , , Franklin spotted Albany . 
+
+
+*********************************************************************************
+aleap12
+Ratio of Tags per Word for Sentence no: 12
+Word Ambiguity Ratio: 1.23529
+Lookahead Start Active Chart
+0-[av-Suddenly] 1-[x- (,)] 2-[x- (,)] 3-[av-not_far] 4-[av-ahead] 5-[x- (,)] 6-[x- (,)] 7-[e-and] 8-[av-on, p-on] 9-[a-his] 10-[a-left, av-left, n-left, v-left] 11-[x- (,)] 12-[x- (,)] 13-[n-Franklin] 14-[v-spotted] 15-[n-Albany] 16-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1
+0-[av-Suddenly] 1-[x- (,)] 2-[x- (,)] 3-[av-not_far] 4-[av-ahead] 5-[x- (,)] 6-[x- (,)] 7-[e-and] 8-[p-on] 9-[a-his] 10-[a-left] 11-[x- (,)] 12-[x- (,)] 13-[n-Franklin] 14-[v-spotted] 15-[n-Albany] 16-[x- .] 
+aleap12
+
+PennTreebank Style Tagging
+
+12
+Suddenly-rb
+(,)-pun
+(,)-pun
+not_far-rb
+ahead-rb
+(,)-pun
+(,)-pun
+and-cc
+on-in
+his-prp$
+left-nn
+(,)-pun
+(,)-pun
+Franklin-nnp
+spotted-vbd_vbn
+Albany-nnp
+. - punto
+
+Tagging and Syntactic Constituency
+
+[Suddenly-avv, (,)-punt, (,)-punt, not_far-avv, ahead-avv, (,)-punt, (,)-punt, and-cong, on-p, his-poss, left-n, (,)-punt, (,)-punt, Franklin-n, spotted-vt, Albany-n, . - punto]
+
+f-[savv-[Suddenly-avv-savv], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], savv-[not_far-avv-savv, ahead-avv-savv], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], fc-[and-cong-fc], sp-[on-p-sp, his-poss-sn, left-ag-100], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sn-[Franklin-n-sn], mod-[spotted-vppt-sv3], sn-[Albany-n-sn], cp-[. - punto-cp]] 
+
+12
+
+
+Functional and Syntactic Constituency
+
+savv-[Suddenly-avv-savv]
+savv-[not_far-avv-savv, ahead-avv-savv]
+fc-[fc-[and-cong-fc], obl-[on-p-sp, his-poss-sn, left-ag-100], obj-[Franklin-n-sn]]
+ibar-[spotted-vppt-sv3]
+obj-[Albany-n-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([1-[]])
+
+############   TOPICS   ############
+MAIN TOPIC:  'Albany'
+SECONDARY TOPIC:  'Franklin'
+second  identified as  Franklin  with semantic index  id22
+
+
+Augmented Head Dependent Indexed Structures
+
+'adj-locative'(in, spot, ahead).
+'adj-locative'(in, spot, suddenly).
+'cmod-coord'(and, spot).
+'subj-actor'(spot-cl30, 'Albany'-sn1).
+tense(past, '_', spot).
+voice(active, '_', spot).
+
+Semantic Interpretation and Informational Structure
+
+[25, indirect, spot, past, active, nil, nil, nil, indic, ahead, attivita, cmod, coord, and, spot, spot]
+sinfo(25, adj/coord, external, factive, culminated, foreground, attivita, spot, past, effect, objective, nil)
+
+
+aleap12
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap12, 25, objective, narration, past, spot, foreground, down, down(23-25))
+
+
+aleap13
+This was his first trip to what , , by American standards , was a very old town . 
+
+
+*********************************************************************************
+aleap13
+Ratio of Tags per Word for Sentence no: 13
+Word Ambiguity Ratio: 1.52632
+Lookahead Start Active Chart
+0-[a-this, r-this] 1-[v-was] 2-[a-his] 3-[av-first, d-first, e-first, n-first] 4-[n-trip, v-trip] 5-[p-to] 6-[r-what, w-what] 7-[x- (,)] 8-[x- (,)] 9-[p-by] 10-[a-American, n-American] 11-[a-standards, n-standards] 12-[x- (,)] 13-[v-was] 14-[d-a] 15-[a-very, d-very] 16-[a-old, n-old] 17-[n-town] 18-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.42105
+0-[r-this] 1-[v-was] 2-[a-his] 3-[av-first, d-first, e-first, n-first] 4-[n-trip, v-trip] 5-[p-to] 6-[r-what, w-what] 7-[x- (,)] 8-[x- (,)] 9-[p-by] 10-[n-American] 11-[a-standards, n-standards] 12-[x- (,)] 13-[v-was] 14-[d-a] 15-[a-very, d-very] 16-[a-old, n-old] 17-[n-town] 18-[x- .] 
+aleap13
+
+PennTreebank Style Tagging
+
+13
+this-dt
+was-vbd
+his-prp$
+first-rb
+trip-nn
+to-to
+what-wdt
+(,)-pun
+(,)-pun
+by-in
+American-nnp
+standards-nns
+(,)-pun
+was-vbd
+a-dt
+very-rb
+old-jj
+town-nn
+. - punto
+
+Tagging and Syntactic Constituency
+
+[this-pron, was-ause, his-poss, first-avv, trip-n, to-p, what-rel, (,)-punt, (,)-punt, by-pda, American-n, standards-n, (,)-punt, was-ause, a-art, very-in, old-ag, town-n, . - punto]
+
+f-[subj-[this-pron-sn], ibar-[was-ause-ibar], sn-[his-poss-sn], savv-[first-avv-savv], sn-[trip-n-sn], sp-[to-p-sp], f2-[what-rel-f2], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], spda-[by-pda-spda, American-n-sn, standards-n-sn], fp-[ (,)-punt-fp], ibar-[was-ause-ibar], sn-[a-art-sn, very-in-sn, old-ag-sn, town-n-sn], cp-[. - punto-cp]] 
+
+13
+
+
+Functional and Syntactic Constituency
+
+subj-[this-pron-sn]
+ibar-[was-ause-ibar]
+xcomp-[his-poss-sn]
+savv-[first-avv-savv]
+obj-[trip-n-sn]
+sp-[to-p-sp]
+f2-[f2-[what-rel-f2]]
+obl-[by-pda-spda, American-n-sn, standards-n-sn]
+ibar-[was-ause-ibar]
+xcomp-[a-art-sn, very-in-sn, old-ag-sn, town-n-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([1-[]])
+
+############   TOPICS   ############
+MAIN TOPIC:  first
+SECONDARY TOPIC:  'Albany'
+second  identified as  Albany  with semantic index  id30
+
+
+Augmented Head Dependent Indexed Structures
+
+'adj-mod'(in, be, first).
+det(town-sn5, a).
+mod(sn5, town, old).
+'ncmod-specif'(standards-sn4, 'American').
+'subj-actor'(be-cl32, standards-sn4).
+'xcomp-theme_unaff'(be-cl32, town-sn5).
+'xcomp-purpose'(nil, be-cl31, be-cl32).
+det(sn5, town, very).
+'arg_mod-agent'(by, be-cl31, standards-sn4).
+'ncmod-modal'(to, be-cl31, []-[]).
+'xcomp-theme'(be-cl31, trip-sn3).
+'xcomp-prop'(be-cl31, his-sn2).
+'subj-theme_unaff'(be-cl31, this-sn1).
+tense(past, '_', be).
+voice(active, '_', be).
+
+Semantic Interpretation and Informational Structure
+
+[26, indirect, be, past, active, nil, nil, nil, indic, first, attivita, be, adj, mod, in, first, [be-xcomp-purpose-nil-be]]
+[27, indirect, be, past, active, nil, nil, nil, indic, first, attivita, adj, mod, in, first, be]
+sinfo(26, main/prop, external, factive, culminated, foreground, attivita, be, past, narration, objective, nil)
+sinfo(27, main/prop, external, factive, culminated, foreground, attivita, be, past, result, objective, nil)
+
+
+aleap13
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap13, 27, objective, narration, past, be, foreground, down, down(25-27))
+sd_structure(aleap13, 26, objective, narration, past, be, foreground, level, down(25-26))
+
+
+aleap14
+the French had established a settlement here more_than 200 years before , , then came the Dutch , , and finally the English , , who named the place Albany , or Albainn , , the ancient name for the Scottish_Highlands , , to which this region bore a resemblance . 
+
+
+*********************************************************************************
+aleap14
+Ratio of Tags per Word for Sentence no: 14
+Word Ambiguity Ratio: 1.43137
+Lookahead Start Active Chart
+0-[d-the] 1-[a-French, n-French] 2-[v-had] 3-[a-established, v-established] 4-[d-a] 5-[n-settlement] 6-[av-here, n-here] 7-[a-more_than, d-more_than, e-more_than, s-more_than] 8-[d-200] 9-[n-years, nt-years] 10-[av-before, p-before, s-before] 11-[x- (,)] 12-[x- (,)] 13-[av-then, e-then] 14-[v-came] 15-[d-the] 16-[a-Dutch, n-Dutch] 17-[x- (,)] 18-[x- (,)] 19-[e-and] 20-[av-finally, e-finally] 21-[d-the] 22-[a-English, n-English] 23-[x- (,)] 24-[x- (,)] 25-[r-who, w-who] 26-[v-named] 27-[d-the] 28-[n-place, v-place] 29-[n-Albany] 30-[x- (,)] 31-[e-or] 32-[n-Albainn] 33-[x- (,)] 34-[x- (,)] 35-[d-the] 36-[a-ancient, n-ancient] 37-[n-name, v-name] 38-[e-for, p-for, s-for] 39-[d-the] 40-[n-Scottish_Highlands] 41-[x- (,)] 42-[x- (,)] 43-[p-to] 44-[r-which, w-which] 45-[a-this, r-this] 46-[n-region] 47-[n-bore, v-bore] 48-[d-a] 49-[n-resemblance] 50-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.23529
+0-[d-the] 1-[n-French] 2-[v-had] 3-[v-established] 4-[d-a] 5-[n-settlement] 6-[av-here] 7-[a-more_than, d-more_than, e-more_than, s-more_than] 8-[d-200] 9-[n-years, nt-years] 10-[av-before, p-before, s-before] 11-[x- (,)] 12-[x- (,)] 13-[av-then, e-then] 14-[v-came] 15-[d-the] 16-[n-Dutch] 17-[x- (,)] 18-[x- (,)] 19-[e-and] 20-[av-finally, e-finally] 21-[d-the] 22-[n-English] 23-[x- (,)] 24-[x- (,)] 25-[r-who, w-who] 26-[v-named] 27-[d-the] 28-[n-place] 29-[n-Albany] 30-[x- (,)] 31-[e-or] 32-[n-Albainn] 33-[x- (,)] 34-[x- (,)] 35-[d-the] 36-[a-ancient, n-ancient] 37-[n-name] 38-[p-for] 39-[d-the] 40-[n-Scottish_Highlands] 41-[x- (,)] 42-[x- (,)] 43-[p-to] 44-[r-which, w-which] 45-[a-this, r-this] 46-[n-region] 47-[v-bore] 48-[d-a] 49-[n-resemblance] 50-[x- .] 
+aleap14
+
+PennTreebank Style Tagging
+
+14
+the-dt
+French-nnp
+had-vbd
+established-vbd
+a-dt
+settlement-nn
+here-rb
+more_than-jjr-in
+200-cd
+years-nns
+before-rb
+(,)-pun
+(,)-pun
+then-in
+came-vbd_vbn
+the-dt
+Dutch-nnp
+(,)-pun
+(,)-pun
+and-cc
+finally-rb
+the-dt
+English-nnp
+(,)-pun
+(,)-pun
+who-wdt
+named-vbn_jj
+the-dt
+place-nn
+Albany-nnp
+(,)-pun
+or-cc
+Albainn-nnp
+(,)-pun
+(,)-pun
+the-dt
+ancient-jj
+name-nn
+for-in
+the-dt
+Scottish_Highlands-nns
+(,)-pun
+(,)-pun
+to-to
+which-wdt
+this-dt
+region-nn
+bore-vbd_vbn
+a-dt
+resemblance-nn
+. - punto
+
+Tagging and Syntactic Constituency
+
+[the-art, French-n, had-ausa, established-vin, a-art, settlement-n, here-avv, more_than-ag, 200-num, years-nt, before-avv, (,)-punt, (,)-punt, then-ccong, came-vt, the-art, Dutch-n, (,)-punt, (,)-punt, and-cong, finally-avv, the-art, English-n, (,)-punt, (,)-punt, who-rel, named-vppt, the-art, place-n, Albany-n, (,)-punt, or-cong, Albainn-n, (,)-punt, (,)-punt, the-art, ancient-ag, name-n, for-p, the-art, Scottish_Highlands-n, (,)-punt, (,)-punt, to-p, which-rel, this-ag, region-n, bore-vt, a-art, resemblance-n, . - punto]
+
+f-[subj-[the-art-sn, French-n-sn], ibar-[had-ausa-ibar, established-vppt-ibar], sn-[a-art-sn, settlement-n-sn], savv-[here-avv-savv], sn-[more_than-ag-sn, 200-num-sn, years-nt-sn], savv-[before-avv-savv], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], cp-[then-ccong-cp], ibar-[came-vt-ibar], sn-[the-art-sn, Dutch-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], fc-[and-cong-fc], savv-[finally-avv-savv], sn-[the-art-sn, English-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], f2-[f2-[who-rel-f2], f-[subj-pro, ibar-[named-vppt-sv3], sn-[the-art-sn, place-n-sn, Albany-n-sn]]], fp-[ (,)-punt-fp], fc-[or-cong-fc], sn-[Albainn-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sn-[the-art-sn, ancient-ag-sn, name-n-sn, obl-[for-p-sp, the-art-sn, Scottish_Highlands-n-sn]], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sp-[to-p-sp], f2-[f2-[which-rel-f2], f-[subj-[this-ag-sn, region-n-sn], ibar-[bore-vt-ibar], sn-[a-art-sn, resemblance-n-sn], cp-[. - punto-cp]]]] 
+
+14
+
+
+Functional and Syntactic Constituency
+
+subj-[the-art-sn, French-n-sn]
+ibar-[had-ausa-ibar, established-vppt-ibar]
+obj-[a-art-sn, settlement-n-sn]
+savv-[here-avv-savv]
+savv-[more_than-ag-sn, 200-num-sn, years-nt-sn]
+savv-[before-avv-savv]
+cp-[then-ccong-cp]
+ibar-[came-vt-ibar]
+obj-[the-art-sn, Dutch-n-sn]
+fc-[and-cong-fc]
+savv-[finally-avv-savv]
+obj-[the-art-sn, English-n-sn, f2-[f2-[who-rel-f2], f-[subj-pro, ibar-[named-vppt-sv3], sn-[the-art-sn, place-n-sn, Albany-n-sn]]], f3-[ (,)-punt-fp], fc-[or-cong-fc], subj-[Albainn-n-sn], sn-[the-art-sn, ancient-ag-sn, name-n-sn, obl-[for-p-sp, the-art-sn, Scottish_Highlands-n-sn]], f3-[ (,)-punt-fp], sp-[to-p-sp], f2-[f2-[which-rel-f2], f-[subj-[this-ag-sn, region-n-sn], ibar-[bore-vt-ibar], sn-[a-art-sn, resemblance-n-sn]]]]
+
+Output of Anaphora Resolution Module
+
+all_prons([2-[], 1-[]])
+
+############   TOPICS   ############
+MAIN TOPIC:  'French'
+SECONDARY TOPIC:  first
+POTENTIAL TOPICS:  English-def settlement-npr Dutch-npr 
+second  identified as  first  with semantic index  id31
+
+
+Augmented Head Dependent Indexed Structures
+
+'adj-mod'(and, name, 'Scottish_Highlands').
+'ncmod-specif'('English'-sn11, 'Scottish_Highlands').
+'ncmod-specif'('English'-sn11, name).
+'ncmod-specif'('English'-sn11, ancient).
+'ncmod-specif'('English'-sn11, 'Albainn').
+det('Albany'-sn14, the).
+'ncmod-specif'('Albany'-sn14, place).
+'obj-theme_aff'(name-cl39, 'Albany'-sn14).
+'cmod-topic'(who, 'English'-sn11, name).
+'subj-actor'(name-cl39, 'English'-sn11).
+tense(past, '_', name).
+voice(active, '_', name).
+det(resemblance-sn13, a).
+mod(sn12, region, this).
+'xcomp-prop'(bear-cl37, resemblance-sn13).
+'subj-actor'(bear-cl37, region-sn12).
+'cmod-topic'(which, 'English'-sn11, bear).
+'obj-theme_aff'(bear-cl37, 'English'-sn11).
+tense(past, '_', bear).
+voice(active, '_', bear).
+'obj-theme'(come-cl35, 'English'-sn11).
+'adj-subj_disc'(come-cl35, finally-sn10).
+'adj-mod'(then, come, establish).
+'adj-mod'(in, establish, before).
+'adj-temporal'(in, establish, year).
+det(sn6, year, 200).
+'adj-mod'(in, establish, here).
+det('Dutch'-sn3, the).
+det(settlement-sn2, a).
+det('French'-sn1, the).
+'subj-actor'(come-cl34, 'French'-sn1).
+'obj-prop'(come-cl34, 'Dutch'-sn3).
+'xadj-result'(nil, establish-cl33, come-cl34).
+'obj-theme_aff'(establish-cl33, settlement-sn2).
+'subj-agent'(establish-cl33, 'French'-sn1).
+aux(establish, had).
+tense(past, '_', come).
+voice(active, '_', come).
+tense(past, '_', establish).
+voice(active, '_', establish).
+
+Semantic Interpretation and Informational Structure
+
+[28, indirect, name, past, active, nil, nil, nil, indic, nil, attivita, adj, mod, and, Scottish_Highlands, name]
+[29, indirect, establish, pluper, active, nil, nil, nil, indic, before, attivita, establish, adj, mod, in, before, [establish-adj-mod-in-here, establish-adj-mod-then-come]]
+[30, indirect, come, past, active, nil, nil, nil, indic, nil, attivita, come, adj, mod, then, establish, [come-xadj-result-nil-establish]]
+[31, indirect, bear, past, active, nil, nil, nil, indic, nil, attivita]
+sinfo(28, main/prop, external, factive, culminated, foreground, attivita, name, past, effect, objective, nil)
+sinfo(29, main/prop, external, factive, null, background, attivita, establish, pluper, narration, objective, nil)
+sinfo(30, main/prop, external, factive, culminated, foreground, attivita, come, past, result, objective, nil)
+sinfo(31, main/prop, external, factive, culminated, foreground, attivita, bear, past, narration, objective, nil)
+
+
+aleap14
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap14, 30, objective, cause, past, come, foreground, down, down(26-30))
+sd_structure(aleap14, 28, objective, effect, past, name, foreground, down, down(26-28))
+sd_structure(aleap14, 29, objective, narration, pluper, establish, background, level, down(26-29))
+sd_structure(aleap14, 31, objective, narration, past, bear, foreground, level, down(26-31))
+
+
+aleap15
+the English , , like their predecessors , , had erected a fort that served as a fur emporium , a venue for commerce with the Mohawk_Indians , , whose villages and verdant fields of corn dotted the landscape along this stretch of the Hudson_Valley . 
+
+
+*********************************************************************************
+aleap15
+Ratio of Tags per Word for Sentence no: 15
+Word Ambiguity Ratio: 1.43478
+Lookahead Start Active Chart
+0-[d-the] 1-[a-English, n-English] 2-[x- (,)] 3-[x- (,)] 4-[s-like, v-like] 5-[a-their] 6-[n-predecessors] 7-[x- (,)] 8-[x- (,)] 9-[v-had] 10-[v-erected] 11-[d-a] 12-[n-fort, v-fort] 13-[a-that, c-that, r-that] 14-[v-served] 15-[d-as, e-as, p-as, s-as] 16-[d-a] 17-[n-fur, v-fur] 18-[d-emporium, n-emporium] 19-[x- (,)] 20-[d-a] 21-[n-venue] 22-[e-for, p-for, s-for] 23-[n-commerce] 24-[p-with] 25-[d-the] 26-[n-Mohawk_Indians] 27-[x- (,)] 28-[x- (,)] 29-[r-whose, w-whose] 30-[n-villages] 31-[e-and] 32-[a-verdant, n-verdant] 33-[n-fields, v-fields] 34-[p-of] 35-[n-corn, v-corn] 36-[v-dotted] 37-[d-the] 38-[n-landscape, v-landscape] 39-[av-along, p-along] 40-[a-this, r-this] 41-[n-stretch, v-stretch] 42-[p-of] 43-[d-the] 44-[n-Hudson_Valley] 45-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.15217
+0-[d-the] 1-[n-English] 2-[x- (,)] 3-[x- (,)] 4-[s-like, v-like] 5-[a-their] 6-[n-predecessors] 7-[x- (,)] 8-[x- (,)] 9-[v-had] 10-[v-erected] 11-[d-a] 12-[n-fort] 13-[c-that] 14-[v-served] 15-[s-as] 16-[d-a] 17-[n-fur] 18-[n-emporium] 19-[x- (,)] 20-[d-a] 21-[n-venue] 22-[e-for, p-for, s-for] 23-[n-commerce] 24-[p-with] 25-[d-the] 26-[n-Mohawk_Indians] 27-[x- (,)] 28-[x- (,)] 29-[r-whose, w-whose] 30-[n-villages] 31-[e-and] 32-[a-verdant, n-verdant] 33-[n-fields] 34-[p-of] 35-[n-corn] 36-[v-dotted] 37-[d-the] 38-[n-landscape] 39-[av-along, p-along] 40-[a-this, r-this] 41-[n-stretch] 42-[p-of] 43-[d-the] 44-[n-Hudson_Valley] 45-[x- .] 
+aleap15
+
+PennTreebank Style Tagging
+
+15
+the-dt
+English-nnp
+(,)-pun
+(,)-pun
+like-vb
+their-prp$
+predecessors-nns
+(,)-pun
+(,)-pun
+had-vbd
+erected-vbn_jj
+a-dt
+fort-nn
+that-dt
+served-vbn_jj
+as-in
+a-dt
+fur-nn
+emporium-nn
+(,)-pun
+a-dt
+venue-nn
+for-in
+commerce-nn
+with-in
+the-dt
+Mohawk_Indians-nns
+(,)-pun
+(,)-pun
+whose-wp$
+villages-nns
+and-cc
+verdant-jj
+fields-nns
+of-in
+corn-nn
+dotted-vbn_jj
+the-dt
+landscape-nn
+along-in
+this-dt
+stretch-nn
+of-in
+the-dt
+Hudson_Valley-nnp
+. - punto
+
+Tagging and Syntactic Constituency
+
+[the-art, English-n, (,)-punt, (,)-punt, like-v, their-ag, predecessors-n, (,)-punt, (,)-punt, had-ausa, erected-vppt, a-art, fort-n, that-rel, served-vppt, as-cosu, a-art, fur-n, emporium-n, (,)-punt, a-art, venue-n, for-p, commerce-n, with-p, the-art, Mohawk_Indians-n, (,)-punt, (,)-punt, whose-relob, villages-n, and-cong, verdant-ag, fields-n, of-p, corn-n, dotted-vppt, the-art, landscape-n, along-p, this-ag, stretch-n, of-p, the-art, Hudson_Valley-n, . - punto]
+
+f-[sn-[the-art-sn, English-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sq-[like-ccom-sq], sn-[their-ag-sn, predecessors-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], ibar-[had-ausa-ibar, erected-vppt-ibar], sn-[a-art-sn, fort-n-sn, f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[served-vppt-sv3], sp-[as-p-sp, a-art-sn, fur-n-sn, emporium-n-sn]]]], fp-[ (,)-punt-fp], sn-[a-art-sn, venue-n-sn], sp-[for-p-sp, commerce-n-sn], sp-[with-p-sp, the-art-sn, Mohawk_Indians-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], cp-[whose-relob-cp], sn-[villages-n-sn], fc-[fc-[and-cong-fc], f-[subj-[verdant-ag-sn, fields-n-sn, mod-[of-p-sp, corn-n-sn]], ibar-[dotted-vppt-sv3], sn-[the-art-sn, landscape-n-sn], sp-[along-p-sp, this-ag-sn, stretch-n-sn, mod-[of-p-sp, the-art-sn, Hudson_Valley-n-sn]], cp-[. - punto-cp]]]] 
+
+15
+
+
+Functional and Syntactic Constituency
+
+subj-[the-art-sn, English-n-sn]
+adj-[like-ccom-sq]
+subj-[their-ag-sn, predecessors-n-sn]
+ibar-[had-ausa-ibar, erected-vppt-ibar]
+obj-[a-art-sn, fort-n-sn, f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[served-vppt-sv3], sp-[as-p-sp, a-art-sn, fur-n-sn, emporium-n-sn]]]]
+obj-[a-art-sn, venue-n-sn]
+obl-[for-p-sp, commerce-n-sn]
+obl-[with-p-sp, the-art-sn, Mohawk_Indians-n-sn]
+cp-[whose-relob-cp]
+appos-[villages-n-sn]
+
+15
+
+
+Functional and Syntactic Constituency
+
+fc-[fc-[and-cong-fc]]
+
+15
+
+
+Functional and Syntactic Constituency
+
+subj-[verdant-ag-sn, fields-n-sn, mod-[of-p-sp, corn-n-sn]]
+ibar-[dotted-vppt-sv3]
+obj-[the-art-sn, landscape-n-sn]
+obl-[along-p-sp, this-ag-sn, stretch-n-sn, mod-[of-p-sp, the-art-sn, Hudson_Valley-n-sn]]
+
+Output of Anaphora Resolution Module
+
+all_prons([2-[their-0-[3, nil, poss, sing, [umano, istituzione, legale], cat=poss, disj=[_G70493-subj, sn2-predecessors], gen=_G70413, num=plur, pers=3, pred=they]/erect], 1-[]])
+ext_pron(erect, their)
+
+###########   ANAPHORA RESOLUTION   ###########
+their  resolved as  settlement
+
+############   TOPICS   ############
+MAIN TOPIC:  settlement
+main  resolved as  settlement  with semantic index  id34
+SECONDARY TOPIC:  predecessors
+POTENTIAL TOPICS:  fort-ndef English-npr Mohawk_Indians-npr 
+poten  identified as  English  with semantic index  id33
+
+
+Augmented Head Dependent Indexed Structures
+
+ext(erect, their).
+'coord-prop'(and, dot-cl43, serve-cl42).
+'ncmod-specif'(stretch-sn14, 'Hudson_Valley').
+det(stretch-sn14, the).
+det('Hudson_Valley'-sn19, the).
+det('Hudson_Valley'-sn18, the).
+mod(sn14, stretch, this).
+det(landscape-sn13, the).
+'ncmod-specif'(fields-sn12, corn).
+mod(sn12, fields, verdant).
+'ncmod-locativo'(along, dot-cl43, stretch-sn14).
+'obj-theme_aff'(dot-cl43, landscape-sn13).
+'subj-actor'(dot-cl43, fields-sn12).
+aux(erect, had).
+tense(past, '_', dot).
+voice(active, '_', dot).
+'coord-prop'(and, serve-cl42, serve-cl42).
+'cmod-coord'(and, serve-cl42, serve-cl42).
+aux(erect, had).
+'adj-mod'(like, serve, village).
+'xadj-theme'(serve-cl42, village-sn11).
+'cmod-mod'(whose, erect).
+det('Mohawk_Indians'-sn6, the).
+det(venue-sn4, a).
+det(emporium-sn9, a).
+'ncmod-specif'(emporium-sn9, fur).
+'ncmod-modal'(as, serve-cl42, emporium-sn9).
+'cmod-topic'(that, fort-sn3, serve).
+'subj-agent'(serve-cl42, fort-sn3).
+tense(past, '_', serve).
+voice(active, '_', serve).
+'ncmod-poss'(predecessors-sn2, their).
+det('English'-sn1, the).
+'ncmod-prop'(with, erect-cl40, 'Mohawk_Indians'-sn6).
+'ncmod-beneficiario'(for, erect-cl40, commerce-sn5).
+'obj-theme'(erect-cl40, venue-sn4).
+'obj-theme_aff'(erect-cl40, fort-sn3).
+'subj-agent'(erect-cl40, predecessors-sn2).
+'subj-agent'(erect-cl40, 'English'-sn1).
+aux(erect, had).
+tense(past, '_', erect).
+voice(active, '_', erect).
+
+Semantic Interpretation and Informational Structure
+
+[32, indirect, serve, past, active, nil, nil, nil, indic, nil, attivita, serve, adj, mod, like, village, [serve-cmod-coord-and-serve, serve-cmod-mod-whose-erect]]
+[33, indirect, erect, pluper, active, nil, nil, nil, indic, nil, attivita, cmod, mod, whose, erect, erect]
+[34, indirect, dot, past, active, nil, nil, nil, indic, nil, attivita, cmod, mod, whose, erect, dot]
+sinfo(32, main/prop, external, factive, culminated, foreground, attivita, serve, past, effect, objective, nil)
+sinfo(33, adj/ (mod), external, factive, null, background, attivita, erect, pluper, narration, objective, nil)
+sinfo(34, adj/ (mod), external, factive, culminated, foreground, attivita, dot, past, effect, objective, nil)
+
+
+aleap15
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap15, 32, objective, narration, past, serve, foreground, down, down(31-32))
+sd_structure(aleap15, 33, objective, narration, pluper, erect, background, level, down(31-33))
+sd_structure(aleap15, 34, objective, effect, past, dot, foreground, down, down(31-34))
+
+
+aleap16
+As Franklin-s_ vessel drew near the surprisingly busy Albany pier , he glimpsed reminders that he was on the exposed frontier , far removed from the protective arm of a strong central government . 
+
+
+*********************************************************************************
+aleap16
+Ratio of Tags per Word for Sentence no: 16
+Word Ambiguity Ratio: 1.41176
+Lookahead Start Active Chart
+0-[d-as, e-as, p-as, s-as] 1-[ng-Franklin-s_] 2-[n-vessel] 3-[v-drew] 4-[a-near, p-near, v-near] 5-[d-the] 6-[av-surprisingly] 7-[a-busy, v-busy] 8-[n-Albany] 9-[n-pier] 10-[x- (,)] 11-[r-he] 12-[v-glimpsed] 13-[n-reminders] 14-[a-that, c-that, r-that] 15-[r-he] 16-[v-was] 17-[av-on, p-on] 18-[d-the] 19-[v-exposed] 20-[n-frontier] 21-[x- (,)] 22-[a-far, d-far] 23-[a-removed, v-removed] 24-[p-from] 25-[d-the] 26-[a-protective] 27-[n-arm, v-arm] 28-[p-of] 29-[d-a] 30-[a-strong, av-strong] 31-[a-central, n-central] 32-[n-government] 33-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.26471
+0-[d-as, e-as, p-as, s-as] 1-[ng-Franklin-s_] 2-[n-vessel] 3-[v-drew] 4-[a-near, p-near, v-near] 5-[d-the] 6-[av-surprisingly] 7-[a-busy, v-busy] 8-[n-Albany] 9-[n-pier] 10-[x- (,)] 11-[r-he] 12-[v-glimpsed] 13-[n-reminders] 14-[c-that] 15-[r-he] 16-[v-was] 17-[p-on] 18-[d-the] 19-[n-exposed, v-exposed] 20-[n-frontier] 21-[x- (,)] 22-[a-far, d-far] 23-[a-removed, v-removed] 24-[p-from] 25-[d-the] 26-[a-protective] 27-[n-arm] 28-[p-of] 29-[d-a] 30-[a-strong] 31-[a-central, n-central] 32-[n-government] 33-[x- .] 
+aleap16
+
+PennTreebank Style Tagging
+
+16
+as-in
+Franklin-nnp
+has-vbz
+vessel-nn
+drew-vbn_jj
+near-vb
+the-dt
+surprisingly-rb
+busy-jj
+Albany-nnp
+pier-nn
+(,)-pun
+he-prp
+glimpsed-vbn_jj
+reminders-nns
+that-dt
+he-prp
+was-vbd
+on-in
+the-dt
+exposed-vbn_jj
+frontier-nn
+(,)-pun
+far-rb
+removed-vbn_jj
+from-in
+the-dt
+protective-jj
+arm-nn
+of-in
+a-dt
+strong-jj
+central-jj
+government-nn
+. - punto
+
+Tagging and Syntactic Constituency
+
+[as-cosu, Franklin-abbr, has-ausa, vessel-n, drew-vppt, near-v, the-art, surprisingly-avv, busy-ag, Albany-n, pier-n, (,)-punt, he-pers, glimpsed-vppt, reminders-n, that-rel, he-pers, was-ause, on-p, the-art, exposed-vppt, frontier-n, (,)-punt, far-in, removed-vppt, from-p, the-art, protective-ag, arm-n, of-p, a-art, strong-ag, central-ag, government-n, . - punto]
+
+fs-[fs-[as-cosu-fs], subj-[Franklin-abbr-sn], ibar-[has-ausa-ibar], f-[subj-[vessel-n-sn], ibar-[drew-vppt-sv3], sp-[near-p-sp, the-art-sn, surprisingly-avv-sn, busy-ag-sn, Albany-n-sn, pier-n-sn], fp-[ (,)-punt-fp], f-[subj-[he-pers-sn], ibar-[glimpsed-vppt-sv3], sn-[reminders-n-sn, f2-[f2-[that-rel-f2], f-[sn-[he-pers-sn], ibar-[was-ause-ibar], sp-[on-p-sp], cp-[the-art-cp]]]], ibar-[exposed-vppt-sv3], sn-[frontier-n-sn], fp-[ (,)-punt-fp], savv-[far-in-savv], ibar-[removed-vppt-sv3], sp-[from-p-sp, the-art-sn, protective-ag-sn, arm-n-sn, mod-[of-p-sp, a-art-sn, strong-ag-sn, central-ag-sn, government-n-sn]], cp-[. - punto-cp]]]] 
+
+16
+
+
+Functional and Syntactic Constituency
+
+fs-[fs-[as-cosu-fs], subj-[Franklin-abbr-sn], ibar-[has-ausa-ibar]]
+
+16
+
+
+Functional and Syntactic Constituency
+
+subj-[vessel-n-sn]
+ibar-[drew-vppt-sv3]
+obl-[near-p-sp, the-art-sn, surprisingly-avv-sn, busy-ag-sn, Albany-n-sn, pier-n-sn]
+f3-[ (,)-punt-fp]
+
+16
+
+
+Functional and Syntactic Constituency
+
+subj-[he-pers-sn]
+ibar-[glimpsed-vppt-sv3]
+obj-[reminders-n-sn, f2-[f2-[that-rel-f2], f-[sn-[he-pers-sn], ibar-[was-ause-ibar], sp-[on-p-sp], cp-[the-art-cp]]]]
+ibar-[exposed-vppt-sv3]
+obj-[frontier-n-sn]
+savv-[far-in-savv]
+ibar-[removed-vppt-sv3]
+obl-[from-p-sp, the-art-sn, protective-ag-sn, arm-n-sn, mod-[of-p-sp, a-art-sn, strong-ag-sn, central-ag-sn, government-n-sn]]
+
+Output of Anaphora Resolution Module
+
+all_prons([3-[], 2-[], 1-[[he]-0-[pers=3, mas, sing, [umano], agent]/sn7]])
+ext_pron(expose, [he])
+ante(draw, he, vessel)
+
+###########   ANAPHORA RESOLUTION   ###########
+he  resolved as  settlement
+
+############   TOPICS   ############
+MAIN TOPIC:  settlement
+main  resolved as  settlement  with semantic index  id34
+SECONDARY TOPIC:  'Franklin'
+second  identified as  Franklin  with semantic index  id22
+POTENTIAL TOPICS:  reminders-npr vessel-npr frontier-npr 
+
+
+Augmented Head Dependent Indexed Structures
+
+ante(draw, he, vessel).
+ext(expose, [he]).
+'cmod-subord'(as, expose-cl47, draw-cl46).
+'adj-mod'(in, expose, far).
+'ncmod-specif'(arm-sn10, government).
+'ncmod-specif'(arm-sn10, central).
+'ncmod-specif'(arm-sn10, strong).
+det(arm-sn10, a).
+det(government-sn12, a).
+mod(sn12, government, strong).
+mod(sn12, government, central).
+det(government-sn11, a).
+mod(sn11, government, strong).
+mod(sn11, government, central).
+det(arm-sn10, the).
+mod(sn10, arm, protective).
+tense(past, '_', be).
+voice(active, '_', be).
+'ncmod-loc_origin'(from, expose-cl47, arm-sn10).
+'obj-theme'(expose-cl47, frontier-sn9).
+'obj-theme_aff'(expose-cl47, reminders-sn8).
+'subj-agent'(expose-cl47, he-sn7).
+tense(past, '_', remove).
+voice(active, '_', remove).
+tense(past, '_', expose).
+voice(active, '_', expose).
+tense(past, '_', glimpse).
+voice(active, '_', glimpse).
+'cmod-subord'(as, draw-cl46, have-cl45).
+det(pier-sn4, the).
+'ncmod-specif'(pier-sn4, surprisingly).
+'ncmod-specif'(pier-sn4, 'Albany').
+mod(sn4, pier, busy).
+'ncmod-locativo'(near, draw-cl46, pier-sn4).
+'subj-agent'(draw-cl46, vessel-sn3).
+tense(past, '_', draw).
+voice(active, '_', draw).
+'cmod-subord'(as, have-cl45).
+'cmod-subord'(as, have-cl45, nil).
+'subj-experiencer'(have-cl45, 'Franklin'-sn2).
+'subj-experiencer'(have-cl44, 'Franklin'-sn1).
+tense(pres, '_', have).
+voice(active, '_', have).
+
+Semantic Interpretation and Informational Structure
+
+[35, indirect, have, pres, active, nil, nil, nil, indic, nil, attivita, cmod, subord, as, nil, have]
+[36, indirect, have, pres, active, nil, nil, nil, indic, nil, attivita]
+[37, indirect, expose, past, active, nil, nil, nil, indic, far, attivita, adj, mod, in, far, expose]
+[38, indirect, draw, past, active, nil, nil, nil, indic, nil, attivita]
+sinfo(35, adj/temp_coinc, external, factive, null, background, attivita, have, pres, circumstance, objective, nil)
+sinfo(36, xcomp/_G40456, internal, nonfactive, null, background, stato, Franklin, nil, question, objective, nil)
+sinfo(37, main/prop, external, factive, culminated, foreground, attivita, expose, past, effect, objective, nil)
+sinfo(38, main/prop, external, factive, culminated, foreground, attivita, draw, past, effect, objective, nil)
+
+
+aleap16
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap16, 37, objective, narration, past, expose, foreground, down, down(34-37))
+sd_structure(aleap16, 35, objective, circumstance, pres, have, background, down, down(34-35))
+sd_structure(aleap16, 36, objective, question, nil, Franklin, background, down, down(34-36))
+sd_structure(aleap16, 38, objective, effect, past, draw, foreground, down, down(34-38))
+
+
+aleap17
+This town of 2/0 in habitants stood entirely enclosed within a wooden palisade , and on a steep hill on_the_far_side of town , , Franklin spotted the old fort , still formidable with high , , thick , , grey stone_walls . 
+
+
+*********************************************************************************
+aleap17
+Ratio of Tags per Word for Sentence no: 17
+Word Ambiguity Ratio: 1.35714
+Lookahead Start Active Chart
+0-[a-this, r-this] 1-[n-town] 2-[p-of] 3-[d-2/0] 4-[p-in] 5-[n-habitants] 6-[v-stood] 7-[av-entirely] 8-[v-enclosed] 9-[av-within, p-within] 10-[d-a] 11-[a-wooden, v-wooden] 12-[n-palisade, v-palisade] 13-[x- (,)] 14-[e-and] 15-[av-on, p-on] 16-[d-a] 17-[a-steep, n-steep, v-steep] 18-[n-hill, v-hill] 19-[av-on_the_far_side] 20-[p-of] 21-[n-town] 22-[x- (,)] 23-[x- (,)] 24-[n-Franklin] 25-[v-spotted] 26-[d-the] 27-[a-old, n-old] 28-[n-fort] 29-[x- (,)] 30-[av-still, e-still, n-still, v-still] 31-[a-formidable] 32-[p-with] 33-[a-high, n-high] 34-[x- (,)] 35-[x- (,)] 36-[a-thick, av-thick, n-thick] 37-[x- (,)] 38-[x- (,)] 39-[v-grey] 40-[n-stone_walls] 41-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.19048
+0-[a-this, r-this] 1-[n-town] 2-[p-of] 3-[d-2/0] 4-[p-in] 5-[n-habitants] 6-[v-stood] 7-[av-entirely] 8-[v-enclosed] 9-[p-within] 10-[d-a] 11-[a-wooden] 12-[n-palisade] 13-[x- (,)] 14-[e-and] 15-[p-on] 16-[d-a] 17-[a-steep, n-steep, v-steep] 18-[n-hill] 19-[av-on_the_far_side] 20-[p-of] 21-[n-town] 22-[x- (,)] 23-[x- (,)] 24-[n-Franklin] 25-[v-spotted] 26-[d-the] 27-[a-old, n-old] 28-[n-fort] 29-[x- (,)] 30-[av-still, e-still, n-still, v-still] 31-[a-formidable] 32-[p-with] 33-[a-high, n-high] 34-[x- (,)] 35-[x- (,)] 36-[av-thick] 37-[x- (,)] 38-[x- (,)] 39-[v-grey] 40-[n-stone_walls] 41-[x- .] 
+aleap17
+
+PennTreebank Style Tagging
+
+17
+this-dt
+town-nn
+of-in
+2/0-cd
+in-in
+habitants-nns
+stood-vbd_vbn
+entirely-rb
+enclosed-vbn_jj
+within-in
+a-dt
+wooden-jj
+palisade-nn
+(,)-pun
+and-cc
+on-in
+a-dt
+steep-jj
+hill-nn
+on_the_far_side-rb
+of-in
+town-nn
+(,)-pun
+(,)-pun
+Franklin-nnp
+spotted-vbn_jj
+the-dt
+old-jj
+fort-nn
+(,)-pun
+still-rb
+formidable-jj
+with-in
+high-jj
+(,)-pun
+(,)-pun
+thick-rb
+(,)-pun
+(,)-pun
+grey-vbd
+stone_walls-nns
+. - punto
+
+Tagging and Syntactic Constituency
+
+[this-ag, town-n, of-p, 2/0-num, in-p, habitants-n, stood-vt, entirely-avv, enclosed-vppt, within-p, a-art, wooden-ag, palisade-n, (,)-punt, and-cong, on-p, a-art, steep-ag, hill-n, on_the_far_side-avv, of-p, town-n, (,)-punt, (,)-punt, Franklin-n, spotted-vppt, the-art, old-ag, fort-n, (,)-punt, still-avv, formidable-ag, with-p, high-ag, (,)-punt, (,)-punt, thick-avv, (,)-punt, (,)-punt, grey-vin, stone_walls-n, . - punto]
+
+f-[sn-[this-ag-sn, town-n-sn, mod-[of-p-sp, 2/0-num-sn], obl-[in-p-sp, habitants-n-sn]], ibar-[stood-vppt-sv3], savv-[entirely-avv-savv], ibar-[enclosed-vppt-sv3], sp-[within-p-sp, a-art-sn, wooden-ag-sn, palisade-n-sn], fp-[ (,)-punt-fp], fc-[fc-[and-cong-fc], sp-[on-p-sp, a-art-sn, steep-ag-sn, hill-n-sn], savv-[on_the_far_side-avv-savv], sp-[of-p-sp, town-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], f-[subj-[Franklin-n-sn], ibar-[spotted-vppt-sv3], sn-[the-art-sn, old-ag-sn, fort-n-sn], fp-[ (,)-punt-fp], savv-[still-avv-savv], sa-[formidable-ag-sa], sp-[with-p-sp, high-ag-sa], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], savv-[thick-avv-savv], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], ibar-[grey-vin-ibar], sn-[stone_walls-n-sn], cp-[. - punto-cp]]]] 
+
+17
+
+
+Functional and Syntactic Constituency
+
+subj-[this-ag-sn, town-n-sn, mod-[of-p-sp, 2/0-num-sn], obl-[in-p-sp, habitants-n-sn]]
+savv-[entirely-avv-savv]
+ibar-[stood-vppt-sv3]
+ibar-[enclosed-vppt-sv3]
+obl-[within-p-sp, a-art-sn, wooden-ag-sn, palisade-n-sn]
+f3-[ (,)-punt-fp]
+
+17
+
+
+Functional and Syntactic Constituency
+
+fc-[and-cong-fc]
+obl-[on-p-sp, a-art-sn, steep-ag-sn, hill-n-sn]
+savv-[on_the_far_side-avv-savv]
+obl-[of-p-sp, town-n-sn]
+
+17
+
+
+Functional and Syntactic Constituency
+
+subj-[Franklin-n-sn]
+ibar-[spotted-vppt-sv3]
+obj-[the-art-sn, old-ag-sn, fort-n-sn]
+savv-[still-avv-savv]
+xcomp-[formidable-ag-sa]
+obl-[with-p-sp, high-ag-sa]
+savv-[thick-avv-savv]
+ibar-[grey-vin-ibar]
+xcomp-[stone_walls-n-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([3-[], 2-[], 1-[]])
+main  resolved as  Franklin  with semantic index  id22
+second  resolved as  town  with semantic index  id42
+
+############   TOPICS   ############
+MAIN TOPIC:  'Franklin'
+SECONDARY TOPIC:  town
+POTENTIAL TOPICS:  fort-npr town-npr palisade-npr 
+poten  identified as  fort  with semantic index  id37
+poten  identified as  town  with semantic index  id42
+
+
+Augmented Head Dependent Indexed Structures
+
+'coord-prop'(and, grey-cl52, be-cl50).
+'adj-locative'(in, spot, thick).
+'adj-locative'(in, spot, still).
+det(fort-sn15, the).
+mod(sn15, fort, old).
+'subj-agent'(grey-cl52, 'Franklin'-sn14).
+'xcomp-prop'(grey-cl52, stone_walls-sn18).
+'xadj-result'(nil, spot-cl51, grey-cl52).
+'ncmod-comitativo'(with, spot-cl51, high-sn17).
+'xcomp-prop'(spot-cl51, formidable-sn16).
+'obj-theme'(spot-cl51, fort-sn15).
+'subj-theme_aff'(spot-cl51, 'Franklin'-sn14).
+tense(pres, '_', grey).
+voice(active, '_', grey).
+tense(past, '_', spot).
+voice(active, '_', spot).
+'coord-prop'(and, be-cl50, stand-cl49).
+'adj-mod'(and, wooden, steep).
+det(hill-sn11, a).
+mod(sn11, hill, steep).
+'ncmod-specif'(of, be-cl50, town-sn13).
+'adj-subj_disc'(be-cl50, on_the_far_side-sn12).
+'ncmod-locativo'(on, be-cl50, hill-sn11).
+'adj-mod'(in, enclose, entirely).
+det(palisade-sn2, a).
+mod(sn2, palisade, wooden).
+'ncmod-specif'('2/0'-sn5, habitants).
+'ncmod-specif'(town-sn1, '2/0').
+mod(sn1, town, this).
+'subj-tema_emot'(stand-cl49, arb).
+'ncmod-prop'(within, stand-cl49, palisade-sn2).
+'xcomp-purpose'(stood, enclose-cl48, stand-cl49).
+voice(passive, '_', stand).
+'obj-theme1'(enclose-cl48, town-sn1).
+tense(past, '_', enclose).
+voice(active, '_', enclose).
+tense(past, '_', stand).
+voice(active, '_', stand).
+
+Semantic Interpretation and Informational Structure
+
+[39, indirect, stand, past, passive, nil, nil, nil, indic, nil, attivita]
+[40, indirect, spot, past, active, nil, nil, nil, indic, thick, attivita]
+[41, indirect, grey, pres, active, nil, nil, nil, gerund, nil, attivita, xadj, result, nil, spot, grey]
+sinfo(39, main/prop, external, factive, culminated, foreground, attivita, stand, past, effect, objective, nil)
+sinfo(40, main/prop, external, factive, culminated, foreground, attivita, spot, past, effect, objective, nil)
+sinfo(41, adj/result, external, factive, null, background, attivita, grey, pres, rationale, objective, nil)
+
+
+aleap17
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap17, 39, objective, narration, past, stand, foreground, down, down(38-39))
+sd_structure(aleap17, 40, objective, effect, past, spot, foreground, down, down(38-40))
+sd_structure(aleap17, 41, objective, rationale, pres, grey, background, down, down(38-41))
+
+
+aleap18
+Franklin had come_to Albany to prepare_for war . 
+
+
+*********************************************************************************
+aleap18
+Ratio of Tags per Word for Sentence no: 18
+Word Ambiguity Ratio: 1.375
+Lookahead Start Active Chart
+0-[n-Franklin] 1-[v-had] 2-[n-come_to, v-come_to] 3-[n-Albany] 4-[p-to] 5-[n-prepare_for, v-prepare_for] 6-[n-war, v-war] 7-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1
+0-[n-Franklin] 1-[v-had] 2-[v-come_to] 3-[n-Albany] 4-[p-to] 5-[v-prepare_for] 6-[n-war] 7-[x- .] 
+aleap18
+
+PennTreebank Style Tagging
+
+18
+Franklin-nnp
+had-vbd
+come_to-vb-in
+Albany-nnp
+to-to
+prepare_for-vb-in
+war-nn
+. - punto
+
+Tagging and Syntactic Constituency
+
+[Franklin-n, had-ausa, come_to-vin, Albany-n, to-p, prepare_for-vin, war-n, . - punto]
+
+f-[subj-[Franklin-n-sn], ibar-[had-ausa-ibar, come_to-vppt-ibar], sn-[Albany-n-sn], vcomp-[to-p-_G70022, prepare_for-vin-ibar], sn-[war-n-sn], cp-[. - punto-cp]] 
+
+18
+
+
+Functional and Syntactic Constituency
+
+subj-[Franklin-n-sn]
+ibar-[had-ausa-ibar, come_to-vppt-ibar]
+obj-[Albany-n-sn]
+vcomp-[to-p-_G70022, prepare_for-vin-ibar]
+appos-[war-n-sn]
+
+Output of Anaphora Resolution Module
+
+all_prons([1-[]])
+main  resolved as  Franklin  with semantic index  id22
+second  resolved as  Albany  with semantic index  id30
+
+############   TOPICS   ############
+MAIN TOPIC:  'Franklin'
+SECONDARY TOPIC:  'Albany'
+
+
+Augmented Head Dependent Indexed Structures
+
+'xadj-theme'(have-cl53, war-sn3).
+'xcomp-tema_bound'(have-cl53, 'Albany'-sn2).
+'subj-experiencer'(have-cl53, 'Franklin'-sn1).
+tense(pres, '_', have).
+voice(active, '_', have).
+
+Semantic Interpretation and Informational Structure
+
+[42, indirect, have, pres, active, nil, nil, nil, indic, nil, attivita]
+sinfo(42, xcomp/_G95633, internal, nonfactive, null, background, stato, Albany, nil, question, objective, nil)
+
+
+aleap18
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap18, 42, objective, question, nil, Albany, background, down, down(41-42))
+
+
+aleap19
+King_George-s_ War , , Great_Britain-s_ third war with France since 1689 , , had ended six years earlier without a clear victor , and most leaders in London , , as_well_as the colonies , , feared that hostilities would soon resume . 
+
+
+*********************************************************************************
+aleap19
+Ratio of Tags per Word for Sentence no: 19
+Word Ambiguity Ratio: 1.42857
+Lookahead Start Active Chart
+0-[n-King_George-s_] 1-[n-War] 2-[x- (,)] 3-[x- (,)] 4-[ng-Great_Britain-s_] 5-[a-third, d-third, n-third] 6-[n-war, v-war] 7-[p-with] 8-[n-France] 9-[e-since, p-since, s-since] 10-[d-1689] 11-[x- (,)] 12-[x- (,)] 13-[v-had] 14-[v-ended] 15-[a-six, n-six] 16-[n-years] 17-[a-earlier, av-earlier] 18-[av-without, p-without] 19-[d-a] 20-[a-clear, av-clear, n-clear, v-clear] 21-[n-victor] 22-[x- (,)] 23-[e-and] 24-[av-most, d-most, n-most, r-most] 25-[n-leaders] 26-[p-in] 27-[n-London] 28-[x- (,)] 29-[x- (,)] 30-[av-as_well_as, s-as_well_as] 31-[d-the] 32-[n-colonies] 33-[x- (,)] 34-[x- (,)] 35-[v-feared] 36-[a-that, c-that, r-that] 37-[n-hostilities] 38-[v-would] 39-[av-soon, e-soon] 40-[v-resume] 41-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.16667
+0-[n-King_George-s_] 1-[n-War] 2-[x- (,)] 3-[x- (,)] 4-[ng-Great_Britain-s_] 5-[a-third, d-third, n-third] 6-[n-war] 7-[p-with] 8-[n-France] 9-[p-since] 10-[d-1689] 11-[x- (,)] 12-[x- (,)] 13-[v-had] 14-[v-ended] 15-[a-six] 16-[n-years] 17-[a-earlier, av-earlier] 18-[p-without] 19-[d-a] 20-[a-clear] 21-[n-victor] 22-[x- (,)] 23-[e-and] 24-[av-most, d-most, n-most, r-most] 25-[n-leaders] 26-[p-in] 27-[n-London] 28-[x- (,)] 29-[x- (,)] 30-[s-as_well_as] 31-[d-the] 32-[n-colonies] 33-[x- (,)] 34-[x- (,)] 35-[v-feared] 36-[c-that] 37-[n-hostilities] 38-[v-would] 39-[av-soon, e-soon] 40-[v-resume] 41-[x- .] 
+aleap19
+
+PennTreebank Style Tagging
+
+19
+King_George-s_-nn-pos
+War-nnp
+(,)-pun
+(,)-pun
+Great_Britain-s_-nnp-pos
+third-jj
+war-nn
+with-in
+France-nnp
+since-in
+1689-cd
+(,)-pun
+(,)-pun
+had-vbd
+ended-vbd
+six-cd
+years-nns
+earlier-jjr
+without-in
+a-dt
+clear-jj
+victor-nn
+(,)-pun
+and-cc
+most-jjs
+leaders-nns
+in-in
+London-nnp
+(,)-pun
+(,)-pun
+as_well_as-in
+the-dt
+colonies-nns
+(,)-pun
+(,)-pun
+feared-vbn_jj
+that-in
+hostilities-nns
+would-md
+soon-rb
+resume-vbd
+. - punto
+
+Tagging and Syntactic Constituency
+
+[King_George-s_-n, War-n, (,)-punt, (,)-punt, Great_Britain-s_-ng, third-ag, war-n, with-p, France-n, since-p, 1689-num, (,)-punt, (,)-punt, had-ausa, ended-vin, six-num, years-nt, earlier-ag, without-p, a-art, clear-ag, victor-n, (,)-punt, and-cong, most-q, leaders-n, in-p, London-n, (,)-punt, (,)-punt, as_well_as-cosu, the-art, colonies-n, (,)-punt, (,)-punt, feared-vppt, that-pk, hostilities-n, would-vsup, soon-avv, resume-vin, . - punto]
+
+f-[sn-[King_George-s_-n-sn, War-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sn-[Great_Britain-s_-ng-sn, third-ag-sn, war-n-sn, obl-[with-p-sp, France-n-sn]], sp-[since-p-sp, 1689-num-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], ibar-[had-ausa-ibar, ended-vppt-ibar], sn-[six-num-sn, years-nt-sn], sa-[earlier-ag-sa], sp-[without-p-sp, a-art-sn, clear-ag-sn, victor-n-sn], fp-[ (,)-punt-fp], fc-[fc-[and-cong-fc], sn-[most-q-sn, leaders-n-sn, obl-[in-p-sp, London-n-sn]], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], fs-[as_well_as-cosu-fs], sn-[the-art-sn, colonies-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], ibar-[feared-vppt-sv3], fac-[fac-[that-pk-fac], subj-[hostilities-n-sn], ibar-[would-vsup-ibar, soon-avv-ibar, resume-vin-ibar], cp-[. - punto-cp]]]] 
+
+19
+
+
+Functional and Syntactic Constituency
+
+subj-[King_George-s_-n-sn, War-n-sn]
+subj-[Great_Britain-s_-ng-sn, third-ag-sn, war-n-sn, obl-[with-p-sp, France-n-sn]]
+obl-[since-p-sp, 1689-num-sn]
+savv-[six-num-sn, years-nt-sn]
+ibar-[had-ausa-ibar, ended-vppt-ibar]
+xcomp-[earlier-ag-sa]
+obl-[without-p-sp, a-art-sn, clear-ag-sn, victor-n-sn]
+f3-[ (,)-punt-fp]
+
+19
+
+
+Functional and Syntactic Constituency
+
+fc-[and-cong-fc]
+subj-[most-q-sn, leaders-n-sn, obl-[in-p-sp, London-n-sn]]
+fs-[fs-[as_well_as-cosu-fs], subj-[the-art-sn, colonies-n-sn], ibar-[feared-vppt-sv3]]
+
+19
+
+
+Functional and Syntactic Constituency
+
+fac-[fac-[that-pk-fac], subj-[hostilities-n-sn], ibar-[would-vsup-ibar, soon-avv-ibar, resume-vin-ibar]]
+
+Output of Anaphora Resolution Module
+
+all_prons([4-[], 3-[], 2-[], 1-[]])
+
+############   TOPICS   ############
+MAIN TOPIC:  hostilities
+SECONDARY TOPIC:  'Franklin'
+POTENTIAL TOPICS:  colonies-npr leaders-npr Great_Britain-s_-npr 
+second  identified as  Franklin  with semantic index  id22
+poten  identified as  colonies  with semantic index  id13
+
+
+Augmented Head Dependent Indexed Structures
+
+'coord-prop'(and, resume, fear-cl56).
+'subj-agent'(resume-cl57, hostilities-sn19).
+aux(end, had).
+'adj-mod'(resume, soon).
+modal(resume, would).
+tense(pres, '_', resume).
+voice(active, '_', resume).
+'coord-prop'(and, be-cl55, end-cl54).
+'cmod-subord'(as_well_as, fear-cl56, end-cl54).
+det(colonies-sn18, the).
+'subj-actor'(fear-cl56, colonies-sn18).
+'adj-mod'(and, arb, 'London').
+'ncmod-specif'(leaders-sn14, 'London').
+'xcomp-theme'(be-cl55, leaders-sn14).
+det(sn14, leaders, most).
+det(sn13, leaders, most).
+aux(end, had).
+tense(past, '_', fear).
+voice(active, '_', fear).
+'adj-temporal'(in, end, year).
+det(victor-sn5, a).
+mod(sn5, victor, clear).
+'ncmod-specif'(war-sn2, 'France').
+'ncmod-specif'(war-sn2, 'Great_Britain-s_').
+'ncmod-specif'('War'-sn1, 'King_George-s_').
+'ncmod-privation'(without, end-cl54, victor-sn5).
+'xcomp-prop'(end-cl54, earlier-sn4).
+'ncmod-temporale'(since, end-cl54, 1689-sn3).
+'subj-agent'(end-cl54, war-sn2).
+det(sn2, war, third).
+'subj-agent'(end-cl54, 'War'-sn1).
+aux(end, had).
+tense(past, '_', end).
+voice(active, '_', end).
+
+Semantic Interpretation and Informational Structure
+
+[43, indirect, resume, pluper, active, nil, would, nil, unreal, nil, attivita]
+[44, indirect, fear, past, active, nil, nil, nil, indic, nil, attivita]
+[45, indirect, end, pluper, active, nil, nil, nil, indic, year, attivita]
+sinfo(43, main/prop, external, nonfactive, null, background, attivita, resume, pluper, narration, subjective, nil)
+sinfo(44, main/prop, external, factive, culminated, foreground, attivita, fear, past, narration, objective, nil)
+sinfo(45, main/prop, external, factive, null, background, attivita, end, pluper, narration, objective, nil)
+
+
+aleap19
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap19, 43, subjective, narration, pluper, resume, background, level, down(42-43))
+sd_structure(aleap19, 44, objective, narration, past, fear, foreground, level, down(42-44))
+sd_structure(aleap19, 45, objective, narration, pluper, end, background, level, down(42-45))
+
+
+aleap20
+Once before , , when the first Anglo-French war of the series , , King_William-s_ War , , had ended inconclusively , the fragile peace that followed lasted only four years . 
+
+
+*********************************************************************************
+aleap20
+Ratio of Tags per Word for Sentence no: 20
+Word Ambiguity Ratio: 1.46875
+Lookahead Start Active Chart
+0-[av-Once] 1-[av-before, p-before, s-before] 2-[x- (,)] 3-[x- (,)] 4-[av-when, p-when, r-when, s-when, w-when] 5-[d-the] 6-[av-first, d-first, e-first, n-first] 7-[a-Anglo-French] 8-[n-war, v-war] 9-[p-of] 10-[d-the] 11-[n-series] 12-[x- (,)] 13-[x- (,)] 14-[n-King_William-s_] 15-[n-War] 16-[x- (,)] 17-[x- (,)] 18-[v-had] 19-[v-ended] 20-[av-inconclusively] 21-[x- (,)] 22-[d-the] 23-[a-fragile] 24-[n-peace, v-peace] 25-[a-that, c-that, r-that] 26-[v-followed] 27-[v-lasted] 28-[av-only, d-only] 29-[a-four, n-four] 30-[n-years] 31-[x- .] 
+
+New Ratio of Tags per Word after FSA Disambiguation: 1.34375
+0-[av-Once] 1-[av-before, p-before, s-before] 2-[x- (,)] 3-[x- (,)] 4-[av-when, p-when, r-when, s-when, w-when] 5-[d-the] 6-[av-first, d-first, e-first, n-first] 7-[a-Anglo-French] 8-[n-war] 9-[p-of] 10-[d-the] 11-[n-series] 12-[x- (,)] 13-[x- (,)] 14-[n-King_William-s_] 15-[n-War] 16-[x- (,)] 17-[x- (,)] 18-[v-had] 19-[v-ended] 20-[av-inconclusively] 21-[x- (,)] 22-[d-the] 23-[a-fragile] 24-[n-peace] 25-[c-that] 26-[v-followed] 27-[v-lasted] 28-[av-only, d-only] 29-[a-four, n-four] 30-[n-years] 31-[x- .] 
+aleap20
+
+PennTreebank Style Tagging
+
+20
+Once-rb
+before-rb
+(,)-pun
+(,)-pun
+when-wrb
+the-dt
+first-rb
+Anglo-French-jj
+war-nn
+of-in
+the-dt
+series-nn
+(,)-pun
+(,)-pun
+King_William-s_-nn-pos
+War-nnp
+(,)-pun
+(,)-pun
+had-vbd
+ended-vbd
+inconclusively-rb
+(,)-pun
+the-dt
+fragile-jj
+peace-nn
+that-dt
+followed-vbn_jj
+lasted-vbn_jj
+only-rb
+four-cd
+years-nns
+. - punto
+
+Tagging and Syntactic Constituency
+
+[Once-avv, before-avv, (,)-punt, (,)-punt, when-cosu, the-art, first-avv, Anglo-French-ag, war-n, of-p, the-art, series-n, (,)-punt, (,)-punt, King_William-s_-n, War-n, (,)-punt, (,)-punt, had-ausa, ended-vin, inconclusively-avv, (,)-punt, the-art, fragile-ag, peace-n, that-rel, followed-vppt, lasted-vppt, only-avv, four-num, years-nt, . - punto]
+
+cp-[savv-[Once-avv-savv, before-avv-savv], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], fs-[fs-[when-cosu-fs], sn-[the-art-sn, first-avv-sn, Anglo-French-ag-sn, war-n-sn, mod-[of-p-sp, the-art-sn, series-n-sn]], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sn-[King_William-s_-n-sn, War-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], ibar-[had-ausa-ibar, ended-vppt-ibar], savv-[inconclusively-avv-savv], fp-[ (,)-punt-fp], f-[subj-[the-art-sn, fragile-ag-sn, peace-n-sn, f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[followed-vppt-sv3]]]], ibar-[lasted-vppt-sv3], savv-[only-avv-savv], sn-[four-num-sn, years-nt-sn], cp-[. - punto-cp]]]] 
+
+20
+
+
+Functional and Syntactic Constituency
+
+fs-[fs-[when-cosu-fs], sn-[the-art-sn, first-avv-sn, Anglo-French-ag-sn, war-n-sn, mod-[of-p-sp, the-art-sn, series-n-sn]], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], sn-[King_William-s_-n-sn, War-n-sn], fp-[ (,)-punt-fp], fp-[ (,)-punt-fp], ibar-[had-ausa-ibar, ended-vppt-ibar], savv-[inconclusively-avv-savv], fp-[ (,)-punt-fp]]
+savv-[Once-avv-savv, before-avv-savv]
+subj-[the-art-sn, fragile-ag-sn, peace-n-sn, f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[followed-vppt-sv3]]]]
+savv-[only-avv-savv]
+savv-[four-num-sn, years-nt-sn]
+ibar-[lasted-vppt-sv3]
+
+Output of Anaphora Resolution Module
+
+all_prons([1-[], 0-[]])
+
+############   TOPICS   ############
+MAIN TOPIC:  peace
+SECONDARY TOPIC:  hostilities
+second  identified as  hostilities  with semantic index  id44
+
+
+Augmented Head Dependent Indexed Structures
+
+'adj-mod'(when, 'War', end).
+'adj-mod'(in, end, inconclusively).
+'adj-temporal'(in, end, year).
+'adj-mod'(in, end, only).
+'adj-mod'(in, end, before).
+'cmod-subord'(when, end-cl61, last).
+'ncmod-specif'('War'-sn3, 'King_William-s_').
+'ncmod-specif'(war-sn2, series).
+det(war-sn2, the).
+det(series-sn5, the).
+det(series-sn4, the).
+det(war-sn2, the).
+mod(sn2, war, 'Anglo-French').
+'xcomp-prop'(end-cl61, 'War'-sn3).
+'obj-theme_aff'(end-cl61, war-sn2).
+det(sn2, war, first).
+tense(past, '_', end).
+voice(active, '_', end).
+'cmod-topic'(that, peace-sn1, follow).
+'subj-agent'(follow-cl60, peace-sn1).
+tense(past, '_', follow).
+voice(active, '_', follow).
+mod(sn1, peace, fragile).
+'subj-actor'(last-cl58, peace-sn1).
+tense(past, '_', last).
+voice(active, '_', last).
+
+Semantic Interpretation and Informational Structure
+
+[46, indirect, last, past, active, nil, nil, nil, indic, nil, attivita]
+[47, indirect, follow, past, active, nil, nil, nil, indic, nil, attivita]
+sinfo(46, main/prop, external, factive, culminated, foreground, attivita, last, past, narration, objective, nil)
+sinfo(47, main/prop, external, factive, culminated, foreground, attivita, follow, past, result, objective, nil)
+
+
+aleap20
+Discourse Relations and Discourse Structure
+
+sd_structure(aleap20, 47, objective, narration, past, follow, foreground, down, down(45-47))
+sd_structure(aleap20, 46, objective, narration, past, last, foreground, level, down(45-46))

@@ -1,0 +1,656 @@
+Ratio of Tags per Word for Sentence no: 3
+Word Ambiguity Ratio: 1.4
+'Lookahead Start Active Chart'
+0-[r-they], 1-[v-visited], 2-[a-several, d-several, r-several], 3-[a-similar], 4-[n-places, v-places], 5-[p-in], 6-[n-'England'], 7-[e-and], 8-[p-in], 9-[n-'France'], 10-[x- (',')], 11-[e-and], 12-[a-two, d-two, n-two], 13-[a-future, n-future], 14-[n-trainers], 15-[v-are], 16-[av-already], 17-[a-doing, n-doing, v-doing], 18-[n-internship], 19-[p-in], 20-[d-one, n-one, r-one], 21-[p-of], 22-[d-the], 23-[n-'French_Schools'], 24-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.28
+0-[r-they], 1-[v-visited], 2-[a-several, d-several, r-several], 3-[a-similar], 4-[n-places], 5-[p-in], 6-[n-'England'], 7-[e-and], 8-[p-in], 9-[n-'France'], 10-[x- (',')], 11-[e-and], 12-[a-two, d-two, n-two], 13-[a-future, n-future], 14-[n-trainers], 15-[v-are], 16-[av-already], 17-[v-doing], 18-[n-internship], 19-[p-in], 20-[d-one, n-one, r-one], 21-[p-of], 22-[d-the], 23-[n-'French_Schools'], 24-[x-'.']
+
+0-[r-they], 1-[v-visited], 2-[a-several, d-several, r-several], 3-[a-similar], 4-[n-places], 5-[p-in], 6-[n-'England'], 7-[e-and], 8-[p-in], 9-[n-'France'], 10-[x- (',')], 11-[e-and], 12-[a-two, d-two, n-two], 13-[a-future, n-future], 14-[n-trainers], 15-[v-are], 16-[av-already], 17-[v-doing], 18-[n-internship], 19-[p-in], 20-[d-one, n-one, r-one], 21-[p-of], 22-[d-the], 23-[n-'French_Schools'], 24-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+3
+they-prp
+visited-vbd
+several-jj
+similar-jj
+places-nns
+in-in
+England-nnp
+and-cc
+in-in
+France-nnp
+(,)-pun
+and-cc
+two-cd
+future-jj
+trainers-nns
+are-vbp
+already-rb
+doing-vbg
+internship-nn
+in-in
+one-cd
+of-in
+the-dt
+French_Schools-nns
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[they-pron, visited-vin, several-q, similar-ag, places-n, in-p, 'England'-n, and-cong, in-p, 'France'-n, (',')-punt, and-cong, two-num, future-ag, trainers-n, are-ause, already-avv, doing-vgin, internship-n, in-p, one-num, of-p, the-art, 'French_Schools'-n, '.'-punto]
+
+cp-[f-[subj-[they-pron-sn], ibar-[visited-vppt-sv3], sn-[several-q-sn, similar-ag-sn, places-n-sn, obl-[in-p-sp, 'England'-n-sn]], fc-[and-cong-fc], sp-[in-p-sp, 'France'-n-sn]], fc-[fc-[and-cong-fc], f-[subj-[two-num-sn, future-ag-sn, trainers-n-sn], ibar-[are-ause-ibar, already-avv-ibar, doing-vgin-ibar], sn-[internship-n-sn], sp-[in-p-sp, one-num-sn, mod-[of-p-sp, the-art-sn, 'French_Schools'-n-sn]], cp-['.'-punto-cp]]]]
+
+3
+
+
+'Functional and Syntactic Constituency'
+
+subj-[they-pron-sn]
+ibar-[visited-vppt-sv3]
+obj-[several-q-sn, similar-ag-sn, places-n-sn, obl-[in-p-sp, England-n-sn]]
+fc-[and-cong-fc]
+obl-[in-p-sp, France-n-sn]
+
+3
+
+
+'Functional and Syntactic Constituency'
+
+subj-[two-num-sn, future-ag-sn, trainers-n-sn]
+ibar-[are-ause-ibar, already-avv-ibar, doing-vgin-ibar]
+obj-[internship-n-sn]
+obl-[in-p-sp, one-num-sn, mod-[of-p-sp, the-art-sn, French_Schools-n-sn]]
+
+
+
+coord_ip(
+ indice(f7),
+ coord(
+  ip(
+   indice(f1),
+   v(visit, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], ind, _G1316/semp, 3, plur, _G1214),
+   supporto([]),
+   cat(attivita),
+   args(
+     [
+     arg(
+      funzione(sogg),
+      ruolo(agent),
+      sn(
+       indice(sn20),
+       cat([umano, animato]),
+       pr(clitico, _G1222, they, 3, _G1214, plur, [nom]),
+       spec(
+        def(+),
+        part([]),
+        mod([]),
+        foc([]),
+        card([]),
+        quant([])
+        ),
+       args([]),
+       mods([]),
+       adjs([])
+       )
+      ),
+     arg(
+      funzione(ogg),
+      ruolo(theme_aff),
+      sn(
+       indice(sn21),
+       cat([luogo]),
+       n(place, _G1588, plur),
+       spec(
+        def(-),
+        part(+),
+        mod([]),
+        foc([]),
+        card([]),
+        quant(
+         several
+         )
+        ),
+       args([]),
+       mods(
+         [
+         adj(
+          locativo,
+          sp(
+           prep(in),
+           indice(spc1),
+           cat([]),
+           n(England_France, mas, plur),
+           spec(
+            def(0),
+            part([]),
+            mod([]),
+            foc([]),
+            card([]),
+            quant([])
+            ),
+           coordina(
+             [
+             arg(
+              funzione(adj),
+              ruolo(locativo),
+              sp(
+               prep(in, cat([luogo, umano]), mod(mod([]))),
+               sn(
+                indice(sn22),
+                cat([luogo, umano]),
+                n(England, mas, sing),
+                spec(
+                 def(0),
+                 part([]),
+                 mod([]),
+                 foc([]),
+                 card([]),
+                 quant([])
+                 ),
+                args([]),
+                mods([]),
+                adjs([])
+                )
+               )
+              ),
+             arg(
+              funzione(adj),
+              ruolo(locativo),
+              sp(
+               prep(in, cat([luogo, umano]), mod([])),
+               sn(
+                indice(sn23),
+                cat([luogo, umano]),
+                n(France, fem, sing),
+                spec(
+                 def(0),
+                 part([]),
+                 mod([]),
+                 foc([]),
+                 card([]),
+                 quant([])
+                 ),
+                args([]),
+                mods([]),
+                adjs([])
+                )
+               )
+              )
+             ]
+            )
+           )
+          ),
+         mod_a(
+          sa(
+           indice(sa2),
+           cat([valutativo]),
+           agg(
+            similar,
+            [],
+            []
+            ),
+           args([])
+           )
+          )
+         ]
+        ),
+       adjs([])
+       )
+      )
+     ]
+    ),
+   adjs([])
+   )
+  ),
+ coord(
+  ip(
+   indice(f6),
+   v(do, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], ind, pres/semp, _G24108, _G24107, _G24106),
+   supporto([]),
+   cat(attivita),
+   args(
+     [
+     arg(
+      funzione(topic),
+      ruolo(tema),
+      sn(
+       indice(sn43),
+       cat([oggetto, relat, sociale, strumento, umano]),
+       n(trainer, _G20593, plur),
+       spec(
+        def(0),
+        part(-),
+        mod([]),
+        foc([]),
+        card([]),
+        quant(
+         2
+         )
+        ),
+       args([]),
+       mods(
+         [
+         nome_mod(
+          sn(
+           indice(sn42),
+           cat([attivita, informa, tempo]),
+           n(future, _G19744, sing),
+           spec(
+            def(0),
+            part([]),
+            mod([]),
+            foc([]),
+            card([]),
+            quant([])
+            ),
+           args([]),
+           mods([]),
+           adjs([])
+           )
+          )
+         ]
+        ),
+       adjs([])
+       )
+      ),
+     arg(
+      funzione(ogg),
+      ruolo(theme_aff),
+      sn(
+       indice(sn44),
+       cat([attivita]),
+       n(internship, _G29870, sing),
+       spec(
+        def(0),
+        part([]),
+        mod([]),
+        foc([]),
+        card([]),
+        quant([])
+        ),
+       args([]),
+       mods(
+         [
+         adj(
+          temporale,
+          sp(
+           prep(in, [date, tempo], mod(mod([]))),
+           sn(
+            indice(sn46),
+            cat([date, tempo]),
+            n(1, _G34117, plur),
+            spec(
+             def(+),
+             part([]),
+             mod([]),
+             foc([]),
+             card(1),
+             quant([])
+             ),
+            args([]),
+            mods([]),
+            adjs([])
+            )
+           )
+          )
+         ]
+        ),
+       adjs([])
+       )
+      )
+     ]
+    ),
+   adjs(
+     [
+     avv(pred_avv(already), tipo(temp), duraz(non_punt), config([td=tr]))
+     ]
+    )
+   )
+  )
+ )
+main/prop:indice:f7
+          coord:indice:f1
+                pred:visit
+                lex_form:[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]]
+                voice:active
+                modo:ind
+                tempo:pres
+                cat:attivita
+                sogg/agent:indice:sn20
+                           cat:[umano, animato]
+                           pred:they
+                           pers:3
+                           num:plur
+                           caso:[nom]
+                           spec:def:+
+                           tab_ref:[+ref, +pro, +ana, +me]
+                           antecedente:esterno
+                           interpretazione:definita
+                ogg/theme_aff:indice:sn21
+                              cat:[luogo]
+                              pred:place
+                              num:plur
+                              pers:3
+                              spec:def:-
+                                   part:+
+                                   quant:several
+                              mods:adj/locativo:sem_mark:in
+                                                indice:spc1
+                                                cat:[]
+                                                pred:'England_France'
+                                                gen:mas
+                                                num:plur
+                                                pers:3
+                                                spec:def:'0'
+                                                coordina:testa:coordinante
+                                                         num:plur
+                                                         adj/locativo:sem_mark:in
+                                                                      indice:sn22
+                                                                      cat:[luogo, umano]
+                                                                      pred:'England'
+                                                                      gen:mas
+                                                                      num:sing
+                                                                      pers:3
+                                                                      spec:def:'0'
+                                                                      tab_ref:[+ref, -pro, -ana, +class]
+                                                         adj/locativo:sem_mark:in
+                                                                      indice:sn23
+                                                                      cat:[luogo, umano]
+                                                                      pred:'France'
+                                                                      gen:fem
+                                                                      num:sing
+                                                                      pers:3
+                                                                      spec:def:'0'
+                                                                      tab_ref:[+ref, -pro, -ana, +class]
+                                                tab_ref:[+ref, -pro, -ana, +class]
+                                   indice:sa2
+                                   cat:[valutativo]
+                                   pred:similar
+                              tab_ref:[+ref, -pro, -ana, +class]
+                              qmark:q1
+                aspetto:attivita
+                rel1:[td(f1_t43)=tr(f1_t43)]
+                rel2:[incluso(tr(f1_t43), tes(f1_t43))]
+                definitezza:+
+                ref_int:[tr(f1_t43)]
+                qops:q1
+          coord:indice:f6
+                pred:do
+                lex_form:[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]]
+                voice:active
+                modo:ind
+                tempo:pres
+                cat:attivita
+                topic/tema:indice:sn43
+                           cat:[oggetto, relat, sociale, strumento, umano]
+                           pred:trainer
+                           num:plur
+                           pers:3
+                           spec:def:'0'
+                                part:-
+                                quant:2
+                           mods:mod/tema:indice:sn42
+                                         cat:[attivita, informa, tempo]
+                                         pred:future
+                                         num:sing
+                                         pers:3
+                                         tab_ref:[+ref, -pro, -ana, +class]
+                           tab_ref:[+ref, -pro, -ana, +class]
+                ogg/theme_aff:indice:sn44
+                              cat:[attivita]
+                              pred:internship
+                              num:sing
+                              pers:3
+                              spec:def:'0'
+                              mods:adj/temporale:sem_mark:in
+                                                 indice:sn46
+                                                 cat:[date, tempo]
+                                                 pred:1
+                                                 num:plur
+                                                 pers:3
+                                                 spec:def:+
+                                                      card:1
+                                                 tab_ref:[+ref, -pro, -ana, +class]
+                              tab_ref:[+ref, -pro, -ana, +class]
+                adjs:adj/temp:pred:already
+                              duraz:non_punt
+                              config:[td=tr]
+                aspetto:attivita
+                rel1:[td(f6_t43)=tr(f6_t43)]
+                rel2:[incluso(tr(f6_t43), tes(f6_t43))]
+                definitezza:+
+                ref_int:[tr(f6_t43)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn20, they, [+ref, +def, nil, nil, +pro, +ana, +me], 3, nil, plur, [umano, animato], sogg/agent)/46
+ ref_ex(sn21, place, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, plur, [luogo], ogg/theme_aff)/51
+ ref_ex(sn43, trainer, [+ref, def0, 2, nil, -pro, -ana, +class], 3, nil, plur, [oggetto, relat, sociale, strumento, umano], topic/tema)/66
+ ref_ex(sn42, future, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [attivita, informa, tempo], mod/tema)/116
+ ref_ex(sn22, England, [+ref, def0, nil, nil, -pro, -ana, +class], 3, mas, sing, [luogo, umano], adj/locativo)/134
+ ref_ex(sn23, France, [+ref, def0, nil, nil, -pro, -ana, +class], 3, fem, sing, [luogo, umano], adj/locativo)/134
+ ref_ex(sn44, internship, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [attivita], ogg/theme_aff)/150
+ ref_ex(spc1, England_France, [+ref, def0, nil, nil, -pro, -ana, +class], 3, mas, plur, [], adj/locativo)/203
+ ref_ex(sn46, 1, [+ref, +def, nil, 1, -pro, -ana, +class], 3, nil, plur, [date, tempo], adj/temporale)/225
+
+EXPECTED TOPIC : ref_ex(sn20, Joao, _G8569, 3, nil, plur, [umano, animato], sogg/agent)
+SECONDARY TOPIC : ref_ex(sn18, Marta_Gomes, _G8587, 3, nil, sing, [umano], sogg/agent)
+POTENTIAL TOPICS : ref_ex(sn21, place, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, plur, [luogo], ogg/theme_aff), ref_ex(sn43, trainer, [+ref, def0, 2, nil, -pro, -ana, +class], 3, nil, plur, [oggetto, relat, sociale, strumento, umano], topic/tema), ref_ex(sn42, future, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [attivita, informa, tempo], mod/tema), ref_ex(sn22, 'England', [+ref, def0, nil, nil, -pro, -ana, +class], 3, mas, sing, [luogo, umano], adj/locativo), ref_ex(sn23, 'France', [+ref, def0, nil, nil, -pro, -ana, +class], 3, fem, sing, [luogo, umano], adj/locativo), ref_ex(sn44, internship, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [attivita], ogg/theme_aff), ref_ex(spc1, 'England_France', [+ref, def0, nil, nil, -pro, -ana, +class], 3, mas, plur, [], adj/locativo), ref_ex(sn46, 1, [+ref, +def, nil, 1, -pro, -ana, +class], 3, nil, plur, [date, tempo], adj/temporale), ref_ex(_G8623, school, _G8625, 3, nil, sing, [luogo], _G8630)
+
+stato(3, retaining)
+
+rel_temp(infon119, td, tr(f1_t43), [eq])
+
+
+CLAUSE IDENTIFIER:               3-n4
+CLAUSE TYPE:                     coord/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f1_t43), tes(sn30_t42))
+DISCOURSE FOCUS:                 tes(f1_t43)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               3-n73
+CLAUSE TYPE:                     coord/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f6_t43), tes(f1_t43))
+DISCOURSE FOCUS:                 tes(f1_t43)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(3, retaining)
+topic(3, expected, id17)
+topic(3, secondary, id15)
+topic(3, potential, id31)
+sr(mod, place, similar)
+sr(sogg-agent, visit, they)
+sr(ogg-theme_aff, visit, place)
+sr(topic-tema, do, trainer)
+sr(ogg-theme_aff, do, internship)
+sr(adj-temp, do, already)
+
+
+'######################  LOGICAL FORM ###############'
+wff(and,
+    wff(situation,
+        wff(visit,
+            < plural : sn20 :
+                wff(and,
+                    wff(isa,
+                        sn20,
+                        they),
+                    wff(antecedente,
+                        sn20,
+                        esterno)) >>,
+            < plural : sn21 :
+                wff(and,
+                    wff(isa,
+                        sn21,
+                        place),
+                    wff(and,
+                        wff(similar,
+                            sn21),
+                        wff(in,
+                            sn21,
+                            < set : spc1 :
+                                < entity : sn22 :
+                                    wff(isa,
+                                        sn22,
+                                        England) >>,
+                                < entity : sn23 :
+                                    wff(isa,
+                                        sn23,
+                                        France) >> >>))) >>,
+            < process : f1 :
+                wff(and,
+                    wff(isa,
+                        f1,
+                        pr),
+                    wff(time,
+                        f1,
+                        < indefinito : t7 :
+                            wff(and,
+                                wff(isa,
+                                    t7,
+                                    tloc),
+                                wff(pres,
+                                    t7)) >>)) >>)),
+    wff(situation,
+        wff(do,
+            < plural : sn43 :
+                wff(and,
+                    wff(isa,
+                        sn43,
+                        trainer),
+                    wff(future,
+                        sn43)) >>,
+            < entity : sn44 :
+                wff(and,
+                    wff(isa,
+                        sn44,
+                        internship),
+                    wff(in,
+                        sn44,
+                        < plural : sn46 :
+                            wff(isa,
+                                sn46,
+                                1) >>)) >>,
+            < process : f6 :
+                wff(and,
+                    wff(isa,
+                        f6,
+                        pr),
+                    wff(and,
+                        wff(time,
+                            f6,
+                            < indefinito : t8 :
+                                wff(and,
+                                    wff(isa,
+                                        t8,
+                                        tloc),
+                                    wff(pres,
+                                        t8)) >>),
+                        wff(already,
+                            f6))) >>)))
+
+
+
+loc(infon120, id29, [arg:main_tloc, arg:1])
+loc(infon121, id30, [arg:main_sloc, arg:'England'])
+set(infon122, id31)
+card(infon123, id31, 5)
+class(infon124, id32)
+fact(infon125, inst_of, [ind:id32, class:luogo], 1, univ, univ)
+fact(infon126, isa, [ind:id32, class:'England_France'], 1, univ, univ)
+fact(infon128, of, [arg:id31, specif:id32], 1, univ, univ)
+fact(infon129, of, [arg:id31, specif:id32], 1, univ, univ)
+fact(infon130, isa, [ind:id31, class:place], 1, id29, id30)
+fact(infon131, inst_of, [ind:id31, class:place], 1, univ, univ)
+class(infon132, id33)
+fact(infon133, future, [ind:id33], 1, id29, id30)
+fact(infon134, inst_of, [ind:id33, class:man], 1, univ, univ)
+set(infon135, id34)
+card(infon136, id34, 2)
+fact(infon137, future, [nil:id34], 1, univ, univ)
+fact(infon138, inst_of, [ind:id34, class:man], 1, univ, univ)
+fact(infon139, isa, [ind:id34, class:trainer], 1, id29, id30)
+class(infon140, id35)
+fact(infon141, inst_of, [ind:id35, class:attivita], 1, univ, univ)
+fact(infon142, isa, [ind:id35, class:future], 1, id29, id30)
+class(infon143, id36)
+fact(infon144, inst_of, [ind:id36, class:man], 1, univ, univ)
+fact(infon145, isa, [ind:id36, class:'England'], 1, id29, id30)
+class(infon146, id37)
+fact(infon147, inst_of, [ind:id37, class:man], 1, univ, univ)
+fact(infon148, isa, [ind:id37, class:'France'], 1, id29, id30)
+class(infon149, id38)
+class(infon150, id39)
+fact(infon151, inst_of, [ind:id39, class:nquant], 1, univ, univ)
+fact(infon152, isa, [ind:id39, class:1], 1, univ, univ)
+fact(infon154, of, [arg:id38, specif:id39], 1, univ, univ)
+fact(infon155, of, [arg:id38, specif:id39], 1, univ, univ)
+fact(infon156, inst_of, [ind:id38, class:attivita], 1, univ, univ)
+fact(infon157, isa, [ind:id38, class:internship], 1, id29, id30)
+fact(infon158, isa, [arg:id17, arg:they], 1, id29, id30)
+fact(infon160, similar, [arg:id31], 1, id29, id30)
+in(infon183, id36, id37)
+in(infon184, id37, id37)
+fact(infon163, in, [arg:id31, arg:id37], 1, id29, id30)
+fact(id40, visit, [agent:id17, theme_aff:id31], 1, tes(f1_t43), id30)
+fact(infon164, isa, [arg:id40, arg:pr], 1, tes(f1_t43), id30)
+fact(infon165, isa, [arg:id41, arg:tloc], 1, tes(f1_t43), id30)
+fact(infon166, pres, [arg:id41], 1, tes(f1_t43), id30)
+fact(infon167, time, [arg:id40, arg:id41], 1, tes(f1_t43), id30)
+fact(id42, do, [tema:id34, theme_aff:id38], 1, tes(f6_t43), id30)
+fact(infon173, isa, [arg:id42, arg:pr], 1, tes(f6_t43), id30)
+fact(infon174, isa, [arg:id43, arg:tloc], 1, tes(f6_t43), id30)
+fact(infon175, pres, [arg:id43], 1, tes(f6_t43), id30)
+fact(infon176, time, [arg:id42, arg:id43], 1, tes(f6_t43), id30)
+fact(infon177, already, [arg:id42], 1, tes(f6_t43), id30)
+
+during(tes(f6_t43), tes(f1_t43))
+includes(tr(f7_t43), id29)
+
+
+         up:to(2-3)
+         clause:3-5
+         topics:[expected:id17:'Joao', secondary:id15:'Marta_Gomes']
+         main_fact:visit([id17:'Joao', id31:place], 1, id30)
+         ref_int:tint(nil, [tes(f1_t43)])
+         temp_rel:during(tes(f1_t43), tes(sn30_t42))
+         disc_rel:narration
+         disc_seg:4-[5]
+         disc_dom:objective
+         p_o_view:narrator
+
+         up:to(3-5)
+         clause:3-6
+         topics:[expected:id17:'Joao', secondary:id15:'Marta_Gomes']
+         main_fact:do([id34:trainer, id38:internship], 1, id30)
+         ref_int:tint(nil, [tes(f6_t43)])
+         temp_rel:during(tes(f6_t43), tes(f1_t43))
+         disc_rel:narration
+         disc_seg:5-[6]
+         disc_dom:objective
+         p_o_view:narrator

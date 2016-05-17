@@ -1,0 +1,655 @@
+Ratio of Tags per Word for Sentence no: 2
+Word Ambiguity Ratio: 1.6
+'Lookahead Start Active Chart'
+0-[a-that, c-that, r-that], 1-[v-has], 2-[v-been], 3-[a-known, v-known], 4-[e-for, p-for, s-for], 5-[d-some, r-some], 6-[n-time, nt-time, v-time], 7-[e-and], 8-[r-it], 9-[v-has], 10-[n-led, v-led], 11-[p-to], 12-[d-a], 13-[n-vaccine], 14-[a-that, c-that, r-that], 15-[n-seems, v-seems], 16-[p-to], 17-[v-prevent], 18-[r-it], 19-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.25
+0-[r-that], 1-[v-has], 2-[v-been], 3-[v-known], 4-[e-for, p-for, s-for], 5-[d-some, r-some], 6-[n-time, nt-time, v-time], 7-[e-and], 8-[r-it], 9-[v-has], 10-[v-led], 11-[p-to], 12-[d-a], 13-[n-vaccine], 14-[c-that], 15-[v-seems], 16-[p-to], 17-[v-prevent], 18-[r-it], 19-[x-'.']
+
+0-[r-that], 1-[v-has], 2-[v-been], 3-[v-known], 4-[e-for, p-for, s-for], 5-[d-some, r-some], 6-[n-time, nt-time, v-time], 7-[e-and], 8-[r-it], 9-[v-has], 10-[v-led], 11-[p-to], 12-[d-a], 13-[n-vaccine], 14-[c-that], 15-[v-seems], 16-[p-to], 17-[v-prevent], 18-[r-it], 19-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+2
+that-dt
+has-vbz
+been-vb
+known-vbn_jj
+for-in
+some-dt
+time-nns
+and-cc
+it-prp
+has-vbz
+led-vbn_jj
+to-to
+a-dt
+vaccine-nn
+that-dt
+seems-vbz
+to-to
+prevent-vbd
+it-prp
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[that-pron, has-ausa, been-vc, known-vppt, for-p, some-q, time-nt, and-cong, it-pron, has-ausa, led-vppt, to-p, a-art, vaccine-n, that-rel, seems-vin, to-p, prevent-vin, it-pron, '.'-punto]
+
+cp-[f-[subj-[that-pron-sn], ibar-[has-ausa-ibar, been-ausep-ibar, known-vppt-ibar], sp-[for-p-sp, some-q-sn, time-nt-sn]], fc-[fc-[and-cong-fc], f-[subj-[it-pron-sn], ibar-[has-ausa-ibar, led-vppt-ibar], sp-[to-p-sp, a-art-sn, vaccine-n-sn], f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[seems-vin-ibar], vcomp-[to-p-_G3865, prevent-vin-ibar], sn-[it-pron-sn], cp-['.'-punto-cp]]]]]]
+
+2
+
+
+'Functional and Syntactic Constituency'
+
+subj-[that-pron-sn]
+ibar-[has-ausa-ibar, been-ausep-ibar, known-vppt-ibar]
+obl-[for-p-sp, some-q-sn, time-nt-sn]
+
+2
+
+
+'Functional and Syntactic Constituency'
+
+subj-[it-pron-sn]
+ibar-[has-ausa-ibar, led-vppt-ibar]
+obl-[to-p-sp, a-art-sn, vaccine-n-sn, f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[seems-vin-ibar], vcomp-[to-p-_G3865, prevent-vin-ibar], sn-[it-pron-sn]]]]
+
+['.']
+
+
+coord_ip(
+ indice(f5),
+ coord(
+  ip(
+   indice(f2),
+   v(know, passive, [sn/sogg/tema_nonaff/[umano, animato, astratto, informa, evento]], ind, pass/pross/have, 3, sing, _G20664),
+   supporto([]),
+   cat(presuppositivo),
+   args(
+     [
+     arg(
+      funzione(subj_top),
+      ruolo(tema_nonaff),
+      sn(
+       indice(sn6),
+       cat([oggetto, umano]),
+       pr(deittico, that, 3, _G20664, sing, nom),
+       spec(
+        def(+),
+        part([]),
+        mod([]),
+        foc([]),
+        card([]),
+        quant([])
+        ),
+       args([]),
+       mods([]),
+       adjs([])
+       )
+      ),
+     arg(
+      funzione(obl),
+      ruolo(actor),
+      sn(
+       indice(sn8),
+       cat([umano]),
+       pr(pr_quantif, exist, _G29472, _G29473, _G29474, _G29475),
+       spec(
+        def(-),
+        part(+),
+        mod([]),
+        foc([]),
+        card([]),
+        quant([])
+        )
+       )
+      )
+     ]
+    ),
+   adjs(
+     [
+     adj(
+      durata,
+      sp(
+       prep(for, cat([tempo, ripetizione]), mod(_G24337)),
+       args(
+         [
+         arg(
+          funzione(ogg),
+          ruolo(nil),
+          sn(
+           indice(sn7),
+           cat([tempo, ripetizione]),
+           n(time, _G27082, sing),
+           spec(
+            def(-),
+            part(+),
+            mod([]),
+            foc([]),
+            card([]),
+            quant(
+             some
+             )
+            ),
+           args([]),
+           mods([]),
+           adjs([])
+           )
+          )
+         ]
+        )
+       )
+      )
+     ]
+    )
+   )
+  ),
+ coord(
+  ip(
+   indice(f4),
+   v(lead, active, [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]], ind, pres/_G34291, 3, sing, _G32047),
+   supporto(have),
+   cat(attivita),
+   args(
+     [
+     arg(
+      funzione(sogg),
+      ruolo(actor),
+      sn(
+       indice(sn9),
+       cat([any, nonhuman]),
+       pr(clitico, _G32085, it, 3, _G32047, sing, [nom, acc, obl]),
+       spec(
+        def(+),
+        part([]),
+        mod([]),
+        foc([]),
+        card([]),
+        quant([])
+        ),
+       args([]),
+       mods([]),
+       adjs([])
+       )
+      ),
+     arg(
+      funzione(obl),
+      ruolo(locativo),
+      sp(
+       prep(to, cat([oggetto, strumento]), _G49058),
+       sn(
+        indice(sn10),
+        cat([oggetto, strumento]),
+        n(vaccine, _G38341, sing),
+        spec(
+         def(-),
+         part([]),
+         mod([]),
+         foc([]),
+         card([]),
+         quant([])
+         ),
+        args([]),
+        mods(
+          [
+          relativa(
+           topic(
+            relativo,
+            sn(
+             indice(sn11),
+             cat([oggetto, strumento]),
+             pr(pro_grande, pPro, 3, _G38341, sing, nom),
+             controllore(sn10)
+             )
+            ),
+           ip(
+            indice(f3),
+            v(seem, active, [expl/sogg/_G47626/_G47603, f/fcomp/_G47703/[_G47711=x]|_G47715], ind, _G41229/semp, 3, sing, _G38341),
+            supporto([]),
+            cat(soggettivo),
+            args(
+              [
+              arg(
+               funzione(fcomp),
+               ruolo(prop),
+               infinitiva(
+                indice(finf1),
+                v(prevent, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], base, pres/semp, _G42376, _G42377, _G42378),
+                supporto([]),
+                cat(risultato),
+                args(
+                  [
+                  arg(
+                   funzione(sogg),
+                   ruolo(agent),
+                   sn(
+                    indice(sn14),
+                    cat([any]),
+                    pr(pro_grande, pPro, _G47402, _G47403, _G47404, [nom]),
+                    spec([]),
+                    controllore([])
+                    )
+                   ),
+                  arg(
+                   funzione(ogg),
+                   ruolo(theme_aff),
+                   sn(
+                    indice(sn13),
+                    cat([any, nonhuman]),
+                    pr(clitico, _G46644, it, 3, _G46606, sing, [nom, acc, obl]),
+                    spec(
+                     def(+),
+                     part([]),
+                     mod([]),
+                     foc([]),
+                     card([]),
+                     quant([])
+                     ),
+                    args([]),
+                    mods([]),
+                    adjs([])
+                    )
+                   )
+                  ]
+                 ),
+                adjs([])
+                )
+               ),
+              arg(
+               funzione(sogg),
+               ruolo(form),
+               sn(
+                indice([]),
+                cat([]),
+                pr(pro_expl, form, _G47666, _G47667, _G47668, _G47669, [nom]),
+                spec([]),
+                controllore(indefinito)
+                )
+               )
+              ]
+             ),
+            adjs([])
+            )
+           )
+          ]
+         ),
+        adjs([])
+        )
+       )
+      )
+     ]
+    ),
+   adjs([])
+   )
+  )
+ )
+main/prop:indice:f5
+          coord:indice:f2
+                pred:know
+                lex_form:[sn/sogg/tema_nonaff/[umano, animato, astratto, informa, evento]]
+                voice:passive
+                modo:ind
+                tempo:trap_pross
+                cat:presuppositivo
+                subj_top/tema_nonaff:indice:sn6
+                                     cat:[oggetto, umano]
+                                     pred:that
+                                     pers:3
+                                     num:sing
+                                     caso:nom
+                                     spec:def:+
+                                     tab_ref:[+ref, +pro, -ana, +class]
+                obl/actor:indice:sn8
+                          cat:[umano]
+                          pred:exist
+                          spec:def:-
+                               part:+
+                          tab_ref:[+ref, -pro, -ana, +me]
+                adjs:adj/durata:sem_mark:for
+                                ogg/nil:indice:sn7
+                                        cat:[tempo, ripetizione]
+                                        pred:time
+                                        num:sing
+                                        pers:3
+                                        spec:def:-
+                                             part:+
+                                             quant:some
+                                        tab_ref:[+ref, -pro, -ana, +class]
+                                        qmark:q2
+                aspetto:stato
+                rel1:[tr(f2_t22)aftr td(f2_t22)]
+                rel2:[tes(f2_t22)aftr tr(f2_t22)]
+                definitezza:-
+                ref_int:[tr(f2_t22)]
+                qops:qop:q(q2, indefinito)
+          coord:indice:f4
+                pred:lead
+                lex_form:[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]]
+                voice:active
+                modo:ind
+                tempo:pres
+                supporto:have
+                cat:attivita
+                sogg/actor:indice:sn9
+                           cat:[any, nonhuman]
+                           pred:it
+                           pers:3
+                           num:sing
+                           caso:[nom, acc, obl]
+                           spec:def:+
+                           tab_ref:[+ref, +pro, +ana, +me]
+                obl/locativo:sem_mark:to
+                             indice:sn10
+                             cat:[oggetto, strumento]
+                             pred:vaccine
+                             num:sing
+                             pers:3
+                             spec:def:-
+                             mods:relativa:topic:tipo_topic:relativo
+                                                 indice:sn11
+                                                 cat:[oggetto, strumento]
+                                                 pred:pPro
+                                                 controllore:sn10
+                                                 tab_ref:[+ref, +pro, +ana, -me]
+                                           indice:f3
+                                           pred:seem
+                                           lex_form:[expl/sogg/_G12755/[], f/fcomp/_G12767/[_G12775=x]|_G12761]
+                                           voice:active
+                                           modo:ind
+                                           tempo:pres
+                                           cat:soggettivo
+                                           fcomp/prop:indice:finf1
+                                                      pred:prevent
+                                                      lex_form:[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]]
+                                                      modo:base
+                                                      tempo:pres
+                                                      cat:risultato
+                                                      sogg/agent:indice:sn14
+                                                                 cat:[any]
+                                                                 pred:pPro
+                                                                 tab_ref:[+ref, +pro, +ana, -me]
+                                                      ogg/theme_aff:indice:sn13
+                                                                    cat:[any, nonhuman]
+                                                                    pred:it
+                                                                    pers:3
+                                                                    num:sing
+                                                                    caso:[nom, acc, obl]
+                                                                    spec:def:+
+                                                                    tab_ref:[+ref, +pro, +ana, +me]
+                                                      aspetto:achiev_tr
+                                           sogg/form:indice:[]
+                                                     cat:[]
+                                                     pred:form
+                                                     pers:3
+                                                     num:sing
+                                                     caso:[nom]
+                                                     controllore:indefinito
+                                                     tab_ref:[-ref, -pro, -ana, -me]
+                                           aspetto:stato
+                             tab_ref:[+ref, -pro, -ana, +class]
+                             qmark:q1
+                aspetto:attivita
+                rel1:[td(f4_t22)=tr(f4_t22)]
+                rel2:[incluso(tr(f4_t22), tes(f4_t22))]
+                definitezza:+
+                ref_int:[tr(f4_t22)]
+                qops:qop:q(q1, indefinito)
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn6, that, [+ref, +def, nil, nil, +pro, -ana, +class], 3, nil, sing, [oggetto, umano], subj_top/tema_nonaff)/38
+ ref_ex(sn10, vaccine, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto, strumento], obl/locativo)/59
+ ref_ex(sn9, it, [+ref, +def, nil, nil, +pro, +ana, +me], 3, nil, sing, [any, nonhuman], sogg/actor)/146
+ ref_ex(sn14, pPro, [+ref, def0, nil, nil, +pro, +ana, -me], nil, nil, nil, [any], sogg/agent)/205
+ ref_ex(sn13, it, [+ref, +def, nil, nil, +pro, +ana, +me], 3, nil, sing, [any, nonhuman], ogg/theme_aff)/210
+ ref_ex(sn8, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [umano], obl/actor)/251
+ ref_ex(sn7, time, [+ref, -def, some, nil, -pro, -ana, +class], 3, nil, sing, [tempo, ripetizione], ogg/nil)/275
+
+
+
+
+CLAUSE IDENTIFIER:               2-n4
+CLAUSE TYPE:                     coord/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               before(tes(f2_t22), tes(f2_t22))
+DISCOURSE FOCUS:                 tes(f2_t22)
+DISCOURSE RELATION:              evaluation
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               2-n44
+CLAUSE TYPE:                     coord/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f4_t22), tes(f2_t22))
+DISCOURSE FOCUS:                 tes(f2_t22)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               2-n89
+CLAUSE TYPE:                     fcomp/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(finf1_t22), tes(f2_t22))
+DISCOURSE FOCUS:                 tes(f2_t22)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(2, continua)
+topic(2, main, id2)
+topic(2, potential, id8)
+sr(subj_top-tema_nonaff, know, that)
+sr(obl-actor, know, exist)
+sr(sogg-agent, prevent, pPro)
+sr(ogg-theme_aff, prevent, it)
+sr(fcomp-prop, seem, prevent)
+sr(sogg-actor, lead, it)
+sr(obl-locativo, lead, vaccine)
+
+
+'######################  LOGICAL FORM ###############'
+wff(and,
+    wff(situation,
+        wff(know,
+            < definito : sn6 :
+                wff(isa,
+                    sn6,
+                    that) >>,
+            < exist : sn8 :
+                wff(isa,
+                    sn8,
+                    exist) >>,
+            < state : f2 :
+                wff(and,
+                    wff(isa,
+                        f2,
+                        st),
+                    wff(and,
+                        wff(time,
+                            f2,
+                            < indefinito : t2 :
+                                wff(and,
+                                    wff(isa,
+                                        t2,
+                                        tloc),
+                                    wff(trap_pross,
+                                        t2)) >>),
+                        wff(for,
+                            f2,
+                            < time : sn7 :
+                                wff(isa,
+                                    sn7,
+                                    time) >>))) >>)),
+    wff(situation,
+        wff(lead,
+            < definito : sn9 :
+                wff(isa,
+                    sn9,
+                    it) >>,
+            < indefinito : sn10 :
+                wff(and,
+                    wff(isa,
+                        sn10,
+                        vaccine),
+                    wff(and,
+                        wff(isola,
+                            wff(situation,
+                                wff(seem,
+                                    wff(situation,
+                                        wff(prevent,
+                                            < definito : sn14 :
+                                                wff(isa,
+                                                    sn14,
+                                                    pPro) >>,
+                                            < definito : sn13 :
+                                                wff(isa,
+                                                    sn13,
+                                                    it) >>,
+                                            < event : finf1 :
+                                                wff(and,
+                                                    wff(isa,
+                                                        finf1,
+                                                        ev),
+                                                    wff(time,
+                                                        finf1,
+                                                        < definito : t3 :
+                                                            wff(and,
+                                                                wff(isa,
+                                                                    t3,
+                                                                    tloc),
+                                                                wff(pres,
+                                                                    t3)) >>)) >>)),
+                                    < state : f3 :
+                                        wff(and,
+                                            wff(isa,
+                                                f3,
+                                                st),
+                                            wff(time,
+                                                f3,
+                                                < indefinito : t4 :
+                                                    wff(and,
+                                                        wff(isa,
+                                                            t4,
+                                                            tloc),
+                                                        wff(pres,
+                                                            t4)) >>)) >>))),
+                        [])) >>,
+            < process : f4 :
+                wff(and,
+                    wff(isa,
+                        f4,
+                        pr),
+                    wff(time,
+                        f4,
+                        < indefinito : t5 :
+                            wff(and,
+                                wff(isa,
+                                    t5,
+                                    tloc),
+                                wff(pres,
+                                    t5)) >>)) >>)))
+
+
+
+loc(infon18, id6, [arg:main_tloc, arg:tes(f2_t21)])
+loc(infon19, id7, [arg:main_sloc, arg:vaccine])
+ent(infon20, id8)
+fact(infon21, prop, [arg:id8, disc_set:[id4:cause:[theme_aff:id3, agent:id2]]], 1, id6, id7)
+ind(infon22, id9)
+fact(infon23, seem, [ind:id9], 1, id6, id7)
+fact(infon24, of, [arg:id9, specif:id9], 1, univ, univ)
+fact(infon25, isa, [ind:id9, class:vaccine], 1, id6, id7)
+fact(infon26, inst_of, [ind:id9, class:thing], 1, univ, univ)
+ind(infon27, id10)
+fact(infon28, that, [ind:id10], 1, id6, id7)
+fact(infon29, inst_of, [ind:id10, class:tempo], 1, univ, univ)
+fact(infon30, isa, [ind:id10, class:time], 1, id6, id7)
+fact(infon31, isa, [arg:id8, arg:that], 1, id6, id7)
+fact(infon32, isa, [arg:id11, arg:exist], 1, id6, id7)
+fact(id12, know, [tema_nonaff:id8, actor:id11], 1, tes(f2_t22), id7)
+fact(infon33, isa, [arg:id12, arg:st], 1, tes(f2_t22), id7)
+fact(infon34, isa, [arg:id13, arg:tloc], 1, tes(f2_t22), id7)
+fact(infon35, trap_pross, [arg:id13], 1, tes(f2_t22), id7)
+fact(infon36, time, [arg:id12, arg:id13], 1, tes(f2_t22), id7)
+fact(infon37, isa, [arg:id10, arg:time], 1, tes(f2_t22), id7)
+fact(infon38, for, [arg:id12, nil:id10], 1, tes(f2_t22), id7)
+fact(infon39, isa, [arg:id14, arg:it], 1, id6, id7)
+fact(infon41, isa, [arg:id15, arg:pPro], 1, id6, id7)
+fact(infon42, isa, [arg:id16, arg:it], 1, id6, id7)
+fact(id17, prevent, [agent:id15, theme_aff:id16], 1, tes(finf1_t22), id7)
+fact(infon43, isa, [arg:id17, arg:ev], 1, tes(finf1_t22), id7)
+fact(infon44, isa, [arg:id18, arg:tloc], 1, tes(finf1_t22), id7)
+fact(infon45, pres, [arg:id18], 1, tes(finf1_t22), id7)
+fact(infon46, time, [arg:id17, arg:id18], 1, tes(finf1_t22), id7)
+fact(id19, seem, [prop:id17], 1, tes(f3_t22), id7)
+fact(infon47, isa, [arg:id19, arg:st], 1, tes(f3_t22), id7)
+fact(infon48, isa, [arg:id20, arg:tloc], 1, tes(f3_t22), id7)
+fact(infon49, pres, [arg:id20], 1, tes(f3_t22), id7)
+fact(infon50, time, [arg:id19, arg:id20], 1, tes(f3_t22), id7)
+fact(id21, lead, [actor:id14, locativo:id9], 1, tes(f4_t22), id7)
+fact(infon51, isa, [arg:id21, arg:pr], 1, tes(f4_t22), id7)
+fact(infon52, isa, [arg:id22, arg:tloc], 1, tes(f4_t22), id7)
+fact(infon53, pres, [arg:id22], 1, tes(f4_t22), id7)
+fact(infon54, time, [arg:id21, arg:id22], 1, tes(f4_t22), id7)
+fact(infon66, believe, [arg:id23, believe:id12], 1, id6, id7)
+fact(infon67, believe, [arg:id24, believe:id21], 1, id6, id7)
+
+during(tes(finf1_t22), tes(f2_t22))
+includes(tr(f5_t22), id6)
+
+
+            down:down(1-1)
+            clause:2-2
+            topics:[main:id2:virus, secondary:nil:indefinite-sc]
+            main_fact:know([id8:that, id11:exist], 1, id7)
+            ref_int:tint(nil, [tes(f2_t22)])
+            temp_rel:before(tes(f2_t22), tes(f2_t22))
+            disc_rel:evaluation
+            disc_seg:1-[2]
+            disc_dom:objective
+            p_o_view:narrator
+
+                  down:down(2-2)
+                  clause:2-3
+                  topics:[main:id2:virus, secondary:nil:indefinite-sc]
+                  main_fact:lead([id14:it, id9:vaccine], 1, id7)
+                  ref_int:tint(nil, [tes(f4_t22)])
+                  temp_rel:during(tes(f4_t22), tes(f2_t22))
+                  disc_rel:narration
+                  disc_seg:2-[3]
+                  disc_dom:objective
+                  p_o_view:narrator
+
+                  same_level:level(2-3)
+                  clause:2-4
+                  topics:[main:id2:virus, secondary:nil:indefinite-sc]
+                  main_fact:prevent([id15:pPro, id16:it], 1, id7)
+                  ref_int:tint(nil, [tes(finf1_t22)])
+                  temp_rel:during(tes(finf1_t22), tes(f2_t22))
+                  disc_rel:narration
+                  disc_seg:3-[4]
+                  disc_dom:objective
+                  p_o_view:narrator
+

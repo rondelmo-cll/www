@@ -1,0 +1,18 @@
+Minimal pairs for [ò] vs. [ó] in initial position:
+ò 	ó 		
+òrco 	órco 		
+
+Minimal pairs for [ò] vs. [ó] in medial position:
+bòja 	bója 		
+bòte 	bóte 		
+bròxa 	bróxa 		
+fò£a 	fó£a 		
+fòxa 	fóxa 		
+lòdra 	lódra 		
+pòso 	póso 		
+ròso 	róso 		
+sòra 	sóra 		
+sòto 	sóto 		
+tòco 	tóco 		
+
+Minimal pairs for [ò] vs. [ó] in final position:

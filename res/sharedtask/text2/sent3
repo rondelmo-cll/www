@@ -1,0 +1,348 @@
+Ratio of Tags per Word for Sentence no: 3
+Word Ambiguity Ratio: 1.38462
+'Lookahead Start Active Chart'
+0-[n-'Researchers'], 1-[v-have], 2-[v-been], 3-[n-looking_for, v-looking_for], 4-[a-other, d-other, n-other], 5-[n-cancers], 6-[a-that, c-that, r-that], 7-[v-may], 8-[v-be], 9-[v-caused], 10-[p-by], 11-[n-viruses], 12-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.14286
+0-[n-'Researchers'], 1-[v-have], 2-[v-been], 3-[v-looking], 4-[p-for], 5-[a-other, d-other, n-other], 6-[n-cancers], 7-[c-that], 8-[v-may], 9-[v-be], 10-[v-caused], 11-[p-by], 12-[n-viruses], 13-[x-'.']
+
+0-[n-'Researchers'], 1-[v-have], 2-[v-been], 3-[v-looking], 4-[p-for], 5-[a-other, d-other, n-other], 6-[n-cancers], 7-[c-that], 8-[v-may], 9-[v-be], 10-[v-caused], 11-[p-by], 12-[n-viruses], 13-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+3
+Researchers-nns
+have-vb
+been-vb
+looking-vbg
+for-in
+other-jj
+cancers-nns
+that-dt
+may-md
+be-vb
+caused-vbd
+by-in
+viruses-nns
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+['Researchers'-n, have-ausa, been-vc, looking-vgin, for-p, other-ag, cancers-n, that-rel, may-vsup, be-ausei, caused-vin, by-pda, viruses-n, '.'-punto]
+
+f-[subj-['Researchers'-n-sn], ibar-[have-ausa-ibar, been-ausep-ibar, looking-vgin-ibar], sp-[for-p-sp, other-ag-sn, cancers-n-sn], f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[may-vsup-ibar, be-ausei-ibar, caused-vin-ibar], spda-[by-pda-spda, viruses-n-sn], cp-['.'-punto-cp]]]]
+
+3
+
+
+'Functional and Syntactic Constituency'
+
+subj-[Researchers-n-sn]
+ibar-[have-ausa-ibar, been-ausep-ibar, looking-vgin-ibar]
+obl-[for-p-sp, other-ag-sn, cancers-n-sn, f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[may-vsup-ibar, be-ausei-ibar, caused-vin-ibar], spda-[by-pda-spda, viruses-n-sn]]]]
+
+['.']
+
+
+ip(
+ indice(f3),
+ v(look, active, [sn/sogg/actor/[any], f/fcomp/propint/[subj=x]], ind, pres/_G10278, 3, sing, _G8423),
+ supporto(have),
+ cat(risultato),
+ args(
+   [
+   arg(
+    funzione(sogg),
+    ruolo(actor),
+    sn(
+     indice(sn6),
+     cat(nil),
+     n(Researchers, _G8423, sing),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(obl),
+    ruolo(locat),
+    sn(
+     indice(sn7),
+     cat([stato]),
+     n(cancer, _G13817, plur),
+     spec(
+      def(-),
+      part(+),
+      mod([]),
+      foc([]),
+      card([]),
+      quant(
+       other
+       )
+      ),
+     args([]),
+     mods(
+       [
+       relativa(
+        topic(
+         relativo,
+         sn(
+          indice(sn8),
+          cat([stato]),
+          pr(pro_grande, pPro, 3, _G13817, plur, nom),
+          controllore(sn7)
+          )
+         ),
+        ip(
+         indice(f2),
+         v(cause, passive, [sp/obl/agent/[any], sn/sogg/theme_aff/[any]], ind, pres/may/be, 3, plur, _G13817),
+         supporto(may),
+         cat(risultato),
+         args(
+           [
+           arg(
+            funzione(ogg),
+            ruolo(theme_aff),
+            /(
+             sn(
+              indice(sn9),
+              cat([stato]),
+              pr(pro_picc, pro, _G15637, 3, _G13817, plur, nom),
+              spec(
+               def(+)
+               ),
+              controllore(sn8)
+              ),
+             subj_top
+             )
+            ),
+           arg(
+            funzione(obl),
+            ruolo(agent),
+            mod([]),
+            sn(
+             indice(sn10),
+             cat(cmp),
+             n(virus, _G19611, plur),
+             spec(
+              def(0),
+              part([]),
+              mod([]),
+              foc([]),
+              card([]),
+              quant([])
+              ),
+             args([]),
+             mods([]),
+             adjs([])
+             )
+            )
+           ]
+          ),
+         adjs([])
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    )
+   ]
+  ),
+ adjs([])
+ )
+indice:f3
+pred:look
+lex_form:[sn/sogg/actor/[any], f/fcomp/propint/[subj=x]]
+voice:active
+modo:ind
+tempo:pres
+supporto:have
+cat:risultato
+sogg/actor:indice:sn6
+           cat:nil
+           pred:'Researchers'
+           num:sing
+           pers:3
+           spec:def:'0'
+           tab_ref:[+ref, -pro, -ana, +class]
+obl/locat:indice:sn7
+          cat:[stato]
+          pred:cancer
+          num:plur
+          pers:3
+          spec:def:-
+               part:+
+               quant:other
+          mods:relativa:topic:tipo_topic:relativo
+                              indice:sn8
+                              cat:[stato]
+                              pred:pPro
+                              controllore:sn7
+                              tab_ref:[+ref, +pro, +ana, -me]
+                        indice:f2
+                        pred:cause
+                        lex_form:[sp/obl/agent/[any], sn/sogg/theme_aff/[any]]
+                        voice:passive
+                        modo:ind
+                        tempo:pres
+                        supporto:may
+                        cat:risultato
+                        ogg/theme_aff:sn(indice(sn9), cat([stato]), pr(pro_picc, pro, _G31536, 3, [], plur, nom), spec(def(+)), controllore(sn8))/subj_top
+                        obl/agent:indice:sn10
+                                  cat:cmp
+                                  pred:virus
+                                  num:plur
+                                  pers:3
+                                  spec:def:'0'
+                                  tab_ref:[+ref, -pro, -ana, +class]
+                        aspetto:achiev_tr
+          tab_ref:[+ref, -pro, -ana, +class]
+          qmark:q1
+aspetto:achiev_tr
+rel1:[td(f3_t23)=tr(f3_t23)]
+rel2:[incluso(tr(f3_t23), tes(f3_t23))]
+definitezza:-
+ref_int:[tr(f3_t23)]
+qops:q1
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn6, Researchers, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, nil, sogg/actor)/116
+ ref_ex(sn7, cancer, [+ref, -def, other, nil, -pro, -ana, +class], 3, nil, plur, [stato], obl/locat)/128
+ ref_ex(sn10, virus, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, cmp, obl/agent)/165
+
+
+rel_temp(infon68, td, tr(f3_t23), [eq])
+
+
+CLAUSE IDENTIFIER:               3-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f3_t23), tes(f2_t22))
+DISCOURSE FOCUS:                 tes(f3_t23)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(3, retaining)
+topic(3, expected, id27)
+topic(3, main, id2)
+topic(3, potential, id3)
+sr(obl-agent, cause, virus)
+sr(sogg-actor, look, Researchers)
+sr(obl-locat, look, cancer)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(look,
+        < entity : sn6 :
+            wff(isa,
+                sn6,
+                Researchers) >>,
+        < plural : sn7 :
+            wff(and,
+                wff(isa,
+                    sn7,
+                    cancer),
+                wff(and,
+                    wff(isola,
+                        wff(situation,
+                            wff(cause,
+                                < plural : sn10 :
+                                    wff(isa,
+                                        sn10,
+                                        virus) >>,
+                                < event : f2 :
+                                    wff(and,
+                                        wff(isa,
+                                            f2,
+                                            ev),
+                                        wff(time,
+                                            f2,
+                                            < definito : t6 :
+                                                wff(and,
+                                                    wff(isa,
+                                                        t6,
+                                                        tloc),
+                                                    wff(pres,
+                                                        t6)) >>)) >>))),
+                    [])) >>,
+        < event : f3 :
+            wff(and,
+                wff(isa,
+                    f3,
+                    ev),
+                wff(time,
+                    f3,
+                    < definito : t7 :
+                        wff(and,
+                            wff(isa,
+                                t7,
+                                tloc),
+                            wff(pres,
+                                t7)) >>)) >>))
+
+
+
+loc(infon69, id25, [arg:main_tloc, arg:tes(f2_t22)])
+loc(infon70, id26, [arg:main_sloc, arg:cancer])
+class(infon71, id27)
+fact(infon72, inst_of, [ind:id27, class:nil], 1, univ, univ)
+fact(infon73, isa, [ind:id27, class:'Researchers'], 1, id25, id26)
+class(infon74, id28)
+fact(infon75, cause, [ind:id28], 1, id25, id26)
+fact(infon76, of, [arg:id28, specif:id28], 1, univ, univ)
+fact(infon77, inst_of, [ind:id28, class:stato], 1, univ, univ)
+fact(infon78, isa, [ind:id28, class:cancer], 1, id25, id26)
+in(infon79, id28, id3)
+fact(infon81, isa, [arg:id3, arg:cancer], 1, id25, id26)
+fact(infon82, isa, [arg:id2, arg:virus], 1, id25, id26)
+fact(id29, cause, [agent:id2], 1, tes(f2_t23), id26)
+fact(infon83, isa, [arg:id29, arg:ev], 1, tes(f2_t23), id26)
+fact(infon84, isa, [arg:id30, arg:tloc], 1, tes(f2_t23), id26)
+fact(infon85, pres, [arg:id30], 1, tes(f2_t23), id26)
+fact(infon86, time, [arg:id29, arg:id30], 1, tes(f2_t23), id26)
+fact(id31, look, [actor:id27, locat:id3], 1, tes(f3_t23), id26)
+fact(infon87, isa, [arg:id31, arg:ev], 1, tes(f3_t23), id26)
+fact(infon88, isa, [arg:id32, arg:tloc], 1, tes(f3_t23), id26)
+fact(infon89, pres, [arg:id32], 1, tes(f3_t23), id26)
+fact(infon90, time, [arg:id31, arg:id32], 1, tes(f3_t23), id26)
+fact(infon96, believe, [arg:id33, believe:id31], 1, id25, id26)
+
+during(tes(f3_t23), tes(f2_t22))
+includes(tr(f3_t23), id25)
+
+
+                  same_level:level(2-4)
+                  clause:3-5
+                  topics:[expected:id27:'Researchers', main:id2:virus, secondary:nil:indefinite-sc]
+                  main_fact:look([id27:'Researchers', id3:cancer], 1, id26)
+                  ref_int:tint(nil, [tes(f3_t23)])
+                  temp_rel:during(tes(f3_t23), tes(f2_t22))
+                  disc_rel:narration
+                  disc_seg:4-[5]
+                  disc_dom:objective
+                  p_o_view:narrator
+

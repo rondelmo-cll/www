@@ -1,0 +1,11 @@
+Minimal pairs for [g] vs. [j] in initial position:
+g 	j 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	h 	i 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+get 	jet 			wet 	yet 
+
+Minimal pairs for [g] vs. [j] in medial position:
+brugèl 	brujèl 		
+etimo£ogia 	etimo£ojia 		
+mago 	majo 			mano 	maso 	maxo 
+origina£e 	orijina£e 		
+
+Minimal pairs for [g] vs. [j] in final position:

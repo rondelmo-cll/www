@@ -1,0 +1,831 @@
+
+
+
+a	à
+Minimal pairs for [a] vs. [à] in initial position:
+albaro 	àlbaro 		
+Minimal pairs for [a] vs. [à] in medial position:		
+adotar 	adotàr 		
+bataja 	batàja 		
+batajar 	batajàr 		
+bordar 	bordàr 		
+botanego 	botànego 		
+britaneghe 	britàneghe 			
+cao 	cào 		
+capitan 	capitàn 			
+ciamame 	ciàmame 				
+clasego 	clàsego 		
+cofa 	cofà 			
+consonante 	consonànte 		
+corasa 	coràsa 			
+descoverxar 	descoverxàr 		
+dia£eta£i 	dia£età£i 		
+dopara 	doparà 	dopera 	doperà	
+doparar 	doparàr 		 			
+farghe£a 	fàrghe£a 				
+grafego 	gràfego 		
+indrioman 	indriomàn 				
+interdenta£i 	interdentà£i 			
+lontan 	lontàn 			
+majo 	màjo 			
+mascio 	màscio 				
+menaso 	menàso 				
+nda 	ndà 			
+osidenta£i 	osidentà£i 		
+paca 	pacà 		
+paso 	pàso 		
+paxe 	pàxe 		
+pensa 	pensà 		
+pesa 	pesà 	pexa 	pexà 		
+pra 	prà 		
+proar 	proàr 			
+pronunsia 	pronunsià 	pronunzia 	pronunzià 		
+pronunsiar 	pronunsiàr 		
+resitar 	resitàr 		
+rimarcar 	rimarcàr 			
+rixaltar 	rixaltàr 		
+salvadego 	salvàdego 			
+scianta 	sciànta 		
+sciao 	sciào 		
+sciapo 	sciàpo 				
+scrivar 	scrivàr 		
+scuriato£i 	scuriàto£i 		
+si£abeghe 	si£àbeghe 		
+specia£i 	specià£i 			
+standoghe 	stàndoghe 			
+talian 	taliàn 			
+vantaxo 	vantàxo 		
+venesian 	venesiàn 			
+voca£e 	vocà£e 		voca£i 	vocà£i 		
+xa 	xà 		
+xugar 	xugàr 				
+
+e	è
+Minimal pairs for [e] vs. [è] in initial position:
+e 	è 		
+esar 	èsar 		
+
+Minimal pairs for [e] vs. [è] in medial position:
+bei 	bèi 		
+caste£o 	castè£o 		
+coreta 	corèta 		
+de 	dè 		
+dei 	dèi 		
+deso 	dèso 		
+dia£eti 	dia£èti 		dia£eto 	dia£èto 		
+direto 	dirèto 		
+feto 	fèto 		
+fonedega 	fonèdega 		
+fonedego 	fonèdego 		
+fonemi 	fonèmi 		
+forse£e 	forsè£e 		
+ghe 	ghè 		
+gheto 	ghèto 		
+le 	lè 		
+lexar 	lèxar 		
+lexe 	lèxe 		
+mejo 	mèjo 		
+mexo 	mèxo 		
+nanare£a 	nanarè£a 		
+ne 	nè 		
+onbre£o 	onbrè£o 		
+parke 	parkè 		
+peke 	pèke 		
+perdarse 	pèrdarse 		
+pesa 	pèsa 		
+piane£o 	pianè£o 		
+pie 	piè 		
+presia 	prèsia 		
+problemi 	problèmi 		
+putei 	putèi 		
+rego£a 	règo£a 		rego£e 	règo£e 		
+resita 	rèsita 		
+resto 	rèsto 		
+rieso 	rièso 		
+rispeta 	rispèta 		
+rispeto 	rispèto 		
+rubesteghi 	rubèsteghi 		
+seco£i 	sèco£i 		seco£o 	sèco£o 		
+serte 	sèrte 		
+sesto 	sèsto 		
+seto 	sèto 			
+sevita 	sèvita 		
+sguelto 	sguèlto 		
+spece 	spèce 		
+speta 	spèta 		
+ste 	stè 		
+ste£a 	stè£a 		
+steto 	stèto 		
+storie£e 	storiè£e 		
+tera 	tèra 		
+teren 	terèn 		
+ve 	vè 		
+vecio 	vècio 		
+venedeghe 	venèdeghe 		
+vero 	vèro 		
+verta 	vèrta 		
+verxar 	vèrxar 		
+xenare 	xènare 		
+xero 	xèro 		
+
+è	é
+
+Minimal pairs for [è] vs. [é] in medial position:
+bèco 	béco 		
+fèta 	féta 		
+mèjo 	méjo 		
+parchè 	parché 		parkè 	parké 		
+pè£i 	pé£i 		
+pèsa 	pésa 		
+pèse 	pése 		
+pèso 	péso 		
+pèto 	péto 		
+pèxo 	péxo 		
+sè 	sé 		
+sèmo£a 	sémo£a 		
+sèsto 	sésto 		
+stè£a 	sté£a 		
+vèro 	véro 
+
+o	ò
+Minimal pairs for [o] vs. [ò] in initial position:
+ocio 	òcio 		
+ogni 	ògni 		
+omeni 	òmeni 		
+omo 	òmo 		
+orco 	òrco 		
+oso 	òso 		
+otima 	òtima 		
+
+Minimal pairs for [o] vs. [ò] in medial position:
+artìco£o 	artìco£ò 		
+biscoti 	biscòti 		biscoto 	biscòto 		
+boce 	bòce 		
+canoa 	canòa 		
+co£a 	cò£a 		
+deboto 	debòto 		
+done 	dòne 		
+dopara 	dòpara 		
+doso 	dòso 		
+gro£e 	grò£e 		
+gropa 	gròpa 		
+oso 	òso 		
+noni 	nòni 		
+paro£a 	parò£a 		paro£e 	parò£e 		
+pasto 	pastò 		
+pitosto 	pitòsto 		
+poro 	pòro 		
+poso 	pòso 		
+pultropo 	pultròpo 		
+puoto 	puòto 		
+roso 	ròso 		
+saro 	sarò 		
+soni 	sòni 		
+sono 	sòno 		
+sora 	sòra 		
+soto 	sòto 		
+spagno£a 	spagnò£a 		
+storego 	stòrego 		
+to£a 	tò£a 		
+toco 	tòco 		
+vo 	vò 		
+
+o	ó
+Minimal pairs for [o] vs. [ó] in initial position:
+o 	ó 		
+oltimo 	óltimo 		
+ondaxe 	óndaxe 		
+ongie 	óngie 		
+orca 	órca 		
+orco 	órco 		
+
+Minimal pairs for [o] vs. [ó] in medial position:
+aprovasion 	aprovasión 		
+ba£on 	ba£ón 		
+benon 	benón 		
+bocon 	bocón 		
+canton 	cantón 		
+cognosar 	cognósar 		
+cognoso 	cognóso 		
+cogo 	cógo 		
+comision 	comisión 		
+concluxion 	concluxión 		
+confuxion 	confuxión 		
+conpetision 	conpetisión 		
+corar 	córar 		
+core 	córe 		
+custion 	custión 		
+decixion 	decixión 		
+distinsion 	distinsión 		
+do 	dó 		
+dodaxe 	dódaxe 		
+fioi 	fiói 		
+generasioni 	generasióni 		
+inaxonta 	inaxónta 		
+laoro 	laóro 		
+letore 	letóre 		
+letori 	letóri 		
+onbre£on 	onbre£ón 		
+maravejoxa 	maravejóxa 		
+mision 	misión 		
+mori 	móri 		
+nathion 	nathión 		
+noador 	noadór 		
+nova 	nóva 		novi 	nóvi 		novo 	nóvo 		
+paron 	parón 		
+poco 	póco 		poke 	póke 		poki 	póki 		
+ponto 	pónto 		
+poso 	póso 		
+postasion 	postasión 		
+proa 	próa 		
+proar 	próar 		
+produsion 	produsión 		
+propor 	propór 		
+region 	región 		
+ricreasion 	ricreasión 		
+rosi 	rósi 		
+roso 	róso 		
+sco£a 	scó£a 		
+seconda 	secónda 		
+segonda 	segónda 		
+siga£on 	siga£ón 		
+sior 	siór 		
+so 	só 		
+so£usion 	so£usión 		
+soi 	sói 		
+sora 	sóra 		
+soto 	sóto 		
+toa 	tóa 		
+toco 	tóco 		
+togo 	tógo 		
+tolto 	tólto 		
+tose 	tóse 		toxe 	tóxe 		
+tradision 	tradisión 		
+tradusion 	tradusión 		
+vinsitor 	vinsitór 		
+vo£a 	vó£a 		
+xo 	xó 		
+xontate 	xóntate 		
+xovene 	xóvene 	
+
+u	ù
+
+Minimal pairs for [u] vs. [ù] in initial position:
+ugno£a 	ùgno£a 		
+
+Minimal pairs for [u] vs. [ù] in medial position:
+evolua 	evolùa 		
+gunbio 	gùnbio 		
+justo 	jùsto 		
+lu 	lù 		
+matuse 	matùse 		
+nisuna 	nisùna 		
+ognun 	ognùn 		
+risevuo 	risevùo 		
+so£usión 	so£ùsión 		
+suito 	sùito 			
+
+
+ò	ó
+Minimal pairs for [ò] vs. [ó] in initial position:		
+òrco 	órco 		
+
+Minimal pairs for [ò] vs. [ó] in medial position:
+bòja 	bója 		
+bòte 	bóte 		
+bròxa 	bróxa 		
+fò£a 	fó£a 		
+fòxa 	fóxa 		
+lòdra 	lódra 		
+pòso 	póso 		
+ròso 	róso 		
+sòra 	sóra 		
+sòto 	sóto 		
+tòco 	tóco 	
+
+i	ì
+
+Minimal pairs for [i] vs. [ì] in medial position:
+artico£i 	artìco£i 		artico£o 	artìco£o 		
+bisi 	bìsi 		
+ca£ivo 	ca£ìvo 		
+capio 	capìo 		
+capir 	capìr 		
+capiso 	capìso 		
+capito£i 	capìto£i 		
+carateristeghe 	caraterìsteghe 		
+cusi 	cusì 		
+cusita 	cusìta 		
+di 	dì 			
+dirghe£o 	dìrghe£o		
+divertimo 	divertìmo 		
+dixito 	dìxito 		
+do£omitega 	do£omìtega 		
+finia 	finìa 			 finio 	finìo 		
+finise 	finìse 		
+gatini 	gatìni 		
+gavaria 	gavarìa 		
+gavio 	gavìo 		
+grafie 	grafìe 		
+kerli 	kerlì 			 
+latin 	latìn 		
+pararia 	pararìa 		
+partia 	partìa 		partio 	partìo 		
+pe£isa 	pe£ìsa 		
+pi 	pì 			 	 
+piaxaria 	piaxarìa 		
+pie 	pìe 			 
+po£itega 	po£ìtega 		
+po£ito 		po£ìto 		
+podaria 	podarìa 		
+porcospin 	porcospìn 		
+posibi£e 	posìbi£e 		posibi£i 	posìbi£i 		
+preferia 	preferìa 		
+preferiso 	preferìso 		
+puito 		puìto 			
+rexistar 	rexìstar 		
+ridar 		rìdar 		
+riferise 	riferìse 		
+riscio 		rìscio 		
+savaria 	savarìa 		
+scominsio 	scomìnsio 		
+scrivar 	scrìvar 		
+sentio 	sentìo 			 
+sernio 	sernìo 		
+sernir 	sernìr 		
+servio 	servìo 					
+sientifega 	sientìfega 		
+simi£e 	sìmi£e 		
+sogetiva 	sogetìva 		
+sostituise 	sostituìse 		
+sparia 	sparìa 		sparii 	sparìi 		
+tentativo 	tentatìvo 		
+tito£o 	tìto£o 		
+verxi 	verxì 		
+vestia 	vestìa 		
+vestio 	vestìo 		
+vinsar 	vìnsar 		
+visin 	visìn 		
+vivar 	vìvar 		
+
+e	é
+
+Minimal pairs for [e] vs. [é] in medial position:
+acenti 	acénti 		
+altroke 	altroké 		
+barketa 	barkéta 		
+be£esa 	be£ésa 		
+bevar 	bévar 		
+caena 	caéna 		
+cagneto 	cagnéto 		
+careghe 	caréghe 		
+catemose 	catémose 		
+conejo 	conéjo 		
+corendo 	coréndo 		
+credar 	crédar 		
+credea 	credéa 		
+cuei 	cuéi 			 
+cuel 	cuél 			 
+dixea 	dixéa 		
+domeke 	domeké 		
+doxento 	doxénto 		
+exenpi 	exénpi 		
+fameja 	faméja 		
+faxevino 	faxévino 		
+fisceto 	fiscéto 		
+frego£a 	frégo£a 		
+gavea 	gavéa 		
+gavemo 	gavémo 		gavimo 
+gavese 	gavése 		
+gavevi 	gavévi 		
+gavevino 	gavévino 		
+ghemo 	ghémo 		
+inboreso 	inboréso 		
+insteso 	instéso 		
+intendito 	inténdito 		
+intiero 	intiéro 		
+invese 	invése 		
+ke£a 	ké£a 		
+laoreto 	laoréto 		
+lengoa 	léngoa 		
+letara 	létara 		
+lexemo 	lexémo 		
+magnemo 	magnémo 		
+maraveja 	maravéja 		
+mea 	méa 			 
+mejo 	méjo 		mèjo 	 
+meo 	méo 	 
+meso 	méso 	
+moreta 	moréta 		
+nemo 	némo 		
+ole 	olé 		
+orseto 	orséto 		
+parea 	paréa 			 
+parer 	parér 			 
+pareva 	paréva 			 
+parke 	parké 		parkè 
+pena 	péna 		
+pensito 	pénsito 		
+pesa 	pésa 		pèsa 	
+piaser 	piasér 		piaxer 	piaxér 		
+podea 	podéa 		
+podemo 	podémo 		podimo 
+poder 	podér 		
+podese 	podése 		
+porse£eto 	porse£éto 		
+rikesa 	rikésa 		
+savea 	savéa 		
+sceto 	scéto 		
+se 	sé 			 
+seca 	séca 		
+seco 	séco 			
+sedaxe 	sédaxe 			
+segno 	ségno 			
+sena 	séna 			 
+sente 	sénte 		
+sesto 	sésto 		sèsto 	 
+skena 	skéna 		
+speso 	spéso 			 
+ste£a 	sté£a 		stè£a 
+stufeso 	stuféso 		
+takemo 	takémo 		
+tegner 	tegnér 		
+toketi 	tokéti 		toketo 	tokéto 		
+vedar 	védar 		
+vedea 	vedéa 		
+vedito 	védito 		
+vegnea 	vegnéa 		
+vegner 	vegnér 		vegnir 
+vero 	véro 		vèro 
+vien 	vién 		
+vinsemo 	vinsémo 		
+vo£ea 	vo£éa 		
+volea 	voléa 			 
+xe£o 	xé£o 			 
+xente 	xénte 		
+xerimo 	xérimo 		
+xughemo 	xughémo 			
+	
+l	£
+Minimal pairs for [l] vs. [£] in initial position:
+
+la 	£a 			 
+lasà 	£asà 			 
+le 	£e 			 
+li 	£i 			 
+lo 	£o 			
+lori 	£ori 			 
+lu 	£u 			
+
+Minimal pairs for [l] vs. [£] in medial position:
+ale 	a£e 		
+alenadora 	a£enadora 		
+alora 	a£ora 		
+balo 	ba£o 			 	 
+bele 	be£e 		
+capitolo 	capito£o 		
+cavalier 	cava£ier 		
+colonie 	co£onie 		
+color 	co£or 		
+controlar 	contro£ar 		
+dala 	da£a 			 
+dale 	da£e 			
+dela 	de£a 		
+dele 	de£e 		
+delegà 	de£egà 		
+ela 	e£a 		
+elefante 	e£efante 		
+eleto 	e£eto 			 
+eletrisità 	e£etrisità 		
+fralaltro 	fra£altro 		
+galón 		ga£ón 		
+interdentali 	interdenta£i 		
+l'alenamento 	l'a£enamento 		
+l'eletrisità 	l'e£etrisità 		
+livelo 	live£o 		
+male 	ma£e 			
+milisia 	mi£isia 		
+parola 	paro£a 			 
+parole 	paro£e 		
+particolare 	partico£are 		
+pele 	pe£e 			
+pole 	po£e 			 
+posibile 	posibi£e 		
+privilegi 	privi£egi 		
+probabile 	probabi£e 		
+psikedelico 	psikede£ico 		
+regola 	rego£a 		
+regole 	rego£e 		
+sbalià 	sba£ià 		
+sbaliarse 	sba£iarse 		
+secoli 	seco£i 		
+secolo 	seco£o 		
+simile 	simi£e 		
+singola 	singo£a 		
+sìxola 	sìxo£a 		
+sole 	so£e 		
+solito 	so£ito 		
+solo 	so£o 			
+stile 	sti£e 		
+storiele 	storie£e 		
+tole 	to£e 			
+utile 	uti£e 		
+valixa 	va£ixa 		
+valor 	va£or 		
+valore 	va£ore 		
+vocale 	voca£e 		
+vocali 	voca£i 		
+volea 	vo£ea 		
+voléa 	vo£éa 		
+xbalià 	xba£ià 			
+
+z	x		
+zara 	xara 			
+zèlo 	xèlo 		sèlo 
+zero 	xero 			
+zo 	xo 			 
+zonta 	xonta 			 
+zz 	xz 			 
+
+Minimal pairs for [z] vs. [x] in medial position:
+acorze 	acorxe 		
+ànzo£o 	ànxo£o 		àndo£o 
+lezar 	lexar 		
+leze 	lexe 		 
+mezo 	mexo 			 
+
+i	j
+aiuto 	ajuto 		
+sbaià 	sbajà 		
+voialtri 	vojaltri 		
+
+t	d
+alfabeto 	alfabedo 		
+cuanto 		cuando 		
+fonètego 	fonèdego 		
+laoratori 	laoradori 		
+latìn 	ladìn 			
+natura 	nadura 		
+po£itega 	po£idega 		
+rente 	rende 			
+venètego 	venèdego 					 
+vita 	vida 			 
+xugator 	xugador 			
+
+c	z
+pronunciava _1	pronunziava _1
+
+s	z
+sèlo 	zèlo 		xèlo 
+
+Minimal pairs for [s] vs. [z] in medial position:
+asion 		azion 		
+diresion 	direzion 		
+generasion 	generazion 		
+lese 	leze 		lexe 
+meso 	mezo 		mexo 
+produsion 	produzion 		
+pronunsia 	pronunzia 		
+pronunsià 	pronunzià 		
+pronunsie 	pronunzie 		
+provinsa 	provinza 		
+scominsia 	scominzia 		
+sensa 		senza 			 
+sforso 		sforzo 		
+varianse 	varianze 			 
+venesian 	venezian 			venetian 
+venesiana 	veneziana 		
+venesiani 	veneziani 		
+
+g	k
+segonda 	sekonda 		seconda 
+
+c	k
+Minimal pairs for [c] vs. [k] in initial position:
+calkeduni 	kalkeduni 		
+clasego 	klasego 		
+co 	ko 			
+coel 	koel 		
+cofà 	kofà 		
+coi 	koi 			
+come 	kome 			
+consonante 	konsonante 		
+consonantego 	konsonantego 		
+consonanti 	konsonanti 		
+contrario 	kontrario 		
+coreta 	koreta 			
+cosa 	kosa 			
+credea 	kredea 		
+credi 	kredi 		
+
+Minimal pairs for [c] vs. [k] in medial position:
+anca 	anka 			
+fraco 	frako 		
+ncora 	nkora 		
+partico£are 	partiko£are 		
+poco 	poko 			
+scó£a 	skó£a 		
+scoaxi 	skoaxi 		
+scominsia 	skominsia 		
+scriti 	skriti 		
+scrivar 	skrivar 		
+seco£o 	seko£o 		
+seconda 	sekonda 	segonda 
+
+k	ch
+Minimal pairs for [ch] vs. [k] in initial position:
+che 	ke 			 
+chi 	ki 			 
+chilo 	kilo 		
+
+Minimal pairs for [ch] vs. [k] in medial position:
+machina 	makina 			 machine 	makine 			 
+parché 	parké 		parchè 	parkè 		
+schena 	skena 		
+schiavoni 	skiavoni 		
+
+gi	j
+Minimal pairs for [gi] vs. [j] in initial position:
+giaponexe 	japonexe 		
+giusta 	justa 		
+giusto 	justo 			 
+
+Minimal pairs for [gi] vs. [j] in medial position:
+bacagiàr 	bacajàr 		
+bagiàr 	bajàr 			
+barbastrìgio 	barbastrìjo 		
+batàgia 	batàja 		
+bersàgio 	bersàjo 		
+bógiar 		bójar 		
+ro£ogio 	ro£ojo 		
+
+g	j
+Minimal pairs for [g] vs. [j] in medial position:
+brugèl 	brujèl 		
+etimo£ogia 	etimo£ojia 		
+mago 	majo 	
+origina£e 	orijina£e 		
+
+r	re
+baxàr 	baxàre 		
+bévar 	bévare 		
+co£or 	co£ore 		
+cor 	core 			
+dar 	dare 			
+letór 	letóre 		
+mar 	mare 			
+nar 	nare 		
+odor 	odore 		
+parcià 	parecià 		
+partico£ar 	partico£are 		
+parukier 	parukiere 		
+popo£ar 	popo£are 		
+rego£ar 	rego£are 		
+rìdar 	rìdare 		
+va£or 	va£ore 		valor 	valore 		
+
+
+sc	stc
+Minimal pairs for [sc] vs. [stc] in medial position:
+bescia 	bestcia 		
+cuscion 	custcion 
+
+
+
+s	x
+Minimal pairs for [s] vs. [x] in initial position:
+sa 	xa 			
+salìn 	xalìn 		
+salixàr 	xalixàr 		
+salùme 	xalùme 		
+sani 	xani 			 
+sara 	xara 			
+sba£ià 	xba£ià 		
+sbalià 	xbalià 		
+sbanpìa 	xbanpìa 		
+se 	xe 			
+se£o 	xe£o 			 
+séca 	xéca 		
+se'l 	xe'l 			
+selàr 	xelàr 		
+sèlo 	xèlo 		zèlo 
+sente 	xente 			
+sénte 	xénte 		
+sera 	xera 			
+sèso 	xèso 			
+sio 	xio 			 
+sìxola 	xìxola 		
+so 	xo 			
+só 	xó 		dó 
+sóga 	xóga 		
+sona 	xona 			
+su 	xu 			
+suga 	xuga 		
+sugà 	xugà 		sugàr 	xugàr 		
+
+
+Minimal pairs for [s] vs. [x] in medial position:
+ansa 	anxa 					
+basàr 	baxàr 			bajàr 
+baso 	baxo 			
+bisàr 	bixàr 		
+bìsi 	bìxi 		
+bisigàr 	bixigàr 		
+biso 	bixo 		
+bisogno 	bixogno 		
+casa 	caxa 			
+case 	caxe 			
+caseta 	caxeta 		
+casi 	caxi 			
+caso 	caxo 			 
+conclusion 	concluxion 		
+confusion 	confuxion 		
+consegnar 	conxegnar 		
+cusìn 	cuxìn 		
+dàsio 	dàxio 		
+deso£à 	dexo£à 		
+disnar 	dixnar 		
+faso£éto 	faxo£éto 		
+fòsa 	fòxa 			 
+grésa 	gréxa 		
+inbisàr 	inbixàr 		
+inbronsarse 	inbronxarse 		
+inbusar 	inbuxar 		
+incasàrse 	incaxàrse 		
+inmusà 		inmuxà 		
+insa£ar 	inxa£ar 		
+insegnar 	inxegnar 		
+isàr 	ixàr 		
+lese 	lexe 		leze 
+l'uso 	l'uxo 		
+mansa 	manxa 			
+maso 	maxo 			
+mesa 	mexa 			
+mese 	mexe 			 
+meso 	mexo 		mezo 
+mosa 	moxa 			 
+ónsa 	ónxa 		
+pesa 	pexa 			 
+pesà 	pexà 			
+péso 	péxo 			
+pèso 	pèxo 			
+piaser 	piaxer 		
+piasér 	piaxér 		
+piso£àr 	pixo£àr 		
+podese 	podexe 		
+presenta 	prexenta 		
+raise 	raixe 		
+rasa 	raxa 			
+rasàda 	raxàda 		
+rasión 	raxión 		
+raso 	raxo 			 
+riso 	rixo 			 
+rusàr 	ruxàr 		
+sasàr 	saxàr 		
+sbrasàr 	sbraxàr 		
+sbrisàr 	sbrixàr 		
+sfasàr 	sfaxàr 		
+sisàr 	sixàr 		
+sìso£a 	sìxo£a 		
+sonsa 	sonxa 		
+sorséto 	sorxéto 		
+sponsa 	sponxa 			 
+tose 	toxe 			 	 
+tóse 	tóxe 		
+traduse 	traduxe 		
+usà 	uxà 		
+vèrsa 	vèrxa 			 
+vésa 	véxa 		
+
+
+n	m
+Minimal pairs for [n] vs. [m] in medial position:
+canbià 	cambià 		
+canbiar 	cambiar 		
+conpletamente 	completamente 		
+conporta 	comporta 		
+dine 	dime 			 
+inparar 	imparar 		
+senpre 	sempre 			
+tenpo 	tempo 		
+védarne 	védarme 			
+
+
+c	q
+Minimal pairs for [c] vs. [q] in initial position:
+cuel 	quel 		
+cuesto 	questo 		
+
+Minimal pairs for [c] vs. [q] in medial position:
+frecuente 	frequente 		
+
+
+
+
+
+		
+		
+
+
+
+

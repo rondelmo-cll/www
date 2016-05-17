@@ -1,0 +1,16 @@
+Minimal pairs for [u] vs. [ù] in initial position:
+ugno£a 	ùgno£a 		
+
+Minimal pairs for [u] vs. [ù] in medial position:
+evolua 	evolùa 		
+gunbio 	gùnbio 		
+justo 	jùsto 		
+lu 	lù 		
+matuse 	matùse 		
+nisuna 	nisùna 		
+ognun 	ognùn 		
+risevuo 	risevùo 		
+so£usión 	so£ùsión 		
+suito 	sùito 		
+
+Minimal pairs for [u] vs. [ù] in final position:

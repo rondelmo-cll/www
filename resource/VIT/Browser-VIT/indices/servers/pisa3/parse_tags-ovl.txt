@@ -1,0 +1,884 @@
+da-[turn-g001, cp-[intj-'Va_bè', punt-',', f-[ibar-[vin-iniziamo]]], fp-[punt-',', cp-[intj-okay], punt-','], fc-[congf-allora, punt-',', f-[ibar-[clit-ci, vin-troviamo], compin-[sp-[part-alla, sn-[n-valle, spd-[partd-delle, sn-[n-allodole]]]]]]], punt-',', fc-[congf-allora, punt-',', f-[sn-[pron-te], ibar-[vc-sei]], fp-[punt-',', cp-[intj-ehm, punt-',', intj-eeh], punt-','], f-[ibar-[vc-hai], compc-[sn-[art-l, n-aia], sp-[part-sula, sn-[n-sinistra]]]]], punt-',', fint-[ibar-[clitabl-ci, vc-sei]], puntint-'?']
+
+
+da-[turn-f002, fint-[ibar-[vc-'Ho'], compc-[sn-[art-l, n-aia], sp-[part-sula, sn-[n-sinistra]]]], puntint-'?']
+
+
+da-[turn-g003, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f004, cp-[intj-'Mh', punt-',', intj-sì], punt-',', f3-[sa-[ag-strano]], f-[sn-[pron-io], fp-[punt-',', cp-[intj-eeh, punt-',', intj-va_bè], punt-','], ibar-[expl-c, vc-ho], compc-[sn-[art-l, n-aia], sp-[part-sula, sn-[n-sinistra]]]], punto-'.']
+
+
+da-[turn-g005, fc-[congf-'Allora', punt-',', f-[ibar-[vin-prosegui], compin-[savv-[avv-avanti]]], punt-',', f-[ibar-[vt-segui], compt-[sn-[art-la, n-strada]]]], punt-',', cp-[sp-[p-a, sn-[art-un, ind-certo, n-punto], punt-',', f-[ibar-[vt-trovi], compt-[par-'-', sn-[art-un, n-banano], punt-',', sp-[part-sula, sn-[poss-tua, n-destra]]]]]], punto-'.']
+
+
+da-[turn-f006, fint-[int-'Cosa', f-[ibar-[vt-trovo]]], puntint-'?']
+
+
+da-[turn-g007, f3-[sn-[art-'Un', n-banano]], punto-'.']
+
+da-[turn-f008, cp-[intj-'Eeh', punt-',', f-[ir_infl-[virt-vorrei], compt-[savv-[in-anche]], fc-[congf-ma, f-[ibar-[neg-non, clitdat-mi, vin-riesce], compin-[sv2-[vit-trovarlo, compt-[clitac-lo]]]]]]], fp-[punt-',', cp-[intj-ehm], punt-','], ovl-[par-'<', cp-[intj-'Va_bè', punt-',', fs-[cosu-quando, f-[ibar-[vin-arrivi, compin-[sp-[p-a, sn-[dim-questo, n-banano]]]]]]], punt-',', cp-[intj-eeh], par-'>'], fint-[ibar-[neg-non, expl-ce, clitac-l, vc-ho]], puntint-'!']
+
+
+da-[turn-g009, f-[ibar-[vin-'Giri'], compin-[sp-[p-a, sn-[n-destra]]]], punto-'.']
+
+
+da-[turn-f010, cp-[intj-'Eeh', punt-',', ovl-[par-'<', cp-[intj-'Va_b_', punt-',', intj-va_bè, punto-'.'], cp-[intj-'Sì', punto-'.'], par-'>'], f-[ir_infl-[virt-scusa]]], fp-[punt-',', intj-eh, punt-','], cp-[sn-[pron-io, punt-',', pron-io], sn-[art-l, n-aia], fp-[punt-',', intj-ehm, punt-','], f-[sn-[pron-io], ibar-[expl-c, vc-ho], compc-[sn-[art-un_, n-aia, fp-[punt-',', intj-ehm, punt-','], f2-[rel-dove, cp-[savv-[abbr-c_], punt-',', f-[ibar-[clitdat-mi, clitabl-c, ause-è, vppt-segnata], compt-[sn-[art-la, poss-mia, n-partenza]]]]]]]]], punt-',', cp_int-[intj-no], puntint-'?']
+
+
+da-[turn-g011, cp-[intj-'S�'], punto-'.']
+
+da-[turn-f012, f-[sn-[art-'La', n-valle, spd-[partd-delle, sn-[n-allodole]]], ibar-[vc-è], compc-[sq-[art-un, n-bel, q-pô, in-più], savv-[p-in, avv-là]]], punt-',', ovl-[par-'<', cp-[intj-'Si', punto-'.'], cp-[intj-'Sì'], par-'>'], f-[sn-[pron-io], savv-[avv-prima], ibar-[expl-c, vc-ho], compc-[sn-[sn-[art-una, n-roulotte], punt-',', sn-[art-il, n-viale, spd-[partd-dei, sn-[n-lillà]]], cong-e, sn-[art-un, n-porte, sp-[p-d, sn-[n-alluminio]]], punt-',', sn-[sq-[q-dei], n-babbuini]]]], punto-'.']
+
+
+da-[turn-g013, fc-[congf-'Allora', f-[ibar-[vin-arrivi], compin-[sp-[part-al, sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]]]]]], punto-'.']
+
+
+da-[turn-f014, fint-[ibar-[vin-'Arivo'], compin-[sp-[part-al, sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]]]], puntint-'?'], cp-[intj-'Okay'], punto-'.']
+
+
+da-[turn-g015, cp-[intj-'Okay'], punto-'.']
+
+
+da-[turn-f016, ovl-[par-'<', f-[ibar-[vin-prosegui]], par-'>'], f3-[congf-'E', congf-poi], puntint-'?']
+
+
+da-[turn-g017, cp-[savv-[avv-'Avanti'], punt-',', f-[ibar-[vt-trovi], compt-[sn-[art-la, n-roulotte]]]], punto-'.']
+
+
+da-[turn-f018, cp-[savv-[sq-[in-'Più'], avv-avanti], f-[ibar-[vt-trovo], compt-[sn-[art-la, n-roulotte]]]], fc-[congf-ma, fint-[ibar-[neg-non, clitac-la, vsupp-devo, vit-tagliare], compt-[savv-[avv-trasversalmente], sn-[art-il, n-viale, spd-[partd-dei, sn-[n-lillà]]]]], puntint-'?'], fs-[cosu-'Perché', cp-[sn-[pron-io], fp-[punt-',', congf-cioè, punt-','], ovl-[par-'<', f3-[sn-[art-'Il', n-viale, spd-[partd-dei, sn-[n-lillà]]]], par-'>'], sn-[sn-[art-il, n-ponte, sp-[p-d, sn-[n-alluminio]]], cong-e, sn-[art-la, n-roulotte]], f-[ibar-[expl-c, vc-ho], compc-[sn-[art-un, n-viale, spd-[partd-dei, sn-[n-lillà]]]]]]], punto-'.']
+
+
+da-[turn-g019, cp-[intj-'Sì', fp-[punt-',', savv-[abbr-arri_], punt-','], f-[ibar-[vsupp-devi, abbr-pa_]], punt-',', f-[ibar-[vsupp-devi, fp-[punt-',', cp-[intj-ehm], punt-','], viin-passare], compin-[sp-[php-davanti_ala, sn-[n-roulotte]], savv-[avv-praticamente]]]], punt-',', fc-[congf-cioè, f-[ibar-[clit-te, clitac-la, vt-trovi], compt-[sp-[part-sula, sn-[n-destra]]]]], punto-'.']
+
+
+da-[turn-f020, f-[sn-[art-'La', n-roulotte], ibar-[vc-è], compc-[sp-[part-sulla, sn-[n-destra]]]], ovl-[par-'<', cp-[intj-'Sì'], punt-',', f3-[sn-[n-viale], punto-'.'], cp-[intj-'Sì', punto-'.'], cp-[intj-'Sì'], par-'>'], fc-[congf-però, f-[ir_infl-[virt-scusa], fp-[punt-',', cp-[intj-eh], punt-',']], f-[sn-[pron-io], ibar-[vc-sono], compc-[savv-[avv-qui], sp-[part-al, sn-[n-punto, spd-[pd-di, sn-[n-partenza]], punt-',', f2-[rel-che, f-[ibar-[vt-fai], compt-[sn-[n-conto], sp-[php-rispetto_al, sn-[poss-mio, n-foglio]]]], f-[ibar-[vc-è], compc-[sp-[part-sula, sn-[n-destra]], sp-[p-in, sn-[n-fondo]]]]]]]]]], punt-',', f-[ibar-[clit-mi, vprog-sto, vgin-dirigendo], compin-[sp-[p-verso, sn-[n-sinistra]], sp-[p-verso, sn-[dim-questo, n-ponte, sp-[p-d, sn-[n-alluminio]]], punt-',', sv2-[p-per, viin-passare, fp-[punt-',', cp-[intj-eeh], punt-','], sv2-[p-per, viin-andare, compin-[sp-[part-alla, sn-[n-roulotte, punt-',', f2-[rel-che, f-[ibar-[ause-è], compc-[sp-[part-sulla, sn-[n-destra]]]]]]]]]]]]], punt-',', f-[sn-[pron-io], ibar-[expl-c, vc-ho], compc-[sn-[art-un, n-viale, spd-[partd-dei, sn-[n-lillà, punt-',', f2-[rel-che, f-[ibar-[clitdat-mi, vt-taglia], compt-[sn-[art-la, n-strada]]]]]]]]], punto-'.']
+
+
+da-[turn-g021, f-[ibar-[clitac-'Lo', vt-attraversi]], punto-'.']
+
+
+
+
+da-[turn-f022, cp-[intj-'Sì', punt-',', fc-[congf-però, f-[sn-[art-il, n-problema], ibar-[vc-è], compc-[fac-[pk-che, f3-[savv-[dim-questo, abbr-live_], fp-[punt-',', cp-[intj-ehm], punt-',']]]]]]], f-[ibar-[neg-non, vin-capisco], compin-[fs-[conjl-come_mai, cp-[sn-[dim-questo, n-viale, spd-[partd-dei, sn-[n-lillà]], f2-[rel-che, cp-[sn-[pron-io], fp-[punt-',', cp-[intj-ehm], punt-','], savv-[avv-logicamente], f-[ir_infl-[clitac-l, auair-avrei, vsupp-dovuto, vit-att_, punt-',', vit-attraversare], fp-[punt-',', ccom-[ccom-come, sv2-[vit-dire]], punt-',', cp-[intj-ehm], punt-','], compt-[sp-[p-in, sn-[n-modo]], punt-',', savv-[avvl-a_diritto]]]]]]]]]], punt-',', cp_int-[intj-no, puntint-'?'], fc-[congf-'Invece', f-[sn-[pron-io], ibar-[clitac-lo, vit-attraverso], compin-[fc-[conjl-come_se, f-[ir_infl-[virin-entrassi]]]]]], punt-',', fint-[ibar-[vc-hai], compc-[sa-[ag-presente], sn-[art-i, num-due, n-filari, spd-[partd-degli, sn-[n-alberi]], par-'-', f2-[rel-che, ovl-[par-'<', cp-[intj-'Sì'], par-'>'], f-[ibar-[vt-costeggiano], compt-[sn-[art-un, n-viale]]]]]]], puntint-'?']
+
+
+da-[turn-g023, cp-[intj-'Sì', ovl-[par-'<', f-[sn-[pron-'Io'], ibar-[vin-passo]], par-'>'], intj-sì, f3-[savv-[expl-ce, abbr-l_]]], da_riempire-'...']
+
+
+da-[turn-f024, cp_int-[spd-[pd-'Da', sn-[art-un, n-filare, spd-[partd-dell, sn-[n-albero]], sp-[part-all, sn-[n-altro]]]], punt-',', f-[ibar-[vsupp-devo, viin-fà], compin-[savv-[avv-così]]], puntint-'?'], ovl-[par-'<', cp-[intj-'Sì'], par-'>'], cp-[intj-'Va_bè', punt-',', intj-eeh], punto-'.']
+
+
+da-[turn-g025]
+da-[turn-f026, cp-[intj-'Mh'], punto-'.']
+
+
+da-[turn-g027, cp-[intj-'Va_bè', punt-',', f-[sn-[art-l, n-importante], ibar-[vc-è], compc-[fac-[pk-che, savv-[in-comunque], f-[ibar-[expl-c, vc-hai], compc-[sn-[art-la, n-roulotte], sp-[part-sulla, sn-[n-destra]]]]]]]], punt-',', fc-[congf-e, f-[ibar-[vin-prosegui]]], punto-'.']
+
+
+da-[turn-f028, fint-[ibar-[vin-'Proseguo']], puntint-'?']
+
+
+da-[turn-g029, cp-[intj-'Ehm'], punto-'.']
+
+
+da-[turn-f030, cp_int-[intj-'Ah', puntint-'!'], fint-[ibar-[expl-'Ce', clit-n, vc-è], compc-[sn-[art-un, pron-altro], spd-[pd-di, sn-[n-viale, spd-[partd-dei, sn-[n-lillà]]]]]], puntint-'!']
+
+
+da-[turn-g031, cp-[intj-'Sì', punt-',', f-[ir_infl-[vcir-sarà], compc-[sn-[art-il, n-proseguimento]]]], punto-'.']
+
+
+da-[turn-f032, f-[ibar-[expl-'Ce', clit-ne, vc-sono], compc-[sn-[num-due]], punto-'.'], cp-[intj-'Oddio', puntint-'!'], ovl-[par-'<', cp-[intj-'Va_bè'], par-'>']]
+
+da-[turn-g033, cp_int-[f3-[sn-[art-'Il', n-bar, spd-[pd-da, sn-[nh-'Nanà']]]], puntint-'?'], f-[ibar-[expl-'Ce', clitac-l, vc-hai], compc-[sa-[ag-presente]]], puntint-'?']
+
+
+da-[turn-f034, cp_int-[f3-[sn-[art-'Il', n-bar]]], puntint-'?']
+
+
+da-[turn-g035, f3-[spd-[pd-'Da', sn-[nh-'Nanà']]], punto-'.']
+
+
+da-[turn-f036, f3-[spd-[pd-'Da', sn-[nh-'Dodò']]], punto-'.']
+
+
+da-[turn-g037, f3-[spd-[pd-'Da', sn-[nh-'Dodò']]], punt-',', f-[ir_infl-[virt-aspetta], compt-[congf-allora]], punto-'.']
+
+
+da-[turn-f038, f3-[sn-[art-'Il', n-bar, spd-[pd-da, sn-[nh-'Dodò']]], punto-'.'], ovl-[par-'<', f3-[sn-[art-'I', n-mobili, sn-[nh-'Elena']]], par-'>'], f-[ir_infl-[virt-'Scusa']], fc-[congf-ma, f-[ibar-[clitdat-mi, vin-viene], compin-[sv2-[pt-da, viin-ridere]]]], punt-',', cp-[sa-[in-troppo, ag-ganzo], punt-',', intj-eeh], punto-'.']
+
+
+da-[turn-g039, f3-[sn-[art-'I', n-mobili, ovl-[par-'<', fc-[congf-'Cioè', punt-',', f3-[sn-[pron-io]]], par-'>'], sn-[nh-'Elena']]], puntint-'?']
+
+
+da-[turn-f040, f-[ibar-[neg-'Non', ausa-ho, vppin-capito], compin-[fs-[conjl-come_mai, f-[ibar-[clitabl-ci, vc-sono], compc-[sn-[num-due, n-viali, spd-[partd-dei, sn-[n-lillà]]]]]]]], punt-',', cp-[intj-ehm], punto-'.']
+ 
+ 
+da-[turn-g041, cp-[intj-'Va_bè', punt-',', ovl-[par-'<', fc-[congf-'Però', punt-',', f-[ir_infl-[virt-scusa]]], punt-',', cp_int-[intj-eh, puntint-'!'], f-[sn-[pron-'Te'], ibar-[vin-parti]], par-'>'], intj-ehm, punt-',', f3-[sp-[p-in, sn-[ind-qualche, n-modo]]]], da_riempire-'...']
+
+
+da-[turn-f042, cp-[spda-[partda-dalle, sn-[n-valle, spd-[partd-delle, sn-[n-allodole]]]], punt-',', f-[sn-[pron-io], ibar-[vin-parto], compin-[spda-[partda-dall, sn-[n-aia]]]]], fp-[punt-',', f2-[rel-che, f-[ibar-[vc-è], compc-[sa-[avv-completamente, ag-diversa]]]], punt-','], fc-[congf-cioè, f-[ibar-[vc-son], compc-[sn-[num-due, n-cose, sa-[ag-diverse]]]]], punt-',', f-[ibar-[vin-vai], compin-[savv-[avv-avanti]]], fc-[congf-insomma, punt-',', ovl-[par-'<', fs-[cosu-'Se', f-[ibar-[vin-parti]], fp-[punt-',', cp-[intj-eh], punt-',']], cp-[sn-[pron-io], fs-[cosu-se, f-[ibar-[expl-c, vc-ho], compc-[sn-[art-la, n-roulotte], sp-[part-sulla, sn-[n-destra]]]]]], par-'>'], f-[ibar-[vin-vai], compin-[savv-[abbr-a_]]]], punt-',', f-[sn-[pron-te], ibar-[vc-sei]], fp-[punt-',', cp-[intj-eeh, punt-',', intj-ehm], punt-','], f-[ir_infl-[virt-dammi], compt-[clitdat-mi, sn-[art-le, n-indicazioni]]], f-[sn-[pron-te], punt-',', ibar-[vin-vai]], punt-',', f-[sn-[pron-te], ibar-[expl-c, vc-hai], compc-[sn-[art-la, fp-[punt-',', cp-[intj-eeh], punt-',']]]], f-[ibar-[vin-comincia], da_riempire-'...'], fc-[congf-'Allora', fint-[sn-[pron-te], ibar-[vc-sei], compc-[savv-[ag-vic_], sp-[part-alla, sn-[n-valle, spd-[partd-dele, punt-',', partd-delle, sn-[n-allodole]]]]]]], puntint-'?']
+
+
+da-[turn-g043, cp_int-[intj-'No', punt-',', f-[ibar-[clitabl-ci, clit-si, vsupp-deve, viin-arrivare]]], puntint-'!']
+
+
+da-[turn-f044, cp-[intj-'Ah', punt-',', f-[ibar-[clitabl-ci, vsupp-devo, viin-arrivare]]], punt-',', cp_int-[intj-eh, puntint-'?']]
+
+
+da-[turn-g045, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f046, cp-[intj-'Ah'], punt-',', fc-[congf-allora, f3-[intj-va_bene, punt-',', intj-vai], puntint-'!'], cp-[intj-'Ehm', punt-',', f-[ibar-[vin-passo], compin-[fp-[punt-',', cp-[intj-ehm], punt-','], f-[ir_infl-[virin-dimmi], compin-[clitdat-mi]]], spd-[partd-dela, sn-[n-roulotte]]], punto-'.'], f-[ibar-[expl-'C', vc-ho], compc-[sn-[art-la, ovl-[par-'<', f3-[savv-[abbr-'All_']], punt-',', cp-[intj-sì], par-'>'], n-roulotte], sp-[part-sula, sn-[n-destra]]]], fc-[congf-e, congf-allora], puntint-'?']
+
+
+da-[turn-g047, cp-[savv-[abbr-'All_'], punt-',', f-[ibar-[vin-prosegui], compin-[savv-[avv-avanti]]]], cp-[sp-[p-a, sn-[art-un, sq-[ind-certo], n-punto]], fp-[punt-',', cp-[intj-eeh], punt-','], fc-[f-[ibar-[clitabl-c, vc-è], compc-[sn-[art-una, n-curva, sp-[p-a, sn-[n-sinistra]]]]], ovl-[par-'<', f3-[sn-[n-'Curva', sp-[p-a, sn-[n-sinistra]]]], par-'>'], par-'-', cong-e, cp-[sp-[part-sulla, sn-[n-curva]], fp-[punt-',', cp-[intj-sì], punt-','], f-[ibar-[clitabl-c, vc-è], compc-[sn-[art-un, n-bar, spd-[pd-da, sn-[nh-'Nanà']]]]]]]], punto-'.']
+
+
+da-[turn-f048, cp-[intj-'Sì', punt-',', fc-[congf-però, f-[sn-[pron-io], ibar-[expl-c, vc-ho], compc-[sn-[art-il, n-bar, spd-[pd-da, sn-[nh-'Dodò']]], fp-[punt-',', cp-[intj-ehm], punt-',']]]]], fc-[congf-comunque, fp-[punt-',', cp-[intj-eeh], punt-','], congf-allora, f-[ibar-[vsupp-possiamo, ovl-[par-'<', cp-[intj-'No', punt-',', f-[sn-[art-il, n-bar, nh-'Dodò'], ibar-[vc-è], compc-[savv-[in-più, savv-[avv-avanti]]]]], par-'>'], vit-fare], compin-[par-'-', sn-[n-curva, spd-[pd-da, sn-[n-sinistra]]], savv-[avv-su], fp-[punt-',', cp-[intj-eeh, punt-',', intj-no], punt-',']]]], cp_int-[sn-[art-i, n-mobili, nh-'Elena'], f-[ibar-[expl-ce, clitac-l, vc-hai]]], puntint-'?']
+
+
+da-[turn-g049, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f050, fint-[int-'Dove', f-[ibar-[vc-sono]]], puntint-'?']
+
+
+da-[turn-g051, cp-[intj-'Eh', punt-',', f3-[sp-[p-dopo, sn-[art-il, n-bar, spd-[pd-da, sn-[nh-'Nanà']]]], punt-',', congf-però, sp-[part-sulla, sn-[n-destra]]]], punto-'.']
+
+
+da-[turn-f052, fc-[congf-'E', f3-[sn-[art-i, n-babbuini]]], puntint-'?']
+
+
+da-[turn-g053, cp-[intj-'Ehm', punt-',', intj-no], punto-'.']
+
+
+da-[turn-f054, cp_int-[sn-[art-'I', n-babbuini], f-[ibar-[neg-non, expl-ce, clitac-l, vc-hai]]], puntint-'?']
+
+
+da-[turn-g055, cp-[intj-'No'], punto-'.']
+
+
+da-[turn-f056, f-[ibar-[vin-'Senti']], fp-[punt-',', ovl-[par-'<', cp-[intj-'Eeh'], par-'>'], cp-[intj-eeh], punt-','], fc-[congf-ma, cp-[sp-[p-secondo, sn-[pron-te]], f-[sn-[art-il, n-bar, spd-[pd-da, sn-[nh-'Dodò']]], ibar-[vsupp-può, vci-essere], compc-[sa-[ag-equivalente, sp-[part-al, sn-[n-bar, spd-[pd-da, sn-[nh-'Nanà']]]]]]]]], puntint-'?']
+
+
+da-[turn-g057, cp-[intj-'No', punt-',', intj-no, f-[sn-[art-il, n-bar, spd-[pd-da, sn-[nh-'Dodò']]], ibar-[vc-è], compc-[savv-[in-più, avv-avanti]]]], punt-',', ovl-[par-'<', cp-[intj-'Ah', punt-',', intj-già, punt-',', f-[ibar-[vc-è], compc-[sa-[ag-vero]]]], punt-',', f-[ibar-[clitdat-me, clitac-l, ausa-avevi, vppt-detto]], par-'>'], fc-[congf-cioè, punt-',', f-[ibar-[clitabl-c, vc-è], compc-[sn-[n-mobili, nh-'Elena']]]], punto-'.']
+
+da-[turn-f058, cp-[intj-'Eeh'], punto-'.']
+
+da-[turn-g059, fs-[cosu-'Quando', f-[ibar-[vt-incontri], compt-[sn-[n-mobili, nh-'Elena'], punt-',', sp-[part-sula, sn-[n-destra]]]]], punto-'.']
+
+
+da-[turn-f060, cp-[intj-'Va_bene'], punt-',', fc-[congf-allora, f-[ibar-[vin-diciamo], compin-[fac-[pk-che, cp-[savv-[dim-quel, abbr-b_], punt-',', sn-[dim-quel, n-bar, savv-[avv-lì], f2-[rel-che, f-[ibar-[vt-dici], compt-[sn-[pron-te]]]]], fp-[punt-',', cp-[intj-ehm], punt-','], f-[ibar-[vc-è], compc-[sn-[art-una, n-informazione, sp-[p-per, sn-[pron-me]], sa-[ag-irrilevante]]]]]]]]], punt-',', f-[ibar-[neg-non, clitac-lo, vt-riconosco], fp-[punt-',', cp-[intj-ehm], punt-',']], ovl-[par-'<', cp-[intj-'Va_bè'], punt-',', f3-[congf-comunque], par-'>'], fc-[congf-quindi, congf-cioè, punt-',', f-[ir_infl-[virin-dimmi], compin-[clitdat-mi, sq-[art-un, q-pochino], fint-[int-dov, f-[ibar-[ause-è]]]]]], fp-[punt-',', cp-[intj-ehm], punt-','], cp-[intj-va_bè, fc-[congf-allora, f-[sn-[pron-io], ibar-[vt-trovo], compt-[savv-[avv-prima], sn-[dim-questo, poss-tuo, n-bar]]]]], punt-',', cp_int-[intj-no], puntint-'?']
+
+
+da-[turn-g061, cp-[intj-'Sì', punt-',', fc-[congf-e, congf-poi, cp-[savv-[in-più, avv-avanti], f-[ibar-[vt-trovi], compit-[fp-[punt-',', sp-[part-sulla, sn-[n-destra]], punt-','], sn-[n-mobili, nh-'Elena']]]]]], punto-'.']
+
+
+da-[turn-f062, cp-[intj-'Mh'], punto-'.']
+
+
+da-[turn-g063, cp-[savv-[avv-'Poi'], f-[ibar-[vin-prosegui]]], punto-'.']
+
+
+da-[turn-f064, fint-[ir_infl-[virt-'Aspetta'], compt-[sn-[art-un, nt-attimo]]], puntint-'!']
+
+
+da-[turn-g065, fint-[ibar-[clitabl-'Ci', vc-sei], compc-[sp-[part-ai, sn-[n-mobili, nh-'Elena']]]], puntint-'?']
+
+
+da-[turn-f066, cp-[intj-'Eeh', punt-',', intj-no, punt-',', intj-ehm, punt-',', f-[ir_infl-[virt-aspetta], compt-[savv-[art-un, abbr-a_], fs-[cosu-perché, f-[sn-[pron-io], ibar-[vc-ho], compc-[sn-[n-paura, sv2-[pt-d, vci-avere]]]]]]], da_riempire-'...'], fc-[congf-'Dunque', cp-[spda-[partda-dal, sn-[n-ponte, spd-[pd-di, sn-[n-alluminio]]]], f-[ibar-[expl-c, vc-hai]], punt-',', f-[ibar-[vin-vai], compin-[savv-[avv-avanti]]], cong-e, f-[ibar-[vt-trovi], compt-[sp-[part-sulla, sn-[n-destra]], sn-[art-la, n-roulotte]]]]], punto-'.']
+
+
+da-[turn-g067, cp-[intj-'Sì', punt-',', f-[sn-[art-la, n-strada], ibar-[vin-gira], compin-[savv-[abbr-su_], punt-',', sp-[p-a, sn-[n-sinistra]]]]], punto-'.']
+
+
+da-[turn-f068, fint-[sn-[art-'La', n-strada], ibar-[vin-gira], ovl-[par-'<', fc-[congf-'Cioè', f3-[sp-[p-dopo]]], par-'>'], compin-[sp-[p-a, sn-[n-sinistra]]]], puntint-'?']
+
+
+da-[turn-g069, cp-[sn-[art-'Il', n-ponte, sp-[p-d, sn-[n-alluminio]]], savv-[avv-prima], f-[ibar-[vt-fa], compt-[sn-[art-un_, punt-',', art-una, n-curvetta], sp-[p-a, sn-[n-destra]]]]], punt-',', fc-[f-[ibar-[clitabl-c, vc-è], compc-[sn-[art-una, n-curva, sp-[p-a, sn-[n-destra]]]]], savv-[avv-poi], f-[ibar-[vin-va]], punt-',', f-[ibar-[vin-prosegue], compin-[savv-[avv-avanti]]]], cong-e, cp-[savv-[avv-poi], sp-[p-dopo, sq-[art-un, sq-[q-pô]]], f-[ibar-[clitabl-c, vc-è], compc-[sn-[art-una, n-curva,sp-[p-a, sn-[n-sinistra]]]]]], punto-'.']
+
+
+da-[turn-f070, cp_int-[intj-'Mh', f-[ibar-[vin-credo], compin-[sv2-[pt-di, neg-non, vit-capire, compt-[sq-[q-nulla]]]]], fint-[f-[ibar-[vin-sai]]], puntint-'?'], fc-[congf-'Cioè', punt-',', f-[ibar-[neg-non, vin-riesco], compin-[sv2-[pt-a, vit-riconoscere]]]], da_riempire-'...']
+
+
+da-[turn-g071, fc-[congf-'Comunque', f-[sn-[pron-te], ibar-[ausa-hai, vppt-attraversato], compt-[sn-[art-il, n-viale, spd-[partd-dei, savv-[n-lil_]]]]], punt-',', ibar-[ause-sei, vppin-passata], compin-[sp-[php-davanti_alla, sn-[n-roulotte]]]], punto-'.']
+
+da-[turn-f072, cp-[intj-'Sì', punt-',', fc-[f-[ibar-[vin-diciamo]], fp-[punt-',', cp-[intj-ehm], punt-','], f-[ibar-[vin-diciamo], compin-[fac-[pk-che, f-[sn-[pron-io], ibar-[ausa-ho, vppt-fatto], compt-[savv-[avv-così]]]]]]]], punt-',', cp_int-[intj-no, puntint-'?'], cp-[spda-[partda-'Dall', sn-[n-aia]], fc-[f-[ibar-[ause-sono, vppin-andata], compin-[sp-[p-verso, sn-[n-sinistra]], punt-',', sp-[p-verso, sn-[art-il, n-ponte, sp-[p-d, sn-[n-alluminio]]]]]], punt-',', cong-poi, par-'-', f-[ibar-[ausa-ho, vppin-girato], compin-[sp-[p-verso, sn-[n-destra]], sv2-[p-per, viin-passare, compin-[sp-[php-davanti_al, sn-[n-viale, spd-[partd-dei, sn-[n-lillà]]]]]]]], punt-';', cong-e, f-[ibar-[ausa-ho, vppt-fatto], compt-[sp-[php-una_specie_di, sn-[n-curva, sp-[p-a, sn-[n-sini_]]]], fp-[punt-',', cp-[intj-ehm], punt-',']]]], fc-[congf-cioè, f3-[sn-[art-una, fp-[punt-',', cp-[intj-ehm], punt-','], savv-[abbr-m_]]]], punt-',', f3-[sv5-[vgin-mettendo, fac-[pk-che, cp-[savv-[art-la, abbr-lur_], punt-',', f-[sn-[art-la, n-roulotte], ir_infl-[vcir-sia], compc-[sp-[p-a, sn-[n-destra]]]]]]]]], punt-',', cp_int-[intj-no], puntint-'?']
+
+da-[turn-g073, cp-[intj-'Sì', punt-',', f3-[savv-[abbr-c_]]], da_riempire-'...']
+
+
+da-[turn-f074, fs-[cosu-'Se', f-[sn-[art-la, n-roulotte], ibar-[vc-è], compc-[sp-[p-a, sn-[n-destra]]]], f-[sn-[pron-io], ibar-[ausa-ho, vppin-detto], compt-[intj-va_bè]]], punt-',', fs-[cosu-se, f3-[congf-poi, fp-[punt-',', cp-[intj-ehm], punt-',']]], fs-[cosu-siccome, f-[ibar-[clitdat-m, ausa-hai, vppt-detto], compt-[spd-[partd-del, sn-[n-bar, f2-[rel-che, f-[sn-[pron-io], ibar-[neg-non, vc-ho]]]]]]]], punt-',', fc-[congf-però, f-[ibar-[ausa-hai, vppin-detto], compin-[fac-[pk-che, cp-[sp-[p-dopo, sn-[dim-questo, n-bar]], f-[ibar-[clitabl-ci, vc-sono], compc-[sn-[art-i, n-mobili, nh-'Elena']]]]]]]], punto-'.']
+
+
+da-[turn-g075, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f076, fc-[congf-'Allora', cp-[sn-[pron-io], sn-[art-i, n-mobili, spd-[pd-di, sn-[nh-'Elena']]], fs-[cosu-se, f-[ibar-[clitac-l, vc-ho]], punt-',', f-[ibar-[expl-ce, clitac-l, vc-ho], compc-[sp-[part-sulla, sn-[n-sinistra]], fp-[punt-',', sp-[php-rispetto_alla, sn-[n-roulotte]], punt-',']]]], fint-[ibar-[ausa-hai, vppin-capito]]]], puntint-'?']
+
+
+
+
+da-[turn-g077, cp-[intj-'Sì', punt-',', f-[ibar-[vc-ho, vppin-capito]]], cp_int-[fc-[congf-ma, savv-[abbr-s_], punt-',', fs-[cosu-quando, f-[ibar-[vc-sei], compc-[sp-[part-sulla, sn-[n-strada]]]]]], punt-',', sn-[pron-te], sn-[n-mobili, nh-'Elena'], ovl-[par-'<', fc-[congf-'Ma', f3-[sn-[pron-io], neg-non], par-'>'], fint-[int-dove, f-[ibar-[clitac-lo, vt-trovi]]]]], puntint-'?']
+
+
+da-[turn-f078, fint-[ibar-[vc-'Ho'], compc-[sn-[q-stessuna, n-strada], sn-[nh-'Roberta']]], punt-',', f-[ibar-[clitac-la, vsupp-devo, vit-fare], compt-[sn-[pron-io]]], puntint-'!']
+
+
+da-[turn-g079, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f080, fc-[congf-'E', ovl-[par-'<', f-[ibar-[ausa-'Ho', vppin-capito]], par-'>'], f3-[congf-allora]], puntint-'?']
+
+
+da-[turn-g081, cp-[intj-'Va_bè'], punto-'.']
+
+
+da-[turn-f082]
+da-[turn-g083, f-[ibar-[vin-'Passi'], compin-[sp-[php-davanti_ala, sn-[n-roulotte]]]], punto-'.']
+
+
+da-[turn-f084, cp-[intj-'Sì', punt-',', f-[ibar-[vin-dipende], compin-[fint-[spd-[pd-da, int-cosa], f-[ibar-[vt-intendi], compt-[savv-[p-per, avv-davanti]]]]]]], fp-[punt-',', cp-[intj-eh], punt-','], fc-[congf-comunque, fp-[punt-',', cp-[intj-eh], punt-',', intj-va_bè, punt-',', intj-ehm, punt-','], f-[ibar-[vin-passo], compin-[sp-[php-davanti_alla, sn-[n-roulotte]]]]], punto-'.']
+
+
+da-[turn-g085, f-[ibar-[expl-'Ce', clitac-l, vc-hai], compc-[sp-[part-sulla, sn-[n-destra]], sn-[art-la, n-roulotte], ovl-[par-'<', cp-[intj-'Sì'], par-'>'], savv-[avv-praticamente]]], punto-'.']
+
+
+da-[turn-f086, f-[ibar-[expl-'C', vc-ho], compc-[sn-[art-la, n-roulotte], ovl-[par-'<', f3-[sn-[art-'La', n-roulotte]], par-'>'], sp-[part-sulla, sn-[n-destra]]]], punto-'.']
+
+
+da-[turn-g087, cp-[sp-[part-'Sulla', sn-[n-destra]], punt-',', f-[ibar-[vin-vai], compin-[savv-[sq-[art-un, q-pô], in-più, avv-avanti]]]], punto-'.']
+
+
+da-[turn-f088, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g089, fc-[congf-'Poi', f-[ibar-[vin-giri], compin-[sp-[p-a, sn-[n-sinistra]]]], cong-e, cp-[sp-[p-dopo, sq-[art-un, q-pô]], f-[ibar-[clit-ti, vin-trovi], compin-[sn-[n-mobili, nh-'Elena'], sp-[part-sulla, sn-[n-destra]]]]]], punto-'.']
+
+
+da-[turn-f090, f-[ibar-[ausa-'Ho', vppin-capito]], ovl-[par-'<', cp-[intj-'Mh'], par-'>'], f-[ir_infl-[virt-aspetta]], punt-',', f3-[savv-[sq-[art-un, q-pô, in-più], avv-avanti], par-'-', sn-[art-i, n-mobili, nh-'Elena'], sp-[part-sulla, sn-[n-destra]], fp-[punt-',', cp-[intj-okay], punt-',']], f3-[congf-e, congf-poi], puntint-'?']
+
+
+da-[turn-g091, cp-[sp-[p-'Dopo', sn-[art-i, n-mobili, nh-'Elena'], fp-[punt-',', cp-[intj-ehm], da_riempire-'...'], sn-[n-mobili, nh-'Elena']], f-[ibar-[clitabl-c, vc-è], compc-[sn-[art-una, n-curva, sp-[p-a, sn-[n-sinistra]], cong-e, congf-poi, savv-[avv-subito, avv-dopo], sp-[p-a, sn-[n-destra]]]]]], punto-'.']
+
+
+da-[turn-f092, cp-[sp-[p-'Dopo', sn-[n-mobili, ovl-[par-'<', f3-[savv-[abbr-'Ep_'], da_riempire-'...'], fc-[congf-e, congf-poi, f3-[savv-[avv-sub_]]], par-'>'], nh-'Elena']], f-[ibar-[clitabl-c, vc-è], compc-[sn-[art-una, n-curva, sp-[p-a, sn-[n-sinistra]]]]]], fc-[cong-e, congf-poi, f3-[sp-[p-a, sn-[n-destra]]]], punt-',', fc-[congf-e, cp-[sp-[p-a, sn-[n-destra]], fint-[int-cosa, f-[ibar-[vt-trovo]]]]], puntint-'?']
+
+
+da-[turn-g093, f3-[sq-[q-'Niente']], fc-[congf-e, congf-poi, cp-[sp-[p-dopo, savv-[abbr-p_]], fp-[punt-',', sp-[p-dopo, sq-[q-poco]], punt-','], f-[ibar-[vin-rigiri], compin-[sp-[p-a, sn-[n-destra]], sn-[art-un_, ag-altra, nt-volta]]]], cong-e, ovl-[par-'<', f3-[congf-'Ma'], par-'>'], f-[ibar-[vin-vai]]], punto-'.']
+
+
+da-[turn-f094, fc-[congf-'Ma', fint-[ibar-[vt-costeggio], compt-[sn-[art-il, n-bar, spd-[pd-da, sn-[nh-'Dodò']]]]]], puntint-'?']
+
+
+da-[turn-g095, fc-[congf-'E', congf-poi, cp-[sv5-[vgin-andando, compin-[savv-[avv-avanti]]], f-[ibar-[clit-ti, vt-trovi], compt-[sn-[art-il, n-bar, abbr-d_, nh-'Dodò'], sp-[part-sula, sn-[n-destra]], punt-',', savv-[avv-praticamente]]]]], punto-'.']
+
+
+da-[turn-f096, f-[ir_infl-[virt-'Aspetta'], compt-[sq-[art-un, sq-[q-pô]]]], punto-'.']
+
+
+da-[turn-g097, cp-[savv-[avv-'Praticamente'], f-[ibar-[vin-ritorni], compin-[savv-[avv-su]]]], punt-',', cp_int-[intj-via], puntint-'!']
+
+
+da-[turn-f098, cp-[intj-'Sì', punt-',', f-[ibar-[ausa-ho, vppin-capito]]], fc-[congf-allora, fp-[punt-',', cp-[intj-eeh], punt-','], congf-allora, punt-',', ovl-[par-'<', f3-[sn-[n-'Bar', spd-[pd-da, sn-[nh-'Dodò']]]], par-'>'], cp-[intj-ehm]], da_riempire-'...']
+
+
+da-[turn-g099, f3-[sp-[part-'Sulla', sn-[n-destra]]], punto-'.']
+
+
+da-[turn-f100, fint-[ibar-[vin-'Vado'], compin-[savv-[avvl-a_diritto]]], puntint-'?']
+
+
+da-[turn-g101, fc-[f-[ibar-[vin-'Vai'], compin-[savv-[avvl-a_diritto]]], cong-e, cp-[savv-[avv-poi], fp-[punt-',', cp-[intj-ehm], punt-','], ir_infl-[vsupir-dovresti, vit-trovare], compt-[savv-[avv-sempre], sp-[part-sula, sn-[n-destra]], sn-[art-una, n-limonaia]]]], punto-'.']
+
+
+da-[turn-f102, f-[ibar-[neg-'Non', vc-ho], compc-[sn-[ind-nessuna, n-limonaia]]], punt-',', fc-[congf-però, cp-[sn-[pron-io], ovl-[par-'<', cp-[intj-'Va_bè'], par-'>'], sp-[part-sulla, sn-[n-destra]], f-[ir_infl-[virt-troverei], compt-[sn-[art-la, n-valle, spd-[partd-delle, sn-[n-allodole]]]]]]], punto-'.']
+
+
+da-[turn-g103, fc-[congf-'Ma', f-[ibar-[vsupp-devi, viin-andare], compin-[savv-[avv-prima]]], fp-[punt-',', cp-[intj-eeh], punt-','], f-[ibar-[vsupp-devi, viin-proseguire]]], punt-',', fs-[cosu-quando, f-[ibar-[vc-sei], compc-[spd-[pd-da, sn-[nh-'Dodò']]]], f-[ibar-[vsupp-devi, viin-proseguire], compin-[savv-[avv-avanti]]]], punto-'.']
+
+
+da-[turn-f104, cp-[intj-'Mh'], punto-'.']
+
+
+da-[turn-g105, f-[ibar-[vt-'Trovi'], compt-[sn-[art-una, n-limonaia]]], punt-',', fs-[cosu-quando, f-[ibar-[vt-trovi], compt-[sn-[art-la, n-limonaia]]], f-[ibar-[vin-giri, compin-[savv-[avv-subito], sp-[p-a, sn-[n-destra]]]]]], punto-'.']
+
+
+da-[turn-f106, cp-[intj-'Mh'], punto-'.']
+
+
+da-[turn-g107, fc-[f-[ibar-[vin-'Vai'], compin-[savv-[abbr-se_]]], punt-',', f-[ibar-[vin-vai], compin-[savv-[avv-avanti]]]], punto-'.']
+
+
+da-[turn-f108, cp-[intj-'Sì', f-[ir_infl-[virt-aspetta], compt-[sn-[art-un, nt-attimo]]]], punt-',', fc-[congf-ma, cp-[savv-[avv-forse], sn-[art-le, ag-altre, n-indicazioni], f-[ibar-[expl-ce, clitac-le, vsupp-dovevamo, vit-mettere], compt-[sn-[pron-noi]]]]], fp-[punt-',', cp-[intj-ehm], punt-','], cp-[intj-ecco, f3-[sn-[art-il, n-punto]]], fp-[punt-',', cp-[intj-ehm], punt-','], cp-[sn-[deit-questo], f-[ibar-[neg-non, clitac-l, ausa-avevo, vppt-capito]], punto-'.'], f-[ir_infl-[virt-'Aspetta'], compt-[sn-[art-un, nt-attimo]]], f-[ir_infl-[virin-ritorna], compin-[sp-[part-al, sn-[n-bar, spd-[pd-da, sn-[nh-'Dodò']]]]]], punt-',', f3-[sn-[pron-io]], fp-[punt-',', cp-[intj-eeh, punt-',', f-[ir_infl-[virin-ascolta]]], punt-','], cp-[sn-[art-i, n-mobili, nh-'Elena'], punt-',', f-[sn-[pron-io], savv-[avv-prima], ibar-[vt-faccio], compt-[sn-[art-una, n-curva, sp-[p-a, sn-[n-sinistra]]]]], punt-',', ovl-[par-'<', cp-[intj-'Sì', punt-',', f-[ibar-[vt-fai], compt-[fp-[punt-',', sa-[ag-breve], punt-',']]], intj-eh], par-'>'], fc-[congf-poi, f3-[in-ancora, sn-[art-una, n-curva, sp-[p-a, savv-[abbr-des_]]]]]], punto-'.']
+
+
+da-[turn-g109, fc-[congf-'Cioè', cp-[savv-[abbr-g_], punt-',', f-[ibar-[vin-giri], compin-[savv-[abbr-s_], punt-',', sp-[p-a, sn-[n-sinistra]]]], cong-e, cp-[savv-[avv-poi], f-[ibar-[vin-rigiri], compin-[savv-[avv-subito], sp-[p-a, sn-[n-destra]]]]]]], punto-'.']
+
+
+da-[turn-f110, fc-[fint-[ibar-[vin-rigiro], compin-[savv-[avv-subito], sp-[p-a, sn-[n-destra]]]], ovl-[par-'<', f3-[congf-'E', congf-poi], par-'>'], cong-e, fint-[ibar-[vt-trovo], compt-[sn-[nh-'Dodò']]]], puntint-'?']
+
+
+da-[turn-g111, fc-[congf-'E', congf-poi, cp-[sp-[php-di_nuovo, savv-[abbr-s_]], punt-',', sp-[php-di_nuovo, savv-[avv-subito], p-a, sn-[n-destra]], f-[ibar-[vin-vai], compin-[savv-[avv-avanti]]]], cong-e, f-[ibar-[clit-ti, vt-trovi], compt-[sn-[nh-'Dodò']]], punto-'.'], fc-[congf-'Cioè', cp-[savv-[avv-praticamente], f-[ir_infl-[virt-fa], compc-[savv-[abbr-c_], punt-',', ccong-[ccom-come, sn-[art-un_, n-inversione, sp-[p-a, par-'"', sn-[n-'U']], par-'"']]]]]], punt-',', cp-[intj-eh], punto-'.']
+
+
+da-[turn-f112, cp-[sp-[p-'A', sn-[nh-'Dodò']], punt-',', fc-[congf-e, congf-poi, fint-[int-cosa, f-[ibar-[vt-faccio]]]]], puntint-'?']
+
+
+da-[turn-g113, fc-[congf-'Poi', f-[ibar-[vin-vai], compin-[savv-[in-ancora, avv-avanti]]]], fs-[cosu-quando, f-[ibar-[vt-trovi], compt-[sn-[art-una, n-limonaia]]], punt-',', ovl-[par-'<', fc-[congf-'Cioè', punt-',', f-[ibar-[clit-mi, vin-trovo, compin-[sp-[p-verso]]]], punt-',', f-[ibar-[vin-vado], compin-[p-verso, punt-',', sp-[php-rispetto_a, sn-[pron-noi]], sp-[p-verso, sn-[n-nord]]]]], cong-e, fc-[congf-però, cp-[savv-[abbr-s_], punt-',', f-[ir_infl-[virt-fa], compt-[sn-[art-una, n-curva, sp-[p-a, sn-[n-sinistra]]]]]]], par-'>'], f-[ibar-[vin-giri], compin-[sp-[p-a, sn-[n-destra]], punt-',', p-verso]]], da_riempire-'...']
+
+
+da-[turn-f114, fc-[congf-'Cioè', punt-',', cp-[intj-ehm, sp-[p-verso, sn-[n-nord]], f-[ibar-[vin-vado], compin-[sp-[p-da, sn-[nh-'Dodò']]]]]], punto-'.']
+
+
+da-[turn-g115, cp-[intj-'Sì', punt-',', ovl-[par-'<', f3-[congf-'E'], par-'>'], intj-sì], punto-'.']
+
+
+da-[turn-f116, fc-[congf-'E', punt-',', congf-e, f3-[sp-[p-dopo, sq-[art-un, q-pô]]]], punt-',', ovl-[par-'<', f-[ibar-[vt-'Trovi']], par-'>'], fc-[congf-cioè, congf-ma, cp-[savv-[abbr-cos_], f-[ibar-[vt-facc_, punt-',', vt-faccio]]], fp-[punt-',', cp-[intj-ehm], punt-','], fint-[ibar-[vt-faccio], compt-[sn-[art-una, n-curva], sp-[part-sulla, sn-[n-sinistra]]]]], puntint-'?']
+
+
+da-[turn-g117, cp-[intj-'No', punt-',', f3-[cong-poi, sp-[p-a, sn-[n-destra]]]], punto-'.']
+
+
+da-[turn-f118, fc-[congf-'Allora', fp-[punt-',', cp-[intj-ehm], punt-','], ovl-[par-'<', f3-[cosu-'Quando'], par-'>'], f3-[intj-boh]], puntint-'!']
+
+
+da-[turn-g119, fc-[f-[ibar-[vt-'Trovi'], compt-[sn-[art-la, n-limonaia]]], f-[ibar-[vin-giri], compin-[sp-[p-a, sn-[n-destra]]]]], ovl-[par-'<', cp-[intj-'Ehm'], par-'>'], punt-',', fc-[congf-cioè, f-[ibar-[clitabl-ci, vin-giri], compin-[savv-[avv-intorno]]]], punto-'.']
+
+
+da-[turn-f120, cp-[sn-[n-'Limonaia'], cong-e, f-[ibar-[vin-giro], compt-[sp-[p-a, sn-[n-destra]]]], fc-[congf-e, fint-[int-cosa, f-[ibar-[vin-succede]]]]], puntint-'?']
+
+
+da-[turn-g121, f-[ibar-[vin-'Vai'], compin-[sq-[art-un, q-pô], savv-[avv-avanti]]], fc-[congf-poi, f-[ibar-[vt-trovi], compt-[sn-[art-un, n-monumento, par-'-', sa-[ag-marmoreo]]]]], punto-'.']
+
+
+da-[turn-f122, cp-[intj-'Okay', f-[ibar-[clitabl-ci, vc-sono]]], punto-'.']
+
+
+da-[turn-g123, f-[ibar-[clitabl-'Ci', vin-giri], compin-[savv-[avv-intorno, avv-praticamente], ovl-[par-'<', f-[ibar-[vt-'Faccio']], par-'>'], sv5-[vgin-ritornando, punt-',', compin-[savv-[avv-indietro, avv-praticamente], punt-',', sn-[ccom-come, n-direzione]]]]], punto-'.']
+
+
+da-[turn-f124, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g125, cp-[intj-'Ehm', punt-',', sq-[q-poco]], fc-[congf-poi, punt-',', cp-[intj-eeh, f-[ibar-[vin-giri]]], punto-'.'], fs-[cosu-'Se', punt-',', cosu-quando, f-[ibar-[vc-sei], compc-[sp-[part-sulla, sn-[n-strada]]]], punt-',', cp-[savv-[avv-praticamente], ovl-[par-'<', fc-[congf-'Ma', f-[ibar-[vsupp-devo, vit-fà], compt-[savv-[avv-praticamente], sn-[art-un, n-cerchio], sp-[php-intorno_al, sn-[n-monumento, sa-[ag-marmoreo]]]]]], par-'>'], f-[ibar-[vin-giri], compin-[sp-[p-a, sn-[n-sinistra]]]]], punt-',', cp-[savv-[avv-praticamente], savv-[abbr-rito_], punt-',', f-[ibar-[vin-ritorni], compin-[sp-[p-verso, sn-[n-sud]]]]]], punto-'.']
+
+
+da-[turn-f126, f-[ir_infl-[virt-'Aspetta'], compt-[sn-[art-un, nt-attimo]]], punt-',', fint-[ibar-[vsupp-devo, vit-fare], compt-[sn-[art-un, n-cerchio], sp-[php-intorno_al, sn-[n-monumento, ovl-[par-'<', f-[ibar-[vin-'Giri']], par-'>'], sa-[ag-marmoreo]]]]], puntint-'?']
+
+
+da-[turn-g127, f3-[sp-[php-'Intorno_al', sn-[n-monumento]], ovl-[par-'<', cp-[intj-'Sì', punt-',', f3-[congf-cioè, punt-',', intj-ehm]], par-'>'], savv-[avv-praticamente], punt-',', intj-sì, savv-[art-la, abbr-st_]], da_riempire-'...']
+
+
+da-[turn-f128, fint-[ibar-[vin-'Viene', vppt-circondato], compt-[spd-[pd-da, sn-[art-un, n-cerchio]]]], puntint-'?']
+
+
+da-[turn-g129, cp-[intj-'Sì', punt-',', f3-[spd-[pd-da, art-un], punt-',', intj-sì]], punto-'.']
+
+
+da-[turn-f130, fc-[congf-'E', ovl-[par-'<', fc-[congf-'E', congf-poi, f3-[savv-[abbr-rito_]]], par-'>'], congf-poi, cp-[savv-[abbr-v_], punt-',', fint-[ibar-[vin-vado], compin-[sp-[p-in, avv-giù]]]]], puntint-'?']
+
+
+da-[turn-g131, fc-[f-[ibar-[vin-'Ritorni'], compin-[sp-[p-verso, sn-[n-sud]]]], cong-e, f-[ibar-[vin-arrivi], compin-[savv-[avv-praticamente], sp-[part-alla, sn-[n-valle, spd-[partd-delle, sn-[n-allodole]]]]]]], punto-'.']
+
+
+da-[turn-f132, f3-[sv5-[vgin-'Passando', compin-[sp-[p-per, sn-[art-un, n-albero, spd-[pd-di, sn-[n-mele]]]]]]], puntint-'?']
+
+
+da-[turn-g133, cp-[intj-'No', punt-',', f-[ibar-[neg-non, abbr-l_, punt-',', neg-non, clitac-lo, vt-so], compt-[fint-[int-dov, f-[ibar-[vc-è], compc-[sn-[art-l, n-albero, spd-[pd-di, ovl-[par-'<', f3-[sn-[art-'L', n-albero, spd-[pd-di]]], par-'>'], sn-[n-mele]]]]]]]]], punt-',', f3-[neg-non], da_riempire-'...']
+
+
+da-[turn-f134, cp_int-[sn-[n-'Mele'], f-[ibar-[neg-non, clitabl-c, vc-è]]], puntint-'?']
+
+
+da-[turn-g135, cp-[intj-'No'], punto-'.']
+
+
+da-[turn-f136, fc-[congf-'E', intj-beh, punt-',', f-[sn-[pron-io], ibar-[expl-ce, clitac-l, vc-ho]]], punt-',', cong-e, fc-[congf-allora, ovl-[par-'<', f3-[congf-'Comunque', punt-',', intj-sì], par-'>'], f-[ibar-[vin-arrivo], compin-[sp-[part-alla, sn-[n-valle, spd-[partd-delle, sn-[n-allodole]]]]]]], fp-[punt-',', cp-[intj-ah], punt-','], fc-[congf-allora, f-[ir_infl-[virt-aspetta], compt-[sq-[art-un, q-pô]]]], fp-[punt-',', cp-[intj-eh], punt-','], fint-[ibar-[clitdat-te, clitac-lo, vsupp-posso, vit-ridire], puntint-'?'], cp-[intj-'Ehm', punt-',', sv2-[p-per, viin-vedere, compt-[fs-[cosu-se, f-[ibar-[ausa-ho, vppin-capito]]]]]], punto-'.']
+
+
+da-[turn-g137]
+
+da-[turn-f138, fc-[congf-'Allora', f-[sn-[pron-io], ibar-[vc-sono], compc-[sp-[part-all, sn-[n-aia]], punt-',', cp-[sp-[part-all, sn-[n-aia]], sn-[pron-io], fp-[punt-',', cp-[intj-eeh], punt-','], fint-[ibar-[clitdat-ti, punt-',', clitdat-ti, vt-rispiego], compt-[ccom-[savv-[avv-come], ovl-[par-'<', fc-[congf-'Cioè', punt-',', cp-[intj-sì, punt-',', f-[ir_infl-[virt-aspetta]]]], par-'>'], f-[ibar-[clitac-l, ausa-ho, clitac-l, ausa-ho, vppt-vista], compt-[sn-[pron-io], punt-',', cp-[intj-eh]]]]]]]]], puntint-'?'], f-[ibar-[vin-'Vedi'], compin-[sq-[art-un, q-pochino], fs-[cosu-se, f-[ibar-[clitdat-ti, vin-torna]]]]], punt-',', fc-[congf-allora, punt-',', cp-[sp-[part-all, sn-[n-aia]], fp-[punt-',', cp-[intj-ehm], punt-','], f-[sn-[pron-io], par-'-', ibar-[vin-vado], compin-[sp-[p-verso, sn-[art-un, n-ponte, sp-[p-d, sn-[n-alluminio]]]]]], punt-',', cong-poi, f-[ibar-[vin-giro], compin-[sp-[p-vers_]]]]], da_riempire-'...']
+
+
+da-[turn-g139, cp-[intj-'Eh', punt-',', cp-[savv-[avv-qui, avv-forse], f-[ibar-[neg-non, clitdat-t, ausa-avevo, vppin-spiegato], compin-[savv-[avv-be_]]]]], punt-',', cp-[savv-[avv-praticamente], punt-',', fs-[cosu-quando, f-[ibar-[expl-c, vc-hai], compc-[par-'-', sn-[art-l, n-aia], fp-[punt-',', savv-[abbr-con_], punt-','], sp-[part-sula, sn-[n-sinistra]]]]]], punto-'.']
+
+
+da-[turn-f140, cp_int-[intj-'Sì'], puntint-'?']
+
+
+da-[turn-g141, fc-[f-[ibar-[vin-'Vai'], compin-[savv-[avv-avanti]]], punt-',', cp-[savv-[avv-praticamente], f-[ibar-[vsupp-devi, vit-aggirare], compt-[sn-[dim-questo, n-banano]]]]], fc-[congf-cioè, punt-',', f-[ibar-[clit-te, clitac-lo, vt-trovi], compt-[sp-[part-sulla, sn-[n-destra]]]], punt-',', f-[ibar-[vin-giri], compin-[sp-[p-a, sn-[n-destra]]]], punt-',', cong-poi, f-[ibar-[vin-giri], compin-[sp-[in-ancora, p-a, sn-[n-destra]], savv-[avv-praticamente]]]], ovl-[par-'<', f-[ir_infl-[virt-'Aspetta']], punt-',', f3-[cosu-perché], par-'>'], f3-[savv-[abbr-ri_], punt-',', savv-[abbr-ri_]], da_riempire-'...']
+
+da-[turn-f142, f-[sn-[art-'Il', n-banano], ibar-[neg-non, clitac-l, ausa-avevo, vppt-segnato], compt-[sn-[pron-io]]], fp-[punt-',', cp-[intj-ehm], punt-','], ovl-[par-'<', cp-[intj-'Sì', punt-',', fc-[congf-infatti, f3-[in-pure]]], par-'>'], f-[ibar-[vin-pensavo]], punt-',', f3-[congf-allora], da_riempire-'...']
+
+
+da-[turn-g143, f-[ibar-[neg-'un/', ause-ero, ausep-stata], compc-[sa-[ag-chiara], sn-[pron-io]]], punto-'.']
+
+
+da-[turn-f144, fc-[congf-'Allora', cp-[sp-[part-all, sn-[n-aia]], punt-',', f-[ir_infl-[virt-aspetta]]]], punt-',', cp-[intj-eh], punto-'.']
+
+
+da-[turn-g145, cp-[savv-[avv-'Praticamente'], f-[ibar-[vt-fai], compt-[sn-[art-un, n-giro]]]], punto-'.']
+
+
+da-[turn-f146, fc-[f-[ir_infl-[virt-'Aspetta'], compt-[sn-[art-un, nt-attimo]]], f-[ir_infl-[virin-fermati], compin-[clit-ti]]], punt-',', fc-[congf-allora, cp-[sn-[pron-io], sp-[part-all, sn-[n-aia]], f-[ibar-[vin-vado], compin-[sn-[art-un, n-pezzettino], savv-[avv-avanti], cong-e, f-[ibar-[clit-m, vt-incontro], compt-[sn-[dim-questo, n-banano], sp-[part-sula, ovl-[par-'<', f-[ibar-[vin-'Vai']], par-'>'], sn-[n-destra]]]]]]]], punto-'.']
+
+
+da-[turn-g147, f3-[savv-[sq-[art-'Un', q-pô], avv-avanti], punt-',', cp-[intj-sì]], punto-'.']
+
+
+da-[turn-f148, fc-[congf-'E', f3-[sn-[art-il, n-banano], sp-[part-sulla, sn-[n-destra]]]], fc-[cong-e, fc-[congf-poi, fint-[int-cosa, f-[ibar-[vt-faccio]]]], puntint-'?'], fint-[ibar-[vin-'Giro'], punt-',', cp-[intj-ehm], puntint-'?'], ovl-[par-'<', f-[ibar-[vin-'Giri'], compin-[sp-[p-a, sn-[n-destra]]]], par-'>'], f-[ibar-[vin-'Giro'], compin-[sp-[p-a, savv-[n-sin_]]]], da_riempire-'...']
+
+
+da-[turn-g149, f-[ibar-[clitac-'L', vt-aggiri], compt-[savv-[avv-praticamente], sv5-[vgin-tornando, compin-[savv-[avv-indietro], punt-',', savv-[avv-praticamente], sp-[p-verso, sn-[art-l, n-aia]], sv2-[p-per, viin-capire]]]]], punt-';', fc-[congf-cioè, fp-[par-'-', savv-[abbr-g_], punt-','], cp-[sv5-[vgin-girando, compin-[sp-[php-intorno_al, sn-[n-banano]]]], f-[ibar-[vin-passi], compin-[sp-[part-sul, sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]]]]]]], punto-'.']
+
+
+da-[turn-f150, fc-[congf-'Cioè', fp-[punt-',', cp-[intj-ehm], punt-','], f-[ibar-[neg-non, ause-è], fp-[punt-',', cp-[intj-ehm], punt-','], compc-[savv-[n-sin_]]]], punt-',', f-[ir_infl-[virt-scusa]], fp-[punt-',', cp-[intj-eh], punt-','], fc-[congf-ma, f-[sn-[pron-io], ibar-[neg-non, ausa-ho, vppt-capito], compt-[sn-[dim-'sto/', n-banano]]], punt-',', cp-[intj-ehm], punto-'.'], f-[ibar-[vin-'Giro']], fp-[punt-',', cp-[intj-ehm], punt-','], fint-[ibar-[vsupp-devo, viin-girare], compin-[sp-[p-verso, sn-[n-sinistra]], punt-',', savv-[avv-dopo]]], puntint-'?']
+
+
+da-[turn-g151, cp-[intj-'No', punt-',', f3-[sp-[p-verso, sn-[n-destra]], savv-[avv-dopo]]], punto-'.']
+
+
+
+da-[turn-f152, cp_int-[intj-'Ehm', punt-',', fint-[int-perché, f3-[sp-[p-verso, sn-[n-destra]]]], puntint-'?'], fc-[congf-'Cioè', fp-[punt-',', cp-[intj-ehm], punt-','], ovl-[par-'<', f3-[savv-[avv-'Sempre'], sp-[p-a, sn-[n-destra]], punto-'.'], cp-[intj-'No', intj-no], par-'>'], f3-[sp-[p-verso, sn-[n-destra]], savv-[abbr-d_], punt-',', sp-[p-dopo, sn-[art-l, n-aia]]]], punt-',', f3-[congf-e, congf-poi], punto-'.']
+
+
+da-[turn-g153, cp-[sp-[part-'All', sn-[n-aia]], f-[ibar-[vin-vai], compin-[savv-[avvl-appena_appena, sp-[p-a, sn-[n-sinistra]], in-comunque]]]], cp-[intj-va_bè, fp-[punt-',', cp-[intj-ehm], punt-','], f-[sn-[art-l, n-importante], ibar-[vc-è], compc-[fac-[pk-che, f-[ibar-[vin-vai], compin-[savv-[avv-avanti], punt-',', sp-[php-fino_a, cong-che], f-[ibar-[vt-trovi], compt-[sn-[art-il, n-banano]]]]]]]]], punto-'.']
+
+
+da-[turn-f154, f3-[congf-'E', savv-[abbr-p_]], fp-[punt-',', cp-[intj-ehm], punt-','], fc-[congf-e, congf-poi, f-[ibar-[vin-vado], compin-[sp-[p-verso, sn-[n-sinistra]]]]], punto-'.']
+
+
+da-[turn-g155, fc-[congf-'E', f3-[savv-[abbr-po_, abbr-va_, punt-',', abbr-v_], fp-[punt-',', cp-[intj-no], punt-','], sp-[p-verso, sn-[n-destra]]]], punto-'.']
+
+
+da-[turn-f156, f3-[sp-[p-'Verso', sn-[n-destra]], sp-[p-per, sn-[art-la, n-roulotte]]], puntint-'?']
+
+
+da-[turn-g157, cp-[intj-'No', punt-',', f-[ir_infl-[virt-aspetta]]], punt-',', cp-[intj-no], punto-'.']
+
+
+da-[turn-f158, fc-[f3-[sp-[p-'Verso', sn-[n-destra]], sp-[p-per, sn-[art-la, n-roulotte]]], cong-o, compt-[sp-[p-per, sn-[art-il, n-ponte, sp-[p-d, sn-[n-alluminio]]]]], puntint-'?'], fc-[congf-'Ma', cp-[savv-[abbr-i_], fint-[ibar-[clitabl-ci, ovl-[par-'<', sp-[p-'Per'], par-'>'], vin-passo], compin-[sp-[p-su, sn-[dim-questo, n-ponte, sp-[p-d, sn-[n-alluminio]]]]]]]], puntint-'?']
+
+
+da-[turn-g159, cp-[intj-'Sì', intj-sì, punt-',', f-[ibar-[clitabl-ci, vsupp-devi, viin-passare]]], punto-'.']
+
+
+da-[turn-f160, fc-[congf-'E', f-[ibar-[clitdat-mi, vin-spieghi], compin-[fint-[int-come, f-[ibar-[vin-faccio], compin-[sv2-[pt-a, viin-andà, compin-[sp-[p-verso, sn-[n-destra]]], cong-e, sv2-[pt-d, vit-incontrà, compt-[sn-[art-il, n-ponte, sp-[p-d, sn-[n-alluminio]]]]]]]]]]]], puntint-'?']
+
+
+da-[turn-g161, fs-[cosu-'Perché', cp-[savv-[avv-prima], f-[ibar-[vin-vai], compin-[sp-[p-verso]]]], fp-[punt-',', cp-[intj-eeh], punt-','], f-[ibar-[vin-vai], compin-[sp-[p-verso, sn-[n-sinistra]], savv-[avv-prima]]], punto-'.'], fc-[congf-'Cioè', punt-',', ovl-[par-'<', f3-[sp-[p-'Verso', sn-[n-sinis_]]], par-'>'], fs-[cosu-se, f-[ibar-[expl-c, vc-hai], compc-[sn-[art-l, n-aia]]]]], punt-',', fc-[congf-cioè, cosu-se, f-[ibar-[clit-ti, vin-metti], compin-[sp-[p-con, sn-[art-l, n-aia]], sp-[p-a, sn-[n-sinistra]]]], f-[ibar-[vin-vai], compin-[savv-[avv-avanti], punt-',', sp-[p-con, sn-[art-la, n-strada]]]]], f3-[congf-però, cosu-se], da_riempire-'...']
+
+
+da-[turn-f162, fc-[congf-'Allora', f-[sn-[pron-io], ibar-[vsupp-devo, viin-partire], compin-[sp-[p-con, sn-[art-l, n-aia, sp-[p-a, sn-[n-sinistra]]]]]], punto-'.'], cp-[intj-'No', punt-',', ovl-[par-'<', f3-[sp-[p-'A', sn-[n-nord]]], par-'>'], intj-ehm], da_riempire-'...']
+
+
+da-[turn-g163, cp-[spd-[partd-'Dell', sn-[n-aia]], punt-',', f-[ir_infl-[virin-mettiti], compin-[clit-ti, sp-[p-a, sn-[n-nord, spd-[partd-dell, sn-[n-aia]]]],punt-',', ovl-[par-'<', cp-[intj-'Sì', punt-',', f-[ibar-[vc-è]]], par-'>'], savv-[avv-sopra]]]], punto-'.']
+
+
+da-[turn-f164, f-[ir_infl-[clitabl-'Ci', aueir-sarei, vc-stata], compc-[sp-[p-a, sn-[n-nord, spd-[partd-dell, sn-[n-aia]]]]]], fc-[conjl-solo_che, f-[ibar-[neg-non, vin-riesco], compin-[sv2-[pt-a, vit-capì, compc-[sa-[avv-nient, ag-altro]]], fs-[cosu-perché, f3-[sn-[pron-io]]]]]], par-'-', fc-[congf-allora, f-[ibar-[vc-sono], compc-[sp-[p-a, sn-[n-nord]]]]], punt-',', cp_int-[intj-okay], puntint-'?']
+
+
+da-[turn-g165, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f166, f-[ibar-[vin-ricominciamo], compin-[savv-[avvl-da_capo]]], ovl-[par-'<', fc-[congf-'E', f-[ibar-[clit-ti, vin-metti], compin-[savv-[abbr-su_]]]], par-'>'], cp-[savv-[abbr-va_], punt-',', f-[ibar-[vin-vado]]], punto-'.']
+
+
+da-[turn-g167, f3-[sp-[p-'A', sn-[n-nord, spd-[partd-dell, sn-[n-aia]]]], punt-',', sp-[p-con, sn-[art-l, n-aia]], sp-[part-alla, sn-[n-sinistra]]], punto-'.']
+
+
+
+
+da-[turn-f168, f3-[intj-'Va_bè', punt-',', congf-e, congf-allora], puntint-'?']
+
+
+da-[turn-g169, fs-[cosu-'Se', f-[ibar-[vin-vai], compin-[savv-[avv-avanti]]]], da_riempire-'...']
+
+
+da-[turn-f170, cp-[intj-'Mh'], punto-'.']
+
+
+da-[turn-g171, cp-[savv-[avv-'Prima'], f-[ibar-[vin-scendi], compin-[sn-[art-un, n-pochettino]], cong-e], punto-'.'], fc-[congf-cioè, f-[ibar-[vin-giri], compin-[sp-[p-a, sn-[n-sinistra]]]], f-[ibar-[vin-diciamo]]], fs-[cosu-se, f-[ibar-[clit-ti, vin-metti], compin-[savv-[avv-com_], punt-',', sp-[p-in, sn-[dim-quella, n-posizione, savv-[avv-lì]]]]], fc-[f-[ibar-[vin-giri], compin-[sp-[in-appena, p-a, sn-[n-sinistra]]]], cong-e, cp-[savv-[avv-poi], f-[ibar-[vin-vai], compin-[savv-[avv-avanti]]]]]], punto-'.']
+
+
+da-[turn-f172, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g173, ovl-[par-'<', f-[ibar-[vin-'Vado'], compin-[savv-[avv-avanti]]], par-'>'], f3-[cosu-'Quando', savv-[abbr-tr_]], da_riempire-'...']
+
+
+da-[turn-f174, cp-[p-'Verso', punt-',', fc-[f-[ibar-[vin-giro], compin-[sp-[in-appena, p-a, sn-[n-sinistra]]]], f-[ibar-[vin-vado], compin-[savv-[avv-avanti]]], punt-',', f-[ibar-[vin-vado], compin-[savv-[avv-avanti], sp-[p-verso, sn-[n-nord]]]]]], punt-',', fint-[ibar-[vin-dici]], puntint-'?']
+
+
+da-[turn-g175, cp-[intj-'No', punt-',', f3-[sp-[p-verso, sn-[n-ovest]]]], punto-'.']
+
+
+
+da-[turn-f176, cp-[intj-'Ah', punt-',', fc-[congf-allora, f3-[intj-sì]]], punt-',', fc-[congf-allora, f-[ibar-[clitabl-c, vc-ero]]], cp-[intj-okay, punt-',', f-[ibar-[vin-vado], compin-[savv-[avv-avanti], sp-[p-verso, sn-[n-ovest]]]]], f3-[congf-e, congf-poi], puntint-'?']
+
+
+da-[turn-g177, fc-[congf-'Poi', cosu-quando, f-[ibar-[vt-trovi], fp-[punt-',', cp-[intj-ehm], punt-','], compt-[sn-[art-un, n-banano], sp-[part-sulla, sn-[n-destra]]]]], punto-'.']
+
+
+da-[turn-f178, cp-[intj-'Mh'], punto-'.']
+
+
+da-[turn-g179, f-[ibar-[clitabl-'Ci', vin-giri], compin-[savv-[avv-intorno]]], punt-',', cp-[savv-[avv-praticamente], f-[ibar-[vin-continui], compin-[sv2-[pt-a, viin-girare, compin-[sp-[p-a, sn-[n-destra]]]]]]], punto-'.']
+
+
+da-[turn-f180, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g181, fc-[congf-'E', congf-poi, f-[ibar-[vin-passi], compin-[savv-[avv-praticamente], sp-[php-fino_a, sv2-[viin-passare, compin-[part-sul, n-ponte, sp-[p-d, sn-[n-alluminio]]]]], punt-',', savv-[avvl-in_modo_da], sv2-[viin-passare, compin-[sp-[part-sul, sn-[n-ponte, ovl-[par-'<', cp-[intj-'Ah', punt-',', f-[ibar-[ausa-ho, vppin-capito]]], par-'>'], sp-[p-d, sn-[n-alluminio]]]]]]]]], punto-'.']
+
+
+da-[turn-f182, f-[ir_infl-[virt-'Aspetta'], compt-[sn-[art-un, nt-attimo], fp-[punt-',', cp-[intj-via], punt-',']]], f-[ibar-[vin-vediamo],compin-[sq-[art-un, q-pochino]]], punt-',', fc-[f-[ibar-[clitac-lo, vt-mettiamo], compt-[savv-[avv-qua], sn-[art-il, n-banano]]], cong-e, f-[ibar-[clit-ci, vin-passo], compin-[sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]]]]], fc-[congf-poi, cp-[sp-[part-al, sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]]], f-[sn-[pron-io], ibar-[vin-giro], compt-[sp-[p-verso, sn-[n-est]]]]]], punt-',', cp_int-[intj-no, puntint-'?'], fint-[sn-[art-'La', n-linea], ibar-[vin-va], compin-[sp-[p-verso, sn-[n-est]]], puntint-'?'], f3-[sn-[nh-'Roberta']], puntint-'?']
+
+
+da-[turn-g183, f3-[sn-[pron-'Te'], fs-[cosu-se], da_riempire-'...'], fs-[cosu-'Quando', f-[sn-[pron-te], ibar-[vc-sei], compc-[sp-[part-sulla, sn-[n-strada]]]], cp-[spda-[partda-dal, sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]], f-[ibar-[vin-vai], compin-[savv-[avv-avanti]]]]]], punto-'.']
+
+
+da-[turn-f184, fc-[f-[ibar-[vin-'Vado'], compin-[savv-[avv-avanti], sn-[art-un, n-pezzettino]]], cong-e, cp-[savv-[avv-poi], f-[ibar-[vin-vado], compin-[sp-[p-verso, sn-[n-destra]], punt-',', sv2-[p-per, vit-incontrare, compt-[sn-[art-la, n-roulotte]]]]]]], punto-'.']
+
+
+da-[turn-g185, f3-[intj-'No', punt-',', compt-[sp-[p-a, sn-[n-sinistra]]]], punto-'.']
+
+
+da-[turn-f186, cp_int-[sn-[pron-'Io'], savv-[avv-qui], f-[ibar-[clit-ci, vin-impazzisco]]], puntint-'!']
+
+da-[turn-g187]
+
+da-[turn-f188, cp_int-[sn-[pron-'Io'], sn-[art-la, n-roulotte], fc-[f-[ibar-[expl-ce, clitac-l, vc-ho], compc-[sp-[p-a, sn-[n-destra]]]], punt-',', f-[ibar-[neg-non, expl-ce, clitac-l, vc-ho], compc-[sp-[p-a, ovl-[par-'<', f3-[intj-'Sì', punt-',', congf-ma], par-'>'], sn-[n-sinistra]]]]]], puntint-'!']
+
+
+da-[turn-g189, f-[sn-[pron-'Te'], ir_infl-[virin-mettiti], compin-[clit-ti, ovl-[par-'<', f-[ibar-[vc-è]], par-'>'], savv-[abbr-s_]]], da_riempire-'...']
+
+
+da-[turn-f190, f3-[sn-[art-'Una', n-cosa, sa-[ag-impossibile]], punto-'.'], fc-[congf-'Cioè', punt-',', f-[ir_infl-[virt-scusa]]], fp-[punt-',', cp-[intj-eh], f3-[savv-[abbr-so_]], punt-','], cp-[intj-ehm], da_riempire-'...']
+
+
+da-[turn-g191, fs-[cosu-'Se', f-[sn-[pron-te], ibar-[vc-sei], compc-[sp-[part-sulla, sn-[n-strada]]]]], punt-',', ovl-[par-'<', cp-[intj-'Eh'], par-'>'], cp_int-[intj-no], puntint-'?']
+
+
+da-[turn-f192]
+
+da-[turn-g193, cp-[intj-'Ehm', punt-',', fc-[f-[ibar-[vin-passi], compin-[sp-[p-sopra, sn-[art-il, n-ponte, sp-[p-d, sn-[n-alluminio]]]]]], f-[ir_infl-[virin-mettiti], compin-[clit-ti, sp-[p-in, sn-[dim-quella, n-posizione, savv-[avv-lì]]]]]]], punt-',', fc-[congf-cioè, fs-[neg-non, conjl-come_se, f-[sn-[pron-tu], ir_infl-[virt-guardassi], compt-[sn-[art-il, n-foglio]]]], punt-',', fc-[conjl-come_se, f-[sn-[pron-tu], ir_infl-[vcir-fossi], compc-[sp-[part-sulla, sn-[n-strada]]]]]], punto-'.']
+
+
+da-[turn-f194, f-[ibar-[neg-'un/', clit-ci, vt-capisco], compt-[sq-[q-nulla]]], punto-'.']
+
+
+da-[turn-g195, ovl-[par-'<', f-[ibar-[vin-ritorniamo]], par-'>'], f-[sn-[pron-'Te'], ibar-[vin-passi], compin-[savv-[avv-su]]], punto-'.']
+
+
+da-[turn-f196, cp-[sp-[part-'Al', sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]]], punt-',', sp-[part-al, sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]]], f-[sn-[pron-io], ibar-[vin-passo], compin-[sn-[deit-questo]]]], punto-'.']
+
+
+da-[turn-g197, f-[sn-[pron-'Te'], ibar-[vt-fai], compt-[sn-[n-conto, sv2-[pt-di, viin-camminare, compin-[sp-[part-sul, sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]]]]]]]], punt-',', ovl-[par-'<', cp-[intj-'Eh', punt-',', f-[ir_infl-[virt-aspetta]]], par-'>'], cp_int-[intj-no], puntint-'?']
+
+
+da-[turn-f198, f3-[sn-[art-'Un', nt-attimo]], punt-',', cp-[intj-ah, punt-',', f-[ibar-[vc-è], compc-[sa-[ag-vero]]], fs-[cosu-perché, cosu-se, f-[sn-[art-il, n-ponte], ibar-[vc-è], compin-[savv-[avv-così], fs-[cosu-siccome, f-[ibar-[ause-è, vppt-disegnato], compt-[savv-[avv-male]]]]]]]], punt-',', fc-[congf-cioè, punt-',', cp-[sn-[pron-io], savv-[avv-praticamente], f-[ibar-[expl-c, ausa-ho, vppin-passa_]], punt-',', f-[ibar-[clit-ci, ause-son, vppin-passata], compin-[sp-[p-attraverso], sn-[pron-io], punt-',', sp-[p-attraverso, sn-[art-il, n-ponte, sp-[p-d, sn-[n-alluminio]]]]]]]], fp-[punt-',', fc-[congf-e, congf-allora], punt-','], cp_int-[intj-ehm, puntint-'?'], ovl-[par-'<', f-[ibar-[vt-'Attraversi']], par-'>'], cp-[intj-'Dai'], punto-'.']
+
+
+da-[turn-g199, cp-[sn-[art-'Il', n-ponte], cong-e, savv-[abbr-con_], punt-',', fc-[f-[ibar-[vin-vai]], punt-',', f-[ibar-[vin-vai], compin-[savv-[avv-avanti]]]]], punto-'.']
+
+
+da-[turn-f200, cp-[intj-'Mh'], punto-'.']
+
+
+da-[turn-g201, fc-[congf-'E', congf-poi, f-[ibar-[vin-giri], compin-[sp-[p-a, sn-[n-sinistra]]]], par-'-', cong-e, f-[ibar-[clit-ti, vin-trovi], compin-[savv-[avv-subito, in-apper_]]], punt-',', cp-[sv3-[in-appena, ppas-girato, comppas-[sp-[p-a, sn-[n-sinistra]]]], f-[ibar-[clit-ti, vt-trovi], compt-[sn-[art-la, n-roulotte], sp-[part-sulla, sn-[n-destra]]]]]], punto-'.']
+
+
+da-[turn-f202, f-[ibar-[vc-è], compc-[sn-[art-una, n-cosa, sa-[ag-impossibile]]]], punto-'.']
+
+
+da-[turn-g203, cp-[intj-'No'], punto-'.']
+
+
+da-[turn-f204, ovl-[par-'<', f3-[congf-'Allora'], par-'>'], f3-[congf-'Cioè'], da_riempire-'...']
+
+
+da-[turn-g205, f-[sn-[pron-'Te'], ibar-[vt-attraversi], compt-[sn-[art-il, n-ponte]]], punt-',', cp-[sn-[art-il, n-ponte], ovl-[par-'<', f-[ibar-[vin-'Senti'], compin-[sn-[nh-'Roberta']]], par-'>'], savv-[avv-praticamente], par-'-', f-[ibar-[vin-va], compin-[spd-[pd-da, sn-[n-ovest]]]]], punto-'.']
+
+
+da-[turn-f206, f-[ir_infl-[virt-ascorta], compt-[sn-[art-una, n-cosa]]], fp-[punt-',', cp-[intj-eh], punt-','], f-[ibar-[clitdat-ti, vsupp-posso, vsf-far, vit-vedere], compt-[savv-[avv-com_], fp-[punt-',', savv-[abbr-c_], punt-','], sv2-[viin-figurarti, compin-[clit-ti, sn-[art-un, n-attimino], fint-[int-come, f-[ibar-[expl-ce, clitac-l, vc-ho], compc-[sn-[pron-io], sn-[art-le, n-cose]], punt-',', cp-[intj-no]]]]]], puntint-'?'], fc-[congf-'Allora', punt-',', f-[ibar-[vt-fai], compt-[sn-[n-conto], punt-',', f-[sn-[pron-io], ibar-[expl-c, vc-ho], par-'-', compc-[sn-[art-il, n-foglio, sa-[ag-verticale]]]]]], punt-',', cp_int-[intj-no]], puntint-'?']
+
+
+da-[turn-g207, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f208, cp_int-[f3-[sn-[art-'L', n-aia, par-'-', sp-[p-in, sn-[n-fondo]], sp-[p-a, sn-[n-destra]]], punt-',', intj-no], puntint-'?'], fc-[congf-'E', f-[ibar-[clitabl-c, vc-è], compc-[savv-[avv-sopra]]], punt-',', f-[ibar-[clitabl-c, vc-è], compc-[sn-[art-una, n-crocetta, sp-[p-con, sv3-[ppas-scritto, comppas-[sn-[n-partenza]]]]]]]], punto-'.']
+
+
+da-[turn-g209, cp-[intj-'Sì', punt-',', congf-infatti], punto-'.']
+
+
+da-[turn-f210, fc-[congf-'Infatti', f-[sn-[pron-io], ibar-[neg-non, ause-sono, vppin-partita], compin-[spda-[partda-dala, sn-[n-partenza]]]], fp-[punt-',', f-[ibar-[vin-vedi], compin-[fc-[ccom-come, f-[ibar-[vc-son], compc-[sa-[ag-scema]]]]]], punt-','], f-[ibar-[ause-son, vppin-partita], compin-[sp-[part-alla, punt-',', p-a, sn-[n-destra, spd-[partd-della, sn-[n-partenza]]]], sv2-[p-per, vci-averci, compc-[clit-ci, sn-[n-lala], punt-',', sn-[art-l, n-aia], sp-[part-sulla, savv-[abbr-des_]]]]]]], punt-';', cp-[sn-[art-il, n-problema], f-[ibar-[vc-è], compc-[fac-[pk-che, f-[sn-[dim-questi, n-disegnini], ibar-[neg-non, ause-sono, vppin-fatti], compin-[savv-[avv-bene]]]]]]], punto-'.']
+
+
+da-[turn-g211, cp-[intj-'No', punt-',', sn-[art-l, n-aia, sp-[part-sulla, sn-[n-sinistra]]], f-[ibar-[vin-diciamo], compin-[savv-[avv-dove], f-[ibar-[clit-ci, vc-sono], compc-[sn-[dim-quelle, ovl-[par-'<', cp-[sv2-[p-'Per', vci-avere]], par-'>'], sn-[n-indicazioni], punt-',', cp-[intj-sì]]]]]]], punto-'.']
+
+
+da-[turn-f212, cp-[intj-'Sì', punt-',', sn-[art-l, n-aia, sp-[part-sulla, sn-[n-sinistra]]], f-[sn-[pron-io], ibar-[clit-m, ause-ero, vppin-spostata], compin-[sp-[part-sulla, sn-[n-destra]]]], cong-e, fc-[congf-invece, cp-[sn-[art-la, n-partenza], f-[ibar-[vc-è], compc-[sa-[ag-vero], fac-[pk-che, f-[ibar-[ause-è, avv-qui]]]]]]]], punto-'.']
+
+
+da-[turn-g213, cp-[intj-'Mh'], punto-'.']
+
+
+da-[turn-f214, fc-[congf-'Allora', f-[ibar-[vt-facciamo], compt-[savv-[avv-così]]]], punto-'.']
+
+
+da-[turn-g215, fint-[f-[ibar-[clitabl-'Ci', ovl-[par-'<', f3-[congf-'Allora'], par-'>'], vc-sei]]], puntint-'?']
+
+
+da-[turn-f216, f-[ir_infl-[virt-'Aspetta']], fp-[punt-',', cp-[intj-eeh], punt-','], fc-[f-[sn-[pron-io], ibar-[vin-vado], compin-[sp-[part-sula, sn-[n-sinistra]]]], cong-e, f-[ibar-[vt-incontro], compt-[sn-[deit-questo]]], punto-'.'], fc-[f-[sn-[pron-'Io'], ibar-[neg-non, vt-incontro], compt-[sq-[q-nulla]]], punt-',', f-[sn-[pron-io], ibar-[clitdat-ti, vt-dico], ovl-[par-'<', cp-[intj-'Sì', punt-',', in-appunto, punt-',', intj-no, intj-sì], par-'>'], compt-[sn-[deit-quello, f2-[rel-che, f-[ibar-[clitdat-ti, vprog-stavo, vgt-dicendo]]]], punt-',', sn-[deit-quello, f2-[rel-che, f-[ibar-[vt-incontro], compt-[sn-[pron-io]]]]]]]], punt-',', cp-[intj-eh], punto-'.']
+
+
+da-[turn-g217]
+
+da-[turn-f218, ovl-[par-'<', fc-[congf-'Ma', cp-[savv-[abbr-dev_], punt-',', intj-no, punt-',', f-[ir_infl-[virt-aspetta], compt-[sq-[art-un, q-pô]]]]], par-'>'], fc-[congf-'Allora', fs-[cosu-se, f-[sn-[pron-io], ibar-[vin-vado], compin-[sp-[part-sula, sn-[n-sinistra]], punt-',', sp-[part-sulla, sn-[n-destra]], fs-[cosu-se, f-[ibar-[vin-diciamo], compin-[sv5-[vgt-continuando, compt-[sn-[art-la, n-strada]]]], punt-',', sv5-[vgin-andando, compin-[sp-[p-verso, sn-[n-ovest]]]]]]]], cp-[sn-[pron-io], sp-[part-sulla, sn-[n-destra]], f-[ibar-[expl-c, vc-ho], compc-[sn-[art-il, n-viale, spd-[partd-dei, sn-[n-lillà]]]]]]]], punt-',', fc-[congf-poi, fs-[cosu-se, cp-[savv-[avv-effettivamente], f-[ibar-[vt-faccio], compt-[sn-[art-un, n-giro, sp-[p-a, savv-[abbr-de_]], punt-',', sp-[p-a, sn-[n-destra]]]]], f-[ibar-[clit-mi, vin-sposto], compin-[sp-[part-sul, sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]]]]]]]], punt-',', cp_int-[sv3-[ppas-capito]], puntint-'?']
+
+
+da-[turn-g219, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f220, cp-[savv-[avv-'Ora'], sn-[pron-io], sn-[dim-questo, n-ponte, sp-[p-d, sn-[n-alluminio]]], f-[ibar-[vsupp-bisogna, viin-vedè], compin-[fc-[ccong-[ccom-come, f-[ibar-[clit-s, vt-attraversa]]]]]], fc-[cong-o, f-[ibar-[clit-s, vt-attraversa], compt-[sv5-[vgin-andando, compin-[sp-[p-verso, sn-[n-nord]]]]]], cong-o, ovl-[par-'<', cp-[intj-'No', punt-',', f3-[spd-[pd-da, sn-[n-ovest]], sp-[p-verso, sn-[n-est]]]], par-'>'], f-[ibar-[clit-s, vt-attraversa], compt-[savv-[abbr-and_]]]]], da_riempire-'...']
+
+
+da-[turn-g221]
+
+
+da-[turn-f222, cp_int-[f3-[spd-[pd-'Da', sn-[n-ovest]], sp-[p-verso, sn-[n-estre]]]], puntint-'?']
+
+
+da-[turn-g223, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f224, cp-[intj-'Ah', puntint-'!'], f-[ibar-[ausa-ho, vppin-capito]], fp-[punt-',', cp-[intj-eh], punt-','], cp-[intj-ecco, f3-[cosu-perché]], punt-',', ovl-[par-'<', f3-[sn-[n-'Est']], par-'>'], fs-[cosu-che, cp-[f3-[sn-[pron-io], sp-[p-in, sn-[n-realtà]], punt-',', sv2-[p-per, vit-fare, compt-[savv-[abbr-p_]], punt-',', savv-[art-il]]]], da_riempire-'...'], cp_int-[intj-'Oh', puntint-'!'], fc-[congf-quindi, f3-[sn-[pron-io], savv-[avv-praticamente]]], punt-',', cp_int-[intj-no, puntint-'?'], fint-[f-[ibar-[vt-'Faccio'], compt-[sn-[art-una, n-curva, sp-[p-a, sn-[n-destra]]], sv2-[p-per, viin-arrivare, compin-[sp-[part-al, sn-[n-ponte, sp-[p-d, sn-[n-alluminio]]]]]]]]], puntint-'?']
+
+
+da-[turn-g225, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f226, cp_int-[intj-'Oh', punt-',', ovl-[par-'<', f3-[sp-[p-'Verso', sn-[n-est]]], par-'>'], f-[ibar-[clit-ci, vc-sono]], puntint-'!'], cp-[intj-eccoci, clit-ci], punto-'.']
+
+
+da-[turn-g227]
+
+
+da-[turn-f228, fc-[congf-'E', punt-',', congf-e, congf-poi, punt-',', f-[ibar-[ausa-ho, vppin-capito]]], punt-',', fc-[congf-allora, ovl-[par-'<', f3-[savv-[avv-'Poi', abbr-pr_], da_riempire-'...'], fc-[f-[ibar-[vt-fai]], punt-',', f-[ibar-[vin-curvi], compin-[sp-[p-a, punt-',', p-verso]]], da_riempire-'...'], fc-[congf-'Poi', f-[ibar-[vin-curvi], compin-[sp-[p-verso, sn-[n-nord]]]]], par-'>'], cp-[sp-[p-a, sn-[dim-quel, n-punto, savv-[avv-lì]]], fs-[cosu-se, f-[ibar-[vin-vado], compin-[savv-[avvl-a_diritto]]], f-[ibar-[vt-incontro], fp-[punt-',', cp-[intj-eeh], punt-','], compt-[sn-[art-la, n-roulotte]]]]], punt-',', cp-[sn-[art-la, n-roulotte], f-[ibar-[expl-ce, clitac-l, vc-ho], compc-[sp-[part-sulla, sn-[n-destra]], f-[ibar-[vin-diciamo], compin-[ibar-[vsupp-volendo, punt-',', vsupp-volendo, in-proprio, viin-arrivarci], compin-[clit-ci, savv-[avv-qui], sp-[part-sulla, sn-[n-destra]]]]]]], fs-[cosu-perché, cp-[savv-[avv-qui], sp-[p-sehondo, sn-[pron-me]], f-[ir_infl-[vsupir-dovrei, vit-superare], compt-[sn-[art-il, n-viale, spd-[partd-dei, sn-[n-lillà]]]]]]]], punto-'.'], cp-[intj-'Sì', punt-',', savv-[avv-ora], savv-[p-fin, avv-qui], f-[ibar-[clit-ci, vc-sono]], punt-',', f-[ir_infl-[virt-aspetta], compt-[f3-[congf-allora]]]], punto-'.']
+
+
+da-[turn-g229, fc-[congf-'Poi', ovl-[par-'<', cp-[intj-'Ehm', punt-',', intj-sì, punt-',', intj-sì, punt-',', f-[ir_infl-[virt-aspetta]]], par-'>'], cp-[savv-[avv-praticamente], f-[ibar-[vin-giri], compin-[savv-[abbr-ve_]]]], punt-',', f-[ibar-[vin-giri], compin-[sp-[p-a, savv-[n-sin_]]]]], punto-'.']
+
+
+da-[turn-f230, cp-[sn-[art-'Un', nt-attimo], cong-che, f-[ibar-[clit-me, clitac-la, vt-segno], compt-[savv-[avv-meglio]]], punt-',', intj-eh, punto-'.'], fc-[congf-'Quindi', punt-',', congf-allora, cp-[sn-[art-la, n-roulotte], fint-[int-cosa, f-[ibar-[vt-facevo]]]], puntint-'?'], f-[ibar-[vc-'Avevo'], compc-[sn-[art-la, n-roulotte], sp-[part-sulla, sn-[n-destra]]]], punto-'.']
+
+
+da-[turn-g231, cp-[intj-'Sì', fc-[congf-e, f-[ibar-[vin-prosegui], compin-[sp-[p-verso, sn-[n-nord]]]]]], punto-'.']
+
+
+da-[turn-f232, f-[ibar-[vin-'Proseguo'], compin-[sp-[p-verso, sn-[n-nord]]]], punt-',', cp_int-[congf-poi], puntint-'?']
+
+
+da-[turn-g233, cp-[sp-[p-'A', sn-[art-un, sq-[ind-certo], n-punto]], f-[ibar-[vt-trovi], compt-[fp-[punt-',', sp-[part-sula, sn-[n-sinistra]], punt-','], sn-[art-un, n-bar, spd-[pd-da, sn-[nh-'Nanà']]]]]], punto-'.']
+
+
+
+da-[turn-f234, cp_int-[intj-'Mh', punt-',', fc-[congf-e, punt-',', ovl-[par-'<', fc-[congf-'E', f-[sn-[pron-te], ibar-[vin-giri], compin-[sp-[p-a, savv-[n-sini_]]]]], par-'>'], congf-e, f-[ibar-[vin-giro]]], puntint-'?'], f3-[sp-[p-'A', sn-[n-sinis_]]], da_riempire-'...']
+
+
+da-[turn-g235, cp_int-[intj-'Sì', fc-[congf-e, f-[ibar-[clit-ci, vin-pass_]], punt-',', f-[ibar-[clitac-l, vt-aggiri], compt-[savv-[avv-praticamente], sn-[art-il, n-bar], punt-',', cp-[intj-no]]]]], puntint-'?']
+
+
+da-[turn-f236, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g237, fc-[f-[ibar-[vin-'Vai'], compin-[sp-[p-verso, savv-[n-nor_]]]], punt-',', f-[ibar-[vin-ritorni], par-'-', ovl-[par-'<', f-[ibar-[vin-ritorno], compin-[sp-[p-verso, sn-[n-ovest]]]], par-'>'], compin-[sp-[p-verso, sn-[n-ovest]]]]], punto-'.']
+
+
+da-[turn-f238, cp_int-[sn-[n-'Ovest'], intj-sì, punt-',', fc-[congf-e, f-[ibar-[vt-incontro], compt-[sn-[art-i, n-mobili, nh-'Elena'], sp-[part-sulla, sn-[n-destra]]]]]], puntint-'?']
+
+
+da-[turn-g239, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f240, f-[ibar-[vin-'Vado'], compin-[sp-[p-verso, sn-[n-nord]]]], punto-'.']
+
+
+da-[turn-g241, cp-[intj-'Sì', punt-',', f-[ibar-[vin-giri], compin-[sp-[p-verso, sn-[n-nord]]]], cong-poi], da_riempire-'...']
+
+
+da-[turn-f242, fc-[congf-'E', congf-poi, f-[ibar-[vin-giro], compin-[sp-[p-verso, sn-[n-ovest]]]]], punto-'.']
+
+
+da-[turn-g243, cp-[intj-'No', intj-no, intj-no, fp-[punt-',', cp-[intj-ehm], punt-','], f-[ir_infl-[virt-lascia], compin-[savv-[abbr-p_]]]], punt-',', fs-[cosu-quando, f-[ibar-[vt-trovi], compt-[sn-[n-mobili, nh-'Elena'], sp-[part-sula, sn-[n-destra]]]]], punto-'.']
+
+
+da-[turn-f244, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g245, fc-[f-[ibar-[vin-'Vai'], compin-[savv-[avv-avanti], punt-',', sq-[art-un, q-pô]]], cong-e, fc-[congf-poi, f-[ibar-[vin-giri], fp-[punt-',', cp-[intj-ehm], punt-','], compt-[sp-[p-verso, sn-[n-nord]], punt-',', sp-[p-a, sn-[n-destra]]]]], cong-e, cp-[savv-[abbr-v_], punt-',', cong-e, f-[ibar-[vin-continui], ovl-[par-'<', f-[ibar-[vin-'Giro'], compin-[sp-[p-verso, sn-[n-nord]]]], par-'>'], compin-[sv2-[pt-a, viin-andare, compin-[sp-[p-verso, sn-[n-nord]]]]]]]], punto-'.']
+
+
+da-[turn-f246, f3-[sp-[p-'A', sn-[n-destra]]], puntint-'?']
+
+
+da-[turn-g247, cp-[intj-'Sì', punt-',', ovl-[par-'<', f-[ir_infl-[virt-'Scusa'], compt-[sn-[art-una, n-cosa]]], par-'>'], f3-[savv-[abbr-a_]]], da_riempire-'...']
+
+
+
+
+da-[turn-f248, cp_int-[intj-'Eh', punt-',', ovl-[par-'<', sp-[p-'Verso', sn-[n-nord]], par-'>'], f-[sn-[pron-io], ibar-[ausa-avevo, vppin-fatto], compin-[spda-[partda-dalla, sn-[n-roulotte]]]], punt-',', intj-no, puntint-'?'], fc-[congf-'E', f3-[savv-[abbr-d_], punt-',',intj-eeh]], da_riempire-'...']
+
+
+da-[turn-g249, cp-[intj-'Sì', punt-',', f-[ir_infl-[virt-lascia]], punt-',', intj-ehm], punto-'.']
+
+
+da-[turn-f250, fint-[f-[ibar-[vin-'Giro'], compin-[sp-[p-verso, sn-[n-nord]], punt-',', sp-[p-a, sn-[n-destra]]]]], puntint-'?']
+
+
+da-[turn-g251, f3-[sp-[p-'Dopo', sn-[n-mobili, nh-'Elena']]], punto-'.']
+
+
+da-[turn-f252, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g253, f-[ibar-[vin-'Giri'], compin-[sp-[p-verso, sn-[n-nord]], punt-',', sp-[p-a, sn-[n-destra]], congf-insomma]], punto-'.']
+
+
+da-[turn-f254, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g255, cp-[intj-'Eh'], punto-'.']
+
+
+da-[turn-f256, fint-[f-[ibar-[vin-'Giro'], compin-[sp-[p-verso, sn-[n-nord]]]], cong-e, congf-poi], puntint-'?']
+
+
+da-[turn-g257, fc-[congf-'E', f-[ibar-[vin-prosegui], compin-[sp-[p-verso, sn-[n-nord]]]], punt-',', cp-[savv-[avvl-a_un_certo_punto], f-[ibar-[vt-trovi], compt-[sp-[part-sula, sn-[n-destra]], sn-[art-il, n-bar, spd-[pd-da, sn-[nh-'Dodò']]]]]]], punto-'.']
+
+
+da-[turn-f258, f-[ibar-[ausa-'Ho', vppin-capito]], punto-'.']
+
+
+da-[turn-g259, cp-[intj-'Ehm', punt-',', f-[ibar-[vin-prosegui]]], punto-'.']
+
+
+da-[turn-f260, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g261, fc-[f-[ibar-[vin-'Prosegui'], compin-[sp-[p-per, sq-[art-un, q-pô]]]], cong-e, cp-[sp-[p-a, sn-[art-un, ind-certo, n-punto], fs-[cosu-quando, f-[ibar-[vt-trovi], fp-[punt-',', f3-[savv-[avv-sempre], sp-[part-sulla, sn-[n-destra]]], punt-','], sn-[art-una, n-limonaia]]]]]], punto-'.']
+
+
+da-[turn-f262, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g263, fc-[f-[ibar-[vin-'Giri'], compin-[sp-[p-a, sn-[n-nord]]]], punt-',', fc-[congf-cioè, f-[ibar-[vin-passi], compin-[sp-[php-davanti_alla, sn-[n-limonaia]]]]], cong-e, f-[ibar-[vin-giri], compin-[sp-[p-a, savv-[abbr-o_]], punt-',', sp-[p-a, sn-[n-est]], fp-[punt-',', f-[ir_infl-[virt-scusa]], punt-','], sp-[p-a, sn-[n-destra]]]]], punto-'.']
+
+
+da-[turn-f264, cp-[intj-'Eccoci', clit-ci, fp-[punt-',', cp-[intj-ah], punt-','], fc-[congf-e, congf-poi, cp-[savv-[abbr-a_], punt-',', f-[ibar-[vt-accerchio], compt-[sn-[art-il, n-monumento, sa-[ag-marmoreo]]]]]]], punto-'.']
+
+
+da-[turn-g265, cp-[sa-[ag-moreo], cong-e, ovl-[par-'<', fc-[f-[ibar-[vin-'Scendo'], compin-[savv-[avv-giù]]], punt-',', f-[ibar-[vt-passo], compt-[sn-[art-l, n-albero]]]], par-'>'], f-[ibar-[vin-ritorni], compin-[sp-[p-verso, savv-[abbr-su_]]]]], punto-'.']
+
+
+da-[turn-f266, cp-[spd-[pd-'Di', sn-[n-mele]], cong-e, f-[ibar-[vin-vado], compin-[sp-[part-nela, sn-[n-valle, spd-[partd-dele, sn-[n-allodole]]]]]]], punto-'.']
+
+
+da-[turn-g267, fc-[congf-'E', f-[ibar-[expl-ce, clitac-l, vc-hai], compc-[sp-[part-sulla, sn-[n-sinistra]], sn-[art-la, n-valle, spd-[partd-delle, sn-[n-allodole]]], sp-[p-a, sn-[dim-questo, n-punto]]]]], punto-'.']
+
+
+da-[turn-f268, cp_int-[f3-[sp-[part-'Sula', sn-[n-sinistra]]]], puntint-'?']
+
+
+da-[turn-g269, cp-[sv5-[vgin-camminando], punt-',', compin-[congf-cioè]], punto-'.']
+
+
+da-[turn-f270, fc-[congf-'Cioè', punt-',', fs-[cosu-se, ovl-[par-'<', cp-[sv5-[vgt-'Guardando', compt-[sn-[art-il, n-foglio]]]], par-'>'], cosu-se, punt-',', cosu-se, f-[ibar-[vc-sono], compc-[sn-[pron-io], sp-[p-con, sn-[art-le, n-spalle, sp-[p-a, sn-[n-nord]]]]]], f-[ibar-[expl-ce, clitac-l, vc-ho], compc-[sp-[part-sulla, sn-[n-sinistra]]]]]], punto-'.']
+
+
+da-[turn-g271, cp-[intj-'Sì', punt-',', fc-[congf-cioè, cp-[savv-[abbr-pr_], punt-',', fs-[cosu-quando, f-[sn-[pron-te], ibar-[vin-cammi_]]]], fp-[punt-',', savv-[abbr-ri_], punt-','], f-[ibar-[vin-scendi], compin-[sp-[p-verso, ovl-[par-'<', cp-[intj-'Sì', intj-sì], par-'>'], sn-[n-sud]]]]]], punto-'.']
+
+
+da-[turn-f272, fc-[congf-'Allora', f-[ir_infl-[virt-aspetta], compin-[cong-che, ibar-[clit-ci, vt-faccio], compt-[sn-[qc-tutte, art-le, n-freccette, spd-[pd-di, sn-[dim-quella, n-strada]]], savv-[avv-lì]]]]], ovl-[par-'<', f3-[congf-'E', congf-poi], par-'>'], punto-'.']
+
+
+da-[turn-g273, fc-[f-[ibar-[vin-'Giri'], compin-[savv-[p-ver_]]], fp-[punt-',', cp-[intj-ehm], punt-','], f-[ibar-[vin-giri]], fp-[punt-',', cp-[intj-ehm], punt-','], f-[ibar-[vt-trovi], compt-[sn-[art-la, n-valle, spd-[partd-dele, sn-[n-allodole]]], par-'-', sp-[part-sulla, sn-[poss-tua, n-sinistra]], punt-',', sv5-[vgin-scendendo]]]], cp_int-[intj-no], puntint-'?']
+
+
+da-[turn-f274, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-g275, f-[ibar-[vin-'Giri'], compin-[savv-[avv-nuovamente], sp-[p-a, sn-[n-sinistra]]]], punt-',', f3-[cong-e, congf-poi, savv-[avv-lì]], punto-'.']
+
+
+da-[turn-f276, cp_int-[sp-[p-'A', sn-[n-sinistra]], ovl-[par-'<', f-[ibar-[clitabl-'C', vc-è], compc-[sn-[art-l, n-arrivo]]], par-'>'], fint-[int-cosa, ibar-[vt-intendi]]], puntint-'?']
+
+
+da-[turn-g277]
+
+
+da-[turn-f278, f-[ibar-[vin-'Diciamo'], punt-',', compin-[fs-[cosu-se, ovl-[par-'<', f3-[sp-[p-'Verso', savv-[abbr-e_]]]], par-'>'], f-[ibar-[expl-c, vc-ho], compc-[sn-[art-il, n-foglio]]]]], punto-'.']
+
+
+da-[turn-g279, f3-[sp-[p-'Verso', sn-[n-est]]], punto-'.']
+
+
+da-[turn-f280, cp_int-[f3-[sp-[p-'Verso', sn-[n-est]]]], puntint-'?']
+
+
+da-[turn-g281, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f282, f-[ibar-[vin-'Giro'], compin-[sp-[p-verso, sn-[n-est]]]], punto-'.']
+
+
+da-[turn-g283, fc-[congf-'E', fp-[punt-',', cp-[intj-ehm], punt-','], congf-e, cp-[savv-[avv-lì], f-[ibar-[vc-è], compc-[sn-[art-l, n-arrivo]]]]], punto-'.']
+
+
+da-[turn-f284, cp-[intj-'Ah', intj-boh, punt-',', fc-[f-[ibar-[vc-ho], compc-[sn-[q-dei, ag-forti, sn-[nf-dubbi]]]], cong-e, f-[ibar-[neg-non, clit-ci, clit-si, vt-capisce], compt-[sq-[q-niente]]]]], punto-'.']
+
+
+da-[turn-g285, fc-[congf-'E', congf-ma, f3-[sn-[pron-te], sv5-[vgin-girando]], punt-',', fs-[cosu-quando, f-[ibar-[vin-scendi], compin-[sp-[p-verso, sn-[art-la, n-valle, spd-[partd-delle, sn-[n-allodole]]]]]]]], da_riempire-'...']
+
+
+da-[turn-f286, cp-[intj-'Mh'], punto-'.']
+
+
+da-[turn-g287, cp-[sp-[part-'Sulla', sn-[n-sinistra]], savv-[avv-sempre], fp-[punt-',', fc-[congf-cioè, f3-[sv5-[vgin-camminando, compin-[sp-[p-verso, sn-[n-sud]]]]]], punt-','], ovl-[par-'<', cp-[intj-'Eh'], par-'>'], f-[ibar-[expl-c, vc-hai], compc-[sn-[art-il, n-viale, spd-[partd-dei, sn-[n-lillà]]]]]], punto-'.']
+
+
+da-[turn-f288, cp-[intj-'Sì', punt-',', sp-[part-sulla, sn-[n-sinistra]], fc-[f-[ibar-[clitabl-c, vc-è], compc-[sn-[art-il, n-viale, spd-[partd-dei, sn-[n-lillà]]]]], punt-',', f-[ibar-[clitabl-c, vc-è], compc-[sn-[art-un, ag-altro, n-viale, ovl-[par-'<', cp-[intj-'Sì', punt-',', intj-sì], par-'>'], spd-[partd-dei, sn-[n-lillà]]]]], punt-',', f-[ibar-[expl-ce, clit-ne, vc-sono], compc-[sn-[num-due]]]]], punto-'.']
+
+
+da-[turn-g289, f-[ir_infl-[vcir-'Sarà'], compc-[sn-[art-un, ovl-[par-'<', fc-[congf-'Ma', cp-[intj-va_bene]], par-'>'], sn-[n-proseguimento]], savv-[abbr-de_]]], da_riempire-'...']
+
+da-[turn-f290]
+
+da-[turn-g291, cp-[intj-'Sì', intj-sì, punt-',', intj-va_bene], punto-'.']
+
+
+da-[turn-f292, fc-[congf-'Però', f-[sn-[n-viale, spd-[partd-dei, sn-[n-lillà]]], ibar-[vc-è], compc-[savv-[in-parecchio, in-più, p-in, avv-là], sp-[php-rispetto_al, sn-[n-viale, spd-[partd-dele, savv-[abbr-al_]]], punt-',', ovl-[par-'<', cp-[intj-'Sì', punt-',', f-[ibar-[vc-è], compc-[savv-[sq-[art-un, q-pô, in-più], abbr-s_]]]], par-'>'], sp-[part-alla, sn-[n-valle, spd-[partd-dele, sn-[n-allodel_]]]]]]]], punto-'.']
+
+
+da-[turn-g293, cp-[intj-'Ehm', punt-',', sa-[in-abbastanza, par-'-', ag-distante], f-[ibar-[vin-diciamo]]], punto-'.']
+
+
+da-[turn-f294, cp-[intj-'Sì', punt-',', intj-eeh, punt-',', fc-[f-[ibar-[clitabl-c, vc-è], compc-[savv-[avv-pradigamente]]], fp-[punt-',', f-[ibar-[ause-è]], punt-','], f-[ibar-[vc-è], compc-[sp-[p-a, sn-[n-nord_est, spd-[partd-dela, sn-[n-valle, spd-[partd-delle, sn-[n-allodole]]]]]], fp-[punt-',', cp-[intj-ehm], punt-','], sn-[art-il, n-viale, spd-[partd-dei, sn-[n-lillà]]]]]]], punto-'.']
+
+
+da-[turn-g295, cp-[intj-'Sì'], punto-'.']
+
+
+da-[turn-f296, cp-[intj-'Eh', punt-',', intj-okay, punt-',', intj-boh, punt-',', intj-ehm, punt-',', f-[ir_infl-[vsupir-dovrei, ausei-esserci, clit-ci, vppin-arivata]]], punto-'.']
+
+
+da-[turn-g297, cp-[intj-'Va_bene', punt-',', f-[ir_infl-[vsupir-dovrebbe, vci-essere]]], punto-'.']
+
+
+da-[turn-f298, cp-[intj-'Eh', punt-',', intj-boh, f-[ibar-[vin-speriamo], compin-[savv-[avv-bene]]]], punto-'.']

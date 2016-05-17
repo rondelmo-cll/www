@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+
+.polarity_num{
+	font-style: bold;
+	font-size: 24px;
+}
+
+.neg{
+	color: rgb(242, 116, 144);
+}
+
+.pos{
+	color: rgb(68, 187, 255);
+}

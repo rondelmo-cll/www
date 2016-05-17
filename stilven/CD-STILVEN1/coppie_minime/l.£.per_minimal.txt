@@ -1,0 +1,73 @@
+Minimal pairs for [l] vs. [£] in initial position:
+l 	£ 			+ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+la 	£a 			…a 	ca 	da 	ea 	fa 	ga 	ha 	ma 	na 	oa 	sa 	ta 	va 	xa 	za 
+lasà 	£asà 			pasà 
+le 	£e 			…e 	be 	ce 	de 	ge 	he 	ke 	me 	ne 	re 	se 	te 	ve 	xe 	ye 
+li 	£i 			ai 	ci 	di 	ii 	ki 	mi 	pi 	si 	ti 
+lo 	£o 			co 	do 	go 	ho 	ko 	no 	oo 	so 	to 	uo 	vo 	xo 	zo 
+lori 	£ori 			mori 
+lu 	£u 			bu 	cu 	hu 	nu 	su 	vu 	xu 	yu 
+
+Minimal pairs for [l] vs. [£] in medial position:
+ale 	a£e 		
+alenadora 	a£enadora 		
+alora 	a£ora 		
+balo 	ba£o 			baso 	baxo 
+bele 	be£e 		
+capitolo 	capito£o 		
+cavalier 	cava£ier 		
+colonie 	co£onie 		
+color 	co£or 		
+controlar 	contro£ar 		
+dala 	da£a 			daga 	data 	dava 
+dale 	da£e 			dare 	dase 
+dela 	de£a 		
+dele 	de£e 		
+delegà 	de£egà 		
+ela 	e£a 		e£a	ela
+elefante 	e£efante 		
+eleto 	e£eto 			efeto 
+eletrisità 	e£etrisità 		
+fralaltro 	fra£altro 		
+galón 	ga£ón 		
+interdentali 	interdenta£i 		
+l'alenamento 	l'a£enamento 		
+l'eletrisità 	l'e£etrisità 		
+livelo 	live£o 		
+male 	ma£e 			mace 	make 	mape 	mare 
+milisia 	mi£isia 		
+parola 	paro£a 			parona 
+parole 	paro£e 		
+particolare 	partico£are 		
+pele 	pe£e 			peke 
+pole 	po£e 			poke 	pose 
+posibile 	posibi£e 		
+privilegi 	privi£egi 		
+probabile 	probabi£e 		
+psikedelico 	psikede£ico 		
+regola 	rego£a 		
+regole 	rego£e 		
+sbalià 	sba£ià 		
+sbaliarse 	sba£iarse 		
+secoli 	seco£i 		
+secolo 	seco£o 		
+simile 	simi£e 		
+singola 	singo£a 		
+sìxola 	sìxo£a 		
+sole 	so£e 		
+solito 	so£ito 		
+solo 	so£o 			sodo 	sono 	soto 
+stile 	sti£e 		
+storiele 	storie£e 		
+tole 	to£e 			tose 	toxe 
+utile 	uti£e 		
+valixa 	va£ixa 		
+valor 	va£or 		
+valore 	va£ore 		
+vocale 	voca£e 		
+vocali 	voca£i 		
+volea 	vo£ea 		
+voléa 	vo£éa 		
+xbalià 	xba£ià 		
+
+Minimal pairs for [l] vs. [£] in final position:

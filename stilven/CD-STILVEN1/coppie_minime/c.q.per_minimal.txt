@@ -1,0 +1,9 @@
+Minimal pairs for [c] vs. [q] in initial position:
+c 	q 			+ 	£ 	… 	a 	b 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	r 	s 	t 	u 	v 	x 	y 	z 
+cuel 	quel 		
+cuesto 	questo 		
+
+Minimal pairs for [c] vs. [q] in medial position:
+frecuente 	frequente 		
+
+Minimal pairs for [c] vs. [q] in final position:

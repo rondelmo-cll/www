@@ -1,0 +1,48 @@
+Minimal pairs for [o] vs. [ò] in initial position:
+o 	ò 		
+ocio 	òcio 		
+ogni 	ògni 		
+omeni 	òmeni 		
+omo 	òmo 		
+orco 	òrco 		
+oso 	òso 		
+otima 	òtima 		
+
+Minimal pairs for [o] vs. [ò] in medial position:
+artìco£o 	artìco£ò 		
+biscoti 	biscòti 		
+biscoto 	biscòto 		
+boce 	bòce 		
+canoa 	canòa 		
+cio 	ciò 		
+co£a 	cò£a 		
+deboto 	debòto 		
+done 	dòne 		
+dopara 	dòpara 		
+doso 	dòso 		
+gro£e 	grò£e 		
+gropa 	gròpa 		
+l'oso 	l'òso 		
+noni 	nòni 		
+paro£a 	parò£a 		
+paro£e 	parò£e 		
+pasto 	pastò 		
+pero 	però 		
+pitosto 	pitòsto 		
+poro 	pòro 		
+poso 	pòso 		
+pultropo 	pultròpo 		
+puoto 	puòto 		
+roso 	ròso 		
+saro 	sarò 		
+soni 	sòni 		
+sono 	sòno 		
+sora 	sòra 		
+soto 	sòto 		
+spagno£a 	spagnò£a 		
+storego 	stòrego 		
+to£a 	tò£a 		
+toco 	tòco 		
+vo 	vò 		
+
+Minimal pairs for [o] vs. [ò] in final position:

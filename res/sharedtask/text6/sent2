@@ -1,0 +1,224 @@
+Ratio of Tags per Word for Sentence no: 2
+Word Ambiguity Ratio: 1.38776
+'Lookahead Start Active Chart'
+0-[n-'Greensgrow'], 1-[x- (',')], 2-[d-a], 3-[n-'one-acre'], 4-[n-plot, v-plot], 5-[p-of], 6-[v-raised], 7-[n-beds, v-beds], 8-[e-and], 9-[n-greenhouses], 10-[av-on, p-on], 11-[d-the], 12-[n-site, v-site], 13-[p-of], 14-[d-a], 15-[a-former, n-former], 16-[a-'steel-galvanizing'], 17-[n-factory], 18-[x- (',')], 19-[v- (is)], 20-[n-turning, v-turning], 21-[d-a], 22-[n-profit, v-profit], 23-[p-by], 24-[a-selling, n-selling, v-selling], 25-[a-its, r-its], 26-[a-own, v-own], 27-[n-vegetables], 28-[e-and], 29-[n-herbs], 30-[av-as_well_as, s-as_well_as], 31-[d-a], 32-[n-range, v-range], 33-[p-of], 34-[n-produce, v-produce], 35-[p-from], 36-[a-local, n-local], 37-[n-growers], 38-[x- (',')], 39-[e-and], 40-[p-by], 41-[a-running, n-running, v-running], 42-[d-a], 43-[n-nursery], 44-[n-selling, v-selling], 45-[n-plants, v-plants], 46-[e-and], 47-[n-seedlings], 48-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.14286
+0-[n-'Greensgrow'], 1-[x- (',')], 2-[d-a], 3-[n-'one-acre'], 4-[n-plot], 5-[p-of], 6-[v-raised], 7-[n-beds], 8-[e-and], 9-[n-greenhouses], 10-[p-on], 11-[d-the], 12-[n-site], 13-[p-of], 14-[d-a], 15-[a-former, n-former], 16-[a-'steel-galvanizing'], 17-[n-factory], 18-[x- (',')], 19-[v- (is)], 20-[v-turning], 21-[d-a], 22-[n-profit], 23-[p-by], 24-[a-selling, n-selling, v-selling], 25-[a-its, r-its], 26-[a-own, v-own], 27-[n-vegetables], 28-[e-and], 29-[n-herbs], 30-[av-as_well_as, s-as_well_as], 31-[d-a], 32-[n-range], 33-[p-of], 34-[n-produce], 35-[p-from], 36-[a-local, n-local], 37-[n-growers], 38-[x- (',')], 39-[e-and], 40-[p-by], 41-[v-running], 42-[d-a], 43-[n-nursery], 44-[v-selling], 45-[n-plants], 46-[e-and], 47-[n-seedlings], 48-[x-'.']
+
+0-[n-'Greensgrow'], 1-[x- (',')], 2-[d-a], 3-[n-'one-acre'], 4-[n-plot], 5-[p-of], 6-[v-raised], 7-[n-beds], 8-[e-and], 9-[n-greenhouses], 10-[p-on], 11-[d-the], 12-[n-site], 13-[p-of], 14-[d-a], 15-[a-former, n-former], 16-[a-'steel-galvanizing'], 17-[n-factory], 18-[x- (',')], 19-[v- (is)], 20-[v-turning], 21-[d-a], 22-[n-profit], 23-[p-by], 24-[a-selling, n-selling, v-selling], 25-[a-its, r-its], 26-[a-own, v-own], 27-[n-vegetables], 28-[e-and], 29-[n-herbs], 30-[av-as_well_as, s-as_well_as], 31-[d-a], 32-[n-range], 33-[p-of], 34-[n-produce], 35-[p-from], 36-[a-local, n-local], 37-[n-growers], 38-[x- (',')], 39-[e-and], 40-[p-by], 41-[v-running], 42-[d-a], 43-[n-nursery], 44-[v-selling], 45-[n-plants], 46-[e-and], 47-[n-seedlings], 48-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+2
+Greensgrow-nnp
+(,)-pun
+a-dt
+one-acre-nn
+plot-nn
+of-in
+raised-vbd
+beds-nns
+and-cc
+greenhouses-nns
+on-in
+the-dt
+site-nn
+of-in
+a-dt
+former-jj
+steel-galvanizing-jj
+factory-nn
+(,)-pun
+(is)-vbz
+turning-vbg
+a-dt
+profit-nn
+by-in
+selling-vbg
+its-prp$
+own-jj
+vegetables-nns
+and-cc
+herbs-nns
+as_well_as-rb
+a-dt
+range-nn
+of-in
+produce-nn
+from-in
+local-jj
+growers-nns
+(,)-pun
+and-cc
+by-in
+running-vbg
+a-dt
+nursery-nn
+selling-vbg
+plants-nns
+and-cc
+seedlings-nns
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+['Greensgrow'-n, (',')-punt, a-art, 'one-acre'-n, plot-n, of-p, raised-vin, beds-n, and-cong, greenhouses-n, on-p, the-art, site-n, of-p, a-art, former-ag, 'steel-galvanizing'-ag, factory-n, (',')-punt, (is)-ause, turning-vgin, a-art, profit-n, by-pda, selling-vin, its-poss, own-ag, vegetables-n, and-cong, herbs-n, as_well_as-avv, a-art, range-n, of-p, produce-n, from-p, local-ag, growers-n, (',')-punt, and-cong, by-pda, running-vt, a-art, nursery-n, selling-vin, plants-n, and-cong, seedlings-n, '.'-punto]
+
+f-[sn-['Greensgrow'-n-sn], fp-[ (',')-punt-fp], sn-[a-art-sn, 'one-acre'-n-sn, plot-n-sn], sp-[of-_G50633-_G50630, raised-vppt-sv3, beds-n-sn, and-cong-sn, greenhouses-n-sn], sp-[on-p-sp, the-art-sn, site-n-sn, mod-[of-p-sp, a-art-sn, former-ag-sn, 'steel-galvanizing'-ag-sn, factory-n-sn]], fp-[ (',')-punt-fp], ibar-[ (is)-ause-ibar, turning-vgin-ibar], sn-[a-art-sn, profit-n-sn], vcomp-[by-pda-_G50711, selling-vin-sv5], sn-[its-poss-sn, own-ag-sn, vegetables-n-sn, and-cong-sn, herbs-n-sn], savv-[as_well_as-avv-savv], sn-[a-art-sn, range-n-sn, mod-[of-p-sp, produce-n-sn], obl-[from-p-sp, local-ag-sn, growers-n-sn]], fp-[ (',')-punt-fp], fc-[and-cong-fc], vcomp-[by-pda-_G50801, running-vt-sv5], sn-[a-art-sn, nursery-n-sn], vcomp-[selling-vin-sv5], sn-[plants-n-sn, and-cong-sn, seedlings-n-sn], cp-['.'-punto-cp]]
+
+2
+
+
+'Functional and Syntactic Constituency'
+
+subj-[Greensgrow-n-sn, a-art-sn, one-acre-n-sn, plot-n-sn, obl-[of-par-_G3190, raised-vppt-sv3, beds-n-sn, and-cong-sn, greenhouses-n-sn]]
+obl-[on-p-sp, the-art-sn, site-n-sn, mod-[of-p-sp, a-art-sn, former-ag-sn, steel-galvanizing-ag-sn, factory-n-sn]]
+ibar-[ (is)-ause-ibar, turning-vgin-ibar]
+obj-[a-art-sn, profit-n-sn]
+vcomp-[by-pda-_G3229, selling-vin-sv5]
+obj-[its-poss-sn, own-ag-sn, vegetables-n-sn, and-cong-sn, herbs-n-sn]
+savv-[as_well_as-avv-savv]
+obj-[a-art-sn, range-n-sn, mod-[of-p-sp, produce-n-sn], obl-[from-p-sp, local-ag-sn, growers-n-sn]]
+f3-[ (,)-punt-fp]
+fc-[and-cong-fc]
+vcomp-[by-pda-_G3259, running-vt-sv5]
+obj-[a-art-sn, nursery-n-sn]
+vcomp-[selling-vin-sv5]
+obj-[plants-n-sn, and-cong-sn, seedlings-n-sn]
+
+
+*********************************************************************************
+t62
+
+'Output of Anaphora Resolution Module'
+
+all_prons([2-[], 1-[]])
+ante(turn, its, plot)
+
+############   TOPICS   ############
+MAIN TOPIC:  seedlings_and_plants
+SECONDARY TOPIC:  community
+POTENTIAL TOPICS:  plot-ndef, plot-npr, nursery-npr
+second  identified as  community  with semantic index  id1
+poten  identified as  plot  with semantic index  id19
+
+
+'Augmented Head Dependent Indexed Structures'
+
+ante(turn, its, plot).
+det(nursery-sn26, a).
+'subj-agent'(sell-cl9, nursery-sn26).
+'obj-theme_aff'(sell-cl9, seedlings_and_plants-[sn27, sn28]).
+'xadj-result'(nil, run-cl8, sell-cl9).
+'obj-theme_aff'(run-cl8, nursery-sn26).
+'subj-actor'(run-cl8, plot-sn25).
+tense(past, '_', run).
+voice(active, '_', run).
+'adj-locative'(in, turn, as_well_as).
+'ncmod-specif'(produce-sn20, growers).
+'ncmod-specif'(produce-sn20, local).
+mod(sn21, growers, local).
+'ncmod-specif'(range-sn6, produce).
+mod(sn5, herbs, own).
+mod(sn4, vegetable, own).
+det(profit-sn3, a).
+'ncmod-specif'(site-sn2, factory).
+'ncmod-specif'(site-sn2, 'steel-galvanizing').
+'ncmod-specif'(site-sn2, former).
+det(site-sn2, a).
+det(factory-sn15, a).
+mod(sn15, factory, former).
+mod(sn15, factory, 'steel-galvanizing').
+det(site-sn2, the).
+'ncmod-specif'(plot-sn1, greenhouses).
+'ncmod-specif'(plot-sn1, beds).
+'ncmod-specif'(plot-sn1, raised).
+'ncmod-specif'(and([beds, greenhouses])-[sn9, sn10], raised).
+det(plot-sn1, a).
+'ncmod-specif'(plot-sn1, acre).
+'ncmod-specif'(plot-sn1, 'Greensgrow').
+'obj-theme'(sell-cl7, range-sn6).
+'subj-agent'(sell-cl7, site-sn2).
+'obj-theme_aff'(sell-cl7, vegetable_and_herbs-[sn4, sn5]).
+'xadj-result'(by, turn-cl6, sell-cl7).
+tense(past, '_', sell).
+voice(active, '_', sell).
+'obj-theme'(turn-cl6, profit-sn3).
+'ncmod-locativo'(on, turn-cl6, site-sn2).
+'subj-actor'(turn-cl6, plot-sn1).
+aux(turn, is).
+progr(turn, turning).
+tense(past, '_', turn).
+voice(active, '_', turn).
+
+'Semantic Interpretation and Informational Structure'
+
+[3, indirect, turn, pluper, active, nil, nil, turning, indic, as_well_as, attivita]
+[4, indirect, sell, past, active, nil, nil, nil, gerund, nil, attivita, xadj, result, nil, run, sell]
+[5, indirect, sell, past, active, nil, nil, nil, gerund, nil, attivita, xadj, result, by, turn, sell]
+[6, indirect, run, past, active, nil, nil, nil, indic, nil, attivita]
+sinfo(3, main/prop, external, factive, null, background, attivita, turn, pluper, result, objective, nil)
+
+
+t62
+'Discourse Relations and Discourse Structure'
+
+sd_structure(t62, 3, objective, narration, pluper, turn, background, down, down(0-0))
+ind(infon32, id21)
+fact(infon33, inst_of, [ind:id21, class:astratto], 1, univ, univ)
+fact(infon34, isa, [ind:id21, class:plot], 1, univ, univ)
+ind(infon35, id22)
+fact(infon36, inst_of, [ind:id22, class:istituzione], 1, univ, univ)
+fact(infon37, isa, [ind:id22, class:beds], 1, univ, univ)
+ind(infon38, id23)
+fact(infon39, inst_of, [ind:id23, class:istituzione], 1, univ, univ)
+fact(infon40, isa, [ind:id23, class:greenhouses], 1, univ, univ)
+ind(infon41, id24)
+fact(infon42, inst_of, [ind:id24, class:legale], 1, univ, univ)
+fact(infon43, isa, [ind:id24, class:factory], 1, univ, univ)
+ind(infon44, id25)
+fact(infon45, inst_of, [ind:id25, class:luogo], 1, univ, univ)
+fact(infon46, isa, [ind:id25, class:site], 1, univ, univ)
+ind(infon47, id26)
+fact(infon48, inst_of, [ind:id26, class:edible], 1, univ, univ)
+fact(infon49, isa, [ind:id26, class:produce], 1, univ, univ)
+ind(infon50, id27)
+fact(infon51, inst_of, [ind:id27, class:istituzione], 1, univ, univ)
+fact(infon52, isa, [ind:id27, class:growers], 1, univ, univ)
+ind(infon53, id28)
+fact(infon54, inst_of, [ind:id28, class:oggetto], 1, univ, univ)
+fact(infon55, isa, [ind:id28, class:nursery], 1, univ, univ)
+ind(infon56, id29)
+fact(infon57, inst_of, [ind:id29, class:astratto], 1, univ, univ)
+fact(infon58, isa, [ind:id29, class:profit], 1, univ, univ)
+ind(infon59, id30)
+fact(infon60, inst_of, [ind:id30, class:astratto], 1, univ, univ)
+fact(infon61, isa, [ind:id30, class:range], 1, univ, univ)
+ind(infon62, id31)
+fact(infon63, inst_of, [ind:id31, class:istituzione], 1, univ, univ)
+fact(infon64, isa, [ind:id31, class:'Greensgrow'], 1, univ, univ)
+ind(infon65, id32)
+fact(infon66, inst_of, [ind:id32, class:nquant], 1, univ, univ)
+fact(infon67, isa, [ind:id32, class:acre], 1, univ, univ)
+class(infon68, id33)
+fact(infon69, inst_of, [ind:id33, class:institution], 1, univ, univ)
+fact(infon70, isa, [ind:id33, class:seedlings], 1, univ, univ)
+ind(infon71, id34)
+fact(infon72, inst_of, [ind:id34, class:istituzione], 1, univ, univ)
+fact(infon73, isa, [ind:id34, class:[seedlings, and, plants]], 1, univ, univ)
+class(infon74, id35)
+fact(infon75, inst_of, [ind:id35, class:plant_life], 1, univ, univ)
+fact(infon76, isa, [ind:id35, class:vegetable], 1, univ, univ)
+ind(infon77, id36)
+fact(infon78, inst_of, [ind:id36, class:edible], 1, univ, univ)
+fact(infon79, isa, [ind:id36, class:[vegetable, and, herbs]], 1, univ, univ)
+fact(id37, run, [theme_aff:id28, actor:id21, result:id38], 1, univ, univ)
+fact(id38, sell, [theme:id30, agent:id25, theme_aff:id36], 1, univ, univ)
+fact(id39, sell, [agent:id28, theme_aff:id34], 1, univ, univ)
+fact(id40, turn, [theme:id29, actor:id21, locativo:id25, result:id37], 1, univ, univ)
+

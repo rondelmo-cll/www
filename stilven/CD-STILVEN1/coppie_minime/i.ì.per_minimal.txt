@@ -1,0 +1,72 @@
+Minimal pairs for [i] vs. [ì] in initial position:
+
+Minimal pairs for [i] vs. [ì] in medial position:
+artico£i 	artìco£i 		
+artico£o 	artìco£o 		
+bisi 	bìsi 		
+ca£ivo 	ca£ìvo 		
+capio 	capìo 		
+capir 	capìr 		
+capiso 	capìso 		
+capito£i 	capìto£i 		
+carateristeghe 	caraterìsteghe 		
+cusi 	cusì 		
+cusita 	cusìta 		
+di 	dì 			da 	dà 	de 	dè 	dh 	do 	dó 	dz 
+dirghe£o… 	dìrghe£o… 		
+divertimo 	divertìmo 		
+dixito 	dìxito 		
+do£omitega 	do£omìtega 		
+finia 	finìa 			finta 
+finio 	finìo 		
+finise 	finìse 		
+gatini 	gatìni 		
+gavaria 	gavarìa 		
+gavio 	gavìo 		
+grafie 	grafìe 		
+kerli 	kerlì 			kerlà 
+latin 	latìn 		
+pararia 	pararìa 		
+partia 	partìa 		
+partio 	partìo 		
+pe£isa 	pe£ìsa 		
+pi 	pì 			pl 	pò 
+piaxaria 	piaxarìa 		
+pie 	pìe 			pre 
+po£itega 	po£ìtega 		
+po£ito 	po£ìto 		
+podaria 	podarìa 		
+porcospin 	porcospìn 		
+posibi£e 	posìbi£e 		
+posibi£i 	posìbi£i 		
+preferia 	preferìa 		
+preferiso 	preferìso 		
+puito 	puìto 			punto 	puoto 	puòto 
+rexistar 	rexìstar 		
+ridar 	rìdar 		
+riferise 	riferìse 		
+riscio 	rìscio 		
+savaria 	savarìa 		
+scominsio 	scomìnsio 		
+scrivar 	scrìvar 		
+sentio 	sentìo 			sentro 
+sernio 	sernìo 		
+sernir 	sernìr 		
+servio 	servìo 		
+si 	sì 			sa 	sc 	se 	sé 	sè 	sh 	sk 	so 	só 	ss 	su 	sz 
+sientifega 	sientìfega 		
+simi£e 	sìmi£e 		
+sogetiva 	sogetìva 		
+sostituise 	sostituìse 		
+sparia 	sparìa 		
+sparii 	sparìi 		
+tentativo 	tentatìvo 		
+tito£o 	tìto£o 		
+verxi 	verxì 		
+vestia 	vestìa 		
+vestio 	vestìo 		
+vinsar 	vìnsar 		
+visin 	visìn 		
+vivar 	vìvar 		
+
+Minimal pairs for [i] vs. [ì] in final position:

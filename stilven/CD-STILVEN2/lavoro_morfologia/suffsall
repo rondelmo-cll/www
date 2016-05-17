@@ -1,0 +1,237 @@
+﻿plx(1,a, [dn, dadj, dv]).
+plx(1,â, [dv]).
+plx(5,accio, [dn]).
+plx(4,acci, [dn]).
+plx(5,accia, [dn]).
+plx(4,acce, [dn]).
+plx(2,ai, [dv]).
+plx(6,amente, [dadv]).
+plx(3,am, [dv]).
+plx(3,amo, [dv]).
+plx(4,ammo, [dv]).
+plx(2,an, [dv]).
+plx(4,ando, [dv]).
+plx(3,ano, [dv]).
+plx(4,anno, [dv]). %sanno
+plx(4,ante, [dv]).
+plx(4,anti, [dv]).
+plx(3,are, [dv]).
+plx(2,ar, [dv]).
+plx(5,aron, [dv]).
+plx(5,arono, [dv]).
+plx(4,arai, [dv]).
+plx(3,arà, [dv]).
+plx(6,aranno, [dv]).
+plx(6,arebbe, [dv]).
+plx(5,aremo, [dv]).
+plx(5,arete, [dv]).
+plx(8,arebbero, [dv]).
+plx(4,arei, [dv]).
+plx(6,aremmo, [dv]).
+plx(6,areste, [dv]).
+plx(6,aresti, [dv]).
+plx(3,arò, [dv]).
+plx(4,asse, [dv]).
+plx(6,assero, [dv]).
+plx(4,assi, [dv]).
+plx(6,assimo, [dv]).
+plx(4,aste, [dv]).
+plx(4,asti, [dv]).
+plx(3,ata, [dv]).
+plx(3,ate, [dv]).
+plx(3,ati, [dv]).
+plx(3,ato, [dv]).
+plx(3,ava, [dv]).  
+plx(5,avam, [dv]).
+plx(5,avan, [dv]).
+plx(5,avamo, [dv]).
+plx(5,avano, [dv]).
+plx(5,avate, [dv]).
+plx(3,avi, [dv]).
+plx(3,avo, [dv]).  
+plx(1,à, [dv]).
+plx(1,e, [dn, dadj, dv]).
+plx(1,é, [dv, dn]).
+plx(2,ei, [dv]).
+plx(6,emente, [dadv]).
+plx(4,emmo, [dv]).
+plx(4,endo, [dv]).
+plx(4,ente, [dv]).
+plx(4,enti, [dv]).
+plx(3,erà, [dv]).
+plx(4,erai, [dv]).
+plx(6,eranno, [dv]).
+plx(3,ere, [dv]).
+plx(2,er, [dv]).
+plx(6,erebbe, [dv]).
+plx(8,erebbero, [dv]).
+plx(4,erei, [dv]).
+plx(6,eremmo, [dv]).
+plx(5,erem, [dv]).
+plx(5,eremo, [dv]).
+plx(6,ereste, [dv]).
+plx(6,eresti, [dv]).
+plx(5,erete, [dv]).
+plx(3,erò, [dv]).
+plx(3,ero, [dv]). % accesero
+plx(5,eron, [dv]).
+plx(5,erono, [dv]).
+plx(4,esse, [dv]).
+plx(6,essero, [dv]).
+plx(4,essi, [dv]).
+plx(6,essimo, [dv]).
+plx(4,este, [dv]).
+plx(4,esti, [dv]).
+plx(3,ete, [dv]).
+plx(4,etta, [dn]).
+plx(4,ette, [dv, dn]).
+plx(6,ettero, [dv]).
+plx(4,etti, [dv, dn]).
+plx(4,etto, [dn]).
+plx(3,eva, [dv]).  
+plx(5,evam, [dv]).
+plx(5,evan, [dv]).
+plx(5,evamo, [dv]).
+plx(5,evano, [dv]).
+plx(5,evate, [dv]).
+plx(3,evi, [dv]).
+plx(3,evo, [dv]).  
+plx(5,evon, [dv]).  
+plx(5,evono, [dv]).  
+plx(2,he, [dadj, dn]).
+plx(4,herà, [dv]).
+plx(5,herai, [dv]).
+plx(7,heran, [dv]).
+plx(7,heranno, [dv]).
+plx(7,herebbe, [dv]).
+plx(9,herebbero, [dv]).
+plx(5,herei, [dv]).
+plx(7,heremmo, [dv]).
+plx(6,herem, [dv]).
+plx(6,heremo, [dv]).
+plx(7,hereste, [dv]).
+plx(7,heresti, [dv]).
+plx(6,herete, [dv]).
+plx(4,herò, [dv]).
+plx(2,hi, [dn, dv]).
+plx(5,hiam, [dv]).
+plx(5,hiamo, [dv]).
+plx(5,hiate, [dv]).
+plx(4,hino, [dv]).
+plx(7,hissimo, [dv, dadv, dadj]).
+plx(7,hissima, [dadj]).
+plx(7,hissime, [dadj]).
+plx(7,hissimi, [dadj]).
+plx(1,i, [dn, dv, dadj]).
+plx(1,ì, [dv, dn]).
+plx(2,ia, [dn, dadj]).
+plx(4,iam, [dv]).
+plx(4,iamo, [dv]).
+plx(4,ian, [dv]).
+plx(4,iano, [dv]).
+plx(4,iate, [dv]).
+plx(4,ieri, [avv]).
+plx(2,ii, [dv, dn, dadj]).
+plx(4,immo, [dv]).
+plx(3,imo, [dv]).
+plx(3,ina, [dn]).
+plx(3,ine, [dn]).
+plx(3,ini, [dn]).
+plx(3,ino, [dv, dn]).
+plx(3,irà, [dv]).
+plx(4,irai, [dv]).
+plx(6,iran, [dv]).
+plx(6,iranno, [dv]).
+plx(3,ire, [dv]).
+plx(2,ir, [dv]).
+plx(6,irebbe, [dv]).
+plx(8,irebbero, [dv]).
+plx(4,irei, [dv]).
+plx(6,iremmo, [dv]).
+plx(5,irem, [dv]).
+plx(5,iremo, [dv]).
+plx(6,ireste, [dv]).
+plx(6,iresti, [dv]).
+plx(5,irete, [dv]).
+plx(3,irò, [dv]).
+plx(5,iron, [dv]).
+plx(5,irono, [dv]).
+plx(4,isca, [dv]).
+plx(4,isco, [dv]).
+plx(4,isce, [dv]).
+plx(4,isci, [dv]).
+plx(5,iscan, [dv]).
+plx(5,iscon, [dv]).
+plx(6,iscono, [dv]).
+plx(6,iscano, [dv]).
+plx(4,isse, [dv]).
+plx(6,issero, [dv]).
+plx(4,issi, [dv]).
+plx(6,issimo, [dv, dadv, dadj]).
+plx(6,issima, [dadj]).
+plx(6,issime, [dadj]).
+plx(6,issimi, [dadj]).
+plx(4,iste, [dv]).
+plx(4,isti, [dv]).
+plx(3,ita, [dv]).
+plx(3,ite, [dv]).
+plx(3,iti, [dv]).
+plx(3,ito, [dv]).
+plx(3,iva, [dv]).  
+plx(5,ivam, [dv]).
+plx(5,ivan, [dv]).
+plx(5,ivamo, [dv]).
+plx(5,ivano, [dv]).
+plx(5,ivate, [dv]).
+plx(3,ivi, [dv]).
+plx(3,ivo, [dv]).  
+plx(5,mente, [dadv]).
+plx(3,mmo, [dv]).
+plx(2,no, [dv]).
+plx(1,o, [dn, dv, dadj]).
+plx(1,ò, [dv, dn]).
+plx(2,oi, [dv]).
+plx(3,one, [dn]).
+plx(3,oni, [dn]).
+plx(3,ono, [dv]).
+plx(2,on, [dv]).
+plx(3,ore, [dn, dadj]).
+plx(3,ori, [dn, dadj]).
+plx(3,rai, [dv]).
+plx(2,rà, [dv]).
+plx(5,ran, [dv]).
+plx(5,ranno, [dv]).
+plx(5,rebbe, [dv]).
+plx(4,rem, [dv]).
+plx(4,remo, [dv]).
+plx(4,rete, [dv]).
+plx(7,rebbero, [dv]).
+plx(1,r, [dv]).
+plx(3,rei, [dv]).
+plx(5,remmo, [dv]).
+plx(5,reste, [dv]).
+plx(5,resti, [dv]).
+plx(4,rice, [dn, dadj]).
+plx(4,rici, [dn, dadj]).
+plx(2,rò, [dv]).
+plx(4,ron, [dv]).
+plx(4,rono, [dv]).
+plx(3,rre, [dv]).
+plx(3,ssi, [dv]).
+plx(3,sse, [dv]).
+plx(5,ssimo, [dv]).
+plx(5,ssero, [dv]).
+plx(3,sti, [dv]).
+plx(3,ste, [dv]).
+plx(5,uccio, [dn]).
+plx(4,ucci, [dn]).
+plx(5,uccia, [dn]).
+plx(4,ucce, [dn]).
+plx(5,ucolo, [dn]).
+plx(5,ucoli, [dn]).
+plx(5,ucola, [dn]).
+plx(5,ucole, [dn]).
+plx(3,uta, [dv]).
+plx(3,ute, [dv]).
+plx(3,uti, [dv]).
+plx(3,uto, [dv]).

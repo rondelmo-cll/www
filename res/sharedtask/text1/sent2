@@ -1,0 +1,255 @@
+Ratio of Tags per Word for Sentence no: 2
+Word Ambiguity Ratio: 1.4
+'Lookahead Start Active Chart'
+0-[d-the], 1-[n-object, v-object], 2-[n-falls, v-falls], 3-[e-for, p-for, s-for], 4-[d-the], 5-[n-height], 6-[p-of], 7-[d-the], 8-[n-cliff], 9-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.2
+0-[d-the], 1-[n-object], 2-[v-falls], 3-[e-for, p-for, s-for], 4-[d-the], 5-[n-height], 6-[p-of], 7-[d-the], 8-[n-cliff], 9-[x-'.']
+
+0-[d-the], 1-[n-object], 2-[v-falls], 3-[e-for, p-for, s-for], 4-[d-the], 5-[n-height], 6-[p-of], 7-[d-the], 8-[n-cliff], 9-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+2
+the-dt
+object-nn
+falls-vbz
+for-in
+the-dt
+height-nn
+of-in
+the-dt
+cliff-nn
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[the-art, object-n, falls-vin, for-p, the-art, height-n, of-p, the-art, cliff-n, '.'-punto]
+
+f-[subj-[the-art-sn, object-n-sn], ibar-[falls-vin-ibar], sp-[for-p-sp, the-art-sn, height-n-sn, mod-[of-p-sp, the-art-sn, cliff-n-sn]], cp-['.'-punto-cp]]
+
+2
+
+
+'Functional and Syntactic Constituency'
+
+subj-[the-art-sn, object-n-sn]
+ibar-[falls-vin-ibar]
+obl-[for-p-sp, the-art-sn, height-n-sn, mod-[of-p-sp, the-art-sn, cliff-n-sn]]
+
+['.']
+
+
+ip(
+ indice(f1),
+ v(fall, active, [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], ind, _G10557/semp, 3, sing, _G8656),
+ supporto([]),
+ cat(risultato),
+ args(
+   [
+   arg(
+    funzione(sogg),
+    ruolo(actor),
+    sn(
+     indice(sn5),
+     cat([any, astratto, attivita, informa, oggetto, stato, tecno]),
+     n(object, _G8656, sing),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(obl),
+    ruolo(modale),
+    sp(
+     prep(for, cat([astratto, stato]), _G17416),
+     sn(
+      indice(sn6),
+      cat([astratto, stato]),
+      n(height, _G13774, sing),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args(
+        [
+        arg(
+         funzione(ogg),
+         ruolo(tema),
+         sn(
+          indice(sn7),
+          cat([oggetto]),
+          n(cliff, _G15840, sing),
+          spec(
+           def(+),
+           part([]),
+           mod([]),
+           foc([]),
+           card([]),
+           quant([])
+           ),
+          args([]),
+          mods([]),
+          adjs([])
+          )
+         )
+        ]
+       ),
+      mods([]),
+      adjs([])
+      )
+     )
+    )
+   ]
+  ),
+ adjs([])
+ )
+indice:f1
+pred:fall
+lex_form:[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]]
+voice:active
+modo:ind
+tempo:pres
+cat:risultato
+sogg/actor:indice:sn5
+           cat:[any, astratto, attivita, informa, oggetto, stato, tecno]
+           pred:object
+           num:sing
+           pers:3
+           spec:def:+
+           tab_ref:[+ref, -pro, -ana, +class]
+obl/modale:sem_mark:for
+           indice:sn6
+           cat:[astratto, stato]
+           pred:height
+           num:sing
+           pers:3
+           spec:def:+
+           ogg/tema:indice:sn7
+                    cat:[oggetto]
+                    pred:cliff
+                    num:sing
+                    pers:3
+                    spec:def:+
+                    tab_ref:[+ref, -pro, -ana, +class]
+           tab_ref:[+ref, -pro, -ana, +class]
+aspetto:achiev_tr
+rel1:[td(f1_t12)=tr(f1_t12)]
+rel2:[incluso(tr(f1_t12), tes(f1_t12))]
+definitezza:-
+ref_int:[tr(f1_t12)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn5, object, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [any, astratto, attivita, informa, oggetto, stato, tecno], sogg/actor)/17
+ ref_ex(sn6, height, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, stato], obl/modale)/150
+ ref_ex(sn7, cliff, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto], ogg/tema)/230
+
+
+rel_temp(infon56, td, tr(f1_t12), [eq])
+
+
+CLAUSE IDENTIFIER:               2-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f1_t12), tes(sn42_t11))
+DISCOURSE FOCUS:                 tes(f1_t12)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(2, cambia)
+topic(2, main, id2)
+topic(2, potential, id16)
+sr(sogg-actor, fall, object)
+sr(obl-modale, fall, height)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(fall,
+        < definito : sn5 :
+            wff(isa,
+                sn5,
+                object) >>,
+        < definito : sn6 :
+            wff(and,
+                wff(and,
+                    wff(has,
+                        < definito : sn7 :
+                            wff(isa,
+                                sn7,
+                                cliff) >>),
+                    wff(isa,
+                        sn6,
+                        height)),
+                []) >>,
+        < event : f1 :
+            wff(and,
+                wff(isa,
+                    f1,
+                    ev),
+                wff(time,
+                    f1,
+                    < definito : t3 :
+                        wff(and,
+                            wff(isa,
+                                t3,
+                                tloc),
+                            wff(pres,
+                                t3)) >>)) >>))
+
+
+
+loc(infon57, id15, [arg:main_tloc, arg:tes(sn42_t11)])
+ind(infon58, id16)
+fact(infon59, has, [arg:id16, tema:id3], 1, id15, univ)
+fact(infon60, inst_of, [ind:id16, class:abstract_state], 1, univ, univ)
+fact(infon61, isa, [ind:id16, class:height], 1, id15, univ)
+fact(infon63, isa, [arg:id3, arg:cliff], 1, id15, univ)
+fact(infon64, has, [tema:id3], 1, id15, univ)
+fact(id17, fall, [actor:id2, modale:id16], 1, tes(f1_t12), univ)
+fact(infon66, isa, [arg:id17, arg:ev], 1, tes(f1_t12), univ)
+fact(infon67, isa, [arg:id18, arg:tloc], 1, tes(f1_t12), univ)
+fact(infon68, pres, [arg:id18], 1, tes(f1_t12), univ)
+fact(infon69, time, [arg:id17, arg:id18], 1, tes(f1_t12), univ)
+
+during(tes(f1_t12), tes(sn42_t11))
+includes(tr(f1_t12), id15)
+
+
+      same_level:level(1-1)
+      clause:2-2
+      topics:[main:id2:object]
+      main_fact:fall([id2:object, id16:height], 1, univ)
+      ref_int:tint(nil, [tes(f1_t12)])
+      temp_rel:during(tes(f1_t12), tes(sn42_t11))
+      disc_rel:narration
+      disc_seg:1-[2]
+      disc_dom:objective
+      p_o_view:narrator

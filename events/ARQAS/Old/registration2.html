@@ -1,0 +1,147 @@
+<html>
+<head><title> Dati Partecipanti </title>
+
+ <script language="JavaScript">
+  <!--
+  2* function chkFormular()
+  {
+   if(document.Formular.name.value == "")
+    {
+     alert("Fill in the Name field!");
+     document.Formular.name.focus();
+     return false;
+    }
+   if(document.Formular.surname.value == "")
+    {
+     alert("Fill in the Surname field!");
+     document.Formular.surname.focus();
+     return false;
+    }
+   if(document.Formular.address.value == "")
+    {
+     alert("Fill in the Mailing Address field!");
+     document.Formular.address.focus();
+     return false;
+    }
+   if(document.Formular.city.value == "")
+    {
+     alert("Fill in the City field!");
+     document.Formular.city.focus();
+     return false;
+    }
+   if(document.Formular.zipcode.value == "")
+    {
+     alert("Fill in the Zip Code field!");
+     document.Formular.zipcode.focus();
+     return false;
+    }
+    if(document.Formular.country.value == "")
+    {
+     alert("Fill in the Country field!");
+     document.Formular.country.focus();
+     return false;
+    }
+    if(document.Formular.email.value.indexOf('@') == -1)
+    {
+     alert("Fill in the E-Mail Address field!");
+     document.Formular.email.focus();
+     return false;
+    }
+   var chkZ = 1;
+  }
+  //-->
+ </script>
+ </head>
+
+</head>
+
+<body> <table border=0 bgcolor=#DODODO>
+<tr>
+<td colspan="8"> <h2> Registration Form </h2><font color="red"> &lowast; = required field </font> <br> </td>
+</tr>
+<form name= "Formular" action="http://sisley.cgm.unive.it/cgi-bin/arqas/recupera.pl" method="POST" onSubmit="return chkFormular()">
+
+<tr>
+<td> <br>  <td>
+<td>  <br> </td>
+</tr>
+
+
+<tr>
+<td> Name: <font color="red">&lowast;</font><td>
+<td> <input type="Text" name="name" value="" size="40"> </td>
+</tr>
+
+<tr>
+<td> Surname: <font color="red">&lowast;</font><td>
+<td> <input type="Text" name="surname" value="" size="40"> </td>
+</tr>
+
+<tr>
+<td> Mailing Address: <font color="red">&lowast;</font><td>
+<td> <input type="Text" name="address" value="" size="40"> </td>
+</tr>
+
+<tr>
+<td> City: <font color="red">&lowast;</font><td>
+<td> <input type="Text" name="city" value="" size="40"> </td>
+</tr>
+
+<tr>
+<td> State/Province: <td>
+<td> <input type="Text" name="state" value="" size="40"> </td>
+</tr>
+
+<tr>
+<td> Zip Code: <font color="red">&lowast;</font><td>
+<td> <input type="Text" name="zipcode" value="" size="40"> </td>
+</tr>
+
+<tr>
+<td> Country: <font color="red">&lowast;</font><td>
+<td> <input type="Text" name="country" value="" size="40"> </td>
+</tr>
+
+<tr>
+<td> Affiliation (if not in mailing address): <td>
+<td> <input type="Text" name="affiliation" value="" size="40"> </td>
+</tr>
+
+<tr>
+<td> Telephone Number:<td>
+<td> <input type="Text" name="phone" value="" size="40"> </td>
+</tr>
+
+<tr>
+<td> Fax Number: <td>
+<td> <input type="Text" name="fax" value="" size="40"> </td>
+</tr>
+
+<tr>
+<td> E-mail: <font color="red">&lowast;</font><td>
+<td> <input type="Text" name="email" value="" size="40"> </td>
+</tr>
+
+</table> <br>
+
+
+Will you submit a paper to the workshop?
+<input type=radio name="Paper" value="Yes1"> Yes 
+<input type=radio name="Paper" value="No1"> No
+<br>
+Are you a student?
+<input type=radio name="Student" value="Yes2"> Yes 
+<input type=radio name="Student" value="No2"> No
+<br>
+Will you join the social dinner?
+<input type=radio name="Dinner" value="Yes3"> Yes 
+<input type=radio name="Dinner" value="No3"> No
+<br>
+<br>
+<br>
+<input type="Submit" name="add" value="Continue">
+<input type="Reset" value="Reset">
+
+
+ </form> </body>
+</html>

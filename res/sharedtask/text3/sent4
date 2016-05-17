@@ -1,0 +1,265 @@
+Ratio of Tags per Word for Sentence no: 4
+Word Ambiguity Ratio: 1.28571
+'Lookahead Start Active Chart'
+0-[d-the], 1-[n-atmosphere], 2-[v-was], 3-[a-warm, n-warm, v-warm], 4-[e-and], 5-[a-friendly], 6-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1
+0-[d-the], 1-[n-atmosphere], 2-[v-was], 3-[a-warm], 4-[e-and], 5-[a-friendly], 6-[x-'.']
+
+0-[d-the], 1-[n-atmosphere], 2-[v-was], 3-[a-warm], 4-[e-and], 5-[a-friendly], 6-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+4
+the-dt
+atmosphere-nn
+was-vbd
+warm-jj
+and-cc
+friendly-jj
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[the-art, atmosphere-n, was-ause, warm-ag, and-cong, friendly-ag, '.'-punto]
+
+f-[subj-[the-art-sn, atmosphere-n-sn], ibar-[was-ause-ibar], sa-[warm-ag-sa, and-cong-sa, friendly-ag-sa], cp-['.'-punto-cp]]
+
+4
+
+
+'Functional and Syntactic Constituency'
+
+subj-[the-art-sn, atmosphere-n-sn]
+ibar-[was-ause-ibar]
+xcomp-[warm-ag-sa, and-cong-sa, friendly-ag-sa]
+
+['.']
+
+
+ip(
+ indice(f1),
+ v(be, active, [sn/sogg/tema_bound/[sostanza, astratto], xcomp/prop/[_G3190|_G3191]], ind, pass, 3, sing, _G483),
+ supporto([]),
+ cat(esistenza),
+ args(
+   [
+   arg(
+    funzione(acomp),
+    ruolo(prop),
+    saa(
+     indice(saa3),
+     cat([valutativo]),
+     coordina(
+       [
+       coord(
+        saa(
+         indice(saa1),
+         cat([valutativo]),
+         agg(
+          warm,
+          [],
+          sing
+          ),
+         spec([]),
+         args(
+           [
+           arg(
+            funzione(sogg),
+            ruolo(nil),
+            sn(
+             indice(sn6),
+             pr(vbl, vbl, _G3546, _G3547, _G3548, _G3549),
+             controllore(sn5)
+             )
+            )
+           ]
+          ),
+         adjs([])
+         )
+        ),
+       coord(
+        saa(
+         indice(saa2),
+         cat([valutativo]),
+         agg(
+          friendly,
+          [],
+          sing
+          ),
+         spec([]),
+         args(
+           [
+           arg(
+            funzione(sogg),
+            ruolo(nil),
+            sn(
+             indice(sn6),
+             pr(vbl, vbl, _G3546, _G3547, _G3548, _G3549),
+             controllore(sn5)
+             )
+            )
+           ]
+          ),
+         adjs([])
+         )
+        )
+       ]
+      )
+     )
+    ),
+   arg(
+    funzione(sogg),
+    ruolo(tema_bound),
+    sn(
+     indice(sn5),
+     cat([sostanza, astratto]),
+     n(atmosphere, [], sing),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    )
+   ]
+  ),
+ adjs([])
+ )
+indice:f1
+pred:be
+lex_form:[sn/sogg/tema_bound/[sostanza, astratto], xcomp/prop/[_G10090|_G10091]]
+voice:active
+modo:ind
+tempo:past
+cat:esistenza
+acomp/prop:indice:saa3
+           cat:[valutativo]
+           coordina:testa:coordinante
+                    num:plur
+                    coord:indice:saa1
+                          cat:[valutativo]
+                          pred:warm
+                          num:sing
+                          sogg/nil:indice:sn6
+                                   pred:vbl
+                                   controllore:sn5
+                                   tab_ref:[+ref, -pro, -ana, -me]
+                    coord:indice:saa2
+                          cat:[valutativo]
+                          pred:friendly
+                          num:sing
+                          sogg/nil:indice:sn6
+                                   pred:vbl
+                                   controllore:sn5
+                                   tab_ref:[+ref, -pro, -ana, -me]
+sogg/tema_bound:indice:sn5
+                cat:[sostanza, astratto]
+                pred:atmosphere
+                num:sing
+                pers:3
+                spec:def:+
+                tab_ref:[+ref, -pro, -ana, +class]
+aspetto:stato
+rel1:[tr(f1_t34)aftr td(f1_t34)]
+rel2:[tr(f1_t34)=tes(f1_t34)]
+definitezza:-
+ref_int:[tr(f1_t34)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn5, atmosphere, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [sostanza, astratto], sogg/tema_bound)/119
+
+MAIN TOPIC : ref_ex(_G13268, John, _G13270, 3, mas, sing, _G13274, _G13275)
+POTENTIAL TOPICS : ref_ex(sn5, atmosphere, _G13302, 3, nil, sing, [sostanza, astratto], sogg/tema_bound)
+
+stato(4, continua)
+
+
+
+CLAUSE IDENTIFIER:               4-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f1_t34), tes(f1_t33))
+DISCOURSE FOCUS:                 tes(f1_t34)
+DISCOURSE RELATION:              explanation
+DISCOURSE DOMAIN:                subjective
+SUBJECT OF CONSCIOUSNESS:        'John'/_G14105, from, 4-n1
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(4, continua)
+topic(4, main, id3)
+topic(4, potential, id18)
+sr(sogg-tema_bound, be, atmosphere)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(be,
+        < definito : sn5 :
+            wff(isa,
+                sn5,
+                atmosphere) >>,
+        wff(friendly,
+            warm,
+            sn5),
+        < state : f1 :
+            wff(and,
+                wff(isa,
+                    f1,
+                    st),
+                wff(time,
+                    f1,
+                    < indefinito : t4 :
+                        wff(and,
+                            wff(isa,
+                                t4,
+                                tloc),
+                            wff(past,
+                                t4)) >>)) >>))
+
+
+
+loc(infon57, id17, [arg:main_tloc, arg:tes(f1_t33)])
+ind(infon58, id18)
+fact(infon59, atmosphere, [ind:id18], 1, id17, id2)
+fact(infon60, inst_of, [ind:id18, class:substance], 1, univ, univ)
+fact(infon61, isa, [ind:id18, class:atmosphere], 1, id17, id2)
+fact(infon63, [friendly, warm], [arg:id18], 1, id17, id2)
+fact(id19, be, [prop:infon63], 1, tes(f1_t34), id2)
+fact(infon64, isa, [arg:id19, arg:st], 1, tes(f1_t34), id2)
+fact(infon65, isa, [arg:id20, arg:tloc], 1, tes(f1_t34), id2)
+fact(infon66, past, [arg:id20], 1, tes(f1_t34), id2)
+fact(infon67, time, [arg:id19, arg:id20], 1, tes(f1_t34), id2)
+
+during(tes(f1_t34), tes(f1_t33))
+includes(tr(f1_t34), id17)
+
+
+                  down:down(3-3)
+                  clause:4-4
+                  topics:[main:id3:'John']
+                  main_fact:be([infon63:[friendly, warm]], 1, id2)
+                  ref_int:tint(nil, [tes(f1_t34)])
+                  temp_rel:during(tes(f1_t34), tes(f1_t33))
+                  disc_rel:explanation
+                  disc_seg:3-[4]
+                  disc_dom:subjective
+                  p_o_view:'John'

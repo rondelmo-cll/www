@@ -1,0 +1,22 @@
+Minimal pairs for [è] vs. [é] in initial position:
+è 	é 		
+
+Minimal pairs for [è] vs. [é] in medial position:
+bèco 	béco 		
+fèta 	féta 		
+mèjo 	méjo 		
+parchè 	parché 		
+parkè 	parké 		
+pè£i 	pé£i 		
+pèsa 	pésa 		
+pèse 	pése 		
+pèso 	péso 		
+pèto 	péto 		
+pèxo 	péxo 		
+sè 	sé 		
+sèmo£a 	sémo£a 		
+sèsto 	sésto 		
+stè£a 	sté£a 		
+vèro 	véro 		
+
+Minimal pairs for [è] vs. [é] in final position:

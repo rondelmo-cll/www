@@ -1,0 +1,585 @@
+Ratio of Tags per Word for Sentence no: 3
+Word Ambiguity Ratio: 1.68421
+'Lookahead Start Active Chart'
+0-[s-if], 1-[n-air, v-air], 2-[n-resistance], 3-[v- (is)], 4-[a-negligible], 5-[x- (',')], 6-[av-how, n-how, r-how, s-how, w-how], 7-[a-long, av-long, n-long, v-long], 8-[v-does], 9-[r-it], 10-[n-take, v-take], 11-[d-the], 12-[n-object, v-object], 13-[p-to], 14-[n-fall, v-fall], 15-[p-to], 16-[d-the], 17-[a-ground, n-ground, v-ground], 18-[x- ?]
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.21053
+0-[s-if], 1-[n-air], 2-[n-resistance], 3-[v- (is)], 4-[a-negligible], 5-[x- (',')], 6-[av-how, n-how, r-how, s-how, w-how], 7-[av-does], 8-[v-long], 9-[r-it], 10-[v-take], 11-[d-the], 12-[n-object], 13-[p-to], 14-[v-fall], 15-[p-to], 16-[d-the], 17-[n-ground], 18-[x- ?]
+
+0-[s-if], 1-[n-air], 2-[n-resistance], 3-[v- (is)], 4-[a-negligible], 5-[x- (',')], 6-[av-how, n-how, r-how, s-how, w-how], 7-[av-does], 8-[v-long], 9-[r-it], 10-[v-take], 11-[d-the], 12-[n-object], 13-[p-to], 14-[v-fall], 15-[p-to], 16-[d-the], 17-[n-ground], 18-[x- ?]
+
+
+
+'PennTreebank Style Tagging'
+
+3
+? - pun
+if-in
+air-nn
+resistance-nn
+(is)-vbz
+negligible-jj
+(,)-pun
+how-wp
+long-rb
+does-md
+it-prp
+take-vbd_vbn
+the-dt
+object-nn
+to-to
+fall-vbd
+to-to
+the-dt
+ground-n
+
+'Tagging and Syntactic Constituency'
+
+[? - puntint, if-cosu, air-n, resistance-n, (is)-ause, negligible-ag, (',')-punt, how-int, long-avv, does-vsup, it-pron, take-vt, the-art, object-n, to-p, fall-vin, to-p, the-art, ground-n]
+
+cp-[fint-[? - puntint-fint], fs-[fs-[if-cosu-fs], subj-[resistance-n-sn, mod-[air-n-sn]], ibar-[ (is)-ause-ibar], sa-[negligible-ag-sa], fp-[ (',')-punt-fp], cp-[how-int-cp], savv-[long-avv-savv], ibar-[does-vsup-ibar], sn-[it-pron-sn], ibar-[take-vt-ibar], sn-[the-art-sn, object-n-sn], vcomp-[to-p-_G53798, fall-vin-ibar], sp-[to-p-sp, the-art-sn, ground-n-sn]]]
+
+3
+
+
+'Functional and Syntactic Constituency'
+
+fs-[fs-[if-cosu-fs], subj-[resistance-n-sn, mod-[air-n-sn]], ibar-[ (is)-ause-ibar], xcomp-[negligible-ag-sa]]
+f3-[ (,)-punt-fp]
+cp-[how-int-cp]
+savv-[long-avv-savv]
+ibar-[does-vsup-ibar]
+subj-[it-pron-sn]
+ibar-[take-vt-ibar]
+xcomp-[the-art-sn, object-n-sn]
+vcomp-[to-p-_G1391, fall-vin-ibar]
+obl-[to-p-sp, the-art-sn, ground-n-sn]
+
+[is, negligible, (','), how, long, does, it, take, the, object, to, fall, to, the, ground, ?]
+ip(indice(sn59), v(be, active, [[sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [vcomp/prop/[]/[sogg=x], xcomp/prop/[_G23411|_G23412]], [vcomp/prop/[]/[sogg=ogg2], sp/ogg2/benef/for/[umano], ncomp/prop/[_G23462|_G23463]], [sn/sogg/tema_bound/[_G23480|_G23481], xcomp/prop/[_G23492|_G23493]], [sn/sogg/actor/[umano, animato], f/fcomp/prop/[sogg=sogg/actor, sogg=x]]], ind, _G23339/semp, _G22973, _G44053, _G22975), supporto([]), cat(esistenza), args([arg(funzione(acomp), ruolo(prop), saa(indice(saa9), cat([valutativo, soggettivo]), agg(negligible, _G26047, _G26048), spec([]), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn57), pr(vbl, vbl, _G43590, _G43591, _G43592, _G43593), controllore(sn35)))]), adjs([avv(pred_avv(how), tipo(modal))]))), arg(funzione(sogg), ruolo(tema_bound), sn(indice(sn35), cat([astratto, attivita, cambia, evento, istituzione, legale, oggetto, stato, strumento, umano]), n(resistance, _G20717, sing), spec(def(0), part(_G19815), mod([]), foc(_G19819), card(_G19821), quant([])), args([]), mods([nome_mod(sn(indice(sn34), cat([sostanza]), n(air, _G19762, sing), spec(def(0), part(_G19356), mod(_G19358), foc(_G19360), card(_G19362), quant(_G19364)), args([]), mods([]), adjs([])))]), adjs([]))), arg(funzione(sogg), ruolo(tema_bound), indefinito)]), adjs([adj(funzione(vcomp), ruolo(result), infinitiva(indice(finf1), v(take, [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]], base, pres/semp, _G30085, _G30086, _G30087), supporto([]), cat(attivita), args([arg(funzione(sogg), ruolo(actor), sn(indice(sn56), cat([any]), pr(pro_grande, pPro, _G42815, _G42816, _G42817, [nom]), spec([]), controllore(_G42825))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn37), cat([any, astratto, attivita, informa, oggetto, stato, tecno]), n(object, _G34630, sing), spec(def(+), part(_G34017), mod([]), foc(_G34021), card(_G33997), quant([])), args([arg(funzione(vcomp), ruolo(result), infinitiva(indice(finf4), v(fall, [sn/sogg/esperiente/[umano, animato]], base, pres/semp, _G36138, _G36139, _G36140), supporto([]), cat(risultato), args([arg(funzione(sogg), ruolo(esperiente), sn(indice(sn55), cat([umano, animato]), pr(pro_grande, pPro, _G42243, _G42244, _G42245, [nom]), spec([]), controllore(indefinito))), arg(funzione(obl), ruolo(goal), sp(prep(to, cat([astratto, strumento, oggetto, luogo]), _G42169), sn(indice(sn54), cat([astratto, strumento, oggetto, luogo]), n(ground, _G41088, sing), spec(def(+), part(_G40475), mod([]), foc(_G40479), card(_G40455), quant([])), args([]), mods([]), adjs([]))))]), adjs([])))]), mods([]), adjs([])))]), adjs([]))), adj(valutativo, saa(indice(sn36), cat([any, nonhuman]), pr(clitico, _G28495, it, 3, _G28457, sing, [nom, acc, obl]), spec(def(+), part(_G28416), mod(_G28536), foc(_G28420), card(_G28396), quant([])), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn58), pr(vbl, vbl, _G43912, _G43913, _G43914, _G43915), controllore(indefinito)))]), adjs([])))]))
+
+
+ip(
+ indice(sn59),
+ v(be, active, [[sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [vcomp/prop/[]/[sogg=x], xcomp/prop/[_G23411|_G23412]], [vcomp/prop/[]/[sogg=ogg2], sp/ogg2/benef/for/[umano], ncomp/prop/[_G23462|_G23463]], [sn/sogg/tema_bound/[_G23480|_G23481], xcomp/prop/[_G23492|_G23493]], [sn/sogg/actor/[umano, animato], f/fcomp/prop/[sogg=sogg/actor, sogg=x]]], ind, _G23339/semp, _G22973, _G44053, _G22975),
+ supporto([]),
+ cat(esistenza),
+ args(
+   [
+   arg(
+    funzione(acomp),
+    ruolo(prop),
+    saa(
+     indice(saa9),
+     cat([valutativo, soggettivo]),
+     agg(
+      negligible,
+      [],
+      []
+      ),
+     spec([]),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn57),
+         pr(vbl, vbl, _G43590, _G43591, _G43592, _G43593),
+         controllore(sn35)
+         )
+        )
+       ]
+      ),
+     adjs(
+       [
+       avv(pred_avv(how), tipo(modal))
+       ]
+      )
+     )
+    ),
+   arg(
+    funzione(sogg),
+    ruolo(tema_bound),
+    sn(
+     indice(sn35),
+     cat([astratto, attivita, cambia, evento, istituzione, legale, oggetto, stato, strumento, umano]),
+     n(resistance, _G20717, sing),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods(
+       [
+       nome_mod(
+        sn(
+         indice(sn34),
+         cat([sostanza]),
+         n(air, _G19762, sing),
+         spec(
+          def(0),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods([]),
+         adjs([])
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(sogg),
+    ruolo(tema_bound),
+    indefinito
+    )
+   ]
+  ),
+ adjs(
+   [
+   adj(
+    funzione(vcomp),
+    ruolo(result),
+    infinitiva(
+     indice(finf1),
+     v(take, [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]], base, pres/semp, _G30085, _G30086, _G30087),
+     supporto([]),
+     cat(attivita),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(actor),
+        sn(
+         indice(sn56),
+         cat([any]),
+         pr(pro_grande, pPro, _G42815, _G42816, _G42817, [nom]),
+         spec([]),
+         controllore([])
+         )
+        ),
+       arg(
+        funzione(ogg),
+        ruolo(theme_aff),
+        sn(
+         indice(sn37),
+         cat([any, astratto, attivita, informa, oggetto, stato, tecno]),
+         n(object, _G34630, sing),
+         spec(
+          def(+),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args(
+           [
+           arg(
+            funzione(vcomp),
+            ruolo(result),
+            infinitiva(
+             indice(finf4),
+             v(fall, [sn/sogg/esperiente/[umano, animato]], base, pres/semp, _G36138, _G36139, _G36140),
+             supporto([]),
+             cat(risultato),
+             args(
+               [
+               arg(
+                funzione(sogg),
+                ruolo(esperiente),
+                sn(
+                 indice(sn55),
+                 cat([umano, animato]),
+                 pr(pro_grande, pPro, _G42243, _G42244, _G42245, [nom]),
+                 spec([]),
+                 controllore(indefinito)
+                 )
+                ),
+               arg(
+                funzione(obl),
+                ruolo(goal),
+                sp(
+                 prep(to, cat([astratto, strumento, oggetto, luogo]), _G42169),
+                 sn(
+                  indice(sn54),
+                  cat([astratto, strumento, oggetto, luogo]),
+                  n(ground, _G41088, sing),
+                  spec(
+                   def(+),
+                   part([]),
+                   mod([]),
+                   foc([]),
+                   card([]),
+                   quant([])
+                   ),
+                  args([]),
+                  mods([]),
+                  adjs([])
+                  )
+                 )
+                )
+               ]
+              ),
+             adjs([])
+             )
+            )
+           ]
+          ),
+         mods([]),
+         adjs([])
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    ),
+   adj(
+    valutativo,
+    saa(
+     indice(sn36),
+     cat([any, nonhuman]),
+     pr(clitico, _G28495, it, 3, _G28457, sing, [nom, acc, obl]),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn58),
+         pr(vbl, vbl, _G43912, _G43913, _G43914, _G43915),
+         controllore(indefinito)
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    )
+   ]
+  )
+ )
+indice:sn59
+pred:be
+lex_form:[[sn/sogg/actor/[any]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [vcomp/prop/[]/[sogg=x], xcomp/prop/[_G4011|_G4012]], [vcomp/prop/[]/[sogg=ogg2], sp/ogg2/benef/for/[umano], ncomp/prop/[_G4062|_G4063]], [sn/sogg/tema_bound/[_G4080|_G4081], xcomp/prop/[_G4092|_G4093]], [sn/sogg/actor/[umano, animato], f/fcomp/prop/[sogg=sogg/actor, sogg=x]]]
+voice:active
+modo:ind
+tempo:pres
+cat:esistenza
+acomp/prop:indice:saa9
+           cat:[valutativo, soggettivo]
+           pred:negligible
+           sogg/nil:indice:sn57
+                    pred:vbl
+                    controllore:sn35
+                    tab_ref:[+ref, -pro, -ana, -me]
+sogg/tema_bound:indice:sn35
+                cat:[astratto, attivita, cambia, evento, istituzione, legale, oggetto, stato, strumento, umano]
+                pred:resistance
+                num:sing
+                pers:3
+                spec:def:'0'
+                mods:mod/tema:indice:sn34
+                              cat:[sostanza]
+                              pred:air
+                              num:sing
+                              pers:3
+                              tab_ref:[+ref, -pro, -ana, +class]
+                tab_ref:[+ref, -pro, -ana, +class]
+adjs:vcomp/result:indice:finf1
+                  pred:take
+                  lex_form:[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]]
+                  modo:base
+                  tempo:pres
+                  cat:attivita
+                  sogg/actor:indice:sn56
+                             cat:[any]
+                             pred:pPro
+                             tab_ref:[+ref, +pro, +ana, -me]
+                             antecedente:esterno
+                             interpretazione:definita
+                  ogg/theme_aff:indice:sn37
+                                cat:[any, astratto, attivita, informa, oggetto, stato, tecno]
+                                pred:object
+                                num:sing
+                                pers:3
+                                spec:def:+
+                                vcomp/result:indice:finf4
+                                             pred:fall
+                                             lex_form:[sn/sogg/esperiente/[umano, animato]]
+                                             modo:base
+                                             tempo:pres
+                                             cat:risultato
+                                             sogg/esperiente:indice:sn55
+                                                             cat:[umano, animato]
+                                                             pred:pPro
+                                                             tab_ref:[+ref, +pro, +ana, -me]
+                                                             antecedente:sn56
+                                                             interpretazione:definita
+                                             obl/goal:sem_mark:to
+                                                      indice:sn54
+                                                      cat:[astratto, strumento, oggetto, luogo]
+                                                      pred:ground
+                                                      num:sing
+                                                      pers:3
+                                                      spec:def:+
+                                                      tab_ref:[+ref, -pro, -ana, +class]
+                                             aspetto:achiev_tr
+                                tab_ref:[+ref, -pro, -ana, +class]
+                  aspetto:attivita
+     adj/valutativo:indice:sn36
+                    cat:[any, nonhuman]
+                    pred:it
+                    pers:3
+                    num:sing
+                    caso:[nom, acc, obl]
+                    spec:def:+
+                    sogg/nil:indice:sn58
+                             pred:vbl
+                             controllore:indefinito
+                             tab_ref:[+ref, -pro, -ana, -me]
+                    tab_ref:[+ref, +pro, +ana, +me]
+                    antecedente:sn35
+                    interpretazione:definita
+aspetto:stato
+rel1:[td(sn59_t13)=tr(sn59_t13)]
+rel2:[incluso(tr(sn59_t13), tes(sn59_t13))]
+definitezza:-
+ref_int:[tr(sn59_t13)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn35, resistance, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita, cambia, evento, istituzione, legale, oggetto, stato, strumento, umano], sogg/tema_bound)/20
+ ref_ex(sn37, object, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [any, astratto, attivita, informa, oggetto, stato, tecno], ogg/theme_aff)/51
+ ref_ex(sn54, ground, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, strumento, oggetto, luogo], obl/goal)/82
+ ref_ex(sn56, pPro, [+ref, def0, nil, nil, +pro, +ana, -me], nil, nil, nil, [any], sogg/actor)/146
+ ref_ex(sn34, air, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [sostanza], mod/tema)/185
+
+
+rel_temp(infon74, td, tr(sn59_t13), [eq])
+
+
+CLAUSE IDENTIFIER:               3-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn59_t13), tes(f1_t12))
+DISCOURSE FOCUS:                 tes(sn59_t13)
+DISCOURSE RELATION:              explanation
+DISCOURSE DOMAIN:                subjective
+SUBJECT OF CONSCIOUSNESS:        object/_G13898, from, 3-n1
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(3, retaining)
+topic(3, expected, id21)
+topic(3, secondary, id2)
+topic(3, potential, id20)
+sr(sogg-tema_bound, be, resistance)
+sr(acomp-prop, be, negligible)
+sr(sogg-esperiente, fall, pPro)
+sr(obl-goal, fall, ground)
+sr(sogg-actor, take, pPro)
+sr(ogg-theme_aff, take, object)
+sr(adj-prop, coincide, be, situation)
+sr(adj-valutativo, be, it)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(be,
+        < entity : sn35 :
+            wff(and,
+                wff(isa,
+                    sn35,
+                    resistance),
+                wff(air,
+                    sn35)) >>,
+        wff(negligible,
+            < definito : sn57 :
+                wff(and,
+                    wff(isa,
+                        sn57,
+                        vbl),
+                    wff(controllore,
+                        sn57,
+                        sn35)) >>,
+            < definito : saa9 :
+                wff(and,
+                    wff(and,
+                        wff(has,
+                            < definito : sn57 :
+                                wff(and,
+                                    wff(isa,
+                                        sn57,
+                                        vbl),
+                                    wff(controllore,
+                                        sn57,
+                                        sn35)) >>),
+                        wff(isa,
+                            saa9,
+                            negligible)),
+                    []) >>),
+        < state : sn59 :
+            wff(and,
+                wff(isa,
+                    sn59,
+                    st),
+                wff(and,
+                    wff(time,
+                        sn59,
+                        < indefinito : t6 :
+                            wff(and,
+                                wff(isa,
+                                    t6,
+                                    tloc),
+                                wff(pres,
+                                    t6)) >>),
+                    wff(and,
+                        wff(coincide,
+                            sn59,
+                            wff(situation,
+                                wff(take,
+                                    < definito : sn56 :
+                                        wff(and,
+                                            wff(isa,
+                                                sn56,
+                                                pPro),
+                                            wff(antecedente,
+                                                sn56,
+                                                esterno)) >>,
+                                    < definito : sn37 :
+                                        wff(and,
+                                            wff(and,
+                                                wff(has,
+                                                    wff(situation,
+                                                        wff(fall,
+                                                            < definito : sn55 :
+                                                                wff(and,
+                                                                    wff(isa,
+                                                                        sn55,
+                                                                        pPro),
+                                                                    wff(antecedente,
+                                                                        sn55,
+                                                                        sn56)) >>,
+                                                            < definito : sn54 :
+                                                                wff(isa,
+                                                                    sn54,
+                                                                    ground) >>,
+                                                            < event : finf4 :
+                                                                wff(and,
+                                                                    wff(isa,
+                                                                        finf4,
+                                                                        ev),
+                                                                    wff(time,
+                                                                        finf4,
+                                                                        < definito : t4 :
+                                                                            wff(and,
+                                                                                wff(isa,
+                                                                                    t4,
+                                                                                    tloc),
+                                                                                wff(pres,
+                                                                                    t4)) >>)) >>))),
+                                                wff(isa,
+                                                    sn37,
+                                                    object)),
+                                            []) >>,
+                                    < process : finf1 :
+                                        wff(and,
+                                            wff(isa,
+                                                finf1,
+                                                pr),
+                                            wff(time,
+                                                finf1,
+                                                < indefinito : t5 :
+                                                    wff(and,
+                                                        wff(isa,
+                                                            t5,
+                                                            tloc),
+                                                        wff(pres,
+                                                            t5)) >>)) >>))),
+                        wff(it,
+                            sn59)))) >>))
+
+
+
+loc(infon75, id19, [arg:main_tloc, arg:tes(f1_t12)])
+loc(infon76, id20, [arg:main_sloc, arg:ground])
+class(infon77, id21)
+fact(infon78, air, [ind:id21], 1, id19, id20)
+fact(infon79, negligible, [nil:id21], 1, id19, id20)
+fact(infon80, of, [arg:id21, specif:id21], 1, univ, univ)
+fact(infon81, inst_of, [ind:id21, class:institution], 1, univ, univ)
+fact(infon82, isa, [ind:id21, class:resistance], 1, id19, id20)
+ind(infon83, id20)
+fact(infon84, inst_of, [ind:id20, class:place], 1, univ, univ)
+fact(infon85, isa, [ind:id20, class:ground], 1, id19, id20)
+ind(infon86, id22)
+fact(infon87, inst_of, [ind:id22, class:substance], 1, univ, univ)
+fact(infon88, isa, [ind:id22, class:air], 1, id19, id20)
+in(infon89, id22, id21)
+fact(infon92, has, [nil:id21], 1, id19, id20)
+fact(infon93, isa, [arg:id23, arg:negligible], 1, id19, id20)
+fact(infon94, negligible, [nil:id21, arg:id23], 1, id19, id20)
+fact(id24, be, [prop:infon94], 1, tes(sn59_t13), id20)
+fact(infon95, isa, [arg:id24, arg:st], 1, tes(sn59_t13), id20)
+fact(infon96, isa, [arg:id25, arg:tloc], 1, tes(sn59_t13), id20)
+fact(infon97, pres, [arg:id25], 1, tes(sn59_t13), id20)
+fact(infon98, time, [arg:id24, arg:id25], 1, tes(sn59_t13), id20)
+fact(infon99, isa, [arg:id26, arg:pPro], 1, tes(sn59_t13), id20)
+fact(infon100, isa, [arg:id20, arg:ground], 1, tes(sn59_t13), id20)
+fact(id27, fall, [esperiente:id26, goal:id20], 1, tes(finf4_t13), id20)
+fact(infon101, isa, [arg:id27, arg:ev], 1, tes(finf4_t13), id20)
+fact(infon102, isa, [arg:id28, arg:tloc], 1, tes(finf4_t13), id20)
+fact(infon103, pres, [arg:id28], 1, tes(finf4_t13), id20)
+fact(infon104, time, [arg:id27, arg:id28], 1, tes(finf4_t13), id20)
+fact(infon105, has, [result:id27], 1, tes(sn59_t13), id20)
+fact(id29, take, [actor:id26, theme_aff:id2], 1, tes(finf1_t13), id20)
+fact(infon107, isa, [arg:id29, arg:pr], 1, tes(finf1_t13), id20)
+fact(infon108, isa, [arg:id30, arg:tloc], 1, tes(finf1_t13), id20)
+fact(infon109, pres, [arg:id30], 1, tes(finf1_t13), id20)
+fact(infon110, time, [arg:id29, arg:id30], 1, tes(finf1_t13), id20)
+fact(infon111, coincide, [arg:id24, arg:id29], 1, tes(sn59_t13), id20)
+fact(infon112, it, [arg:id24], 1, tes(sn59_t13), id20)
+
+during(tes(sn59_t13), tes(f1_t12))
+includes(tr(sn59_t13), id19)
+
+
+            down:down(2-2)
+            clause:3-3
+            topics:[expected:id21:resistance, secondary:id2:object]
+            main_fact:be([infon94:negligible], 1, id20)
+            ref_int:tint(nil, [tes(sn59_t13)])
+            temp_rel:during(tes(sn59_t13), tes(f1_t12))
+            disc_rel:explanation
+            disc_seg:2-[3]
+            disc_dom:subjective
+            p_o_view:object

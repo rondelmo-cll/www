@@ -1,0 +1,305 @@
+Ratio of Tags per Word for Sentence no: 4
+Word Ambiguity Ratio: 1.25
+'Lookahead Start Active Chart'
+0-[r-what, w-what], 1-[v- (is)], 2-[d-the], 3-[n-duration], 4-[p-of], 5-[d-the], 6-[n-fall, v-fall], 7-[x- ?]
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.125
+0-[r-what, w-what], 1-[v- (is)], 2-[d-the], 3-[n-duration], 4-[p-of], 5-[d-the], 6-[n-fall], 7-[x- ?]
+
+0-[r-what, w-what], 1-[v- (is)], 2-[d-the], 3-[n-duration], 4-[p-of], 5-[d-the], 6-[n-fall], 7-[x- ?]
+
+
+
+'PennTreebank Style Tagging'
+
+4
+? - pun
+what-wp
+(is)-vbz
+the-dt
+duration-nn
+of-in
+the-dt
+fall-n
+
+'Tagging and Syntactic Constituency'
+
+[? - puntint, what-int, (is)-ause, the-art, duration-n, of-p, the-art, fall-n]
+
+fint-[fint-[? - puntint-fint], cp-[what-int-cp], ibar-[ (is)-ause-ibar], sn-[the-art-sn, duration-n-sn, mod-[of-p-sp, the-art-sn, fall-n-sn]]]
+
+4
+
+
+'Functional and Syntactic Constituency'
+
+fint-[? - puntint-fint]
+cp-[what-int-cp]
+ibar-[ (is)-ause-ibar]
+subj-[the-art-sn, duration-n-sn, mod-[of-p-sp, the-art-sn, fall-n-sn]]
+ibar-[ibar-[ (is)-ause-ibar]]
+
+[?]
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn4),
+   cat([_G43656]),
+   pr(pr_int, _G43617, what, 3, _G43620, _G43621, [nom, acc, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(be, active, [sn/sogg/tema_bound/[astratto, tempo], xcomp/prop/[_G48757|_G48758]], ind, pres, 3, sing, _G45406),
+  supporto([]),
+  cat(esistenza),
+  args(
+    [
+    arg(
+     funzione(ncomp),
+     ruolo(prop),
+     sn(
+      indice(sn7),
+      cat([astratto, tempo]),
+      pr(pro_picc, pro, _G48517, _G48518, _G48519, _G48520, nom),
+      spec(
+       def(+)
+       ),
+      args(
+        [
+        arg(
+         funzione(sogg),
+         ruolo(nil),
+         sn(
+          indice(sn8),
+          pr(vbl, vbl, _G49115, _G49116, _G49117, _G49118),
+          controllore(sn4)
+          )
+         )
+        ]
+       ),
+      mods([]),
+      adjs([])
+      )
+     ),
+    arg(
+     funzione(sogg),
+     ruolo(tema_bound),
+     sn(
+      indice(sn5),
+      cat([astratto, tempo]),
+      n(duration, _G45406, sing),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args(
+        [
+        arg(
+         funzione(ogg),
+         ruolo(tema),
+         sn(
+          indice(sn6),
+          cat([astratto, attivita, danger, evento, luogo, tempo]),
+          n(fall, _G47163, sing),
+          spec(
+           def(+),
+           part([]),
+           mod([]),
+           foc([]),
+           card([]),
+           quant([])
+           ),
+          args([]),
+          mods([]),
+          adjs([])
+          )
+         )
+        ]
+       ),
+      mods([]),
+      adjs([])
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn4
+      cat:[_G56409]
+      pred:what
+      pers:3
+      caso:[nom, acc, obl]
+      tab_ref:[+ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:be
+lex_form:[sn/sogg/tema_bound/[astratto, tempo], xcomp/prop/[_G56639|_G56640]]
+voice:active
+modo:ind
+tempo:pres
+cat:esistenza
+ncomp/prop:indice:sn7
+           cat:[astratto, tempo]
+           pred:pro
+           caso:nom
+           spec:def:+
+           sogg/nil:indice:sn8
+                    pred:vbl
+                    controllore:sn4
+                    tab_ref:[+ref, -pro, -ana, -me]
+           tab_ref:[+ref, +pro, -ana, -me]
+sogg/tema_bound:indice:sn5
+                cat:[astratto, tempo]
+                pred:duration
+                num:sing
+                pers:3
+                spec:def:+
+                ogg/tema:indice:sn6
+                         cat:[astratto, attivita, danger, evento, luogo, tempo]
+                         pred:fall
+                         num:sing
+                         pers:3
+                         spec:def:+
+                         tab_ref:[+ref, -pro, -ana, +class]
+                tab_ref:[+ref, -pro, -ana, +class]
+aspetto:stato
+rel1:[td(f1_t14)=tr(f1_t14)]
+rel2:[incluso(tr(f1_t14), tes(f1_t14))]
+definitezza:-
+ref_int:[tr(f1_t14)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn5, duration, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, tempo], sogg/tema_bound)/119
+ ref_ex(sn6, fall, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita, danger, evento, luogo, tempo], ogg/tema)/131
+ ref_ex(sn7, pro, [+ref, +def, nil, nil, +pro, -ana, -me], nil, nil, nil, [astratto, tempo], ncomp/prop)/145
+
+
+rel_temp(infon124, td, tr(f1_t14), [eq])
+
+
+CLAUSE IDENTIFIER:               4-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f1_t14), tes(sn59_t13))
+DISCOURSE FOCUS:                 tes(f1_t14)
+DISCOURSE RELATION:              explanation
+DISCOURSE DOMAIN:                implicit_subjective
+SUBJECT OF CONSCIOUSNESS:        object/_G923, from, 3-n1
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(4, retaining)
+topic(4, expected, id32)
+topic(4, secondary, id21)
+topic(4, potential, id33)
+sr(sogg-tema_bound, be, duration)
+sr(ncomp-prop, be, pro)
+
+
+'######################  LOGICAL FORM ###############'
+wff(be,
+    < definito : sn5 :
+        wff(and,
+            wff(and,
+                wff(has,
+                    < definito : sn6 :
+                        wff(isa,
+                            sn6,
+                            fall) >>),
+                wff(isa,
+                    sn5,
+                    duration)),
+            []) >>,
+    wff(pro,
+        wff(focus,
+            < definito : sn4 :
+                wff(isa,
+                    sn4,
+                    what) >>),
+        < definito : sn7 :
+            wff(and,
+                wff(and,
+                    wff(has,
+                        wff(focus,
+                            < definito : sn4 :
+                                wff(isa,
+                                    sn4,
+                                    what) >>)),
+                    wff(isa,
+                        sn7,
+                        pro)),
+                []) >>),
+    < state : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                st),
+            wff(time,
+                f1,
+                < indefinito : t7 :
+                    wff(and,
+                        wff(isa,
+                            t7,
+                            tloc),
+                        wff(pres,
+                            t7)) >>)) >>)
+
+
+
+loc(infon125, id31, [arg:main_tloc, arg:tes(sn59_t13)])
+ind(infon126, id32)
+fact(infon127, pro, [nil:id32], 1, id31, id20)
+fact(infon128, duration, [ind:id32], 1, id31, id20)
+fact(infon129, of, [arg:id32, specif:id32], 1, univ, univ)
+fact(infon130, inst_of, [ind:id32, class:abstract_state], 1, univ, univ)
+fact(infon131, isa, [ind:id32, class:duration], 1, id31, id20)
+ind(infon132, id33)
+fact(infon133, inst_of, [ind:id33, class:place], 1, univ, univ)
+fact(infon134, isa, [ind:id33, class:fall], 1, id31, id20)
+fact(infon136, has, [tema:id33], 1, id31, id20)
+fact(infon138, focus, [arg:id34], 1, id31, id20)
+fact(infon139, isa, [arg:id34, arg:what], 1, id31, id20)
+fact(infon140, focus, [arg:id34], 1, id31, id20)
+fact(infon142, has, [arg:id34], 1, id31, id20)
+fact(infon143, isa, [arg:id35, arg:pro], 1, id31, id20)
+fact(infon144, pro, [arg:id34, prop:id35], 1, id31, id20)
+fact(id36, be, [prop:infon144], 1, tes(f1_t14), id20)
+fact(infon145, isa, [arg:id36, arg:st], 1, tes(f1_t14), id20)
+fact(infon146, isa, [arg:id37, arg:tloc], 1, tes(f1_t14), id20)
+fact(infon147, pres, [arg:id37], 1, tes(f1_t14), id20)
+fact(infon148, time, [arg:id36, arg:id37], 1, tes(f1_t14), id20)
+fact(infon155, perf, [arg:id38, ask:id36], 1, id31, id20)
+
+during(tes(f1_t14), tes(sn59_t13))
+includes(tr(f1_t14), id31)
+
+
+                  down:down(3-3)
+                  clause:4-4
+                  topics:[expected:id32:duration, secondary:id22:resistance]
+                  main_fact:be([infon144:pro], 1, id20)
+                  ref_int:tint(nil, [tes(f1_t14)])
+                  temp_rel:during(tes(f1_t14), tes(sn59_t13))
+                  disc_rel:explanation
+                  disc_seg:3-[4]
+                  disc_dom:subjective
+                  p_o_view:object

@@ -1,0 +1,41 @@
+Minimal pairs for [t] vs. [d] in initial position:
+t 	d 			+ 	£ 	… 	a 	b 	c 	ç 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	u 	v 	x 	y 	z 
+ta 	da 			£a 	…a 	ca 	ea 	fa 	ga 	ha 	la 	ma 	na 	oa 	sa 	va 	xa 	za 
+tal 	dal 			mal 	pal 	val 
+tase 	dase 			case 	vase 
+te 	de 			£e 	…e 	be 	ce 	ge 	he 	ke 	le 	me 	ne 	re 	se 	ve 	xe 	ye 
+te£a 	de£a 			be£a 	ke£a 	ne£a 	xe£a 
+te£e 	de£e 			be£e 	ke£e 	pe£e 	xe£e 
+tei 	dei 			bei 	kei 	xei 
+tel 	del 			bel 	kel 	nel 	sel 
+tenti 	denti 			senti 	venti 
+th 	dh 			ah 	ch 	eh 	fh 	gh 	oh 	sh 	uh 
+ti 	di 			£i 	ai 	ci 	ii 	ki 	li 	mi 	pi 	si 
+tirà 	dirà 		
+to 	do 			£o 	co 	go 	ho 	ko 	lo 	no 	oo 	so 	uo 	vo 	xo 	zo 
+town 	down 		
+tz 	dz 			sz 	xz 	zz 
+
+Minimal pairs for [t] vs. [d] in medial position:
+alfabeto 	alfabedo 		
+cuanto 	cuando 		
+fonètego 	fonèdego 		
+laoratori 	laoradori 		
+latìn 	ladìn 		
+moto 	modo 			mo£o 	mono 	moso 
+natura 	nadura 		
+po£itega 	po£idega 		
+rente 	rende 		
+sconti 	scondi 		
+sconto 	scondo 		
+sete 	sede 			sere 
+sorte 	sorde 		
+soto 	sodo 			so£o 	solo 	sono 
+venètego 	venèdego 		
+verte 	verde 			verme 	verne 	verve 
+verti 	verdi 			verbi 	verxi 
+vita 	vida 			vila 	viva 
+vuto 	vudo 		
+xugator 	xugador 		
+
+Minimal pairs for [t] vs. [d] in final position:

@@ -1,0 +1,444 @@
+Ratio of Tags per Word for Sentence no: 5
+Word Ambiguity Ratio: 1.70968
+'Lookahead Start Active Chart'
+0-[r-we], 1-[v-would], 2-[a-like, av-like, e-like, n-like, p-like, s-like, v-like], 3-[a-our], 4-[n-school, v-school], 5-[p-to], 6-[n-work, v-work], 7-[s-similarly_to], 8-[d-the], 9-[a-'French', n-'French'], 10-[r-ones], 11-[x- (',')], 12-[r-which, w-which], 13-[a-live, n-live, v-live], 14-[p-from], 15-[n-donations], 16-[x- (',')], 17-[p-from], 18-[d-the], 19-[a-merchandising, n-merchandising, v-merchandising], 20-[e-and], 21-[d-even, e-even, v-even], 22-[p-from], 23-[d-the], 24-[n-raffles, v-raffles], 25-[a-that, c-that, r-that], 26-[n-children], 27-[a-sell, n-sell, v-sell], 28-[p-in], 29-[n-school, v-school], 30-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.45161
+0-[r-we], 1-[v-would], 2-[a-like, av-like, e-like, n-like, p-like, s-like, v-like], 3-[a-our], 4-[n-school], 5-[p-to], 6-[n-work, v-work], 7-[s-similarly_to], 8-[d-the], 9-[n-'French'], 10-[r-ones], 11-[x- (',')], 12-[r-which, w-which], 13-[a-live, n-live, v-live], 14-[p-from], 15-[n-donations], 16-[x- (',')], 17-[p-from], 18-[d-the], 19-[a-merchandising, n-merchandising, v-merchandising], 20-[e-and], 21-[d-even, e-even, v-even], 22-[p-from], 23-[d-the], 24-[n-raffles], 25-[c-that], 26-[n-children], 27-[v-sell], 28-[p-in], 29-[n-school], 30-[x-'.']
+
+0-[r-we], 1-[v-would], 2-[a-like, av-like, e-like, n-like, p-like, s-like, v-like], 3-[a-our], 4-[n-school], 5-[p-to], 6-[n-work, v-work], 7-[s-similarly_to], 8-[d-the], 9-[n-'French'], 10-[r-ones], 11-[x- (',')], 12-[r-which, w-which], 13-[a-live, n-live, v-live], 14-[p-from], 15-[n-donations], 16-[x- (',')], 17-[p-from], 18-[d-the], 19-[a-merchandising, n-merchandising, v-merchandising], 20-[e-and], 21-[d-even, e-even, v-even], 22-[p-from], 23-[d-the], 24-[n-raffles], 25-[c-that], 26-[n-children], 27-[v-sell], 28-[p-in], 29-[n-school], 30-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+5
+we-prp
+would-md
+like-vb
+our-prp$
+school-nn
+to-to
+work-vbd
+similarly_to-in
+the-dt
+French-nnp
+ones-prp
+(,)-pun
+which-wdt
+live-vb
+from-in
+donations-nns
+(,)-pun
+from-in
+the-dt
+merchandising-nn
+and-cc
+even-rb
+from-in
+the-dt
+raffles-nns
+that-dt
+children-nn
+sell-vbd
+in-in
+school-nn
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[we-pron, would-vsup, like-v, our-ag, school-n, to-p, work-vin, similarly_to-cosu, the-art, 'French'-n, ones-pron, (',')-punt, which-rel, live-vbin, from-p, donations-n, (',')-punt, from-p, the-art, merchandising-n, and-cong, even-in, from-p, the-art, raffles-n, that-rel, children-n, sell-vin, in-p, school-n, '.'-punto]
+
+f-[subj-[we-pron-sn], ibar-[would-vsup-ibar], sq-[like-ccom-sq], sn-[our-ag-sn, school-n-sn], vcomp-[to-p-_G18490, work-vin-ibar], fs-[similarly_to-cosu-fs], sn-[the-art-sn, 'French'-n-sn], sn-[ones-pron-sn], fp-[ (',')-punt-fp], f2-[f2-[which-rel-f2], f-[subj-pro, ibar-[live-vbin-ibar], sp-[from-p-sp, donations-n-sn]]], fp-[ (',')-punt-fp], sp-[from-p-sp, the-art-sn, merchandising-n-sn], fc-[and-cong-fc], savv-[even-in-savv], sp-[from-p-sp, the-art-sn, raffles-n-sn, fac-[fac-[that-pk-fac], f-[subj-[children-n-sn], ibar-[sell-vin-ibar], sp-[in-p-sp, school-n-sn], cp-['.'-punto-cp]]]]]
+
+5
+
+
+'Functional and Syntactic Constituency'
+
+subj-[we-pron-sn]
+ibar-[would-vsup-ibar]
+obj-[like-ccom-sq, our-ag-sn, school-n-sn, vcomp-[to-p-_G18490, work-vin-ibar]]
+fs-[fs-[similarly_to-cosu-fs], subj-[the-art-sn, French-n-sn], obj-[ones-pron-sn, f2-[f2-[which-rel-f2], f-[subj-pro, ibar-[live-vbin-ibar], sp-[from-p-sp, donations-n-sn]]]]]
+obl-[from-p-sp, the-art-sn, merchandising-n-sn]
+fc-[and-cong-fc]
+savv-[even-in-savv]
+obl-[from-p-sp, the-art-sn, raffles-n-sn, fac-[fac-[that-pk-fac], f-[subj-[children-n-sn], ibar-[sell-vin-ibar], sp-[in-p-sp, school-n-sn]]]]
+ip(indice(sn47), v(like, active, [[sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], f/fcomp/propadj/[subj=x]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], acomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [sn/sogg/esperiente/[umano], vcomp/prop/to/[sogg=sogg/esperiente]], [sn/sogg/esperiente/[umano, animato], sn/ogg/tema_emot/[stato, umano, animato, oggetto]]], cond, pass/_G1087, _G1082, _G55243, _G1084), supporto(will), cat(emotivo), args([arg(funzione(sogg), ruolo(actor), sn(indice(sn6), cat([umano]), pr(clitico, _G1028, we, 1, _G1022, plur, [nom]), spec(def(+), part(_G1018), mod(_G1049), foc(_G1019), card(_G1017), quant([])), args([]), mods([]), adjs([]))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn9), cat([luogo]), n(school, _G1551, sing), spec(def(+), part(_G1540), mod([]), foc(_G1544), card(_G1528), quant([])), args([arg(funzione(sogg), ruolo(poss), sn(indice(sn10), cat([]), possessivo(our, _G1529, plur), spec(def(+))))]), mods([]), adjs([]))), arg(funzione(vcomp), ruolo(result), infinitiva(indice(finf3), v(work, [sn/sogg/actor/[umano, oggetto]], base, pres/semp, _G1612, _G1613, _G1614), supporto([]), cat(attivita), args([arg(funzione(sogg), ruolo(actor), sn(indice(sn11), cat([umano, oggetto]), pr(pro_grande, pPro, _G2177, _G2178, _G2179, [nom]), spec([]), controllore(_G2187)))]), adjs([])))]), adjs([adj(sub(similarly_to), relazione(compar), subordinato(sn(indice(sn12), cat([attivita, informa, luogo, relat, sociale, umano]), n(French, mas, sing), spec(def(+), part(_G2244), mod([]), foc(_G2248), card(_G2233), quant([])), args([]), mods([]), adjs([])))), adj(valutativo, saa(indice(sn13), cat([umano]), pr(clitico, _G2385, ones, 3, _G2369, plur, [nom, acc, obl]), spec(def(+), part(_G2360), mod(_G2406), foc(_G2364), card(_G2349), quant([])), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn46), pr(vbl, vbl, _G55102, _G55103, _G55104, _G55105), controllore(indefinito)))]), adjs([])))]))
+
+
+
+
+ip(
+ indice(sn47),
+ v(like, active, [[sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], f/fcomp/propadj/[subj=x]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], acomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [sn/sogg/esperiente/[umano], vcomp/prop/to/[sogg=sogg/esperiente]], [sn/sogg/esperiente/[umano, animato], sn/ogg/tema_emot/[stato, umano, animato, oggetto]]], cond, pass/_G1087, _G1082, _G55243, _G1084),
+ supporto(will),
+ cat(emotivo),
+ args(
+   [
+   arg(
+    funzione(sogg),
+    ruolo(actor),
+    sn(
+     indice(sn6),
+     cat([umano]),
+     pr(clitico, _G1028, we, 1, _G1022, plur, [nom]),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(ogg),
+    ruolo(theme_aff),
+    sn(
+     indice(sn9),
+     cat([luogo]),
+     n(school, _G1551, sing),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(poss),
+        sn(
+         indice(sn10),
+         cat([]),
+         possessivo(our, _G1529, plur),
+         spec(
+          def(+)
+          )
+         )
+        )
+       ]
+      ),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(vcomp),
+    ruolo(result),
+    infinitiva(
+     indice(finf3),
+     v(work, [sn/sogg/actor/[umano, oggetto]], base, pres/semp, _G1612, _G1613, _G1614),
+     supporto([]),
+     cat(attivita),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(actor),
+        sn(
+         indice(sn11),
+         cat([umano, oggetto]),
+         pr(pro_grande, pPro, _G2177, _G2178, _G2179, [nom]),
+         spec([]),
+         controllore([])
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    )
+   ]
+  ),
+ adjs(
+   [
+   adj(
+    sub(similarly_to),
+    relazione(
+     compar
+     ),
+    subordinato(
+     sn(
+      indice(sn12),
+      cat([attivita, informa, luogo, relat, sociale, umano]),
+      n(French, mas, sing),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    ),
+   adj(
+    valutativo,
+    saa(
+     indice(sn13),
+     cat([umano]),
+     pr(clitico, _G2385, ones, 3, _G2369, plur, [nom, acc, obl]),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn46),
+         pr(vbl, vbl, _G55102, _G55103, _G55104, _G55105),
+         controllore(indefinito)
+         )
+        )
+       ]
+      ),
+     adjs([])
+     )
+    )
+   ]
+  )
+ )
+indice:sn47
+pred:like
+lex_form:[[sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], f/fcomp/propadj/[subj=x]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], acomp/prop/[subj=ogg]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], xcomp/prop/[subj=ogg]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/theme_unaff/[any], xcomp/prop/[subj=sogg]], [sn/sogg/esperiente/[umano], vcomp/prop/to/[sogg=sogg/esperiente]], [sn/sogg/esperiente/[umano, animato], sn/ogg/tema_emot/[stato, umano, animato, oggetto]]]
+voice:active
+modo:cond
+tempo:past
+supporto:will
+cat:emotivo
+sogg/actor:indice:sn6
+           cat:[umano]
+           pred:we
+           pers:1
+           num:plur
+           caso:[nom]
+           spec:def:+
+           tab_ref:[+ref, +pro, +ana, +me]
+           antecedente:esterno
+           interpretazione:definita
+ogg/theme_aff:indice:sn9
+              cat:[luogo]
+              pred:school
+              num:sing
+              pers:3
+              spec:def:+
+              sogg/poss:indice:sn10
+                        cat:[]
+                        pred:our
+                        num:plur
+                        spec:def:+
+                        tab_ref:[+ref, +pro, -ana, +me]
+                        antecedente:sn11
+                        interpretazione:definita
+              tab_ref:[+ref, -pro, -ana, +class]
+vcomp/result:indice:finf3
+             pred:work
+             lex_form:[sn/sogg/actor/[umano, oggetto]]
+             modo:base
+             tempo:pres
+             cat:attivita
+             sogg/actor:indice:sn11
+                        cat:[umano, oggetto]
+                        pred:pPro
+                        tab_ref:[+ref, +pro, +ana, -me]
+                        antecedente:sn6
+                        interpretazione:definita
+             aspetto:attivita
+adjs:adj:sem_mark:similarly_to
+         sub/compar:indice:sn12
+                    cat:[attivita, informa, luogo, relat, sociale, umano]
+                    pred:'French'
+                    gen:mas
+                    num:sing
+                    pers:3
+                    spec:def:+
+                    tab_ref:[+ref, -pro, -ana, +class]
+     adj/valutativo:indice:sn13
+                    cat:[umano]
+                    pred:ones
+                    pers:3
+                    num:plur
+                    caso:[nom, acc, obl]
+                    spec:def:+
+                    sogg/nil:indice:sn46
+                             pred:vbl
+                             controllore:indefinito
+                             tab_ref:[+ref, -pro, -ana, -me]
+                    tab_ref:[+ref, +pro, +ana, +me]
+                    antecedente:esterno
+                    interpretazione:definita
+aspetto:stato
+rel1:[td(sn47_t45)aftr tr(sn47_t45)]
+rel2:[tr(sn47_t45)=tes(sn47_t45)]
+definitezza:-
+ref_int:[tr(sn47_t45)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn6, we, [+ref, +def, nil, nil, +pro, +ana, +me], 1, nil, plur, [umano], sogg/actor)/ -14
+ ref_ex(sn9, school, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [luogo], ogg/theme_aff)/21
+ ref_ex(sn12, French, [+ref, +def, nil, nil, -pro, -ana, +class], 3, mas, sing, [attivita, informa, luogo, relat, sociale, umano], sub/compar)/96
+ ref_ex(sn13, ones, [+ref, +def, nil, nil, +pro, +ana, +me], 3, nil, plur, [umano], adj/valutativo)/1020
+
+
+MAIN TOPIC : ref_ex(sn6, we, _G14106, 1, nil, plur, [umano], sogg/actor)
+SECONDARY TOPIC : ref_ex(sn20, Joao, _G14121, 3, nil, plur, [umano, animato], _G14134/_G14135)
+POTENTIAL TOPICS : ref_ex(sn9, school, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [luogo], ogg/theme_aff), ref_ex(sn12, 'French', [+ref, +def, nil, nil, -pro, -ana, +class], 3, mas, sing, [attivita, informa, luogo, relat, sociale, umano], sub/compar), ref_ex(sn13, 'Joao', [+ref, +def, nil, nil, +pro, +ana, +me], 3, nil, plur, [umano], adj/valutativo)
+
+stato(5, shifting)
+
+
+
+CLAUSE IDENTIFIER:               5-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      nonfactive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn47_t45), tes(f1_t44))
+DISCOURSE FOCUS:                 tes(sn47_t45)
+DISCOURSE RELATION:              setting
+DISCOURSE DOMAIN:                pre_subjective(5-n1, sn6, we)+explicit_subjective
+SUBJECT OF CONSCIOUSNESS:        we/sn6, from, 5-n1
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(5, shifting)
+topic(5, secondary, id17)
+topic(5, potential, id3)
+sr(adj-prop, poss, school, our)
+sr(sogg-actor, work, pPro)
+sr(sogg-actor, like, we)
+sr(ogg-theme_aff, like, school)
+sr(vcomp-result, like, work)
+sr(adj-valutativo, like, ones)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(like,
+        < plural : sn6 :
+            wff(and,
+                wff(isa,
+                    sn6,
+                    we),
+                wff(antecedente,
+                    sn6,
+                    esterno)) >>,
+        < definito : sn9 :
+            wff(and,
+                wff(isa,
+                    sn9,
+                    school),
+                wff(poss,
+                    sn9,
+                    < plural : sn10 :
+                        wff(and,
+                            wff(isa,
+                                sn10,
+                                our),
+                            wff(antecedente,
+                                sn10,
+                                sn11)) >>)) >>,
+        wff(situation,
+            wff(work,
+                < definito : sn11 :
+                    wff(and,
+                        wff(isa,
+                            sn11,
+                            pPro),
+                        wff(antecedente,
+                            sn11,
+                            sn6)) >>,
+                < process : finf3 :
+                    wff(and,
+                        wff(isa,
+                            finf3,
+                            pr),
+                        wff(time,
+                            finf3,
+                            < indefinito : t13 :
+                                wff(and,
+                                    wff(isa,
+                                        t13,
+                                        tloc),
+                                    wff(pres,
+                                        t13)) >>)) >>)),
+        < state : sn47 :
+            wff(and,
+                wff(isa,
+                    sn47,
+                    st),
+                wff(and,
+                    wff(time,
+                        sn47,
+                        < indefinito : t14 :
+                            wff(and,
+                                wff(isa,
+                                    t14,
+                                    tloc),
+                                wff(past,
+                                    t14)) >>),
+                    wff(ones,
+                        sn47))) >>))
+
+
+
+loc(infon218, id50, [arg:main_tloc, arg:tes(f1_t44)])
+ind(infon219, id51)
+fact(infon220, inst_of, [ind:id51, class:man], 1, univ, univ)
+fact(infon221, isa, [ind:id51, class:'French'], 1, id50, id30)
+fact(infon222, relat, ['French', id17, id51], 1, id50, id30)
+fact(infon223, isa, [arg:id52, arg:we], 1, id50, id30)
+sit(id54, work, [actor:id52], 1, tes(finf3_t45), id30)
+sit(infon226, isa, [arg:id54, arg:pr], 1, tes(finf3_t45), id30)
+fact(infon227, isa, [arg:id55, arg:tloc], 1, tes(finf3_t45), id30)
+fact(infon228, pres, [arg:id55], 1, tes(finf3_t45), id30)
+sit(infon229, time, [arg:id54, arg:id55], 1, tes(finf3_t45), id30)
+sit(id56, like, [actor:id52, theme_aff:id3, result:id54], 1, tes(sn47_t45), id30)
+sit(infon230, isa, [arg:id56, arg:st], 1, tes(sn47_t45), id30)
+fact(infon231, isa, [arg:id57, arg:tloc], 1, tes(sn47_t45), id30)
+fact(infon232, past, [arg:id57], 1, tes(sn47_t45), id30)
+sit(infon233, time, [arg:id56, arg:id57], 1, tes(sn47_t45), id30)
+sit(infon234, ones, [arg:id56], 1, tes(sn47_t45), id30)
+fact(infon241, know, [arg:id58, know:id56], 1, id50, id30)
+
+during(tes(sn47_t45), tes(f1_t44))
+includes(tr(sn47_t45), id50)
+
+
+   up:to(1-1)
+   clause:5-9
+   topics:[main:id52:we, secondary:id17:'Joao']
+   main_fact:like([id52:we, id3:school, id54:pr], 1, id30)
+   ref_int:tint(nil, [tes(sn47_t45)])
+   temp_rel:during(tes(sn47_t45), tes(f1_t44))
+   disc_rel:setting
+   disc_seg:8-[9]
+   disc_dom:subjective
+   p_o_view:we

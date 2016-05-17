@@ -1,0 +1,259 @@
+Ratio of Tags per Word for Sentence no: 2
+Word Ambiguity Ratio: 1.375
+'Lookahead Start Active Chart'
+0-[av-'There', v-'There'], 1-[v-was], 2-[d-a], 3-[n-table, v-table], 4-[p-in], 5-[d-the], 6-[n-corner, v-corner], 7-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1
+0-[v-'There'], 1-[v-was], 2-[d-a], 3-[n-table], 4-[p-in], 5-[d-the], 6-[n-corner], 7-[x-'.']
+
+0-[v-'There'], 1-[v-was], 2-[d-a], 3-[n-table], 4-[p-in], 5-[d-the], 6-[n-corner], 7-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+2
+There-vbd
+was-vbd
+a-dt
+table-nns
+in-in
+the-dt
+corner-nn
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+['There'-vin, was-ause, a-art, table-n, in-p, the-art, corner-n, '.'-punto]
+
+cp-[ibar-['There'-vin-ibar], f-[subj-[a-art-sn, table-n-sn, obl-[in-p-sp, the-art-sn, corner-n-sn]], ibar-[was-ause-ibar], cp-['.'-punto-cp]]]
+
+2
+
+
+'Functional and Syntactic Constituency'
+
+cp-[ibar-[There-vin-ibar]]
+subj-[a-art-sn, table-n-sn, obl-[in-p-sp, the-art-sn, corner-n-sn]]
+ibar-[was-ause-ibar]
+
+['.']
+
+
+ip(
+ indice(f3),
+ v(there_be, active, [sn/sogg/tema_bound/[_G51401|_G51402], xcomp/prop/[_G51413|_G51414]], ind, _G47019/semp, _G46746, sing, _G46748),
+ supporto([]),
+ cat(esistenza),
+ args(
+   [
+   arg(
+    funzione(pcomp),
+    ruolo(locativo),
+    sp(
+     prep(in),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn7),
+         pr(vbl, vbl, _G564, _G565, _G566, _G567),
+         controllore(sn5)
+         )
+        ),
+       arg(
+        funzione(ogg),
+        ruolo(locativo),
+        sn(
+         indice(sn6),
+         cat([luogo, oggetto]),
+         n(corner, _G489, sing),
+         spec(
+          def(+),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods([]),
+         adjs([])
+         )
+        )
+       ]
+      ),
+     mods(
+       [
+       []
+       ]
+      )
+     )
+    ),
+   arg(
+    funzione(sogg),
+    ruolo(tema_nonaff),
+    sn(
+     indice(sn5),
+     cat([luogo, oggetto]),
+     n(table, _G440, sing),
+     spec(
+      def(-),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    )
+   ]
+  ),
+ adjs([])
+ )
+indice:f3
+pred:there_be
+lex_form:[sn/sogg/tema_bound/[_G4991|_G4992], xcomp/prop/[_G5003|_G5004]]
+voice:active
+modo:ind
+tempo:pres
+cat:esistenza
+pcomp/locativo:sem_mark:in
+               sogg/nil:indice:sn7
+                        pred:vbl
+                        controllore:sn5
+                        tab_ref:[+ref, -pro, -ana, -me]
+               ogg/locativo:indice:sn6
+                            cat:[luogo, oggetto]
+                            pred:corner
+                            num:sing
+                            pers:3
+                            spec:def:+
+                            tab_ref:[+ref, -pro, -ana, +class]
+               mods:[]
+sogg/tema_nonaff:indice:sn5
+                 cat:[luogo, oggetto]
+                 pred:table
+                 num:sing
+                 pers:3
+                 spec:def:-
+                 tab_ref:[+ref, -pro, -ana, +class]
+aspetto:stato
+rel1:[td(f3_t32)=tr(f3_t32)]
+rel2:[incluso(tr(f3_t32), tes(f3_t32))]
+definitezza:-
+ref_int:[tr(f3_t32)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn5, table, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [luogo, oggetto], sogg/tema_nonaff)/19
+ ref_ex(sn6, corner, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [luogo, oggetto], ogg/locativo)/41
+
+MAIN TOPIC : ref_ex(sn4, John, _G7760, 3, mas, sing, [umano], _G7765)
+stato(2, continua)
+
+rel_temp(infon18, td, tr(f3_t32), [eq])
+
+
+CLAUSE IDENTIFIER:               2-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f3_t32), tes(f1_t31))
+DISCOURSE FOCUS:                 tes(f3_t32)
+DISCOURSE RELATION:              explanation
+DISCOURSE DOMAIN:                subjective
+SUBJECT OF CONSCIOUSNESS:        'John'/_G8651, from, 2-n1
+
+
+
+
+after(tes(f4_id8), tes(f1_t31))
+
+'RHETORICAL STRUCTURE:'
+stato(2, continua)
+topic(2, main, id3)
+topic(2, potential, id7)
+sr(sogg-tema_nonaff, there_be, table)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(there_be,
+        < indefinito : sn5 :
+            wff(isa,
+                sn5,
+                table) >>,
+        wff(in,
+            < definito : sn7 :
+                wff(and,
+                    wff(isa,
+                        sn7,
+                        vbl),
+                    wff(controllore,
+                        sn7,
+                        sn5)) >>,
+            < definito : sn6 :
+                wff(isa,
+                    sn6,
+                    corner) >>),
+        < state : f3 :
+            wff(and,
+                wff(isa,
+                    f3,
+                    st),
+                wff(time,
+                    f3,
+                    < indefinito : t2 :
+                        wff(and,
+                            wff(isa,
+                                t2,
+                                tloc),
+                            wff(pres,
+                                t2)) >>)) >>))
+
+
+
+loc(infon19, id6, [arg:main_tloc, arg:tes(f1_t31)])
+ent(infon20, id7)
+fact(infon21, inst_of, [ind:id7, class:place], 1, univ, univ)
+fact(infon22, isa, [ind:id7, class:table], 1, id6, id2)
+in(infon23, id7, id2)
+fact(id8, sit, [actor:id3, locat:id7], 1, tes(f4_id8), id2)
+fact(infon24, isa, [arg:id8, arg:ev], 1, tes(f4_id8), id2)
+fact(infon25, isa, [arg:id9, arg:tloc], 1, tes(f4_id8), id2)
+fact(infon26, isa, [arg:id9], 1, tes(f4_id8), id2)
+ind(infon27, id10)
+fact(infon28, inst_of, [ind:id10, class:place], 1, univ, univ)
+fact(infon29, isa, [ind:id10, class:corner], 1, id6, id2)
+fact(infon30, part_of, [restaurant, id10, id2], 1, id6, id2)
+fact(infon33, in, [nil:id7, locativo:id10], 1, id6, id2)
+fact(id11, there_be, [tema_nonaff:id7, prop:infon33], 1, tes(f3_t32), id2)
+fact(infon34, isa, [arg:id11, arg:st], 1, tes(f3_t32), id2)
+fact(infon35, isa, [arg:id12, arg:tloc], 1, tes(f3_t32), id2)
+fact(infon36, pres, [arg:id12], 1, tes(f3_t32), id2)
+fact(infon37, time, [arg:id11, arg:id12], 1, tes(f3_t32), id2)
+
+during(tes(f3_t32), tes(f1_t31))
+includes(tr(f3_t32), id6)
+
+
+            down:down(1-1)
+            clause:2-2
+            topics:[main:id3:'John']
+            main_fact:there_be([id7:restaurant, infon33:in], 1, id2)
+            ref_int:tint(nil, [tes(f3_t32)])
+            temp_rel:during(tes(f3_t32), tes(f1_t31))
+            disc_rel:explanation
+            disc_seg:1-[2]
+            disc_dom:subjective
+            p_o_view:'John'

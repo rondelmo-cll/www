@@ -1,0 +1,201 @@
+Ratio of Tags per Word for Sentence no: 2
+Word Ambiguity Ratio: 1.83333
+'Lookahead Start Active Chart'
+0-[r-i], 1-[v-am], 2-[e-not, g-not], 3-[a-ready, av-ready, n-ready, v-ready], 4-[av-yet, e-yet], 5-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.16667
+0-[r-i], 1-[v-am], 2-[g-not], 3-[v-ready], 4-[av-yet, e-yet], 5-[x-'.']
+
+0-[r-i], 1-[v-am], 2-[g-not], 3-[v-ready], 4-[av-yet, e-yet], 5-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+2
+i-prp
+am-vbp
+not-rb
+ready-vbd
+yet-rb
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[i-pron, am-ause, not-neg, ready-vin, yet-avv, '.'-punto]
+
+f-[subj-[i-pron-sn], ibar-[am-ause-ibar, not-neg-ibar, ready-vppt-ibar], savv-[yet-avv-savv], cp-['.'-punto-cp]]
+
+2
+
+
+'Functional and Syntactic Constituency'
+
+subj-[i-pron-sn]
+savv-[yet-avv-savv]
+ibar-[am-ause-ibar, not-neg-ibar, ready-vppt-ibar]
+
+['.']
+
+
+ip(
+ indice(f1),
+ v(ready, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any], sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], ind, pres/semp, 1, sing, _G34891),
+ supporto([]),
+ cat(risultato),
+ args(
+   [
+   arg(
+    funzione(sogg),
+    ruolo(agent),
+    sn(
+     indice(sn4),
+     cat([umano]),
+     pr(clitico, _G34923, i, 1, _G34891, sing, [nom]),
+     spec(
+      def(+),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(sogg),
+    ruolo(agent),
+    indefinito
+    )
+   ]
+  ),
+ adjs(
+   [
+   neg(
+    not
+    ),
+   avv(pred_avv(yet), tipo(avvers))
+   ]
+  )
+ )
+indice:f1
+pred:ready
+lex_form:[sn/sogg/agent/[any], sn/ogg/theme_aff/[any], sn/sogg/agent/[any], sn/ogg/theme_aff/[any]]
+voice:active
+modo:ind
+tempo:pres
+cat:risultato
+sogg/agent:indice:sn4
+           cat:[umano]
+           pred:i
+           pers:1
+           num:sing
+           caso:[nom]
+           spec:def:+
+           tab_ref:[+ref, +pro, +ana, +me]
+           antecedente:esterno
+           interpretazione:definita
+sogg/agent:indefinito
+adjs:neg:not
+     adj/avvers:pred:yet
+aspetto:achiev_tr
+rel1:[td(f1_t52)=tr(f1_t52)]
+rel2:[incluso(tr(f1_t52), tes(f1_t52))]
+definitezza:-
+ref_int:[tr(f1_t52)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn4, i, [+ref, +def, nil, nil, +pro, +ana, +me], 1, nil, sing, [umano], sogg/agent)/ -15
+
+
+rel_temp(infon19, td, tr(f1_t52), [eq])
+
+
+CLAUSE IDENTIFIER:               2-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             negated
+RELEVANCE:                       foreground
+TEMPORAL RELATION:               undef(tes(f1_t52), nil)
+DISCOURSE FOCUS:                 tes(f1_t52)
+DISCOURSE RELATION:              contrast
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(2, cambia)
+topic(2, potential, id15)
+sr(sogg-agent, ready, i)
+sr(adj-avvers, ready, yet)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(not,
+        wff(ready,
+            < definito : sn4 :
+                wff(and,
+                    wff(isa,
+                        sn4,
+                        i),
+                    wff(antecedente,
+                        sn4,
+                        esterno)) >>,
+            < event : f1 :
+                wff(and,
+                    wff(isa,
+                        f1,
+                        ev),
+                    wff(and,
+                        wff(time,
+                            f1,
+                            < definito : t1 :
+                                wff(and,
+                                    wff(isa,
+                                        t1,
+                                        tloc),
+                                    wff(pres,
+                                        t1)) >>),
+                        wff(yet,
+                            f1))) >>)))
+
+
+
+loc(infon20, id14, [arg:main_tloc, arg:tr(f1_t52)])
+ind(infon21, id15)
+fact(infon22, isa, [ind:id15, class:narrator], 1, id14, nil)
+fact(infon23, inst_of, [ind:id15, class:man], 1, univ, univ)
+fact(infon24, isa, [ind:id15, class:indefinite], 1, id14, nil)
+fact(id16, ready, [agent:id15], 0, tes(f1_t52), univ)
+fact(infon32, isa, [arg:id16, arg:ev], 1, tes(f1_t52), univ)
+fact(infon33, isa, [arg:id17, arg:tloc], 1, tes(f1_t52), univ)
+fact(infon34, pres, [arg:id17], 1, tes(f1_t52), univ)
+fact(infon35, time, [arg:id16, arg:id17], 1, tes(f1_t52), univ)
+fact(infon36, yet, [arg:id16], 1, tes(f1_t52), univ)
+
+undef(tes(f1_t52), nil)
+includes(tr(f1_t52), id14)
+
+
+      down:down(0-0)
+      clause:2-2
+      topics:[expected:nil:indefinite]
+      main_fact:ready([id15:narrator], 0, univ)
+      ref_int:tint(nil, [tes(f1_t52)])
+      temp_rel:undef(tes(f1_t52), nil)
+      disc_rel:contrast
+      disc_seg:1-[2]
+      disc_dom:objective
+      p_o_view:narrator
+

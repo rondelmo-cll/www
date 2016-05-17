@@ -1,0 +1,6 @@
+Minimal pairs for [zz] vs. [xz] in initial position:
+zz 	xz 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+
+Minimal pairs for [zz] vs. [xz] in medial position:
+
+Minimal pairs for [zz] vs. [xz] in final position:

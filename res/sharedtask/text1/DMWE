@@ -1,0 +1,88 @@
+DISCOURSE MODEL WORLD OF ENTITIES
+
+entity(set,id4,1,facts([
+card(infon12, id4, 5),
+fact(infon13, inst_of, [ind:id4, class:quant], 1, univ, univ),
+fact(infon14, isa, [ind:id4, class:twenty], 1, id1, univ)])).
+entity(ind,id2,9,facts([
+fact(infon111, coincide, [arg:id24, arg:id29], 1, tes(sn59_t13), id20),
+fact(infon4, isa, [ind:id2, class:object], 1, id1, univ),
+fact(infon5, inst_of, [ind:id2, class:thing], 1, univ, univ),
+fact(id9, throw, [tema_nonaff:id2, agente:id8], 1, tes(sn42_t11), univ),
+fact(id17, fall, [actor:id2, modale:id16], 1, tes(f1_t12), univ),
+fact(id29, take, [actor:id26, theme_aff:id2], 1, tes(finf1_t13), id20)])).
+entity(ind,id32,3,facts([
+fact(infon127, pro, [nil:id32], 1, id31, id20),
+fact(infon128, duration, [ind:id32], 1, id31, id20),
+fact(infon129, of, [arg:id32, specif:id32], 1, univ, univ),
+fact(infon130, inst_of, [ind:id32, class:abstract_state], 1, univ, univ),
+fact(infon131, isa, [ind:id32, class:duration], 1, id31, id20)])).
+entity(ind,id3,2,facts([
+fact(infon7, be, [ind:id3], 1, id1, univ),
+fact(infon8, of, [arg:id3, specif:id3], 1, univ, univ),
+fact(infon9, isa, [ind:id3, class:cliff], 1, id1, univ),
+fact(infon10, inst_of, [ind:id3, class:thing], 1, univ, univ),
+fact(infon36, isa, [arg:id3, arg:cliff], 1, tes(sn42_t11), univ),
+fact(infon44, from, [arg:id9, loc_origin:id3], 1, tes(sn42_t11), univ),
+fact(infon59, has, [arg:id16, tema:id3], 1, id15, univ),
+fact(infon63, isa, [arg:id3, arg:cliff], 1, id15, univ),
+fact(infon64, has, [tema:id3], 1, id15, univ)])).
+entity(ind,id6,1,facts([
+fact(infon19, vbl, [ind:id6], 1, id1, univ),
+fact(infon20, inst_of, [ind:id6, class:abstract_state], 1, univ, univ),
+fact(infon21, name, ['m-s', id6], 1, univ, univ),
+fact(infon23, of, [arg:id7, specif:id6], 1, univ, univ)])).
+entity(ind,id5,1,facts([
+fact(infon16, isa, [ind:id5, class:speed], 1, id1, univ),
+fact(infon17, inst_of, [ind:id5, class:attivita], 1, univ, univ),
+fact(infon32, isa, [arg:id5, arg:speed], 1, tes(sn42_t11), univ),
+fact(infon33, horizontal, [arg:id5], 1, tes(sn42_t11), univ),
+fact(infon34, with, [arg:id9, nil:id5], 1, tes(sn42_t11), univ)])).
+entity(ind,id33,1,facts([
+fact(infon133, inst_of, [ind:id33, class:place], 1, univ, univ),
+fact(infon134, isa, [ind:id33, class:fall], 1, id31, id20),
+fact(infon136, has, [tema:id33], 1, id31, id20)])).
+entity(ind,id22,1,facts([
+in(infon89, id22, id21),
+fact(infon87, inst_of, [ind:id22, class:substance], 1, univ, univ),
+fact(infon88, isa, [ind:id22, class:air], 1, id19, id20),
+fact(*, air, [ind:id22], 1, id19, id20),
+fact(*, negligible, [nil:id22], 1, id19, id20),
+fact(*, of, [arg:id22, specif:id21], 1, univ, univ),
+fact(*, inst_of, [ind:id22, class:institution], 1, univ, univ),
+fact(*, isa, [ind:id22, class:resistance], 1, id19, id20),
+fact(*, has, [nil:id22], 1, id19, id20),
+fact(*, negligible, [nil:id22, arg:id23], 1, id19, id20)])).
+entity(ind,id20,1,facts([
+fact(infon84, inst_of, [ind:id20, class:place], 1, univ, univ),
+fact(infon85, isa, [ind:id20, class:ground], 1, id19, id20),
+fact(infon100, isa, [arg:id20, arg:ground], 1, tes(sn59_t13), id20),
+fact(id27, fall, [esperiente:id26, goal:id20], 1, tes(finf4_t13), id20),
+fact(infon76, main_sloc, ground, 1, univ, _G11695)])).
+entity(ind,id16,1,facts([
+fact(infon59, has, [arg:id16, tema:id3], 1, id15, univ),
+fact(infon60, inst_of, [ind:id16, class:abstract_state], 1, univ, univ),
+fact(infon61, isa, [ind:id16, class:height], 1, id15, univ),
+fact(id17, fall, [actor:id2, modale:id16], 1, tes(f1_t12), univ)])).
+entity(ind,id31,0,facts([
+fact(infon125, main_tloc, tes(sn59_t13), 1, tes(sn59_t13), _G11972)])).
+entity(ind,id19,0,facts([
+fact(infon75, main_tloc, tes(f1_t12), 1, tes(f1_t12), _G12028)])).
+entity(ind,id15,0,facts([
+fact(infon57, main_tloc, tes(sn42_t11), 1, tes(sn42_t11), _G12084)])).
+entity(ind,id1,0,facts([
+fact(infon2, main_tloc, tr(sn42_t11), 1, tr(sn42_t11), _G12140)])).
+entity(class,id21,5,facts([
+fact(infon78, air, [ind:id21], 1, id19, id20),
+fact(infon79, negligible, [nil:id21], 1, id19, id20),
+fact(infon80, of, [arg:id21, specif:id21], 1, univ, univ),
+fact(infon81, inst_of, [ind:id21, class:institution], 1, univ, univ),
+fact(infon82, isa, [ind:id21, class:resistance], 1, id19, id20),
+fact(infon92, has, [nil:id21], 1, id19, id20),
+fact(infon94, negligible, [nil:id21, arg:id23], 1, id19, id20)])).
+entity(class,id7,1,facts([
+fact(infon23, of, [arg:id7, specif:id6], 1, univ, univ),
+fact(infon24, inst_of, [ind:id7, class:col], 1, univ, univ),
+fact(infon25, isa, [ind:id7, class:high], 1, id1, univ)])).
+
+

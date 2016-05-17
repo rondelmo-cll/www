@@ -1,0 +1,635 @@
+Ratio of Tags per Word for Sentence no: 2
+Word Ambiguity Ratio: 1.44444
+'Lookahead Start Active Chart'
+0-[p-in], 1-[n-'Mortagua'], 2-[x- (',')], 3-[n-'Joao_Pedro'], 4-[nh-'Fonseca'], 5-[e-and], 6-[n-'Marta_Gomes'], 7-[n-coordinate, v-coordinate], 8-[d-the], 9-[n-project, v-project], 10-[a-that, c-that, r-that], 11-[a-seven, n-seven], 12-[n-people, v-people], 13-[v-develop], 14-[p-in], 15-[a-this, r-this], 16-[n-school, v-school], 17-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.11111
+0-[p-in], 1-[n-'Mortagua'], 2-[x- (',')], 3-[n-'Joao_Pedro'], 4-[nh-'Fonseca'], 5-[e-and], 6-[n-'Marta_Gomes'], 7-[v-coordinate], 8-[d-the], 9-[n-project], 10-[c-that], 11-[a-seven, n-seven], 12-[n-people], 13-[v-develop], 14-[p-in], 15-[a-this, r-this], 16-[n-school], 17-[x-'.']
+
+0-[p-in], 1-[n-'Mortagua'], 2-[x- (',')], 3-[n-'Joao_Pedro'], 4-[nh-'Fonseca'], 5-[e-and], 6-[n-'Marta_Gomes'], 7-[v-coordinate], 8-[d-the], 9-[n-project], 10-[c-that], 11-[a-seven, n-seven], 12-[n-people], 13-[v-develop], 14-[p-in], 15-[a-this, r-this], 16-[n-school], 17-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+2
+in-in
+Mortagua-nnp
+(,)-pun
+Joao_Pedro-nnp
+Fonseca-nnp
+and-cc
+Marta_Gomes-nns
+coordinate-vbd_vbn
+the-dt
+project-nn
+that-dt
+seven-cd
+people-nns
+develop-vbd
+in-in
+this-dt
+school-nn
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[in-p, 'Mortagua'-n, (',')-punt, 'Joao_Pedro'-n, 'Fonseca'-nh, and-cong, 'Marta_Gomes'-n, coordinate-vt, the-art, project-n, that-rel, seven-num, people-n, develop-vin, in-p, this-ag, school-n, '.'-punto]
+
+cp-[sp-[in-p-sp, 'Mortagua'-n-sn], fp-[ (',')-punt-fp], sn-['Joao_Pedro'-n-sn, 'Fonseca'-nh-sn], fc-[fc-[and-cong-fc], f-[subj-['Marta_Gomes'-n-sn], ibar-[coordinate-vt-ibar], sn-[the-art-sn, project-n-sn], f2-[f2-[that-rel-f2], f-[subj-[people-n-sn, mod-[seven-num-sn]], ibar-[develop-vin-ibar], sp-[in-p-sp, this-ag-sn, school-n-sn], cp-['.'-punto-cp]]]]]]
+
+2
+
+
+'Functional and Syntactic Constituency'
+
+subj-[Marta_Gomes-n-sn]
+ibar-[coordinate-vt-ibar]
+obj-[the-art-sn, project-n-sn, f2-[f2-[that-rel-f2], f-[subj-[people-n-sn, mod-[seven-num-sn]], ibar-[develop-vin-ibar], sp-[in-p-sp, this-ag-sn, school-n-sn]]]]
+
+[in, 'Mortagua', (','), 'Joao_Pedro', 'Fonseca', and, 'Marta_Gomes', coordinate, the, project, that, seven, people, develop, in, this, school, '.']
+coord_ip(indice(f2), coord(and, coord(ip(indice(sn29), v(be, active, [[vcomp/prop/[]/[sogg=x], xcomp/prop/[_G14184|_G14185]], [vcomp/prop/[]/[sogg=ogg2], sp/ogg2/benef/for/[umano], ncomp/prop/[_G14235|_G14236]], [sn/sogg/tema_bound/[_G14253|_G14254], xcomp/prop/[_G14265|_G14266]], [sn/sogg/actor/[umano, animato], f/fcomp/prop/[sogg=sogg/actor, sogg=x]]], ind, pres, 3, _G15071, _G14144), supporto([]), cat(exist), args([arg(funzione(pcomp), ruolo(locat), sp(prep(in), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn28), pr(vbl, vbl, _G14789, _G14790, _G14791, _G14792), controllore(sn17))), arg(funzione(ogg), ruolo(locat), sn(indice(sn16), cat(nil), n(Mortagua, _G962, sing), spec(def(0), part(_G951), mod([]), foc(_G955), card(_G940), quant([])), args([]), mods([]), adjs([])))]), mods([_G14859]))), arg(funzione(sogg), ruolo(tema_bound), sn(indice(sn17), cat([umano]), n(Joao, _G1013, plur), spec(def(0), part(_G1002), mod([]), foc(_G1006), card(_G991), quant([])), args([]), mods([]), adjs([])))]), adjs([]))), coord(ip(indice(sn30), v(coordinate, active, [[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]]], ind, _G1112/semp, _G1108, _G15532, _G1110), supporto([]), cat(risultato), args([arg(funzione(sogg), ruolo(agent), sn(indice(sn18), cat([umano]), npro(Marta_Gomes, _G1058, sing), spec(def(0), part(_G1052), mod(_G1075), foc(_G1053), card(_G1051), quant([])), args([]), mods([]), adjs([]))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn19), cat([astratto, attivita, informa, legale, tecno]), n(project, _G1275, sing), spec(def(+), part(_G1264), mod([]), foc(_G1268), card(_G1253), quant([])), args([]), mods([relativa(topic(relativo, sn(indice(sn20), cat([astratto, attivita, informa, legale, tecno]), pr(pro_grande, pPro, 3, _G1275, sing, _G2973), controllore(sn19))), ip(indice(f1), v(develop, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], ind, _G7761/semp, 3, sing, _G5895), supporto([]), cat(cambiamento), args([arg(funzione(sogg), ruolo(agent), sn(indice(sn21), cat([umano, collettivo, sociale]), n(people, _G5895, sing), spec(def(0), part(-), mod([]), foc(_G5078), card(_G5054), quant(seven)), args([]), mods([]), adjs([]))), arg(funzione(ogg), ruolo(theme_aff), sn(indice(sn23), cat([astratto, attivita, informa, legale, tecno]), pr(vbl, vbl, _G12539, _G1275, sing, _G12542), controllore(sn20))), arg(funzione(pcomp), ruolo(locativo), sp(prep(in), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn24), pr(vbl, vbl, _G13368, _G13369, _G13370, _G13371), controllore(sn23))), arg(funzione(ogg), ruolo(locativo), sn(indice(sn22), cat([luogo]), n(school, _G11598, sing), spec(def(0), part(_G11033), mod(this), foc(_G11037), card(_G11013), quant([])), args([]), mods([]), adjs([])))]), mods([_G13438])))]), adjs([])))]), adjs([])))]), adjs([])))))
+
+
+
+
+coord_ip(
+ indice(f2),
+ coord(
+  and,
+  coord(
+   ip(
+    indice(sn29),
+    v(be, active, [[vcomp/prop/[]/[sogg=x], xcomp/prop/[_G14184|_G14185]], [vcomp/prop/[]/[sogg=ogg2], sp/ogg2/benef/for/[umano], ncomp/prop/[_G14235|_G14236]], [sn/sogg/tema_bound/[_G14253|_G14254], xcomp/prop/[_G14265|_G14266]], [sn/sogg/actor/[umano, animato], f/fcomp/prop/[sogg=sogg/actor, sogg=x]]], ind, pres, 3, _G15071, _G14144),
+    supporto([]),
+    cat(exist),
+    args(
+      [
+      arg(
+       funzione(pcomp),
+       ruolo(locat),
+       sp(
+        prep(in),
+        args(
+          [
+          arg(
+           funzione(sogg),
+           ruolo(nil),
+           sn(
+            indice(sn28),
+            pr(vbl, vbl, _G14789, _G14790, _G14791, _G14792),
+            controllore(sn17)
+            )
+           ),
+          arg(
+           funzione(ogg),
+           ruolo(locat),
+           sn(
+            indice(sn16),
+            cat(nil),
+            n(Mortagua, _G962, sing),
+            spec(
+             def(0),
+             part([]),
+             mod([]),
+             foc([]),
+             card([]),
+             quant([])
+             ),
+            args([]),
+            mods([]),
+            adjs([])
+            )
+           )
+          ]
+         ),
+        mods(
+          [
+          []
+          ]
+         )
+        )
+       ),
+      arg(
+       funzione(sogg),
+       ruolo(tema_bound),
+       sn(
+        indice(sn17),
+        cat([umano]),
+        n(Joao, _G1013, plur),
+        spec(
+         def(0),
+         part([]),
+         mod([]),
+         foc([]),
+         card([]),
+         quant([])
+         ),
+        args([]),
+        mods([]),
+        adjs([])
+        )
+       )
+      ]
+     ),
+    adjs([])
+    )
+   ),
+  coord(
+   ip(
+    indice(sn30),
+    v(coordinate, active, [[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]]], ind, _G1112/semp, _G1108, _G15532, _G1110),
+    supporto([]),
+    cat(risultato),
+    args(
+      [
+      arg(
+       funzione(sogg),
+       ruolo(agent),
+       sn(
+        indice(sn18),
+        cat([umano]),
+        npro(Marta_Gomes, _G1058, sing),
+        spec(
+         def(0),
+         part([]),
+         mod([]),
+         foc([]),
+         card([]),
+         quant([])
+         ),
+        args([]),
+        mods([]),
+        adjs([])
+        )
+       ),
+      arg(
+       funzione(ogg),
+       ruolo(theme_aff),
+       sn(
+        indice(sn19),
+        cat([astratto, attivita, informa, legale, tecno]),
+        n(project, _G1275, sing),
+        spec(
+         def(+),
+         part([]),
+         mod([]),
+         foc([]),
+         card([]),
+         quant([])
+         ),
+        args([]),
+        mods(
+          [
+          relativa(
+           topic(
+            relativo,
+            sn(
+             indice(sn20),
+             cat([astratto, attivita, informa, legale, tecno]),
+             pr(pro_grande, pPro, 3, _G1275, sing, _G2973),
+             controllore(sn19)
+             )
+            ),
+           ip(
+            indice(f1),
+            v(develop, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], ind, _G7761/semp, 3, sing, _G5895),
+            supporto([]),
+            cat(cambiamento),
+            args(
+              [
+              arg(
+               funzione(sogg),
+               ruolo(agent),
+               sn(
+                indice(sn21),
+                cat([umano, collettivo, sociale]),
+                n(people, _G5895, sing),
+                spec(
+                 def(0),
+                 part(-),
+                 mod([]),
+                 foc([]),
+                 card([]),
+                 quant(
+                  seven
+                  )
+                 ),
+                args([]),
+                mods([]),
+                adjs([])
+                )
+               ),
+              arg(
+               funzione(ogg),
+               ruolo(theme_aff),
+               sn(
+                indice(sn23),
+                cat([astratto, attivita, informa, legale, tecno]),
+                pr(vbl, vbl, _G12539, _G1275, sing, _G12542),
+                controllore(sn20)
+                )
+               ),
+              arg(
+               funzione(pcomp),
+               ruolo(locativo),
+               sp(
+                prep(in),
+                args(
+                  [
+                  arg(
+                   funzione(sogg),
+                   ruolo(nil),
+                   sn(
+                    indice(sn24),
+                    pr(vbl, vbl, _G13368, _G13369, _G13370, _G13371),
+                    controllore(sn23)
+                    )
+                   ),
+                  arg(
+                   funzione(ogg),
+                   ruolo(locativo),
+                   sn(
+                    indice(sn22),
+                    cat([luogo]),
+                    n(school, _G11598, sing),
+                    spec(
+                     def(0),
+                     part([]),
+                     mod(
+                      this
+                      ),
+                     foc([]),
+                     card([]),
+                     quant([])
+                     ),
+                    args([]),
+                    mods([]),
+                    adjs([])
+                    )
+                   )
+                  ]
+                 ),
+                mods(
+                  [
+                  []
+                  ]
+                 )
+                )
+               )
+              ]
+             ),
+            adjs([])
+            )
+           )
+          ]
+         ),
+        adjs([])
+        )
+       )
+      ]
+     ),
+    adjs([])
+    )
+   )
+  )
+ )
+main/prop:coord:indice:sn29
+                pred:be
+                lex_form:[[vcomp/prop/[]/[sogg=x], xcomp/prop/[_G30796|_G30797]], [vcomp/prop/[]/[sogg=ogg2], sp/ogg2/benef/for/[umano], ncomp/prop/[_G30847|_G30848]], [sn/sogg/tema_bound/[_G30865|_G30866], xcomp/prop/[_G30877|_G30878]], [sn/sogg/actor/[umano, animato], f/fcomp/prop/[sogg=sogg/actor, sogg=x]]]
+                voice:active
+                modo:ind
+                tempo:pres
+                cat:exist
+                pcomp/locat:sem_mark:in
+                            sogg/nil:indice:sn28
+                                     pred:vbl
+                                     controllore:sn17
+                                     tab_ref:[+ref, -pro, -ana, -me]
+                            ogg/locat:indice:sn16
+                                      cat:nil
+                                      pred:'Mortagua'
+                                      num:sing
+                                      pers:3
+                                      spec:def:'0'
+                                      tab_ref:[+ref, -pro, -ana, +class]
+                            mods:[]
+                sogg/tema_bound:indice:sn17
+                                cat:[umano]
+                                pred:'Joao'
+                                num:plur
+                                pers:3
+                                spec:def:'0'
+                                tab_ref:[+ref, -pro, -ana, +class]
+                aspetto:exist
+main/prop:coord:indice:sn30
+                pred:coordinate
+                lex_form:[[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any]]]
+                voice:active
+                modo:ind
+                tempo:pres
+                cat:risultato
+                sogg/agent:indice:sn18
+                           cat:[umano]
+                           pred:'Marta_Gomes'
+                           num:sing
+                           pers:3
+                           spec:def:'0'
+                           tab_ref:[+ref, -pro, -ana, -class]
+                ogg/theme_aff:indice:sn19
+                              cat:[astratto, attivita, informa, legale, tecno]
+                              pred:project
+                              num:sing
+                              pers:3
+                              spec:def:+
+                              mods:relativa:topic:tipo_topic:relativo
+                                                  indice:sn20
+                                                  cat:[astratto, attivita, informa, legale, tecno]
+                                                  pred:pPro
+                                                  controllore:sn19
+                                                  tab_ref:[+ref, +pro, +ana, -me]
+                                            indice:f1
+                                            pred:develop
+                                            lex_form:[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]]
+                                            voice:active
+                                            modo:ind
+                                            tempo:pres
+                                            cat:cambiamento
+                                            sogg/agent:indice:sn21
+                                                       cat:[umano, collettivo, sociale]
+                                                       pred:people
+                                                       num:sing
+                                                       pers:3
+                                                       spec:def:'0'
+                                                            part:-
+                                                            quant:seven
+                                                       tab_ref:[+ref, -pro, -ana, +class]
+                                                       qmark:q1
+                                            ogg/theme_aff:indice:sn23
+                                                          cat:[astratto, attivita, informa, legale, tecno]
+                                                          pred:vbl
+                                                          controllore:sn20
+                                                          tab_ref:[+ref, -pro, -ana, -me]
+                                            pcomp/locativo:sem_mark:in
+                                                           sogg/nil:indice:sn24
+                                                                    pred:vbl
+                                                                    controllore:sn23
+                                                                    tab_ref:[+ref, -pro, -ana, -me]
+                                                           ogg/locativo:indice:sn22
+                                                                        cat:[luogo]
+                                                                        pred:school
+                                                                        num:sing
+                                                                        pers:3
+                                                                        spec:def:'0'
+                                                                             mod:this
+                                                                        tab_ref:[+ref, -pro, -ana, +class]
+                                                           mods:[]
+                                            aspetto:accomp
+                                            qops:q1
+                              tab_ref:[+ref, -pro, -ana, +class]
+                aspetto:achiev_tr
+                rel1:[td(sn30_t42)=tr(sn30_t42)]
+                rel2:[incluso(tr(sn30_t42), tes(sn30_t42))]
+                definitezza:-
+                ref_int:[tr(sn30_t42)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn18, Marta_Gomes, [+ref, def0, nil, nil, -pro, -ana, -class], 3, nil, sing, [umano], sogg/agent)/45
+ ref_ex(sn17, Joao, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [umano], sogg/tema_bound)/49
+ ref_ex(sn19, project, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita, informa, legale, tecno], ogg/theme_aff)/51
+ ref_ex(sn21, people, [+ref, def0, seven, nil, -pro, -ana, +class], 3, nil, sing, [umano, collettivo, sociale], sogg/agent)/90
+ ref_ex(sn22, school, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [luogo], ogg/locativo)/116
+ ref_ex(sn16, Mortagua, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, nil, ogg/locat)/170
+
+MAIN TOPIC : ref_ex(sn18, Marta_Gomes, _G40353, 3, nil, sing, [umano], sogg/agent)
+SECONDARY TOPIC : ref_ex(_G40366, school, _G40368, 3, nil, sing, [luogo], _G40373)
+POTENTIAL TOPICS : ref_ex(sn17, 'Joao', [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [umano], sogg/tema_bound), ref_ex(sn19, project, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [astratto, attivita, informa, legale, tecno], ogg/theme_aff), ref_ex(sn21, people, [+ref, def0, seven, nil, -pro, -ana, +class], 3, nil, sing, [umano, collettivo, sociale], sogg/agent), ref_ex(sn22, school, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [luogo], ogg/locativo), ref_ex(sn16, 'Mortagua', [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, nil, ogg/locat)
+
+stato(2, retaining)
+
+rel_temp(infon58, td, tr(sn30_t42), [eq])
+
+
+CLAUSE IDENTIFIER:               2-n3
+CLAUSE TYPE:                     coord/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn29_t42), tes(sn66_t41))
+DISCOURSE FOCUS:                 tes(sn30_t42)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               2-n38
+CLAUSE TYPE:                     coord/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(sn30_t42), tes(sn66_t41))
+DISCOURSE FOCUS:                 tes(sn30_t42)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(2, retaining)
+topic(2, main, id15)
+topic(2, secondary, id3)
+topic(2, potential, id17)
+sr(sogg-tema_bound, be, Joao)
+sr(sogg-agent, develop, people)
+sr(ogg-theme_aff, develop, vbl)
+sr(sogg-agent, coordinate, Marta_Gomes)
+sr(ogg-theme_aff, coordinate, project)
+
+
+'######################  LOGICAL FORM ###############'
+wff(and,
+    wff(situation,
+        wff(be,
+            < plural : sn17 :
+                wff(isa,
+                    sn17,
+                    Joao) >>,
+            wff(in,
+                < definito : sn28 :
+                    wff(and,
+                        wff(isa,
+                            sn28,
+                            vbl),
+                        wff(controllore,
+                            sn28,
+                            sn17)) >>,
+                < entity : sn16 :
+                    wff(isa,
+                        sn16,
+                        Mortagua) >>),
+            < state : sn29 :
+                wff(and,
+                    wff(isa,
+                        sn29,
+                        st),
+                    wff(time,
+                        sn29,
+                        < indefinito : t4 :
+                            wff(and,
+                                wff(isa,
+                                    t4,
+                                    tloc),
+                                wff(pres,
+                                    t4)) >>)) >>)),
+    wff(situation,
+        wff(coordinate,
+            < entity : sn18 :
+                wff(isa,
+                    sn18,
+                    Marta_Gomes) >>,
+            < definito : sn19 :
+                wff(and,
+                    wff(isa,
+                        sn19,
+                        project),
+                    wff(and,
+                        wff(isola,
+                            wff(situation,
+                                wff(develop,
+                                    < seven : sn21 :
+                                        wff(isa,
+                                            sn21,
+                                            people) >>,
+                                    < definito : sn23 :
+                                        wff(and,
+                                            wff(isa,
+                                                sn23,
+                                                vbl),
+                                            wff(controllore,
+                                                sn23,
+                                                sn19)) >>,
+                                    wff(in,
+                                        < definito : sn24 :
+                                            wff(and,
+                                                wff(isa,
+                                                    sn24,
+                                                    vbl),
+                                                wff(controllore,
+                                                    sn24,
+                                                    sn23)) >>,
+                                        < entity : sn22 :
+                                            wff(isa,
+                                                sn22,
+                                                school) >>),
+                                    < event : f1 :
+                                        wff(and,
+                                            wff(isa,
+                                                f1,
+                                                ev),
+                                            wff(time,
+                                                f1,
+                                                < definito : t5 :
+                                                    wff(and,
+                                                        wff(isa,
+                                                            t5,
+                                                            tloc),
+                                                        wff(pres,
+                                                            t5)) >>)) >>))),
+                        [])) >>,
+            < event : sn30 :
+                wff(and,
+                    wff(isa,
+                        sn30,
+                        ev),
+                    wff(time,
+                        sn30,
+                        < definito : t6 :
+                            wff(and,
+                                wff(isa,
+                                    t6,
+                                    tloc),
+                                wff(pres,
+                                    t6)) >>)) >>)))
+
+
+
+loc(infon59, id13, [arg:main_tloc, arg:tes(sn66_t41)])
+loc(infon60, id14, [arg:main_sloc, arg:school])
+ind(infon61, id15)
+fact(infon62, inst_of, [ind:id15, class:man], 1, univ, univ)
+fact(infon63, inst_of, [ind:id15, class:'Gomes'], 1, univ, univ)
+fact(infon64, isa, [ind:id15, class:'Gomes'], 1, univ, univ)
+fact(infon65, isa, [ind:id15, class:marta_gomes], 1, univ, univ)
+class(infon66, id16)
+fact(infon67, isa, [ind:id16, class:'Marta'], 1, univ, univ)
+fact(infon68, of, [arg:id16, specif:id15], 1, univ, univ)
+set(infon69, id17)
+card(infon70, id17, 5)
+fact(infon71, 'Joao', [ind:id17], 1, id13, id14)
+fact(infon72, inst_of, [ind:id17, class:man], 1, univ, univ)
+fact(infon73, isa, [ind:id17, class:'Joao'], 1, id13, id14)
+ind(infon74, id18)
+fact(infon75, develop, [ind:id18], 1, id13, id14)
+fact(infon76, of, [arg:id18, specif:id18], 1, univ, univ)
+fact(infon77, inst_of, [ind:id18, class:legal], 1, univ, univ)
+fact(infon78, isa, [ind:id18, class:project], 1, id13, id14)
+class(infon79, id19)
+fact(infon80, inst_of, [ind:id19, class:man], 1, univ, univ)
+ind(infon81, id20)
+fact(infon82, inst_of, [ind:id20, class:man], 1, univ, univ)
+fact(infon83, isa, [ind:id20, class:people], 1, id13, id14)
+class(infon84, id21)
+fact(infon85, inst_of, [ind:id21, class:nil], 1, univ, univ)
+fact(infon86, isa, [ind:id21, class:'Mortagua'], 1, id13, id14)
+fact(infon89, in, [nil:id17, locat:id21], 1, id13, id14)
+fact(id22, be, [prop:infon89], 1, tes(sn29_t42), id14)
+fact(infon90, isa, [arg:id22, arg:st], 1, tes(sn29_t42), id14)
+fact(infon91, isa, [arg:id23, arg:tloc], 1, tes(sn29_t42), id14)
+fact(infon92, pres, [arg:id23], 1, tes(sn29_t42), id14)
+fact(infon93, time, [arg:id22, arg:id23], 1, tes(sn29_t42), id14)
+fact(infon94, isa, [arg:id15, arg:'Marta_Gomes'], 1, id13, id14)
+fact(infon98, in, [nil:id24, locativo:id3], 1, id13, id14)
+fact(id25, develop, [agent:id20, theme_aff:id18, prop:infon98], 1, tes(f1_t42), id14)
+fact(infon99, isa, [arg:id25, arg:ev], 1, tes(f1_t42), id14)
+fact(infon100, isa, [arg:id26, arg:tloc], 1, tes(f1_t42), id14)
+fact(infon101, pres, [arg:id26], 1, tes(f1_t42), id14)
+fact(infon102, time, [arg:id25, arg:id26], 1, tes(f1_t42), id14)
+fact(id27, coordinate, [agent:id15, theme_aff:id18], 1, tes(sn30_t42), id14)
+fact(infon103, isa, [arg:id27, arg:ev], 1, tes(sn30_t42), id14)
+fact(infon104, isa, [arg:id28, arg:tloc], 1, tes(sn30_t42), id14)
+fact(infon105, pres, [arg:id28], 1, tes(sn30_t42), id14)
+fact(infon106, time, [arg:id27, arg:id28], 1, tes(sn30_t42), id14)
+
+during(tes(sn30_t42), tes(sn66_t41))
+includes(tr(sn29_t42), id13)
+
+
+                  down:down(1-2)
+                  clause:2-3
+                  topics:[main:id15:'Marta_Gomes', secondary:id3:school]
+                  main_fact:be([infon89:in], 1, id14)
+                  ref_int:tint(nil, [tes(sn29_t42)])
+                  temp_rel:during(tes(sn29_t42), tes(sn66_t41))
+                  disc_rel:narration
+                  disc_seg:2-[3]
+                  disc_dom:objective
+                  p_o_view:narrator
+
+   up:to(1-1)
+   clause:2-4
+   topics:[main:id15:'Marta_Gomes', secondary:id3:school]
+   main_fact:coordinate([id15:'Gomes', id18:project], 1, id14)
+   ref_int:tint(nil, [tes(sn30_t42)])
+   temp_rel:during(tes(sn30_t42), tes(sn66_t41))
+   disc_rel:narration
+   disc_seg:3-[4]
+   disc_dom:objective
+   p_o_view:narrator

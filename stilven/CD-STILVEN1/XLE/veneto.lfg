@@ -1,0 +1,172 @@
+
+
+TOY VENETO CONFIG (1.0)
+	ROOTCAT S.
+	FILES 
+		 /roth0/tcc/pianta/projects/xle/english-2007-06-11/common.templates.lfg.
+	LEXENTRIES (TOY VENETO).
+	RULES (TOY VENETO).
+	TEMPLATES (TOY VENETO).
+	GOVERNABLERELATIONS SUBJ OBJ OBJ2 OBL COMP XCOMP.
+	SEMANTICFUNCTIONS ADJUNCT TOPIC.
+	NONDISTRIBUTIVES NUM PERS.
+	EPSILON e.
+OPTIMALITYORDER NOGOOD.
+
+----
+TOY  VENETO RULES (1.0)
+
+
+   S --> {
+	  NP: 	(^ SUBJ)=! 
+		(! CASE)=NOM;
+	  | 
+	  e: (^ SUBJ PRED)='pro'
+ 	 }
+ 	 IP: ^=!.
+
+   IP --> CLI-SUBJ
+          (CLI-DAT)
+	  (AUX)
+	  VP.
+
+   VP --> V: ^=!;
+          {
+ 	  (NP: 	(^ OBJ)=! (! CASE)=ACC;)
+          |
+          C S:	(^ COMP)=! 
+          }
+ 	  PP*: ! $ (^ADJUNCT).
+
+   NP --> (D)
+ 	  N
+          PP*: ! $ (^ADJUNCT).
+
+   PP --> 	P: 	^=!;
+		NP:	(^ OBJ)=!.
+
+
+----
+TOY VENETO TEMPLATES (1.0)
+
+   N-M-SG(P) = 	"masculine singular noun"
+		(^ PRED)='P'
+		@(GENDER M)					
+		@(NUMBER SG).
+
+   N-F-SG(P) = 	"feminine singular noun"
+		(^ PRED)='P'
+		@(GENDER F)					
+		@(NUMBER SG).
+
+   N-M-PL(P) = 	"masculine plural noun"
+		(^ PRED)='P'
+		@(GENDER M)					
+		@(NUMBER PL).
+
+   N-F-PL(P) = 	"feminine plural noun"
+		(^ PRED)='P'
+		@(GENDER F)					
+		@(NUMBER PL).
+
+   NUMBER(P) = "assigns number"
+	       (^ NUM)=P.
+
+   GENDER(P) = "assigns gender"
+	       (^ GEN)=P.
+
+   VPRES3SG 	= 	(^ SUBJ PERS)=3
+              		(^ SUBJ NUM)=SG
+	      		(^ TENSE)=PRES.
+
+   PART-PASS-M-SG = (^ TENSE)=PAST.
+
+   TRANS(P) = (^ PRED)='P<(^ SUBJ)(^ OBJ)>'.
+ 
+   INTRANS(P) = (^ PRED)='P<(^ SUBJ)>'. 
+
+   SUBJ-COMP(P) = (^ PRED)='P<(^ SUBJ)(^ COMP)>'. 
+
+   SUBJ-OBL-COMP(P) =   { 
+			(^ PRED)='P<(^ SUBJ)(^ OBL)(^ COMP)>'
+			|
+                        (^ PRED)='P<(^ SUBJ)(^ COMP)>'
+			}. 
+
+   OPTTRANS(P) = { @(INTRANS P) | @(TRANS P) }. 
+
+
+----
+TOY VENETO LEXICON (1.0)
+
+che	  C 	*.
+
+la 	  D 		* (^ DEF)=+ @(NUMBER SG) @(GENDER F);
+	  CLI-SUBJ 	* (^ SUBJ NUM)=SG (^ SUBJ GEN)=F.
+
+el 	  D 		* (^ DEF)=+ @(NUMBER SG) @(GENDER M);
+	  CLI-SUBJ 	* (^ SUBJ NUM)=SG (^ SUBJ GEN)=M.
+
+i 	  D 	* (^ DEF)=+ @(NUMBER PL) @(GENDER M);
+	  CLI-SUBJ 	* (^ SUBJ NUM)=PL (^ SUBJ GEN)=M.
+
+le 	  D 		* (^ DEF)=+ @(NUMBER PL) @(GENDER F);
+	  CLI-SUBJ 	* (^ SUBJ NUM)=PL (^ SUBJ GEN)=F.
+
+
+me	  CLI-DAT 	* 	(^ OBL NUM)=SG 
+				(^ OBL PRED)='io'
+				(^ OBL NTYPE NSYN)=clitic
+				(^ OBL PRON-TYPE)=pers.
+
+go	AUX	*.
+ga	AUX	*.
+
+
+so 	  D   *.
+
+in	  P * (^ PRED)='in<(^ OBJ)>'.
+
+co	  P * (^ PRED)='co<(^ OBJ)>'.
+
+de	  P * (^ PRED)='de<(^ OBJ)>'.
+
+toxa 	  N * @(N-F-SG toxa).
+
+toxe 	  N * @(N-F-PL toxa).
+
+toxo 	  N * @(N-M-SG toxo).
+
+toxi 	  N * @(N-M-PL toxo).
+
+fiolho 	  N * @(N-M-SG fiolho).
+
+sorelha   N * @(N-F-SG sorelha).
+
+boca   N * @(N-F-SG boca).
+
+sesta 	  N * @(N-F-SG sesta).
+
+fior 	  N * @(N-M-SG fior).
+
+piazsa 	  N * @(N-F-SG piazsa).
+
+
+
+camina 	  V * @(INTRANS caminar)
+	      @VPRES3SG.
+
+speta 	  V * @(OPTTRANS spetar)
+	      @VPRES3SG.
+
+scalsa 	  V * @(OPTTRANS scalsar)
+	      @VPRES3SG.
+
+visto 	  V * { @(SUBJ-COMP veder) | @(TRANS veder) }
+	      @PART-PASS-M-SG.
+
+dito 	  V * { @(SUBJ-OBL-COMP dir) | @(TRANS dir) }
+	      @PART-PASS-M-SG.
+
+----
+

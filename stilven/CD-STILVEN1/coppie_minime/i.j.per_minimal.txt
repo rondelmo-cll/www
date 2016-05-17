@@ -1,0 +1,9 @@
+Minimal pairs for [i] vs. [j] in initial position:
+i 	j 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+
+Minimal pairs for [i] vs. [j] in medial position:
+l'aiuto 	l'ajuto 		
+sbaià 	sbajà 		
+voialtri 	vojaltri 		
+
+Minimal pairs for [i] vs. [j] in final position:

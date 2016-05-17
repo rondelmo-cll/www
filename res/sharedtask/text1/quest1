@@ -1,0 +1,194 @@
+###############################################################
+[what, happened, to, the, object, ?]
+
+    This is what  object actually thought  
+
+be, [infon94:negligible]
+be, [infon144:pro]
+
+    This is what concerns object in the real world  
+
+throw, [id2:object, id8:exist]
+fall, [id2:object, id16:height]
+
+
+############   FOCALIZED SUMMARY   ############
+'an object is thrown with a horizontal speed of 20 m-s from a cliff that is 125 m high .'
+'the object falls for the height of the cliff .'
+'If air resistance is negligible , how long does it take the object to fall to the ground ?'
+
+
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.33333
+'Lookahead Start Active Chart'
+0-[r-what, w-what], 1-[v-happened], 2-[p-to], 3-[d-the], 4-[n-object, v-object], 5-[x- ?]
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.16667
+0-[r-what, w-what], 1-[v-happened], 2-[p-to], 3-[d-the], 4-[n-object], 5-[x- ?]
+0-[r-what, w-what], 1-[v-happened], 2-[p-to], 3-[d-the], 4-[n-object], 5-[x- ?]
+
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn1),
+   cat([any]),
+   pr(pr_int, _G21090, what, 3, _G21093, _G21094, [nom, acc, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(happen, active, [sn/sogg/actor/[any], f/fcomp/prop/[subj=x]], ind, _G21660/semp, 3, _G21161, _G21093),
+  supporto([]),
+  cat(soggettivo),
+  args(
+    [
+    arg(
+     funzione(sogg),
+     ruolo(actor),
+     sn(
+      indice(sn2),
+      cat([any]),
+      pr(pro_picc, pro, _G21366, 3, _G21093, _G21161, nom),
+      spec(
+       def(+)
+       ),
+      controllore(sn1)
+      )
+     ),
+    arg(
+     funzione(obl),
+     ruolo(goal),
+     sn(
+      indice(sn3),
+      cat([any, astratto, attivita, informa, oggetto, stato, tecno]),
+      n(object, _G23893, sing),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn1
+      cat:[any]
+      pred:what
+      pers:3
+      caso:[nom, acc, obl]
+      tab_ref:[+ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:happen
+lex_form:[sn/sogg/actor/[any], f/fcomp/prop/[subj=x]]
+voice:active
+modo:ind
+tempo:pres
+cat:soggettivo
+sogg/actor:indice:sn2
+           cat:[any]
+           pred:pro
+           pers:3
+           caso:nom
+           spec:def:+
+           controllore:sn1
+           tab_ref:[+ref, +pro, -ana, -me]
+obl/goal:indice:sn3
+         cat:[any, astratto, attivita, informa, oggetto, stato, tecno]
+         pred:object
+         num:sing
+         pers:3
+         spec:def:+
+         tab_ref:[+ref, -pro, -ana, +class]
+aspetto:stato
+rel1:[td(f1_user1)=tr(f1_user1)]
+rel2:[incluso(tr(f1_user1), tes(f1_user1))]
+definitezza:-
+ref_int:[tr(f1_user1)]
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn3, object, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [any, astratto, attivita, informa, oggetto, stato, tecno], obl/goal)/22
+ ref_ex(sn2, what, [+ref, +def, nil, nil, +pro, -ana, -me], 3, nil, nil, [any], sogg/actor)/116
+
+
+rel_temp(infon1, td, tr(f1_user1), [eq])
+
+
+CLAUSE IDENTIFIER:               1-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(sn42_t11), tr(sn42_t11))
+DISCOURSE FOCUS:                 tes(f1_user1)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, expected, id2)
+sr(sogg-actor, happen, pro)
+sr(obl-goal, happen, object)
+
+
+'######################  LOGICAL FORM ###############'
+wff(happen,
+    wff(focus,
+        < definito : sn1 :
+            wff(isa,
+                sn1,
+                what) >>),
+    < definito : sn3 :
+        wff(isa,
+            sn3,
+            object) >>,
+    < state : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                st),
+            wff(time,
+                f1,
+                < indefinito : t1 :
+                    wff(and,
+                        wff(isa,
+                            t1,
+                            tloc),
+                        wff(pres,
+                            t1)) >>)) >>)
+
+q_loc(infon2, id1, [arg:main_tloc, arg:tr(f1_user1)])
+q_ind(infon3, id2)
+q_fact(infon4, inst_of, [ind:id2, class:thing], 1, univ, univ)
+q_fact(infon5, isa, [ind:id2, class:object], 1, id1, univ)
+q_fact(infon6, focus, [arg:id3], 1, id1, univ)
+q_fact(infon7, isa, [arg:id3, arg:what], 1, id1, univ)
+q_fact(id4, happen, [actor:id3, goal:id2], 1, tes(f1_user1), univ)
+q_fact(infon9, isa, [arg:id4, arg:st], 1, tes(f1_user1), univ)
+q_fact(infon10, isa, [arg:id5, arg:tloc], 1, tes(f1_user1), univ)
+q_fact(infon11, pres, [arg:id5], 1, tes(f1_user1), univ)
+q_fact(infon12, time, [arg:id4, arg:id5], 1, tes(f1_user1), univ)
+q_fact(infon16, perf, [arg:id6, ask:id4], 1, id1, univ)
+
+during(tes(f1_t14), tes(sn59_t13))
+includes(tr(f1_user1), id1)
+

@@ -1,0 +1,168 @@
+
+###############################################################
+[what, does, the, farm, make, ?]
+a, money
+
+
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.5
+'Lookahead Start Active Chart'
+0-[r-what, w-what], 1-[v-does], 2-[d-the], 3-[n-farm, v-farm], 4-[n-make, v-make], 5-[x- ?]
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.16667
+0-[r-what, w-what], 1-[v-does], 2-[d-the], 3-[n-farm], 4-[v-make], 5-[x- ?]
+0-[r-what, w-what], 1-[v-does], 2-[d-the], 3-[n-farm], 4-[v-make], 5-[x- ?]
+
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn1),
+   cat([_G14158]),
+   pr(pr_int, _G14119, what, 3, _G14122, _G14123, [nom, acc, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(make, active, [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], ncomp/prop/[subj=ogg]], ind, pres/semp, 3, sing, _G15647),
+  supporto([]),
+  cat(cambiamento),
+  args(
+    [
+    arg(
+     funzione(sogg),
+     ruolo(actor),
+     sn(
+      indice(sn2),
+      cat([informa, oggetto, strumento, tecno]),
+      n(farm, _G15647, sing),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     ),
+    arg(
+     funzione(ogg),
+     ruolo(theme_aff),
+     sn(
+      indice(sn3),
+      cat([_G14158]),
+      pr(vbl, vbl, _G19003, 3, _G14122, _G14190, [acc]),
+      controllore(sn1)
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn1
+      cat:[_G24777]
+      pred:what
+      pers:3
+      caso:[nom, acc, obl]
+      tab_ref:[+ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:make
+lex_form:[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], ncomp/prop/[subj=ogg]]
+voice:active
+modo:ind
+tempo:pres
+cat:cambiamento
+sogg/actor:indice:sn2
+           cat:[informa, oggetto, strumento, tecno]
+           pred:farm
+           num:sing
+           pers:3
+           spec:def:+
+           tab_ref:[+ref, -pro, -ana, +class]
+ogg/theme_aff:indice:sn3
+              cat:[_G25681]
+              pred:vbl
+              caso:[acc]
+              controllore:sn1
+              tab_ref:[+ref, -pro, -ana, -me]
+aspetto:accomp
+rel1:[td(f1_user1)=tr(f1_user1)]
+rel2:[incluso(tr(f1_user1), tes(f1_user1))]
+definitezza:-
+ref_int:[tr(f1_user1)]
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn2, farm, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [informa, oggetto, strumento, tecno], sogg/actor)/17
+ ref_ex(sn3, what, [+ref, def0, nil, nil, -pro, -ana, -me], nil, nil, nil, [_G27072], ogg/theme_aff)/21
+
+
+rel_temp(infon1, td, tr(f1_user1), [eq])
+
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, expected, id2)
+topic(1, potential, id3)
+sr(sogg-actor, make, farm)
+sr(ogg-theme_aff, make, vbl)
+
+
+'######################  LOGICAL FORM ###############'
+wff(make,
+    < definito : sn2 :
+        wff(isa,
+            sn2,
+            farm) >>,
+    wff(focus,
+        < definito : sn1 :
+            wff(isa,
+                sn1,
+                what) >>),
+    < event : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                ev),
+            wff(time,
+                f1,
+                < definito : t1 :
+                    wff(and,
+                        wff(isa,
+                            t1,
+                            tloc),
+                        wff(pres,
+                            t1)) >>)) >>)
+
+q_loc(infon2, id1, [arg:main_tloc, arg:what])
+q_ind(infon3, id2)
+q_fact(infon4, inst_of, [ind:id2, class:thing], 1, univ, univ)
+q_fact(infon5, isa, [ind:id2, class:farm], 1, id1, univ)
+q_class(infon6, id3)
+q_fact(infon7, inst_of, [ind:id3, class:deittico], 1, univ, univ)
+q_fact(infon8, isa, [ind:id3, class:what], 1, id1, univ)
+q_fact(infon10, focus, [arg:id4], 1, id1, univ)
+q_fact(infon11, isa, [arg:id4, arg:what], 1, id1, univ)
+q_fact(id5, make, [actor:id2, theme_aff:id4], 1, tes(f1_user1), univ)
+q_fact(infon12, isa, [arg:id5, arg:ev], 1, tes(f1_user1), univ)
+q_fact(infon13, isa, [arg:id6, arg:tloc], 1, tes(f1_user1), univ)
+q_fact(infon14, pres, [arg:id6], 1, tes(f1_user1), univ)
+q_fact(infon15, time, [arg:id5, arg:id6], 1, tes(f1_user1), univ)
+q_fact(infon19, perf, [arg:id7, ask:id5], 1, id1, univ)
+
+during(tes(sn59_t63), tes(sn60_t63))
+includes(tr(f1_user1), id1)
+

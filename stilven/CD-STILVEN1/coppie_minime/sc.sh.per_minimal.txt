@@ -1,0 +1,7 @@
+Minimal pairs for [sc] vs. [sh] in initial position:
+sc 	sh 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 	z 
+sce 	she 			£e 	…e 	be 	ce 	de 	ge 	he 	ke 	le 	me 	ne 	re 	se 	te 	ve 	xe 	ye 
+
+Minimal pairs for [sc] vs. [sh] in medial position:
+
+Minimal pairs for [sc] vs. [sh] in final position:

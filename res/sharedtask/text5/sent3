@@ -1,0 +1,176 @@
+Ratio of Tags per Word for Sentence no: 3
+Word Ambiguity Ratio: 1.2
+'Lookahead Start Active Chart'
+0-[av-'Then', e-'Then'], 1-[d-the], 2-[n-propellant], 3-[v-exploded], 4-[x-'.']
+
+
+0-[av-'Then', e-'Then'], 1-[d-the], 2-[n-propellant], 3-[v-exploded], 4-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+3
+Then-in
+the-dt
+propellant-nn
+exploded-vbd
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+['Then'-ccong, the-art, propellant-n, exploded-vin, '.'-punto]
+
+cp-[cp-['Then'-ccong-cp], f-[subj-[the-art-sn, propellant-n-sn], ibar-[exploded-vppt-sv3], cp-['.'-punto-cp]]]
+
+3
+
+
+'Functional and Syntactic Constituency'
+
+cp-[Then-ccong-cp]
+subj-[the-art-sn, propellant-n-sn]
+ibar-[exploded-vppt-sv3]
+
+
+
+
+cp(
+ sub(Then),
+ rel(ipotattica),
+ ip(
+  indice(f1),
+  v(explode, active, [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], ind, _G58757/semp, 3, sing, _G57879),
+  supporto([]),
+  cat(riportivo),
+  args(
+    [
+    arg(
+     funzione(sogg),
+     ruolo(agent),
+     sn(
+      indice(sn2),
+      cat(sub),
+      n(propellant, _G57879, sing),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+adj:sem_mark:'Then'
+    sub/prop:indice:f1
+             pred:explode
+             lex_form:[sn/sogg/agent/[any], sn/ogg/theme_aff/[any]]
+             voice:active
+             modo:ind
+             tempo:pres
+             cat:riportivo
+             sogg/agent:indice:sn2
+                        cat:sub
+                        pred:propellant
+                        num:sing
+                        pers:3
+                        spec:def:+
+                        tab_ref:[+ref, -pro, -ana, +class]
+             aspetto:achiev_tr
+             rel1:[td(f1_t53)=tr(f1_t53)]
+             rel2:[incluso(tr(f1_t53), tes(f1_t53))]
+             definitezza:-
+             ref_int:[tr(f1_t53)]
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn2, propellant, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, sub, sogg/agent)/145
+
+
+rel_temp(infon39, td, tr(f1_t53), [eq])
+
+
+CLAUSE IDENTIFIER:               3-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f1_t53), tes(f1_t52))
+DISCOURSE FOCUS:                 tes(f1_t53)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(3, cambia)
+topic(3, expected, id19)
+sr(sogg-agent, explode, propellant)
+
+
+'######################  LOGICAL FORM ###############'
+wff(sub,
+    wff(adj,
+        wff(situation,
+            wff(explode,
+                < definito : sn2 :
+                    wff(isa,
+                        sn2,
+                        propellant) >>,
+                < state : f1 :
+                    wff(and,
+                        wff(isa,
+                            f1,
+                            st),
+                        wff(time,
+                            f1,
+                            < indefinito : t2 :
+                                wff(and,
+                                    wff(isa,
+                                        t2,
+                                        tloc),
+                                    wff(pres,
+                                        t2)) >>)) >>))))
+
+
+
+loc(infon40, id18, [arg:main_tloc, arg:tes(f1_t52)])
+ind(infon41, id19)
+fact(infon42, inst_of, [ind:id19, class:sub], 1, univ, univ)
+fact(infon43, isa, [ind:id19, class:propellant], 1, id18, nil)
+fact(infon44, isa, [arg:id19, arg:propellant], 1, id18, univ)
+fact(id20, explode, [agent:id19], 1, tes(f1_t53), univ)
+fact(infon45, isa, [arg:id20, arg:st], 1, tes(f1_t53), univ)
+fact(infon46, isa, [arg:id21, arg:tloc], 1, tes(f1_t53), univ)
+fact(infon47, pres, [arg:id21], 1, tes(f1_t53), univ)
+fact(infon48, time, [arg:id20, arg:id21], 1, tes(f1_t53), univ)
+fact(infon50, sub, [_G4588:id20], 1, id18, univ)
+
+during(tes(f1_t53), tes(f1_t52))
+includes(tr(f1_t53), id18)
+
+
+            down:down(2-2)
+            clause:3-3
+            topics:[expected:id19:propellant, secondary:nil:indefinite]
+            main_fact:explode([id19:propellant], 1, univ)
+            ref_int:tint(nil, [tes(f1_t53)])
+            temp_rel:during(tes(f1_t53), tes(f1_t52))
+            disc_rel:narration
+            disc_seg:2-[3]
+            disc_dom:objective
+            p_o_view:narrator
+

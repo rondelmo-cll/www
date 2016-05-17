@@ -1,0 +1,165 @@
+
+###############################################################
+[who, sells, plants, ?]
+the, site
+
+
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.75
+'Lookahead Start Active Chart'
+0-[r-who, w-who], 1-[n-sells, v-sells], 2-[n-plants, v-plants], 3-[x- ?]
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.25
+0-[r-who, w-who], 1-[v-sells], 2-[n-plants], 3-[x- ?]
+0-[r-who, w-who], 1-[v-sells], 2-[n-plants], 3-[x- ?]
+
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn1),
+   cat([umano, animato]),
+   pr(pr_int, _G2057, who, 3, _G2060, _G2061, [nom, acc, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(sell, active, [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]], ind, _G2582/semp, 3, sing, _G2060),
+  supporto([]),
+  cat(state),
+  args(
+    [
+    arg(
+     funzione(sogg),
+     ruolo(actor),
+     sn(
+      indice(sn2),
+      cat([umano, animato]),
+      pr(pro_picc, pro, _G2312, 3, _G2060, sing, nom),
+      spec(
+       def(+)
+       ),
+      controllore(sn1)
+      )
+     ),
+    arg(
+     funzione(ogg),
+     ruolo(theme_unaff),
+     sn(
+      indice(sn3),
+      cat([any, astratto, informa, oggetto, plant, relat, sociale, strumento, umano]),
+      n(plant, _G4864, plur),
+      spec(
+       def(0),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn1
+      cat:[umano, animato]
+      pred:who
+      pers:3
+      caso:[nom, acc, obl]
+      tab_ref:[+ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:sell
+lex_form:[sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/obl/locat/[luogo]]
+voice:active
+modo:ind
+tempo:pres
+cat:state
+sogg/actor:indice:sn2
+           cat:[umano, animato]
+           pred:pro
+           pers:3
+           num:sing
+           caso:nom
+           spec:def:+
+           controllore:sn1
+           tab_ref:[+ref, +pro, -ana, -me]
+ogg/theme_unaff:indice:sn3
+                cat:[any, astratto, informa, oggetto, plant, relat, sociale, strumento, umano]
+                pred:plant
+                num:plur
+                pers:3
+                spec:def:'0'
+                tab_ref:[+ref, -pro, -ana, +class]
+aspetto:state
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn2, who, [+ref, +def, nil, nil, +pro, -ana, -me], 3, nil, sing, [umano, animato], sogg/actor)/17
+ ref_ex(sn3, plant, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [any, astratto, informa, oggetto, plant, relat, sociale, strumento, umano], ogg/theme_unaff)/21
+
+
+
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, potential, id1)
+sr(sogg-actor, sell, pro)
+sr(ogg-theme_unaff, sell, plant)
+
+
+'######################  LOGICAL FORM ###############'
+wff(sell,
+    wff(focus,
+        < definito : sn1 :
+            wff(isa,
+                sn1,
+                who) >>),
+    < plural : sn3 :
+        wff(isa,
+            sn3,
+            plant) >>,
+    < state : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                st),
+            wff(time,
+                f1,
+                < indefinito : t1 :
+                    wff(and,
+                        wff(isa,
+                            t1,
+                            tloc),
+                        wff(pres,
+                            t1)) >>)) >>)
+
+q_set(infon1, id1)
+q_card(infon2, id1, 5)
+q_fact(infon3, inst_of, [ind:id1, class:plant_life], 1, univ, univ)
+q_fact(infon4, isa, [ind:id1, class:plant], 1, univ, univ)
+q_fact(infon5, focus, [arg:id2], 1, univ, univ)
+q_fact(infon6, isa, [arg:id2, arg:who], 1, univ, univ)
+q_fact(id3, sell, [actor:id2, theme_unaff:id1], 1, tes(f1_user1), univ)
+q_fact(infon8, isa, [arg:id3, arg:st], 1, tes(f1_user1), univ)
+q_fact(infon9, isa, [arg:id4, arg:tloc], 1, tes(f1_user1), univ)
+q_fact(infon10, pres, [arg:id4], 1, tes(f1_user1), univ)
+q_fact(infon11, time, [arg:id3, arg:id4], 1, tes(f1_user1), univ)
+q_fact(infon15, perf, [arg:id5, ask:id3], 1, univ, univ)
+
+during(tes(sn59_t63), tes(sn60_t63))
+includes(tr(f1_user1), univ)
+

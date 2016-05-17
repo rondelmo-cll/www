@@ -1,0 +1,29 @@
+Minimal pairs for [s] vs. [z] in initial position:
+s 	z 			+ 	£ 	… 	a 	b 	c 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	t 	u 	v 	x 	y 
+sa 	za 			£a 	…a 	ca 	da 	ea 	fa 	ga 	ha 	la 	ma 	na 	oa 	ta 	va 	xa 
+sara 	zara 			cara 	gara 	para 	rara 	vara 	xara 
+sèlo 	zèlo 			xèlo 
+so 	zo 			£o 	co 	do 	go 	ho 	ko 	lo 	no 	oo 	to 	uo 	vo 	xo 
+sz 	zz 			dz 	tz 	xz 
+
+Minimal pairs for [s] vs. [z] in medial position:
+asion 	azion 		
+diresion 	direzion 		
+generasion 	generazion 		
+lese 	leze 			lexe 
+meso 	mezo 			mejo 	meto 	mexo 
+produsion 	produzion 		
+pronunsia 	pronunzia 		
+pronunsià 	pronunzià 		
+pronunsie 	pronunzie 		
+provinsa 	provinza 		
+scominsia 	scominzia 		
+sensa 	senza 			senta 
+sforso 	sforzo 		
+ss 	sz 			sa 	sc 	se 	sé 	sè 	sh 	si 	sì 	sk 	so 	só 	su 
+varianse 	varianze 			variante 
+venesian 	venezian 			venetian 
+venesiana 	veneziana 		
+venesiani 	veneziani 		
+
+Minimal pairs for [s] vs. [z] in final position:

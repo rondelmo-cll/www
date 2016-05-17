@@ -1,0 +1,63 @@
+entity(ind,id3,19,facts([
+fact(id15, take_order, [agente:id14, goal:id3], 1, tes(f1_t33), id2),
+fact(id23, read, [agent:id3, theme_aff:id22], 1, tes(finf1_t35), id2),
+fact(id25, begin, [actor:id3, prop:id23], 1, tes(f1_t35), id2),
+fact(id4, go, [agente:id3, locat:id2], 1, tes(f1_t31), id2),
+fact(id8, sit, [actor:id3, locat:id7], 1, tes(f4_id8), id2),
+fact(infon5, inst_of, [ind:id3, class:man], 1, univ, univ),
+fact(infon6, name, ['John', id3], 1, univ, univ),
+fact(infon72, poss, ['John', id3, id22], 1, id21, id2),
+fact(infon78, poss, [arg:id22, poss:id3], 1, id21, id2)])).
+entity(ind,id18,3,facts([
+fact(id19, be, [prop:infon63], 1, tes(f1_t34), id2),
+fact(infon59, atmosphere, [ind:id18], 1, id17, id2),
+fact(infon60, inst_of, [ind:id18, class:substance], 1, univ, univ),
+fact(infon61, isa, [ind:id18, class:atmosphere], 1, id17, id2),
+fact(infon63, [friendly, warm], [arg:id18], 1, id17, id2)])).
+entity(ind,id14,3,facts([
+fact(id15, take_order, [agente:id14, goal:id3], 1, tes(f1_t33), id2),
+fact(infon45, inst_of, [ind:id14, class:social_role], 1, univ, univ),
+fact(infon46, isa, [ind:id14, class:waiter], 1, id13, id2),
+fact(infon47, role, [waiter, id2, id14], 1, id13, id2)])).
+entity(ind,id7,1,facts([
+in(infon23, id7, id2),
+fact(*, go, [agente:id3, locat:id7], 1, tes(f1_t31), id2),
+fact(*, inst_of, [ind:id7, class:place], 1, univ, univ),
+fact(*, isa, [ind:id7, class:restaurant], 1, id1, id2),
+fact(*, part_of, [restaurant, id10, id7], 1, id6, id2),
+fact(*, role, [waiter, id7, id14], 1, id13, id2),
+fact(id11, there_be, [tema_nonaff:id7, prop:infon33], 1, tes(f3_t32), id2),
+fact(id8, sit, [actor:id3, locat:id7], 1, tes(f4_id8), id2),
+fact(infon21, inst_of, [ind:id7, class:place], 1, univ, univ),
+fact(infon22, isa, [ind:id7, class:table], 1, id6, id2),
+fact(infon33, in, [nil:id7, locativo:id10], 1, id6, id2)])).
+entity(ind,id22,1,facts([
+fact(id23, read, [agent:id3, theme_aff:id22], 1, tes(finf1_t35), id2),
+fact(id25, begin, [actor:id3, prop:id23], 1, tes(f1_t35), id2),
+fact(infon72, poss, ['John', id3, id22], 1, id21, id2),
+fact(infon74, inst_of, [ind:id22, class:thing], 1, univ, univ),
+fact(infon75, isa, [ind:id22, class:book], 1, id21, id2),
+fact(infon78, poss, [arg:id22, poss:id3], 1, id21, id2)])).
+entity(ind,id2,1,facts([
+fact(id4, go, [agente:id3, locat:id2], 1, tes(f1_t31), id2),
+fact(infon3, main_sloc, restaurant, 1, univ, _G12175),
+fact(infon30, part_of, [restaurant, id10, id2], 1, id6, id2),
+fact(infon47, role, [waiter, id2, id14], 1, id13, id2),
+fact(infon7, inst_of, [ind:id2, class:place], 1, univ, univ),
+fact(infon8, isa, [ind:id2, class:restaurant], 1, id1, id2)])).
+entity(ind,id10,1,facts([
+fact(id11, there_be, [tema_nonaff:id7, prop:infon33], 1, tes(f3_t32), id2),
+fact(infon28, inst_of, [ind:id10, class:place], 1, univ, univ),
+fact(infon29, isa, [ind:id10, class:corner], 1, id6, id2),
+fact(infon30, part_of, [restaurant, id10, id2], 1, id6, id2),
+fact(infon33, in, [nil:id7, locativo:id10], 1, id6, id2)])).
+entity(ind,id6,0,facts([
+fact(infon19, main_tloc, tes(f1_t31), 1, tes(f1_t31), _G12525)])).
+entity(ind,id21,0,facts([
+fact(infon71, main_tloc, tes(f1_t34), 1, tes(f1_t34), _G12575)])).
+entity(ind,id17,0,facts([
+fact(infon57, main_tloc, tes(f1_t33), 1, tes(f1_t33), _G12625)])).
+entity(ind,id13,0,facts([
+fact(infon43, main_tloc, tes(f3_t32), 1, tes(f3_t32), _G12675)])).
+entity(ind,id1,0,facts([
+fact(infon2, main_tloc, tr(f1_t31), 1, tr(f1_t31), _G12725)])).

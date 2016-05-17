@@ -1,0 +1,172 @@
+
+###############################################################
+[who, trains, the, dogs, ?]
+the, school
+
+
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.6
+'Lookahead Start Active Chart'
+0-[r-who, w-who], 1-[n-trains, v-trains], 2-[d-the], 3-[n-dogs, v-dogs], 4-[x- ?]
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.2
+0-[r-who, w-who], 1-[v-trains], 2-[d-the], 3-[n-dogs], 4-[x- ?]
+0-[r-who, w-who], 1-[v-trains], 2-[d-the], 3-[n-dogs], 4-[x- ?]
+
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn1),
+   cat([umano, animato]),
+   pr(pr_int, _G31177, who, 3, _G31180, _G31181, [nom, acc, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(train, active, [sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]], ind, _G31726/semp, 3, sing, _G31180),
+  supporto([]),
+  cat(risultato),
+  args(
+    [
+    arg(
+     funzione(sogg),
+     ruolo(actor),
+     sn(
+      indice(sn2),
+      cat([umano, animato]),
+      pr(pro_picc, pro, _G31444, 3, _G31180, sing, nom),
+      spec(
+       def(+)
+       ),
+      controllore(sn1)
+      )
+     ),
+    arg(
+     funzione(ogg),
+     ruolo(theme_aff),
+     sn(
+      indice(sn3),
+      cat([animato]),
+      n(dog, mas, plur),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn1
+      cat:[umano, animato]
+      pred:who
+      pers:3
+      caso:[nom, acc, obl]
+      tab_ref:[+ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:train
+lex_form:[sn/sogg/actor/[any], sn/ogg/theme_aff/[any], vcomp/prop/to/[subj=obj]]
+voice:active
+modo:ind
+tempo:pres
+cat:risultato
+sogg/actor:indice:sn2
+           cat:[umano, animato]
+           pred:pro
+           pers:3
+           num:sing
+           caso:nom
+           spec:def:+
+           controllore:sn1
+           tab_ref:[+ref, +pro, -ana, -me]
+ogg/theme_aff:indice:sn3
+              cat:[animato]
+              pred:dog
+              gen:mas
+              num:plur
+              pers:3
+              spec:def:+
+              tab_ref:[+ref, -pro, -ana, +class]
+aspetto:achiev_tr
+rel1:[td(f1_user1)=tr(f1_user1)]
+rel2:[incluso(tr(f1_user1), tes(f1_user1))]
+definitezza:-
+ref_int:[tr(f1_user1)]
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn2, who, [+ref, +def, nil, nil, +pro, -ana, -me], 3, nil, sing, [umano, animato], sogg/actor)/17
+ ref_ex(sn3, dog, [+ref, +def, nil, nil, -pro, -ana, +class], 3, mas, plur, [animato], ogg/theme_aff)/21
+
+
+rel_temp(infon1, td, tr(f1_user1), [eq])
+
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, potential, id2)
+sr(sogg-actor, train, pro)
+sr(ogg-theme_aff, train, dog)
+
+
+'######################  LOGICAL FORM ###############'
+wff(train,
+    wff(focus,
+        < definito : sn1 :
+            wff(isa,
+                sn1,
+                who) >>),
+    < plural : sn3 :
+        wff(isa,
+            sn3,
+            dog) >>,
+    < event : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                ev),
+            wff(time,
+                f1,
+                < definito : t1 :
+                    wff(and,
+                        wff(isa,
+                            t1,
+                            tloc),
+                        wff(pres,
+                            t1)) >>)) >>)
+
+q_loc(infon2, id1, [arg:main_tloc, arg:tr(f1_user1)])
+q_set(infon3, id2)
+q_card(infon4, id2, 5)
+q_fact(infon5, inst_of, [ind:id2, class:animal], 1, univ, univ)
+q_fact(infon6, isa, [ind:id2, class:dog], 1, id1, univ)
+q_fact(infon7, focus, [arg:id3], 1, id1, univ)
+q_fact(infon8, isa, [arg:id3, arg:who], 1, id1, univ)
+q_fact(id4, train, [actor:id3, theme_aff:id2], 1, tes(f1_user1), univ)
+q_fact(infon10, isa, [arg:id4, arg:ev], 1, tes(f1_user1), univ)
+q_fact(infon11, isa, [arg:id5, arg:tloc], 1, tes(f1_user1), univ)
+q_fact(infon12, pres, [arg:id5], 1, tes(f1_user1), univ)
+q_fact(infon13, time, [arg:id4, arg:id5], 1, tes(f1_user1), univ)
+q_fact(infon17, perf, [arg:id6, ask:id4], 1, id1, univ)
+
+during(tes(sn25_t45), tes(f1_t44))
+includes(tr(f1_user1), id1)
+

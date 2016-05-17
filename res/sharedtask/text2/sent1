@@ -1,0 +1,210 @@
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.125
+'Lookahead Start Active Chart'
+0-[a-'Cervical', n-'Cervical'], 1-[n-cancer], 2-[v- (is)], 3-[v-caused], 4-[p-by], 5-[d-a], 6-[n-virus], 7-[x-'.']
+
+
+0-[a-'Cervical', n-'Cervical'], 1-[n-cancer], 2-[v- (is)], 3-[v-caused], 4-[p-by], 5-[d-a], 6-[n-virus], 7-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+1
+Cervical-jj
+cancer-nn
+(is)-vbz
+caused-vbd
+by-in
+a-dt
+virus-nn
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+['Cervical'-ag, cancer-n, (is)-ause, caused-vin, by-pda, a-art, virus-n, '.'-punto]
+
+f-[subj-['Cervical'-ag-sn, cancer-n-sn], ibar-[ (is)-ause-ibar, caused-vppt-ibar], spda-[by-pda-spda, a-art-sn, virus-n-sn], cp-['.'-punto-cp]]
+
+1
+
+
+'Functional and Syntactic Constituency'
+
+subj-[Cervical-ag-sn, cancer-n-sn]
+ibar-[ (is)-ause-ibar, caused-vppt-ibar]
+obl-[by-pda-spda, a-art-sn, virus-n-sn]
+
+['.']
+
+
+ip(
+ indice(f2),
+ v(cause, passive, [sp/obl/agent/[any], sn/sogg/theme_aff/[any]], ind, pres, 3, sing, _G16098),
+ supporto([]),
+ cat(risultato),
+ args(
+   [
+   arg(
+    funzione(subj_top),
+    ruolo(theme_aff),
+    sn(
+     indice(sn6),
+     cat([stato]),
+     n(cancer, _G16098, sing),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(obl),
+    ruolo(agent),
+    mod([]),
+    sn(
+     indice(sn7),
+     cat([animato, attivita, informa, stato, tecno]),
+     n(virus, _G20989, sing),
+     spec(
+      def(-),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    )
+   ]
+  ),
+ adjs([])
+ )
+indice:f2
+pred:cause
+lex_form:[sp/obl/agent/[any], sn/sogg/theme_aff/[any]]
+voice:passive
+modo:ind
+tempo:pres
+cat:risultato
+subj_top/theme_aff:indice:sn6
+                   cat:[stato]
+                   pred:cancer
+                   num:sing
+                   pers:3
+                   spec:def:'0'
+                   tab_ref:[+ref, -pro, -ana, +class]
+obl/agent:indice:sn7
+          cat:[animato, attivita, informa, stato, tecno]
+          pred:virus
+          num:sing
+          pers:3
+          spec:def:-
+          tab_ref:[+ref, -pro, -ana, +class]
+          qmark:q1
+aspetto:achiev_tr
+rel1:[td(f2_t21)=tr(f2_t21)]
+rel2:[incluso(tr(f2_t21), tes(f2_t21))]
+definitezza:-
+ref_int:[tr(f2_t21)]
+qops:qop:q(q1, indefinito)
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn7, virus, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [animato, attivita, informa, stato, tecno], obl/agent)/21
+ ref_ex(sn6, cancer, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [stato], subj_top/theme_aff)/108
+
+
+rel_temp(infon1, td, tr(f2_t21), [eq])
+
+
+CLAUSE IDENTIFIER:               1-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(f2_t21), tr(f2_t21))
+DISCOURSE FOCUS:                 tes(f2_t21)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, expected, id2)
+topic(1, potential, id3)
+sr(subj_top-theme_aff, cause, cancer)
+sr(obl-agent, cause, virus)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(cause,
+        < entity : sn6 :
+            wff(isa,
+                sn6,
+                cancer) >>,
+        < indefinito : sn7 :
+            wff(isa,
+                sn7,
+                virus) >>,
+        < event : f2 :
+            wff(and,
+                wff(isa,
+                    f2,
+                    ev),
+                wff(time,
+                    f2,
+                    < definito : t1 :
+                        wff(and,
+                            wff(isa,
+                                t1,
+                                tloc),
+                            wff(pres,
+                                t1)) >>)) >>))
+
+
+
+loc(infon2, id1, [arg:main_tloc, arg:tr(f2_t21)])
+ind(infon3, id2)
+fact(infon4, isa, [ind:id2, class:virus], 1, id1, univ)
+fact(infon5, inst_of, [ind:id2, class:animal], 1, univ, univ)
+class(infon6, id3)
+fact(infon7, inst_of, [ind:id3, class:stato], 1, univ, univ)
+fact(infon8, isa, [ind:id3, class:cancer], 1, id1, univ)
+fact(id4, cause, [theme_aff:id3, agent:id2], 1, tes(f2_t21), univ)
+fact(infon11, isa, [arg:id4, arg:ev], 1, tes(f2_t21), univ)
+fact(infon12, isa, [arg:id5, arg:tloc], 1, tes(f2_t21), univ)
+fact(infon13, pres, [arg:id5], 1, tes(f2_t21), univ)
+fact(infon14, time, [arg:id4, arg:id5], 1, tes(f2_t21), univ)
+
+contains(tes(f2_t21), tr(f2_t21))
+includes(tr(f2_t21), id1)
+
+
+   root:new(1-1)
+   clause:1-1
+   topics:[expected:id2:virus]
+   main_fact:cause([id3:cancer, id2:virus], 1, univ)
+   ref_int:tint(tes(f2_t21), [])
+   temp_rel:contains(tes(f2_t21), tr(f2_t21))
+   disc_rel:narration
+   disc_seg:1-[1]
+   disc_dom:objective
+   p_o_view:narrator
+

@@ -1,0 +1,661 @@
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.45
+'Lookahead Start Active Chart'
+0-[d-an], 1-[n-object, v-object], 2-[v- (is)], 3-[v-thrown], 4-[p-with], 5-[d-a], 6-[a-horizontal, n-horizontal], 7-[n-speed, v-speed], 8-[p-of], 9-[d-20], 10-[n-'m-s'], 11-[p-from], 12-[d-a], 13-[n-cliff], 14-[a-that, c-that, r-that], 15-[v- (is)], 16-[d-125], 17-[d-m, n-m], 18-[a-high, av-high, n-high, v-high], 19-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.2
+0-[d-an], 1-[n-object], 2-[v- (is)], 3-[v-thrown], 4-[p-with], 5-[d-a], 6-[a-horizontal], 7-[n-speed], 8-[p-of], 9-[d-20], 10-[n-'m-s'], 11-[p-from], 12-[d-a], 13-[n-cliff], 14-[c-that], 15-[v- (is)], 16-[d-125], 17-[d-m, n-m], 18-[a-high, av-high, n-high, v-high], 19-[x-'.']
+
+0-[d-an], 1-[n-object], 2-[v- (is)], 3-[v-thrown], 4-[p-with], 5-[d-a], 6-[a-horizontal], 7-[n-speed], 8-[p-of], 9-[d-20], 10-[n-'m-s'], 11-[p-from], 12-[d-a], 13-[n-cliff], 14-[c-that], 15-[v- (is)], 16-[d-125], 17-[d-m, n-m], 18-[a-high, av-high, n-high, v-high], 19-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+1
+an-dt
+object-nn
+(is)-vbz
+thrown-vbn_jj
+with-in
+a-dt
+horizontal-jj
+speed-nn
+of-in
+20-cd
+m-s-nns
+from-in
+a-dt
+cliff-nn
+that-dt
+(is)-vbz
+125-cd
+m-nn
+high-vb
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+[an-art, object-n, (is)-ause, thrown-vppt, with-p, a-art, horizontal-ag, speed-n, of-p, 20-num, 'm-s'-n, from-p, a-art, cliff-n, that-rel, (is)-ause, 125-num, m-n, high-v, '.'-punto]
+
+f-[subj-[an-art-sn, object-n-sn], ibar-[ (is)-ause-ibar, thrown-vppt-ibar], sp-[with-p-sp, a-art-sn, horizontal-ag-sn, speed-n-sn, mod-[of-p-sp, 20-num-sn, 'm-s'-n-sn]], sp-[from-p-sp, a-art-sn, cliff-n-sn], f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[ (is)-ause-ibar], sn-[125-num-sn, m-n-sn], sa-[high-ag-sa], cp-['.'-punto-cp]]]]
+
+1
+
+
+'Functional and Syntactic Constituency'
+
+subj-[an-art-sn, object-n-sn]
+ibar-[ (is)-ause-ibar, thrown-vppt-ibar]
+obl-[with-p-sp, a-art-sn, horizontal-ag-sn, speed-n-sn, mod-[of-p-sp, 20-num-sn, m-s-n-sn]]
+obl-[from-p-sp, a-art-sn, cliff-n-sn, f2-[f2-[that-rel-f2], f-[subj-pro, ibar-[ (is)-ause-ibar], sn-[125-num-sn, m-n-sn], sa-[high-ag-sa]]]]
+
+[m, high, '.']
+ip(indice(sn42), v(throw, passive, [[sn/sogg/exper/[umano], sn/ogg/theme_unaff], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any]], sn/sogg/agente/[umano, animato], sn/ogg/tema_nonaff/[oggetto]], ind, pres/_G1150/be, _G1357, _G3096, _G1359), supporto(_G1150), cat(attivita), args([arg(funzione(subj_top), ruolo(tema_nonaff), sn(indice(sn25), cat([any, astratto, attivita, informa, oggetto, stato, tecno]), n(object, _G1101, sing), spec(def(-), part(_G1090), mod([]), foc(_G1094), card(_G1079), quant([])), args([]), mods([]), adjs([]))), arg(funzione(obl), ruolo(agente), sn(indice(sn39), cat([umano, animato]), pr(pr_quantif, exist, _G2681, _G2682, _G2683, _G2684), spec(def(-), part(+), mod(_G2697), foc(_G2699), card(_G2701), quant(_G2703))))]), adjs([adj(modale, sp(prep(with, cat([attivita]), mod([])), args([arg(funzione(ogg), ruolo(nil), sn(indice(sn26), cat([attivita]), n(speed, _G1435, sing), spec(def(-), part(_G1424), mod(_G1389), foc(_G1428), card(_G1413), quant([])), args([]), mods([mod_a(sa(indice(sa2), cat([valutativo, soggettivo]), agg(horizontal, _G1403, _G1404), args([])))]), adjs([nome_mo(funzione(ncomp), ruolo(tema), sn(indice(20), cat([quant, date, tempo]), n(twenty, _G1451, plur), spec(def(0), _G1455, _G1456, _G1457, _G1458, _G1459), args([]), mods([]), adjs([])))])))]))), adj(compar, sn(indice(sn28), cat([astratto, nquant]), npro(m-s, _G1522, sing), spec(def(0), part(_G1516), mod(_G1542), foc(_G1517), card(_G1515), quant([])), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn40), pr(vbl, vbl, _G2855, _G2856, _G2857, _G2858), controllore(indefinito)))]), mods([]), adjs([]))), adj(loc_origin, sp(prep(from, cat([oggetto]), mod([])), sn(indice(sn29), cat([oggetto]), n(cliff, _G1599, sing), spec(def(-), part(_G1588), mod([]), foc(_G1592), card(_G1577), quant([])), args([]), mods([relativa(topic(relativo, sn(indice(sn30), cat([oggetto]), pr(pro_grande, pPro, 3, _G1599, sing, nom), controllore(sn29))), ip(indice(f5), v(be, active, [sn/sogg/tema_bound/[oggetto], xcomp/prop/[_G1713|_G1714]], ind, pres, 3, sing, _G1599), supporto([]), cat(esistenza), args([arg(funzione(ncomp), ruolo(prop), sn(indice(sn32), cat([oggetto]), pr(quant, hundred_twenty_five, 3, _G1599, _G1667, [nom|_G1688]), spec(def(+), part(-), mod(_G1681), foc(_G1659), card(_G1658), quant(hundred_twenty_five)), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn37), pr(vbl, vbl, _G1747, _G1748, _G1749, _G1750), controllore(sn31)))]), mods([]), adjs([]))), arg(funzione(sogg), ruolo(tema_bound), sn(indice(sn31), cat([oggetto]), pr(pro_picc, pro, _G1641, 3, _G1599, sing, nom), spec(def(+)), controllore(sn30)))]), adjs([])))]), adjs([])))), adj(compar, sn(indice(sn38), cat([col, evl, loc, sta, str]), n(high, _G1854, sing), spec(def(0), part(_G1843), mod([]), foc(_G1847), card(_G1832), quant([])), args([arg(funzione(sogg), ruolo(nil), sn(indice(sn41), pr(vbl, vbl, _G2954, _G2955, _G2956, _G2957), controllore(indefinito)))]), mods([]), adjs([])))]))
+
+
+ip(
+ indice(sn42),
+ v(throw, passive, [[sn/sogg/exper/[umano], sn/ogg/theme_unaff], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any]], sn/sogg/agente/[umano, animato], sn/ogg/tema_nonaff/[oggetto]], ind, pres/_G1150/be, _G1357, _G3096, _G1359),
+ supporto([]),
+ cat(attivita),
+ args(
+   [
+   arg(
+    funzione(subj_top),
+    ruolo(tema_nonaff),
+    sn(
+     indice(sn25),
+     cat([any, astratto, attivita, informa, oggetto, stato, tecno]),
+     n(object, _G1101, sing),
+     spec(
+      def(-),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args([]),
+     mods([]),
+     adjs([])
+     )
+    ),
+   arg(
+    funzione(obl),
+    ruolo(agente),
+    sn(
+     indice(sn39),
+     cat([umano, animato]),
+     pr(pr_quantif, exist, _G2681, _G2682, _G2683, _G2684),
+     spec(
+      def(-),
+      part(+),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      )
+     )
+    )
+   ]
+  ),
+ adjs(
+   [
+   adj(
+    modale,
+    sp(
+     prep(with, cat([attivita]), mod([])),
+     args(
+       [
+       arg(
+        funzione(ogg),
+        ruolo(nil),
+        sn(
+         indice(sn26),
+         cat([attivita]),
+         n(speed, _G1435, sing),
+         spec(
+          def(-),
+          part([]),
+          mod([]),
+          foc([]),
+          card([]),
+          quant([])
+          ),
+         args([]),
+         mods(
+           [
+           mod_a(
+            sa(
+             indice(sa2),
+             cat([valutativo, soggettivo]),
+             agg(
+              horizontal,
+              [],
+              []
+              ),
+             args([])
+             )
+            )
+           ]
+          ),
+         adjs(
+           [
+           nome_mo(
+            funzione(ncomp),
+            ruolo(tema),
+            sn(
+             indice(20),
+             cat([quant, date, tempo]),
+             n(twenty, _G1451, plur),
+             spec(
+              def(0),
+              [],
+              [],
+              [],
+              [],
+              []
+              ),
+             args([]),
+             mods([]),
+             adjs([])
+             )
+            )
+           ]
+          )
+         )
+        )
+       ]
+      )
+     )
+    ),
+   adj(
+    compar,
+    sn(
+     indice(sn28),
+     cat([astratto, nquant]),
+     npro(m-s, _G1522, sing),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn40),
+         pr(vbl, vbl, _G2855, _G2856, _G2857, _G2858),
+         controllore(indefinito)
+         )
+        )
+       ]
+      ),
+     mods([]),
+     adjs([])
+     )
+    ),
+   adj(
+    loc_origin,
+    sp(
+     prep(from, cat([oggetto]), mod([])),
+     sn(
+      indice(sn29),
+      cat([oggetto]),
+      n(cliff, _G1599, sing),
+      spec(
+       def(-),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods(
+        [
+        relativa(
+         topic(
+          relativo,
+          sn(
+           indice(sn30),
+           cat([oggetto]),
+           pr(pro_grande, pPro, 3, _G1599, sing, nom),
+           controllore(sn29)
+           )
+          ),
+         ip(
+          indice(f5),
+          v(be, active, [sn/sogg/tema_bound/[oggetto], xcomp/prop/[_G1713|_G1714]], ind, pres, 3, sing, _G1599),
+          supporto([]),
+          cat(esistenza),
+          args(
+            [
+            arg(
+             funzione(ncomp),
+             ruolo(prop),
+             sn(
+              indice(sn32),
+              cat([oggetto]),
+              pr(quant, hundred_twenty_five, 3, _G1599, _G1667, [nom|_G1688]),
+              spec(
+               def(+),
+               part(-),
+               mod([]),
+               foc([]),
+               card([]),
+               quant(
+                hundred_twenty_five
+                )
+               ),
+              args(
+                [
+                arg(
+                 funzione(sogg),
+                 ruolo(nil),
+                 sn(
+                  indice(sn37),
+                  pr(vbl, vbl, _G1747, _G1748, _G1749, _G1750),
+                  controllore(sn31)
+                  )
+                 )
+                ]
+               ),
+              mods([]),
+              adjs([])
+              )
+             ),
+            arg(
+             funzione(sogg),
+             ruolo(tema_bound),
+             sn(
+              indice(sn31),
+              cat([oggetto]),
+              pr(pro_picc, pro, _G1641, 3, _G1599, sing, nom),
+              spec(
+               def(+)
+               ),
+              controllore(sn30)
+              )
+             )
+            ]
+           ),
+          adjs([])
+          )
+         )
+        ]
+       ),
+      adjs([])
+      )
+     )
+    ),
+   adj(
+    compar,
+    sn(
+     indice(sn38),
+     cat([col, evl, loc, sta, str]),
+     n(high, _G1854, sing),
+     spec(
+      def(0),
+      part([]),
+      mod([]),
+      foc([]),
+      card([]),
+      quant([])
+      ),
+     args(
+       [
+       arg(
+        funzione(sogg),
+        ruolo(nil),
+        sn(
+         indice(sn41),
+         pr(vbl, vbl, _G2954, _G2955, _G2956, _G2957),
+         controllore(indefinito)
+         )
+        )
+       ]
+      ),
+     mods([]),
+     adjs([])
+     )
+    )
+   ]
+  )
+ )
+indice:sn42
+pred:throw
+lex_form:[[sn/sogg/exper/[umano], sn/ogg/theme_unaff], [sn/sogg/agent/[any], sn/ogg/theme_aff/[any]], [sn/sogg/actor/[any], vcomp/prop/to/[subj=subj1]], [sn/sogg/actor/[any], sn/ogg/theme_unaff/[any], sp/ogg2/goal/[any]], [sn/sogg/actor/[any]], sn/sogg/agente/[umano, animato], sn/ogg/tema_nonaff/[oggetto]]
+voice:passive
+modo:ind
+tempo:pres
+cat:attivita
+subj_top/tema_nonaff:indice:sn25
+                     cat:[any, astratto, attivita, informa, oggetto, stato, tecno]
+                     pred:object
+                     num:sing
+                     pers:3
+                     spec:def:-
+                     tab_ref:[+ref, -pro, -ana, +class]
+                     qmark:q3
+obl/agente:indice:sn39
+           cat:[umano, animato]
+           pred:exist
+           spec:def:-
+                part:+
+           tab_ref:[+ref, -pro, -ana, +me]
+adjs:adj/modale:sem_mark:with
+                ogg/nil:indice:sn26
+                        cat:[attivita]
+                        pred:speed
+                        num:sing
+                        pers:3
+                        spec:def:-
+                        mods:indice:sa2
+                             cat:[valutativo, soggettivo]
+                             pred:horizontal
+                        adjs:ncomp/tema:indice:20
+                                        cat:[quant, date, tempo]
+                                        pred:twenty
+                                        num:plur
+                                        pers:3
+                                        spec:[]
+                                        tab_ref:[+ref, -pro, -ana, +class]
+                        tab_ref:[+ref, -pro, -ana, +class]
+                        qmark:q2
+     adj/compar:indice:sn28
+                cat:[astratto, nquant]
+                pred:'m-s'
+                num:sing
+                pers:3
+                spec:def:'0'
+                sogg/nil:indice:sn40
+                         pred:vbl
+                         controllore:indefinito
+                         tab_ref:[+ref, -pro, -ana, -me]
+                tab_ref:[+ref, -pro, -ana, -class]
+     adj/loc_origin:sem_mark:from
+                    indice:sn29
+                    cat:[oggetto]
+                    pred:cliff
+                    num:sing
+                    pers:3
+                    spec:def:-
+                    mods:relativa:topic:tipo_topic:relativo
+                                        indice:sn30
+                                        cat:[oggetto]
+                                        pred:pPro
+                                        controllore:sn29
+                                        tab_ref:[+ref, +pro, +ana, -me]
+                                  indice:f5
+                                  pred:be
+                                  lex_form:[sn/sogg/tema_bound/[oggetto], xcomp/prop/[_G24600|_G24601]]
+                                  voice:active
+                                  modo:ind
+                                  tempo:pres
+                                  cat:esistenza
+                                  ncomp/prop:indice:sn32
+                                             cat:[oggetto]
+                                             pred:hundred_twenty_five
+                                             pers:3
+                                             caso:[nom|_G24946]
+                                             spec:def:+
+                                                  part:-
+                                                  quant:hundred_twenty_five
+                                             sogg/nil:indice:sn37
+                                                      pred:vbl
+                                                      controllore:sn31
+                                                      tab_ref:[+ref, -pro, -ana, -me]
+                                             tab_ref:[+ref, -pro, -ana, +me]
+                                  sogg/tema_bound:indice:sn31
+                                                  cat:[oggetto]
+                                                  pred:pro
+                                                  pers:3
+                                                  num:sing
+                                                  caso:nom
+                                                  spec:def:+
+                                                  controllore:sn30
+                                                  tab_ref:[+ref, +pro, -ana, -me]
+                                  aspetto:stato
+                    tab_ref:[+ref, -pro, -ana, +class]
+                    qmark:q1
+     adj/compar:indice:sn38
+                cat:[col, evl, loc, sta, str]
+                pred:high
+                num:sing
+                pers:3
+                spec:def:'0'
+                sogg/nil:indice:sn41
+                         pred:vbl
+                         controllore:indefinito
+                         tab_ref:[+ref, -pro, -ana, -me]
+                tab_ref:[+ref, -pro, -ana, +class]
+aspetto:attivita
+rel1:[td(sn42_t11)=tr(sn42_t11)]
+rel2:[incluso(tr(sn42_t11), tes(sn42_t11))]
+definitezza:+
+ref_int:[tr(sn42_t11)]
+qops:qop:q(q1, indefinito)
+     qop:q(q2, indefinito)
+     qop:q(q3, indefinito)
+
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn25, object, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [any, astratto, attivita, informa, oggetto, stato, tecno], subj_top/tema_nonaff)/9
+ ref_ex(sn29, cliff, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto], adj/loc_origin)/158
+ ref_ex(20, twenty, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, plur, [quant, date, tempo], ncomp/tema)/205
+ ref_ex(sn39, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [umano, animato], obl/agente)/220
+ ref_ex(sn26, speed, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [attivita], ogg/nil)/245
+ ref_ex(sn28, m-s, [+ref, def0, nil, nil, -pro, -ana, -class], 3, nil, sing, [astratto, nquant], adj/compar)/1150
+ ref_ex(sn38, high, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [col, evl, loc, sta, str], adj/compar)/1150
+
+
+rel_temp(infon1, td, tr(sn42_t11), [eq])
+
+
+CLAUSE IDENTIFIER:               1-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(sn42_t11), tr(sn42_t11))
+DISCOURSE FOCUS:                 tes(sn42_t11)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+topic(1, expected, id2)
+topic(1, potential, id3)
+sr(subj_top-tema_nonaff, throw, object)
+sr(obl-agente, throw, exist)
+sr(mod, speed, horizontal)
+sr(sogg-tema_bound, be, pro)
+sr(ncomp-prop, be, hundred_twenty_five)
+sr(adj-modale, with, throw, speed)
+sr(adj-compar, throw, m-s)
+sr(adj-loc_origin, from, throw, cliff)
+sr(adj-compar, throw, high)
+
+
+'######################  LOGICAL FORM ###############'
+wff(situation,
+    wff(throw,
+        < indefinito : sn25 :
+            wff(isa,
+                sn25,
+                object) >>,
+        < exist : sn39 :
+            wff(isa,
+                sn39,
+                exist) >>,
+        < process : sn42 :
+            wff(and,
+                wff(isa,
+                    sn42,
+                    pr),
+                wff(and,
+                    wff(time,
+                        sn42,
+                        < indefinito : t2 :
+                            wff(and,
+                                wff(isa,
+                                    t2,
+                                    tloc),
+                                wff(pres,
+                                    t2)) >>),
+                    wff(and,
+                        wff(with,
+                            sn42,
+                            < indefinito : sn26 :
+                                wff(and,
+                                    wff(isa,
+                                        sn26,
+                                        speed),
+                                    wff(and,
+                                        wff(horizontal,
+                                            sn26),
+                                        [])) >>),
+                        wff(and,
+                            wff(m-s,
+                                sn42),
+                            wff(and,
+                                wff(from,
+                                    sn42,
+                                    < indefinito : sn29 :
+                                        wff(and,
+                                            wff(isa,
+                                                sn29,
+                                                cliff),
+                                            wff(and,
+                                                wff(isola,
+                                                    wff(situation,
+                                                        wff(be,
+                                                            < definito : sn31 :
+                                                                wff(and,
+                                                                    wff(isa,
+                                                                        sn31,
+                                                                        pro),
+                                                                    wff(controllore,
+                                                                        sn31,
+                                                                        sn29)) >>,
+                                                            wff(hundred_twenty_five,
+                                                                < definito : sn37 :
+                                                                    wff(and,
+                                                                        wff(isa,
+                                                                            sn37,
+                                                                            vbl),
+                                                                        wff(controllore,
+                                                                            sn37,
+                                                                            sn31)) >>,
+                                                                < hundred_twenty_five : sn32 :
+                                                                    wff(and,
+                                                                        wff(and,
+                                                                            wff(has,
+                                                                                < definito : sn37 :
+                                                                                    wff(and,
+                                                                                        wff(isa,
+                                                                                            sn37,
+                                                                                            vbl),
+                                                                                        wff(controllore,
+                                                                                            sn37,
+                                                                                            sn31)) >>),
+                                                                            wff(isa,
+                                                                                sn32,
+                                                                                hundred_twenty_five)),
+                                                                        []) >>),
+                                                            < state : f5 :
+                                                                wff(and,
+                                                                    wff(isa,
+                                                                        f5,
+                                                                        st),
+                                                                    wff(time,
+                                                                        f5,
+                                                                        < indefinito : t1 :
+                                                                            wff(and,
+                                                                                wff(isa,
+                                                                                    t1,
+                                                                                    tloc),
+                                                                                wff(pres,
+                                                                                    t1)) >>)) >>))),
+                                                [])) >>),
+                                wff(high,
+                                    sn42)))))) >>))
+
+
+
+loc(infon2, id1, [arg:main_tloc, arg:tr(sn42_t11)])
+ind(infon3, id2)
+fact(infon4, isa, [ind:id2, class:object], 1, id1, univ)
+fact(infon5, inst_of, [ind:id2, class:thing], 1, univ, univ)
+ind(infon6, id3)
+fact(infon7, be, [ind:id3], 1, id1, univ)
+fact(infon8, of, [arg:id3, specif:id3], 1, univ, univ)
+fact(infon9, isa, [ind:id3, class:cliff], 1, id1, univ)
+fact(infon10, inst_of, [ind:id3, class:thing], 1, univ, univ)
+set(infon11, id4)
+card(infon12, id4, 5)
+fact(infon13, inst_of, [ind:id4, class:quant], 1, univ, univ)
+fact(infon14, isa, [ind:id4, class:twenty], 1, id1, univ)
+ind(infon15, id5)
+fact(infon16, isa, [ind:id5, class:speed], 1, id1, univ)
+fact(infon17, inst_of, [ind:id5, class:attivita], 1, univ, univ)
+ind(infon18, id6)
+fact(infon19, vbl, [ind:id6], 1, id1, univ)
+fact(infon20, inst_of, [ind:id6, class:abstract_state], 1, univ, univ)
+fact(infon21, name, ['m-s', id6], 1, univ, univ)
+class(infon22, id7)
+fact(infon23, of, [arg:id7, specif:id6], 1, univ, univ)
+fact(infon24, inst_of, [ind:id7, class:col], 1, univ, univ)
+fact(infon25, isa, [ind:id7, class:high], 1, id1, univ)
+fact(infon27, isa, [arg:id8, arg:exist], 1, id1, univ)
+fact(id9, throw, [tema_nonaff:id2, agente:id8], 1, tes(sn42_t11), univ)
+fact(infon28, isa, [arg:id9, arg:pr], 1, tes(sn42_t11), univ)
+fact(infon29, isa, [arg:id10, arg:tloc], 1, tes(sn42_t11), univ)
+fact(infon30, pres, [arg:id10], 1, tes(sn42_t11), univ)
+fact(infon31, time, [arg:id9, arg:id10], 1, tes(sn42_t11), univ)
+fact(infon32, isa, [arg:id5, arg:speed], 1, tes(sn42_t11), univ)
+fact(infon33, horizontal, [arg:id5], 1, tes(sn42_t11), univ)
+fact(infon34, with, [arg:id9, nil:id5], 1, tes(sn42_t11), univ)
+fact(infon35, 'm-s', [arg:id9], 1, tes(sn42_t11), univ)
+fact(infon36, isa, [arg:id3, arg:cliff], 1, tes(sn42_t11), univ)
+fact(infon37, has, [nil:id11], 1, tes(sn42_t11), univ)
+fact(infon38, isa, [arg:id12, arg:hundred_twenty_five], 1, tes(sn42_t11), univ)
+fact(infon39, hundred_twenty_five, [nil:id11, arg:id12], 1, tes(sn42_t11), univ)
+fact(id13, be, [prop:infon39], 1, tes(f5_t11), univ)
+fact(infon40, isa, [arg:id13, arg:st], 1, tes(f5_t11), univ)
+fact(infon41, isa, [arg:id14, arg:tloc], 1, tes(f5_t11), univ)
+fact(infon42, pres, [arg:id14], 1, tes(f5_t11), univ)
+fact(infon43, time, [arg:id13, arg:id14], 1, tes(f5_t11), univ)
+fact(infon44, from, [arg:id9, loc_origin:id3], 1, tes(sn42_t11), univ)
+fact(infon45, high, [arg:id9], 1, tes(sn42_t11), univ)
+
+contains(tes(sn42_t11), tr(sn42_t11))
+includes(tr(sn42_t11), id1)
+
+
+   root:new(1-1)
+   clause:1-1
+   topics:[expected:id2:object]
+   main_fact:throw([id2:object, id8:exist], 1, univ)
+   ref_int:tint(tes(sn42_t11), [])
+   temp_rel:contains(tes(sn42_t11), tr(sn42_t11))
+   disc_rel:narration
+   disc_seg:1-[1]
+   disc_dom:objective
+   p_o_view:narrator
+   

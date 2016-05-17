@@ -1,0 +1,393 @@
+quality control - controlli di qualita'##4 - controllo della qualita'##47 - controllo di qualita'##25
+accounting data - dati contabili##9 - dati statistici  e contabili##4
+milk powder - latte in##17 - latte scremato in##29
+gaza strip - della striscia  di gaza##6 - striscia di gaza##7
+away from - lontano da##6 - lontano dal##4
+leased line - linea affittata##7 - linee affittate##4
+working day - giornata di lavoro##5 - giorni lavorativi##4 - giorno feriale##30 - giorno lavorativo##171
+mass in - massa in##24 - massa lorda in##7
+in the event - in caso##9 - nel caso##26
+control systems - impianti di comando##5 - sistemi di controllo##30
+provided that - condizione che##836 - disporre che##6 - fornita la  prova che##4 - meno che##5 - patto che##11 - prevedere che##5 - purche' detto##4 - purche' questa##5 - purche' questo##5 - purche' tale##7 - purche' tali##5
+decide on - decide in merito##30 - decidere in merito##4
+total costs - costi complessivi##13 - costi totali##13
+prior to - anteriore a##4 - anteriore al##9 - anteriore alla##4 - anteriori a##4 - anteriori alla##12 - anteriormente a##8 - anteriormente al##25 - anteriormente alla##24 - precedentemente alla##4 - precedentemente alle##4 - preliminare in  merito alla##6
+make up - portare a volume##6 - portare al volume##37
+without prejudice - fatto salvo##39 - ferma restando##8 - fermi restando##6 - fermo restando##10
+european union - all'unione europea##62 - dall'unione europea##9 - dell'unione europea##389 - l'unione europea##75 - nell'unione europea##46 - sull'unione europea##118
+selling prices - prezzi di vendita##35 - prezzo di vendita##5
+control panel - pannello di comando##8 - pannello di controllo##8
+vesicular stomatitis - negli ultimi##6 - stomatite vescicolare##8
+with regard to - con riferimento ai##4 - con riferimento al##4 - con riferimento alla##6 - con riguardo ai##6 - con riguardo al##48 - con riguardo alla##5
+network termination - terminale della rete##4 - terminale di rete##4
+audit report - rapporto sul##4 - relazione sul##5
+catalytic converter - convertitore catalitico  di ricambio##16 - convertitore catalitico##16 - convertitore catalitico d'origine##4
+computer system - sistema computerizzato##7 - sistema informatico##7
+benefits in kind - prestazioni in natura##310 - prestazioni sociali in natura##7
+derivative instruments - strumenti derivati##5 - titoli derivati##4
+vertical angle - l '  angolo verticale##4 - l'angolo verticale##7
+weather conditions - condizioni atmosferiche##4 - condizioni climatiche##7 - condizioni meteorologiche##10
+reports on - relazioni relative##10 - relazioni sui##6 - relazioni sulla##5 - relazioni sulle##5 - relazioni sullo##4
+radio spectrum - dello spettro radio##29 - lo spettro radio##4 - materia di  spettro radio##10 - spettro radio##4
+closely related - strettamente collegati##6 - strettamente connesse##5 - strettamente connesso##6
+watch glass - vetro d'orologio##5 - vetro da orologio##4
+radioactive material - materiale radioattivo##20 - materiali radioattivi##86
+personal effects - effetti personali##21 - gli effetti personali##6
+economic activity - attivita' economica##19 - attivita' economiche##4 - dell'attivita' economica##5 - un'attivita' economica##17
+european monetary institute - dell'istituto monetario europeo##4 - l'istituto monetario europeo##5
+take into consideration - tener conto##4 - tenere conto##6
+life insurance - assicurazione sulla##16 - assicurazioni sulla##5
+combustible material - materiale combustibile##7 - materiali combustibili##4
+last day - all'ultimo giorno##19 - dell'ultimo giorno##9 - l'ultimo giorno##63 - ultimo giorno##8
+name and address - denominazione e indirizzo##4 - denominazione e l'indirizzo##15 - denominazione e la sede##6 - nome e dell'indirizzo##8 - nome e l'indirizzo##233 - nome ed indirizzo##24 - sociale e l'indirizzo##6 - sociale ed indirizzo##8
+management control - controllo di gestione##6 - controllo gestionale##4
+public transport - trasporti pubblici##5 - trasporto pubblico##15
+ozone layer - dello strato  di ozono##4 - lo strato  di ozono##13 - lo strato##8
+radioactive waste - residui radioattivi##16 - rifiuti radioattivi##4
+fatty acids - acidi grassi##29 - acidi grassi lineari##6
+social assistance - assistenza sociale##14 - l'assistenza sociale##4
+a lot - un lotto##7 - una partita##10
+service contracts - appalti di servizi##47 - appalti pubblici  di servizi##17 - contratti di servizi##5 - contratti di servizio##4 - contratti per servizi##4
+profit margin - margine di profitto##67 - margine di utile##17
+price index - indice dei prezzi##18 - indice generale  dei prezzi##8 - l'indice dei prezzi##15
+a level - un livello##184 - un valore##4 - una concentrazione##4
+social benefits - prestazioni di  assicurazione sociale##9 - prestazioni sociali##40
+private sector - settore privato##53 - settore pubblico  e privato##5
+mutatis mutandis - applica mutatis mutandis,##19 - applicano altresi',##4 - applicano con##4 - applicano in  quanto compatibili,##8 - applicano mutatis mutandis,##57 - applicheranno mutatis mutandis##4 - per analogia##20 - per quanto  di ragione##5 - stesse disposizioni##4
+operating costs - costi di esercizio##10 - spese di funzionamento##4
+as such - come tale##34 - come tali##49 - quanto tale##24 - quanto tali##21
+derived from - da esso derivati##5 - derivanti da##9 - derivanti dai##9 - derivata dalla##5 - derivate da##26 - derivati da##63 - derivati dai##6 - derivati dal##25 - derivati dalla##6 - derivato da##11 - derivato dai##6 - derivato dal##12 - ottenuta da##4 - ottenute da##32 - ottenuti da##42 - ottenuti dagli##4 - ottenuti dai##4 - ottenuti dal##5 - ottenuti dalla##6 - ottenuto da##11 - ottenuto dalla##4 - provengono da##7 - proveniente da##5 - proveniente dalla##8 - provenienti da##24 - provenienti dal##7 - ricavati da##12 - ricavato da##4 - risultante dalle##9
+addition to - oltre a##27 - oltre ad##7 - oltre agli##7 - oltre ai##21 - oltre al##19 - oltre alla##11 - oltre alle##32
+commercial documents - documenti commerciali##52 - documento commerciale##6
+taken with - effettuate con##5 - prelevati ad##6
+contract in - contratto di cui##6 - contratto in##21 - contratto nel##4
+emergency exits - uscite di emergenza##12 - uscite di sicurezza##4
+equal treatment - parita' di trattamento##190 - trattamento equo##5
+contagious disease - malattia contagiosa##11 - malattia infettiva  o contagiosa##4
+european community - comunita' economica##9 - comunita' europee##10 - l'unione europea##4
+offer price - prezzo d  ' offerta##4 - prezzo d'offerta##5
+calendar year - all'anno civile##15 - anno civile##110 - anno di calendario##6 - anno solare##4 - corso dell'anno##5 - corso dell'anno civile##4 - dell'anno civile  nel corso##9 - dell'anno civile##25 - l'anno civile##81 - nell'anno civile##14
+calendar days - giorni di  calendario dalla##4 - giorni di calendario##61
+administrative unit - l'unita' amministrativa##5 - unita' amministrativa##7
+time frame - periodo di tempo##4 - tempi normali  di esecuzione##4
+silver nitrate - nitrato d'argento##29 - soluzione di nitrato##4
+river basin - bacino idrografico##4 - distretto idrografico##27
+set in - fissata nella##4 - fissati in##4 - indicato nella##4
+statistical method - metodi statistici##4 - metodo statistico##9
+practical application - all'applicazione pratica##6 - l'applicazione pratica##10
+at work - al lavoro##5 - durante il lavoro##29 - sul lavoro##66 - sul luogo##25 - sul posto##7
+action plan - piano d'azione##85 - piano di azione##10
+annual accounts - contabilita' annuale##4 - conti annuali##197 - conti annui##6
+urban areas - aree urbane##6 - zone urbane##8
+as required - come prescritto##21 - come previsto##12 - come richiesto##9 - se necessario##4
+market price - prezzi di mercato##5 - prezzo corrente  di mercato##4 - prezzo del mercato##24 - prezzo di mercato##29 - prezzo medio  del mercato##9 - prezzo medio  di mercato##19 - prezzo rappresentativo  di mercato##5
+countervailing duty - dazi compensativi##15 - dazio compensativo##66
+trade name - fabbrica o commerciale##5 - marchio di fabbrica##6 - nome commerciale##12
+more than - da oltre##4 - da piu'##4 - entro un termine##5 - massimo a##7 - massimo da##4 - massimo entro##4 - pari o##4 - piu' tardi##7 - superare di oltre##4 - superiore a##159 - superiore a quello##6 - superiore al##33 - superiori a##9 - superiori a quelli##4 - superiori al##4 - uguale o##5
+be given - e' opportuno conferire##4 - essere concessa##9 - essere concesso##7 - essere data##12 - essere dato##8 - essere dedicata##4 - essere fornita##6 - essere fornite##28 - essere forniti##9 - essere indicata##4 - essere indicati##9 - essere oggetto##4 - essere posta##5 - essere presi  in considerazione##4 - essere prestata##4 - essere riportate##5 - essere riportati##18
+takes place - abbia luogo##6 - e' effettuato##7 - ha luogo##23 - viene effettuato##4
+civil engineering - d'ingegneria civile##9 - genio civile##8 - ingegneria civile##10 - opere civili##4
+product market - mercato del prodotto##30 - mercato rilevante  del prodotto##6
+final judgment - pronunciata una  sentenza definitiva##4 - sentenza definitiva##10
+chemical analysis - analisi chimica##5 - l'analisi chimica##5
+venture capital - capitale di rischio##22 - capitali di rischio##4
+time limit - data limite##14 - limite di tempo##12 - scadenza del termine##11 - termine entro##7 - termine fissato##14 - termine previsto##5 - termine stabilito##11 - termine ultimo##14
+raw material - materia prima##9 - materiale grezzo##15 - materie prime ottenute##4
+open to - aperta a##5 - aperta alla##5 - aperte al##4 - aperti al##9 - aperti alla##6 - aperto a##14 - aperto al##8 - aperto alla##32
+other than - diversa da##105 - diversa da quella##10 - diversa dal##18 - diversa dalla##21 - diversa dalle##5 - diverse da##279 - diverse da quelle##12 - diverse dagli##11 - diverse dai##41 - diverse dal##28 - diverse dalla##43 - diverse dalle##82 - diversi da##465 - diversi da quelli##46 - diversi da quello##10 - diversi dagli##26 - diversi dai##149 - diversi dal##80 - diversi dalla##55 - diversi dalle##88
+local loop - all'anello locale##27 - anello locale##7 - dell'anello locale##15 - l'anello locale##8 - rete locale##31
+frequency band - banda di frequenza##13 - banda di frequenze##6
+flash point - cui punto##6 - liquidi il  cui punto##7 - punto di infiammabilita'##14
+pension scheme - regime delle pensioni##7 - regime di pensioni##4 - regime pensionistico##18
+pro rata - pro quota##5 - pro rata##19
+tied aid - aiuti legati##23 - aiuto legato##6
+account for - considerazione ai##15 - considerazione ai fini##6 - considerazione per##56 - conto ai##5 - conto per##4
+relation to - merito al##7 - rapporto al##18 - rapporto alla##10 - rapporto alle##7 - relativa a##4 - relativamente al##6 - relativamente alla##11 - relative ai##5 - relative alla##6 - relative alle##4 - relativi a##4 - relativi alla##4 - relazione a##46 - relazione ad##25 - relazione agli##27 - relazione ai##50 - relazione al##53 - relazione alla##43 - relazione alle##48 - riferimento alle##4
+data processing - elaborazione dati##5 - elaborazione dei dati##6
+market analysis - all'analisi di mercato##4 - l'analisi del mercato##4 - un'analisi del mercato##4
+atomic energy - europea dell' energia##5 - l'energia atomica##10
+lower limit - limite inferiore##31 - limite superiore  e inferiore##5
+supply and demand - dell'offerta e della domanda##6 - l'offerta e la domanda##5
+in respect of - nei confronti dei##19 - nei confronti del##13 - nei confronti della##7 - nei confronti delle##13
+debt instruments - gli strumenti  di debito##16 - strumenti di debito##32 - titoli di debito##10
+originating in - originari dei  paesi in##4 - originario nel##6
+price levels - livelli dei prezzi##5 - livello dei prezzi##4
+not yet - non abbia ancora##6 - non abbiano ancora##5 - non ancora##97 - non e'  stata ancora##7 - non e'  stato ancora##6 - non e' ancora##32 - non figurano ancora##9 - non ha ancora##12 - non hanno ancora##16 - non sia ancora##13 - non siano ancora##12 - non sono  state ancora##5 - non sono  stati ancora##11 - non sono ancora##31
+in relation to - in merito al##5 - in rapporto al##6 - in rapporto alla##7 - in relazione ad##12 - in relazione ai##25 - in relazione al##22 - in relazione alla##27 - in relazione alle##23
+regulatory authorities - autorita' di regolamentazione##34 - autorita' nazionali  di regolamentazione##192 - autorita' regolamentatrici##4 - le autorita'##7
+regard to - base ai##4 - merito a##8 - merito ai##4 - merito alla##8 - merito alle##6 - ordine a##4 - ordine alla##4 - relativamente al##5 - relativamente alle##9 - relative ai##6 - relative al##27 - relative alla##10 - relative alle##10 - relativi ai##5 - relazione ad##5 - relazione agli##5 - relazione ai##8 - relazione al##21 - relazione alla##19 - relazione alle##14 - riferimento ai##14 - riferimento al##6 - riferimento alla##9 - riferimento alle##7
+production process - procedimento di produzione##7 - processi di produzione##4 - processo di fabbricazione##7 - processo produttivo##18
+common agricultural policy - politica agraria comune##7 - politica agricola comune##195
+taken over - presa in consegna##12 - presi in consegna##9 - preso in consegna##7
+national accounts - contabilita' nazionale##14 - conti nazionali##34
+quality assurance - assicurazione della qualita'##10 - certificazione della qualita'##4 - controllo esterno  della qualita'##4 - garanzia della qualita'##63 - garanzia di qualita'##22 - garanzia qualita'##112 - garanzie di qualita'##4 - qualita' totale##8
+belong to - aderire ad##5 - appartenenti a##7 - appartenenti ad##4 - appartenenti alla##5 - appartenere a##5 - appartengono a##5 - appartengono alla##4 - appartiene a##4
+such that - modo che##33 - tale che##168 - tali che##54
+communications networks - reti di comunicazione##27 - reti pubbliche  di comunicazione##8
+every year - ciascun anno##6 - ogni anno##58
+per year - ogni anno##10 - per anno##8
+life assurance - assicurazione sulla##14 - ramo vita##6
+end users - agli utilizzatori finali##7 - utilizzatori finali##4
+country code - codice del paese##11 - codice paese##5
+regulatory authority - all'autorita' nazionale  di regolamentazione##8 - autorita' di regolamentazione##4 - autorita' nazionale  di regolamentazione##6 - autorita' nazionali  di regolamentazione##11 - dall'autorita' nazionale  di regolamentazione##5 - dell'autorita' di regolamentazione##5 - dell'autorita' nazionale  di regolamentazione##12 - l'autorita' di regolamentazione##12 - l'autorita' nazionale  di regolamentazione##24 - un'autorita' nazionale  di regolamentazione##10
+legal systems - giuridici interni##6 - ordinamenti giuridici##11 - sistemi giuridici##10
+game birds - selvaggina d'allevamento  di penna##6 - selvaggina di penna##8
+respect to - merito alla##4 - merito alle##4 - relativamente al##6 - relativamente alla##4 - relative alle##4 - relazione al##9 - relazione alla##6 - relazione alle##11
+two weeks - 2 settimane##6 - due settimane##63
+monetary union - all'unione economica  e monetaria##7 - dell'unione economica  e monetaria##29
+run from - decorre dalla##9 - va dal##4
+keep away - conservare lontano##15 - keep away##6
+faroe islands - isole faeroer##4 - isole faeroer##5
+production costs - costi di produzione##52 - costo di produzione##4
+force on - vigenti sulla##4 - vigore sulle##8
+second half - seconda meta'##5 - secondo semestre##24
+financial institution - ente finanziario##24 - istituti finanziari##4 - istituzioni finanziarie##5
+work on - lavori agricoli per##4 - lavori su##5 - lavoro per##7
+legal status - allo status giuridico##6 - forma giuridica##5 - lo status giuridico##6 - status giuridico##11
+financial institutions - enti creditizi  e finanziari##5 - enti finanziari##52 - istituzioni finanziarie##82 - organismi finanziari##5
+put on - immesse sul##13 - immessi sul##28 - immesso sul##6
+level at - livello al##4 - livello voluto alla##4
+apply for - applicabile per##4 - applicabili ai##6 - applicabili per##11 - applicare per##4 - applicarsi per##8 - si applica per##16 - si applicano ai##4 - si applicano per##10
+equal to - corrisponde al##4 - corrispondente a##4 - corrispondente al##4 - corrispondente alla##6 - equivalente ai##4 - equivalente al##7 - equivalente alla##5 - inferiore a##12 - pari ad##13 - pari ai##9 - pari alle##5 - superiore a##5 - uguale a##66 - uguale ai##4 - uguale al##51 - uguale alla##42 - uguali a##13 - uguali al##5
+purchase prices - prezzi d'acquisto##5 - prezzi di acquisto##4
+exhaust system - dell'impianto di scarico##4 - dispositivo di scappamento##4 - dispositivo di scarico##4 - dispositivo silenziatore##12
+members of - ai membri del##11 - ai membri della##9 - ai membri delle##4 - componenti della##4 - i membri dei##11 - i membri del##90 - i membri della##33 - i membri delle##26 - individui della##26 - membri degli##13 - membri dei##14 - membri del##97 - membri della##167 - membri delle##31
+public works - lavori pubblici##19 - pubblici di lavori##18 - pubblico di lavori##4
+according to - ai sensi##5 - base a##45 - base ad##12 - base agli##4 - base ai##55 - base al##65 - base alla##83 - base alle##140 - conformemente a##12 - conformemente ad##7 - conformemente agli##8 - conformemente ai##47 - conformemente al##119 - conformemente alla##73 - conformemente alle##84 - conformita' al##5 - conformita' alla##6 - conformita' alle##8 - cui al##14 - cui alla##5 - relazione al##4 - relazione alla##6
+adequate to - sufficiente per##13 - sufficienti per##4
+compared with - rispetto ai##10 - rispetto alle##5
+diesel engines - motori ad##16 - motori diesel##18
+working days - giorni lavorativi  a decorrere##33 - giorni lavorativi##42 - giorni lavorativi dalla##43 - giorni lavorativi successivi##18
+set out - fissate dal##4 - fissate dalla##5 - fissati dal##6 - fissati dalla##4 - previste dal##18 - previste dalla##10 - previsti dal##14 - stabilite dal##9 - stabilite dalla##6 - stabiliti dal##9 - stabiliti dalla##6
+market prices - prezzi correnti  di mercato##5 - prezzi di mercato##72 - prezzi medi  di mercato##4 - prezzi sul mercato##6 - prezzo di mercato##8
+knowledge base - base delle conoscenze##4 - base di conoscenze##8
+animal diseases - contro alcune  malattie degli##5 - malattie animali##12 - malattie contagiose degli##10 - malattie degli##35 - malattie esotiche degli##8
+remote control - comando a##6 - comando a distanza##6 - dell'impianto di comando##4
+balance sheets - conto patrimoniale##5 - stato patrimoniale##7
+driving axle - dell'asse motore##4 - sull'asse motore##5
+in order - al fine##4 - in modo##8
+subject to - soggetti al##26 - soggetto alla##43
+under consideration - in considerazione##7 - in esame##120 - in oggetto##5
+financial statements - rendiconti finanziari##12 - stati finanziari##30
+electronic equipment - apparecchiature elettriche  ed elettroniche##45 - apparecchiature elettroniche##5
+serial numbers - numeri d'ordine##12 - numeri di serie##9
+as to - merito alla##11 - modo da##22 - quanto riguarda##49
+correlation table - tabella di concordanza##17 - tabella di corrispondenza##14
+support system - regime di sostegno##46 - sistema di supporto##5
+telephone number - numero di telefono##27 - numero telefonico##5
+brake lining - gruppi di ricambio##12 - guarnizioni dei freni##5
+reference points - punti di riferimento##5 - valori di riferimento##6
+quantitative analysis - analisi quantitativa##10 - un'analisi quantitativa##4
+seven years - 7 anni##11 - sette anni##47
+take place - aver luogo##45 - avra' luogo##10 - essere effettuata##9 - essere effettuate##6 - essere effettuati##14 - essere effettuato##19 - ha luogo##24 - hanno luogo##11
+steering gear - locale macchine##9 - macchine di governo##5
+progress reports - relazioni sui##5 - relazioni sullo##4
+data in - dati in##16 - dati nel##11 - dati sui  residui nei##4
+base year - dell'anno base##4 - l'anno base##4 - nell'anno base##5
+take account - fine di tener##13 - prende in considerazione##5 - prendere in considerazione##12 - tenendo conto##15 - tenga conto##20 - tengano conto##32 - tengono conto##76 - terra' conto##8 - tiene conto##135
+table wine - vini da##18 - vini da tavola##8 - vino da##48 - vino da tavola##17
+financial obligations - degli obblighi finanziari##4 - gli obblighi finanziari##7
+law enforcement - dell'applicazione della legge##4 - l'applicazione della legge##7 - preposte all'applicazione  della legge##4
+first step - prima fase##7 - prima tappa##4 - primo gradino##7 - primo passo##12 - primo scatto##4
+deriving from - derivanti da##8 - derivanti dagli##4 - derivanti dai##6 - derivanti dal##14 - derivanti dalla##7 - derivanti dalle##5 - provenienti da##4
+save as - salvo quanto##5 - salvo se##10
+quality of service - qualita' dei servizi##4 - qualita' del servizio##22
+took place - e' stata effettuata##6 - ha avuto luogo##17
+reference to - base ai##4 - base al##10 - base alla##9 - rapporto ai##5 - relazione ai##5 - riferimenti a##5 - riferimenti ai##4 - riferimenti al##5 - riferimenti alla##4 - riferimento a##69 - riferimento ad##40 - riferimento agli##8 - riferimento ai##65 - riferimento al##93 - riferimento alla##137 - riferimento alle##63 - riferimento esplicito al##8 - rinvio alla##8
+passenger ships - navi da##46 - navi da passeggeri##20 - navi ro-ro da##13 - navi ro/ro da##26
+as for - come per##21 - quanto riguarda##6
+calendar day - giorni di calendario##6 - giorno civile##4 - giorno di calendario##10
+carbon monoxide - dell'ossido di carbonio##11 - monossido di carbonio##62
+legal instruments - atti normativi##4 - strumenti giuridici##24
+price level - livello dei prezzi##15 - livello di prezzo##11
+even if - anche in caso##5 - anche nel caso##13 - anche qualora##17 - anche quando##10
+third party - terza parte##5 - terza persona##4
+pass through - passano attraverso##7 - passare attraverso##6 - passi attraverso##4 - passino attraverso##5
+within the framework of - nel quadro della##15 - nel quadro delle##9
+in respect - in materia##5 - in merito##5 - nei riguardi##7
+provided for - cui ai##29 - forniti per##4 - prevista per##15 - previste ai##6 - previste per##19 - previsti ai##6 - previsti per##20 - previsto per##15 - previsto uno  spazio per##4
+work in - attivita' in##6 - lavorare in##10 - lavori in##20 - lavoro in##6 - prodotti in##36
+enclosed spaces - locali chiusi##7 - spazi chiusi##4
+steel industry - dell'industria siderurgica##8 - nell'industria siderurgica##5 - sull'industria siderurgica##4
+so that - cosi' che##4 - in modo  tale che##5 - in modo che##159 - modo che##91 - modo da  evitare che##4 - modo da  garantire che##4 - modo da rispettare##8 - modo tale che##41 - tale che##9
+fall under - rientra nella##4 - rientrano nell'ambito##5 - rientrano nella##9 - rientrare nel##4
+in the course of - nel corso dei##7 - nel corso del##9 - nel corso della##20 - nel corso delle##11 - nel quadro della##4 - nel quadro delle##5
+cane sugar - dello zucchero greggio##6 - lo zucchero greggio##5 - zucchero di canna##8 - zucchero greggio##7
+digestive tract - contenuto del tubo##4 - dal contenuto  del tubo##4
+fruit trees - alberi da##7 - alberi da frutto##4
+work for - lavorano per##4 - lavorare per##5 - lavorazioni per##4 - lavori per##4 - lavoro ai fini##5 - lavoro annuale per##4 - lavoro per##15
+no longer - non considerano piu'##7 - non deve piu'##7 - non devono piu'##7 - non e' piu'##80 - non ha piu'##6 - non hanno piu'##4 - non intende piu'##5 - non offre piu'##4 - non piu'##26 - non possa piu'##9 - non possono##14 - non possono piu'##29 - non potranno piu'##7 - non puo'##6 - non puo' piu'##15 - non ricorrono##4 - non risponde##5 - non sara' piu'##8 - non sia##14 - non sia piu'##23 - non siano piu'##22 - non soddisfa piu'##37 - non soddisfano piu'##4 - non soddisfi piu'##15 - non sono##5 - non sono piu'##95 - non vengono piu'##6
+local authorities - autorita' locali##38 - autorita' regionali  e locali##6 - autorita' regionali  o locali##6
+sea trout - trota di mare##7 - trote di mare##4
+given that - dato che##4 - visto che##4
+animal disease - malattia contagiosa degli##5 - malattie degli animali##13
+act on - agire per##6 - agire su##5 - delibera su##6
+time interval - intervallo di tempo##6 - l'intervallo di tempo##5 - nell'intervallo di tempo##7
+diagnostic procedures - metodi diagnostici##4 - procedure diagnostiche##15
+electrical power - energia elettrica##31 - l'energia elettrica##10 - temporanea di energia##7
+market economy - ad economia  di mercato##9 - dell'economia di mercato##5 - economia di mercato##50 - un'economia di mercato##7
+safety factor - coefficiente di sicurezza##7 - fattore di sicurezza##14
+customs union - dell'unione doganale##8 - l'unione doganale##4
+scientific knowledge - conoscenze scientifiche##38 - conoscenze tecniche  e scientifiche##4
+due to - dovuta a##26 - dovuta ad##6 - dovuta ai##4 - dovuta al##17 - dovuta alla##10 - dovute a##38 - dovute ad##10 - dovute ai##4 - dovute al##20 - dovute alla##16 - dovute alle##6 - dovuti a##25 - dovuti ad##8 - dovuti al##8 - dovuti alla##33 - dovuti alle##9 - dovuto a##13 - dovuto ad##11 - dovuto al##8 - dovuto alla##16 - seguito alla##5
+on behalf of - per conto dei##17 - per conto del##17 - per conto della##29 - per conto delle##8
+sound pressure - pressione acustica##5 - pressione sonora##27
+put in - messe in##5 - mettere in##5
+light source - fonte di luce##5 - sorgente luminosa##23
+take effect - entra in vigore##11 - ha effetto##39 - ha efficacia##14 - hanno effetto##8 - prende effetto##15 - valido a decorrere##4
+central bank - bancarie centrali##4 - banche centrali##10
+public interest - all'interesse pubblico##11 - dell'interesse pubblico##6 - interesse pubblico##56 - nell'interesse pubblico##8 - pubblico interesse##19
+complement fixation test - prova di fissazione del complemento##5 - test di fissazione del complemento##8
+at least - a almeno##4 - ad almeno##150 - almeno pari a##4 - comunque almeno##9 - durante almeno##8 - inferiore a##12 - lo meno##31 - pari ad almeno##11 - pari almeno##47 - pari o superiore##7 - periodo di almeno##36 - periodo minimo##14 - presentata almeno##4 - quando almeno##4 - soddisfare almeno##5 - su almeno##16
+market value - valore corrente  di mercato##7 - valore di mercato##79
+labour market - del mercato##6 - mercato del##6 - mercato del lavoro##59 - sul mercato##13
+motor vehicle - veicoli a##44 - veicolo a##120
+for sale - per la##4 - per la vendita##39
+form part of - facenti parte del##5 - fanno parte del##5 - fanno parte della##5
+in the framework of - nel quadro della##24 - nel quadro delle##11
+each year - ciascun anno##25 - ogni anno##533
+system operator - gestore del sistema##27 - gestore della rete##29
+purchase price - prezzo d'acquisto##25 - prezzo di acquisizione##10 - prezzo di acquisto##29
+no more - non e' superiore##5 - non oltre##18 - non piu'##49 - non puo'  essere superiore##10 - non sia superiore##4 - non superiore##22 - non superiori##5
+distinguish between - distinguere tra##22 - distinzione tra##4
+motor vehicles - autoveicoli nuovi##7 - veicoli a##409 - veicoli a motore##7
+northern ireland - dell'irlanda del##12 - dell'irlanda del nord##4 - irlanda del##40 - irlanda del nord##17 - l'irlanda del##5 - nell'irlanda del nord##5
+alarm system - impianto di allarme##9 - l'impianto di allarme##6
+culture medium - mezzo di coltura##7 - terreno colturale##9 - terreno di coltura##30
+economic policy - politica economica##15 - politiche economiche##11
+ammonium nitrate - nitrato d'ammonio##23 - nitrato di ammonio##11
+food additives - additivi alimentari##26 - agli additivi alimentari##12 - gli additivi alimentari##17
+the network - il prospetto informativo##4 - la rete##19
+fishing gear - attrezzi da pesca##26 - attrezzo da pesca##5 - l'attrezzo da pesca##5
+countervailing duties - dazi compensativi##51 - dazio compensativo##4
+time limits - limiti di tempo##5 - pertinenti entro termini##4 - termine entro##4 - termini entro##12 - termini fissati##16 - termini previsti##6 - termini stabiliti##12
+year 2000 - dall'anno 2000##11 - l'anno 2000##6 - l'anno civile 2000##6
+spare parts - i pezzi  di ricambio##4 - pezzi di ricambio##15
+in case - in caso##4 - nel caso##33
+study group - gruppo di studio##5 - gruppo internazionale  di studio##5
+spare capacity - capacita' di riserva##4 - capacita' residue##4
+safe harbor - all'approdo sicuro##7 - approdo sicuro##33 - dell'approdo sicuro##40 - l'approdo sicuro##9
+control system - controllo relativo##19 - impianto di comando##4 - l'impianto di comando##6 - regime di controllo##26 - sistema di comando##8 - sistema di controllo##77 - sistema integrato  di controllo##5 - sistema perfezionato  di controllo##4
+more or less - piu o meno##5 - piu' o meno##13
+diesel fuels - carburanti diesel##5 - combustibile diesel##8 - combustibili diesel##5
+new information - nuova informazione##10 - nuove tecnologie dell'informazione##5 - nuovi dati##15 - nuovi elementi##6 - nuovo dato##8
+close to - vicino al##5 - vicino alla##4
+basic principles - principi basilari##5 - principi di base##10 - principi fondamentali##28
+general assembly - dall'assemblea generale##5 - l'assemblea generale##5
+clinical trial - prova clinica##4 - sperimentazione clinica##32
+each month - ciascun mese##14 - ogni mese##64
+absorbent material - materiale anecoico##5 - materiale assorbente##9
+take into account - prende in considerazione##11 - prendere in considerazione##17 - tener conto##40 - tenere conto##32
+without delay - quanto prima##15 - senza indugio##287 - senza ritardo##6
+common market - comune dei mercati##10 - comune del mercato##6 - comune di mercato##8 - comuni dei mercati##4 - comuni di mercato##12
+work in progress - lavori in corso##5 - prodotti in corso##9
+electronic communications networks - reti di comunicazione elettronica##22 - reti e dei servizi di comunicazione elettronica##6 - reti e di servizi di comunicazione elettronica##4 - reti e i servizi di comunicazione elettronica##6 - reti e servizi di comunicazione elettronica##8 - reti e/o servizi di comunicazione elettronica##6 - reti ed i servizi di comunicazione elettronica##8 - reti o servizi di comunicazione elettronica##9
+such as - come ad esempio##17 - quali ad esempio##6
+market share - quota congiunta  di mercato##5 - quota del mercato##4 - quote di mercato##25
+customs duty - dazi doganali##25 - dazio doganale##40
+liability insurance - assicurazione di responsabilita'##4 - un'assicurazione di responsabilita'##4
+arrest warrant - mandato d'arresto europeo##55 - mandato di  arresto europeo##8
+selling price - prezzo di vendita##59 - prezzo minimo  di vendita##5
+relative to - rispetto al##11 - rispetto alla##7
+upper limit - limite massimo##5 - limite superiore##26
+air pressure - pressione d'aria##4 - pressione dell'aria##8
+application form - formulario di domanda##11 - modulo di domanda##7
+bring into - mettere in##4 - mettono in##335
+agree with - concorda con##12 - concordare con##4
+for the purpose of - ai fini del##20 - ai fini della##24
+for free - per l'immissione  in libera##32 - per la libera##6
+electronic communications - comunicazione elettronica##130 - comunicazioni elettroniche##25
+voting rights - diritti di voto##100 - diritto di voto##7
+on the basis of - sulla base degli##22 - sulla base dei##45 - sulla base del##46 - sulla base della##40 - sulla base delle##41 - sulla scorta delle##13
+arbitration clause - clausola compromissoria##9 - clausole compromissorie##4
+date from - data a decorrere##14 - data a partire##12 - data da##4 - data dalla##11
+three times - 3 volte##5 - tre volte##55
+power supply - alimentazione di corrente##9 - alimentazione elettrica##4 - dell'alimentazione di corrente##6 - fonte di energia##5 - l'alimentazione di corrente##5
+together with - insieme alle##11 - insieme con##18
+total output - produzione complessiva##7 - produzione totale##7
+first half - prima meta'##5 - primo semestre##5
+contracts for - appalti per##5 - contratti aventi per##7 - contratti per##16 - contratti relativi##12
+carried out - effettuata prendendo##4 - svolte prove##5
+keep at - conservare a##4 - tenere a##4 - tengono a##5 - tiene a##26
+production processes - processi di produzione##22 - processi produttivi##6
+table wines - da tavola##13 - vini da##50 - vino da##5
+in accordance with - in base ai##5 - in base alle##44
+equivalent to - pari a##8 - pari al##7
+fire extinguishers - estintori d'incendio##4 - gli estintori d'incendio##4
+parent companies - imprese fondatrici##15 - imprese madri##13 - societa' madri##5
+conform to - conforme ai##15 - conforme al##11 - conforme alla##6 - conforme alle##14 - conformi ai##7 - conformi al##6 - conformi alla##23 - conformi alle##31 - conformita' al##11 - conformita' alle##5 - essere conforme al##16 - essere conforme alle##8 - essere conformi al##6 - essere conformi alle##19 - rispondono alle##4 - siano conformi al##9 - siano conformi alle##16 - sono conformi ai##4 - sono conformi al##23 - sono conformi alla##7 - sono conformi alle##14 - tuttavia conformi alle##11
+financial year - all'esercizio finanziario##7 - dall'esercizio finanziario##5 - dell'esercizio finanziario##22 - esercizio di bilancio##4 - l'esercizio finanziario##26
+european economic community - comunita economica europea##10 - comunita' economica europea##178
+except for - eccezione per##4 - fatta eccezione per##46 - salvo che per##11 - salvo per##38 - tranne che per##17 - tranne per##22
+capital goods - beni d  ' investimento##4 - beni di investimento##28 - beni strumentali##28
+drinking water - dell'acqua potabile##8 - l'acqua potabile##7
+commercial document - documento commerciale##68 - documento di  accompagnamento commerciale##6
+balance sheet - bilancio finanziario##14 - chiusura del bilancio##16 - conti patrimoniali##4 - conto patrimoniale##49 - dello stato patrimoniale##54 - nello stato partimoniale##5 - nello stato patrimoniale##42 - stato patrimoniale##36
+as well - come anche##4 - come pure##111
+of import - dei dazi all'importazione##90 - dei titoli  di importazione##11 - dei titoli d'importazione##44 - delle autorizzazioni d'importazione##5 - delle merci d'importazione##20
+distribution of income - distribuzione primaria del reddito##5 - distribuzione secondaria del reddito##14
+rainbow trout - trota grossa##5 - trota iridea##7 - trote grosse##14
+climate change - cambiamenti climatici##14 - cambiamento climatico##41
+less than - almeno al##4 - almeno uguale##14 - inferiore a##257 - inferiore a quella##10 - inferiore a quello##5 - inferiore al##70 - inferiori a##27 - inferiori al##5 - pari o##23 - uguale a##4 - uguale o##24
+animal products - prodotti animali##27 - prodotti di origine##69
+enter into - entra in##433 - entrano in##22 - entrare in##20 - entrare nella##4 - entrata in##13 - entrera' in##16 - entreranno in##13 - entri in##7 - essere immessi in##6
+nitrogen oxides - gli ossidi  di azoto##5 - ossidi di azoto##20
+taken on - prelevato sul##5 - presa sulla##4
+consumer goods - bene di consumo##6 - beni di consumo##15
+trading partners - controparti commerciali##5 - partner commerciali##13
+up to - fino allo##4 - limitatamente a##9 - limitatamente ad##5 - superiore a##24 - superiore al##8
+social security - enti di previdenza##6 - previdenza e  assistenza sociale##4 - previdenza sociale##17
+not only - non solo##122 - non soltanto##90
+legal instrument - lo strumento giuridico##7 - strumento giuridico##4 - uno strumento giuridico##12
+local government - amministrazioni locali##9 - governo locale##7
+brake linings - guarnizioni dei##4 - guarnizioni dei freni##10
+on request - su domanda##9 - su richiesta##131
+exclusive rights - diritti esclusivi##21 - diritti speciali  o esclusivi##17
+relative humidity - l'umidita' relativa##7 - umidita' relativa##17 - un'umidita' relativa##9
+equal opportunities - pari opportunita'##30 - parita' di opportunita'##8
+registration number - numero d'immatricolazione##6 - numero di iscrizione##4 - numero di registrazione##85
+market penetration - penetrazione nel mercato##10 - penetrazione sul mercato##5
+principal activity - attivita' principale##23 - dell'attivita' principale##5 - l'attivita' principale##12
+noise level - livello di rumore##7 - livello sonoro##9
+in the context of - nel quadro della##17 - nel quadro delle##10
+public service - pubblici di servizi##20 - pubblico di servizi##6
+passenger ship - nave da##5 - navi da##14
+report on - relazione annuale sulla##5 - relazione annuale sulle##11 - relazione concernente##8 - relazione in merito##5 - relazione su##6 - relazione sugli##11 - relazione sui##21 - relazione sul##23 - relazione sulla##78 - relazione sulle##37 - relazione sullo##6 - riferisce in merito##7
+at the disposal of - a disposizione del##5 - a disposizione della##6 - a disposizione delle##21
+nautical miles - miglia nautiche  dalla zona##4 - miglia nautiche##17
+export duties - dazi all'esportazione##35 - dazi all'importazione  o all'esportazione##18
+a little - un po'##4 - una piccola##5
+fuel oil - l'olio combustibile##4 - oli combustibili##7 - olio combustibile##4
+service contract - appalto di servizi##9 - appalto pubblico  di servizi##4 - contratto di servizio##4
+financial aid - aiuti finanziari##4 - aiuto finanziario##18 - contributo finanziario##16
+minimum size - dimensione minima##17 - dimensioni minime##5 - taglia minima##11
+public security - pubblica sicurezza##40 - sicurezza pubblica##16
+complement fixation - test di fissazione##5 - fissazione del complemento##17 - reazione di fissazione##10 - reazione negativa  di fissazione##4
+service provider - fornitore del servizio##8 - fornitore di servizi##13 - prestatore del servizio##4 - prestatore di servizi##32
+sodium hydroxide - d'idrossido di sodio##45 - idrato di sodio##5 - soluzione d'idrossido##10
+rift valley - febbre della##8 - quale stando##4
+monoclonal antibody - anticorpo monoclonale##11 - dell'anticorpo monoclonale##5
+focal point - punto di contatto##6 - punto focale##7
+final decision - decisione definitiva##55 - decisione finale##30 - decisioni definitive##4
+no 3 - n 3##44 - n 3,##5
+because of - causa dei##8 - causa del##21 - causa della##41 - causa delle##33 - considerazione della##5 - motivo della##6 - motivo delle##6
+known as - nota come##7 - noto come##6
+standing committee - comitato fitosanitario permanente##67 - comitato zootecnico permanente##5 - seno al comitato##4
+closing date - data di chiusura##4 - giorno di scadenza##6 - scadenza del termine##18 - termine ultimo##8
+financial intermediaries - gli intermediari finanziari##7 - intermediari finanziari##23
+control room - locale di comando##4 - postazione di comando##10
+profit margins - margini di profitto##13 - margini di utile##5
+at all - a tutte##9 - a tutti##52 - ad ogni##6
+making use - che si avvale##5 - che si avvalgono##5
+safety belt - cintura di sicurezza##15 - cinture di sicurezza##10
+compared to - rispetto a##11 - rispetto ad##5 - rispetto ai##9 - rispetto al##22 - rispetto alla##13 - rispetto alle##12
+for the purposes of - ai fini del##25 - ai fini della##35
+large number - gran numero##24 - grande numero##4 - numero considerevole##4 - numero elevato##21 - vasto numero##4
+in the case - in caso##8 - nel caso##70
+comparable to - analogo a##6 - comparabile a##9 - comparabili a##11 - comparabili ai##7 - paragonabile a##8 - paragonabili a##10 - simili a##4
+central body - l'organo centrale##7 - organismo centrale##4
+see also - cfr anche##33 - vedi anche##4
+dealt in - trattate in##4 - trattati in##5
+domestic animals - animali domestici##64 - degli animali domestici##14 - gli animali domestici##4
+object to - opporsi al##4 - opporsi alla##5
+ethyl alcohol - alcole etilico##31 - dell'alcole etilico##13 - l'alcole etilico##4

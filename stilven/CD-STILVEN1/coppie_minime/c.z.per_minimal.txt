@@ -1,0 +1,13 @@
+Minimal pairs for [c] vs. [z] in initial position:
+c 	z 			+ 	£ 	… 	a 	b 	ç 	d 	e 	é 	è 	f 	g 	h 	i 	j 	k 	l 	m 	n 	ñ 	o 	ó 	ò 	p 	q 	r 	s 	t 	u 	v 	x 	y 
+ca 	za 			£a 	…a 	da 	ea 	fa 	ga 	ha 	la 	ma 	na 	oa 	sa 	ta 	va 	xa 
+cara 	zara 			gara 	para 	rara 	sara 	vara 	xara 
+co 	zo 			£o 	do 	go 	ho 	ko 	lo 	no 	oo 	so 	to 	uo 	vo 	xo 
+cogo 	zogo 			fogo 	pogo 	togo 
+conta 	zonta 			monta 	xonta 
+
+Minimal pairs for [c] vs. [z] in medial position:
+pronunciava 	pronunziava 		
+sc 	sz 			sa 	se 	sé 	sè 	sh 	si 	sì 	sk 	so 	só 	ss 	su 
+
+Minimal pairs for [c] vs. [z] in final position:

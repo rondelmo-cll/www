@@ -1,0 +1,18 @@
+/*
+Theme Name: Themegenerator  admin
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+*/
+/*main contain columns*/
+.wptg-cols .inside{
+	text-align:right;
+}
+#file_ct img.thumb{
+	margin: 0 0 0 7px;
+}
+#file_ct span.number{
+	right: 10px;
+	left: auto;
+}

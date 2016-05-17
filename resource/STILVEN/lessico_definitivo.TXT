@@ -1,0 +1,1722 @@
+a_rom(abbandonato, abandon‡, abbandonati, abandonai, abbandonata, abandon‡, abbandonate, abandonae).
+a_rom(agricolo, agrico£o, agricoli, agrico£i, agricola, agrico£a, agricole, agrico£e).
+a_rom(alto, alto, alti, alti, alta, alta, alte, alte).
+a_rom(americano, merican, americani, mericani, americana, mericana, americane, mericane).
+a_rom(americano, american, americani, americani, americana, americana, americane, americane).
+a_rom(arrabbiatissimo, rabiatisimo, arrabbiatissimi, rabiatisimi, arrabbiatissima, rabiatisima, arrabbiatissime, rabiatisime).
+a_rom(arrabbiato, rabi‡, arrabbiati, rabiai, arrabbiata, rabi‡, arrabbiate, rabiae).
+a_rom(attaccato, tac‡, attaccati, tacai, attaccata, tac‡, attaccate, tacae).
+a_rom(bel, bel, bei, bei, bella, be£a, belle, be£e).
+a_rom(bello, be£o, belli, bei, bella, be£a, belle, be£e).
+a_rom(blu, blu, blu, blu, blu, blu, blu, blu).
+a_rom(bollente, bojente, bollenti, bojenti, bollente, bojente, bollenti, bojenti).
+a_rom(brasiliano, brasilian, brasiliani, brasiliani, brasiliana, brasiliana, brasiliane, brasiliane).
+a_rom(bravo, bravo, bravi, bravi, brava, brava, brave, bravi).
+a_rom(britannico, britanico, britannici, britanisi, britannica, britanica, britanniche, britanike).
+a_rom(buon, bon, buoni, boni, buon, bon, buone, bone).
+a_rom(buono, bon, buoni, boni, buona, bona, buone, bone).
+a_rom(caro, caro, cari, cari, cara, cara, care, care).
+a_rom(cattivo, cativo, cattivi, cativi, cattiva, cativa, cattive, cative).
+a_rom(certo, serto, certi, serti, certa, serta, certe, serte).
+a_rom(certo, certo, certi, certi, certa, certa, certe, certe).
+a_rom(coloniale, co£onial, coloniali, co£onia£i, coloniale, co£onial, coloniali, co£onia£i).
+a_rom(commerciale, comercial, commerciali, comercia£i, commerciale, comercial, commerciali, comercia£i).
+a_rom(commerciale, comersal, commerciali, comersa£i, commerciale, comersal, commerciali, comersa£i).
+a_rom(comodo, comodo, comodi, comodi, comoda, comoda, comode, comode).
+a_rom(compreso, conpreso, compresi, conpresi, compresa, conpresa, comprese, conprese).
+a_rom(deciso, decixo, decisi, decixi, decisa, decixa, decise, decixe).
+a_rom(deciso, desixo, decisi, desixi, decisa, desixa, decise, desixe).
+a_rom(democristiano, democristian, democristiani, democristiani, democristiana, democristiana, democristiane, democristiane).
+a_rom(diplomatico, diplomatego, diplomatici, diplomateghi, diplomatica, diplomatega, diplomatiche, diplomateghe).
+a_rom(diplomatico, diplomatico, diplomatici, diplomatici, diplomatica, diplomatica, diplomatiche, diplomatike).
+a_rom(disobbediente, dexobediente, disobbedienti, dexobedienti, disobbediente, dexobediente, disobbedienti, dexobedienti).
+a_rom(disponibile, disponibi£e, disponibili, disponibi£i, disponibile, disponibi£e, disponibili, disponibi£i).
+a_rom(duro, duro, duri, duri, dura, dura, dure, dure).
+a_rom(esausto, sfinÏ, esausti, sfinii, esausta, sfinia, esauste, sfinie).
+a_rom(esplorato, esplor‡, esplorati, esplorai, esplorata, esplor‡, esplorate, esplorae).
+a_rom(esterno, esterno, esterni, esterni, esterna, esterna, esterne, esterne).
+a_rom(facile, fasi£e, facili, fasi£i, facile, fasi£e, facili, fasi£i).
+a_rom(felice, fe£ise, felici, fe£isi, felice, fe£ise, felici, fe£isi).
+a_rom(finale, fina£e, finali, fina£i, finale, fina£e, finali, fina£i).
+a_rom(forte, forte, forti, forti, forte, forte, forti, forti).
+a_rom(fragile, fraxi£e, fragili, fraxi£i, fragile, fraxi£e, fragili, fraxi£i).
+a_rom(francese, fransexe, francesi, fransexi, francese, fransexe, francesi, fransexi).
+a_rom(furioso, furioxo, furiosi, furioxi, furiosa, furioxa, furiose, furioxe).
+a_rom(giusto, giusto, giusti, giusti, giusta, giusta, giuste, giuste).
+a_rom(ghiacciato, gias‡, ghiacciati, giasai, ghiacciata, gias‡, ghiacciate, giasae).
+a_rom(ghiacciato, ingias‡, ghiacciati, ingiasai, ghiacciata, ingias‡, ghiacciate, ingiasae).
+a_rom(giallo, xa£o, gialli, xa£i, gialla, xa£a, gialle, xa£e).
+a_rom(gioviale, matuso, gioviali, matusi, gioviale, matusa, gioviali, matuse).
+a_rom(gran, gran, gran, gran, gran, gran, gran, gran).
+a_rom(grande, grando, grandi, grandi, grande, granda, grandi, grande).
+a_rom(grasso, graso, grassi, grasi, grassa, grasa, grasse, grase).
+a_rom(immediato, imedi‡, immediati, imediai, immediata, imedi‡, immediate, imediae).
+a_rom(impegnato, indafar‡, impegnati, indafarai, impegnata, indafar‡, impegnate, indafarae).
+a_rom(importante, inportante, importanti, inportanti, importante, inportante, importanti, inportanti).
+a_rom(incorporato, incorpor‡, incorporati, incorporai, incorporata, incorpor‡, incorporate, incorporae).
+a_rom(indiano, indiano, indiani, indiani, indiana, indiana, indiane, indiane).
+a_rom(inferocito, furioxo, inferociti, furioxi, inferocita, furioxa, inferocite, furioxe).
+a_rom(influente, influente, influenti, influenti, influente, influente, influenti, influenti).
+a_rom(inglese, inglexe, inglesi, inglexi, inglese, inglexe, inglesi, inglexi).
+a_rom(inglese, ingrexe, inglesi, ingrexi, inglese, ingrexe, inglesi, ingrexi).
+a_rom(invitante, invitante, invitanti, invitanti, invitante, invitante, invitanti, invitanti).
+a_rom(legale, £ega£e, legali, £ega£i, legale, £ega£e, legali, £ega£i).
+a_rom(liscio, liso, lisci, lisi, liscia, lisa, liscie, lise).
+a_rom(lontano, lontan, lontani, lontani, lontana, lontan, lontane, lontane).
+a_rom(maggiore, magior, maggiori, magiori, maggior, magior, maggiori, magiori).
+a_rom(malato, ma£‡, malati, ma£ai, malata, ma£‡, malate, ma£ae).
+a_rom(mancato, manc‡, mancati, mancai, mancata, manc‡, mancate, mancae).
+a_rom(mezzo, mexo, mezzi, mexi, mezza, mexa, mezze, mexe).
+a_rom(militare, militare, militari, militari, militare, militare, militari, militari).
+a_rom(misero, mixaro, miseri, mixari, misera, mixara, misere, mixare).
+a_rom(misero, mixero, miseri, mixeri, misera, mixera, misere, mixere).
+a_rom(necessario, nesesario, necessari, nesesari, necessaria, nesesaria, necessarie, nesesarie).
+a_rom(necessario, necesario, necessari, necesari, necessaria, necesaria, necessarie, necesarie).
+a_rom(nero, nero, neri, neri, nera, nera, nere, nere).
+a_rom(notevole, notevole, notevoli, notevoli, notevole, notevoli, notevoli).
+a_rom(numeroso, numaroxo, numerosi, numaroxi, numerosa, numaroxa, numerose, numaroxe).
+a_rom(nuovo, novo, nuovi, novi, nuova, nova, nuove, nove).
+a_rom(ottimo, otimo, ottimi, otimi, ottima, otima, ottime, otime).
+a_rom(ozioso, osioxo, oziosi, osioxi, oziosa, osioxa, oziose, osioxe).
+a_rom(particolare, partico£ar, particolari, partico£ari, particolare, partico£ar, particolari, partico£ari).
+a_rom(perfetto, parfeto, perfetti, parfeti, perfetta, parfeta, perfette, parfete).
+a_rom(piccolo, picenin, piccoli, picenini, piccola, picenina, piccole, picenine).
+a_rom(piccolo, ceo, piccoli, cei, piccola, cea, piccole, cee).
+a_rom(pigro, pegro, pigri, pegri, pigra, pegra, pigre, pegre).
+a_rom(politico, po£itego, politici, po£iteghi, politica, po£itega, politiche, po£iteghe).
+a_rom(politico, po£itego, politici, po£itisi, politica, po£itega, politiche, po£iteghe).
+a_rom(popolare, popo£ar, popolari, popo£ari, popolare, popo£ar, popolari, popo£ari).
+a_rom(potente, potente, potenti, potenti, potente, potente, potenti, potenti).
+a_rom(povero, povaro, poveri, povari, povera, povara, povere, povare).
+a_rom(povero, poro, poveri, pori, povera, pora, povere, pore).
+a_rom(preferito, preferio, preferiti, preferii, preferita, preferia, preferite, preferie).
+a_rom(preparato, pareci‡, preparati, pareciai, preparata, pareci‡, preparate, pareciae).
+a_rom(preparato, prepar‡, preparati, preparai, preparata, prepar‡, preparate, preparae).
+a_rom(previdente, previdente, previdenti, previdenti, previdente, previdente, previdenti, previdenti).
+a_rom(primo, primo, primi, primi, prima, prima, prime, prime).
+a_rom(profondo, fondo, profondi, fondi, profonda, fonda, profonde, fonde).
+a_rom(profondo, fondivo, profondi, fondivi, profonda, fondiva, profonde, fondive).
+a_rom(pronto, pronto, pronti, pronti, pronta, pronta, pronte, pronte).
+a_rom(proporzionale, proporsional, proporzionali, proporsiona£i, proporzionale, proporsional, proporzionali, proporsiona£i).
+a_rom(prossimo, prosimo, prossimi, prosimi, prossima, prosima, prossime, prosime).
+a_rom(pubblico, publico, pubblici, publici, pubblica, publica, pubbliche, publike).
+a_rom(quel, cuel, quelli, cuei, quella, cue£a, quelle, cue£e).
+a_rom(quel, cuel, quelli, cue£i, quella, cue£a, quelle, cue£e).
+a_rom(quello, cue£o, quelli, cuei, quella, cue£a, quelle, cue£e).
+a_rom(quello, cue£o, quelli, cue£i, quella, cue£a, quelle, cue£e).
+a_rom(questo, cuesto, questi, cuesti, questa, cuesta, queste, cueste).
+a_rom(questo, sto, questi, sti, questa, sta, queste, ste).
+a_rom(resistente, rexistente, resistenti, rexistenti, resistente, rexistente, resistenti, rexistente).
+a_rom(ricco, rico, ricchi, riki, ricca, rica, ricche, rike).
+a_rom(riconoscente, riconosente, riconoscenti, riconosenti, riconoscente, riconosente, riconoscenti, riconosenti).
+a_rom(rischioso, riscioxo, rischiosi, riscioxi, rischiosa, riscioxa, rischiose, riscioxe).
+a_rom(robusto, stagno, robusti, stagni, robusta, stagna, robuste, stagne).
+a_rom(rosso, roso, rossi, rosi, rossa, rosa, rosse, rose).
+a_rom(saggio, sagio, saggi, sagi, saggia, sagia, sagge, sage).
+a_rom(salvo, salvo, salvi, salvi, salva, salva, salve, salve).
+a_rom(sano, sano, sani, sani, sana, sana, sane, sane).
+a_rom(saporito, gustoxo, saporiti, gustoxi, saporita, gustoxa, saporite, gustoxe).
+a_rom(saporito, saorÏ, saporiti, sorii, saporita, saoria, saporite, saorie).
+a_rom(scansafatiche, scansafadighe, scansafatiche, scansafadighe, scansafatiche, scansafadighe, scansafatiche, scansafadighe).
+a_rom(scarto, scarto, scarti, scarti, scarta, scarta, scarte, scarte).
+a_rom(sciocco, sioco, sciocchi, sioki, sciocca, sioca, sciocche, sioke).
+a_rom(semplice, senplice, semplici, senplici, semplice, senplice, semplici, senplici).
+a_rom(semplice, senplise, semplici, senplisi, semplice, senplise, semplici, senplisi).
+a_rom(sicuro, seguro, sicuri, seguri, sicura, segura, sicure, segure).
+a_rom(sicuro, sicuro, sicuri, sicuri, sicura, sicura, sicure, sicure).
+a_rom(simpatico, sinpatico, simpatici, simpatici, simpatica, sinpatica, simpatiche, sinpatike).
+a_rom(solido, so£ido, solidi, so£idi, solida, so£ida, solide, so£ide).
+a_rom(solito, so£ito, soliti, so£iti, solita, so£ita, solite, so£ite).
+a_rom(solo, so£o, soli, so£i, sola, so£a, sole, so£e).
+a_rom(spaventatissimo, spavent‡, spaventatissimi, spaventai, spaventatissima, spavent‡, spaventatissime, spaventae).
+a_rom(spaventatissimo, spaurÏ, spaventatissimi, spaurii, spaventatissima, spauria, spaventatissime, spaurie).
+a_rom(speciale, specia£e, speciali, specia£i, speciale, specia£e, speciali, specia£i).
+a_rom(stanco, straco, stanchi, straki, stanca, straca, stanche, strake).
+a_rom(stesso, steso, stessi, stesi, stessa, stesa, stesse, stese).
+a_rom(straniero, foresto, stranieri, foresti, straniera, foresta, straniere, foreste).
+a_rom(super, super, super, super, super, super, super, super).
+a_rom(superiore, superior, superiori, superiori, superiore, superior, superiori, superiori).
+a_rom(tenero, tenaro, teneri, tenari, tenera, tenara, tenere, tenare).
+a_rom(terribile, teribi£e, terribili, teribi£i, terribile, teribi£e, terribili, teribi£i).
+a_rom(terrorizzato, terorix‡, terrorizzati, terorixai, terrorizzata, terorix‡, terrorizzatem, terorixae).
+a_rom(tremante, tremante, tremanti, tremanti, tremante, tremante, tremanti, tremanti).
+a_rom(vecchio, vecio, vecchi, veci, vecchia, vecia, vecchie, vecie).
+a_rom(veloce, sguelto, veloci, sguelti, veloce, sguelta, veloci, sguelte).
+a_rom(veneto, veneto, veneti, veneti, veneta, veneta, venete, venete).
+a_rom(verde, verde, verdi, verdi, verde, verde, verdi, verdi).
+a_rom(veronese, veronexe, veronesi, veronexi, veronese, veronexe, veronesi, veronexi).
+a_rom(viaggiante, viagiante, viaggianti, viagianti, viaggiante, viagiante, viaggianti, viagianti).
+a_rom(viaggiante, viaxante, viaggianti, viaxanti, viaggiante, viaxante, viaggianti, viaxanti).
+a_rom(vicino, vixin, vicini, vixini, vicina, vixina, vicine, vixine).
+alterato(canzoncina, cansoncina, canzone, piccolo, fem, sing).
+alterato(casetta, caxeta, casa, piccolo, fem, sing).
+alterato(casette, caxete, case, piccolo, fem, plur).
+alterato(fratellini, frade£in, fratelli, piccolo, mas, plur).
+alterato(fratellino, frade£in, fratello, piccolo, mas, sing).
+alterato(pezzetti, toketi, pezzi, piccolo, mas, plur).
+ap_rom(loro, so, loro, so, loro, so, loro, so).
+ap_rom(loro, suo, loro, sui, loro, sua, loro, sue).
+ap_rom(mio, me, miei, me, mia, me, mie, me).
+ap_rom(mio, mio, miei, mii, mia, mia, mie, mie).
+ap_rom(mio, meo, miei, mei, mia, mea, mie, mie).
+ap_rom(nostro, nostro, nostri, nostri, nostra, nostra, nostre, nostre).
+ap_rom(proprio, propio, propri, propii, propria, propia, proprie, propie).
+ap_rom(suo, so, suoi, so, sua, so, sue, so).
+ap_rom(suo, suo, suoi, sui, sua, sua, sue, sue).
+ap_rom(suo, soo, suoi, soi, sua, soa, sue, soe).
+ap_rom(tuo, to, tuoi, to, tua, to, tue, to).
+ap_rom(tuo, tuo, tuoi, tui, tua, tua, tue, tue).
+ap_rom(tuo, too, tuoi, toi, tua, toa, tue, toe).
+ap_rom(vostro, vostro, vostri, vostri, vostra, vostra, vostre, vostre).
+ap_rom(vero, vero, veri, veri, vera, vera, vere, vere).
+art_det_rom(gli, i, mas, plur).
+art_det_rom(i, i, mas, plur).
+art_det_rom(il, el, mas, sing).
+art_det_rom(il, l\', mas, sing).
+art_det_rom(la, £a, fem, sing).
+art_det_rom(le, £e, fem, plur).
+art_det_rom(lo, el, mas, sing).
+art_det_rom(lo, l\', mas, sing).
+art_ndet_rom(un, on, mas, sing).
+art_ndet_rom(un, \'n, mas, sing).
+art_ndet_rom(una, na, fem, sing).
+art_ndet_rom(uno, on, mas, sing).
+aux('è', xe, essere, Ësar, ind, pres, 3, sing).
+aux(avendo, avendo, avere, aver, ger, pres, nil, nil).
+aux(avendo, vendo, avere, ver, ger, pres, nil, nil).
+aux(avere, aver, avere, aver, inf, nil, nil, __3).
+aux(avere, ver, avere, ver, inf, nil, nil, __3).
+aux(aveva, gaveva, avere, aver, ind, imp, 3, sing).
+aux(aveva, gaveva, avere, ver, ind, imp, 3, sing).
+aux(aveva, gavea, avere, aver, ind, imp, 3, sing).
+aux(aveva, gavea, avere, ver, ind, imp, 3, sing).
+aux(avevano, gaveva, avere, aver, ind, imp, 3, plur).
+aux(avevano, gaveva, avere, ver, ind, imp, 3, plur).
+aux(avevano, gavea, avere, aver, ind, imp, 3, plur).
+aux(avevano, gavea, avere, ver, ind, imp, 3, plur).
+aux(avrebbe, gavaria, avere, aver, cond, pres, 3, sing).
+aux(avrebbe, gavaria, avere, ver, cond, pres, 3, sing).
+aux(avrebbero, gavaria, avere, aver, cond, pres, 3, plur).
+aux(avrebbero, gavaria, avere, ver, cond, pres, 3, plur).
+aux(avrei, gavaria, avere, aver, cond, pres, 1, sing).
+aux(avrei, gavaria, avere, ver, cond, pres, 1, sing).
+aux(Ë, Ë, essere, Ësar, ind, pres, 3, sing).
+aux(era, xera, essere, Ësar, ind, imp, 3, sing).
+aux(erano, xera, essere, Ësar, ind, imp, 3, plur).
+aux(essendo, esendo, essere, Ësar, ger, pres, nil, nil).
+aux(fu, xe_stato, essere, Ësar, ind, pass_rem, 3, sing).
+aux(furono, xe_stati, essere, Ësar, ind, pass_rem, 3, plur).
+aux(ha, ga, avere, aver, ind, pres, 3, sing).
+aux(ha, ga, avere, ver, ind, pres, 3, sing).
+aux(hai, ga, avere, aver, ind, pres, 2, sing).
+aux(hai, ga, avere, ver, ind, pres, 2, sing).
+aux(hanno, ga, avere, aver, ind, pres, 3, plur).
+aux(hanno, ga, avere, ver, ind, pres, 3, plur).
+aux(ho, go, avere, aver, ind, pres, 1, sing).
+aux(ho, go, avere, ver, ind, pres, 1, sing).
+aux(sar‡, sar‡, essere, Ësar, ind, fut, 3, sing).
+aux(sarebbe, saria, essere, Ësar, cond, pres, 3, sing).
+aux(sarebbero, saria, essere, Ësar, cond, pres, 3, plur).
+aux(sarei, saria, essere, Ësar, cond, pres, 1, sing).
+aux(sia, sia, essere, Ësar, cong, pres, 1, sing).
+aux(sia, si, essere, Ësar, cong, pres, 2, sing).
+aux(sia, sia, essere, Ësar, cong, pres, 3, sing).
+aux(siano, sia, essere, Ësar, cong, pres, 3, plur).
+aux(sono, so\', essere, Ësar, ind, pres, 3, plur).
+aux(sta, sta, stare, st‡r, ind, pres, 3, sing).
+aux(stanno, sta, stare, st‡r, ind, pres, 3, plur).
+aux(stare, st‡r, stare, st‡r, inf, nil, nil, __3).
+aux(stava, stava, stare, st‡r, ind, imp, 3, sing).
+aux(stavano, stava, stare, st‡r, ind, imp, 3, plur).
+aux(vengono, vien, venire, vegner, ind, pres, 3, plur).
+aux(venne, xe_vegnu, venire, vegner, ind, pass_rem, 3, sing).
+aux(venne, xe_vegnesto, venire, vegner, ind, pass_rem, 3, sing).
+aux(vennero, xe_vegnui, venire, vegner, ind, pass_rem, 3, plur).
+aux(vennero, xe_vegnesti, venire, vegner, ind, pass_rem, 3, plur).
+aux(viene, vien, venire, vegner, ind, pres, 3, sing).
+avv('già', xa, avv(pred_avv('già'), tipo(temp), duraz(non_punt), config([td=tr]))).
+avv('giovedì', xoba, avv(pred_avv('giovedì'), tipo(clock_cal), duraz(non_punt), config([]))).
+avv('giù', xo, avv(pred_avv('giù'), tipo(locat), spec(def(+)))).
+avv('là', £‡, avv(pred_avv('là'), tipo(locat), spec(def(+), prox(-)))).
+avv('lì', £Ï, avv(pred_avv('lì'), tipo(locat), spec(def(+), prox(-)))).
+avv('lì', £ive, avv(pred_avv('lì'), tipo(locat), spec(def(+), prox(-)))).
+avv(mica, miga, avv(pred_avv(mica), tipo(focal))).
+avv('però', 'parò', avv(pred_avv('però'), tipo(avvers))).
+avv('più', pi, avv(pred_avv('più'), tipo(abortive))).
+avv('quì', cu‡, avv(pred_avv('quì'), tipo(locat), spec(def(+), prox(+)))).
+avv('quì', kive, avv(pred_avv('quì'), tipo(locat), spec(def(+), prox(+)))).
+avv('quà', cu‡, avv(pred_avv('quà'), tipo(locat), spec(def(+), prox(+)))).
+avv(allegramente, a£egramente, avv(pred_avv(allegramente), tipo(modal))).
+avv(allora, £ora, avv(pred_avv(allora), tipo(modal))).
+avv(allora, a£ora, avv(pred_avv(allora), tipo(modal))).
+avv(allora, e£ora, avv(pred_avv(allora), tipo(modal))).
+avv(anche, anca, avv(pred_avv(anche), tipo(focal))).
+avv(ancora, \'ncora, avv(pred_avv(ancora), tipo(temp), duraz(punt), config([td=tr]))).
+avv(appena, pena, avv(pred_avv(appena), tipo(temp), duraz(punt), config([tr<td]))).
+avv(attentamente, atentamente, avv(pred_avv(attentamente), tipo(modal))).
+avv(bene, ben, avv(pred_avv(bene), tipo(modal))).
+avv(bene, puito, avv(pred_avv(bene), tipo(modal))).
+avv(bene, pu£ito, avv(pred_avv(bene), tipo(modal))).
+avv(bene, po£ito, avv(pred_avv(bene), tipo(modal))).
+avv(benissimo, benisimo, avv(pred_avv(bene), tipo(modal), spec(foc(molto)))).
+avv(certo, serto, avv(pred_avv(certo), tipo(focal))).
+avv(completamente, conpletamente, avv(pred_avv(completamente), tipo(completive))).
+avv(dapprima, daprima, avv(pred_avv(dapprima), tipo(modal))).
+avv(davvero, davero, avv(pred_avv(davvero), tipo(focal))).
+avv(dentro, rento, avv(pred_avv(dentro), tipo(locat), spec(def(+)))).
+avv(dietro, drio, avv(pred_avv(dietro), tipo(locat), spec(def(+)))).
+avv(domani, doman, avv(pred_avv(domani), tipo(deittico), duraz(non_punt), config([td<tr]))).
+avv(fa, fa, avv(pred_avv(fa), tipo(temp), duraz(punt), config([tr<td]))).
+avv(finalmente, finalmente, avv(pred_avv(finalmente), tipo(temp), duraz(punt), config([td=tr]))).
+avv(forte, forte, avv(pred_avv(forte), tipo(modal))).
+avv(fuori, fora, avv(pred_avv(fuori), tipo(locat), spec(def(+)))).
+avv(ieri, jeri, avv(pred_avv(ieri), tipo(deittico), duraz(non_punt), config([tr<td]))).
+avv(immediatamente, imediatamente, avv(pred_avv(immediatamente), tipo(temp), duraz(punt), config([td=tr]))).
+avv(improvvisamente, inprovixamente, avv(pred_avv(improvvisamente), tipo(temp), duraz(punt), config([td=tr]))).
+avv(indietro, indrio, avv(pred_avv(indietro), tipo(locat), spec(def(+)))).
+avv(insieme, insieme, avv(pred_avv(insieme), tipo(modal))).
+avv(intanto, intanto, avv(pred_avv(intanto), tipo(temp), duraz(non_punt), config([td=tr]))).
+avv(intorno, intorno, avv(pred_avv(intorno), tipo(locat), spec(def(+)))).
+avv(invece, invese, avv(pred_avv(invece), tipo(modal))).
+avv(mai, mai, avv(pred_avv(mai), tipo(negation))).
+avv(meglio, mejo, avv(pred_avv(meglio), tipo(degree))).
+avv(molto, tanto, avv(pred_avv(molto), tipo(degree))).
+avv(neanche, gnanca, avv(pred_avv(neanche), tipo(negation))).
+avv(nemmeno, gnanca, avv(pred_avv(nemmeno), tipo(negation))).
+avv(oggi, ancÛ, avv(pred_avv(oggi), tipo(deittico), duraz(non_punt), config([td=tr]))).
+avv(oltre, oltre, avv(pred_avv(oltre), tipo(locat), spec(def(+)))).
+avv(ora, deso, avv(pred_avv(ora), tipo(temp), duraz(non_punt), config([td=tr]))).
+avv(ovunque, dapartuto, avv(pred_avv(ovunque), tipo(locat), spec(def(+), part(-)))).
+avv(piano, pian, avv(pred_avv(piano), tipo(modal))).
+avv(pesantemente, pexantemente, avv(pred_avv(pesantemente), tipo(modal))).
+avv(poi, po, avv(pred_avv(poi), tipo(temp), duraz(non_punt), config([td=tr]))).
+avv(prima, prima, avv(pred_avv(prima), tipo(temp), duraz(non_punt), config([td=tr]))).
+avv(presto, presto, avv(pred_avv(presto), tipo(modal))).
+avv(prudentemente, prudentemente, avv(pred_avv(prudentemente), tipo(modal))).
+avv(rapidamente, rapidamente, avv(pred_avv(rapidamente), tipo(modal))).
+avv(sempre, senpre, senpre, avv(pred_avv(sempre), tipo(temp), duraz(non_punt), config([td=tr]))).
+avv(sodo, sodo, avv(pred_avv(sodo), tipo(modal))).
+avv(sopra, sora, avv(pred_avv(sopra), tipo(locat), spec(def(+)))).
+avv(sotto, soto, avv(pred_avv(sotto), tipo(locat), spec(def(+)))).
+avv(subito, suito, avv(pred_avv(subito), tipo(temp), duraz(punt), config([td=tr]))).
+avv(tanto, tanto, avv(pred_avv(tanto), tipo(degree))).
+avv(tardi, tardi, avv(pred_avv(tardi), tipo(temp), duraz(non_punt), config([td=tr]))).
+avv(tranquillamente, trancui£amente, avv(pred_avv(tranquillamente), tipo(modal))).
+avv(via, via, avv(pred_avv(via), tipo(locat), spec(def(+), prox(-)))).
+cardin(1, 1, 1, sing).
+cardin(due, do, 2, plur).
+cardin(cento, sento, 100, plur).
+cardin(mille, mi£a, 1000, plur).
+cardin(mille, mi£e, 1000, plur).
+cardin(tre, tre, 3, plur).
+cardin(tre, tri, 3, plur).
+cardin(venti, vinti, 20, plur).
+cl(ana_clit, +, n, ne, 3, nil, nil, [obl]).
+cl(ana_clit, +, ne, ne, 3, nil, nil, [obl]).
+cl(clitico, nil, c, ne, 1, nonsp, plur, [dat]).
+cl(clitico, nil, ce, ghe, 1, nil, plur, [gen]).
+cl(clitico, nil, ci, ne, nil, nil, nil, nil).
+cl(clitico, nil, ci, ne, 1, nonsp, plur, [dat]).
+cl(clitico, nil, gli, ghe, 3, mas, sing, [dat]).
+cl(clitico, nil, l, £a, 3, fem, sing, [acc]).
+cl(clitico, nil, la, £a, 3, fem, sing, [acc]).
+cl(clitico, nil, le, £e, 3, fem, nil, [acc]).
+cl(clitico, nil, li, £i, 3, mas, plur, [acc]).
+cl(clitico, nil, lo, £o, 3, mas, sing, [acc]).
+cl(clitico, nil, m, me, 1, nil, sing, [dat]).
+cl(clitico, nil, me, me, 1, nil, sing, [acc]).
+cl(clitico, nil, mi, me, 1, nil, sing, [dat]).
+cl(clitico, nil, t, te, 2, nil, sing, [dat]).
+cl(clitico, nil, te, te, 2, nil, sing, [acc]).
+cl(clitico, nil, ti, te, 2, nil, sing, [dat]).
+cl(clitico, nil, v, ve, nil, nonsp, nil, [obl, dat]).
+cl(clitico, nil, ve, ghe, 2, nil, plur, [gen]).
+cl(clitico, nil, vi, ve, nil, nonsp, nil, [obl, dat]).
+cl(enclitico, nil, loro, £uri, 3, nil, plur, nil).
+cl(enclitico, nil, loro, £ori, 3, nil, plur, nil).
+cl(rifl_corto, nil, se, se, 3, nil, nil, [dat]).
+cl(rifl_corto, nil, si, se, 3, nil, nil, nil).
+compl(che, ke).
+compl(che, ca).
+compl(da, da).
+conju('cioè', 'cioè' ).
+conju(e, e).
+conju(ed, e).
+conju(o, o).
+conju(tuttavia, tutavia).
+foca(anche, anca).
+foca(proprio, propio).
+inten('così', 'cusì' ).
+inten('così', 'cusìta' ).
+inten('più', pi).
+inten(abbastanza, bastansa).
+inten(almeno, almanco).
+inten(alquanto, alcuanto).
+inten(altrettanto, altretanto).
+inten(anche, anca).
+inten(ben, ben).
+inten(davvero, davero).
+inten(meno, manco).
+inten(proprio, propio).
+inten(troppo, masa).
+inten(quasi, cuaxi).
+inten(quasi, scuaxi).
+interjc(altrochÈ, altrokÈ).
+interjc(attenzione, atension).
+interjc(avanti, vanti).
+interjc(basta, basta).
+interjc(beh, beh).
+interjc(buonasera, bonasera).
+interjc(buongiorno, bondÏ).
+interjc(buongiorno, bongiorno).
+interjc(ciao, ciao).
+interjc(dai, dei).
+interjc(detto, dito).
+interjc(ecco, eco).
+interjc(fatto, fato).
+interjc(giusto, giusto).
+interjc(grazie, grasie).
+interjc(no, no).
+interjc(oro, oro).
+interjc(perbacco, parbaco).
+interjc(perfetto, parfeto).
+interjc(puff, puff).
+interjc(sÏ, sÏ).
+interjc(sÏ, ciÚ).
+mod_ex(altri, altri, mas, plur).
+mod_ex(altro, altro, mas, sing).
+modsp(buona, bona).
+modsp(fino, fin).
+modsp(parte, parte).
+modsp(proprio, propio).
+modsp(solo, so£o).
+modsp(spalle, spa£e).
+n('agilità', 'agi£ità', 'agilità', 'agi£ità', fem).
+n('università', 'università', 'università', 'università', fem).
+n('università', 'oniversità', 'università', 'oniversità', fem).
+n(accademia, cademia, accademie, cademie, fem).
+n(accidente, asidente, accidenti, asidenti, mas).
+n(acqua, acua, acque, acue, fem).
+n(agnellino, agne£eto, agnellini, agne£eti, mas).
+n(aiuto, ajuto, aiuti, ajuti, mas).
+n(aiuto, juto, aiuti, juti, mas).
+n(albero, albaro, alberi, albari, mas).
+n(allievo, arlevo, allievi, arlevi, mas).
+n(amico, amigo, amici, amisi, mas).
+n(amico, amigo, amici, amighi, mas).
+n(amministrazione, aministrasion, amministrazioni, aministrasion, fem).
+n(animale, animal, animali, animai, mas).
+n(anno, ano, anni, ani, mas).
+n(area, area, aree, aree, fem).
+n(aria, aria, aria, aria, nil, fem).
+n(assemblea, asenblea, assemblee, asenblee, fem).
+n(asino, muso, asini, musi, mas).
+n(assalto, asalto, assalti, asalti, mas).
+n(attaccamento, tacamento, attaccamenti, tacamenti, mas).
+n(attacco, agresion, attacchi, agresion, mas).
+n(attacco, ataco, attacchi, ataki, mas).
+n(attimo, atimo, attimi, atimi, mas).
+n(autobus, coriera, autobus, coriere, fem).
+n(autorità, autorità, autorità, autorità, fem).
+n(avversaria, aversaria, avversarie, aversarie, fem).
+n(baffo, bafo, baffi, bafi, mas).
+n(baldoria, baldoria, baldorie, baldorie, fem).
+n(bambino, puteo, bambini, putei, mas).
+n(bambino, pute£o, bambini, putei, mas).
+n(banda, banda, bande, bande, fem).
+n(belva, belva, belve, belve, fem).
+n(bibita, bibita, bibite, bibite, fem).
+n(biblioteca, bibioteca, biblioteche, bibioteke, mas).
+n(biscotto, biscoto, biscotti, biscoti, mas).
+n(bisogno, bixogno, bisogni, bixogni, mas).
+n(bolla, bo£a, bolle, bo£e, fem).
+n(bollicina, bo£ixina, bollicine, bo£ixine, fem).
+n(bordo, bordo, bordi, bordi, mas).
+n(bosco, bosco, boschi, boski, mas).
+n(breve, breve, breve, breve, nil, mas).
+n(burocrate, burocrate, burocrati, burocrati, mas).
+n(calcagna, calcagna, calcagna, calcagna, fem).
+n(calcio, calcio, calci, calci, mas).
+n(calcio, calso, calci, calsi, mas).
+n(camino, camin, camini, camin, mas).
+n(cammino, camin, cammini, camin, mas).
+n(campagna, canpagna, campagne, canpagne, fem).
+n(cane, can, cani, can, mas).
+n(cannocchiale, canocial, cannocchiali, canocia£i, mas).
+n(cannocchiale, canocial, cannocchiali, canociai, mas).
+n(canzone, canson, canzoni, cansoni, fem).
+n(capanna, capana, capanne, capane, fem).
+n(capoturno, capoturno, capoturni, capoturni, mas).
+n(carriera, cariera, carriere, cariere, fem).
+n(casa, caxa, case, caxe, fem).
+n(cavalleria, cava£eria, cavaleria, nil, fem).
+n(cemento, semento, cementi, sementi, mas).
+n(cesta, sesta, ceste, seste, fem).
+n(cesto, sesto, cesti, sesti, mas).
+n(chiavistello, ciavexe£o, chiavistelli, ciavexe£i, mas).
+n(cibo, magn‡r, cibi, magn‡r, mas).
+n(circo, sirco, circhi, sirki, mas).
+n(collaborazione, co£aborasion, collaborazioni, co£aborasioni, fem).
+n(collegio, co£egio, collegi, co£egi, mas).
+n(collegio, coegio, collegi, coegi, mas).
+n(colonia, co£onia, colonie, co£onie, fem).
+n(colono, co£ono, coloni, co£oni, mas).
+n(commercio, comerso, commerci, comersi, mas).
+n(commerso, comercio, commerci, comerci, mas).
+n(compito, conpito, compiti, conpiti, mas).
+n(confederazione, confederasion, confederazioni, confederasion, fem).
+n(coniglio, conejo, conigli, coneji, mas).
+n(controllo, contro£o, controlli, contro£i, mas).
+n(corsa, corsa, corse, corse, fem).
+n(cosmo, cosmo, cosmi, cosmi, mas).
+n(cottura, cotura, cotture, coture, fem).
+n(crepapelle, crepap‡nsa, nil, nil).
+n(croce, croxe, croci, croxi, fem).
+n(delegato, de£eg‡, delegati, de£eg‡, mas).
+n(delegato, de£egato, delegati, de£egati, mas).
+n(delegazione, de£egasion, delegazioni, de£egasioni, fem).
+n(dimostrante, dimostrante, dimostranti, dimostranti, mas).
+n(disonestà, dixonestà, disonestà, dixonestà, fem).
+n(dispiacere, despiaxer, dispiaceri, despiaxeri, mas).
+n(dispositivo, conxegno, dispositivi, conxegni, mas).
+n(distinzione, distinsion, distinzioni, distinsioni, fem).
+n(ditta, dita, ditte, dite, fem).
+n(divisa, divixa, divise, divixe, fem).
+n(dolore, do£or, dolori, do£ori, mas).
+n(donna, dona, donne, done, fem).
+n(dopoguerra, dopoguera, nil, mas).
+n(dottore, dotor, dottori, dotori, mas).
+n(eccitazione, inboreso, nil, mas).
+n(eleganza, e£egansa, nil, fem).
+n(elettore, e£etor, elettori, e£etori, mas).
+n(esercito, exersito, eserciti, exersiti, mas).
+n(esercito, exercito, eserciti, exerciti, mas).
+n(esponente, esponente, esponenti, esponenti, mas).
+n(esponente, esponente, esponenti, esponinti, mas).
+n(estero, estaro, nil).
+n(ex_ufficiale, ex_uficial, ex_ufficiali, ex_ufficia£i, mas).
+n(ex_ufficiale, ex_ufisal, ex_ufficiali, ex_ufisa£i, mas).
+n(ex, ex, _1).
+n(fa, fa, mas).
+n(famiglia, fameja, famiglie, fameje, fem).
+n(fatto, fato, fatti, fati, mas).
+n(fessura, fesura, fessure, fesure, fem).
+n(festa, festa, feste, feste, fem).
+n(fetta, feta, fette, fete, fem).
+n(fiera, fiera, fiere, fiere, fem).
+n(figlia, fio£a, figlie, fio£e, fem).
+n(figlio, fio£o, figli, fio£i, mas).
+n(figlio, fio£o, figli, fioi, mas).
+n(film, film, film, film, mas).
+n(finale, fina£e, finali, fina£i, fem).
+n(fine, fin, fine, fin, fem).
+n(fine, fine, fine, fine, fem).
+n(finestra, finestra, finestre, finestre, fem).
+n(finta, finta, finte, finte, fem).
+n(fiume, brenta, fiumi, brente, fem).
+n(flauto, pifaro, flauti, pifari, mas).
+n(fondatore, fondador, fondatori, fondadori, mas).
+n(formazione, formasion, formazioni, formasioni, fem).
+n(fortuna, fortuna, fortune, fortune, fem).
+n(forza, forsa, forze, forse, fem).
+n(francese, fransexe, francesi, fransexi, mas).
+n(francese, fransexe, francesi, fransexi, fem).
+n(fratello, frade£o, fratelli, frade£i, mas).
+n(fratello, frade£o, fratelli, fradei, mas).
+n(fretta, presa, frette, prese, fem).
+n(fronte, fronte, fronti, fronti, fem).
+n(fronte, fronte, fronti, fronti, mas).
+n(frontiera, frontiera, frontiere, frontiera, fem).
+n(funzionario, funsionario, funzionari, funsionari, mas).
+n(fuoco, fogo, fuochi, foghi, mas).
+n(fuori, fora, fuori, fora, mas).
+n(generale, general, generali, genera£i, mas).
+n(generale, xeneral, generali, xenera£i, mas).
+n(genio, genio, genio, geni, geni, mas).
+n(gente, xente, genti, xenti, fem).
+n(gente, gente, genti, genti, fem).
+n(giardino, giardin, giardini, giardin, mas).
+n(giocattolo, xogo, giocattoli, xoghi, mas).
+n(giocattolo, xugo, giocattoli, xughi, mas).
+n(gioco, xugo, giochi, xughi, mas).
+n(gioco, xogo, giochi, xoghi, mas).
+n(giornata, giorn‡da, giornate, giorn‡de, fem).
+n(giornata, xorn‡da, giornate, xorn‡de, fem).
+n(giorno, dÏ, giorni, dÏ, mas).
+n(giorno, giorno, giorni, giorni, mas).
+n(giovinezza, xovent˘, nil, fem).
+n(giro, giro, giri, giri, mas).
+n(giusto, giusto, giusti, giusti, mas).
+n(governatore, governador, governatori, governadori, mas).
+n(governo, governo, governi, governi, mas).
+n(governo, govarno, governi, govarni, mas).
+n(grado, grado, gradi, gradi, mas).
+n(graffio, sgrafo, graffi, sgrafi, mas).
+n(guardia, guardia, guardie, guardie, fem).
+n(guerra, guera, guerre, guere, fem).
+n(guerra, goera, guerre, goere, fem).
+n(hamburger, hamburger, hamburger, hamburger, mas).
+n(idea, idea, idee, idee, fem).
+n(immigrato, imigr‡, immigrati, imigradi, mas).
+n(immigrato, imigrato, immigrati, imigrati, mas).
+n(imputato, inputato, imputati, inputati, mas).
+n(incanto, incanto, incanti, incanti, mas).
+n(incarico, incarico, incarichi, incariki, mas).
+n(incontro, incontro, incontri, incontri, mas).
+n(indiano, indian, indiani, indiani, mas).
+n(indiana, indiana, indiane, indiane, fem).
+n(infermiera, infermiera, infermiere, infermiere, fem).
+n(informazione, informasion, informazioni, informasioni, fem).
+n(inglese, ingrexi, inglesi, ingrexi, mas).
+n(inglese, ingrexi, inglesi, ingrexi, fem).
+n(insegnante, insegnante, insegnanti, insegnanti, mas).
+n(insegnante, insegnante, insegnanti, insegnanti, fem).
+n(intenzione, intension, intenzioni, intensioni, mas).
+n(interesse, intarese, interessi, intaresi, mas).
+n(interruzione, interusion, interruzioni, interusioni, fem).
+n(ispettore, ispetor, ispettori, ispetori, mas).
+n(istituzione, istitusion, istituzioni, istitusion, fem).
+n(istituzione, istitusion, istituzioni, istitusioni, fem).
+n(ladro, ladro, ladri, ladri, mas).
+n(laureato, laure‡, laureati, laureadi, mas).
+n(laureato, laureato, laureati, laureati, mas).
+n(lavoratore, laorador, lavoratori, laoradori, mas).
+n(lavoro, laoro, lavori, laori, mas).
+n(legno, legno, legni, legni, mas).
+n(lena, lena, lene, lene, fem).
+n(liberazione, liberasion, liberazioni, liberasion, fem).
+n(libertà, £ibartà, libertà, £ibartà, fem).
+n(libro, £ibro, libri, £ibri, mas).
+n(linea, linia, linee, linie, fem).
+n(luogo, £ogo, luoghi, £oghi, mas).
+n(luogo, £iogo, luoghi, £ioghi, mas).
+n(lupo, lupo, lupi, lupi, mas).
+n(macchina, makina, macchine, makine, fem).
+n(madre, mare, madri, mari, fem).
+n(maestra, maestra, maestre, maestre, fem).
+n(male, mal, mali, mal, mas).
+n(male, ma£e, mali, ma£i, mas).
+n(maledizione, ma£edision, maledizioni, ma£edision, fem).
+n(mamma, mama, mamme, mame, fem).
+n(maniera, maniera, maniere, maniere, fem).
+n(mano, man, mani, man, fem).
+n(mare, mar, mari, mari, mas).
+n(mattina, matina, mattine, matine, fem).
+n(mattino, matina, mattini, matine, fem).
+n(mascheratura, mascaradura, mascherature, mascaradure, fem).
+n(mattone, maton, mattoni, matoni, mas).
+n(mattone, cuare£o, mattoni, cuare£i, mas).
+n(mela, pomo, mele, pomi, mas).
+n(merito, merito, meriti, meriti, mas).
+n(mese, mexe, mesi, mexi, mas).
+n(metodo, metodo, metodi, metodi, mas).
+n(militare, militar, militari, militari, mas).
+n(ministro, ministro, ministri, ministri, mas).
+n(minuto, minuto, minuti, minuti, mas).
+n(minuto, minudo, minuti, minudi, mas).
+n(modo, modo, modi, modi, mas).
+n(modo, maniera, modi, maniere, fem).
+n(moglie, mojer, mogli, mojere, fem).
+n(mondo, mondo, mondi, mondi, mas).
+n(museo, muxeo, musei, muxei, mas).
+n(nebbia, nebia, nebbie, nebie, fem).
+n(neve, neve, nevi, nevi, fem).
+n(nevicata, nevegada, nevicate, nevegade, fem).
+n(nome, nome, nomi, nomi, mas).
+n(nord, nord, mas).
+n(nota, nota, note, note, fem).
+n(notte, note, notti, noti, fem).
+n(numero, numaro, numeri, numari, mas).
+n(occasione, ocaxion, occasioni, ocaxioni, fem).
+n(occasione, ocaxion, occasioni, ocaxion, fem).
+n(operaio, operante, operai, operanti, mas).
+n(operazione, operasion, operazioni, operasion, fem).
+n(operazione, operasion, operazioni, operasioni, fem).
+n(ora, ora, ore, ore, fem).
+n(orco, orco, orchi, orki, mas).
+n(organizzazione, organixasion, organizzazioni, organixasioni, fem).
+n(organizzazione, organixasion, organizzazioni, organixasion, fem).
+n(oro, oro, ori, ori, mas).
+n(ossido, osido, ossidi, osidi, mas).
+n(osso, oso, ossa, osi, mas).
+n(osso, oso, ossi, osi, mas).
+n(padre, pare, padri, pari, mas).
+n(padrone, paron, padroni, paroni, mas).
+n(paglia, paja, paglie, paje, fem).
+n(paia, pari, paia, pari, mas).
+n(paio, paro, paio, paro, mas).
+n(palla, ba£a, palle, ba£e, fem).
+n(palmo, palma, palmi, palme, fem).
+n(pap‡, pop‡, pap‡, pop‡, mas).
+n(parlamento, parlamento, parlamenti, parlamenti, mas).
+n(parco, parco, parchi, parki, mas).
+n(parte, parte, parti, parti, fem).
+n(partenza, partensa, partenze, partense, fem).
+n(partita, partia, partite, partie, fem).
+n(partito, partio, partiti, partii, mas).
+n(partito, partito, partiti, partiti, mas).
+n(paura, paura, paure, paure, fem).
+n(pecora, pegora, pecore, pegore, fem).
+n(pecora, piegora, pecore, piegore, fem).
+n(pelle, pe£e, pelli, pe£i, fem).
+n(pentolone, parol, pentoloni, paro£i, mas).
+n(percorso, percorso, percorsi, percorsi, mas).
+n(pericolo, perico£o, pericoli, perico£i, mas).
+n(permesso, parmeso, permessi, parmesi, mas).
+n(persona, persona, persone, persone, fem).
+n(pesce, pese, pesci, pesi, mas).
+n(pezzo, toco, pezzi, toki, mas).
+n(piano, pian, piani, piani, mas).
+n(piede, pie, piedi, pie, mas).
+n(pioggia, piova, pioggie, piove, fem).
+n(polmone, polmon, polmoni, polmoni, mas).
+n(porcellino, porse£eto, porcellini, porse£eti, mas).
+n(porta, porta, porte, porte, fem).
+n(posto, posto, posti, posti, mas).
+n(potere, potere, poteri, poteri, mas).
+n(pranzetto, pranxeto, pranzetti, pranxeti, mas).
+n(prefetto, prefeto, prefetti, prefeti, mas).
+n(presidente, prexidente, presidenti, prexidenti, mas).
+n(presidenza, prexidensa, presidenze, prexidense, fem).
+n(prigioniero, prexoniero, prigionieri, prexonieri, mas).
+n(principessa, principesa, principesse, principese, fem).
+n(principessa, prinsipesa, principesse, prinsipese, fem).
+n(principe, principe, principi, principi, mas).
+n(principe, prinsipe, principi, prinsipi, mas).
+n(principio, prinsipio, principi, prinsipi, mas).
+n(procuratore, procurador, procuratori, procuradori, mas).
+n(produttore, produtor, produttori, produtori, mas).
+n(professore, profesor, professori, profesori, mas).
+n(provincia, provinsa, province, provinse, fem).
+n(punto, ponto, punti, ponti, mas).
+n(quadro, cuadro, quadri, cuadri, mas).
+n(qualifica, cualifega, qualifiche, cualifeghe, fem).
+n(questore, cuestor, questori, cuestori, mas).
+n(rabbia, rabia, rabbie, rabie, fem).
+n(racconto, raconto, racconti, raconti, mas).
+n(ragazza, toxa, ragazze, toxe, fem).
+n(ragazzo, toxo, ragazzi, toxi, mas).
+n(ragione, raxon, ragioni, raxon, fem).
+n(rapporto, raporto, rapporti, raporti, mas).
+n(re, re, re, re, mas).
+n(residuo, rexiduo, residui, rexidui, mas).
+n(resist, resist, nil, mas).
+n(respiro, respiro, respiri, respiri, mas).
+n(riva, riva, rive, rive, fem).
+n(rivoluzione, rivo£usion, rivoluzioni, rivo£usion, fem).
+n(rivoluzione, rivo£usion, rivoluzioni, rivo£usioni, fem).
+n(roba, roba, robe, robe, fem).
+n(run, run, run, run, mas).
+n(salmone, salmon, salmoni, salmoni, mas).
+n(salute, sa£ute, nil, fem).
+n(sconfitta, desfata, sconfitte, desfate, fem).
+n(segretario, secretario, segretari, secretari, mas).
+n(seguito, seguito, seguiti, seguiti, mas).
+n(senato, senato, senati, senati, mas).
+n(senatore, senador, senatori, senadori, mas).
+n(sera, sera, sere, sere, fem).
+n(serie, serie, serie, serie, fem).
+n(settimana, setemana, settimane, setemane, fem).
+n(settimana, setimana, settimane, setimane, fem).
+n(sfera, sfera, sfere, sfere, fem).
+n(sfilata, sfilada, sfilate, sfilade, fem).
+n(sicuro, seguro, sicuro, seguro, mas).
+n(sicuro, sicuro, sicuro, sicuro, mas).
+n(signor, sior, signori, siori, mas).
+n(signore, sior, signori, siori, mas).
+n(signora, siora, signore, siore, fem).
+n(sistema, sistema, sistemi, sistemi, mas).
+n(soffio, sufio, soffi, sufi, mas).
+n(sollevamento, so£evamento, sollevamenti, so£evamenti, mas).
+n(sorella, sore£a, sorelle, sore£e, fem).
+n(soldato, sold‡, soldati, sold‡, mas).
+n(sospiro, sospiro, sospiri, sospiri, mas).
+n(spalla, spa£a, spalle, spa£e, fem).
+n(specie, spece, specie, spece, fem).
+n(spessore, spesor, spessori, spesori, mas).
+n(spettacolo, spetaco£o, spettacoli, spetaco£i, mas).
+n(sporco, sporco, sporchi, sporki, mas).
+n(squadra, scuadra, squadre, scuadre, fem).
+n(stampa, stanpa, stampe, stanpe, fem).
+n(statale, statal, statali, stata£i, fem).
+n(storia, storia, storie, storie, fem).
+n(studente, studente, studenti, studenti, mas).
+n(stufa, stua, stufe, stue, fem).
+n(successo, suceso, successi, sucesi, mas).
+n(suocero, suocero, suoceri, suoceri, mas).
+n(suonatore, sonador, suonatori, sonadori, mas).
+n(tegola, copo, tegole, copi, mas).
+n(temperatura, tenperadura, temperature, tenperadure, fem).
+n(temperatura, tenperaura, temperature, tenperaure, fem).
+n(tempo, tenpo, tempi, tenpi, mas).
+n(terra, tera, terre, tere, fem).
+n(tesoro, texoro, tesori, texori, mas).
+n(testa, testa, teste, teste, fem).
+n(tetto, cuerto, tetti, cuerti, mas).
+n(tipo, tipo, tipi, tipi, mas).
+n(tono, tono, toni, toni, mas).
+n(toro, toro, tori, tori, mas).
+n(trasmissione, trasmision, trasmissioni, trasmision, fem).
+n(trasmissione, trasmision, trasmissioni, trasmisioni, fem).
+n(ufficiale, ufisial, ufficiali, ufisia£i, mas).
+n(ufficiale, ufisal, ufficiali, ufisa£i, mas).
+n(ufficio, uficio, uffici, ufici, mas).
+n(unione, union, unioni, unioni, fem).
+n(uomo, omo, uomini, omeni, mas).
+n(uscita, usida, uscite, uside, fem).
+n(velo, ve£o, veli, ve£i, mas).
+n(verit‡, verit‡, verit‡, verit‡, fem).
+n(vicepresidente, vicepresidente, vicepresidenti, vicepresidenti, mas).
+n(vicepresidente, visepresidente, vicepresidenti, visepresidenti, mas).
+n(vino, vin, vini, vini, mas).
+n(vino, vin, vini, vin, mas).
+n(violenza, vio£ensa, violenze, vio£ense, fem).
+n(violinista, vio£inista, violinisti, vio£inisti, mas).
+n(violino, vio£in, violini, vio£in, mas).
+n(viso, vixo, visi, vixi, mas).
+n(vista, vista, viste, viste, fem).
+n(vittoria, vitoria, vittorie, vitorie, fem).
+n(vocazione, vocasion, vocazioni, vocasioni, fem).
+n(voce, voxe, voci, voxi, fem).
+n(voglia, voja, voglie, voje, fem).
+n(volta, volta, volte, volte, fem).
+n(volta, olta, volte, olte, fem).
+n(voto, voto, voti, voti, mas).
+n(wafer, wafer, wafer, wafer, mas).
+n(zampa, sata, zampe, sate, fem).
+nega(non, no).
+nega(mica, miga).
+npro('Artie', 'Artie', nil, mas).
+npro('Bob', 'Bob', nil, mas).
+npro('Cosmo', 'Cosmo', nil, mas).
+npro('GratasiÈl', 'GratasiÈl', nil, mas).
+npro('Lieore', 'Lieore', nil, fem).
+npro('Medho', 'Medho', nil, mas). 
+npro('Oscar', 'Oscar', nil, mas). 
+npro('Vaz', 'Vaz', nil, mas).
+npro(1945, 1945, nil, mas).
+npro(1947, 1947, nil, mas).
+npro(1948, 1948, nil, mas).
+npro(1950, 1950, nil, mas).
+npro(592, 592, nil, mas).
+npro(albany, albany, nil, fem).
+npro(alberti, alberti, nil, mas).
+npro(amb, amb, nil, fem).
+npro('America', 'America', nil, fem).
+npro('America', 'Merica', nil, fem).
+npro(antonio, toni, nil, mas).
+npro(avveduti, avveduti, nil, mas).
+npro(bartoli, bartoli, nil, mas).
+npro(canelli, canelli, nil, mas).
+npro(carlo, carlo, nil, mas).
+npro(dc, dc, nil, fem).
+npro(de_gasperi, de_gasperi, nil, mas).
+npro(don_sturzo, don_sturzo, nil, mas).
+npro(francesca, francesca, nil, fem).
+npro(francia, fransa, nil, fem).
+npro(franco, franco, nil, mas).
+npro(gianni, gianni, nil, mas).
+npro(gino, gino, nil, mas).
+npro(giorgio, xorxo, nil, mas).
+npro(inghilterra, inghiltera, nil, fem).
+npro('Iroquois', 'Iroquois', nil, mas).
+npro(italia, italia, nil, fem).
+npro(jimmi, jimmi, nil, mas).
+npro(jimmy, jimmy, nil, mas).
+npro(lido, lido, nil, mas).
+npro(luigi, gigi, nil, mas).
+npro(marco, marco, nil, mas).
+npro(maria, maria, nil, fem).
+npro(mario, mario, nil, mas).
+npro(marta, marta, nil, fem).
+npro(marx, marx, none, mas).
+npro('Massachussetts', 'Massachussetts', nil, mas).
+npro('Moreta', 'Moreta', nil, fem).
+npro('Nanare£a', 'Nanare£a', nil, fem).
+npro(novara_cavalleria, novara_cavalleria, nil, mas).
+npro(novara, novara, _1).
+npro(nuova_york, nova_york, nil, fem).
+npro(paola, pao£a, nil, fem).
+npro(pinerolo, pinero£o, nil, fem).
+npro(roma, roma, nil, fem).
+npro(sherifo, sherifo, nil, mas).
+npro(timmy, timmy, nil, mas).
+npro(tommy, tommy, nil, mas).
+npro(trabucchi, trabucchi, nil, mas).
+npro(veneto, veneto, nil, mas).
+npro(verona, verona, nil, fem).
+npro(virginia, virxinia, nil, fem).
+ord(prima, prima, primo, fem, sing).
+ord(prime, prime, primo, fem, plur).
+ord(primi, primi, primo, mas, plur).
+ord(primo, primo, primo, mas, sing).
+partic(a, a).
+partic(ad, a).
+partic(da, da).
+partic(di, de).
+pp_rom(accaduto, suceso, accaduti, sucesi, accaduta, sucesa, accadute, sucese, accadere, sucÈdar).
+pp_rom(accaduto, capit‡, accaduti, capitai, accaduta, capit‡, accadute, capitae, accadere, capit‡r).
+pp_rom(accennato, acen‡, accennati, acenai, accennata, acen‡, accennate, acenae, accennare, acen‡r).
+pp_rom(accusato, acux‡, accusati, acuxai, accusata, acux‡, accusate, acuxae, accusare, acux‡r).
+pp_rom(amato, am‡, amati, amai, amata, am‡, amate, amae, amare, am‡r).
+pp_rom(andato, nd‡, andati, ndai, andata, nd‡, andate, ndae, andare, nd‡r).
+pp_rom(andato, n‡, andati, nai, andata, n‡, andate, nae, andare, n‡r).
+pp_rom(arrivato, riv‡, arrivati, rivai, arrivata, riv‡, arrivate, rivae, arrivare, riv‡r).
+pp_rom(aspettato, spet‡, aspettati, spetai, aspettata, spet‡, aspettate, spetae, aspettare, spet‡r).
+pp_rom(avuto, avuo, avuti, avui, avuta, avua, avute, avue, avere, aver).
+pp_rom(avuto, vuo, avuti, vui, avuta, vua, avute, vue, avere, ver).
+pp_rom(avuto, buo, avuti, bui, avuta, bua, avute, bue, avere, ver).
+pp_rom(cercato, serc‡, cercati, serc‡i, cercata, serc‡, cercate, serc‡e, cercare, serc‡r).
+pp_rom(cercato, sernÏ, cercati, sernii, cercata, sernia, cercate, sernie, cercare, sernÏr).
+pp_rom(compreso, conpreso, compresi, conpresi, compresa, conpresa, comprese, conprese, comprendere, conprÈndar).
+pp_rom(conosciuto, conosuo, conosciuti, conosui, conosciuta, conosua, conosciute, conosue, conoscere, cognosar).
+pp_rom(conosciuto, conosesto, conosciuti, conosesti, conosciuta, conosesta, conosciute, conoseste, conoscere, cognosar).
+pp_rom(conosciuto, cognosuo, conosciuti, cognosui, conosciuta, cognosua, conosciute, cognosue, conoscere, cognosar).
+pp_rom(conosciuto, cognosesto, conosciuti, cognosesti, conosciuta, cognosesta, conosciute, cognoseste, conoscere, cognosar).
+pp_rom(controllato, contro£‡, controllati, contro£ai, controllata, contro£‡, controllate, contro£ae, controllare, contro£‡r).
+pp_rom(corso, corso, corsi, corsi, corsa, corsa, corse, corse, correre, cÛrar).
+pp_rom(corso, coresto, corsi, coresti, corsa, coresta, corse, coreste, correre, cÛrar).
+pp_rom(costruito, costruÏ, costruiti, costruii, costruita, costruia, costruite, costruie, costruire, costruÏr).
+pp_rom(costruito, fabric‡, costruiti, fabricai, costruita, fabric‡, costruite, fabricae, costruire, fabric‡r).
+pp_rom(dato, d‡, dati, dai, data, d‡, date, dae, dare, d‡r).
+pp_rom(deluso, deluxo, delusi, deluxi, delusa, deluxa, deluse, deluxe, deludere, del˘der).
+pp_rom(detto, dito, detti, diti, detta, dita, dette, dite, dire, dÏr).
+pp_rom(dipinto, pitur‡, dipinti, piturai, dipinta, pitur‡, dipinte, piturae, dipingere, pitur‡r).
+pp_rom(diventato, devent‡, diventati, deventai, diventata, devent‡, diventate, deventae, diventare, devent‡r).
+pp_rom(ereditato, redit‡, ereditati, reditai, ereditata, redit‡, ereditate, reditae, ereditare, redit‡r).
+pp_rom(fatto, fato, fatti, fati, fatta, fata, fatte, fate, fare, f‡r).
+pp_rom(finito, finio, finiti, finii, finita, finia, finite, finie, finire, finÏr).
+pp_rom(giunto, xonto, giunti, xonti, giunta, xonta, giunte, xonte, giungere, xonxer).
+pp_rom(incaricato, incaric‡, incaricati, incaricai, incaricata, incaric‡, incaricate, incaricae, incaricare, incaric‡r).
+pp_rom(incontrato, incontr‡, incontrati, incontrai, incontrata, incontr‡, incontrate, incontrae, incontrare, incontr‡r).
+pp_rom(interrato, inter‡, interrati, interai, interrata, inter‡, interrate, interae, interrare, inter‡r).
+pp_rom(inseguito, seguÏ, inseguiti, seguii, inseguita, seguia, inseguite, seguie, inseguire, seguÏr).
+pp_rom(insultato, insult‡, insultati, insultai, insultata, insult‡, insultate, insultae, insultare, insult‡r).
+pp_rom(lasciato, £as‡, lasciati, £asai, lasciata, £as‡, lasciate, £asae, lasciare, £as‡r).
+pp_rom(lavato, £av‡, lavati, £avai, lavata, £av‡, lavate, £avae, lavare, £av‡r).
+pp_rom(lavorato, £aor‡, lavorati, £aorai, lavorata, £aor‡, lavorate, £aorae, lavorare, £aor‡r).
+pp_rom(letto, leto, letti, leti, letta, leta, lette, lete, leggere, lËxar).
+pp_rom(mandato, mand‡, mandati, mandai, mandata, mand‡, mandate, mandae, mandare, mand‡r).
+pp_rom(mangiato, magn‡, mangiati, magnai, mangiata, magn‡, mangiate, magnae, mangiare, magn‡r).
+pp_rom(mosso, moso, mossi, mosi, mossa, mosa, mosse, mose, muovere, movar).
+pp_rom(nevicato, neveg‡, nevicato, neveg‡, nevicato, neveg‡, nevicato, neveg‡, nevicare, neveg‡r).
+pp_rom(nominato, nomin‡, nominati, nominai, nominata, nomin‡, nominate, nominae, nominare, nomin‡r).
+pp_rom(ordinato, ordin‡, ordinati, ordinai, ordinata, ordin‡, ordinate, ordinae, ordinare, ordin‡r).
+pp_rom(partito, partio, partita, partia, partiti, partii, partite, partie, partire, partÏr).
+pp_rom(perso, perso, persa, persa, persi, persi, perse, perse, perdere, pËrdar).
+pp_rom(perso, perdesto, persa, perdesta, persi, perdesti, perse, perdeste, perdere, pËrdar).
+pp_rom(perso, perduo, persa, perdua, persi, perdui, perse, perdue, perdere, pËrdar).
+pp_rom(portato, port‡, portati, portai, portata, port‡, portate, portae, portare, port‡r).
+pp_rom(preso, ciap‡, presi, ciapai, presa, ciap‡, prese, ciapae, prendere, ciap‡r).
+pp_rom(preso, tolto, presi, tolti, presa, tolta, prese, tolte, prendere, tÛr).
+pp_rom(professato, profes‡, professati, profesai, professata, profes‡, professate, profesae, professare, profes‡r).
+pp_rom(raggiunto, raxonto, raggiunti, raxonti, raggiunta, raxonta, raggiunte, raxonte, raggiungere, raxÛnxer).
+pp_rom(ricoperto, cuerto, ricoperti, cuerti, ricoperta, cuerta, ricoperte, cuerte, ricoprire, cuËrxar).
+pp_rom(riempito, inpien‡, riempiti, inpienai, riempita, inpien‡, riempite, inpienae, riempire, inpien‡r).
+pp_rom(rilevato, rilev‡, rilevati, rilevai, rilevata, rilev‡, rilevate, rilevae, rilevare, rilev‡r).
+pp_rom(rimasto, rest‡, rimasti, restai, rimasta, rest‡, rimaste, restae, rimanere, rest‡r). 
+pp_rom(riuscito, riusÏ, riusciti, riusii, riuscita, riusia, riuscite, riusie, riuscire, riusÏr).
+pp_rom(rotto, roto, rotti, roti, rotta, rota, rotte, rote, rompere, ronpar).
+pp_rom(rovinato, ruin‡, rovinati, ruinai, rovinata, ruin‡, rovinate, ruinae, rovinare, ruin‡r).
+pp_rom(rubato, rob‡, rubati, robai, rubata, rob‡, rubate, robae, rubare, rob‡r).
+pp_rom(trovato, cat‡, trovati, catai, trovata, cat‡, trovate, catae, trovare, cat‡r).
+pp_rom(sbrigato, sbrig‡, sbrigati, sbrigai, sbrigata, sbrig‡, sbrigate, sbrigae, sbrigarsi, sbrig‡rse).
+pp_rom(scappato, scap‡, scappati, scapai, scappata, scap‡, scappate, scapae, scappare, scap‡r).
+pp_rom(sentito, sentio, sentiti, sentii, sentita, sentia, sentite, sentie, sentire, sentÏr).
+pp_rom(sepolto, inter‡, sepolti, interai, sepolta, inter‡, sepolte, interae, sepellire, inter‡r).
+pp_rom(sfasciato, sfas‡, sfasciati, sfasai, sfasciata, sfas‡, sfasciate, sfasae, sfasciare, sfas‡r).
+pp_rom(sfruttato, sfrut‡, sfruttata, sfrut‡, sfruttati, sfrutai, sfruttate, sfrutae, sfruttare, sfrut‡r).
+pp_rom(sposato, marid‡, sposati, maridai, sposata, marid‡, sposate, maridae, sposare, marid‡r).
+pp_rom(sposato, spox‡, sposati, spoxai, sposata, spox‡, sposate, spoxae, sposare, spox‡r).
+pp_rom(stato, st‡, stati, stai, stata, st‡, state, stae, essere, Ësar). 
+pp_rom(tornato, torn‡, tornati, tornai, tornata, torn‡, tornate, tornae, tornare, torn‡r).
+pp_rom(venuto, vegn˘, venuti, vegnui, venuta, vegnua, venute, vegnue, venire, vegner).
+pp_rom(venuto, vegnesto, venuti, vegnesti, venuta, vegnesta, venute, vegneste, venire, vegner).
+pp_rom(vinto, vinto, vinti, vinti, vinta, vinta, vinte, vinte, vincere, vÏnsar).
+pp_rom(visto, visto, visti, visti, vista, vista, viste, viste, vedere, vÈdar).
+pr(deittico, nil, ciò, cue£o, 3, mas, sing, nil).
+pr(deittico, nil, ciò, cuel, 3, mas, sing, nil).
+pr(deittico, nil, quei, cuei, 3, mas, plur, nil). 
+pr(deittico, nil, quella, cue£a, 3, fem, sing, nil).
+pr(deittico, nil, quelle, cue£e, 3, mas, plur, nil).
+pr(deittico, nil, quelli, cue£i, 3, mas, plur, nil).
+pr(deittico, nil, quelli, cuei, 3, mas, plur, nil).
+pr(deittico, nil, quello, cue£o, 3, mas, sing, nil).
+pr(deittico, nil, quello, cuel, 3, mas, sing, nil).
+pr(deittico, nil, questa, cuesta, 3, fem, sing, nil).
+pr(deittico, nil, questa, sta, 3, fem, sing, nil).
+pr(deittico, nil, queste, cueste, 3, mas, plur, nil).
+pr(deittico, nil, queste, ste, 3, mas, plur, nil).
+pr(deittico, nil, questi, cuesti, 3, mas, plur, nil).
+pr(deittico, nil, questi, sti, 3, mas, plur, nil).
+pr(deittico, nil, questo, cuesto, 3, mas, sing, nil).
+pr(deittico, nil, questo, sto, 3, mas, sing, nil).
+pr(deittico, -, maggiore, major, 3, nil, sing, [nil]).
+pr(deittico, -, maggiori, majori, 3, nil, plur, [nil]).
+pr(deittico, +, altra, altra, 3, fem, sing, nil).
+pr(deittico, +, altre, altre, 3, fem, plur, nil).
+pr(deittico, +, altri, altri, 3, mas, plur, nil).
+pr(deittico, +, altro, altro, 3, mas, sing, nil).
+pr(personale, nil, egli, £u, 3, mas, sing, nil).
+pr(personale, nil, egli, el, 3, mas, sing, nil).
+pr(personale, nil, ella, e£a, 3, fem, sing, nil).
+pr(personale, nil, essa, e£a, 3, fem, sing, nil).
+pr(personale, nil, esse, £ore, 3, fem, plur, nil).
+pr(personale, nil, essi, £uri, 3, mas, plur, nil).
+pr(personale, nil, essi, £ori, 3, mas, plur, nil).
+pr(personale, nil, esso, £u, 3, mas, sing, nil).
+pr(personale, nil, esso, el, 3, mas, sing, nil).
+pr(personale, nil, esso, l\', 3, mas, sing, nil).
+pr(personale, nil, io, mi, 1, nil, sing, nil).
+pr(personale, nil, lei, e£a, 3, fem, sing, nil).
+pr(personale, nil, loro, £uri, 3, nil, plur, nil).
+pr(personale, nil, loro, £ori, 3, nil, plur, nil).
+pr(personale, nil, lui, £u, 3, mas, sing, nil).
+pr(personale, nil, lui, l\', 3, mas, sing, nil).
+pr(personale, nil, noi, noaltri, 1, nil, plur, nil). 
+pr(personale, nil, noi, nu, 1, nil, plur, nil). 
+pr(personale, nil, tu, ti, 2, nil, sing, nil).
+pr(personale, nil, tu, to, 2, nil, sing, nil).
+pr(personale, nil, voi, voaltri, 2, nil, plur, nil).
+pr(possessivo, nil, nostra, nostra, 1, fem, sing, nil).
+pr(possessivo, nil, nostro, nostro, 1, mas, sing, nil).
+pr(possessivo, nil, sua, sua, 3, fem, sing, nil).
+pr(possessivo, nil, sue, sue, 3, fem, plur, nil).
+pr(possessivo, nil, suo, suo, 3, mas, sing, nil).
+pr(possessivo, nil, suoi, sui, 3, mas, plur, nil).
+pr(possessivo, nil, suoi, soi, 3, mas, plur, nil).
+pr(pr_int, -, 'perché', parkÈ, 3, nil, sing, [nil]).
+pr(pr_int, -, che_cosa, cosa, 3, nil, sing, [oggetto]).
+pr(pr_int, -, che_cosa, sa, 3, nil, sing, [oggetto]).
+pr(pr_int, -, che_cosa, \'sa, 3, nil, sing, [oggetto]).
+pr(pr_int, -, chi, ki, 3, nil, sing, [animato,umano]).
+pr(pr_int, -, come, come, 3, nil, sing, [modo,maniera]).
+pr(pr_int, -, cosa, cosa, 3, nil, sing, [oggetto]).
+pr(pr_int, -, cosa, sa, 3, nil, sing, [oggetto]).
+pr(pr_int, -, cosa, \'sa, 3, nil, sing, [oggetto]).
+pr(pr_int, -, dove, indove, 3, nil, sing, [luogo]).
+pr(pr_int, -, dove, ndove, 3, nil, sing, [luogo]).
+pr(pr_int, -, quando, cuando, 3, nil, sing, [tempo]).
+pr(pr_int, +, quale, cua£o, 3, nil, sing, [nil]).
+pr(pr_int, +, quali, cua£i, 3, nil, plur, [nil]).
+pr(pr_quantif, -, chiunque, tuti, 3, nil, sing, [nil]).
+pr(pr_quantif, -, ciascuna, ognuna, 3, fem, sing, [nil]).
+pr(pr_quantif, -, ciascuno, ognun, 3, mas, sing, [nil]).
+pr(pr_quantif, -, nessun, nisun, 3, mas, sing, [nil]).
+pr(pr_quantif, -, nessuna, nisuna, 3, fem, sing, [nil]).
+pr(pr_quantif, -, nessuno, nisun, 3, mas, sing, [nil]).
+pr(pr_quantif, -, niente, gnente, 3, mas, sing, [nil]).
+pr(pr_quantif, -, nulla, gnente, 3, mas, sing, [nil]).
+pr(pr_quantif, -, ognuna, ognuna, 3, fem, sing, [nil]).
+pr(pr_quantif, -, ognuno, ognun, 3, mas, sing, [nil]).
+pr(pr_quantif, -, tutta, tuta, 3, fem, sing, [nil]).
+pr(pr_quantif, -, tutte, tute, 3, fem, plur, [nil]).
+pr(pr_quantif, -, tutti, tuti, 3, mas, plur, [nil]).
+pr(pr_quantif, -, tutto, tuto, 3, mas, sing, [nil]).
+pr(pr_quantif, +, molta, tanta, 3, fem, sing, [nil]).
+pr(pr_quantif, +, molte, tante, 3, fem, plur, [nil]).
+pr(pr_quantif, +, molti, tanti, 3, mas, plur, [nil]).
+pr(pr_quantif, +, molto, tanto, 3, mas, sing, [nil]).
+pr(pr_quantif, +, qualcuna, cualkeduna, 3, fem, sing, [nil]).
+pr(pr_quantif, +, qualcuno, cualkedun, 3, mas, sing, [nil]).
+pr(rifl_corto, nil, se_stesso, £u_steso, 3, mas, sing, [nil]).
+prepart(a, agli, ai, gli).
+prepart(a, ai, ai, i).
+prepart(a, al, al, il).
+prepart(a, all, al, la).
+prepart(a, alla, a£a, la).
+prepart(a, alle, a£e, le).
+prepart(a, allo, al, lo).
+prepart(con, cogli, coi, gli).
+prepart(con, coi, coi, i).
+prepart(con, col, co, il).
+prepart(con, colla, co£a, la).
+prepart(con, colle, co£e, le).
+prepart(con, collo, co, lo).
+prepart(da, dagli, dai, gli).
+prepart(da, dai, dai, i).
+prepart(da, dal, dal, il).
+prepart(da, dall, dal, lo).
+prepart(da, dalla, da£a, la).
+prepart(da, dalle, da£e, le).
+prepart(da, dallo, dal, lo).
+prepart(di, degli, dei, gli).
+prepart(di, dei, dei, i).
+prepart(di, del, del, il).
+prepart(di, della, de£a, la).
+prepart(di, delle, de£e).
+prepart(di, dello, del, lo).
+prepart(in, negli, nei, gli).
+prepart(in, nei, nei, i).
+prepart(in, nel, nel, il).
+prepart(in, nella, ne£a, la).
+prepart(in, nelle, ne£e, le).
+prepart(in, nello, nel, lo).
+prepart(per, per_i, pai, i).
+prepart(su, sugli, soi, gli).
+prepart(su, sugli, sui, gli).
+prepart(su, sui, soi, i).
+prepart(su, sui, sui, i).
+prepart(su, sul, sol, il).
+prepart(su, sul, sul, il).
+prepart(su, sulla, su£a, la).
+prepart(su, sulle, su£e, le).
+prepart(su, sullo, sol, lo).
+prepart(su, sullo, sul, lo).
+prepos(a, a).
+prepos(ad, a).
+prepos(come, come).
+prepos(con, co).
+prepos(contro, contro).
+prepos(da, da).
+prepos(di, de).
+prepos(ex, ex).
+prepos(dietro, drio).
+prepos(dietro, indrio).
+prepos(entro, entro).
+prepos(fino, fin).
+prepos(fuori, fora).
+prepos(in, in).
+prepos(oltre, oltre).
+prepos(per, par).
+prepos(per, pa).
+prepos(per, pa\').
+prepos(senza, sensa).
+prepos(sopra, sora).
+prepos(sotto, soto).
+prepos(su, su).
+prepos(tipo, tipo).
+prepos(verso, verso).
+quant_2(anche, anca).
+quant_2(proprio, propio).
+quant_2(solo, so£o).
+quant_int(quale, cua£o, quale, +, nil, sing).
+quant_int(quali, cua£i, quale, +, nil, plur).
+quant('più', pi, 'più', >, nil, nil).
+quant(chiunque, tuti, chiunque, -, nil, sing).
+quant(degli, dei, exist, +, mas, plur).
+quant(dei, dei, exist, +, mas, plur).
+quant(del, del, exist, +, mas, sing).
+quant(della, de£a, exist, +, fem, sing).
+quant(delle, de£e, exist, +, fem, plur).
+quant(diverse, diverse, diverso, +, fem, plur).
+quant(diversi, diversi, diverso, +, mas, plur).
+quant(maggior, magior, maggior, >, nil, sing).
+quant(massima, masima, massima, >>, nil, sing).
+quant(massimo, masimo, massimo, >>, nil, sing).
+quant(meno, manco, meno, >, nil, nil).
+quant(minima, minima, minima, <<, nil, sing).
+quant(minimo, minimo, minimo, <<, nil, sing).
+quant(minor, minor, minor, <, nil, sing).
+quant(molta, tanta, molto, +, fem, sing).
+quant(molte, tante, molto, +, fem, plur).
+quant(molti, tanti, molto, +, mas, plur).
+quant(molto, tanto, molto, +, mas, sing).
+quant(nessuna, nisuna, nessuno, -, fem, sing).
+quant(nessuno, nisun, nessun, -, mas, sing).
+quant(nessuno, nisun, nessuno, -, mas, sing).
+quant(niente, gnente, niente, -, nil, sing).
+quant(nulla, gnente, nulla, -, nil, sing).
+quant(ogni, ogni, ogni, -, nil, sing).
+quant(ognuna, ognuna, ognuno, -, fem, sing).
+quant(ognuno, ognun, ognuno, -, mas, sing).
+quant(poca, poca, poco, +, fem, sing).
+quant(poche, poke, poco, +, fem, plur).
+quant(pochi, poki, poco, +, mas, plur).
+quant(poco, poco, poco, +, mas, sing).
+quant(qualche, cualke, qualche, +, nil, sing).
+quant(qualcosa, cualkosa, qualcosa, +, nil, sing).
+quant(qualcosa, calkosa, qualcosa, +, nil, sing).
+quant(troppa, masa, troppo, +, fem, sing).
+quant(troppe, masa, troppo, +, fem, plur).
+quant(troppo, masa, troppo, +, mas, plur).
+quant(troppi, masa, troppo, +, mas, sing).
+quant(tutta, tuta, tutto, -, fem, sing).
+quant(tutte, tute, tutto, -, fem, plur).
+quant(tutti, tuti, tutto, -, mas, plur).
+quant(tutto, tuto, tutto, -, mas, sing).
+relp(chi, ki, nil).
+relp(che, ke, nil).
+relp(che, ca, nil).
+relp(cosa, cosa, sing).
+relp(dove, dove, _1).
+relp(quale, cual, sing).
+relp(quali, cua£i, plur).
+sub_w_dir(!).
+sub_w_dir('"').
+sub_w_inf(dopo, dopo).
+sub_w_inf(dopo, dapÚ).
+sub_w_inf(per, par).
+sub_w_inf(senza, sensa).
+sub_w_sn('cioè', 'cioè', esplicativa).
+sub_w_sn(come, come, comparativa).
+sub_w_sn(come, cof‡, comparativa).
+sub_w(così, cusi ).
+sub_w(così, cusita ).
+sub_w(intanto, intanto).
+sub_w(ma, ma).
+sub_w(mentre, mentre).
+sub_w(perché, parkÈ).
+sub_w(poi, po).
+sub_w(poiché, sicome).
+sub_w(quando, cuando).
+sub_w(se, se).
+sub_w(tanto, tanto).
+sub_w(tuttavia, tutavia).
+v('acchiapperò', ciaparÚ, acchiappare, ciap‡r, ind, fut, 1, sing).
+v('acciufferò', brincarÚ, acciuffare, brinc‡r, ind, fut, 1, sing).
+v('aprì', ga_verto, aprire, vËrxar, ind, pass_rem, 3, sing).
+v('avvisò', ga_avix‡, avvisare, avix‡r, ind, pass_rem, 3, sing).
+v('balzò', ga_bals‡, balzare, bals‡r, ind, pass_rem, 3, sing).
+v('cominciò', ga_inisi‡, cominciare, inisi‡r, ind, pass_rem, 3, sing).
+v('cominciò', ga_scominsi‡, cominciare, scominsi‡r, ind, pass_rem, 3, sing).
+v('confermò', ga_conferm‡, confermare, conferm‡r, ind, pass_rem, 3, sing).
+v('continuò', ga_continu‡, continuare, continu‡r, ind, pass_rem, 3, sing).
+v('correrà', corar‡, correre, cÛrar, ind, fut, 3, sing).
+v('costruì', ga_fabric‡, costruire, facric‡r, ind, pass_rem, 3, sing).
+v('costruì', ga_costruÏ, costruire, costruÏr, ind, pass_rem, 3, sing).
+v('diventò', xe_devent‡, diventare, devent‡r, ind, pass_rem, 3, sing).
+v('è', xe, essere, Ësar, ind, pres, 3, sing).
+v('entrò', xe_entr‡, entrare, entr‡r, ind, pass_rem, 3, sing).
+v('ereditò', ga_redit‡, ereditare, redit‡r, ind, pass_rem, 3, sing).
+v('esclamò', ga_esclam‡, esclamare, esclam‡r, ind, pass_rem, 3, sing).
+v('farò', farÚ, fare, f‡r, ind, fut, 1, sing).
+v('fuggì', xe_fugÏ, fuggire, fugÏr, ind, pass_rem, 3, sing).
+v('gridò', ga_sig‡, gridare, sig‡r, ind, pass_rem, 3, sing).
+v('incontrò', ga_incontr‡, incontrare, incontr‡r, ind, pass_rem, 3, sing).
+v('insultò', ga_insult‡, insultare, insult‡r, ind, pass_rem, 3, sing).
+v('lascerà', £asar‡, lasciare, £as‡r, ind, fut, 3, sing).
+v('lasciò', ga_£as‡, lasciare, £as‡r, ind, pass_rem, 3, sing).
+v('lavorò', ga_£aor‡, lavorare, £aor‡r, ind, pass_rem, 3, sing).
+v('morì', xe_morto, morire, morÏr, ind, pass_rem, 3, sing).
+v('notò', ga_not‡, notare, not‡r, ind, pass_rem, 3, sing).
+v('passerò', pasarÚ, passare, pas‡r, ind, fut, 1, sing).
+v('pensò', ga_pens‡, pensare, pens‡r, ind, pass_rem, 3, sing).
+v('potè', ga_pod˘, potere, podÈr, ind, pass_rem, 3, sing).
+v('potè', ga_podesto, potere, podÈr, ind, pass_rem, 3, sing).
+v('provocò', ga_provoc‡, provocare, provoc‡r, ind, pass_rem, 3, sing).
+v('può', pol, potere, podÈr, ind, pres, 3, sing).
+v('può', po£e, potere, podÈr, ind, pres, 3, sing).
+v('rassegnò', ga_rasegn‡, rassegnarsi, rasegn‡rse, ind, pass_rem, 3, sing).
+v('riempì', ga_inpienÏ, riempire, inpien‡r, ind, pass_rem, 3, sing).
+v('rimproverò', ga_ras‡, rimproverare, ras‡r, ind, pass_rem, 3, sing).
+v('rimproverò', ga_rinprover‡, rimproverare, rinprover‡r, ind, pass_rem, 3, sing).
+v('ringhiò', ga_rux‡, ringhiare, rux‡r, ind, pass_rem, 3, sing).
+v('riuscirò', riusirÚ, riuscire, riusÏr, ind, fut, 1, sing).
+v('rubò', ga_rob‡, rubare, rob‡r, ind, pass_rem, 3, sing).
+v('salirò', salixarÚ, salire, salix‡r, ind, fut, 1, sing).
+v('sarò', sarÚ, essere, Ësar, ind, fut, 1, sing).
+v('sbarrò', ga_sbar‡, sbarrare, sbar‡r, ind, pass_rem, 3, sing).
+v('sbucò', ga_sboc‡, sbucare, sboc‡r, ind, pass_rem, 3, sing).
+v('sbufferò', sbufarÚ, sbuffare, sbuf‡r, ind, fut, 1, sing).
+v('scappò', xe_scap‡, scappare, scap‡r, ind, pass_rem, 3, sing).
+v('scivolerò', sbrisarÚ, scivolare, sbris‡r, ind, fut, 1, sing).
+v('sfasciò', ga_sfas‡, sfasciare, sfas‡r, ind, pass_rem, 3, sing).
+v('smontò', ga_smont‡, smontare, smont‡r, ind, pass_rem, 3, sing).
+v('soffierò', sufiarÚ, soffiare, sufi‡r, ind, fut, 1, sing).
+v('soffiò', ga_sufi‡, soffiare, sufi‡r, ind, pass_rem, 3, sing).
+v('sparò', ga_spar‡, sparare, spar‡r, ind, pass_rem, 3, sing).
+v('sposerà', spoxar‡, sposare, spox‡r, ind, fut, 3, sing).
+v('sposerà', maridar‡, sposare, marid‡r, ind, fut, 3, sing).
+v('starò', starÚ, stare, st‡r, ind, fut, 1, sing).
+v('telefonò', ga_te£efon‡, telefonare, te£efon‡r, ind, pass_rem, 3, sing).
+v('tirò', ga_tir‡, tirare, tir‡r, ind, pass_rem, 3, sing).
+v('tornò', xe_torn‡, tornare, torn‡r, ind, pass_rem, 3, sing).
+v('trasferì', ga_trasferÏ, trasferire, trasferÏr, ind, pass_rem, 3, sing).
+v(abbiamo, gavemo, avere, aver, ind, pres, 1, plur).
+v(abbiamo, gavemo, avere, ver, ind, pres, 1, plur).
+v(abbiamo, ghemo, avere, aver, ind, pres, 1, plur).
+v(abbiamo, ghemo, avere, ver, ind, pres, 1, plur).
+v(abitare, abit‡r, abitare, abit‡r, inf, nil, nil, nil).
+v(abitava, abitava, abitare, abit‡r, ind, imp, 3, sing).
+v(accendiamo, inpisemo, accendere, inpis‡r, imperat, pres, 1, plur).
+v(accenna, acena, accennare, acen‡r, ind, pres, 3, sing).
+???v(accenno, aceno, accennare, acen‡r, ind, pres, 1, sing).
+v(accettare, aset‡r, accettare, aset‡r, inf, nil, nil, nil).
+v(acciuffare, cuc‡r, acciuffare, cuc‡r, inf, nil, nil, nil).
+v(accompagnava, aconpagnava, accompagnare, aconpagn‡r, ind, imp, 3, sing).
+v(accorse, ga_acorto, accorgersi, acorxarse, ind, pass_rem, 3, sing).
+v(accusare, acux‡r, accusare, acux‡r, inf, nil, nil, nil).
+v(accusava, acuxava, accusare, acux‡r, ind, imp, 3, sing).
+v(adoperare, dopar‡r, adoperare, dopar‡r, inf, nil, nil, nil).
+v(adottare, adot‡r, adottare, adot‡r, inf, nil, nil, nil).
+v(agitava, agitava, agitarsi, agitarse, ind, imp, 3, sing).
+v(ama, ama, amare, am‡r, ind, pres, 3, sing).
+v(amava, amava, amare, am‡r, ind, imp, 3, sing).
+v(ami, ami, amare, am‡r, cong, pres, nil, sing).
+v(ammira, amira, ammirare, amir‡r, ind, pres, 3, sing).
+v(ammiri, amiri, ammirare, amir‡r, cong, pres, nil, sing).
+v(andare, nd‡r, andare, nd‡r, inf, nil, nil, nil).
+v(andare, n‡r, andare, n‡r, inf, nil, nil, nil).
+v(andarono, xe_ndai, andare, nd‡r, ind, pass_rem, 3, plur).
+v(andarono, xe_nai, andare, n‡r, ind, pass_rem, 3, plur).
+v(andiamo, ndemo, andare, nd‡r, ind, pres, 1, plur).
+v(andiamo, nemo, andare, n‡r, ind, pres, 1, plur).
+v(andiamo, ndemo, andare, nd‡r, ind, pres, 1, plur).
+v(andiamo, nemo, andare, n‡r, ind, pres, 1, plur).
+v(appare, ap‡re, apparire, aparÏr, ind, pres, 3, sing).
+v(apparire, aparÏr, apparire, aparir, inf, nil, nil, nil).
+v(apparve, xe_aparso, apparire, aparÏr, ind, pass_rem, 3, sing).
+v(apparve, xe_aparsa, apparire, aparÏr, ind, pass_rem, 3, sing).
+v(apparvero, xe_ap‡rsi, apparire, aparÏr, ind, pass_rem, 3, plur).
+v(apparvero, xe_ap‡rse, apparire, aparÏr, ind, pass_rem, 3, plur).
+v(apre, verxe, aprire, vËrxar, ind, pres, 3, sing).
+v(apri, verxi, aprire, vËrxar, imperat, pres, 2, sing).
+v(aprire, vËrxar, aprire, vËrxar, inf, nil, nil, nil).
+v(aprono, verxe, aprire, vËrxar, ind, pres, 3, plur).
+v(arriva, riva, arrivare, riv‡r, ind, pres, 3, sing).
+v(arrivando, rivando, arrivare, riv‡r, ger, pres, nil, nil).
+v(arrivano, riva, arrivare, riv‡r, ind, pres, 3, plur).
+v(arrivava, rivava, arrivare, riv‡r, ind, imp, 3, sing).
+v(aspetta, speta, aspettare, spet‡r, ind, pres, 3, sing).
+v(aspettava, spetava, aspettare, spet‡r, ind, imp, 3, sing).
+v(attacca, taca, attaccare, tac‡r, ind, pres, 3, sing).
+v(attaccare, tac‡r, attaccare, tac‡r, inf, nil, nil, nil).
+v(aveva, gaveva, avere, aver, ind, imp, 3, sing).
+v(aveva, gaveva, avere, ver, ind, imp, 3, sing).
+v(avevano, gaveva, avere, aver, ind, imp, 3, plur).
+v(avevano, gaveva, avere, ver, ind, imp, 3, plur).
+v(avvisare, avix‡r, avvisare, avix‡r, inf, nil, nil, nil).
+v(balla, ba£a, ballare, ba£‡r, ind, pres, 3, sing).
+v(ballando, ba£ando, ballare, ba£‡r, ger, pres, nil, nil).
+v(ballano, ba£a, ballare, ba£‡r, ind, pres, 3, plur).
+v(ballare, ba£‡r, ballare, ba£‡r, inf, nil, nil, nil).
+v(basta, basta, bastare, bast‡r, imperat, pres, 2, sing).
+v(batte, bate, battere, b‡tar, ind, pres, 3, sing).
+v(battono, bate, battere, b‡tar, ind, pres, 3, plur).
+v(beve, beve, bere, bÈvar, ind, pres, 3, sing).
+v(cadere, casc‡r, cadere, casc‡r, inf, nil, nil, nil).
+v(cantando, cantando, cantare, cant‡r, ger, pres, nil, nil).
+v(cantare, cant‡r, cantare, cant‡r, inf, nil, nil, nil).
+v(cantava, cantava, cantare, cant‡r, ind, imp, 3, sing).
+v(cantavano, cantava, cantare, cant‡r, ind, imp, 3, plur).
+v(canticchiando, cantusando, canticchiare, cantus‡r, ger, pres, nil, nil).
+v(cavalcando, cavalcando, cavalcare, cavalc‡r, ger, pres, nil, nil).
+v(cercando, sercando, cercare, serc‡r, ger, pres, nil, nil).
+v(cercando, sernendo, cercare, sernÏr, ger, pres, nil, nil).
+v(cercare, serc‡r, cercare, serc‡r, inf, nil, nil, nil).
+v(cercare, sernÏr, cercare, sernÏr, inf, nil, nil, nil).
+v(chiamare, ciam‡r, chiamare, ciam‡r, inf, nil, nil, nil).
+v(chiamò, ga_ciam‡, chiamare, ciam‡r, ind, pass_rem, 3, sing).
+v(chiudere, sar‡r, chiudere, sar‡r, inf, nil, nil, nil).
+v(chiuse, ga_sar‡, chiudere, sar‡r, ind, pass_rem, 3, sing).
+v(chiusero, ga_sar‡, chiudere, sar‡r, ind, pass_rem, 3, plur).
+v(comincia, scominsia, cominciare, scominsi‡r, ind, pres, 3, sing).
+v(cominciarono, ga_scominsi‡, cominciare, scominsi‡r, ind, pass_rem, 3, plur).
+v(conosce, cognose, conoscere, cognÛsar, ind, pres, 3, sing).
+v(conosce, conose, conoscere, conÛsar, ind, pres, 3, sing).
+v(conoscere, cognÛsar, conoscere, cognÛsar, inf, nil, nil, nil).
+v(conoscere, conÛsar, conoscere, conÛsar, inf, nil, nil, nil).
+v(considera, considera, considerare, consider‡r, ind, pres, 3, sing).
+v(considerano, considera, considerare, consider‡r, ind, pres, 3, plur).
+v(considerare, consider‡r, considerare, consider‡r, inf, nil, nil, nil).
+v(continuarono, ga_continu‡, continuare, continu‡r, ind, pass_rem, 3, plur).
+v(continuate, continuË, continuare, continu‡r, imperat, pres, 2, plur).
+v(continuava, continuava, continuare, continu‡r, ind, imp, 3, sing).
+v(controllare, contro£‡r, controllare, contro£‡r, inf, nil, nil, nil).
+v(coprendo, cuerxendo, coprire, cuËrxar, ger, pres, nil, nil).
+v(corre, core, correre, cÛrar, ind, pres, 3, sing).
+v(correndo, corendo, correre, cÛrar, ger, pres, nil, nil).
+v(correre, cÛrar, correre, cÛrar, inf, nil, nil, nil).
+v(correva, coreva, correre, cÛrar, ind, imp, 3, sing).
+v(correvano, coreva, correre, cÛrar, ind, imp, 3, plur).
+v(corrispondere, corispÛnder, corrispondere, corispÛnder, inf, nil, nil, nil).
+v(corrispondeva, corispondea, corrispondere, corispÛnder, ind, imp, 3, sing).
+v(corrispondeva, corispondeva, corrispondere, corispÛnder, ind, imp, 3, sing).
+v(corse, ga_corso, correre, cÛrar, ind, pass_rem, 3, sing).
+v(corse, xe_corso, correre, cÛrar, ind, pass_rem, 3, sing).
+v(corsero, ga_corso, correre, cÛrar, ind, pass_rem, 3, plur).
+v(corsero, xe_corsi, correre, cÛrar, ind, pass_rem, 3, plur).
+v(costruendo, fabricando, costruire, fabric‡r, ger, pres, nil, nil).
+v(costruendo, costruendo, costruire, costruÏr, ger, pres, nil, nil).
+v(costruire, fabric‡r, costruire, fabric‡r, inf, nil, nil, nil).
+v(costruire, costruÏr, costruire, costruÏr, inf, nil, nil, nil).
+v(costruirono, ga_fabric‡, costruire, fabric‡r, ind, pass_rem, 3, plur).
+v(costruirono, ga_costruÏ, costruire, costruÏr, ind, pass_rem, 3, plur).
+v(costruiscano, fabrike, costruire, fabric‡r, cong, pres, 3, plur).
+v(costruiscano, costruisa, costruire, costruÏr, cong, pres, 3, plur).
+v(costruiva, fabricava, costruire, fabric‡r, ind, imp, 3, sing).
+v(costruiva, costruiva, costruire, costruÏr, ind, imp, 3, sing).
+v(costruivano, fabricava, costruire, fabric‡r, ind, imp, 3, plur).
+v(costruivano, costruiva, costruire, costruÏr, ind, imp, 3, plur).
+v(costruiscono, fabrica, costruire, fabric‡r, ind, pres, 3, plur).
+v(costruiscono, costruise, costruire, costruÏr, ind, pres, 3, plur).
+v(credere, crÈdar, credere, crÈdar, inf, nil, nil, nil).
+v(credo, credo, credere, crÈdar, ind, pres, 1, sing).
+v(critica, critica, criticare, critic‡r, ind, pres, 3, sing).
+v(criticava, criticava, criticare, critic‡r, ind, imp, 3, sing).
+v(curare, cur‡r, curare, cur‡r, inf, nil, nil, nil).
+v(dai, da, dare, d‡r, imperat, pres, 2, sing).
+v(dare, d‡r, dare, d‡r, inf, nil, nil, nil).
+v(decide, deside, decidere, desÏdar, ind, pres, 3, sing).
+v(decidere, desÏdar, decidere, desÏdar, inf, nil, nil, nil).
+v(decidono, deside, decidere, desÏdar, ind, pres, 3, plur).
+v(decisero, ga_desiso, decidere, desÏdar, ind, pass_rem, 3, sing).
+v(decisero, ga_desidesto, decidere, desÏdar, ind, pass_rem, 3, sing).
+v(decisero, ga_desiso, decidere, desÏdar, ind, pass_rem, 3, plur).
+v(decisero, ga_desidesto, decidere, desÏdar, ind, pass_rem, 3, plur).
+v(desidera, dexidera, desiderare, dexider‡r, ind, pres, 3, sing).
+v(deve, deve, dovere, dovÈr, ind, pres, 3, sing).
+v(dÏ, di, dire, dÏr, imperat, pres, 2, sing).
+v(dice, dixe, dire, dÏr, ind, pres, 3, sing).
+v(diceva, dixeva, dire, dÏr, ind, imp, 3, sing).
+v(diceva, dixea, dire, dÏr, ind, imp, 3, sing).
+v(dici, dixi, dire, dÏr, ind, pres, 2, sing).
+v(dico, digo, dire, dÏr, ind, pres, 1, sing).
+v(dipinge, pitura, dipingere, pitur‡r, ind, pres, 3, sing).
+v(dire, dÏr, dire, dÏr, inf, nil, nil, nil).
+v(disse, ga_dito, dire, dir, ind, pass_rem, 3, sing).
+v(distruggere, destr˘xer, distruggere, destr˘xer, inf, nil, nil, nil).
+v(divertiamo, divertimo, divertirsi, divertirse, ind, pres, 1, plur).
+v(divertire, divertÏr, divertirsi, divertirse, inf, nil, nil, nil).
+v(dovrebbe, dovaria, dovere, dovÈr, cond, pres, 3, sing).
+v(dovrebbero, dovaria, dovere, dovÈr, cond, pres, 3, plur).
+v(dovrei, dovaria, dovere, dovÈr, cond, pres, 1, sing).
+v(dura, dura, durare, dur‡r, ind, pres, 3, sing).
+v(durano, dura, durare, dur‡r, ind, pres, 3, plur).
+v(durare, dur‡r, durare, dur‡r, inf, nil, nil, nil).
+v(durava, dur‡va, durare, dur‡r, ind, imp, 3, sing).
+v(dureranno, durar‡, durare, dur‡r, ind, fut, 3, plur).
+v(entrando, entrando, entrare, entr‡r, ger, nil, nil, nil).
+v(entrare, entr‡r, entrare, entr‡r, inf, nil, nil, nil).
+v(entrarono, ga_entr‡, entrare, entr‡r, ind, pass_rem, 3, plur).
+v(era, xera, essere, Ësar, ind, imp, 3, sing).
+v(erano, xera, essere, Ësar, ind, imp, 3, plur).
+v(eravamo, xerimo, essere, Ësar, ind, imp, 1, sing).
+v(ereditare, redit‡r, ereditare, redit‡r, inf, nil, nil, nil).
+v(eri, xeri, essere, Ësar, ind, imp, 2, sing).
+v(ero, xero, essere, Ësar, ind, imp, 1, sing).
+v(esclamarono, ga_esclam‡, esclamare, esclam‡r, ind, pass_rem, 3, plur).
+v(esiste, existe, esistere, exÏstar, ind, pres, 3, sing).
+v(essere, Ësar, essere, Ësar, inf, nil, nil, nil).
+v(fa, fa, fare, f‡r, ind, pres, 3, sing).
+v(facciamo, femo, fare, f‡r, ind, pres, 1, plur).
+v(faccio, faso, fare, f‡r, ind, pres, 1, sing).
+v(facendo, faxendo, fare, f‡r, ger, pres, nil, nil).
+v(faceva, faxeva, fare, f‡r, ind, imp, 3, sing).
+v(faceva, faxea, fare, f‡r, ind, imp, 3, sing).
+v(far, f‡r, fare, f‡r, inf, nil, nil, nil).
+v(fare, f‡r, fare, f‡r, inf, nil, nil, nil).
+v(faticare, fadig‡r, faticare, fadig‡r, inf, nil, nil, nil).
+v(fece, ga_fato, fare, f‡r, ind, pass_rem, 3, sing).
+v(fecero, ga_fato, fare, f‡r, ind, pass_rem, 3, plur).
+v(fermarsi, fermarse, fermarsi, fermarse, inf, nil, nil, nil).
+v(fu, xe_stato, essere, Ësar, ind, pass_rem, 3, sing).
+v(funzionava, funsionava, funzionare, funsion‡r, ind, imp, 3, sing).
+v(furono, xe_stati, essere, Ësar, ind, pass_rem, 3, plur).
+v(furono, xe_state, essere, Ësar, ind, pass_rem, 3, plur).
+v(gettare, but‡r, gettare, but‡r, inf, nil, nil, nil).
+v(giocare, xug‡r, giocare, xug‡r, inf, nil, nil, nil).
+v(gridano, siga, gridare, sig‡r, ind, pres, 3, plur).
+v(gridare, sig‡r, gridare, sig‡r, inf, nil, nil, nil).
+v(gridarono, ga_sig‡, gridare, sig‡r, ind, pass_rem, 3, plur).
+v(guarda, varda, guardare, vard‡r, ind, pres, 3, sing).
+v(guarda, varda, guardare, vard‡r, ind, pres, 3, plur).
+v(guarda, varda, guardare, vard‡r, ind, pres, 2, sing).
+v(guarda, varda, guardare, vard‡r, imperat, pres, 2, sing).
+v(guardare, vard‡r, guardare, vard‡r, inf, nil, nil, nil).
+v(guardate, vardË, guardare, vard‡r, imperat, pres, 2, plur).
+v(guardarono, ga_vard‡, guardarsi, vardarse, ind, pass_rem, 3, plur).
+v(ha, ga, avere, aver, ind, pres, 3, sing).
+v(ha, ga, avere, ver, ind, pres, 3, sing).
+v(hai, ga, avere, aver, ind, pres, 2, sing).
+v(hai, ga, avere, ver, ind, pres, 2, sing).
+v(hanno, ga, avere, aver, ind, pres, 3, plur).
+v(hanno, ga, avere, ver, ind, pres, 3, plur).
+v(importa, inporta, importare, inport‡r, ind, pres, 3, sing).
+v(impressionava, inpresionava, impressionare, inpresion‡r, ind, imp, 3, sing).
+v(incontri, incontri, incontrare, incontr‡r, ind, pres, 2, sing).
+v(insultava, insultava, insultare, insult‡r, ind, imp, 3, sing).
+v(interrogai, go_interog‡, interrogare, interog‡r, ind, pass_rem, 1, sing).
+v(invidia, invidia, invidiare, invidi‡r, ind, pres, 3, sing).
+v(invidiava, invidi‡va, invidiare, invidi‡r, ind, imp, 3, sing).
+v(invidiavano, invidiava, invidiare, invidi‡r, ind, imp, 3, plur).
+v(lasciare, £as‡r, lasciare, £as‡r, inf, nil, nil, nil).
+v(lava, £ava, lavare, £av‡r, ind, pres, 3, sing).
+v(lavava, £avava, lavare, £av‡r, ind, imp, 3, sing).
+v(lavora, £aora, lavorare, £aor‡r, ind, pres, 3, sing).
+v(lavorando, £aorando, lavorare, £aor‡r, ger, nil, nil, nil).
+v(lavorano, £aora, lavorare, £aor‡r, ind, pres, 3, plur).
+v(lavorare, £aor‡r, lavorare, £aor‡r, inf, nil, nil, nil).
+v(lavorava, £aorava, lavorare, £aor‡r, ind, imp, 3, sing).
+v(lavoravano, £aorava, lavorare, £aor‡r, ind, imp, 3, plur).
+v(leccava, £ecava, leccare, £ec‡r, ind, imp, 3, sing).
+v(legge, £exe, leggere, £Ëxar, ind, pres, 3, sing).
+v(leggendo, £exendo, leggere, £Ëxar, ger, nil, nil, nil).
+v(leggere, £Ëxar, leggere, £Ëxar, inf, nil, nil, nil).
+v(leggono, £exe, leggere, £Ëxar, ind, pres, 3, plur).
+v(mandavano, mandava, mandare, mand‡r, ind, imp, 3, plur).
+v(mangia, magna, mangiare, magn‡r, ind, pres, 3, sing).
+v(mangiare, magn‡r, mangiare, magn‡r, inf, nil, nil, nil).
+v(mise, ga_meso, mettersi, metarse, ind, pass_rem, 3, sing).
+v(misero, ga_meso, mettersi, metarse, ind, pass_rem, 3, plur).
+v(morire, morÏr, morire, morÏr, inf, nil, nil, nil).
+v(mosse, ga_moso, muovere, mÛvar, ind, pass_rem, 3, sing).
+v(muoversi, movarse, muoversi, movarse, inf, nil, nil, nil).
+v(nascose, ga_scond˘, nascondersi, scondarse, ind, pass_rem, 3, sing).
+v(nascose, ga_scondesto, nascondersi, scondarse, ind, pass_rem, 3, sing).
+v(nevica, nevega, nevicare, neveg‡r, ind, pres, 3, sing).
+v(nevicando, nevegando, nevicare, neveg‡r, ger, pres, nil, nil).
+v(nevicare, neveg‡r, nevicare, neveg‡r, inf, nil, nil, nil).
+v(nomimare, nomin‡r, nominare, nomin‡r, inf, nil, nil, nil).
+v(nominarono, ga_nomin‡, nominare, nomin‡r, ind, pass_rem, 3, plur).
+v(nutriva, nutria, nutrire, nutrÏr, ind, imp, 3, sing).
+v(nutriva, nutriva, nutrire, nutrÏr, ind, imp, 3, sing).
+v(obbedire, obedir, obbedire, obedÏr, inf, nil, nil, nil).
+v(obbedisce, obedise, obbedire, obedÏr, ind, pres, 3, sing).
+v(occorrono, ocore, occorrere, ocÛrer, ind, pres, 3, plur).
+v(ordina, ordina, ordinare, ordin‡r, ind, pres, 3, sing).
+v(ordinare, ordin‡r, ordinare, ordin‡r, inf, nil, nil, nil).
+v(osservare, oserv‡r, osservare, oserv‡r, inf, nil, nil, nil).
+v(parere, p‡rer, parere, p‡rer, inf, nil, nil, nil).
+v(parlando, parlando, parlare, parl‡r, ger, pres, nil, nil).
+v(parlare, parl‡r, parlare, parl‡r, inf, nil, nil, nil).
+v(parlava, parlava, parlare, parl‡r, ind, imp, 3, sing).
+v(parli, parli, parlare, parl‡r, cong, pres, 3, sing).
+v(parrebbe, pararia, parere, p‡rer, cond, pres, 3, sing).
+v(parrebbero, pararia, parere, p‡rer, cond, pres, 3, plur).
+v(parrei, pararia, parere, p‡rer, cond, pres, 1, sing).
+v(partire, partÏr, partire, partÏr, inf, nil, nil, nil).
+v(partiva, partia, partire, partÏr, ind, imp, 3, sing).
+v(partiva, partia, partire, partÏr, ind, imp, 3, plur).
+v(parte, parte, partire, partÏr, ind, pres, 3, sing).
+v(parte, parte, partire, partÏr, ind, pres, 3, plur).
+v(passa, pasa, passare, pas‡r, ind, pres, 3, sing).
+v(passare, pas‡r, passare, pas‡r, inf, nil, nil, nil).
+v(passavano, pasava, passare, pas‡r, ind, imp, 3, plur).
+v(pensa, pensa, pensare, pens‡r, ind, pres, 3, sing).
+v(pensando, pensando, pensare, pens‡r, ger, pres, nil, nil).
+v(pensarono, ga_pens‡, pensare, pens‡r, ind, pass_rem, 3, plur).
+v(pensava, pensava, pensare, pens‡r, ind, imp, 3, sing).
+v(pensavo, pensavo, pensare, pens‡r, ind, imp, 1, sing).
+v(pensavano, pensava, pensare, pens‡r, ind, imp, 3, plur).
+v(pensi, pensi, pensare, pens‡r, cong, pres, 2, sing).
+v(perdere, pËrdar, perdere, pËrdar, inf, nil, nil, nil).
+v(perse, ga_perso, perdere, pËrdar, ind, pass_rem, 3, sing).
+v(perse, ga_perdesto, perdere, pËrdar, ind, pass_rem, 3, sing).
+v(piacciono, piaxe, piacere, pi‡xer, ind, pres, 3, plur).
+v(piace, piaxe, piacere, pi‡xer, ind, pres, 3, sing).
+v(piacere, pi‡xer, piacere, pi‡xer, inf, nil, nil, nil).
+v(piacerebbe, piaxaria, piacere, pi‡xer, cond, pres, 3, sing).
+v(piacerebbero, piaxaria, piacere, pi‡xer, cond, pres, 3, plur).
+v(piacerei, piaxaria, piacere, pi‡xer, cond, pres, 1, sing).
+v(piaceva, piaxeva, piacere, pi‡xer, ind, imp, 3, sing).
+v(piaceva, piaxea, piacere, pi‡xer, ind, imp, 3, sing).
+v(piacevano, piaxeva, piacere, pi‡xer, ind, imp, 3, plur).
+v(piacevano, piaxea, piacere, pi‡xer, ind, imp, 3, plur).
+v(picchia, mena, picchiare, men‡r, ind, pres, 3, sing).
+v(picchiano, mena, picchiare, men‡r, ind, pres, 3, plur).
+v(portare, port‡r, portare, port‡r, inf, nil, nil, nil).
+v(possiamo, podemo, potere, podÈr, ind, pres, 1, plur).
+v(posso, poso, potere, podÈr, ind, pres, 1, sing).
+v(poterono, ga_poduo, potere, podÈr, ind, pass_rem, 3, plur).
+v(poterono, ga_podesto, potere, podÈr, ind, pass_rem, 3, plur).
+v(poteva, podea, potere, podÈr, ind, imp, 3, sing).
+v(poteva, podeva, potere, podÈr, ind, imp, 3, sing).
+v(potevano, podea, potere, podÈr, ind, imp, 3, plur).
+v(potevano, podeva, potere, podÈr, ind, imp, 3, plur).
+v(potrebbe, podaria, potere, podÈr, cond, pres, 3, sing).
+v(potrebbero, podaria, potere, podÈr, cond, pres, 3, plur).
+v(potrei, podaria, potere, podÈr, cond, pres, 1, sing).
+v(preferire, preferÏr, preferire, preferÏr, inf, nil, nil, nil).
+v(preferiva, preferia, preferire, preferÏr, ind, imp, 3, sing).
+v(preferiva, preferiva, preferire, preferÏr, ind, imp, 3, sing).
+v(prendere, ciap‡r, prendere, ciap‡r, inf, nil, nil, nil).
+v(prendere, tÛr prendere, tÛr, inf, nil, nil, nil).
+v(prendere, ciÛr prendere, ciÛr, inf, nil, nil, nil).
+v(preoccupa, preocupa, preoccupare, preocup‡r, ind, pres, 3, sing).
+v(promise, ga_promeso, promettere, promÈter, ind, pass_rem, 3, sing).
+v(promise, ga_inpromeso, promettere, inpromÈter, ind, pass_rem, 3, sing).
+v(promisero, ga_promeso, promettere, promÈter, ind, pass_rem, 3, plur).
+v(promisero, ga_inpromeso, promettere, inpromÈter, ind, pass_rem, 3, plur).
+v(promosse, ga_promoso, promuovere, promÛvar, ind, pass_rem, 3, sing).
+v(proteggere, proteger, proteggere, protËger, inf, nil, nil, nil).
+v(proteggere, protexer, proteggere, protËxer, inf, nil, nil, nil).
+v(proteggeva, protegea, proteggere, protËger, ind, imp, 3, sing).
+v(proteggeva, protegeva, proteggere, protËger, ind, imp, 3, sing).
+v(proteggeva, protexea, proteggere, protËxer, ind, imp, 3, sing).
+v(proteggeva, protexeva, proteggere, protËxer, ind, imp, 3, sing).
+v(provare, pro‡r, provare, pro‡r, inf, nil, nil, nil).
+v(puoi, pol, potere, podÈr, ind, pres, 2, sing).
+v(raggiungere, raxÛnxer, raggiungere, raxÛnxer, inf, nil, nil, nil).
+v(raggiunsero, ga_raxonto, raggiungere, raxÛnxer, ind, pass_rem, 3, plur).
+v(regala, rega£a, regalare, rega£‡r, ind, pres, 3, sing).
+v(rende, rende, rendere, rÈndar, ind, pres, 3, sing).
+v(rendono, rende, rendere, rÈndar, ind, pres, 3, plur).
+v(riconobbero, ga_riconos˘, riconoscere, riconÛsar, ind, pass_rem, 3, plur).
+v(riconobbero, ga_riconosesto, riconoscere, riconÛsar, ind, pass_rem, 3, plur).
+v(ridendo, ridendo, ridere, rÏdar, ger, pres, nil, nil).
+v(ridere, rÏdar, ridere, rÏdar, inf, nil, nil, nil).
+v(ridete, ridË, ridere, rÏdar, imperat, pres, 2, plur).
+v(riempirono, ga_inpienÏ, riempire, inpien‡r, ind, pass_rem, 3, plur).
+v(rifiutarono, ga_refud‡, rifiutare, refud‡r, ind, pass_rem, 3, plur).
+v(rileva, rileva, rilevare, rilev‡r, ind, pres, 3, sing).
+v(rilevare, rilev‡r, rilevare, rilev‡r, inf, nil, nil, nil).
+v(rimuove, cava, rimuovere, cav‡r, ind, pres, 3, sing).
+v(rimuovere, cav‡r, rimuovere, cav‡r, inf, nil, nil, nil).
+v(rinfaccia, rinf‡sa, rinfacciare, rinfas‡r, ind, pres, 3, sing).
+v(ripete, ripete, ripetere, ripËter, ind, pres, 3, sing).
+v(ripetere, ripËter, ripetere, ripËter, inf, nil, nil, nil).
+v(rispondere, rispÛndar, rispondere, rispÛndar, inf, nil, nil, nil).
+v(rispose, ga_risposto, rispondere, rispÛndar, ind, pass_rem, 3, sing).
+v(riuscirono, ga_riusÏ, riuscire, riusÏr, ind, pass_rem, 3, plur).
+v(rubare, rob‡r, rubare, rob‡r, inf, nil, nil, nil).
+v(rubarono, ga_rob‡, rubare, rob‡r, ind, pass_rem, 3, plur).
+v(ruberanno, robar‡, rubare, rob‡r, ind, fut, 3, plur).
+v(ruppe, ga_roto, rompere, rÛnpar, ind, pass_rem, 3, sing).
+v(ruppero, ga_roto, rompere, rÛnpar, ind, pass_rem, 3, plur).
+v(sai, sa, sapere, savÈr, ind, pres, 2, sing).
+v(saltare, salt‡r, saltare, salt‡r, inf, nil, nil, nil).
+v(sapendo, savendo, sapere, savÈr, ger, nil, nil, nil).
+v(sapere, savÈr, sapere, savÈr, inf, nil, nil, nil).
+v(sapeva, savea, sapere, savÈr, ind, imp, 3, sing).
+v(sapeva, saveva, sapere, savÈr, ind, imp, 3, sing).
+v(sapevano, savea, sapere, savÈr, ind, imp, 3, plur).
+v(sapevano, saveva, sapere, savÈr, ind, imp, 3, plur).
+v(sbarrando, sbarando, sbarrare, sbar‡r, ger, pres, nil, nil).
+v(sbarrarono, ga_sbar‡, sbarrare, sbar‡r, ind, pass_rem, 3, plur).
+v(sbirciarono, ga_sbirci‡, sbirciare, sbirci‡r, ind, pass_rem, 3, plur).
+v(sbrigarono, ga_sbrig‡, sbrigarsi, sbrigarse, ind, pass_rem, 3, plur).
+v(sbrigarsi, sbrigarse, sbrigarsi, sbrigarse, inf, nil, nil, nil).
+v(sbucarono, ga_sboc‡, sbucare, sboc‡r, ind, pass_rem, 3, plur).
+v(scappando, scapando, scappare, scap‡r, ger, pres, nil, nil).
+v(scappare, scap‡r, scappare, scap‡r, inf, nil, nil, nil).
+v(scomparve, xe_sparÏ, scomparire, sparÏr, ind, pass_rem, 3, sing).
+v(scoppiare, sciop‡r, scoppiare, sciop‡r, inf, nil, nil, nil).
+v(seguendo, seguendo, seguire, seguÏr, ger, pres, nil, nil).
+v(sei, si, essere, Ësar, ind, pres, 2, sing).
+v(sembra, senbra, sembrare, senbr‡r, ind, pres, 3, sing).
+v(sembrano, senbra, sembrare, senbr‡r, ind, pres, 3, plur).
+v(sembrare, senbr‡r, sembrare, senbr‡r, inf, nil, nil, nil).
+v(sembrava, senbr‡va, sembrare, senbr‡r, ind, imp, 3, sing).
+v(sentirono, ga_sentÏ, sentire, sentÏr, ind, pass_rem, 3, plur).
+v(sentivano, sentiva, sentirsi, sentirse, ind, imp, 3, plur).
+v(sentivano, sentiva, sentirsi, sentÏr, ind, imp, 3, plur).
+v(sentivano, sentia, sentirsi, sentirse, ind, imp, 3, plur).
+v(sentivano, sentia, sentirsi, sentÏr, ind, imp, 3, plur).
+v(sento, sento, sentirsi, sentirse, ind, pres, 1, sing).
+v(sento, sento, sentire, sentÏr, ind, pres, 1, sing).
+v(sfruttare, sfrut‡r, sfruttare, sfrut‡r, inf, nil, nil, nil).
+v(sfuggire, sfugÏr, sfuggire, sfugÏr, inf, nil, nil, nil).
+v(sia, sia, essere, Ësar, cong, pres, 3, sing).
+v(siamo, semo, essere, Ësar, ind, pres, 1, plur).
+v(siete, siË, essere, Ësar, ind, pres, 2, plur).
+v(soffia, sufia, soffiare, sufi‡r, ind, pres, 3, sing).
+v(soffiare, sufi‡r, soffiare, sufi‡r, inf, nil, nil, nil).
+v(sono, xe, essere, Ësar, ind, pres, 3, plur).
+v(sopportava, soportava, sopportare, soport‡r, ind, imp, 3, sing).
+v(sostenevano, sostegnea, sostenere, sostÈgnar, ind, imp, 3, plur).
+v(spassavano, regroava, spassarsi, regroarse, ind, imp, 3, plur).
+v(sperare, sper‡r, sperare, sper‡r, inf, nil, nil, nil).
+v(spero, spero, sperare, sper‡r, ind, pres, 1, sing).
+v(spiace, spiaxe, spiacere, spiaxÈr, ind, pres, 3, sing).
+v(spiacere, spiaxÈr, spiacere, spiaxÈr, inf, nil, nil, nil).
+v(sprona, sprona, spronare, spron‡r, ind, pres, 3, sing).
+v(spronare, spron‡r, spronare, spron‡r, inf, nil, nil, nil).
+v(sta, sta, stare, st‡r, ind, pres, 3, sing).
+v(stanno, sta, stare, st‡r, ind, pres, 3, plur).
+v(stare, st‡r, stare, st‡r, inf, nil, nil, nil).
+v(stava, stava, stare, st‡r, ind, imp, 3, sing).
+v(stavano, stava, stare, st‡r, ind, imp, 3, plur).
+v(studi, studi, studiare, studi‡r, cong, pres, 3, sing).
+v(studia, studia, studiare, studi‡r, ind, pres, 3, sing).
+v(suonando, sonando, suonare, son‡r, ger, pres, nil, nil).
+v(suonare, son‡r, suonare, son‡r, inf, pres, nil, nil).
+v(suonava, son‡va, suonare, son‡r, ind, imp, 3, sing).
+v(teme, teme, temere, temÈr, ind, pres, 3, sing).
+v(temevano, temea, temere, temÈr, ind, imp, 3, plur).
+v(temevano, temeva, temere, temÈr, ind, imp, 3, plur).
+v(temono, teme, temere, temÈr, ind, pres, 3, plur).
+v(tenere, tegnÈr, tenere, tegnÈr, inf, nil, nil, nil).
+v(tenne, ga_tegn˘, tenere, tegnÈr, ind, pass_rem, 3, sing).
+v(tenne, ga_tegnesto, tenere, tegnÈr, ind, pass_rem, 3, sing).
+v(tirando, tirando, tirare, tir‡r, ger, pres, nil, nil).
+v(tirare, tir‡r, tirare, tir‡r, inf, nil, nil, nil).
+v(tirarono, ga_tir‡, tirare, tir‡r, ind, pass_rem, 3, plur).
+v(tornarono, xe_tornai, tornare, torn‡r, ind, pass_rem, 3, plur).
+v(tornarono, xe_tornae, tornare, torn‡r, ind, pass_rem, 3, plur).
+v(torni, torni, tornare, torn‡r, cong, pres, nil, sing).
+v(torni, torni, tornare, torn‡r, ind, pres, 2, sing).
+v(trovare, cat‡r, trovare, cat‡r, inf, nil, nil, nil).
+v(ubbidire, obedÏr, ubbidire, obedÏr, inf, nil, nil, nil).
+v(ubbidisce, obedise, ubbidire, obedÏr, ind, pres, 3, sing).
+v(urlando, urlando, urlare, url‡r, ger, pres, nil, nil).
+v(urlando, sigando, urlando, urlare, sig‡r, ger, pres, nil, nil).
+v(urlava, urlea, urlare, url‡r, ind, imp, 3, sing).
+v(urlava, urlava, urlare, url‡r, ind, imp, 3, sing).
+v(urlava, sighea, urlare, sig‡r, ind, imp, 3, sing).
+v(urlava, sigava, urlare, sig‡r, ind, imp, 3, sing).
+v(va, va, andare, nd‡r, ind, pres, 2, sing).
+v(va, va, andare, n‡r, ind, pres, 2, sing).
+v(va, va, andare, nd‡r, ind, pres, 3, sing).
+v(va, va, andare, n‡r, ind, pres, 3, sing).
+v(va, va, andare, nd‡r, ind, pres, 3, plur).
+v(va, va, andare, n‡r, ind, pres, 3, plur).
+v(valere, va£Èr, valersi, va£erse, inf, nil, nil, nil).
+v(vede, vede, vedere, vÈdar, ind, pres, 3, sing).
+v(vedere, vÈdar, vedere, vÈdar, inf, nil, nil, nil).
+v(vedeva, vedea, vedere, vÈdar, ind, imp, 3, plur).
+v(vedeva, vedeva, vedere, vÈdar, ind, imp, 3, plur).
+v(vediamo, vedemo, vedere, vÈdar, ind, pres, 1, plur).
+v(vediamo, vedemo, vedersi, vedarse, ind, pres, 1, plur).
+v(vedo, vedo, vedere, vÈdar, ind, pres, 1, sing).
+v(vedono, vede, vedere, vÈdar, ind, pres, 3, plur).
+v(veniva, vegnea, venire, vegner, ind, imp, 3, sing).
+v(viaggiando, viagiando, viaggiare, viagi‡r, ger, pres, nil, nil).
+v(viaggiando, viaxando, viaggiare, viax‡r, ger, pres, nil, nil).
+v(vide, ga_visto, vedere, vÈdar, ind, pass_rem, 3, sing).
+v(videro, ga_visto, vedere, vÈdar, ind, pass_rem, 3, plur).
+v(vieni, vien, venire, vegner, imperat, pres, 2, sing).
+v(vieni, vegni, venire, vegner, imperat, pres, 2, sing).
+v(vissero, ga_vis˘, vivere, vÏvar, ind, pass_rem, 3, sing).
+v(vissero, ga_vivesto, vivere, vÏvar, ind, pass_rem, 3, sing).
+v(vivendo, vivendo, vivere, vÏvar, ger, pres, nil, nil).
+v(vivere, vÏvar, vivere, vÏvar, inf, nil, nil, nil).
+v(viveva, vivea, vivere, vÏvar, ind, imp, 3, sing).
+v(viveva, viveva, vivere, vÏvar, ind, imp, 3, sing).
+v(vivevano, vivea, vivere, vÏvar, ind, imp, 3, plur).
+v(vivevano, viveva, vivere, vÏvar, ind, imp, 3, plur).
+v(vivi, vivi, vivere, vÏvar, cong, pres, 3, sing).
+v(volare, vo£‡r, volare, vo£‡r, inf, nil, nil, nil).
+v(voleva, vo£ea, volere, vo£Èr, ind, imp, 3, sing).
+v(voleva, vo£eva, volere, vo£Èr, ind, imp, 3, sing).
+v(volevano, vo£ea, volere, vo£Èr, ind, imp, 3, plur).
+v(volevano, vo£eva, volere, vo£Èr, ind, imp, 3, plur).
+v(voglio, vojo, volere, vo£Èr, ind, pres, 1, sing).
+v(vuoi, vol, volere, vo£Èr, ind, pres, 2, sing).
+v(vuole, vol, volere, vo£Èr, ind, pres, 3, sing).
+vcl(aprici, verxene, apri, ci).
+vcl(avendosi, avendose, avendo, si).
+vcl(avendosi, vendose, avendo, si).
+***vcl(avete, gavÏ, avere, vi).
+vcl(chiamarlo, ciamar£o, chiamare, lo).
+vcl(considerarsi, considerarse, considerare, si).
+vcl(coprendolo, cuerxendo£o, coprendo, lo).
+vcl(costruirsi, fabricarse, costruire, si).
+vcl(costruirsi, costruirse, costruire, si).
+vcl(divertirsi, divertirse, divertire, si).
+***vcl(Ë, xe£o, essere, lo).
+vcl(entrarci, entrarghe, entrare, ci).
+vcl(essendosi, esendose, essendo, si).
+vcl(esserci, esarghe, essere, ci).
+vcl(essersi, esarse, essere, si).
+vcl(fallo, fa£o, fa, lo).
+vcl(fammi, fame, fa, mi).
+vcl(farcela, farghe£a, fare, la).
+vcl(farlo, farlo, far, lo).
+vcl(fermatevi, fermeve, fermate, vi).
+vcl(fermati, fermete, ferma, ti).
+vcl(guardalo, varda£o, guarda, lo).
+***vcl(hai, gheto, avere, ti).
+vcl(iscriversi, iscriverse, iscrivere, si).
+vcl(obbedirgli, obedirghe, obbedire, gli).
+vcl(preoccuparti, preocuparte, preoccupar, ti).
+vcl(proteggerlo, proteger£o, proteggere, lo).
+vcl(proteggerlo, protexer£o, proteggere, lo).
+vcl(proteggersi, protegerse, proteggere, si).
+vcl(proteggersi, protexerse, proteggere, si).
+vcl(sfuggirmi, sfugirme, sfuggire, mi).
+***vcl(sei, sito, essere, ti).
+vcl(ubbidirgli, obedirghe, ubbidire, gli).
+vcl(valersi, valerse, valere, si).
+***vcl(vuoi, vuto, volere, ti).

@@ -1,0 +1,198 @@
+Ratio of Tags per Word for Sentence no: 1
+Word Ambiguity Ratio: 1.4
+'Lookahead Start Active Chart'
+0-[r-who, w-who], 1-[v-took], 2-[d-the], 3-[n-order, v-order], 4-[x- ?]
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.2
+0-[r-who, w-who], 1-[v-took], 2-[d-the], 3-[n-order], 4-[x- ?]
+0-[r-who, w-who], 1-[v-took], 2-[d-the], 3-[n-order], 4-[x- ?]
+
+
+
+inter_dir(
+ focus(
+  interrogativo,
+  sn(
+   indice(sn1),
+   cat([umano, animato]),
+   pr(pr_int, _G8639, who, 3, _G8642, _G8643, [nom, acc, obl])
+   )
+  ),
+ ip(
+  indice(f1),
+  v(take, active, [sn/sogg/agente/[umano], idioms/ogg/form/[order], sp/obl/goal/from/[umano]], ind, _G9188/semp, 3, _G8713, _G8642),
+  supporto([]),
+  cat(attivita),
+  args(
+    [
+    arg(
+     funzione(sogg),
+     ruolo(agente),
+     sn(
+      indice(sn2),
+      cat([umano, animato]),
+      pr(pro_picc, pro, _G8906, 3, _G8642, _G8713, nom),
+      spec(
+       def(+)
+       ),
+      controllore(sn1)
+      )
+     ),
+    arg(
+     funzione(ogg),
+     ruolo(form),
+     sn(
+      indice(sn3),
+      cat([attivita, evento]),
+      n(order, _G11162, sing),
+      spec(
+       def(+),
+       part([]),
+       mod([]),
+       foc([]),
+       card([]),
+       quant([])
+       ),
+      args([]),
+      mods([]),
+      adjs([])
+      )
+     ),
+    arg(
+     funzione(ogg2),
+     ruolo(goal),
+     sn(
+      indice(sn4),
+      cat([umano, animato]),
+      pr(pr_quantif, exist, _G12449, _G12450, _G12451, _G12452),
+      spec(
+       def(-),
+       part(+)
+       )
+      )
+     )
+    ]
+   ),
+  adjs([])
+  )
+ )
+focus:tipo_focus:interrogativo
+      indice:sn1
+      cat:[umano, animato]
+      pred:who
+      pers:3
+      caso:[nom, acc, obl]
+      tab_ref:[+ref, -pro, -ana, +me]
+perf:ask
+indice:f1
+pred:take
+lex_form:[sn/sogg/agente/[umano], idioms/ogg/form/[order], sp/obl/goal/from/[umano]]
+voice:active
+modo:ind
+tempo:pres
+cat:attivita
+sogg/agente:indice:sn2
+            cat:[umano, animato]
+            pred:pro
+            pers:3
+            caso:nom
+            spec:def:+
+            controllore:sn1
+            tab_ref:[+ref, +pro, -ana, -me]
+ogg/form:indice:sn3
+         cat:[attivita, evento]
+         pred:order
+         num:sing
+         pers:3
+         spec:def:+
+         tab_ref:[+ref, -pro, -ana, +class]
+ogg2/goal:indice:sn4
+          cat:[umano, animato]
+          pred:exist
+          spec:def:-
+               part:+
+          tab_ref:[+ref, -pro, -ana, +me]
+aspetto:attivita
+rel1:[td(f1_user1)=tr(f1_user1)]
+rel2:[incluso(tr(f1_user1), tes(f1_user1))]
+definitezza:+
+ref_int:[tr(f1_user1)]
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn2, who, [+ref, +def, nil, nil, +pro, -ana, -me], 3, nil, nil, [umano, animato], sogg/agente)/16
+
+
+rel_temp(infon1, td, tr(f1_user1), [eq])
+
+
+CLAUSE IDENTIFIER:               1-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               contains(tes(f1_t31), tr(f1_t31))
+DISCOURSE FOCUS:                 tes(f1_user1)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(1, cambia)
+sr(sogg-agente, take, pro)
+sr(ogg2-goal, take, exist)
+
+
+'######################  LOGICAL FORM ###############'
+wff(take_order,
+    wff(focus,
+        < definito : sn1 :
+            wff(isa,
+                sn1,
+                who) >>),
+    < exist : sn4 :
+        wff(isa,
+            sn4,
+            exist) >>,
+    < process : f1 :
+        wff(and,
+            wff(isa,
+                f1,
+                pr),
+            wff(time,
+                f1,
+                < indefinito : t1 :
+                    wff(and,
+                        wff(isa,
+                            t1,
+                            tloc),
+                        wff(pres,
+                            t1)) >>)) >>)
+
+q_loc(infon2, id1, [arg:main_tloc, arg:tr(f1_user1)])
+q_fact(infon3, focus, [arg:id2], 1, id1, univ)
+q_fact(infon4, isa, [arg:id2, arg:who], 1, id1, univ)
+q_fact(infon5, isa, [arg:id3, arg:exist], 1, id1, univ)
+q_fact(id4, take_order, [agente:id2, goal:id3], 1, tes(f1_user1), univ)
+q_fact(infon6, isa, [arg:id4, arg:pr], 1, tes(f1_user1), univ)
+q_fact(infon7, isa, [arg:id5, arg:tloc], 1, tes(f1_user1), univ)
+q_fact(infon8, pres, [arg:id5], 1, tes(f1_user1), univ)
+q_fact(infon9, time, [arg:id4, arg:id5], 1, tes(f1_user1), univ)
+q_fact(infon13, perf, [arg:id6, ask:id4], 1, id1, univ)
+
+during(tes(f1_t35), tes(f1_t34))
+includes(tr(f1_user1), id1)
+funcs-[sogg/agente-n18-pred(pro), ogg/form-n28-pred(order), ogg2/goal-n37-pred(exist)]
+mods-[]
+nom_adjs-[]
+mods-[]
+nom_adjs-[]
+
+
+###############################################################
+[who, took, the, order, ?]
+the, waiter

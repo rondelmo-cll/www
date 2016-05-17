@@ -1,0 +1,1 @@
+RedirectMatch /cgi-bin/stilven/moses.pl$  http://157.138.41.232/cgi-bin/stilven/moses.perl

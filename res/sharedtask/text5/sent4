@@ -1,0 +1,514 @@
+Ratio of Tags per Word for Sentence no: 4
+Word Ambiguity Ratio: 1.54545
+'Lookahead Start Active Chart'
+0-[av-'When', p-'When', r-'When', s-'When', w-'When'], 1-[d-the], 2-[n-gun, v-gun], 3-[n-crew, v-crew], 4-[v-was], 5-[v-killed], 6-[r-they], 7-[v-were], 8-[a-crouching, v-crouching], 9-[av-unnaturally], 10-[x- (',')], 11-[r-which, w-which], 12-[v-suggested], 13-[a-that, c-that, r-that], 14-[r-they], 15-[v-knew], 16-[a-that, c-that, r-that], 17-[d-an], 18-[n-explosion], 19-[v-would], 20-[v-happen], 21-[x-'.']
+
+
+'New Ratio of Tags per Word after FSA Disambiguation: '
+1.27273
+0-[av-'When', p-'When', r-'When', s-'When', w-'When'], 1-[d-the], 2-[n-gun], 3-[n-crew], 4-[v-was], 5-[v-killed], 6-[r-they], 7-[v-were], 8-[a-crouching, v-crouching], 9-[av-unnaturally], 10-[x- (',')], 11-[r-which, w-which], 12-[v-suggested], 13-[c-that], 14-[r-they], 15-[v-knew], 16-[c-that], 17-[d-an], 18-[n-explosion], 19-[v-would], 20-[v-happen], 21-[x-'.']
+
+0-[av-'When', p-'When', r-'When', s-'When', w-'When'], 1-[d-the], 2-[n-gun], 3-[n-crew], 4-[v-was], 5-[v-killed], 6-[r-they], 7-[v-were], 8-[a-crouching, v-crouching], 9-[av-unnaturally], 10-[x- (',')], 11-[r-which, w-which], 12-[v-suggested], 13-[c-that], 14-[r-they], 15-[v-knew], 16-[c-that], 17-[d-an], 18-[n-explosion], 19-[v-would], 20-[v-happen], 21-[x-'.']
+
+
+
+'PennTreebank Style Tagging'
+
+4
+When-wrb
+the-dt
+gun-nn
+crew-nn
+was-vbd
+killed-vbd
+they-prp
+were-vbd
+crouching-vbg
+unnaturally-rb
+(,)-pun
+which-wdt
+suggested-vbn_jj
+that-in
+they-prp
+knew-vbd_vbn
+that-in
+an-dt
+explosion-nn
+would-md
+happen-vbd
+. - punto
+
+'Tagging and Syntactic Constituency'
+
+['When'-cosu, the-art, gun-n, crew-n, was-ause, killed-vin, they-pron, were-ause, crouching-vprt, unnaturally-avv, (',')-punt, which-rel, suggested-vppt, that-pk, they-pron, knew-vt, that-pk, an-art, explosion-n, would-vsup, happen-vin, '.'-punto]
+
+fs-[fs-['When'-cosu-fs], subj-[the-art-sn, crew-n-sn, mod-[gun-n-sn]], ibar-[was-ause-ibar, killed-vppt-ibar], f-[subj-[they-pron-sn], ibar-[were-ause-ibar], mod-[crouching-vprt-sv3, unnaturally-avv-sv3], fp-[ (',')-punt-fp], f2-[f2-[which-rel-f2], f-[subj-pro, ibar-[suggested-vppt-sv3], fac-[that-pk-fac], sn-[they-pron-sn]]], ibar-[knew-vt-ibar], fac-[fac-[that-pk-fac], subj-[an-art-sn, explosion-n-sn], ibar-[would-vsup-ibar, happen-vin-ibar], cp-['.'-punto-cp]]]]
+
+4
+
+
+'Functional and Syntactic Constituency'
+
+fs-[fs-[When-cosu-fs], subj-[the-art-sn, crew-n-sn, mod-[gun-n-sn]], ibar-[was-ause-ibar, killed-vppt-ibar]]
+
+4
+
+
+'Functional and Syntactic Constituency'
+
+subj-[they-pron-sn]
+ibar-[were-ause-ibar]
+mod-[crouching-vprt-sv3, unnaturally-avv-sv3]
+f3-[ (,)-punt-fp]
+f2-[f2-[which-rel-f2], f-[subj-pro, ibar-[suggested-vppt-sv3], fac-[that-pk-fac], sn-[they-pron-sn]]]
+ibar-[knew-vt-ibar]
+
+4
+
+
+'Functional and Syntactic Constituency'
+
+fac-[fac-[that-pk-fac], subj-[an-art-sn, explosion-n-sn], ibar-[would-vsup-ibar, happen-vin-ibar]]
+
+
+
+
+cp_comp(
+ indice(f11),
+ main([]),
+ cp(
+  sub(When),
+  rel(subordinata),
+  ip(
+   indice(f2),
+   v(kill, passive, [sn/sogg/theme_aff/[any]], ind, pass, 3, sing, _G1362),
+   supporto([]),
+   cat(risultato),
+   args(
+     [
+     arg(
+      funzione(subj_top),
+      ruolo(theme_aff),
+      sn(
+       indice(sn9),
+       cat([istituzione, umano]),
+       n(crew, _G1362, sing),
+       spec(
+        def(+),
+        part([]),
+        mod([]),
+        foc([]),
+        card([]),
+        quant([])
+        ),
+       args([]),
+       mods(
+         [
+         nome_mod(
+          sn(
+           indice(sn8),
+           cat([oggetto]),
+           n(gun, _G1334, sing),
+           spec(
+            def(0),
+            part([]),
+            mod([]),
+            foc([]),
+            card([]),
+            quant([])
+            ),
+           args([]),
+           mods([]),
+           adjs([])
+           )
+          )
+         ]
+        ),
+       adjs([])
+       )
+      ),
+     arg(
+      funzione(obl),
+      ruolo(agent),
+      sn(
+       indice(sn10),
+       cat([any]),
+       pr(pr_quantif, exist, _G3287, _G3288, _G3289, _G3290),
+       spec(
+        def(-),
+        part(+),
+        mod([]),
+        foc([]),
+        card([]),
+        quant([])
+        )
+       )
+      )
+     ]
+    ),
+   adjs(
+     [
+     ip(
+      indice(f6),
+      v(be, active, [sn/sogg/tema_bound/[umano, animato], xcomp/prop/[_G12899|_G12900]], ind, pass, 3, plur, _G6411),
+      supporto([]),
+      cat(esistenza),
+      args(
+        [
+        arg(
+         funzione(acomp),
+         ruolo(prop),
+         saa(
+          indice(saa1),
+          cat([valutativo, soggettivo]),
+          agg(
+           crouching,
+           [],
+           plur
+           ),
+          spec([]),
+          args(
+            [
+            arg(
+             funzione(sogg),
+             ruolo(nil),
+             sn(
+              indice(sn18),
+              pr(vbl, vbl, _G13302, _G13303, _G13304, _G13305),
+              controllore(sn11)
+              )
+             )
+            ]
+           ),
+          adjs(
+            [
+            avv(pred_avv(unnaturally), tipo(modal))
+            ]
+           )
+          )
+         ),
+        arg(
+         funzione(sogg),
+         ruolo(tema_bound),
+         sn(
+          indice(sn11),
+          cat([umano, animato]),
+          pr(clitico, _G6443, they, 3, [], plur, [nom]),
+          spec(
+           def(+),
+           part([]),
+           mod([]),
+           foc([]),
+           card([]),
+           quant([])
+           ),
+          args([]),
+          mods([]),
+          adjs([])
+          )
+         ),
+        arg(
+         funzione(sogg),
+         ruolo(tema_bound),
+         indefinito
+         )
+        ]
+       ),
+      adjs(
+        [
+        ip_ell(
+         indice(f10),
+         args(
+          arg(
+           funzione(sogg),
+           ruolo(topic),
+           sn(
+            indice(sn24),
+            cat([any]),
+            pr(prorel, _G32362, which, 3, _G14437, _G32356, [acc, nom]),
+            spec(
+             def(+)
+             ),
+            args([]),
+            mods(
+              [
+              relativa(
+               topic(
+                relativo,
+                sn(
+                 indice(sn19),
+                 cat([any]),
+                 pr(prorel, which, 3, _G14437, _G32356, [acc, nom]),
+                 controllore(sn24)
+                 )
+                ),
+               ip(
+                indice(f9),
+                v(suggest, active, [sn/sogg/actor/[any], f/fcomp/prop/[subj=x]], ind, _G15393/semp, 3, _G14438, _G14437),
+                supporto([]),
+                cat(riportivo),
+                args(
+                  [
+                  arg(
+                   funzione(sogg),
+                   ruolo(actor),
+                   sn(
+                    indice(sn20),
+                    cat([any]),
+                    pr(pro_picc, pro, _G14874, 3, _G14437, _G14438, nom),
+                    spec(
+                     def(+)
+                     ),
+                    controllore(sn19)
+                    )
+                   ),
+                  arg(
+                   funzione(fcomp),
+                   ruolo(prop),
+                   ip(
+                    indice(f8),
+                    v(know, active, [sn/sogg/actor/[any], f/fcomp/propadj/[subj=x]], ind, _G22267/semp, 3, plur, _G19934),
+                    supporto([]),
+                    cat(presuppositivo),
+                    args(
+                      [
+                      arg(
+                       funzione(sogg),
+                       ruolo(actor),
+                       sn(
+                        indice(sn21),
+                        cat([umano, animato]),
+                        pr(clitico, _G19966, they, 3, _G19934, plur, [nom]),
+                        spec(
+                         def(+),
+                         part([]),
+                         mod([]),
+                         foc([]),
+                         card([]),
+                         quant([])
+                         ),
+                        args([]),
+                        mods([]),
+                        adjs([])
+                        )
+                       ),
+                      arg(
+                       funzione(fcomp),
+                       ruolo(propadj),
+                       ip(
+                        indice(f7),
+                        v(happen, active, [sn/sogg/actor/[any], f/fcomp/prop/[subj=x]], cond, pass/semp, 3, sing, _G27480),
+                        supporto(will),
+                        cat(soggettivo),
+                        args(
+                          [
+                          arg(
+                           funzione(sogg),
+                           ruolo(actor),
+                           sn(
+                            indice(sn22),
+                            cat([attivita, cambia, evento, informa]),
+                            n(explosion, _G27480, sing),
+                            spec(
+                             def(-),
+                             part([]),
+                             mod([]),
+                             foc([]),
+                             card([]),
+                             quant([])
+                             ),
+                            args([]),
+                            mods([]),
+                            adjs([])
+                            )
+                           ),
+                          arg(
+                           funzione(obl),
+                           ruolo(goal),
+                           sn(
+                            indice(sn23),
+                            cat([umano, animato]),
+                            pr(pr_quantif, exist, _G31058, _G31059, _G31060, _G31061),
+                            spec(
+                             def(-),
+                             part(+)
+                             )
+                            )
+                           )
+                          ]
+                         ),
+                        adjs([])
+                        )
+                       )
+                      ]
+                     ),
+                    adjs([])
+                    )
+                   )
+                  ]
+                 ),
+                adjs([])
+                )
+               )
+              ]
+             ),
+            adjs([])
+            )
+           )
+          ),
+         adjs([])
+         )
+        ]
+       )
+      )
+     ]
+    )
+   )
+  )
+ )
+indice:f11
+nil:
+
+'Centering and Topic Hierarchy'
+'WEIGHTED LIST OF TOPICS : '
+ ref_ex(sn9, crew, [+ref, +def, nil, nil, -pro, -ana, +class], 3, nil, sing, [istituzione, umano], subj_top/theme_aff)/39
+ ref_ex(sn11, they, [+ref, +def, nil, nil, +pro, +ana, +me], 3, nil, plur, [umano, animato], sogg/tema_bound)/65
+ ref_ex(sn21, they, [+ref, +def, nil, nil, +pro, +ana, +me], 3, nil, plur, [umano, animato], sogg/actor)/152
+ ref_ex(sn22, explosion, [+ref, -def, nil, nil, -pro, -ana, +class], 3, nil, sing, [attivita, cambia, evento, informa], sogg/actor)/167
+ ref_ex(sn24, which, [+ref, +def, nil, nil, -pro, -ana, -me], 3, nil, nil, [any], sogg/topic)/180
+ ref_ex(sn8, gun, [+ref, def0, nil, nil, -pro, -ana, +class], 3, nil, sing, [oggetto], mod/tema)/215
+ ref_ex(sn10, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [any], obl/agent)/250
+ ref_ex(sn23, exist, [+ref, -def, +part, nil, -pro, -ana, +me], nil, nil, nil, [umano, animato], obl/goal)/371
+
+
+
+
+CLAUSE IDENTIFIER:               4-n1
+CLAUSE TYPE:                     main/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             culminated
+RELEVANCE:                       foreground
+TEMPORAL RELATION:               after(tes(f11_t54), tes(f1_t53))
+DISCOURSE FOCUS:                 tes(f2_t54)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                objective
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               4-n112
+CLAUSE TYPE:                     fcomp/prop
+FACTUALITY:                      factive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f8_t54), tes(f2_t54))
+DISCOURSE FOCUS:                 tes(f2_t54)
+DISCOURSE RELATION:              evaluation
+DISCOURSE DOMAIN:                pre_subjective(4-n112, sn21, they)
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+CLAUSE IDENTIFIER:               4-n130
+CLAUSE TYPE:                     fcomp/propadj
+FACTUALITY:                      nonfactive
+CHANGE IN THE WORLD:             null
+RELEVANCE:                       background
+TEMPORAL RELATION:               during(tes(f7_t54), tes(f2_t54))
+DISCOURSE FOCUS:                 tes(f2_t54)
+DISCOURSE RELATION:              narration
+DISCOURSE DOMAIN:                pre_subjective(4-n130, sn22, explosion)
+SUBJECT OF CONSCIOUSNESS:        none
+
+
+
+
+
+'RHETORICAL STRUCTURE:'
+stato(4, cambia)
+topic(4, main, id23)
+topic(4, secondary, id19)
+topic(4, potential, id24)
+sr(subj_top-theme_aff, kill, crew)
+sr(obl-agent, kill, exist)
+
+
+'######################  LOGICAL FORM ###############'
+wff(sub,
+    wff(adj,
+        wff(situation,
+            wff(kill,
+                < definito : sn9 :
+                    wff(and,
+                        wff(isa,
+                            sn9,
+                            crew),
+                        wff(gun,
+                            sn9)) >>,
+                < exist : sn10 :
+                    wff(isa,
+                        sn10,
+                        exist) >>,
+                < event : f2 :
+                    wff(and,
+                        wff(isa,
+                            f2,
+                            ev),
+                        wff(time,
+                            f2,
+                            < definito : t3 :
+                                wff(and,
+                                    wff(isa,
+                                        t3,
+                                        tloc),
+                                    wff(past,
+                                        t3)) >>)) >>))))
+
+
+
+loc(infon53, id22, [arg:main_tloc, arg:tes(f1_t53)])
+class(infon54, id23)
+fact(infon55, of, [arg:id23, specif:id8], 1, univ, univ)
+fact(infon56, inst_of, [ind:id23, class:institution], 1, univ, univ)
+fact(infon57, isa, [ind:id23, class:crew], 1, id22, nil)
+set(infon58, id24)
+card(infon59, id24, 5)
+fact(infon60, inst_of, [ind:id24, class:man], 1, univ, univ)
+ind(infon61, id25)
+fact(infon62, isa, [ind:id25, class:explosion], 1, id22, nil)
+fact(infon63, inst_of, [ind:id25, class:attivita], 1, univ, univ)
+fact(infon66, isa, [arg:id26, arg:exist], 1, id22, univ)
+fact(id27, kill, [theme_aff:id23, agent:id26], 1, tes(f2_t54), univ)
+fact(infon67, isa, [arg:id27, arg:ev], 1, tes(f2_t54), univ)
+fact(infon68, isa, [arg:id28, arg:tloc], 1, tes(f2_t54), univ)
+fact(infon69, past, [arg:id28], 1, tes(f2_t54), univ)
+fact(infon70, time, [arg:id27, arg:id28], 1, tes(f2_t54), univ)
+fact(infon72, sub, [when:id27], 1, id22, univ)
+fact(infon76, know, [arg:id29, know:infon72], 1, id22, univ)
+
+during(tes(f7_t54), tes(f2_t54))
+includes(tr(f11_t54), id22)
+
+
+                  down:down(3-3)
+                  clause:4-4
+                  topics:[main:id23:crew, secondary:id19:propellant]
+                  main_fact:kill([id23:crew, id26:exist], 1, univ)
+                  ref_int:tint(nil, [tes(f11_t54)])
+                  temp_rel:after(tes(f11_t54), tes(f1_t53))
+                  disc_rel:narration
+                  disc_seg:3-[4]
+                  disc_dom:objective
+                  p_o_view:narrator
+
+                        down:down(4-4)
+                        clause:4-5
+                        topics:[main:id23:crew, secondary:id19:propellant]
+                        main_fact:know([id23:crew], 1, nil)
+                        ref_int:tint(nil, [tes(f8_t54)])
+                        temp_rel:during(tes(f8_t54), tes(f2_t54))
+                        disc_rel:evaluation
+                        disc_seg:4-[5]
+                        disc_dom:objective
+                        p_o_view:narrator
+

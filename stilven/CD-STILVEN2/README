@@ -1,0 +1,16 @@
+Questo CD-Rom contiene i materiali digitali e il prodotto dei software utilizzati nel progetto STILVEN2.
+I folder contenuti sono i seguenti:
+- MOSES
+- conferenze
+- nuovi_dizionari
+- lavoro_morfologia
+
+I files contenuti nelle directories di questo CD sono tutti in formato UNIX oppure in formato DOS. In genere utilizzano la codifica UTF-8 salvo quelli
+che sono in formato rtf.
+
+Abbiamo poi anche allegato copia digitale della documentazione cartacea in accompagnamento, e cioè:
+- secondarelazione.pdf - la relazione conclusiva del progetto STILVEN2
+
+
+Per finire, il sito a cui accedere per testare il traduttore automatico è il seguente:
+http://project.cgm.unive.it/stilven/moses
